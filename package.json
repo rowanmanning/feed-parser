@@ -1,0 +1,51 @@
+{
+  "name": "@rowanmanning/feed-parser",
+  "version": "0.0.0",
+  "description": "Parse RSS and Atom feeds",
+  "keywords": [
+    "atom",
+    "feed",
+    "rss"
+  ],
+  "author": "Rowan Manning (https://rowanmanning.com/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rowanmanning/feed-parser.git"
+  },
+  "homepage": "https://github.com/rowanmanning/feed-parser",
+  "bugs": "https://github.com/rowanmanning/feed-parser/issues",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14",
+    "npm": ">=7"
+  },
+  "scripts": {
+    "verify": "eslint .",
+    "test": "npm run test:coverage && npm run test:integration",
+    "test:unit": "mocha 'test/unit/**/*.test.js'",
+    "test:coverage": "nyc npm run test:unit",
+    "test:integration": "mocha 'test/integration/**/*.test.js'",
+    "project:verify": "npx --yes @rowanmanning/validate-project --type git node-library",
+    "project:fix": "npx --yes @rowanmanning/validate-project --type git node-library --fix"
+  },
+  "devDependencies": {
+    "@rowanmanning/eslint-config": "^3.3.1",
+    "chai": "^4.3.6",
+    "eslint": "^8.12.0",
+    "express": "^4.17.3",
+    "mocha": "^9.2.2",
+    "nyc": "^15.1.0",
+    "testdouble": "^3.16.4"
+  },
+  "main": "lib/feed-parser.js",
+  "nyc": {
+    "reporter": [
+      "html",
+      "text"
+    ],
+    "eager": true
+  },
+  "mocha": {
+    "timeout": 10000
+  }
+}

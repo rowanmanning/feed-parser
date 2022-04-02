@@ -1,0 +1,58 @@
+name: Verify and Test
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+env:
+  NODE_ENV: test
+jobs:
+
+  # Verify code
+  verify:
+    name: Verify code
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+          cache: 'npm'
+      - run: npm install
+      - run: npm run verify
+
+  # Run unit tests
+  test-unit:
+    name: Run unit tests
+    needs: verify
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: ['14', '16']
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node }}
+          cache: 'npm'
+      - run: npm install
+      - run: npm run test:coverage
+
+  # Run integration tests
+  test-integration:
+    name: Run integration tests
+    needs: verify
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: ['14', '16']
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node }}
+          cache: 'npm'
+      - run: npm install
+      - run: npm run test:integration
