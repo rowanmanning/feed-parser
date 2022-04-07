@@ -1,0 +1,13 @@
+{
+	"title": "RDF Site Summary Example",
+	"hash": "9dbf1cbb9003f7549b25d86709b4f33d",
+	"url": "https://sample-feeds.rowanmanning.com/examples/9dbf1cbb9003f7549b25d86709b4f33d/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "rdf",
+			"version": "1.0"
+		},
+		"language": null,
+		"title": "XML.com"
+	}
+}

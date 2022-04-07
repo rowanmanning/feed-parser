@@ -1,0 +1,13 @@
+{
+	"title": "WordPress News",
+	"hash": "9bbd59226dc36b9b26cd43f15694c5c3",
+	"url": "https://sample-feeds.rowanmanning.com/real-world/9bbd59226dc36b9b26cd43f15694c5c3/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "rss",
+			"version": "2.0"
+		},
+		"language": "en-US",
+		"title": "WordPress News"
+	}
+}

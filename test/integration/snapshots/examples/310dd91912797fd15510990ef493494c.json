@@ -1,0 +1,13 @@
+{
+	"title": "RDF Site Summary Example With Modules",
+	"hash": "310dd91912797fd15510990ef493494c",
+	"url": "https://sample-feeds.rowanmanning.com/examples/310dd91912797fd15510990ef493494c/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "rdf",
+			"version": "1.0"
+		},
+		"language": null,
+		"title": "Meerkat"
+	}
+}

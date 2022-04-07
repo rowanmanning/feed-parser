@@ -1,0 +1,13 @@
+{
+	"title": "Engadget",
+	"hash": "b95ff33276f20bd8ba5acf261a2df840",
+	"url": "https://sample-feeds.rowanmanning.com/real-world/b95ff33276f20bd8ba5acf261a2df840/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "rss",
+			"version": "2.0"
+		},
+		"language": "en-US",
+		"title": "Engadget is a web magazine with obsessive daily coverage of everything new in gadgets and consumer electronics"
+	}
+}

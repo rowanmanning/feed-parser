@@ -113,6 +113,24 @@ describe('lib/feed', () => {
 
 			});
 
+			describe('when the XML string has a top level `rdf` element', () => {
+
+				beforeEach(() => {
+					td.when(mockDocument.hasElementWithName('rdf')).thenReturn(true);
+					returnValue = Feed.fromString('mock-xml');
+				});
+
+				it('creates a new Rss data provider with the XML document', () => {
+					td.verify(new RssDataProvider(mockDocument), {times: 1});
+				});
+
+				it('Returns a new Feed instance created with the Rss data provider', () => {
+					assert.instanceOf(returnValue, Feed);
+					assert.instanceOf(returnValue.dataProvider, RssDataProvider);
+				});
+
+			});
+
 			describe('when the XML string has a top level `rss` element', () => {
 
 				beforeEach(() => {
@@ -156,6 +174,7 @@ describe('lib/feed', () => {
 		it('contains key/value mappings of root elements to data provider classes', () => {
 			assert.isObject(Feed.DATA_PROVIDER_BY_ROOT_ELEMENT);
 			assert.strictEqual(Feed.DATA_PROVIDER_BY_ROOT_ELEMENT.feed, AtomDataProvider);
+			assert.strictEqual(Feed.DATA_PROVIDER_BY_ROOT_ELEMENT.rdf, RssDataProvider);
 			assert.strictEqual(Feed.DATA_PROVIDER_BY_ROOT_ELEMENT.rss, RssDataProvider);
 		});
 

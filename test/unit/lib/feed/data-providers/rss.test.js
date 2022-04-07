@@ -34,6 +34,7 @@ describe('lib/feed/data-providers/rss', () => {
 			// Mock an XML document
 			mockDocument = new MockDocument();
 			mockRootElement = new MockElement();
+			mockRootElement.name = 'mock-root-name';
 			mockChannelElement = new MockElement();
 			td.when(mockDocument.findElementWithName('rss')).thenReturn(mockRootElement);
 			td.when(mockRootElement.findElementWithName('channel')).thenReturn(mockChannelElement);
@@ -77,8 +78,8 @@ describe('lib/feed/data-providers/rss', () => {
 
 			describe('.type', () => {
 
-				it('is set to "rss"', () => {
-					assert.strictEqual(dataProvider.meta.type, 'rss');
+				it('is set to the name of the root element', () => {
+					assert.strictEqual(dataProvider.meta.type, 'mock-root-name');
 				});
 
 			});
@@ -97,6 +98,18 @@ describe('lib/feed/data-providers/rss', () => {
 
 					it('is set to that version', () => {
 						assert.strictEqual(dataProvider.meta.version, '2.0');
+					});
+
+				});
+
+				describe('when the root element has a `version` attribute matching 0.9X', () => {
+
+					beforeEach(() => {
+						td.when(mockRootElement.getAttribute('version')).thenReturn('0.91');
+					});
+
+					it('is set to "0.9"', () => {
+						assert.strictEqual(dataProvider.meta.version, '0.9');
 					});
 
 				});
@@ -178,7 +191,33 @@ describe('lib/feed/data-providers/rss', () => {
 				assert.strictEqual(dataProvider.language, 'mock language text');
 			});
 
-			describe('when a language element does not exist', () => {
+			describe('when a language element does not exist but an `xml:lang` attribute is set', () => {
+
+				beforeEach(() => {
+					td.when(mockChannelElement.findElementWithName('language')).thenReturn(null);
+					td.when(mockRootElement.getAttribute('xml:lang')).thenReturn('mock-xml:lang');
+				});
+
+				it('is set to the `xml:lang` attribute of the root element', () => {
+					assert.strictEqual(dataProvider.language, 'mock-xml:lang');
+				});
+
+			});
+
+			describe('when a language element does not exist and the `xml:lang` attribute is not set but a `lang` attribute is', () => {
+
+				beforeEach(() => {
+					td.when(mockChannelElement.findElementWithName('language')).thenReturn(null);
+					td.when(mockRootElement.getAttribute('lang')).thenReturn('mock-lang');
+				});
+
+				it('is set to the `lang` attribute of the root element', () => {
+					assert.strictEqual(dataProvider.language, 'mock-lang');
+				});
+
+			});
+
+			describe('when a language element does not exist and no language attributes are set', () => {
 
 				beforeEach(() => {
 					td.when(mockChannelElement.findElementWithName('language')).thenReturn(null);
@@ -213,6 +252,35 @@ describe('lib/feed/data-providers/rss', () => {
 
 				it('is set to `null`', () => {
 					assert.isNull(dataProvider.title);
+				});
+
+			});
+
+		});
+
+		describe('when the root element name is "rdf"', () => {
+
+			beforeEach(() => {
+
+				// Mock an XML document
+				td.when(mockDocument.findElementWithName('rss')).thenReturn(null);
+				td.when(mockDocument.findElementWithName('rdf')).thenReturn(mockRootElement);
+
+				dataProvider = new RssDataProvider(mockDocument);
+			});
+
+			it('is an instance of the DataProvider class', () => {
+				assert.instanceOf(dataProvider, DataProvider);
+			});
+
+			it('finds a root-level rdf element', () => {
+				td.verify(mockDocument.findElementWithName('rdf'), {times: 1});
+			});
+
+			describe('.root', () => {
+
+				it('is set to the found rdf element', () => {
+					assert.strictEqual(dataProvider.root, mockRootElement);
 				});
 
 			});

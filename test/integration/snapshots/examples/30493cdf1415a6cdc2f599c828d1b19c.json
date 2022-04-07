@@ -1,0 +1,13 @@
+{
+	"title": "RSS Board 2.0 Sample Feed",
+	"hash": "30493cdf1415a6cdc2f599c828d1b19c",
+	"url": "https://sample-feeds.rowanmanning.com/examples/30493cdf1415a6cdc2f599c828d1b19c/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "rss",
+			"version": "2.0"
+		},
+		"language": "en-us",
+		"title": "Liftoff News"
+	}
+}

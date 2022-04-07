@@ -1,0 +1,13 @@
+{
+	"title": "RSS Board 0.92 Sample Feed",
+	"hash": "aeca006f4cc8625d587d6b1c25669b96",
+	"url": "https://sample-feeds.rowanmanning.com/examples/aeca006f4cc8625d587d6b1c25669b96/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "rss",
+			"version": "0.9"
+		},
+		"language": null,
+		"title": "Dave Winer: Grateful Dead"
+	}
+}

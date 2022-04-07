@@ -1,0 +1,13 @@
+{
+	"title": "NYT Top Stories",
+	"hash": "c5e0e65569698bc9792cddb93cca6c68",
+	"url": "https://sample-feeds.rowanmanning.com/real-world/c5e0e65569698bc9792cddb93cca6c68/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "rss",
+			"version": "2.0"
+		},
+		"language": "en-us",
+		"title": "NYT > Top Stories"
+	}
+}

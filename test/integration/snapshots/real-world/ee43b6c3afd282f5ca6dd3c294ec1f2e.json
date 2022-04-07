@@ -1,0 +1,13 @@
+{
+	"title": "Nasa Breaking News",
+	"hash": "ee43b6c3afd282f5ca6dd3c294ec1f2e",
+	"url": "https://sample-feeds.rowanmanning.com/real-world/ee43b6c3afd282f5ca6dd3c294ec1f2e/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "rss",
+			"version": "2.0"
+		},
+		"language": "en-us",
+		"title": "NASA Breaking News"
+	}
+}

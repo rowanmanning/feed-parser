@@ -1,0 +1,13 @@
+{
+	"title": "FeedForAll Sample Feed",
+	"hash": "23f07db95d2d9a8b422a186600eae22c",
+	"url": "https://sample-feeds.rowanmanning.com/examples/23f07db95d2d9a8b422a186600eae22c/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "rss",
+			"version": "2.0"
+		},
+		"language": "en-us",
+		"title": "FeedForAll Sample Feed"
+	}
+}

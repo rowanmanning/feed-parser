@@ -1,0 +1,13 @@
+{
+	"title": "FeedForAll Sample Feed - Favorite RSS Related Software & Resources",
+	"hash": "232baf9ba6111e115e400a7e81beb34d",
+	"url": "https://sample-feeds.rowanmanning.com/examples/232baf9ba6111e115e400a7e81beb34d/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "rss",
+			"version": "2.0"
+		},
+		"language": "en-us",
+		"title": "Sample Feed - Favorite RSS Related Software & Resources"
+	}
+}

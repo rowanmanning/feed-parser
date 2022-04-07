@@ -1,0 +1,13 @@
+{
+	"title": "BBC News - World",
+	"hash": "f43bed9864944644236fc65967b2e178",
+	"url": "https://sample-feeds.rowanmanning.com/real-world/f43bed9864944644236fc65967b2e178/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "rss",
+			"version": "2.0"
+		},
+		"language": "en-gb",
+		"title": "BBC News - World"
+	}
+}

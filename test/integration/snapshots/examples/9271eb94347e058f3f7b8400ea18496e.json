@@ -1,0 +1,13 @@
+{
+	"title": "Wikipedia Example Atom Feed",
+	"hash": "9271eb94347e058f3f7b8400ea18496e",
+	"url": "https://sample-feeds.rowanmanning.com/examples/9271eb94347e058f3f7b8400ea18496e/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "atom",
+			"version": "1.0"
+		},
+		"language": null,
+		"title": "Example Feed"
+	}
+}

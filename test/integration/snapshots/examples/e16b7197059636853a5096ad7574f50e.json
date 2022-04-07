@@ -1,0 +1,13 @@
+{
+	"title": "Wikipedia Example RSS Feed",
+	"hash": "e16b7197059636853a5096ad7574f50e",
+	"url": "https://sample-feeds.rowanmanning.com/examples/e16b7197059636853a5096ad7574f50e/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "rss",
+			"version": "2.0"
+		},
+		"language": null,
+		"title": "RSS Title"
+	}
+}

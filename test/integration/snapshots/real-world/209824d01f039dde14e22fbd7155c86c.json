@@ -1,0 +1,13 @@
+{
+	"title": "The Telegraph",
+	"hash": "209824d01f039dde14e22fbd7155c86c",
+	"url": "https://sample-feeds.rowanmanning.com/real-world/209824d01f039dde14e22fbd7155c86c/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "rss",
+			"version": "2.0"
+		},
+		"language": "en-GB",
+		"title": "www.telegraph.co.uk for the latest news from the UK and around the world."
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"title": "Atom Spec Example Feed",
+	"hash": "64968fb0e3685ef07a3e2a27b8d64c01",
+	"url": "https://sample-feeds.rowanmanning.com/examples/64968fb0e3685ef07a3e2a27b8d64c01/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "atom",
+			"version": "1.0"
+		},
+		"language": null,
+		"title": "Example Feed"
+	}
+}

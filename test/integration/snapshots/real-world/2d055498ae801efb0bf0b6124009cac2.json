@@ -1,0 +1,13 @@
+{
+	"title": "The Guardian",
+	"hash": "2d055498ae801efb0bf0b6124009cac2",
+	"url": "https://sample-feeds.rowanmanning.com/real-world/2d055498ae801efb0bf0b6124009cac2/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "rss",
+			"version": "2.0"
+		},
+		"language": "en-gb",
+		"title": "The Guardian"
+	}
+}

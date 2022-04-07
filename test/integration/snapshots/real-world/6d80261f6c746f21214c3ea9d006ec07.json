@@ -1,0 +1,13 @@
+{
+	"title": "BuzzFeed - Latest",
+	"hash": "6d80261f6c746f21214c3ea9d006ec07",
+	"url": "https://sample-feeds.rowanmanning.com/real-world/6d80261f6c746f21214c3ea9d006ec07/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "rss",
+			"version": "2.0"
+		},
+		"language": "en",
+		"title": "BuzzFeed - Latest"
+	}
+}
