@@ -1,5 +1,8 @@
 {
 	"extends": [
 		"@rowanmanning/eslint-config"
-	]
+	],
+	"rules": {
+		"class-methods-use-this": "off"
+	}
 }
