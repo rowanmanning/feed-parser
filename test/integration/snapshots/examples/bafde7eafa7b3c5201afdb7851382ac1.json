@@ -1,0 +1,14 @@
+{
+	"title": "Python feedparser RDF 1.0 Example",
+	"hash": "bafde7eafa7b3c5201afdb7851382ac1",
+	"url": "https://sample-feeds.rowanmanning.com/examples/bafde7eafa7b3c5201afdb7851382ac1/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "rdf",
+			"version": "1.0"
+		},
+		"language": "en",
+		"title": "Sample Feed",
+		"description": "For documentation only"
+	}
+}

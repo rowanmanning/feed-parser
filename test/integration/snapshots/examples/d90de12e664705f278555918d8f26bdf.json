@@ -1,0 +1,14 @@
+{
+	"title": "Python feedparser RSS 2.0 with namespaces Example",
+	"hash": "d90de12e664705f278555918d8f26bdf",
+	"url": "https://sample-feeds.rowanmanning.com/examples/d90de12e664705f278555918d8f26bdf/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "rss",
+			"version": "2.0"
+		},
+		"language": "en-us",
+		"title": "Sample Feed",
+		"description": "For documentation only"
+	}
+}

@@ -7,7 +7,7 @@ const writeJSON = require('../helpers/write-json');
 
 const request = axios.create({
 	baseURL: 'https://sample-feeds.rowanmanning.com',
-	timeout: 200
+	timeout: 500
 });
 
 (async () => {
@@ -21,6 +21,6 @@ const request = axios.create({
 			writeJSON(path.join(__dirname, 'real-world.json'), realWorld)
 		]);
 	} catch (error) {
-		console.error('Error loading fixtures', error);
+		console.error('Error loading fixtures:', error.message);
 	}
 })();

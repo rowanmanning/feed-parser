@@ -1,0 +1,14 @@
+{
+	"title": "Python feedparser RSS 2.0 Example",
+	"hash": "01c988d1667dbd4667b96fe7d865f71a",
+	"url": "https://sample-feeds.rowanmanning.com/examples/01c988d1667dbd4667b96fe7d865f71a/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "rss",
+			"version": "2.0"
+		},
+		"language": "en",
+		"title": "Sample Feed",
+		"description": "For documentation <em>only</em>"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"title": "Python feedparser Atom 0.3 Example",
+	"hash": "3226e0f37e21861fa341d4326fa864da",
+	"url": "https://sample-feeds.rowanmanning.com/examples/3226e0f37e21861fa341d4326fa864da/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "atom",
+			"version": "0.3"
+		},
+		"language": "en",
+		"title": "Sample Feed",
+		"description": "For documentation <em>only</em>"
+	}
+}
