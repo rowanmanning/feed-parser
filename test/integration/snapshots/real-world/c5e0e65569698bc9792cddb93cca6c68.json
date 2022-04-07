@@ -8,6 +8,7 @@
 			"version": "2.0"
 		},
 		"language": "en-us",
-		"title": "NYT > Top Stories"
+		"title": "NYT > Top Stories",
+		"description": null
 	}
 }

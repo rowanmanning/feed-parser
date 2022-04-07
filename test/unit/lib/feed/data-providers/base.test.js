@@ -62,6 +62,17 @@ describe('lib/feed/data-providers/base', () => {
 
 		});
 
+		describe('.description', () => {
+
+			it('throws an error', () => {
+				assert.throws(
+					() => dataProvider.description,
+					'DataProvider.description must be implemented in an extending class'
+				);
+			});
+
+		});
+
 		describe('.toJSON()', () => {
 			let returnValue;
 
@@ -69,7 +80,8 @@ describe('lib/feed/data-providers/base', () => {
 				returnValue = dataProvider.toJSON.call({
 					meta: 'mock-meta',
 					language: 'mock-language',
-					title: 'mock-title'
+					title: 'mock-title',
+					description: 'mock-description'
 				});
 			});
 
@@ -77,7 +89,8 @@ describe('lib/feed/data-providers/base', () => {
 				assert.deepEqual(returnValue, {
 					meta: 'mock-meta',
 					language: 'mock-language',
-					title: 'mock-title'
+					title: 'mock-title',
+					description: 'mock-description'
 				});
 			});
 

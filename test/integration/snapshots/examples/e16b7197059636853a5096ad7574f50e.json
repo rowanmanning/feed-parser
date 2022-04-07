@@ -8,6 +8,7 @@
 			"version": "2.0"
 		},
 		"language": null,
-		"title": "RSS Title"
+		"title": "RSS Title",
+		"description": "This is an example of an RSS feed"
 	}
 }

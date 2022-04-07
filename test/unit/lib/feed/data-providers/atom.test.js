@@ -203,6 +203,47 @@ describe('lib/feed/data-providers/atom', () => {
 
 		});
 
+		describe('.description', () => {
+			let mockElement;
+
+			beforeEach(() => {
+				mockElement = new MockElement();
+				mockElement.normalizedTextContent = 'mock subtitle text';
+				td.when(mockRootElement.findElementWithName('subtitle')).thenReturn(mockElement);
+			});
+
+			it('is set to the text of the first subtitle element found in the feed', () => {
+				assert.strictEqual(dataProvider.description, 'mock subtitle text');
+			});
+
+			describe('when a subtitle element does not exist but a tagline element does', () => {
+
+				beforeEach(() => {
+					mockElement.normalizedTextContent = 'mock tagline text';
+					td.when(mockRootElement.findElementWithName('subtitle')).thenReturn(null);
+					td.when(mockRootElement.findElementWithName('tagline')).thenReturn(mockElement);
+				});
+
+				it('is set to the text of the first tagline element found in the feed', () => {
+					assert.strictEqual(dataProvider.description, 'mock tagline text');
+				});
+
+			});
+
+			describe('when neither element exists', () => {
+
+				beforeEach(() => {
+					td.when(mockRootElement.findElementWithName('subtitle')).thenReturn(null);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(dataProvider.description);
+				});
+
+			});
+
+		});
+
 		describe('if no root element is found', () => {
 			let thrownError;
 

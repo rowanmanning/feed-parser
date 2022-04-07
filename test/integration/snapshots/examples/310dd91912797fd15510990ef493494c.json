@@ -8,6 +8,7 @@
 			"version": "1.0"
 		},
 		"language": null,
-		"title": "Meerkat"
+		"title": "Meerkat",
+		"description": "Meerkat: An Open Wire Service"
 	}
 }

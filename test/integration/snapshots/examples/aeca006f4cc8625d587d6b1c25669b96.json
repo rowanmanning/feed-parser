@@ -8,6 +8,7 @@
 			"version": "0.9"
 		},
 		"language": null,
-		"title": "Dave Winer: Grateful Dead"
+		"title": "Dave Winer: Grateful Dead",
+		"description": "A high-fidelity Grateful Dead song every day. This is where we're experimenting with enclosures on RSS news items that download when you're not using your computer. If it works (it will) it will be the end of the Click-And-Wait multimedia experience on the Internet."
 	}
 }

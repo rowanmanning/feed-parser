@@ -8,6 +8,7 @@
 			"version": "2.0"
 		},
 		"language": "en-US",
-		"title": "WordPress News"
+		"title": "WordPress News",
+		"description": "The latest news about WordPress and the WordPress community"
 	}
 }

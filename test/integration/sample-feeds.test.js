@@ -49,6 +49,9 @@ for (const suite of suites) {
 					// Get the expected result
 					const expectedFilePath = path.resolve(__dirname, 'snapshots', suite.snapshotPath, `${test.hash}.json`);
 					try {
+						if (process.env.OVERWRITE_SNAPSHOTS) {
+							throw new Error('Overwriting Snapshots');
+						}
 						expected = require(expectedFilePath);
 					} catch (error) {
 						await writeJSON(expectedFilePath, actual);

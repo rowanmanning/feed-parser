@@ -258,6 +258,47 @@ describe('lib/feed/data-providers/rss', () => {
 
 		});
 
+		describe('.description', () => {
+			let mockElement;
+
+			beforeEach(() => {
+				mockElement = new MockElement();
+				mockElement.normalizedTextContent = 'mock description text';
+				td.when(mockRootElement.findElementWithName('description')).thenReturn(mockElement);
+			});
+
+			it('is set to the text of the first description element found in the feed', () => {
+				assert.strictEqual(dataProvider.description, 'mock description text');
+			});
+
+			describe('when a description element does not exist but a subtitle element does', () => {
+
+				beforeEach(() => {
+					mockElement.normalizedTextContent = 'mock subtitle text';
+					td.when(mockRootElement.findElementWithName('description')).thenReturn(null);
+					td.when(mockRootElement.findElementWithName('subtitle')).thenReturn(mockElement);
+				});
+
+				it('is set to the text of the first subtitle element found in the feed', () => {
+					assert.strictEqual(dataProvider.description, 'mock subtitle text');
+				});
+
+			});
+
+			describe('when neither element exists', () => {
+
+				beforeEach(() => {
+					td.when(mockRootElement.findElementWithName('description')).thenReturn(null);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(dataProvider.description);
+				});
+
+			});
+
+		});
+
 		describe('when the root element name is "rdf"', () => {
 
 			beforeEach(() => {
