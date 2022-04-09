@@ -183,7 +183,7 @@ describe('lib/feed/data-providers/rss', () => {
 
 			beforeEach(() => {
 				mockLanguageElement = new MockElement();
-				mockLanguageElement.normalizedTextContent = 'mock language text';
+				mockLanguageElement.textContentNormalized = 'mock language text';
 				td.when(mockChannelElement.findElementWithName('language')).thenReturn(mockLanguageElement);
 			});
 
@@ -236,7 +236,7 @@ describe('lib/feed/data-providers/rss', () => {
 
 			beforeEach(() => {
 				mockTitleElement = new MockElement();
-				mockTitleElement.normalizedTextContent = 'mock title text';
+				mockTitleElement.textContentNormalized = 'mock title text';
 				td.when(mockChannelElement.findElementWithName('title')).thenReturn(mockTitleElement);
 			});
 
@@ -263,7 +263,7 @@ describe('lib/feed/data-providers/rss', () => {
 
 			beforeEach(() => {
 				mockElement = new MockElement();
-				mockElement.normalizedTextContent = 'mock description text';
+				mockElement.textContentNormalized = 'mock description text';
 				td.when(mockRootElement.findElementWithName('description')).thenReturn(mockElement);
 			});
 
@@ -274,7 +274,7 @@ describe('lib/feed/data-providers/rss', () => {
 			describe('when a description element does not exist but a subtitle element does', () => {
 
 				beforeEach(() => {
-					mockElement.normalizedTextContent = 'mock subtitle text';
+					mockElement.textContentNormalized = 'mock subtitle text';
 					td.when(mockRootElement.findElementWithName('description')).thenReturn(null);
 					td.when(mockRootElement.findElementWithName('subtitle')).thenReturn(mockElement);
 				});

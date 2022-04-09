@@ -15,60 +15,305 @@ describe('lib/xml/element', () => {
 		assert.isFunction(Element.prototype.constructor);
 	});
 
-	describe('new Element(rawFxpElement, nsDeclarations)', () => {
+	describe('new Element(rawFxpElement, parent)', () => {
 		let element;
 		let mockRawElement;
 
 		beforeEach(() => {
 			mockRawElement = {
-				MOCK: [],
-				':@': {},
+				MOCK: [
+					{
+						'mock-child-1': []
+					},
+					{
+						'mock-child-2': []
+					},
+					{
+						'#text': 'mock-text-1'
+					}
+				],
+				':@': {
+					attr1: 'mock-attribute-value-1',
+					attr2: 'mock-attribute-value-2',
+					ATTR3: 'mock-attribute-value-3'
+				},
 				'#text': ''
 			};
 
-			td.replace(Element, 'findElementName');
-			td.when(Element.findElementName(mockRawElement)).thenReturn({
-				namespace: Element.DEFAULT_NAMESPACE,
-				name: 'mock-name',
-				originalName: 'MOCK-RAW-NAME'
-			});
-
-			td.replace(Element, 'findElementAttributes');
-			td.when(Element.findElementAttributes(mockRawElement)).thenReturn('mock-attributes');
-
-			td.replace(Element, 'findNamespaceDeclarations');
-			td.when(Element.findNamespaceDeclarations('mock-attributes')).thenReturn({
-				'mock-ns': 'mock-element-namespace-uri'
-			});
-
-			td.replace(Element, 'findElementChildren');
-			td.when(Element.findElementChildren(mockRawElement, 'MOCK-RAW-NAME', td.matchers.isA(Object))).thenReturn('mock-children');
+			// Replace Element.create so that we don't cover code we don't intend to
+			td.replace(Element, 'create');
+			td.when(Element.create(), {ignoreExtraArgs: true}).thenReturn(
+				'mock-element-1',
+				'mock-element-2'
+			);
 
 			element = new Element(mockRawElement);
 		});
 
-		it('finds the element name', () => {
-			td.verify(Element.findElementName(mockRawElement), {times: 1});
+		describe('.attributes', () => {
+
+			it('is set to the element attributes with property names lower-cased', () => {
+				assert.deepEqual(element.attributes, {
+					attr1: 'mock-attribute-value-1',
+					attr2: 'mock-attribute-value-2',
+					attr3: 'mock-attribute-value-3'
+				});
+			});
+
+			describe('when the element has no attributes property', () => {
+
+				beforeEach(() => {
+					element = new Element({
+						MOCK: [],
+						'#text': ''
+					});
+				});
+
+				it('is set to an empty object', () => {
+					assert.deepEqual(element.attributes, {});
+				});
+
+			});
+
 		});
 
-		it('finds the element attributes', () => {
-			td.verify(Element.findElementAttributes(mockRawElement), {times: 1});
+		describe('.baseUrl', () => {
+
+			it('is set to `null`', () => {
+				assert.isNull(element.baseUrl);
+			});
+
+			describe('when the element has an absolute `xml:base` attribute', () => {
+
+				beforeEach(() => {
+					element = new Element({
+						MOCK: [],
+						':@': {
+							'xml:base': 'https://mock-base/'
+						}
+					});
+				});
+
+				it('is set to the xml:base URL', () => {
+					assert.deepEqual(element.baseUrl, 'https://mock-base/');
+				});
+
+				describe('when the element parent has a defined base URL', () => {
+
+					beforeEach(() => {
+						const mockParent = {
+							baseUrl: 'https://mock-parent-base/'
+						};
+						element = new Element({
+							MOCK: [],
+							':@': {
+								'xml:base': 'https://mock-base/'
+							}
+						}, mockParent);
+					});
+
+					it('is set to the xml:base URL', () => {
+						assert.deepEqual(element.baseUrl, 'https://mock-base/');
+					});
+
+				});
+
+			});
+
+			describe('when the element has a relative `xml:base` attribute', () => {
+
+				beforeEach(() => {
+					element = new Element({
+						MOCK: [],
+						':@': {
+							'xml:base': './mock-path'
+						}
+					});
+				});
+
+				it('is set to the xml:base URL', () => {
+					assert.deepEqual(element.baseUrl, './mock-path');
+				});
+
+				describe('when the element parent has a defined base URL', () => {
+
+					beforeEach(() => {
+						const mockParent = {
+							baseUrl: 'https://mock-parent-base/mock-parent-path/'
+						};
+						element = new Element({
+							MOCK: [],
+							':@': {
+								'xml:base': './mock-path'
+							}
+						}, mockParent);
+					});
+
+					it('is set to the xml:base URL resolved with the parent element base URL', () => {
+						assert.deepEqual(element.baseUrl, 'https://mock-parent-base/mock-parent-path/mock-path');
+					});
+
+					describe('when URL resolution fails', () => {
+
+						beforeEach(() => {
+							const mockParent = {
+								baseUrl: {isInvalid: true}
+							};
+							element = new Element({
+								MOCK: [],
+								':@': {
+									'xml:base': './mock-path'
+								}
+							}, mockParent);
+						});
+
+						it('is set to the xml:base URL', () => {
+							assert.deepEqual(element.baseUrl, './mock-path');
+						});
+
+					});
+
+				});
+
+			});
+
+			describe('when the element has no `xml:base` attribute but the parent element does', () => {
+
+				beforeEach(() => {
+					const mockParent = {
+						baseUrl: 'https://mock-parent-base/'
+					};
+					element = new Element({
+						MOCK: [],
+						':@': {}
+					}, mockParent);
+				});
+
+				it('is set to the parent element base URL', () => {
+					assert.deepEqual(element.baseUrl, 'https://mock-parent-base/');
+				});
+
+			});
+
 		});
 
-		it('finds the element namespace declarations', () => {
-			td.verify(Element.findNamespaceDeclarations('mock-attributes'), {times: 1});
-		});
+		describe('.children', () => {
+			let children;
 
-		it('finds the element children', () => {
-			td.verify(Element.findElementChildren(mockRawElement, 'MOCK-RAW-NAME', {
-				'mock-ns': 'mock-element-namespace-uri'
-			}), {times: 1});
+			beforeEach(() => {
+				children = element.children;
+			});
+
+			it('is set to an array of Element instances (for elements) and strings (for text nodes)', () => {
+				assert.deepEqual(children, [
+					'mock-element-1',
+					'mock-element-2',
+					'mock-text-1'
+				]);
+			});
+
+			it('creates Element instances with `this` as a parent for all non text nodes found', () => {
+				td.verify(Element.create({'mock-child-1': []}, element));
+				td.verify(Element.create({'mock-child-2': []}, element));
+			});
+
+			describe('when the element has no children', () => {
+
+				beforeEach(() => {
+					element = new Element({});
+				});
+
+				it('is set to an empty array', () => {
+					assert.deepEqual(element.children, []);
+				});
+
+			});
+
 		});
 
 		describe('.name', () => {
 
-			it('is set to the element name', () => {
-				assert.strictEqual(element.name, 'mock-name');
+			it('is set to the element name lower-cased', () => {
+				assert.strictEqual(element.name, 'mock');
+			});
+
+			describe('when the element name is namespaced', () => {
+
+				beforeEach(() => {
+					element = new Element({
+						'MOCK-NS:MOCK-NAME': [],
+						':@': {},
+						'#text': ''
+					});
+				});
+
+				it('is set to the element name lower-cased without the namespace', () => {
+					assert.strictEqual(element.name, 'mock-name');
+				});
+
+			});
+
+			describe('when the element name starts with a colon', () => {
+
+				beforeEach(() => {
+					element = new Element({
+						':MOCK-NAME': [],
+						':@': {},
+						'#text': ''
+					});
+				});
+
+				it('is set to the element name lower-cased without the colon', () => {
+					assert.strictEqual(element.name, 'mock-name');
+				});
+
+			});
+
+			describe('when the element name ends with a colon', () => {
+
+				beforeEach(() => {
+					element = new Element({
+						'MOCK-NS:': [],
+						':@': {},
+						'#text': ''
+					});
+				});
+
+				it('is set to an empty string', () => {
+					assert.strictEqual(element.name, '');
+				});
+
+			});
+
+			describe('when the element contains multiple colons', () => {
+
+				beforeEach(() => {
+					element = new Element({
+						'MOCK-NS:MOCK-NAME:THIS-IS-VALID': [],
+						':@': {},
+						'#text': ''
+					});
+				});
+
+				it('is set to the element name lower-cased with the namespace removed', () => {
+					assert.strictEqual(element.name, 'mock-name:this-is-valid');
+				});
+
+			});
+
+			describe('when the element does not have a name', () => {
+
+				beforeEach(() => {
+					element = new Element({
+						':@': {},
+						'#text': ''
+					});
+				});
+
+				it('is set to "unknown"', () => {
+					assert.strictEqual(element.name, 'unknown');
+				});
+
 			});
 
 		});
@@ -79,29 +324,368 @@ describe('lib/xml/element', () => {
 				assert.strictEqual(element.namespace, Element.DEFAULT_NAMESPACE);
 			});
 
-		});
+			describe('when the element name is namespaced', () => {
 
-		describe('.namespaceUri', () => {
+				beforeEach(() => {
+					element = new Element({
+						'MOCK-NS:MOCK-NAME': [],
+						':@': {},
+						'#text': ''
+					});
+				});
 
-			it('is set to an empty string', () => {
-				assert.strictEqual(element.namespaceUri, '');
+				it('is set to the element namespace lower-cased', () => {
+					assert.strictEqual(element.namespace, 'mock-ns');
+				});
+
+			});
+
+			describe('when the element name starts with a colon', () => {
+
+				beforeEach(() => {
+					element = new Element({
+						':MOCK-NAME': [],
+						':@': {},
+						'#text': ''
+					});
+				});
+
+				it('is set to the default namespace', () => {
+					assert.strictEqual(element.namespace, Element.DEFAULT_NAMESPACE);
+				});
+
+			});
+
+			describe('when the element name ends with a colon', () => {
+
+				beforeEach(() => {
+					element = new Element({
+						'MOCK-NS:': [],
+						':@': {},
+						'#text': ''
+					});
+				});
+
+				it('is set to the element namespace lower-cased', () => {
+					assert.strictEqual(element.namespace, 'mock-ns');
+				});
+
+			});
+
+			describe('when the element contains multiple colons', () => {
+
+				beforeEach(() => {
+					element = new Element({
+						'MOCK-NS:MOCK-NAME:THIS-IS-VALID': [],
+						':@': {},
+						'#text': ''
+					});
+				});
+
+				it('is set to the element namespace lower-cased', () => {
+					assert.strictEqual(element.namespace, 'mock-ns');
+				});
+
+			});
+
+			describe('when the element does not have a name', () => {
+
+				beforeEach(() => {
+					element = new Element({
+						':@': {},
+						'#text': ''
+					});
+				});
+
+				it('is set to the default namespace', () => {
+					assert.strictEqual(element.namespace, Element.DEFAULT_NAMESPACE);
+				});
+
 			});
 
 		});
 
-		describe('.children', () => {
+		describe('.namespaceDeclarations', () => {
 
-			it('is set to the element children', () => {
-				assert.strictEqual(element.children, 'mock-children');
+			it('is set to an empty object', () => {
+				assert.deepEqual(element.namespaceDeclarations, {});
+			});
+
+			describe('when the element has namespace attributes declared', () => {
+
+				beforeEach(() => {
+					element = new Element({
+						'MOCK-NAME': [],
+						':@': {
+							attr: 'mock-attribute-value',
+							xmlns: 'mock-xml-namespace',
+							'xmlns:mock-ns': 'mock-named-xml-namespace'
+						},
+						'#text': ''
+					});
+				});
+
+				it('is set to the namespace declarations', () => {
+					assert.deepEqual(element.namespaceDeclarations, {
+						[Element.DEFAULT_NAMESPACE]: 'mock-xml-namespace',
+						'mock-ns': 'mock-named-xml-namespace'
+					});
+				});
+
+				describe('when namespace URIs are padded with spaces', () => {
+
+					beforeEach(() => {
+						element = new Element({
+							'MOCK-NAME': [],
+							':@': {
+								attr: 'mock-attribute-value',
+								xmlns: '   mock-xml-namespace   ',
+								'xmlns:mock-ns': '\n\t\tmock-named-xml-namespace\n\n'
+							},
+							'#text': ''
+						});
+					});
+
+					it('is set to the trimmed namespace declarations', () => {
+						assert.deepEqual(element.namespaceDeclarations, {
+							[Element.DEFAULT_NAMESPACE]: 'mock-xml-namespace',
+							'mock-ns': 'mock-named-xml-namespace'
+						});
+					});
+
+				});
+
+				describe('when the element is constructed with a parent element', () => {
+					let mockParent;
+
+					beforeEach(() => {
+						mockRawElement = {
+							'MOCK-NAME': [],
+							':@': {
+								attr: 'mock-attribute-value',
+								xmlns: 'mock-child-xml-namespace',
+								'xmlns:mock-child-ns': 'mock-named-child-xml-namespace',
+								'xmlns:mock-clashing-ns': 'mock-child-clashing-xml-namespace'
+							},
+							'#text': ''
+						};
+						mockParent = {
+							namespaceDeclarations: {
+								[Element.DEFAULT_NAMESPACE]: 'mock-parent-xml-namespace',
+								'mock-parent-ns': 'mock-named-parent-xml-namespace',
+								'mock-clashing-ns': 'mock-parent-clashing-xml-namespace'
+							}
+						};
+						element = new Element(mockRawElement, mockParent);
+					});
+
+					it('is set to merged namespace declarations, favouring those defined on the child element', () => {
+						assert.deepEqual(element.namespaceDeclarations, {
+							[Element.DEFAULT_NAMESPACE]: 'mock-child-xml-namespace',
+							'mock-child-ns': 'mock-named-child-xml-namespace',
+							'mock-parent-ns': 'mock-named-parent-xml-namespace',
+							'mock-clashing-ns': 'mock-child-clashing-xml-namespace'
+						});
+					});
+
+				});
+
+			});
+
+		});
+
+		describe('.namespaceUri', () => {
+
+			it('is set to `null`', () => {
+				assert.isNull(element.namespaceUri);
+			});
+
+			describe('when the element has a default namespace declaration', () => {
+
+				beforeEach(() => {
+					element = new Element({
+						'MOCK-NAME': [],
+						':@': {
+							xmlns: 'mock-ns-uri'
+						},
+						'#text': ''
+					});
+				});
+
+				it('is set to the default namespace URI', () => {
+					assert.strictEqual(element.namespaceUri, 'mock-ns-uri');
+				});
+
+			});
+
+			describe('when the element has namespace declarations and the element is namespaced with one', () => {
+
+				beforeEach(() => {
+					element = new Element({
+						'MOCK-NS:MOCK-NAME': [],
+						':@': {
+							'xmlns:mock-ns': 'mock-ns-uri'
+						},
+						'#text': ''
+					});
+				});
+
+				it('is set to the matching namespace URI', () => {
+					assert.strictEqual(element.namespaceUri, 'mock-ns-uri');
+				});
+
+			});
+
+			describe('when the element is constructed with a parent element that declares namespaces', () => {
+				let mockParent;
+
+				beforeEach(() => {
+					mockParent = {
+						namespaceDeclarations: {
+							'mock-ns': 'mock-parent-ns-uri'
+						}
+					};
+					element = new Element({
+						'MOCK-NS:MOCK-NAME': [],
+						':@': {},
+						'#text': ''
+					}, mockParent);
+				});
+
+				it('is set to the matching parent namespace URI', () => {
+					assert.strictEqual(element.namespaceUri, 'mock-parent-ns-uri');
+				});
+
+			});
+
+		});
+
+		describe('.parent', () => {
+
+			it('is set to `null`', () => {
+				assert.isNull(element.parent);
+			});
+
+			describe('when the element is constructed with a parent element', () => {
+				let mockParent;
+
+				beforeEach(() => {
+					mockParent = {
+						isMockParent: true
+					};
+					element = new Element(mockRawElement, mockParent);
+				});
+
+				it('is set to the parent element', () => {
+					assert.strictEqual(element.parent, mockParent);
+				});
+
+			});
+
+		});
+
+		describe('.textContent', () => {
+			let childrenGetter;
+
+			beforeEach(() => {
+				childrenGetter = td.func();
+				td.when(childrenGetter()).thenReturn([
+					{
+						textContent: 'mock text 1'
+					},
+					{
+						textContent: 'mock text 2'
+					},
+					'mock text 3'
+				]);
+				Object.defineProperty(element, 'children', {get: childrenGetter});
+			});
+
+			it('is set to the joined text content of each child element', () => {
+				assert.strictEqual(element.textContent, 'mock text 1mock text 2mock text 3');
+			});
+
+			describe('when the text content is padded with whitespace', () => {
+
+				beforeEach(() => {
+					td.when(childrenGetter()).thenReturn([
+						{
+							textContent: ' mock text 1\t\n'
+						},
+						{
+							textContent: '\tmock text 2  \n'
+						},
+						'mock text 3 '
+					]);
+				});
+
+				it('does not get trimmed or modified', () => {
+					assert.strictEqual(element.textContent, ' mock text 1\t\n\tmock text 2  \nmock text 3 ');
+				});
+
+			});
+
+			describe('when the element has no children', () => {
+
+				beforeEach(() => {
+					td.when(childrenGetter()).thenReturn([]);
+				});
+
+				it('returns an empty string', () => {
+					assert.strictEqual(element.textContent, '');
+				});
+
+			});
+
+		});
+
+		describe('.textContentAsUrl', () => {
+			let textContentGetter;
+
+			beforeEach(() => {
+				textContentGetter = td.func();
+				td.when(textContentGetter()).thenReturn('  mock-text-content  ');
+				Object.defineProperty(element, 'textContent', {get: textContentGetter});
+				td.replace(element, 'resolveUrl');
+				td.when(element.resolveUrl('mock-text-content')).thenReturn('mock-resolved-url');
+			});
+
+			it('is set to a trimmed joined text content resolved against the base URL', () => {
+				assert.strictEqual(element.textContentAsUrl, 'mock-resolved-url');
+			});
+
+		});
+
+		describe('.textContentNormalized', () => {
+			let childrenGetter;
+
+			beforeEach(() => {
+				childrenGetter = td.func();
+				td.when(childrenGetter()).thenReturn([
+					{
+						textContent: ' mock text 1\t\n'
+					},
+					{
+						textContent: '\tmock text 2  \n'
+					},
+					'mock text 3 '
+				]);
+				Object.defineProperty(element, 'children', {get: childrenGetter});
+			});
+
+			it('is set to a trimmed joined text content with adjacent whitespace condensed', () => {
+				assert.strictEqual(element.textContentNormalized, 'mock text 1 mock text 2 mock text 3');
 			});
 
 		});
 
 		describe('.findElementsWithName(name)', () => {
+			let childrenGetter;
 			let returnValue;
 
 			beforeEach(() => {
-				element.children = [
+				childrenGetter = td.func();
+				td.when(childrenGetter()).thenReturn([
 					{
 						name: 'mock-name-1',
 						index: 0
@@ -120,7 +704,8 @@ describe('lib/xml/element', () => {
 						index: 4
 					},
 					'mock-text-2'
-				];
+				]);
+				Object.defineProperty(element, 'children', {get: childrenGetter});
 				returnValue = element.findElementsWithName('mock-name-1');
 			});
 
@@ -140,10 +725,12 @@ describe('lib/xml/element', () => {
 		});
 
 		describe('.findElementWithName(name, nth)', () => {
+			let childrenGetter;
 			let returnValue;
 
 			beforeEach(() => {
-				element.children = [
+				childrenGetter = td.func();
+				td.when(childrenGetter()).thenReturn([
 					{
 						name: 'mock-name-1',
 						index: 0
@@ -166,7 +753,8 @@ describe('lib/xml/element', () => {
 						name: 'mock-name-1',
 						index: 6
 					}
-				];
+				]);
+				Object.defineProperty(element, 'children', {get: childrenGetter});
 				returnValue = element.findElementWithName('mock-name-1');
 			});
 
@@ -201,7 +789,7 @@ describe('lib/xml/element', () => {
 			describe('when the element has no children with the given name', () => {
 
 				beforeEach(() => {
-					element.children = [
+					td.when(childrenGetter()).thenReturn([
 						{
 							name: 'mock-name-0',
 							index: 0
@@ -211,7 +799,7 @@ describe('lib/xml/element', () => {
 							index: 1
 						},
 						'mock-text-1'
-					];
+					]);
 					returnValue = element.findElementWithName('mock-name-1');
 				});
 
@@ -224,10 +812,12 @@ describe('lib/xml/element', () => {
 		});
 
 		describe('.hasElementWithName(name)', () => {
+			let childrenGetter;
 			let returnValue;
 
 			beforeEach(() => {
-				element.children = [
+				childrenGetter = td.func();
+				td.when(childrenGetter()).thenReturn([
 					{
 						name: 'mock-name-1',
 						index: 0
@@ -237,7 +827,8 @@ describe('lib/xml/element', () => {
 						index: 1
 					},
 					'mock-text-1'
-				];
+				]);
+				Object.defineProperty(element, 'children', {get: childrenGetter});
 				returnValue = element.hasElementWithName('mock-name-1');
 			});
 
@@ -248,7 +839,7 @@ describe('lib/xml/element', () => {
 			describe('when the element has no children with the given name', () => {
 
 				beforeEach(() => {
-					element.children = [
+					td.when(childrenGetter()).thenReturn([
 						{
 							name: 'mock-name-0',
 							index: 0
@@ -258,7 +849,7 @@ describe('lib/xml/element', () => {
 							index: 1
 						},
 						'mock-text-1'
-					];
+					]);
 					returnValue = element.hasElementWithName('mock-name-1');
 				});
 
@@ -271,12 +862,15 @@ describe('lib/xml/element', () => {
 		});
 
 		describe('.getAttribute(name)', () => {
+			let attributesGetter;
 			let returnValue;
 
 			beforeEach(() => {
-				element.attributes = {
+				attributesGetter = td.func();
+				td.when(attributesGetter()).thenReturn({
 					'mock-name': 'mock-value'
-				};
+				});
+				Object.defineProperty(element, 'attributes', {get: attributesGetter});
 				returnValue = element.getAttribute('mock-name');
 			});
 
@@ -298,443 +892,103 @@ describe('lib/xml/element', () => {
 
 		});
 
-		describe('.textContent', () => {
+		describe('.getAttributeAsUrl(name)', () => {
+			let attributesGetter;
 			let returnValue;
 
 			beforeEach(() => {
-				element.children = [
-					{
-						textContent: 'mock text 1'
-					},
-					{
-						textContent: 'mock text 2'
-					},
-					'mock text 3'
-				];
-				returnValue = element.textContent;
+				attributesGetter = td.func();
+				td.when(attributesGetter()).thenReturn({
+					'mock-name': '  mock-value  '
+				});
+				Object.defineProperty(element, 'attributes', {get: attributesGetter});
+				td.replace(element, 'resolveUrl');
+				td.when(element.resolveUrl('mock-value')).thenReturn('mock-resolved-url');
+				returnValue = element.getAttributeAsUrl('mock-name');
 			});
 
-			it('returns the joined text content of each child element', () => {
-				assert.strictEqual(returnValue, 'mock text 1mock text 2mock text 3');
+			it('returns the requested attribute value trimmed and resolved against the base URL', () => {
+				assert.strictEqual(returnValue, 'mock-resolved-url');
 			});
 
-			describe('when the text content is padded with whitespace', () => {
+			describe('when the element has no attribute with the given name', () => {
 
 				beforeEach(() => {
-					element.children = [
-						{
-							textContent: ' mock text 1\t\n'
-						},
-						{
-							textContent: '\tmock text 2  \n'
-						},
-						'mock text 3 '
-					];
-					returnValue = element.textContent;
+					returnValue = element.getAttributeAsUrl('not-a-name');
 				});
 
-				it('does not get trimmed or modified', () => {
-					assert.strictEqual(returnValue, ' mock text 1\t\n\tmock text 2  \nmock text 3 ');
-				});
-
-			});
-
-			describe('when the element has no children', () => {
-
-				beforeEach(() => {
-					element.children = [];
-					returnValue = element.textContent;
-				});
-
-				it('returns an empty string', () => {
-					assert.strictEqual(returnValue, '');
+				it('returns `null`', () => {
+					assert.isNull(returnValue);
 				});
 
 			});
 
 		});
 
-		describe('.normalizedTextContent', () => {
+		describe('.resolveUrl(url)', () => {
+			let baseUrlGetter;
 			let returnValue;
 
 			beforeEach(() => {
-				element.children = [
-					{
-						textContent: ' mock text 1\t\n'
-					},
-					{
-						textContent: '\tmock text 2  \n'
-					},
-					'mock text 3 '
-				];
-				returnValue = element.normalizedTextContent;
+				baseUrlGetter = td.func();
+				td.when(baseUrlGetter()).thenReturn('https://mock-base-url');
+				Object.defineProperty(element, 'baseUrl', {get: baseUrlGetter});
+				returnValue = element.resolveUrl('mock-url');
 			});
 
-			it('returns a trimmed joined text content with adjacent whitespace condensed', () => {
-				assert.strictEqual(returnValue, 'mock text 1 mock text 2 mock text 3');
+			it('returns the URL resolved against the element base URL', () => {
+				assert.strictEqual(returnValue, 'https://mock-base-url/mock-url');
 			});
 
-		});
+			describe('when the url is absolute', () => {
 
-		describe('when a non-default namespace is found in the element name', () => {
-
-			beforeEach(() => {
-				delete mockRawElement.MOCK;
-				mockRawElement['MOCK-NS:MOCK'] = [];
-
-				td.when(Element.findElementName(mockRawElement)).thenReturn({
-					namespace: 'mock-ns',
-					name: 'mock-name',
-					originalName: 'MOCK-RAW-NAME'
+				beforeEach(() => {
+					returnValue = element.resolveUrl('https://mock-url/');
 				});
 
-				element = new Element(mockRawElement);
-			});
-
-			describe('.namespace', () => {
-
-				it('is set to the element namespace', () => {
-					assert.strictEqual(element.namespace, 'mock-ns');
+				it('returns the passed in URL', () => {
+					assert.strictEqual(returnValue, 'https://mock-url/');
 				});
 
 			});
 
-			describe('.namespaceUri', () => {
+			describe('when the element has no base URL', () => {
 
-				it('is set to the matching namespace URI', () => {
-					assert.strictEqual(element.namespaceUri, 'mock-element-namespace-uri');
+				beforeEach(() => {
+					td.when(baseUrlGetter()).thenReturn(null);
+					returnValue = element.resolveUrl('mock-url');
+				});
+
+				it('returns the passed in URL', () => {
+					assert.strictEqual(returnValue, 'mock-url');
 				});
 
 			});
 
-		});
+			describe('when the url is not a string', () => {
 
-		describe('when nsDeclarations contains namespace declarations and the element matches one of them', () => {
-
-			beforeEach(() => {
-				delete mockRawElement.MOCK;
-				mockRawElement['MOCK-PARENT-NS:MOCK'] = [];
-
-				td.when(Element.findElementName(mockRawElement)).thenReturn({
-					namespace: 'mock-parent-ns',
-					name: 'mock-name',
-					originalName: 'MOCK-RAW-NAME'
+				beforeEach(() => {
+					td.when(baseUrlGetter()).thenReturn(null);
+					returnValue = element.resolveUrl(123);
 				});
 
-				element = new Element(mockRawElement, {
-					'mock-parent-ns': 'mock-parent-namespace-uri'
-				});
-			});
-
-			describe('.namespace', () => {
-
-				it('is set to the element namespace', () => {
-					assert.strictEqual(element.namespace, 'mock-parent-ns');
+				it('returns the passed in URL', () => {
+					assert.strictEqual(returnValue, 123);
 				});
 
 			});
 
-			describe('.namespaceUri', () => {
+			describe('when the url resolution fails', () => {
 
-				it('is set to the matching parent namespace URI', () => {
-					assert.strictEqual(element.namespaceUri, 'mock-parent-namespace-uri');
+				beforeEach(() => {
+					td.when(baseUrlGetter()).thenReturn({isInvalid: true});
+					returnValue = element.resolveUrl('mock-url');
 				});
 
-			});
-
-		});
-
-		describe('when nsDeclarations and the element declare the same namespaces', () => {
-
-			beforeEach(() => {
-				delete mockRawElement.MOCK;
-				mockRawElement['MOCK-NS:MOCK'] = [];
-
-				td.when(Element.findElementName(mockRawElement)).thenReturn({
-					namespace: 'mock-ns',
-					name: 'mock-name',
-					originalName: 'MOCK-RAW-NAME'
+				it('returns the passed in URL', () => {
+					assert.strictEqual(returnValue, 'mock-url');
 				});
 
-				element = new Element(mockRawElement, {
-					'mock-ns': 'mock-parent-namespace-uri'
-				});
-			});
-
-			describe('.namespace', () => {
-
-				it('is set to the element namespace', () => {
-					assert.strictEqual(element.namespace, 'mock-ns');
-				});
-
-			});
-
-			describe('.namespaceUri', () => {
-
-				it('is set to the matching element namespace URI', () => {
-					assert.strictEqual(element.namespaceUri, 'mock-element-namespace-uri');
-				});
-
-			});
-
-		});
-
-	});
-
-	describe('Element.findElementName(rawFxpElement)', () => {
-		let returnValue;
-
-		beforeEach(() => {
-			returnValue = Element.findElementName({
-				MOCK: [],
-				':@': {},
-				'#text': ''
-			});
-		});
-
-		it('returns the name (lower-cased), the original name, and the default namespace', () => {
-			assert.deepEqual(returnValue, {
-				name: 'mock',
-				originalName: 'MOCK',
-				namespace: Element.DEFAULT_NAMESPACE
-			});
-		});
-
-		describe('when the element name is namespaced', () => {
-
-			beforeEach(() => {
-				returnValue = Element.findElementName({
-					'MOCK-NS:MOCK-NAME': [],
-					':@': {},
-					'#text': ''
-				});
-			});
-
-			it('returns the name (lower-cased), the original name, and the namespace (lower-cased)', () => {
-				assert.deepEqual(returnValue, {
-					name: 'mock-name',
-					originalName: 'MOCK-NS:MOCK-NAME',
-					namespace: 'mock-ns'
-				});
-			});
-
-		});
-
-		describe('when the element name starts with a colon', () => {
-
-			beforeEach(() => {
-				returnValue = Element.findElementName({
-					':MOCK-NAME': [],
-					':@': {},
-					'#text': ''
-				});
-			});
-
-			it('returns the name (lower-cased), the original name, and the default namespace', () => {
-				assert.deepEqual(returnValue, {
-					name: 'mock-name',
-					originalName: ':MOCK-NAME',
-					namespace: Element.DEFAULT_NAMESPACE
-				});
-			});
-
-		});
-
-		describe('when the element name ends with a colon', () => {
-
-			beforeEach(() => {
-				returnValue = Element.findElementName({
-					'MOCK-NS:': [],
-					':@': {},
-					'#text': ''
-				});
-			});
-
-			it('returns an empty name, the original name, and the namespace (lower-cased)', () => {
-				assert.deepEqual(returnValue, {
-					name: '',
-					originalName: 'MOCK-NS:',
-					namespace: 'mock-ns'
-				});
-			});
-
-		});
-
-		describe('when the element contains multiple colons', () => {
-
-			beforeEach(() => {
-				returnValue = Element.findElementName({
-					'MOCK-NS:MOCK-NAME:THIS-IS-VALID': [],
-					':@': {},
-					'#text': ''
-				});
-			});
-
-			it('returns an empty name, the original name, and the namespace (lower-cased)', () => {
-				assert.deepEqual(returnValue, {
-					name: 'mock-name:this-is-valid',
-					originalName: 'MOCK-NS:MOCK-NAME:THIS-IS-VALID',
-					namespace: 'mock-ns'
-				});
-			});
-
-		});
-
-		describe('when the element does not have a name', () => {
-
-			beforeEach(() => {
-				returnValue = Element.findElementName({
-					':@': {},
-					'#text': ''
-				});
-			});
-
-			it('returns a name and original name of "unknown" and the default namespace', () => {
-				assert.deepEqual(returnValue, {
-					name: 'unknown',
-					originalName: 'unknown',
-					namespace: Element.DEFAULT_NAMESPACE
-				});
-			});
-
-		});
-
-	});
-
-	describe('Element.findElementAttributes(rawFxpElement)', () => {
-		let returnValue;
-
-		beforeEach(() => {
-			returnValue = Element.findElementAttributes({
-				':@': {
-					attr1: 'mock-attribute-value-1',
-					attr2: 'mock-attribute-value-2',
-					ATTR3: 'mock-attribute-value-3'
-				}
-			});
-		});
-
-		it('returns the attributes with property names lower-cased', () => {
-			assert.deepEqual(returnValue, {
-				attr1: 'mock-attribute-value-1',
-				attr2: 'mock-attribute-value-2',
-				attr3: 'mock-attribute-value-3'
-			});
-		});
-
-		describe('When there is no attributes property on the raw element', () => {
-
-			beforeEach(() => {
-				returnValue = Element.findElementAttributes({});
-			});
-
-			it('returns an empty object', () => {
-				assert.deepEqual(returnValue, {});
-			});
-
-		});
-
-	});
-
-	describe('Element.findElementChildren(rawFxpElement, elementName, nsDeclarations)', () => {
-		let returnValue;
-		let mockRawElement;
-
-		beforeEach(() => {
-			td.replace(Element, 'create');
-			td.when(Element.create(), {ignoreExtraArgs: true}).thenReturn(
-				'mock-element-1',
-				'mock-element-2'
-			);
-			mockRawElement = {
-				MOCK: [
-					{
-						'mock-child-1': []
-					},
-					{
-						'mock-child-2': []
-					},
-					{
-						'#text': 'mock-text-1'
-					}
-				],
-				':@': {}
-			};
-			returnValue = Element.findElementChildren(mockRawElement, 'MOCK', {
-				'mock-ns': 'mock-ns-uri'
-			});
-		});
-
-		it('creates Element instances for all non text nodes found', () => {
-			td.verify(Element.create({
-				'mock-child-1': []
-			}, {
-				'mock-ns': 'mock-ns-uri'
-			}), {times: 1});
-			td.verify(Element.create({
-				'mock-child-2': []
-			}, {
-				'mock-ns': 'mock-ns-uri'
-			}), {times: 1});
-		});
-
-		it('returns an array of Element instances (for elements) and strings (for text nodes)', () => {
-			assert.deepEqual(returnValue, [
-				'mock-element-1',
-				'mock-element-2',
-				'mock-text-1'
-			]);
-		});
-
-		describe('when the element has no children', () => {
-
-			beforeEach(() => {
-				returnValue = Element.findElementChildren({}, 'MOCK', {
-					'mock-ns': 'mock-ns-uri'
-				});
-			});
-
-			it('returns an empty array', () => {
-				assert.deepEqual(returnValue, []);
-			});
-
-		});
-
-	});
-
-	describe('Element.findNamespaceDeclarations(attributes)', () => {
-		let returnValue;
-
-		beforeEach(() => {
-			returnValue = Element.findNamespaceDeclarations({
-				attr: 'mock-attribute-value',
-				xmlns: 'mock-xml-namespace',
-				'xmlns:mock-ns': 'mock-named-xml-namespace'
-			});
-		});
-
-		it('returns the namespace data', () => {
-			assert.deepEqual(returnValue, {
-				[Element.DEFAULT_NAMESPACE]: 'mock-xml-namespace',
-				'mock-ns': 'mock-named-xml-namespace'
-			});
-		});
-
-		describe('when namespace URIs are padded with spaces', () => {
-
-			beforeEach(() => {
-				returnValue = Element.findNamespaceDeclarations({
-					attr: 'mock-attribute-value',
-					xmlns: '   mock-xml-namespace   ',
-					'xmlns:mock-ns': '\n\t\tmock-named-xml-namespace\n\n'
-				});
-			});
-
-			it('returns the namespace data', () => {
-				assert.deepEqual(returnValue, {
-					[Element.DEFAULT_NAMESPACE]: 'mock-xml-namespace',
-					'mock-ns': 'mock-named-xml-namespace'
-				});
 			});
 
 		});
@@ -749,9 +1003,7 @@ describe('lib/xml/element', () => {
 				MOCK: [],
 				':@': {},
 				'#text': ''
-			}, {
-				'mock-ns': 'mock-ns-uri'
-			});
+			}, null);
 		});
 
 		it('creates and returns an element', () => {

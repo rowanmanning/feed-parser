@@ -181,7 +181,7 @@ describe('lib/feed/data-providers/atom', () => {
 
 			beforeEach(() => {
 				mockTitleElement = new MockElement();
-				mockTitleElement.normalizedTextContent = 'mock title text';
+				mockTitleElement.textContentNormalized = 'mock title text';
 				td.when(mockRootElement.findElementWithName('title')).thenReturn(mockTitleElement);
 			});
 
@@ -208,7 +208,7 @@ describe('lib/feed/data-providers/atom', () => {
 
 			beforeEach(() => {
 				mockElement = new MockElement();
-				mockElement.normalizedTextContent = 'mock subtitle text';
+				mockElement.textContentNormalized = 'mock subtitle text';
 				td.when(mockRootElement.findElementWithName('subtitle')).thenReturn(mockElement);
 			});
 
@@ -219,7 +219,7 @@ describe('lib/feed/data-providers/atom', () => {
 			describe('when a subtitle element does not exist but a tagline element does', () => {
 
 				beforeEach(() => {
-					mockElement.normalizedTextContent = 'mock tagline text';
+					mockElement.textContentNormalized = 'mock tagline text';
 					td.when(mockRootElement.findElementWithName('subtitle')).thenReturn(null);
 					td.when(mockRootElement.findElementWithName('tagline')).thenReturn(mockElement);
 				});
