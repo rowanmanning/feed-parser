@@ -9,6 +9,8 @@
 		},
 		"language": "en-us",
 		"title": "NYT > Top Stories",
-		"description": null
+		"description": null,
+		"link": "https://www.nytimes.com",
+		"self": "https://sample-feeds.rowanmanning.com/real-world/c5e0e65569698bc9792cddb93cca6c68/feed.xml"
 	}
 }

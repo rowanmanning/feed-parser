@@ -9,6 +9,8 @@
 		},
 		"language": null,
 		"title": "RSS Title",
-		"description": "This is an example of an RSS feed"
+		"description": "This is an example of an RSS feed",
+		"link": "http://www.example.com/main.html",
+		"self": null
 	}
 }

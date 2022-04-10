@@ -9,6 +9,8 @@
 		},
 		"language": null,
 		"title": "Unsplash",
-		"description": "Stories from the community powering the internet’s visuals"
+		"description": "Stories from the community powering the internet’s visuals",
+		"link": "https://unsplash.com/blog/",
+		"self": "https://sample-feeds.rowanmanning.com/real-world/52100500032f4e6a03274c816a9b0d95/feed.xml"
 	}
 }

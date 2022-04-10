@@ -264,7 +264,7 @@ describe('lib/feed/data-providers/rss', () => {
 			beforeEach(() => {
 				mockElement = new MockElement();
 				mockElement.textContentNormalized = 'mock description text';
-				td.when(mockRootElement.findElementWithName('description')).thenReturn(mockElement);
+				td.when(mockChannelElement.findElementWithName('description')).thenReturn(mockElement);
 			});
 
 			it('is set to the text of the first description element found in the feed', () => {
@@ -275,8 +275,8 @@ describe('lib/feed/data-providers/rss', () => {
 
 				beforeEach(() => {
 					mockElement.textContentNormalized = 'mock subtitle text';
-					td.when(mockRootElement.findElementWithName('description')).thenReturn(null);
-					td.when(mockRootElement.findElementWithName('subtitle')).thenReturn(mockElement);
+					td.when(mockChannelElement.findElementWithName('description')).thenReturn(null);
+					td.when(mockChannelElement.findElementWithName('subtitle')).thenReturn(mockElement);
 				});
 
 				it('is set to the text of the first subtitle element found in the feed', () => {
@@ -288,11 +288,137 @@ describe('lib/feed/data-providers/rss', () => {
 			describe('when neither element exists', () => {
 
 				beforeEach(() => {
-					td.when(mockRootElement.findElementWithName('description')).thenReturn(null);
+					td.when(mockChannelElement.findElementWithName('description')).thenReturn(null);
 				});
 
 				it('is set to `null`', () => {
 					assert.isNull(dataProvider.description);
+				});
+
+			});
+
+		});
+
+		describe('.link', () => {
+			let mockLinks;
+
+			beforeEach(() => {
+				mockLinks = [
+					new MockElement(),
+					new MockElement(),
+					new MockElement()
+				];
+
+				// Link with no text
+				mockLinks[0].textContentNormalized = '';
+				mockLinks[0].textContentAsUrl = '';
+
+				// Link with text
+				mockLinks[1].textContentNormalized = 'mock-text-1';
+				mockLinks[1].textContentAsUrl = 'mock-url-1';
+
+				// Link with text
+				mockLinks[2].textContentNormalized = 'mock-text-2';
+				mockLinks[2].textContentAsUrl = 'mock-url-2';
+
+				td.when(mockChannelElement.findElementsWithName('link')).thenReturn(mockLinks);
+			});
+
+			it('is set to text of the first link element with text content found in the feed', () => {
+				assert.strictEqual(dataProvider.link, 'mock-url-1');
+			});
+
+			describe('when no links have text content', () => {
+
+				beforeEach(() => {
+					td.when(mockChannelElement.findElementsWithName('link')).thenReturn([
+						mockLinks[0]
+					]);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(dataProvider.link);
+				});
+
+			});
+
+			describe('when no link elements exists', () => {
+
+				beforeEach(() => {
+					td.when(mockChannelElement.findElementsWithName('link')).thenReturn([]);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(dataProvider.link);
+				});
+
+			});
+
+		});
+
+		describe('.self', () => {
+			let mockLinks;
+
+			beforeEach(() => {
+				mockLinks = [
+					new MockElement(),
+					new MockElement(),
+					new MockElement(),
+					new MockElement(),
+					new MockElement()
+				];
+
+				// Link with no rel
+				td.when(mockLinks[0].getAttribute('rel')).thenReturn(null);
+				td.when(mockLinks[0].getAttributeAsUrl('href')).thenReturn('mock-href-norel');
+
+				// Link rel alternate
+				td.when(mockLinks[1].getAttribute('rel')).thenReturn('alternate');
+				td.when(mockLinks[1].getAttributeAsUrl('href')).thenReturn('mock-href-alternate');
+
+				// Link rel self
+				td.when(mockLinks[2].getAttribute('rel')).thenReturn('self');
+				td.when(mockLinks[2].getAttributeAsUrl('href')).thenReturn('mock-href-self');
+
+				// Link rel invalid
+				td.when(mockLinks[3].getAttribute('rel')).thenReturn('invalid');
+				td.when(mockLinks[3].getAttributeAsUrl('href')).thenReturn('mock-href-invalid');
+
+				// Link rel self
+				td.when(mockLinks[4].getAttribute('rel')).thenReturn('self');
+				td.when(mockLinks[4].getAttributeAsUrl('href')).thenReturn('mock-href-self-2');
+
+				td.when(mockChannelElement.findElementsWithName('link')).thenReturn(mockLinks);
+			});
+
+			it('is set to the href attribute of the first link[rel=self] element found in the feed', () => {
+				assert.strictEqual(dataProvider.self, 'mock-href-self');
+			});
+
+			describe('when no links have appropriate rel attributes', () => {
+
+				beforeEach(() => {
+					td.when(mockChannelElement.findElementsWithName('link')).thenReturn([
+						mockLinks[0],
+						mockLinks[1],
+						mockLinks[3]
+					]);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(dataProvider.self);
+				});
+
+			});
+
+			describe('when no link elements exists', () => {
+
+				beforeEach(() => {
+					td.when(mockChannelElement.findElementsWithName('link')).thenReturn([]);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(dataProvider.self);
 				});
 
 			});

@@ -9,6 +9,8 @@
 		},
 		"language": null,
 		"title": "Meerkat",
-		"description": "Meerkat: An Open Wire Service"
+		"description": "Meerkat: An Open Wire Service",
+		"link": "http://meerkat.oreillynet.com",
+		"self": null
 	}
 }

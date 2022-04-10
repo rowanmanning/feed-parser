@@ -9,6 +9,8 @@
 		},
 		"language": "en-us",
 		"title": "Liftoff News",
-		"description": "Liftoff to Space Exploration."
+		"description": "Liftoff to Space Exploration.",
+		"link": "http://liftoff.msfc.nasa.gov/",
+		"self": null
 	}
 }

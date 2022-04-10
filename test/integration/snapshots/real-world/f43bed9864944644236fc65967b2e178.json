@@ -9,6 +9,8 @@
 		},
 		"language": "en-gb",
 		"title": "BBC News - World",
-		"description": "BBC News - World"
+		"description": "BBC News - World",
+		"link": "https://www.bbc.co.uk/news/",
+		"self": null
 	}
 }

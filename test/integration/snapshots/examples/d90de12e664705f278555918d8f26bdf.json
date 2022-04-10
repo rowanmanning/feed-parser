@@ -9,6 +9,8 @@
 		},
 		"language": "en-us",
 		"title": "Sample Feed",
-		"description": "For documentation only"
+		"description": "For documentation only",
+		"link": "http://example.org/",
+		"self": null
 	}
 }

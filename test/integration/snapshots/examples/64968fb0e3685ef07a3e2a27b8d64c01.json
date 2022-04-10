@@ -9,6 +9,8 @@
 		},
 		"language": null,
 		"title": "Example Feed",
-		"description": null
+		"description": null,
+		"link": "http://example.org/",
+		"self": null
 	}
 }

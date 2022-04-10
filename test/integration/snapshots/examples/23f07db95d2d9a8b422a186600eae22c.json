@@ -9,6 +9,8 @@
 		},
 		"language": "en-us",
 		"title": "FeedForAll Sample Feed",
-		"description": "RSS is a fascinating technology. The uses for RSS are expanding daily. Take a closer look at how various industries are using the benefits of RSS in their businesses."
+		"description": "RSS is a fascinating technology. The uses for RSS are expanding daily. Take a closer look at how various industries are using the benefits of RSS in their businesses.",
+		"link": "http://www.feedforall.com/industry-solutions.htm",
+		"self": null
 	}
 }

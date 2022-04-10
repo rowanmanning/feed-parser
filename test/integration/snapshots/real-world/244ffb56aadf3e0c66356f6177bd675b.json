@@ -9,6 +9,8 @@
 		},
 		"language": "en",
 		"title": "MacRumors: Mac News and Rumors - All Stories",
-		"description": "Apple, iPhone, iPad, Mac News and Rumors"
+		"description": "Apple, iPhone, iPad, Mac News and Rumors",
+		"link": "https://www.macrumors.com",
+		"self": "https://sample-feeds.rowanmanning.com/real-world/244ffb56aadf3e0c66356f6177bd675b/feed.xml"
 	}
 }

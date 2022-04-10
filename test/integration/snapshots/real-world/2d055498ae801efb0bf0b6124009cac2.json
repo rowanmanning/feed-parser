@@ -9,6 +9,8 @@
 		},
 		"language": "en-gb",
 		"title": "The Guardian",
-		"description": "Latest news, sport, business, comment, analysis and reviews from the Guardian, the world's leading liberal voice"
+		"description": "Latest news, sport, business, comment, analysis and reviews from the Guardian, the world's leading liberal voice",
+		"link": "https://www.theguardian.com/uk",
+		"self": null
 	}
 }

@@ -9,6 +9,8 @@
 		},
 		"language": null,
 		"title": "Example Feed",
-		"description": "A subtitle."
+		"description": "A subtitle.",
+		"link": "http://example.org/",
+		"self": "https://sample-feeds.rowanmanning.com/examples/9271eb94347e058f3f7b8400ea18496e/feed.xml"
 	}
 }
