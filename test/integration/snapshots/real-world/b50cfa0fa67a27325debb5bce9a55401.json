@@ -11,6 +11,8 @@
 		"title": "The Latest News from the UK and Around the World | Sky News",
 		"description": "Sky news delivers breaking news, headlines and top stories from business, politics, entertainment and more in the UK and worldwide.",
 		"link": "https://news.sky.com/home",
-		"self": "https://sample-feeds.rowanmanning.com/real-world/b50cfa0fa67a27325debb5bce9a55401/feed.xml"
+		"self": "https://sample-feeds.rowanmanning.com/real-world/b50cfa0fa67a27325debb5bce9a55401/feed.xml",
+		"published": null,
+		"updated": "2022-04-05T20:12:00.000Z"
 	}
 }

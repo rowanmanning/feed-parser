@@ -11,6 +11,8 @@
 		"title": "WordPress News",
 		"description": "The latest news about WordPress and the WordPress community",
 		"link": "https://wordpress.org/news",
-		"self": "https://sample-feeds.rowanmanning.com/real-world/9bbd59226dc36b9b26cd43f15694c5c3/feed.xml"
+		"self": "https://sample-feeds.rowanmanning.com/real-world/9bbd59226dc36b9b26cd43f15694c5c3/feed.xml",
+		"published": null,
+		"updated": "2022-04-05T19:50:17.000Z"
 	}
 }

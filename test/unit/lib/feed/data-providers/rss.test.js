@@ -425,6 +425,74 @@ describe('lib/feed/data-providers/rss', () => {
 
 		});
 
+		describe('.published', () => {
+			let mockElement;
+
+			beforeEach(() => {
+				mockElement = new MockElement();
+				mockElement.textContentAsDate = 'mock published date';
+				td.when(mockChannelElement.findElementWithName('pubdate')).thenReturn(mockElement);
+			});
+
+			it('is set to the text of the first pubdate element found in the feed', () => {
+				assert.strictEqual(dataProvider.published, 'mock published date');
+			});
+
+			describe('when a pubdate element does not exist', () => {
+
+				beforeEach(() => {
+					td.when(mockChannelElement.findElementWithName('pubdate')).thenReturn(null);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(dataProvider.published);
+				});
+
+			});
+
+		});
+
+		describe('.updated', () => {
+			let mockElement;
+
+			beforeEach(() => {
+				mockElement = new MockElement();
+				mockElement.textContentAsDate = 'mock last build date';
+				td.when(mockChannelElement.findElementWithName('lastbuilddate')).thenReturn(mockElement);
+			});
+
+			it('is set to the text of the first lastbuilddate element found in the feed', () => {
+				assert.strictEqual(dataProvider.updated, 'mock last build date');
+			});
+
+			describe('when a lastbuilddate element does not exist but a date element does', () => {
+
+				beforeEach(() => {
+					mockElement.textContentAsDate = 'mock date';
+					td.when(mockChannelElement.findElementWithName('lastbuilddate')).thenReturn(null);
+					td.when(mockChannelElement.findElementWithName('date')).thenReturn(mockElement);
+				});
+
+				it('is set to the text of the first date element found in the feed', () => {
+					assert.strictEqual(dataProvider.updated, 'mock date');
+				});
+
+			});
+
+			describe('when neither element exists', () => {
+
+				beforeEach(() => {
+					td.when(mockChannelElement.findElementWithName('lastbuilddate')).thenReturn(null);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(dataProvider.updated);
+				});
+
+			});
+
+		});
+
 		describe('when the root element name is "rdf"', () => {
 
 			beforeEach(() => {

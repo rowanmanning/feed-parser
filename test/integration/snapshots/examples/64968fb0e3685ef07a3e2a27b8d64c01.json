@@ -11,6 +11,8 @@
 		"title": "Example Feed",
 		"description": null,
 		"link": "http://example.org/",
-		"self": null
+		"self": null,
+		"published": null,
+		"updated": "2003-12-13T18:30:02.000Z"
 	}
 }

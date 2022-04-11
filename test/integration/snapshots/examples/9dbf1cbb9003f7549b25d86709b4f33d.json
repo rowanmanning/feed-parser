@@ -11,6 +11,8 @@
 		"title": "XML.com",
 		"description": "XML.com features a rich mix of information and services for the XML community.",
 		"link": "http://xml.com/pub",
-		"self": null
+		"self": null,
+		"published": null,
+		"updated": null
 	}
 }

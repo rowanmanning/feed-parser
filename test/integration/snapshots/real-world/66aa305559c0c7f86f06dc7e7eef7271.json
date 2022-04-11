@@ -11,6 +11,8 @@
 		"title": "UK homepage",
 		"description": "UK homepage",
 		"link": "https://www.ft.com",
-		"self": "https://sample-feeds.rowanmanning.com/real-world/66aa305559c0c7f86f06dc7e7eef7271/feed.xml"
+		"self": "https://sample-feeds.rowanmanning.com/real-world/66aa305559c0c7f86f06dc7e7eef7271/feed.xml",
+		"published": null,
+		"updated": "2022-04-05T22:08:48.000Z"
 	}
 }

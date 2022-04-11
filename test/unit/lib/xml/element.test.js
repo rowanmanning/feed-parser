@@ -639,6 +639,47 @@ describe('lib/xml/element', () => {
 
 		});
 
+		describe('.textContentAsDate', () => {
+			let textContentGetter;
+
+			beforeEach(() => {
+				textContentGetter = td.func();
+				td.when(textContentGetter()).thenReturn('  2022-02-02T02:02:02Z ');
+				Object.defineProperty(element, 'textContent', {get: textContentGetter});
+			});
+
+			it('is set to a date object representing the text content of the element', () => {
+				assert.instanceOf(element.textContentAsDate, Date);
+				assert.strictEqual(element.textContentAsDate.toISOString(), '2022-02-02T02:02:02.000Z');
+			});
+
+			describe('when the element text is a date in RSS format', () => {
+
+				beforeEach(() => {
+					td.when(textContentGetter()).thenReturn('Wed, 02 Feb 2022 02:02:02 +0000');
+				});
+
+				it('is set to a date object representing the text content of the element', () => {
+					assert.instanceOf(element.textContentAsDate, Date);
+					assert.strictEqual(element.textContentAsDate.toISOString(), '2022-02-02T02:02:02.000Z');
+				});
+
+			});
+
+			describe('when the element text is not a valid date', () => {
+
+				beforeEach(() => {
+					td.when(textContentGetter()).thenReturn('nope');
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(element.textContentAsDate);
+				});
+
+			});
+
+		});
+
 		describe('.textContentAsUrl', () => {
 			let textContentGetter;
 

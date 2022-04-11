@@ -11,6 +11,8 @@
 		"title": "Sample Feed",
 		"description": "For documentation <em>only</em>",
 		"link": "http://example.org/",
-		"self": null
+		"self": null,
+		"published": "2002-09-07T00:00:01.000Z",
+		"updated": null
 	}
 }

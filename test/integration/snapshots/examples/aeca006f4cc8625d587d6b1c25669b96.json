@@ -11,6 +11,8 @@
 		"title": "Dave Winer: Grateful Dead",
 		"description": "A high-fidelity Grateful Dead song every day. This is where we're experimenting with enclosures on RSS news items that download when you're not using your computer. If it works (it will) it will be the end of the Click-And-Wait multimedia experience on the Internet.",
 		"link": "http://www.scripting.com/blog/categories/gratefulDead.html",
-		"self": null
+		"self": null,
+		"published": null,
+		"updated": "2001-04-13T19:23:02.000Z"
 	}
 }

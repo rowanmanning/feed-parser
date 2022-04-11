@@ -397,6 +397,55 @@ describe('lib/feed/data-providers/atom', () => {
 
 		});
 
+		describe('.published', () => {
+
+			it('is set to `null`', () => {
+				assert.isNull(dataProvider.published);
+			});
+
+		});
+
+		describe('.updated', () => {
+			let mockElement;
+
+			beforeEach(() => {
+				mockElement = new MockElement();
+				mockElement.textContentAsDate = 'mock updated date';
+				td.when(mockRootElement.findElementWithName('updated')).thenReturn(mockElement);
+			});
+
+			it('is set to the text of the first updated element found in the feed', () => {
+				assert.strictEqual(dataProvider.updated, 'mock updated date');
+			});
+
+			describe('when an updated element does not exist but a modified element does', () => {
+
+				beforeEach(() => {
+					mockElement.textContentAsDate = 'mock modified date';
+					td.when(mockRootElement.findElementWithName('updated')).thenReturn(null);
+					td.when(mockRootElement.findElementWithName('modified')).thenReturn(mockElement);
+				});
+
+				it('is set to the text of the first modified element found in the feed', () => {
+					assert.strictEqual(dataProvider.updated, 'mock modified date');
+				});
+
+			});
+
+			describe('when neither element exists', () => {
+
+				beforeEach(() => {
+					td.when(mockRootElement.findElementWithName('updated')).thenReturn(null);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(dataProvider.updated);
+				});
+
+			});
+
+		});
+
 		describe('if no root element is found', () => {
 			let thrownError;
 

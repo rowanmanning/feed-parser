@@ -11,6 +11,8 @@
 		"title": "WriteTheWeb",
 		"description": "News for web users that write back",
 		"link": "http://writetheweb.com",
-		"self": null
+		"self": null,
+		"published": null,
+		"updated": null
 	}
 }

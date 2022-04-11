@@ -95,6 +95,28 @@ describe('lib/feed/data-providers/base', () => {
 
 		});
 
+		describe('.published', () => {
+
+			it('throws an error', () => {
+				assert.throws(
+					() => dataProvider.published,
+					'DataProvider.published must be implemented in an extending class'
+				);
+			});
+
+		});
+
+		describe('.updated', () => {
+
+			it('throws an error', () => {
+				assert.throws(
+					() => dataProvider.updated,
+					'DataProvider.updated must be implemented in an extending class'
+				);
+			});
+
+		});
+
 		describe('.toJSON()', () => {
 			let returnValue;
 
@@ -105,7 +127,9 @@ describe('lib/feed/data-providers/base', () => {
 					title: 'mock-title',
 					description: 'mock-description',
 					link: 'mock-link',
-					self: 'mock-self'
+					self: 'mock-self',
+					published: 'mock-published',
+					updated: 'mock-updated'
 				});
 			});
 
@@ -116,7 +140,9 @@ describe('lib/feed/data-providers/base', () => {
 					title: 'mock-title',
 					description: 'mock-description',
 					link: 'mock-link',
-					self: 'mock-self'
+					self: 'mock-self',
+					published: 'mock-published',
+					updated: 'mock-updated'
 				});
 			});
 
