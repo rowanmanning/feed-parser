@@ -118,19 +118,21 @@ describe('lib/feed/data-providers/base', () => {
 		});
 
 		describe('.toJSON()', () => {
+			let mockDataProvider;
 			let returnValue;
 
 			beforeEach(() => {
-				returnValue = dataProvider.toJSON.call({
+				mockDataProvider = {
 					meta: 'mock-meta',
 					language: 'mock-language',
 					title: 'mock-title',
 					description: 'mock-description',
 					link: 'mock-link',
 					self: 'mock-self',
-					published: 'mock-published',
-					updated: 'mock-updated'
-				});
+					published: new Date('2022-01-01T01:02:03.000Z'),
+					updated: new Date('2022-01-01T04:05:06.000Z')
+				};
+				returnValue = dataProvider.toJSON.call(mockDataProvider);
 			});
 
 			it('returns a JSON representation of the data provider', () => {
@@ -141,9 +143,24 @@ describe('lib/feed/data-providers/base', () => {
 					description: 'mock-description',
 					link: 'mock-link',
 					self: 'mock-self',
-					published: 'mock-published',
-					updated: 'mock-updated'
+					published: '2022-01-01T01:02:03.000Z',
+					updated: '2022-01-01T04:05:06.000Z'
 				});
+			});
+
+			describe('when publish and updated dates are not set', () => {
+
+				beforeEach(() => {
+					mockDataProvider.published = null;
+					mockDataProvider.updated = null;
+					returnValue = dataProvider.toJSON.call(mockDataProvider);
+				});
+
+				it('returns those properties as `null`', () => {
+					assert.isNull(returnValue.published);
+					assert.isNull(returnValue.updated);
+				});
+
 			});
 
 		});
