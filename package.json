@@ -36,7 +36,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.0.0",
     "@commitlint/config-conventional": "^17.0.0",
-    "@rowanmanning/eslint-config": "^3.4.0",
+    "@rowanmanning/eslint-config": "^3.5.0",
     "chai": "^4.3.6",
     "eslint": "^8.15.0",
     "husky": "^8.0.1",
