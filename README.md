@@ -3,7 +3,7 @@
 
 Parse RSS and Atom feeds.
 
-**:warning: This project has not been released yet and it's not really usable :warning:**
+**:warning: This project is not ready for production use yet, and is missing a lot of features :warning:**
 
 
 ## Table of Contents
