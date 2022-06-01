@@ -1,0 +1,18 @@
+{
+	"title": "GitHub Repo Commits",
+	"hash": "d1b6d321bb845c85d51711e414bf56c9",
+	"url": "https://sample-feeds.rowanmanning.com/real-world/d1b6d321bb845c85d51711e414bf56c9/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "atom",
+			"version": "1.0"
+		},
+		"language": "en-US",
+		"title": "Recent Commits to hugo:master",
+		"description": null,
+		"link": "https://github.com/gohugoio/hugo/commits/master",
+		"self": "https://sample-feeds.rowanmanning.com/real-world/d1b6d321bb845c85d51711e414bf56c9/feed.xml",
+		"published": null,
+		"updated": "2022-05-31T09:19:15.000Z"
+	}
+}
