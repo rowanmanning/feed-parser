@@ -1,5 +1,17 @@
 # Changelog
 
+### [0.1.1](https://github.com/rowanmanning/feed-parser/compare/v0.1.0...v0.1.1) (2022-06-01)
+
+
+### Features
+
+* add in `copyright` parsing ([ebe92b4](https://github.com/rowanmanning/feed-parser/commit/ebe92b42bef3f0dd584034d403c70de876d5b577))
+
+
+### Bug Fixes
+
+* parse HTML entities in text content ([f112d04](https://github.com/rowanmanning/feed-parser/commit/f112d041c67604167340976d5c29a03e112f407b))
+
 ## 0.1.0 (2022-06-01)
 
 
