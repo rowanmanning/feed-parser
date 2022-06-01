@@ -5,8 +5,10 @@ const td = require('testdouble');
 
 describe('lib/xml/element', () => {
 	let Element;
+	let htmlEntities;
 
 	beforeEach(() => {
+		htmlEntities = td.replace('html-entities', require('../../mock/npm/html-entities.mock')());
 		Element = require('../../../../lib/xml/element');
 	});
 
@@ -699,8 +701,10 @@ describe('lib/xml/element', () => {
 
 		describe('.textContentNormalized', () => {
 			let childrenGetter;
+			let textContentNormalized;
 
 			beforeEach(() => {
+				td.when(htmlEntities.decode('mock text 1 mock text 2 mock text 3')).thenReturn('mock decoded text');
 				childrenGetter = td.func();
 				td.when(childrenGetter()).thenReturn([
 					{
@@ -712,10 +716,15 @@ describe('lib/xml/element', () => {
 					'mock text 3 '
 				]);
 				Object.defineProperty(element, 'children', {get: childrenGetter});
+				textContentNormalized = element.textContentNormalized;
 			});
 
-			it('is set to a trimmed joined text content with adjacent whitespace condensed', () => {
-				assert.strictEqual(element.textContentNormalized, 'mock text 1 mock text 2 mock text 3');
+			it('decodes HTML entities on the trimmed joined text content with adjacent whitespace condensed', () => {
+				td.verify(htmlEntities.decode('mock text 1 mock text 2 mock text 3'), {times: 1});
+			});
+
+			it('is set to the decoded string', () => {
+				assert.strictEqual(textContentNormalized, 'mock decoded text');
 			});
 
 		});
