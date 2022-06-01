@@ -244,6 +244,47 @@ describe('lib/feed/data-providers/atom', () => {
 
 		});
 
+		describe('.copyright', () => {
+			let mockElement;
+
+			beforeEach(() => {
+				mockElement = new MockElement();
+				mockElement.textContentNormalized = 'mock rights text';
+				td.when(mockRootElement.findElementWithName('rights')).thenReturn(mockElement);
+			});
+
+			it('is set to the text of the first rights element found in the feed', () => {
+				assert.strictEqual(dataProvider.copyright, 'mock rights text');
+			});
+
+			describe('when a rights element does not exist but a copyright element does', () => {
+
+				beforeEach(() => {
+					mockElement.textContentNormalized = 'mock copyright text';
+					td.when(mockRootElement.findElementWithName('rights')).thenReturn(null);
+					td.when(mockRootElement.findElementWithName('copyright')).thenReturn(mockElement);
+				});
+
+				it('is set to the text of the first copyright element found in the feed', () => {
+					assert.strictEqual(dataProvider.copyright, 'mock copyright text');
+				});
+
+			});
+
+			describe('when neither element exists', () => {
+
+				beforeEach(() => {
+					td.when(mockRootElement.findElementWithName('rights')).thenReturn(null);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(dataProvider.copyright);
+				});
+
+			});
+
+		});
+
 		describe('.link', () => {
 			let mockLinks;
 

@@ -299,6 +299,47 @@ describe('lib/feed/data-providers/rss', () => {
 
 		});
 
+		describe('.copyright', () => {
+			let mockElement;
+
+			beforeEach(() => {
+				mockElement = new MockElement();
+				mockElement.textContentNormalized = 'mock copyright text';
+				td.when(mockChannelElement.findElementWithName('copyright')).thenReturn(mockElement);
+			});
+
+			it('is set to the text of the first copyright element found in the feed', () => {
+				assert.strictEqual(dataProvider.copyright, 'mock copyright text');
+			});
+
+			describe('when a copyright element does not exist but a rights element does', () => {
+
+				beforeEach(() => {
+					mockElement.textContentNormalized = 'mock rights text';
+					td.when(mockChannelElement.findElementWithName('copyright')).thenReturn(null);
+					td.when(mockChannelElement.findElementWithName('rights')).thenReturn(mockElement);
+				});
+
+				it('is set to the text of the first rights element found in the feed', () => {
+					assert.strictEqual(dataProvider.copyright, 'mock rights text');
+				});
+
+			});
+
+			describe('when neither element exists', () => {
+
+				beforeEach(() => {
+					td.when(mockChannelElement.findElementWithName('copyright')).thenReturn(null);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(dataProvider.copyright);
+				});
+
+			});
+
+		});
+
 		describe('.link', () => {
 			let mockLinks;
 

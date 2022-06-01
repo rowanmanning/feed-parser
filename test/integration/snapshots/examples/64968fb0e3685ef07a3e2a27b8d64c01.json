@@ -10,6 +10,7 @@
 		"language": null,
 		"title": "Example Feed",
 		"description": null,
+		"copyright": null,
 		"link": "http://example.org/",
 		"self": null,
 		"published": null,

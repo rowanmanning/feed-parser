@@ -73,6 +73,17 @@ describe('lib/feed/data-providers/base', () => {
 
 		});
 
+		describe('.copyright', () => {
+
+			it('throws an error', () => {
+				assert.throws(
+					() => dataProvider.copyright,
+					'DataProvider.copyright must be implemented in an extending class'
+				);
+			});
+
+		});
+
 		describe('.link', () => {
 
 			it('throws an error', () => {
@@ -127,6 +138,7 @@ describe('lib/feed/data-providers/base', () => {
 					language: 'mock-language',
 					title: 'mock-title',
 					description: 'mock-description',
+					copyright: 'mock-copyright',
 					link: 'mock-link',
 					self: 'mock-self',
 					published: new Date('2022-01-01T01:02:03.000Z'),
@@ -141,6 +153,7 @@ describe('lib/feed/data-providers/base', () => {
 					language: 'mock-language',
 					title: 'mock-title',
 					description: 'mock-description',
+					copyright: 'mock-copyright',
 					link: 'mock-link',
 					self: 'mock-self',
 					published: '2022-01-01T01:02:03.000Z',

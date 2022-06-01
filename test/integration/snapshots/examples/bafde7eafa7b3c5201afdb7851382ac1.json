@@ -10,6 +10,7 @@
 		"language": "en",
 		"title": "Sample Feed",
 		"description": "For documentation only",
+		"copyright": null,
 		"link": "http://www.example.org/",
 		"self": null,
 		"published": null,

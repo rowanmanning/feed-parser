@@ -10,6 +10,7 @@
 		"language": "en",
 		"title": "Sample Feed",
 		"description": "For documentation <em>only</em>",
+		"copyright": "<p>Copyright 2004, Mark Pilgrim</p><",
 		"link": "http://example.org/",
 		"self": null,
 		"published": null,

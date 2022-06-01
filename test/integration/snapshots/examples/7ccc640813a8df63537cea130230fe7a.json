@@ -10,6 +10,7 @@
 		"language": "en-us",
 		"title": "WriteTheWeb",
 		"description": "News for web users that write back",
+		"copyright": "Copyright 2000, WriteTheWeb team.",
 		"link": "http://writetheweb.com",
 		"self": null,
 		"published": null,

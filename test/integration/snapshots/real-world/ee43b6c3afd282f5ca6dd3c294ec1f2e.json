@@ -10,6 +10,7 @@
 		"language": "en-us",
 		"title": "NASA Breaking News",
 		"description": "A RSS news feed containing the latest NASA news articles and press releases.",
+		"copyright": null,
 		"link": "http://www.nasa.gov/",
 		"self": "http://www.nasa.gov/rss/dyn/breaking_news.rss",
 		"published": null,
