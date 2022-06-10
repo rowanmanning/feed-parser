@@ -23,7 +23,7 @@ describe('lib/xml/element', () => {
 
 		beforeEach(() => {
 			mockRawElement = {
-				MOCK: [
+				'MOCK': [
 					{
 						'mock-child-1': []
 					},
@@ -66,7 +66,7 @@ describe('lib/xml/element', () => {
 
 				beforeEach(() => {
 					element = new Element({
-						MOCK: [],
+						'MOCK': [],
 						'#text': ''
 					});
 				});
@@ -89,7 +89,7 @@ describe('lib/xml/element', () => {
 
 				beforeEach(() => {
 					element = new Element({
-						MOCK: [],
+						'MOCK': [],
 						':@': {
 							'xml:base': 'https://mock-base/'
 						}
@@ -107,7 +107,7 @@ describe('lib/xml/element', () => {
 							baseUrl: 'https://mock-parent-base/'
 						};
 						element = new Element({
-							MOCK: [],
+							'MOCK': [],
 							':@': {
 								'xml:base': 'https://mock-base/'
 							}
@@ -126,7 +126,7 @@ describe('lib/xml/element', () => {
 
 				beforeEach(() => {
 					element = new Element({
-						MOCK: [],
+						'MOCK': [],
 						':@': {
 							'xml:base': './mock-path'
 						}
@@ -144,7 +144,7 @@ describe('lib/xml/element', () => {
 							baseUrl: 'https://mock-parent-base/mock-parent-path/'
 						};
 						element = new Element({
-							MOCK: [],
+							'MOCK': [],
 							':@': {
 								'xml:base': './mock-path'
 							}
@@ -162,7 +162,7 @@ describe('lib/xml/element', () => {
 								baseUrl: {isInvalid: true}
 							};
 							element = new Element({
-								MOCK: [],
+								'MOCK': [],
 								':@': {
 									'xml:base': './mock-path'
 								}
@@ -186,7 +186,7 @@ describe('lib/xml/element', () => {
 						baseUrl: 'https://mock-parent-base/'
 					};
 					element = new Element({
-						MOCK: [],
+						'MOCK': [],
 						':@': {}
 					}, mockParent);
 				});
@@ -419,8 +419,8 @@ describe('lib/xml/element', () => {
 					element = new Element({
 						'MOCK-NAME': [],
 						':@': {
-							attr: 'mock-attribute-value',
-							xmlns: 'mock-xml-namespace',
+							'attr': 'mock-attribute-value',
+							'xmlns': 'mock-xml-namespace',
 							'xmlns:mock-ns': 'mock-named-xml-namespace'
 						},
 						'#text': ''
@@ -440,8 +440,8 @@ describe('lib/xml/element', () => {
 						element = new Element({
 							'MOCK-NAME': [],
 							':@': {
-								attr: 'mock-attribute-value',
-								xmlns: '   mock-xml-namespace   ',
+								'attr': 'mock-attribute-value',
+								'xmlns': '   mock-xml-namespace   ',
 								'xmlns:mock-ns': '\n\t\tmock-named-xml-namespace\n\n'
 							},
 							'#text': ''
@@ -464,8 +464,8 @@ describe('lib/xml/element', () => {
 						mockRawElement = {
 							'MOCK-NAME': [],
 							':@': {
-								attr: 'mock-attribute-value',
-								xmlns: 'mock-child-xml-namespace',
+								'attr': 'mock-attribute-value',
+								'xmlns': 'mock-child-xml-namespace',
 								'xmlns:mock-child-ns': 'mock-named-child-xml-namespace',
 								'xmlns:mock-clashing-ns': 'mock-child-clashing-xml-namespace'
 							},
@@ -1050,7 +1050,7 @@ describe('lib/xml/element', () => {
 
 		beforeEach(() => {
 			returnValue = Element.create({
-				MOCK: [],
+				'MOCK': [],
 				':@': {},
 				'#text': ''
 			}, null);
