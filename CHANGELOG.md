@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.1.2](https://github.com/rowanmanning/feed-parser/compare/v0.1.1...v0.1.2) (2022-06-11)
+
+
+### Features
+
+* ensure typescript types are always valid ([b63ed9a](https://github.com/rowanmanning/feed-parser/commit/b63ed9a37418398a700ce464f4bb8d7787a7137a))
+
+
+### Miscellaneous
+
+* bump @commitlint/cli from 17.0.1 to 17.0.2 ([273be26](https://github.com/rowanmanning/feed-parser/commit/273be2634169102f6d82baa20b67b2e62ca95c03))
+* bump @commitlint/config-conventional from 17.0.0 to 17.0.2 ([e1d3cbf](https://github.com/rowanmanning/feed-parser/commit/e1d3cbf7c251c3aea7508297cc636cdf81f376dd))
+* bump @rowanmanning/eslint-config from 3.5.0 to 4.0.2 ([2e89bcf](https://github.com/rowanmanning/feed-parser/commit/2e89bcf98cbe376e9db8404fb7a20c93cb1fdf08))
+* bump eslint from 8.16.0 to 8.17.0 ([511c67d](https://github.com/rowanmanning/feed-parser/commit/511c67d218921a21260fc98659ea1ce05f67defd))
+* fix eslint issues ([c5ad7fb](https://github.com/rowanmanning/feed-parser/commit/c5ad7fb13d55839386dbe72d4d6ff3490936acc0))
+
 ### [0.1.1](https://github.com/rowanmanning/feed-parser/compare/v0.1.0...v0.1.1) (2022-06-01)
 
 
