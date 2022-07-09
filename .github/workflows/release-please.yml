@@ -16,7 +16,7 @@ jobs:
           package-name: '@rowanmanning/feed-parser'
           bump-minor-pre-major: true
           bump-patch-for-minor-pre-major: true
-          changelog-types: '[{"type":"feat","section":"Features","hidden":false},{"type":"fix","section":"Bug Fixes","hidden":false},{"type":"docs","section":"Documentation Changes","hidden":false},{"type":"chore","section":"Miscellaneous","hidden":false}]'
+          changelog-types: '[{"type":"feat","section":"Features","hidden":false},{"type":"fix","section":"Bug Fixes","hidden":false},{"type":"docs","section":"Documentation Changes","hidden":false},{"type":"chore","section":"Miscellaneous","hidden":true}]'
 
       # Publish a release to npm if it was merged into main
       - uses: actions/checkout@v2
