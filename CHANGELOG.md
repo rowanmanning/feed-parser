@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/rowanmanning/feed-parser/compare/v0.1.2...v0.1.3) (2022-07-09)
+
+
+### Bug Fixes
+
+* hide the misc changelog section ([6d6e7ef](https://github.com/rowanmanning/feed-parser/commit/6d6e7ef7a47ec585b661ca85c83504bf808935a5))
+
 ## [0.1.2](https://github.com/rowanmanning/feed-parser/compare/v0.1.1...v0.1.2) (2022-06-11)
 
 
