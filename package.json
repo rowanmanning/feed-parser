@@ -16,8 +16,8 @@
   "bugs": "https://github.com/rowanmanning/feed-parser/issues",
   "license": "MIT",
   "engines": {
-    "node": ">=14",
-    "npm": ">=7"
+    "node": "14.x || 16.x || 18.x",
+    "npm": "7.x || 8.x"
   },
   "scripts": {
     "verify": "npm run verify:eslint && npm run verify:types",
