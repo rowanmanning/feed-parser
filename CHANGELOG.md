@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.7](https://github.com/rowanmanning/feed-parser/compare/v0.1.6...v0.1.7) (2022-11-14)
+
+
+### Bug Fixes
+
+* improve TypeScript compatibility ([d541ac9](https://github.com/rowanmanning/feed-parser/commit/d541ac949048478e7b8a51197305921c7fffe55f))
+
 ## [0.1.6](https://github.com/rowanmanning/feed-parser/compare/v0.1.5...v0.1.6) (2022-10-18)
 
 
