@@ -11,7 +11,12 @@ describe('lib/feed-parser', () => {
 
 	it('is an object', () => {
 		assert.isObject(feedParser);
-		assert.deepEqual(feedParser, {});
+	});
+
+	describe('.default', () => {
+		it('aliases the module exports', () => {
+			assert.strictEqual(feedParser, feedParser.default);
+		});
 	});
 
 });

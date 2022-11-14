@@ -20,6 +20,8 @@
     "npm": "7.x || 8.x"
   },
   "scripts": {
+    "build": "npm run build:types",
+    "build:types": "tsc --noEmit false --emitDeclarationOnly --project ./jsconfig.json",
     "verify": "npm run verify:eslint && npm run verify:types",
     "verify:eslint": "eslint .",
     "verify:types": "tsc --noEmit --project ./jsconfig.json",
