@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.1.9](https://github.com/rowanmanning/feed-parser/compare/v0.1.8...v0.1.9) (2023-01-08)
+
+
+### Bug Fixes
+
+* bump axios from 0.27.2 to 1.2.2 ([7478080](https://github.com/rowanmanning/feed-parser/commit/7478080817a5f3777d04abbf45d69bd256ea7bcc))
+* bump json5 from 2.2.1 to 2.2.3 ([803c9a6](https://github.com/rowanmanning/feed-parser/commit/803c9a61b4f3a6c21b0920f6a911e45366a403ad))
+
 ## [0.1.8](https://github.com/rowanmanning/feed-parser/compare/v0.1.7...v0.1.8) (2022-12-21)
 
 
