@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.12](https://github.com/rowanmanning/feed-parser/compare/v0.1.11...v0.1.12) (2023-01-30)
+
+
+### Bug Fixes
+
+* bump axios from 1.2.4 to 1.2.6 ([0340eb3](https://github.com/rowanmanning/feed-parser/commit/0340eb3f81e677852113dca7bbd3b868b827e3b2))
+
 ## [0.1.11](https://github.com/rowanmanning/feed-parser/compare/v0.1.10...v0.1.11) (2023-01-26)
 
 
