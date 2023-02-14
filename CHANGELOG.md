@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.1.14](https://github.com/rowanmanning/feed-parser/compare/v0.1.13...v0.1.14) (2023-02-14)
+
+
+### Bug Fixes
+
+* bump axios from 1.3.1 to 1.3.2 ([b80c1ec](https://github.com/rowanmanning/feed-parser/commit/b80c1ecbf12e180613e7e87c3c96da702ccd37a0))
+* bump axios from 1.3.2 to 1.3.3 ([bb6da1e](https://github.com/rowanmanning/feed-parser/commit/bb6da1eb2b82e138ed30a894d8f531e405529bea))
+* bump fast-xml-parser from 4.1.1 to 4.1.2 ([7b08912](https://github.com/rowanmanning/feed-parser/commit/7b08912dbcf7c0de5b5deee14f54012329ca3085))
+
 ## [0.1.13](https://github.com/rowanmanning/feed-parser/compare/v0.1.12...v0.1.13) (2023-02-03)
 
 
