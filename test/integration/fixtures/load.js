@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 
-const fetch = require('../../../lib/utils/fetch');
+const fetch = require('../helpers/fetch');
 const path = require('path');
 const writeJSON = require('../helpers/write-json');
 
