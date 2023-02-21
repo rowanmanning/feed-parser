@@ -2,11 +2,11 @@
 
 const {assert} = require('chai');
 
-describe('lib/feed/errors/invalid-feed', () => {
+describe('lib/errors/invalid-feed', () => {
 	let InvalidFeedError;
 
 	beforeEach(() => {
-		InvalidFeedError = require('../../../../../lib/feed/errors/invalid-feed');
+		InvalidFeedError = require('../../../../lib/errors/invalid-feed');
 	});
 
 	describe('new InvalidFeedError(message)', () => {

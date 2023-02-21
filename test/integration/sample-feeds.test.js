@@ -2,7 +2,7 @@
 
 const {assert} = require('chai');
 const axios = require('axios').default;
-const {Feed} = require('../../lib/feed');
+const feed = require('../../lib/feed');
 const path = require('path');
 const writeJSON = require('./helpers/write-json');
 
@@ -38,7 +38,7 @@ for (const suite of suites) {
 					};
 					try {
 						xml = (await axios(test.urls.feed)).data;
-						actual.feed = Feed.fromString(xml).toJSON();
+						actual.feed = feed.fromString(xml).toJSON();
 					} catch (error) {
 						actual.error = {
 							code: error.code,

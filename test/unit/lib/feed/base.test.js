@@ -2,29 +2,29 @@
 
 const {assert} = require('chai');
 
-describe('lib/feed/data-providers/base', () => {
-	let DataProvider;
+describe('lib/feed/base', () => {
+	let Feed;
 
 	beforeEach(() => {
-		DataProvider = require('../../../../../lib/feed/data-providers/base');
+		Feed = require('../../../../lib/feed/base');
 	});
 
 	it('is a class constructor', () => {
-		assert.isFunction(DataProvider);
-		assert.isFunction(DataProvider.prototype.constructor);
+		assert.isFunction(Feed);
+		assert.isFunction(Feed.prototype.constructor);
 	});
 
-	describe('new DataProvider(document)', () => {
-		let dataProvider;
+	describe('new Feed(document)', () => {
+		let feed;
 
 		beforeEach(() => {
-			dataProvider = new DataProvider('mock-document');
+			feed = new Feed('mock-document');
 		});
 
 		describe('.document', () => {
 
 			it('is set to the passed in document', () => {
-				assert.strictEqual(dataProvider.document, 'mock-document');
+				assert.strictEqual(feed.document, 'mock-document');
 			});
 
 		});
@@ -33,8 +33,8 @@ describe('lib/feed/data-providers/base', () => {
 
 			it('throws an error', () => {
 				assert.throws(
-					() => dataProvider.meta,
-					'DataProvider.meta must be implemented in an extending class'
+					() => feed.meta,
+					'Feed.meta must be implemented in an extending class'
 				);
 			});
 
@@ -44,8 +44,8 @@ describe('lib/feed/data-providers/base', () => {
 
 			it('throws an error', () => {
 				assert.throws(
-					() => dataProvider.language,
-					'DataProvider.language must be implemented in an extending class'
+					() => feed.language,
+					'Feed.language must be implemented in an extending class'
 				);
 			});
 
@@ -55,8 +55,8 @@ describe('lib/feed/data-providers/base', () => {
 
 			it('throws an error', () => {
 				assert.throws(
-					() => dataProvider.title,
-					'DataProvider.title must be implemented in an extending class'
+					() => feed.title,
+					'Feed.title must be implemented in an extending class'
 				);
 			});
 
@@ -66,8 +66,8 @@ describe('lib/feed/data-providers/base', () => {
 
 			it('throws an error', () => {
 				assert.throws(
-					() => dataProvider.description,
-					'DataProvider.description must be implemented in an extending class'
+					() => feed.description,
+					'Feed.description must be implemented in an extending class'
 				);
 			});
 
@@ -77,8 +77,8 @@ describe('lib/feed/data-providers/base', () => {
 
 			it('throws an error', () => {
 				assert.throws(
-					() => dataProvider.copyright,
-					'DataProvider.copyright must be implemented in an extending class'
+					() => feed.copyright,
+					'Feed.copyright must be implemented in an extending class'
 				);
 			});
 
@@ -88,8 +88,8 @@ describe('lib/feed/data-providers/base', () => {
 
 			it('throws an error', () => {
 				assert.throws(
-					() => dataProvider.link,
-					'DataProvider.link must be implemented in an extending class'
+					() => feed.link,
+					'Feed.link must be implemented in an extending class'
 				);
 			});
 
@@ -99,8 +99,8 @@ describe('lib/feed/data-providers/base', () => {
 
 			it('throws an error', () => {
 				assert.throws(
-					() => dataProvider.self,
-					'DataProvider.self must be implemented in an extending class'
+					() => feed.self,
+					'Feed.self must be implemented in an extending class'
 				);
 			});
 
@@ -110,8 +110,8 @@ describe('lib/feed/data-providers/base', () => {
 
 			it('throws an error', () => {
 				assert.throws(
-					() => dataProvider.published,
-					'DataProvider.published must be implemented in an extending class'
+					() => feed.published,
+					'Feed.published must be implemented in an extending class'
 				);
 			});
 
@@ -121,19 +121,19 @@ describe('lib/feed/data-providers/base', () => {
 
 			it('throws an error', () => {
 				assert.throws(
-					() => dataProvider.updated,
-					'DataProvider.updated must be implemented in an extending class'
+					() => feed.updated,
+					'Feed.updated must be implemented in an extending class'
 				);
 			});
 
 		});
 
 		describe('.toJSON()', () => {
-			let mockDataProvider;
+			let mockFeed;
 			let returnValue;
 
 			beforeEach(() => {
-				mockDataProvider = {
+				mockFeed = {
 					meta: 'mock-meta',
 					language: 'mock-language',
 					title: 'mock-title',
@@ -144,10 +144,10 @@ describe('lib/feed/data-providers/base', () => {
 					published: new Date('2022-01-01T01:02:03.000Z'),
 					updated: new Date('2022-01-01T04:05:06.000Z')
 				};
-				returnValue = dataProvider.toJSON.call(mockDataProvider);
+				returnValue = feed.toJSON.call(mockFeed);
 			});
 
-			it('returns a JSON representation of the data provider', () => {
+			it('returns a JSON representation of the feed', () => {
 				assert.deepEqual(returnValue, {
 					meta: 'mock-meta',
 					language: 'mock-language',
@@ -164,9 +164,9 @@ describe('lib/feed/data-providers/base', () => {
 			describe('when publish and updated dates are not set', () => {
 
 				beforeEach(() => {
-					mockDataProvider.published = null;
-					mockDataProvider.updated = null;
-					returnValue = dataProvider.toJSON.call(mockDataProvider);
+					mockFeed.published = null;
+					mockFeed.updated = null;
+					returnValue = feed.toJSON.call(mockFeed);
 				});
 
 				it('returns those properties as `null`', () => {

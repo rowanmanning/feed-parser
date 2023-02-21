@@ -3,28 +3,28 @@
 const {assert} = require('chai');
 const td = require('testdouble');
 
-describe('lib/feed/data-providers/atom', () => {
-	let AtomDataProvider;
-	let DataProvider;
+describe('lib/feed/atom', () => {
+	let AtomFeed;
+	let Feed;
 	let InvalidFeedError;
 	let MockDocument;
 	let MockElement;
 
 	beforeEach(() => {
-		MockDocument = require('../../../mock/lib/xml/document.mock')();
-		MockElement = require('../../../mock/lib/xml/element.mock')();
-		DataProvider = td.replace('../../../../../lib/feed/data-providers/base', td.constructor());
-		InvalidFeedError = td.replace('../../../../../lib/feed/errors/invalid-feed', td.constructor());
-		AtomDataProvider = require('../../../../../lib/feed/data-providers/atom');
+		MockDocument = require('../../mock/lib/xml/document.mock')();
+		MockElement = require('../../mock/lib/xml/element.mock')();
+		Feed = td.replace('../../../../lib/feed/base', td.constructor());
+		InvalidFeedError = td.replace('../../../../lib/errors/invalid-feed', td.constructor());
+		AtomFeed = require('../../../../lib/feed/atom');
 	});
 
 	it('is a class constructor', () => {
-		assert.isFunction(AtomDataProvider);
-		assert.isFunction(AtomDataProvider.prototype.constructor);
+		assert.isFunction(AtomFeed);
+		assert.isFunction(AtomFeed.prototype.constructor);
 	});
 
-	describe('new AtomDataProvider(document)', () => {
-		let dataProvider;
+	describe('new AtomFeed(document)', () => {
+		let feed;
 		let mockDocument;
 		let mockRootElement;
 
@@ -35,11 +35,11 @@ describe('lib/feed/data-providers/atom', () => {
 			mockRootElement = new MockElement();
 			td.when(mockDocument.findElementWithName('feed')).thenReturn(mockRootElement);
 
-			dataProvider = new AtomDataProvider(mockDocument);
+			feed = new AtomFeed(mockDocument);
 		});
 
-		it('is an instance of the DataProvider class', () => {
-			assert.instanceOf(dataProvider, DataProvider);
+		it('is an instance of the Feed class', () => {
+			assert.instanceOf(feed, Feed);
 		});
 
 		it('finds a root-level feed element', () => {
@@ -49,7 +49,7 @@ describe('lib/feed/data-providers/atom', () => {
 		describe('.root', () => {
 
 			it('is set to the found feed element', () => {
-				assert.strictEqual(dataProvider.root, mockRootElement);
+				assert.strictEqual(feed.root, mockRootElement);
 			});
 
 		});
@@ -57,13 +57,13 @@ describe('lib/feed/data-providers/atom', () => {
 		describe('.meta', () => {
 
 			it('is an object', () => {
-				assert.isObject(dataProvider.meta);
+				assert.isObject(feed.meta);
 			});
 
 			describe('.type', () => {
 
 				it('is set to "atom"', () => {
-					assert.strictEqual(dataProvider.meta.type, 'atom');
+					assert.strictEqual(feed.meta.type, 'atom');
 				});
 
 			});
@@ -71,7 +71,7 @@ describe('lib/feed/data-providers/atom', () => {
 			describe('.version', () => {
 
 				it('is set to `null`', () => {
-					assert.isNull(dataProvider.meta.version);
+					assert.isNull(feed.meta.version);
 				});
 
 				describe('when the root element has a valid `version` attribute', () => {
@@ -81,7 +81,7 @@ describe('lib/feed/data-providers/atom', () => {
 					});
 
 					it('is set to that version', () => {
-						assert.strictEqual(dataProvider.meta.version, '1.0');
+						assert.strictEqual(feed.meta.version, '1.0');
 					});
 
 				});
@@ -93,7 +93,7 @@ describe('lib/feed/data-providers/atom', () => {
 					});
 
 					it('is set to "0.3"', () => {
-						assert.strictEqual(dataProvider.meta.version, '0.3');
+						assert.strictEqual(feed.meta.version, '0.3');
 					});
 
 				});
@@ -105,7 +105,7 @@ describe('lib/feed/data-providers/atom', () => {
 					});
 
 					it('is set to "1.0"', () => {
-						assert.strictEqual(dataProvider.meta.version, '1.0');
+						assert.strictEqual(feed.meta.version, '1.0');
 					});
 
 				});
@@ -117,7 +117,7 @@ describe('lib/feed/data-providers/atom', () => {
 					});
 
 					it('is set to `null`', () => {
-						assert.isNull(dataProvider.meta.version);
+						assert.isNull(feed.meta.version);
 					});
 
 				});
@@ -129,7 +129,7 @@ describe('lib/feed/data-providers/atom', () => {
 					});
 
 					it('is set to `null`', () => {
-						assert.isNull(dataProvider.meta.version);
+						assert.isNull(feed.meta.version);
 					});
 
 				});
@@ -145,7 +145,7 @@ describe('lib/feed/data-providers/atom', () => {
 			});
 
 			it('is set to the `xml:lang` attribute of the root element', () => {
-				assert.strictEqual(dataProvider.language, 'mock-xml:lang');
+				assert.strictEqual(feed.language, 'mock-xml:lang');
 			});
 
 			describe('when a the `xml:lang` attribute is not set but a `lang` attribute is', () => {
@@ -156,7 +156,7 @@ describe('lib/feed/data-providers/atom', () => {
 				});
 
 				it('is set to the `lang` attribute of the root element', () => {
-					assert.strictEqual(dataProvider.language, 'mock-lang');
+					assert.strictEqual(feed.language, 'mock-lang');
 				});
 
 			});
@@ -169,7 +169,7 @@ describe('lib/feed/data-providers/atom', () => {
 				});
 
 				it('is set to the `null`', () => {
-					assert.strictEqual(dataProvider.language, null);
+					assert.strictEqual(feed.language, null);
 				});
 
 			});
@@ -186,7 +186,7 @@ describe('lib/feed/data-providers/atom', () => {
 			});
 
 			it('is set to the text of the first title element found in the feed', () => {
-				assert.strictEqual(dataProvider.title, 'mock title text');
+				assert.strictEqual(feed.title, 'mock title text');
 			});
 
 			describe('when a title element does not exist', () => {
@@ -196,7 +196,7 @@ describe('lib/feed/data-providers/atom', () => {
 				});
 
 				it('is set to `null`', () => {
-					assert.isNull(dataProvider.title);
+					assert.isNull(feed.title);
 				});
 
 			});
@@ -213,7 +213,7 @@ describe('lib/feed/data-providers/atom', () => {
 			});
 
 			it('is set to the text of the first subtitle element found in the feed', () => {
-				assert.strictEqual(dataProvider.description, 'mock subtitle text');
+				assert.strictEqual(feed.description, 'mock subtitle text');
 			});
 
 			describe('when a subtitle element does not exist but a tagline element does', () => {
@@ -225,7 +225,7 @@ describe('lib/feed/data-providers/atom', () => {
 				});
 
 				it('is set to the text of the first tagline element found in the feed', () => {
-					assert.strictEqual(dataProvider.description, 'mock tagline text');
+					assert.strictEqual(feed.description, 'mock tagline text');
 				});
 
 			});
@@ -237,7 +237,7 @@ describe('lib/feed/data-providers/atom', () => {
 				});
 
 				it('is set to `null`', () => {
-					assert.isNull(dataProvider.description);
+					assert.isNull(feed.description);
 				});
 
 			});
@@ -254,7 +254,7 @@ describe('lib/feed/data-providers/atom', () => {
 			});
 
 			it('is set to the text of the first rights element found in the feed', () => {
-				assert.strictEqual(dataProvider.copyright, 'mock rights text');
+				assert.strictEqual(feed.copyright, 'mock rights text');
 			});
 
 			describe('when a rights element does not exist but a copyright element does', () => {
@@ -266,7 +266,7 @@ describe('lib/feed/data-providers/atom', () => {
 				});
 
 				it('is set to the text of the first copyright element found in the feed', () => {
-					assert.strictEqual(dataProvider.copyright, 'mock copyright text');
+					assert.strictEqual(feed.copyright, 'mock copyright text');
 				});
 
 			});
@@ -278,7 +278,7 @@ describe('lib/feed/data-providers/atom', () => {
 				});
 
 				it('is set to `null`', () => {
-					assert.isNull(dataProvider.copyright);
+					assert.isNull(feed.copyright);
 				});
 
 			});
@@ -321,7 +321,7 @@ describe('lib/feed/data-providers/atom', () => {
 			});
 
 			it('is set to the href attribute of the first link[rel=alternate] element found in the feed', () => {
-				assert.strictEqual(dataProvider.link, 'mock-href-alternate');
+				assert.strictEqual(feed.link, 'mock-href-alternate');
 			});
 
 			describe('when a link[rel=alternate] element does not exist but a link element without a rel attribute does', () => {
@@ -335,7 +335,7 @@ describe('lib/feed/data-providers/atom', () => {
 				});
 
 				it('is set to the href attribute of the first link element found in the feed without a rel attribute', () => {
-					assert.strictEqual(dataProvider.link, 'mock-href-norel');
+					assert.strictEqual(feed.link, 'mock-href-norel');
 				});
 
 			});
@@ -350,7 +350,7 @@ describe('lib/feed/data-providers/atom', () => {
 				});
 
 				it('is set to `null`', () => {
-					assert.isNull(dataProvider.link);
+					assert.isNull(feed.link);
 				});
 
 			});
@@ -362,7 +362,7 @@ describe('lib/feed/data-providers/atom', () => {
 				});
 
 				it('is set to `null`', () => {
-					assert.isNull(dataProvider.link);
+					assert.isNull(feed.link);
 				});
 
 			});
@@ -405,7 +405,7 @@ describe('lib/feed/data-providers/atom', () => {
 			});
 
 			it('is set to the href attribute of the first link[rel=self] element found in the feed', () => {
-				assert.strictEqual(dataProvider.self, 'mock-href-self');
+				assert.strictEqual(feed.self, 'mock-href-self');
 			});
 
 			describe('when no links have appropriate rel attributes', () => {
@@ -419,7 +419,7 @@ describe('lib/feed/data-providers/atom', () => {
 				});
 
 				it('is set to `null`', () => {
-					assert.isNull(dataProvider.self);
+					assert.isNull(feed.self);
 				});
 
 			});
@@ -431,7 +431,7 @@ describe('lib/feed/data-providers/atom', () => {
 				});
 
 				it('is set to `null`', () => {
-					assert.isNull(dataProvider.self);
+					assert.isNull(feed.self);
 				});
 
 			});
@@ -441,7 +441,7 @@ describe('lib/feed/data-providers/atom', () => {
 		describe('.published', () => {
 
 			it('is set to `null`', () => {
-				assert.isNull(dataProvider.published);
+				assert.isNull(feed.published);
 			});
 
 		});
@@ -456,7 +456,7 @@ describe('lib/feed/data-providers/atom', () => {
 			});
 
 			it('is set to the text of the first updated element found in the feed', () => {
-				assert.strictEqual(dataProvider.updated, 'mock updated date');
+				assert.strictEqual(feed.updated, 'mock updated date');
 			});
 
 			describe('when an updated element does not exist but a modified element does', () => {
@@ -468,7 +468,7 @@ describe('lib/feed/data-providers/atom', () => {
 				});
 
 				it('is set to the text of the first modified element found in the feed', () => {
-					assert.strictEqual(dataProvider.updated, 'mock modified date');
+					assert.strictEqual(feed.updated, 'mock modified date');
 				});
 
 			});
@@ -480,7 +480,7 @@ describe('lib/feed/data-providers/atom', () => {
 				});
 
 				it('is set to `null`', () => {
-					assert.isNull(dataProvider.updated);
+					assert.isNull(feed.updated);
 				});
 
 			});
@@ -493,7 +493,7 @@ describe('lib/feed/data-providers/atom', () => {
 			beforeEach(() => {
 				td.when(mockDocument.findElementWithName('feed')).thenReturn(null);
 				try {
-					dataProvider = new AtomDataProvider(mockDocument);
+					feed = new AtomFeed(mockDocument);
 				} catch (error) {
 					thrownError = error;
 				}
