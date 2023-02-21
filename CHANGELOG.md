@@ -1,5 +1,41 @@
 # Changelog
 
+## [0.2.0](https://github.com/rowanmanning/feed-parser/compare/v0.1.15...v0.2.0) (2023-02-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* make a public method private
+* stop over-publicising methods and properties
+* drop official support for npm v7
+* drop support for Node.js 14
+
+### Features
+
+* add proper typings for the JSON output ([da39e12](https://github.com/rowanmanning/feed-parser/commit/da39e12d49324b2e08f94d8fb25437b799c9aee8))
+* reshuffle more and expose a parse function ([580cce9](https://github.com/rowanmanning/feed-parser/commit/580cce969f21eac308b9124126eff714ef0f1646))
+
+
+### Bug Fixes
+
+* make a public method private ([2dc9837](https://github.com/rowanmanning/feed-parser/commit/2dc9837fb22acd2e4959356adba314ef58e9d5b6))
+* make the JSDoc consistent ([731e732](https://github.com/rowanmanning/feed-parser/commit/731e732fa04717bd622afc3b3ffae832c7f00ee0))
+* remove unnecessary import ([8215d94](https://github.com/rowanmanning/feed-parser/commit/8215d940b0d5aaa8fdcddded5a3d7e48c780cf5b))
+* simplify the file structure and naming ([410f166](https://github.com/rowanmanning/feed-parser/commit/410f166ae4abd9cba1568756e991ac070c4c4bee))
+* stop over-publicising methods and properties ([e9d6098](https://github.com/rowanmanning/feed-parser/commit/e9d6098302810176ca2b2c4d831dd55146df9e6d))
+* switch from axios to undici for HTTP ([b771dc8](https://github.com/rowanmanning/feed-parser/commit/b771dc87019d79143579f1132967f50b3b1da69c))
+
+
+### Miscellaneous
+
+* drop official support for npm v7 ([7b39e88](https://github.com/rowanmanning/feed-parser/commit/7b39e8862fa3ff23c1f96801da765d7ecd7d2afa))
+* drop support for Node.js 14 ([3c329a1](https://github.com/rowanmanning/feed-parser/commit/3c329a174bd26449148d28fb34de08f93da6fabc))
+
+
+### Documentation Changes
+
+* properly flesh out JSDoc for feed types ([60fbadc](https://github.com/rowanmanning/feed-parser/commit/60fbadcbb7e85679739f7f8a00cfed22c260fb90))
+
 ## [0.1.15](https://github.com/rowanmanning/feed-parser/compare/v0.1.14...v0.1.15) (2023-02-14)
 
 
