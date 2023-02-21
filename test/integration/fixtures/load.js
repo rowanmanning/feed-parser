@@ -1,18 +1,18 @@
 #!/usr/bin/env node
 'use strict';
 
-const axios = require('axios').default;
+const fetch = require('../../../lib/utils/fetch');
 const path = require('path');
 const writeJSON = require('../helpers/write-json');
 
-const request = axios.create({
-	baseURL: 'https://sample-feeds.rowanmanning.com',
-	timeout: 500
-});
+const request = async url => {
+	const response = await fetch(new URL(url, 'https://sample-feeds.rowanmanning.com'));
+	return response.json();
+};
 
 (async () => {
 	try {
-		const [{data: examples}, {data: realWorld}] = await Promise.all([
+		const [examples, realWorld] = await Promise.all([
 			request('/examples/list.json'),
 			request('/real-world/list.json')
 		]);

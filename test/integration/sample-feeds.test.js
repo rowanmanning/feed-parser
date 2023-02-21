@@ -1,8 +1,8 @@
 'use strict';
 
 const {assert} = require('chai');
-const axios = require('axios').default;
 const feed = require('../../lib/feed');
+const fetch = require('../../lib/utils/fetch');
 const path = require('path');
 const writeJSON = require('./helpers/write-json');
 
@@ -37,7 +37,8 @@ for (const suite of suites) {
 						url: test.urls.feed
 					};
 					try {
-						xml = (await axios(test.urls.feed)).data;
+						const response = await fetch(test.urls.feed);
+						xml = await response.text();
 						actual.feed = feed.fromString(xml).toJSON();
 					} catch (error) {
 						actual.error = {
