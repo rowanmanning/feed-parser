@@ -4,7 +4,6 @@ const td = require('testdouble');
 
 module.exports = function createMock() {
 	const fastXmlParser = {
-		// @ts-ignore
 		XMLParser: td.constructor()
 	};
 

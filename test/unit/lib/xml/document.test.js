@@ -9,7 +9,6 @@ describe('lib/xml/document', () => {
 	let Document;
 
 	beforeEach(() => {
-		// @ts-ignore
 		Element = td.replace('../../../../lib/xml/element', td.constructor());
 		fastXmlParser = td.replace('fast-xml-parser', require('../../mock/npm/fast-xml-parser.mock')());
 		Document = require('../../../../lib/xml/document');
