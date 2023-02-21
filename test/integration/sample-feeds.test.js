@@ -1,7 +1,7 @@
 'use strict';
 
 const {assert} = require('chai');
-const feed = require('../../lib/feed');
+const parseFeed = require('../..');
 const fetch = require('../../lib/utils/fetch');
 const path = require('path');
 const writeJSON = require('./helpers/write-json');
@@ -39,7 +39,7 @@ for (const suite of suites) {
 					try {
 						const response = await fetch(test.urls.feed);
 						xml = await response.text();
-						actual.feed = feed.fromString(xml).toJSON();
+						actual.feed = parseFeed(xml).toJSON();
 					} catch (error) {
 						actual.error = {
 							code: error.code,

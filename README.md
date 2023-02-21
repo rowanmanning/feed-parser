@@ -33,6 +33,8 @@ Load the library into your code with a `require` call:
 
 ```js
 const parseFeed = require('@rowanmanning/feed-parser');
+const feed = parseFeed('<channel> etc. </channel>');
+console.log(feed.title);
 ```
 
 TODO document how it works.

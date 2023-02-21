@@ -3,19 +3,19 @@
 const {assert} = require('chai');
 
 describe('lib/feed-parser', () => {
-	let feedParser;
+	let parseFeed;
 
 	beforeEach(() => {
-		feedParser = require('../../../lib/feed-parser');
+		parseFeed = require('../../../lib/feed-parser');
 	});
 
-	it('is an object', () => {
-		assert.isObject(feedParser);
+	it('is a function', () => {
+		assert.isFunction(parseFeed);
 	});
 
 	describe('.default', () => {
 		it('aliases the module exports', () => {
-			assert.strictEqual(feedParser, feedParser.default);
+			assert.strictEqual(parseFeed, parseFeed.default);
 		});
 	});
 
