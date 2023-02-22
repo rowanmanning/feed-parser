@@ -557,6 +557,70 @@ describe('lib/feed/rss', () => {
 
 		});
 
+		describe('.image', () => {
+			let mockImageElement;
+			let mockTitleElement;
+			let mockUrlElement;
+
+			beforeEach(() => {
+				mockImageElement = new MockElement();
+				mockTitleElement = new MockElement();
+				mockUrlElement = new MockElement();
+				mockTitleElement.textContentNormalized = 'mock image title';
+				mockUrlElement.textContentAsUrl = 'mock-image-url';
+				td.when(mockImageElement.findElementWithName('title')).thenReturn(mockTitleElement);
+				td.when(mockImageElement.findElementWithName('url')).thenReturn(mockUrlElement);
+				td.when(mockChannelElement.findElementWithName('image')).thenReturn(mockImageElement);
+			});
+
+			it('is set to an object containing the title and URL of the first image element found in the feed', () => {
+				assert.deepEqual(feed.image, {
+					title: 'mock image title',
+					url: 'mock-image-url'
+				});
+			});
+
+			describe('when a image element has a URL but no title', () => {
+
+				beforeEach(() => {
+					td.when(mockImageElement.findElementWithName('title')).thenReturn(null);
+				});
+
+				it('is set to an object containing the URL of the image element and a `null` title', () => {
+					assert.deepEqual(feed.image, {
+						title: null,
+						url: 'mock-image-url'
+					});
+				});
+
+			});
+
+			describe('when a image element has a title but no URL', () => {
+
+				beforeEach(() => {
+					td.when(mockImageElement.findElementWithName('url')).thenReturn(null);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(feed.image);
+				});
+
+			});
+
+			describe('when a image element does not exist', () => {
+
+				beforeEach(() => {
+					td.when(mockChannelElement.findElementWithName('image')).thenReturn(null);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(feed.image);
+				});
+
+			});
+
+		});
+
 		describe('when the root element name is "rdf"', () => {
 
 			beforeEach(() => {

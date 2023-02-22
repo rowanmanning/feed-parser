@@ -564,6 +564,56 @@ describe('lib/feed/atom', () => {
 
 		});
 
+		describe('.image', () => {
+			let mockLogoElement;
+			let mockIconElement;
+
+			beforeEach(() => {
+				mockLogoElement = new MockElement();
+				mockIconElement = new MockElement();
+				mockLogoElement.textContentAsUrl = 'mock-logo';
+				mockIconElement.textContentAsUrl = 'mock-icon';
+				td.when(mockRootElement.findElementWithName('logo')).thenReturn(mockLogoElement);
+				td.when(mockRootElement.findElementWithName('icon')).thenReturn(mockIconElement);
+			});
+
+			it('is set to an object containing the URL of the first logo element found in the feed', () => {
+				assert.deepEqual(feed.image, {
+					title: null,
+					url: 'mock-logo'
+				});
+			});
+
+			describe('when a logo element does not exist but an icon element does', () => {
+
+				beforeEach(() => {
+					td.when(mockRootElement.findElementWithName('logo')).thenReturn(null);
+				});
+
+				it('is set to an object containing the URL of the first icon element found in the feed', () => {
+					assert.deepEqual(feed.image, {
+						title: null,
+						url: 'mock-icon'
+					});
+				});
+
+			});
+
+			describe('when neither element exists', () => {
+
+				beforeEach(() => {
+					td.when(mockRootElement.findElementWithName('logo')).thenReturn(null);
+					td.when(mockRootElement.findElementWithName('icon')).thenReturn(null);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(feed.image);
+				});
+
+			});
+
+		});
+
 		describe('if no root element is found', () => {
 			let thrownError;
 

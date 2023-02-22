@@ -19,6 +19,10 @@
 			"label": "FeedForAll Beta1 (0.0.1.8)",
 			"version": null,
 			"url": null
+		},
+		"image": {
+			"title": "FeedForAll Sample Feed",
+			"url": "http://www.feedforall.com/ffalogo48x48.gif"
 		}
 	}
 }

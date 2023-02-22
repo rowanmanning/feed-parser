@@ -19,6 +19,10 @@
 			"label": "Ghost 4.42",
 			"version": null,
 			"url": null
+		},
+		"image": {
+			"title": "Unsplash",
+			"url": "https://unsplash.com/blog/favicon.png"
 		}
 	}
 }

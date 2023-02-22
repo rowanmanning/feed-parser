@@ -15,6 +15,7 @@
 		"self": "https://sample-feeds.rowanmanning.com/real-world/b29a235ee4d1af745aa04dea7ea59310/feed.xml",
 		"published": null,
 		"updated": null,
-		"generator": null
+		"generator": null,
+		"image": null
 	}
 }

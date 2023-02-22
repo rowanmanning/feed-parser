@@ -15,6 +15,10 @@
 		"self": null,
 		"published": "2022-04-05T22:04:14.000Z",
 		"updated": "2022-04-05T22:04:14.000Z",
-		"generator": null
+		"generator": null,
+		"image": {
+			"title": "The Guardian",
+			"url": "https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png"
+		}
 	}
 }

@@ -15,6 +15,10 @@
 		"self": null,
 		"published": null,
 		"updated": null,
-		"generator": null
+		"generator": null,
+		"image": {
+			"title": "WriteTheWeb",
+			"url": "http://writetheweb.com/images/mynetscape88.gif"
+		}
 	}
 }

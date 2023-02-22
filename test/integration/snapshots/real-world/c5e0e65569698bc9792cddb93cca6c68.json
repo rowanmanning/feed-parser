@@ -15,6 +15,10 @@
 		"self": "https://sample-feeds.rowanmanning.com/real-world/c5e0e65569698bc9792cddb93cca6c68/feed.xml",
 		"published": "2022-04-05T22:04:52.000Z",
 		"updated": "2022-04-05T22:06:19.000Z",
-		"generator": null
+		"generator": null,
+		"image": {
+			"title": "NYT > Top Stories",
+			"url": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png"
+		}
 	}
 }

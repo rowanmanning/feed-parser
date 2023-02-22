@@ -15,6 +15,10 @@
 		"self": "https://sample-feeds.rowanmanning.com/real-world/b50cfa0fa67a27325debb5bce9a55401/feed.xml",
 		"published": null,
 		"updated": "2022-04-05T20:12:00.000Z",
-		"generator": null
+		"generator": null,
+		"image": {
+			"title": "The Latest News from the UK and Around the World | Sky News",
+			"url": "https://e3.365dm.com/skynews/logo.png"
+		}
 	}
 }

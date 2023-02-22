@@ -19,6 +19,10 @@
 			"label": "Sample Toolkit",
 			"version": null,
 			"url": null
+		},
+		"image": {
+			"title": "Example banner",
+			"url": "http://example.org/banner.png"
 		}
 	}
 }

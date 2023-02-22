@@ -19,6 +19,7 @@
 			"label": "Sample Toolkit",
 			"version": "4.0",
 			"url": "http://example.org/generator/"
-		}
+		},
+		"image": null
 	}
 }
