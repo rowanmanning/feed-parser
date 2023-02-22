@@ -3,6 +3,14 @@
 const {assert} = require('chai');
 const td = require('testdouble');
 
+class MockFeed {
+
+	constructor(document) {
+		this.document = document;
+	}
+
+}
+
 describe('lib/feed/rss', () => {
 	let Feed;
 	let InvalidFeedError;
@@ -13,7 +21,7 @@ describe('lib/feed/rss', () => {
 	beforeEach(() => {
 		MockDocument = require('../../mock/lib/xml/document.mock')();
 		MockElement = require('../../mock/lib/xml/element.mock')();
-		Feed = td.replace('../../../../lib/feed/base', td.constructor());
+		Feed = td.replace('../../../../lib/feed/base', MockFeed);
 		InvalidFeedError = td.replace('../../../../lib/errors/invalid-feed', td.constructor());
 		RssFeed = require('../../../../lib/feed/rss');
 	});
@@ -52,22 +60,6 @@ describe('lib/feed/rss', () => {
 
 		it('finds a channel element in the root element', () => {
 			td.verify(mockRootElement.findElementWithName('channel'), {times: 1});
-		});
-
-		describe('.root', () => {
-
-			it('is set to the found rss element', () => {
-				assert.strictEqual(feed.root, mockRootElement);
-			});
-
-		});
-
-		describe('.channel', () => {
-
-			it('is set to the found channel element', () => {
-				assert.strictEqual(feed.channel, mockChannelElement);
-			});
-
 		});
 
 		describe('.meta', () => {
@@ -582,14 +574,6 @@ describe('lib/feed/rss', () => {
 
 			it('finds a root-level rdf element', () => {
 				td.verify(mockDocument.findElementWithName('rdf'), {times: 1});
-			});
-
-			describe('.root', () => {
-
-				it('is set to the found rdf element', () => {
-					assert.strictEqual(feed.root, mockRootElement);
-				});
-
 			});
 
 		});

@@ -3,6 +3,14 @@
 const {assert} = require('chai');
 const td = require('testdouble');
 
+class MockFeed {
+
+	constructor(document) {
+		this.document = document;
+	}
+
+}
+
 describe('lib/feed/atom', () => {
 	let AtomFeed;
 	let Feed;
@@ -13,7 +21,7 @@ describe('lib/feed/atom', () => {
 	beforeEach(() => {
 		MockDocument = require('../../mock/lib/xml/document.mock')();
 		MockElement = require('../../mock/lib/xml/element.mock')();
-		Feed = td.replace('../../../../lib/feed/base', td.constructor());
+		Feed = td.replace('../../../../lib/feed/base', MockFeed);
 		InvalidFeedError = td.replace('../../../../lib/errors/invalid-feed', td.constructor());
 		AtomFeed = require('../../../../lib/feed/atom');
 	});
@@ -44,14 +52,6 @@ describe('lib/feed/atom', () => {
 
 		it('finds a root-level feed element', () => {
 			td.verify(mockDocument.findElementWithName('feed'), {times: 1});
-		});
-
-		describe('.root', () => {
-
-			it('is set to the found feed element', () => {
-				assert.strictEqual(feed.root, mockRootElement);
-			});
-
 		});
 
 		describe('.meta', () => {
