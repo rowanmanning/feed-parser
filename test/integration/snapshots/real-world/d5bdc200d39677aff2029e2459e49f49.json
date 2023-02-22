@@ -11,7 +11,7 @@
 		"title": "Release notes from hugo",
 		"description": null,
 		"copyright": null,
-		"link": "https://github.com/gohugoio/hugo/releases",
+		"url": "https://github.com/gohugoio/hugo/releases",
 		"self": "https://sample-feeds.rowanmanning.com/real-world/d5bdc200d39677aff2029e2459e49f49/feed.xml",
 		"published": null,
 		"updated": "2022-05-31T08:37:12.000Z",

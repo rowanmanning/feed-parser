@@ -11,14 +11,14 @@
 		"title": "UK homepage",
 		"description": "UK homepage",
 		"copyright": "© Copyright The Financial Times Ltd 2022. \"FT\" and \"Financial Times\" are trademarks of the Financial Times. See http://www.ft.com/servicestools/help/terms#legal1 for the terms and conditions of reuse.",
-		"link": "https://www.ft.com",
+		"url": "https://www.ft.com",
 		"self": "https://sample-feeds.rowanmanning.com/real-world/66aa305559c0c7f86f06dc7e7eef7271/feed.xml",
 		"published": null,
 		"updated": "2022-04-05T22:08:48.000Z",
 		"generator": {
 			"label": "RSS for Node",
 			"version": null,
-			"link": null
+			"url": null
 		}
 	}
 }

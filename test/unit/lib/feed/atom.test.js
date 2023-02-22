@@ -285,7 +285,7 @@ describe('lib/feed/atom', () => {
 
 		});
 
-		describe('.link', () => {
+		describe('.url', () => {
 			let mockLinks;
 
 			beforeEach(() => {
@@ -321,7 +321,7 @@ describe('lib/feed/atom', () => {
 			});
 
 			it('is set to the href attribute of the first link[rel=alternate] element found in the feed', () => {
-				assert.strictEqual(feed.link, 'mock-href-alternate');
+				assert.strictEqual(feed.url, 'mock-href-alternate');
 			});
 
 			describe('when a link[rel=alternate] element does not exist but a link element without a rel attribute does', () => {
@@ -335,7 +335,7 @@ describe('lib/feed/atom', () => {
 				});
 
 				it('is set to the href attribute of the first link element found in the feed without a rel attribute', () => {
-					assert.strictEqual(feed.link, 'mock-href-norel');
+					assert.strictEqual(feed.url, 'mock-href-norel');
 				});
 
 			});
@@ -350,7 +350,7 @@ describe('lib/feed/atom', () => {
 				});
 
 				it('is set to `null`', () => {
-					assert.isNull(feed.link);
+					assert.isNull(feed.url);
 				});
 
 			});
@@ -362,7 +362,7 @@ describe('lib/feed/atom', () => {
 				});
 
 				it('is set to `null`', () => {
-					assert.isNull(feed.link);
+					assert.isNull(feed.url);
 				});
 
 			});
@@ -502,7 +502,7 @@ describe('lib/feed/atom', () => {
 				assert.deepEqual(feed.generator, {
 					label: 'mock generator',
 					version: 'mock-generator-version',
-					link: 'mock-generator-uri'
+					url: 'mock-generator-uri'
 				});
 			});
 
@@ -514,7 +514,7 @@ describe('lib/feed/atom', () => {
 				});
 
 				it('the object link property contains the value of the url attribute', () => {
-					assert.strictEqual(feed.generator.link, 'mock-generator-url');
+					assert.strictEqual(feed.generator.url, 'mock-generator-url');
 				});
 
 			});
@@ -530,7 +530,7 @@ describe('lib/feed/atom', () => {
 					assert.deepEqual(feed.generator, {
 						label: 'mock generator',
 						version: null,
-						link: null
+						url: null
 					});
 				});
 

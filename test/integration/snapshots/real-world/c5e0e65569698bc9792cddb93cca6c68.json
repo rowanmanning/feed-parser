@@ -11,7 +11,7 @@
 		"title": "NYT > Top Stories",
 		"description": null,
 		"copyright": "Copyright 2022 The New York Times Company",
-		"link": "https://www.nytimes.com",
+		"url": "https://www.nytimes.com",
 		"self": "https://sample-feeds.rowanmanning.com/real-world/c5e0e65569698bc9792cddb93cca6c68/feed.xml",
 		"published": "2022-04-05T22:04:52.000Z",
 		"updated": "2022-04-05T22:06:19.000Z",

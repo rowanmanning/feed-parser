@@ -11,14 +11,14 @@
 		"title": "Unsplash",
 		"description": "Stories from the community powering the internet’s visuals",
 		"copyright": null,
-		"link": "https://unsplash.com/blog/",
+		"url": "https://unsplash.com/blog/",
 		"self": "https://sample-feeds.rowanmanning.com/real-world/52100500032f4e6a03274c816a9b0d95/feed.xml",
 		"published": null,
 		"updated": "2022-04-05T15:48:05.000Z",
 		"generator": {
 			"label": "Ghost 4.42",
 			"version": null,
-			"link": null
+			"url": null
 		}
 	}
 }

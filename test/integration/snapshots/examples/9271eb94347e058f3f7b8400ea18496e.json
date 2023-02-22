@@ -11,7 +11,7 @@
 		"title": "Example Feed",
 		"description": "A subtitle.",
 		"copyright": null,
-		"link": "http://example.org/",
+		"url": "http://example.org/",
 		"self": "https://sample-feeds.rowanmanning.com/examples/9271eb94347e058f3f7b8400ea18496e/feed.xml",
 		"published": null,
 		"updated": "2003-12-13T18:30:02.000Z",

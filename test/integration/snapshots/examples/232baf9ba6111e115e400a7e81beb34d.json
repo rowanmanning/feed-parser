@@ -11,14 +11,14 @@
 		"title": "Sample Feed - Favorite RSS Related Software & Resources",
 		"description": "Take a look at some of FeedForAll's favorite software and resources for learning more about RSS.",
 		"copyright": "Copyright 2004 NotePage, Inc.",
-		"link": "http://www.feedforall.com",
+		"url": "http://www.feedforall.com",
 		"self": null,
 		"published": "2004-10-26T19:06:44.000Z",
 		"updated": "2004-11-01T18:17:17.000Z",
 		"generator": {
 			"label": "FeedForAll Beta1 (0.0.1.8)",
 			"version": null,
-			"link": null
+			"url": null
 		}
 	}
 }

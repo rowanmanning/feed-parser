@@ -11,14 +11,14 @@
 		"title": "Sample Feed",
 		"description": "For documentation <em>only</em>",
 		"copyright": "Copyright 2004, Mark Pilgrim",
-		"link": "http://example.org/",
+		"url": "http://example.org/",
 		"self": null,
 		"published": "2002-09-07T00:00:01.000Z",
 		"updated": null,
 		"generator": {
 			"label": "Sample Toolkit",
 			"version": null,
-			"link": null
+			"url": null
 		}
 	}
 }

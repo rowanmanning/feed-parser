@@ -11,7 +11,7 @@
 		"title": "Sample Feed",
 		"description": "For documentation only",
 		"copyright": "Copyright 2004 Mark Pilgrim",
-		"link": "http://example.org/",
+		"url": "http://example.org/",
 		"self": null,
 		"published": null,
 		"updated": "2004-06-04T22:40:33.000Z",

@@ -332,7 +332,7 @@ describe('lib/feed/rss', () => {
 
 		});
 
-		describe('.link', () => {
+		describe('.url', () => {
 			let mockLinks;
 
 			beforeEach(() => {
@@ -358,7 +358,7 @@ describe('lib/feed/rss', () => {
 			});
 
 			it('is set to text of the first link element with text content found in the feed', () => {
-				assert.strictEqual(feed.link, 'mock-url-1');
+				assert.strictEqual(feed.url, 'mock-url-1');
 			});
 
 			describe('when no links have text content', () => {
@@ -370,7 +370,7 @@ describe('lib/feed/rss', () => {
 				});
 
 				it('is set to `null`', () => {
-					assert.isNull(feed.link);
+					assert.isNull(feed.url);
 				});
 
 			});
@@ -382,7 +382,7 @@ describe('lib/feed/rss', () => {
 				});
 
 				it('is set to `null`', () => {
-					assert.isNull(feed.link);
+					assert.isNull(feed.url);
 				});
 
 			});
@@ -539,7 +539,7 @@ describe('lib/feed/rss', () => {
 				assert.deepEqual(feed.generator, {
 					label: 'mock generator',
 					version: null,
-					link: null
+					url: null
 				});
 			});
 

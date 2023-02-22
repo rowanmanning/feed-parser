@@ -84,12 +84,12 @@ describe('lib/feed/base', () => {
 
 		});
 
-		describe('.link', () => {
+		describe('.url', () => {
 
 			it('throws an error', () => {
 				assert.throws(
-					() => feed.link,
-					'Feed.link must be implemented in an extending class'
+					() => feed.url,
+					'Feed.url must be implemented in an extending class'
 				);
 			});
 
@@ -150,7 +150,7 @@ describe('lib/feed/base', () => {
 					title: 'mock-title',
 					description: 'mock-description',
 					copyright: 'mock-copyright',
-					link: 'mock-link',
+					url: 'mock-url',
 					self: 'mock-self',
 					published: new Date('2022-01-01T01:02:03.000Z'),
 					updated: new Date('2022-01-01T04:05:06.000Z'),
@@ -166,7 +166,7 @@ describe('lib/feed/base', () => {
 					title: 'mock-title',
 					description: 'mock-description',
 					copyright: 'mock-copyright',
-					link: 'mock-link',
+					url: 'mock-url',
 					self: 'mock-self',
 					published: '2022-01-01T01:02:03.000Z',
 					updated: '2022-01-01T04:05:06.000Z',

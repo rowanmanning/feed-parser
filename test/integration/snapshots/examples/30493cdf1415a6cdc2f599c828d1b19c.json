@@ -11,14 +11,14 @@
 		"title": "Liftoff News",
 		"description": "Liftoff to Space Exploration.",
 		"copyright": null,
-		"link": "http://liftoff.msfc.nasa.gov/",
+		"url": "http://liftoff.msfc.nasa.gov/",
 		"self": null,
 		"published": "2003-06-10T04:00:00.000Z",
 		"updated": "2003-06-10T09:41:01.000Z",
 		"generator": {
 			"label": "Weblog Editor 2.0",
 			"version": null,
-			"link": null
+			"url": null
 		}
 	}
 }
