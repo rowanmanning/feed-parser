@@ -487,6 +487,83 @@ describe('lib/feed/atom', () => {
 
 		});
 
+		describe('.generator', () => {
+			let mockElement;
+
+			beforeEach(() => {
+				mockElement = new MockElement();
+				mockElement.textContentNormalized = 'mock generator';
+				td.when(mockElement.getAttributeAsUrl('uri')).thenReturn('mock-generator-uri');
+				td.when(mockElement.getAttribute('version')).thenReturn('mock-generator-version');
+				td.when(mockRootElement.findElementWithName('generator')).thenReturn(mockElement);
+			});
+
+			it('is set to an object containing the details of the first generator element found in the feed', () => {
+				assert.deepEqual(feed.generator, {
+					label: 'mock generator',
+					version: 'mock-generator-version',
+					link: 'mock-generator-uri'
+				});
+			});
+
+			describe('when the generator element has no `uri` attribute but does have a `url` attribute', () => {
+
+				beforeEach(() => {
+					td.when(mockElement.getAttributeAsUrl('uri')).thenReturn(null);
+					td.when(mockElement.getAttributeAsUrl('url')).thenReturn('mock-generator-url');
+				});
+
+				it('the object link property contains the value of the url attribute', () => {
+					assert.strictEqual(feed.generator.link, 'mock-generator-url');
+				});
+
+			});
+
+			describe('when only one part of the generator data is present', () => {
+
+				beforeEach(() => {
+					td.when(mockElement.getAttributeAsUrl('uri')).thenReturn(null);
+					td.when(mockElement.getAttribute('version')).thenReturn(null);
+				});
+
+				it('is set to an object containing just the one part of the generator', () => {
+					assert.deepEqual(feed.generator, {
+						label: 'mock generator',
+						version: null,
+						link: null
+					});
+				});
+
+			});
+
+			describe('when a generator element is present but has no data', () => {
+
+				beforeEach(() => {
+					mockElement.textContentNormalized = '';
+					td.when(mockElement.getAttributeAsUrl('uri')).thenReturn(null);
+					td.when(mockElement.getAttribute('version')).thenReturn(null);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(feed.generator);
+				});
+
+			});
+
+			describe('when a generator element does not exist', () => {
+
+				beforeEach(() => {
+					td.when(mockRootElement.findElementWithName('generator')).thenReturn(null);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(feed.generator);
+				});
+
+			});
+
+		});
+
 		describe('if no root element is found', () => {
 			let thrownError;
 

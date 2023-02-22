@@ -14,6 +14,11 @@
 		"link": "https://www.bbc.co.uk/news/",
 		"self": null,
 		"published": null,
-		"updated": "2022-04-05T22:03:17.000Z"
+		"updated": "2022-04-05T22:03:17.000Z",
+		"generator": {
+			"label": "RSS for Node",
+			"version": null,
+			"link": null
+		}
 	}
 }

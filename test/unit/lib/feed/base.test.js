@@ -128,6 +128,17 @@ describe('lib/feed/base', () => {
 
 		});
 
+		describe('.generator', () => {
+
+			it('throws an error', () => {
+				assert.throws(
+					() => feed.generator,
+					'Feed.generator must be implemented in an extending class'
+				);
+			});
+
+		});
+
 		describe('.toJSON()', () => {
 			let mockFeed;
 			let returnValue;
@@ -142,7 +153,8 @@ describe('lib/feed/base', () => {
 					link: 'mock-link',
 					self: 'mock-self',
 					published: new Date('2022-01-01T01:02:03.000Z'),
-					updated: new Date('2022-01-01T04:05:06.000Z')
+					updated: new Date('2022-01-01T04:05:06.000Z'),
+					generator: 'mock-generator'
 				};
 				returnValue = feed.toJSON.call(mockFeed);
 			});
@@ -157,7 +169,8 @@ describe('lib/feed/base', () => {
 					link: 'mock-link',
 					self: 'mock-self',
 					published: '2022-01-01T01:02:03.000Z',
-					updated: '2022-01-01T04:05:06.000Z'
+					updated: '2022-01-01T04:05:06.000Z',
+					generator: 'mock-generator'
 				});
 			});
 

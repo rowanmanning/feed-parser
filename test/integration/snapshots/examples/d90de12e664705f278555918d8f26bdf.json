@@ -14,6 +14,7 @@
 		"link": "http://example.org/",
 		"self": null,
 		"published": null,
-		"updated": "2004-06-04T22:40:33.000Z"
+		"updated": "2004-06-04T22:40:33.000Z",
+		"generator": null
 	}
 }

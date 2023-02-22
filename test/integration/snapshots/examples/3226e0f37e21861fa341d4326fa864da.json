@@ -14,6 +14,11 @@
 		"link": "http://example.org/",
 		"self": null,
 		"published": null,
-		"updated": "2004-04-20T11:56:34.000Z"
+		"updated": "2004-04-20T11:56:34.000Z",
+		"generator": {
+			"label": "Sample Toolkit",
+			"version": "3.0",
+			"link": "http://example.org/generator/"
+		}
 	}
 }

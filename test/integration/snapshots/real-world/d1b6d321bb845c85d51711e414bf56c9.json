@@ -14,6 +14,7 @@
 		"link": "https://github.com/gohugoio/hugo/commits/master",
 		"self": "https://sample-feeds.rowanmanning.com/real-world/d1b6d321bb845c85d51711e414bf56c9/feed.xml",
 		"published": null,
-		"updated": "2022-05-31T09:19:15.000Z"
+		"updated": "2022-05-31T09:19:15.000Z",
+		"generator": null
 	}
 }

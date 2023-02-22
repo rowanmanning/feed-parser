@@ -534,6 +534,37 @@ describe('lib/feed/rss', () => {
 
 		});
 
+		describe('.generator', () => {
+			let mockElement;
+
+			beforeEach(() => {
+				mockElement = new MockElement();
+				mockElement.textContentNormalized = 'mock generator';
+				td.when(mockChannelElement.findElementWithName('generator')).thenReturn(mockElement);
+			});
+
+			it('is set to an object containing the text of the first generator element found in the feed', () => {
+				assert.deepEqual(feed.generator, {
+					label: 'mock generator',
+					version: null,
+					link: null
+				});
+			});
+
+			describe('when a generator element does not exist', () => {
+
+				beforeEach(() => {
+					td.when(mockChannelElement.findElementWithName('generator')).thenReturn(null);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(feed.generator);
+				});
+
+			});
+
+		});
+
 		describe('when the root element name is "rdf"', () => {
 
 			beforeEach(() => {

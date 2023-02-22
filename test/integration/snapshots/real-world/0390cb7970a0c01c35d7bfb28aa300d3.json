@@ -14,6 +14,7 @@
 		"link": "http://www.nasa.gov/",
 		"self": "https://sample-feeds.rowanmanning.com/real-world/ee43b6c3afd282f5ca6dd3c294ec1f2e/feed.xml",
 		"published": null,
-		"updated": null
+		"updated": null,
+		"generator": null
 	}
 }

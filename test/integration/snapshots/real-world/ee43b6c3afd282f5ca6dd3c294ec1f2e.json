@@ -14,6 +14,7 @@
 		"link": "http://www.nasa.gov/",
 		"self": "http://www.nasa.gov/rss/dyn/breaking_news.rss",
 		"published": null,
-		"updated": null
+		"updated": null,
+		"generator": null
 	}
 }

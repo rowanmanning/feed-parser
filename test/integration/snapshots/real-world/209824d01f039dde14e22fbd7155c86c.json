@@ -14,6 +14,7 @@
 		"link": "http://www.telegraph.co.uk/",
 		"self": "https://sample-feeds.rowanmanning.com/real-world/209824d01f039dde14e22fbd7155c86c/feed.xml",
 		"published": null,
-		"updated": "2022-04-05T22:03:55.000Z"
+		"updated": "2022-04-05T22:03:55.000Z",
+		"generator": null
 	}
 }

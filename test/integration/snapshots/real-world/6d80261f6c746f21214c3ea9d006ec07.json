@@ -14,6 +14,7 @@
 		"link": "https://www.buzzfeed.com/index",
 		"self": "https://sample-feeds.rowanmanning.com/real-world/6d80261f6c746f21214c3ea9d006ec07/feed.xml",
 		"published": null,
-		"updated": "2022-04-05T22:07:35.000Z"
+		"updated": "2022-04-05T22:07:35.000Z",
+		"generator": null
 	}
 }

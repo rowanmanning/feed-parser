@@ -14,6 +14,11 @@
 		"link": "http://www.feedforall.com/industry-solutions.htm",
 		"self": null,
 		"published": "2004-10-19T17:38:55.000Z",
-		"updated": "2004-10-19T17:39:14.000Z"
+		"updated": "2004-10-19T17:39:14.000Z",
+		"generator": {
+			"label": "FeedForAll Beta1 (0.0.1.8)",
+			"version": null,
+			"link": null
+		}
 	}
 }
