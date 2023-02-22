@@ -6,6 +6,7 @@
 		"declarationMap": true,
 		"maxNodeModuleJsDepth": 0,
 		"module": "commonjs",
+		"noImplicitOverride": true,
 		"removeComments": true,
 		"resolveJsonModule": true,
 		"strictBindCallApply": true,
