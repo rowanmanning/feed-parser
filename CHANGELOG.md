@@ -1,5 +1,30 @@
 # Changelog
 
+## [0.3.0](https://github.com/rowanmanning/feed-parser/compare/v0.2.0...v0.3.0) (2023-02-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* change "link" to "url"
+* properly make Atom/RSS internals private
+
+### Features
+
+* add feed item and item.title properties ([06bff43](https://github.com/rowanmanning/feed-parser/commit/06bff43c8529a111f44b834cacc1021d8c559178))
+* add the feed generator property ([3c66449](https://github.com/rowanmanning/feed-parser/commit/3c66449641bfc781e4e2e7d6be8f238a07063953))
+* add the feed image property ([9d136c0](https://github.com/rowanmanning/feed-parser/commit/9d136c00a7c86841e270af8af77d4316cb4e3e40))
+* change "link" to "url" ([b7fb77a](https://github.com/rowanmanning/feed-parser/commit/b7fb77adc8833ab6ecb3bde3144ac43951c652b2))
+
+
+### Bug Fixes
+
+* properly make Atom/RSS internals private ([6c46bdd](https://github.com/rowanmanning/feed-parser/commit/6c46bddfb2eea9ca447b577c99f3ce8d4c5b8839))
+
+
+### Documentation Changes
+
+* use returns rather than type for getters ([2b341f2](https://github.com/rowanmanning/feed-parser/commit/2b341f2b55ea35b530b8d4438f82b66edaab84a6))
+
 ## [0.2.0](https://github.com/rowanmanning/feed-parser/compare/v0.1.15...v0.2.0) (2023-02-21)
 
 
