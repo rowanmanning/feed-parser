@@ -704,7 +704,7 @@ describe('lib/xml/element', () => {
 			let textContentNormalized;
 
 			beforeEach(() => {
-				td.when(htmlEntities.decode('mock text 1 mock text 2 mock text 3')).thenReturn('mock decoded text');
+				td.when(htmlEntities.decode('mock text 1\t\n\tmock text 2  \nmock text 3')).thenReturn('mock decoded text');
 				childrenGetter = td.func();
 				td.when(childrenGetter()).thenReturn([
 					{
@@ -713,14 +713,14 @@ describe('lib/xml/element', () => {
 					{
 						textContent: '\tmock text 2  \n'
 					},
-					'mock text 3 '
+					'mock text 3\n\n'
 				]);
 				Object.defineProperty(element, 'children', {get: childrenGetter});
 				textContentNormalized = element.textContentNormalized;
 			});
 
-			it('decodes HTML entities on the trimmed joined text content with adjacent whitespace condensed', () => {
-				td.verify(htmlEntities.decode('mock text 1 mock text 2 mock text 3'), {times: 1});
+			it('decodes HTML entities on the trimmed joined text content', () => {
+				td.verify(htmlEntities.decode('mock text 1\t\n\tmock text 2  \nmock text 3'), {times: 1});
 			});
 
 			it('is set to the decoded string', () => {

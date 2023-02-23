@@ -9,7 +9,7 @@
 		},
 		"language": null,
 		"title": "XML.com",
-		"description": "XML.com features a rich mix of information and services for the XML community.",
+		"description": "XML.com features a rich mix of information and services \n      for the XML community.",
 		"copyright": null,
 		"url": "http://xml.com/pub",
 		"self": null,
@@ -21,12 +21,12 @@
 			{
 				"id": null,
 				"title": "Processing Inclusions with XSLT",
-				"description": "Processing document inclusions with general XML tools can be problematic. This article proposes a way of preserving inclusion information through SAX-based processing."
+				"description": "Processing document inclusions with general XML tools can be \n     problematic. This article proposes a way of preserving inclusion \n     information through SAX-based processing."
 			},
 			{
 				"id": null,
 				"title": "Putting RDF to Work",
-				"description": "Tool and API support for the Resource Description Framework is slowly coming of age. Edd Dumbill takes a look at RDFDB, one of the most exciting new RDF toolkits."
+				"description": "Tool and API support for the Resource Description Framework \n     is slowly coming of age. Edd Dumbill takes a look at RDFDB, \n     one of the most exciting new RDF toolkits."
 			}
 		]
 	}

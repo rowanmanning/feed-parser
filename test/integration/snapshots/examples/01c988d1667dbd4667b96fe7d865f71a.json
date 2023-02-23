@@ -28,7 +28,7 @@
 			{
 				"id": "http://example.org/guid/1",
 				"title": "First item title",
-				"description": "Watch out for <span style=\"background: url(javascript:window.location=’http://example.org/’)\"> nasty tricks</span>"
+				"description": "Watch out for\n<span style=\"background: url(javascript:window.location=’http://example.org/’)\">\nnasty tricks</span>"
 			}
 		]
 	}
