@@ -23,6 +23,11 @@
 		"image": {
 			"title": "Example banner",
 			"url": "http://example.org/banner.png"
-		}
+		},
+		"items": [
+			{
+				"title": "First item title"
+			}
+		]
 	}
 }

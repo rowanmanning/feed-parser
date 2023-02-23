@@ -20,6 +20,38 @@
 			"version": null,
 			"url": null
 		},
-		"image": null
+		"image": null,
+		"items": [
+			{
+				"title": "How to prevent apps from running at startup in Windows 11"
+			},
+			{
+				"title": "Twitter to add edit button for Blue subscribers"
+			},
+			{
+				"title": "Elon Musk’s appointment to Twitter’s board restricts his influence — for now"
+			},
+			{
+				"title": "The team that built an AI to dominate poker is now picking stocks"
+			},
+			{
+				"title": "A web3 clone of Wikipedia may help Russians, but it’s dividing the tech community"
+			},
+			{
+				"title": "VanMoof’s new ebikes are part of a masterplan to become the Tesla of two-wheelers"
+			},
+			{
+				"title": "The Hubble telescope just spotted the most distant star ever detected"
+			},
+			{
+				"title": "Everything we know about the upcoming DeLorean EV"
+			},
+			{
+				"title": "A dashboard button leads to a Reddit reckoning about over-the-air car software"
+			},
+			{
+				"title": "DJI’s new microphones take inspiration from Apple’s AirPods"
+			}
+		]
 	}
 }

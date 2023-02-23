@@ -16,6 +16,11 @@
 		"published": "2009-09-06T16:20:00.000Z",
 		"updated": "2010-09-06T00:01:00.000Z",
 		"generator": null,
-		"image": null
+		"image": null,
+		"items": [
+			{
+				"title": "Example entry"
+			}
+		]
 	}
 }

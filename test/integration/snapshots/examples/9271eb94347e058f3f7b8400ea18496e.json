@@ -16,6 +16,11 @@
 		"published": null,
 		"updated": "2003-12-13T18:30:02.000Z",
 		"generator": null,
-		"image": null
+		"image": null,
+		"items": [
+			{
+				"title": "Atom-Powered Robots Run Amok"
+			}
+		]
 	}
 }

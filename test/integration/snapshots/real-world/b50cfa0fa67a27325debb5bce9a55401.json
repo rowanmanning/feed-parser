@@ -19,6 +19,38 @@
 		"image": {
 			"title": "The Latest News from the UK and Around the World | Sky News",
 			"url": "https://e3.365dm.com/skynews/logo.png"
-		}
+		},
+		"items": [
+			{
+				"title": "Some 1,200 war crimes registered in Kyiv region during Ukraine war so far, police chief says"
+			},
+			{
+				"title": "Drone footage appears to show Russian military vehicles firing shots towards cyclist in Bucha"
+			},
+			{
+				"title": "Musician admits murdering teenager Bobbi-Anne McLeod"
+			},
+			{
+				"title": "UK, Australia and US agree to 'accelerate development' on hypersonic missile technology"
+			},
+			{
+				"title": "'Heroic' neighbour sacrificed himself to save boy's life after being hit with 4kg dumbbell"
+			},
+			{
+				"title": "National insurance rise: How will it work and what will it mean for you?"
+			},
+			{
+				"title": "Zelenskyy tells UN Security Council Russia wants to turn Ukrainian people into 'silent slaves'"
+			},
+			{
+				"title": "Cocaine bust worth £300m is 'largest UK seizure since 2015' as drugs found in banana shipment"
+			},
+			{
+				"title": "Man accused of murdering stepson didn't call ambulance because he was 'panicking', court hears"
+			},
+			{
+				"title": "Israeli woman sentenced to death in UAE after cocaine found in her apartment"
+			}
+		]
 	}
 }

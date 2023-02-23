@@ -23,6 +23,17 @@
 		"image": {
 			"title": "FeedForAll Sample Feed",
 			"url": "http://www.feedforall.com/feedforall-temp.gif"
-		}
+		},
+		"items": [
+			{
+				"title": "RSS Resources"
+			},
+			{
+				"title": "Recommended Desktop Feed Reader Software"
+			},
+			{
+				"title": "Recommended Web Based Feed Reader Software"
+			}
+		]
 	}
 }

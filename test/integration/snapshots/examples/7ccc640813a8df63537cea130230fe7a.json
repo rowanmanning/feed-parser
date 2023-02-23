@@ -19,6 +19,26 @@
 		"image": {
 			"title": "WriteTheWeb",
 			"url": "http://writetheweb.com/images/mynetscape88.gif"
-		}
+		},
+		"items": [
+			{
+				"title": "Giving the world a pluggable Gnutella"
+			},
+			{
+				"title": "Syndication discussions hot up"
+			},
+			{
+				"title": "Personal web server integrates file sharing and messaging"
+			},
+			{
+				"title": "Syndication and Metadata"
+			},
+			{
+				"title": "UK bloggers get organised"
+			},
+			{
+				"title": "Yournamehere.com more important than anything"
+			}
+		]
 	}
 }

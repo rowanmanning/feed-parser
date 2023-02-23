@@ -23,6 +23,35 @@
 		"image": {
 			"title": "FeedForAll Sample Feed",
 			"url": "http://www.feedforall.com/ffalogo48x48.gif"
-		}
+		},
+		"items": [
+			{
+				"title": "RSS Solutions for Restaurants"
+			},
+			{
+				"title": "RSS Solutions for Schools and Colleges"
+			},
+			{
+				"title": "RSS Solutions for Computer Service Companies"
+			},
+			{
+				"title": "RSS Solutions for Governments"
+			},
+			{
+				"title": "RSS Solutions for Politicians"
+			},
+			{
+				"title": "RSS Solutions for Meteorologists"
+			},
+			{
+				"title": "RSS Solutions for Realtors & Real Estate Firms"
+			},
+			{
+				"title": "RSS Solutions for Banks / Mortgage Companies"
+			},
+			{
+				"title": "RSS Solutions for Law Enforcement"
+			}
+		]
 	}
 }

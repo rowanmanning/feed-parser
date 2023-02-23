@@ -13,6 +13,7 @@ class MockFeed {
 
 describe('lib/feed/atom', () => {
 	let AtomFeed;
+	let AtomFeedItem;
 	let Feed;
 	let InvalidFeedError;
 	let MockDocument;
@@ -21,6 +22,7 @@ describe('lib/feed/atom', () => {
 	beforeEach(() => {
 		MockDocument = require('../../mock/lib/xml/document.mock')();
 		MockElement = require('../../mock/lib/xml/element.mock')();
+		AtomFeedItem = td.replace('../../../../lib/feed/item/atom', td.constructor());
 		Feed = td.replace('../../../../lib/feed/base', MockFeed);
 		InvalidFeedError = td.replace('../../../../lib/errors/invalid-feed', td.constructor());
 		AtomFeed = require('../../../../lib/feed/atom');
@@ -608,6 +610,53 @@ describe('lib/feed/atom', () => {
 
 				it('is set to `null`', () => {
 					assert.isNull(feed.image);
+				});
+
+			});
+
+		});
+
+		describe('.items', () => {
+			let mockEntryElements;
+			let items;
+
+			beforeEach(() => {
+				mockEntryElements = [
+					new MockElement(),
+					new MockElement(),
+					new MockElement()
+				];
+				td.when(mockRootElement.findElementsWithName('entry')).thenReturn(mockEntryElements);
+				items = feed.items;
+			});
+
+			it('instantiates an AtomFeedItem for each entry element found in the feed', () => {
+				td.verify(new AtomFeedItem(), {
+					ignoreExtraArgs: true,
+					times: 3
+				});
+				td.verify(new AtomFeedItem(feed, mockEntryElements[0]), {times: 1});
+				td.verify(new AtomFeedItem(feed, mockEntryElements[1]), {times: 1});
+				td.verify(new AtomFeedItem(feed, mockEntryElements[2]), {times: 1});
+			});
+
+			it('is set to an array of the created AtomFeedItem instances', () => {
+				assert.isArray(items);
+				assert.lengthOf(items, 3);
+				assert.instanceOf(items[0], AtomFeedItem);
+				assert.instanceOf(items[1], AtomFeedItem);
+				assert.instanceOf(items[2], AtomFeedItem);
+			});
+
+			describe('when accessed a second time', () => {
+
+				it('does not re-instantate AtomFeedItems', () => {
+					const newItems = feed.items;
+					td.verify(new AtomFeedItem(), {
+						ignoreExtraArgs: true,
+						times: 3
+					});
+					assert.strictEqual(newItems, items);
 				});
 
 			});

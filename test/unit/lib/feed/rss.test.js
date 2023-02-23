@@ -17,12 +17,14 @@ describe('lib/feed/rss', () => {
 	let MockDocument;
 	let MockElement;
 	let RssFeed;
+	let RssFeedItem;
 
 	beforeEach(() => {
 		MockDocument = require('../../mock/lib/xml/document.mock')();
 		MockElement = require('../../mock/lib/xml/element.mock')();
 		Feed = td.replace('../../../../lib/feed/base', MockFeed);
 		InvalidFeedError = td.replace('../../../../lib/errors/invalid-feed', td.constructor());
+		RssFeedItem = td.replace('../../../../lib/feed/item/rss', td.constructor());
 		RssFeed = require('../../../../lib/feed/rss');
 	});
 
@@ -615,6 +617,53 @@ describe('lib/feed/rss', () => {
 
 				it('is set to `null`', () => {
 					assert.isNull(feed.image);
+				});
+
+			});
+
+		});
+
+		describe('.items', () => {
+			let mockItemElements;
+			let items;
+
+			beforeEach(() => {
+				mockItemElements = [
+					new MockElement(),
+					new MockElement(),
+					new MockElement()
+				];
+				td.when(mockChannelElement.findElementsWithName('item')).thenReturn(mockItemElements);
+				items = feed.items;
+			});
+
+			it('instantiates an RssFeedItem for each item element found in the feed', () => {
+				td.verify(new RssFeedItem(), {
+					ignoreExtraArgs: true,
+					times: 3
+				});
+				td.verify(new RssFeedItem(feed, mockItemElements[0]), {times: 1});
+				td.verify(new RssFeedItem(feed, mockItemElements[1]), {times: 1});
+				td.verify(new RssFeedItem(feed, mockItemElements[2]), {times: 1});
+			});
+
+			it('is set to an array of the created RssFeedItem instances', () => {
+				assert.isArray(items);
+				assert.lengthOf(items, 3);
+				assert.instanceOf(items[0], RssFeedItem);
+				assert.instanceOf(items[1], RssFeedItem);
+				assert.instanceOf(items[2], RssFeedItem);
+			});
+
+			describe('when accessed a second time', () => {
+
+				it('does not re-instantate RssFeedItems', () => {
+					const newItems = feed.items;
+					td.verify(new RssFeedItem(), {
+						ignoreExtraArgs: true,
+						times: 3
+					});
+					assert.strictEqual(newItems, items);
 				});
 
 			});

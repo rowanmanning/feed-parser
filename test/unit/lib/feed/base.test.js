@@ -150,6 +150,17 @@ describe('lib/feed/base', () => {
 
 		});
 
+		describe('.items', () => {
+
+			it('throws an error', () => {
+				assert.throws(
+					() => feed.items,
+					'Feed.items must be implemented in an extending class'
+				);
+			});
+
+		});
+
 		describe('.toJSON()', () => {
 			let mockFeed;
 			let returnValue;
@@ -166,12 +177,13 @@ describe('lib/feed/base', () => {
 					published: new Date('2022-01-01T01:02:03.000Z'),
 					updated: new Date('2022-01-01T04:05:06.000Z'),
 					generator: 'mock-generator',
-					image: 'mock-image'
+					image: 'mock-image',
+					items: [{toJSON: () => 'mock-item'}]
 				};
 				returnValue = feed.toJSON.call(mockFeed);
 			});
 
-			it('returns a JSON representation of the feed', () => {
+			it('returns a JSON representation of the feed and content items', () => {
 				assert.deepEqual(returnValue, {
 					meta: 'mock-meta',
 					language: 'mock-language',
@@ -183,7 +195,8 @@ describe('lib/feed/base', () => {
 					published: '2022-01-01T01:02:03.000Z',
 					updated: '2022-01-01T04:05:06.000Z',
 					generator: 'mock-generator',
-					image: 'mock-image'
+					image: 'mock-image',
+					items: ['mock-item']
 				});
 			});
 

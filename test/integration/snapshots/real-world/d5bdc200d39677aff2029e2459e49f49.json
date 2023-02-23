@@ -16,6 +16,38 @@
 		"published": null,
 		"updated": "2022-05-31T08:37:12.000Z",
 		"generator": null,
-		"image": null
+		"image": null,
+		"items": [
+			{
+				"title": "v0.100.0"
+			},
+			{
+				"title": "v0.99.1"
+			},
+			{
+				"title": "v0.99.0"
+			},
+			{
+				"title": "v0.98.0"
+			},
+			{
+				"title": "v0.97.3"
+			},
+			{
+				"title": "v0.97.2"
+			},
+			{
+				"title": "v0.97.1"
+			},
+			{
+				"title": "v0.97.0"
+			},
+			{
+				"title": "v0.96.0"
+			},
+			{
+				"title": "v0.95.0"
+			}
+		]
 	}
 }
