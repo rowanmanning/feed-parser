@@ -59,6 +59,17 @@ describe('lib/feed/item/base', () => {
 
 		});
 
+		describe('.description', () => {
+
+			it('throws an error', () => {
+				assert.throws(
+					() => feedItem.description,
+					'FeedItem.description must be implemented in an extending class'
+				);
+			});
+
+		});
+
 		describe('.toJSON()', () => {
 			let mockFeedItem;
 			let returnValue;
@@ -66,7 +77,8 @@ describe('lib/feed/item/base', () => {
 			beforeEach(() => {
 				mockFeedItem = {
 					id: 'mock-id',
-					title: 'mock-title'
+					title: 'mock-title',
+					description: 'mock-description'
 				};
 				returnValue = feedItem.toJSON.call(mockFeedItem);
 			});
@@ -74,7 +86,8 @@ describe('lib/feed/item/base', () => {
 			it('returns a JSON representation of the feed item', () => {
 				assert.deepEqual(returnValue, {
 					id: 'mock-id',
-					title: 'mock-title'
+					title: 'mock-title',
+					description: 'mock-description'
 				});
 			});
 

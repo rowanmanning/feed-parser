@@ -20,7 +20,8 @@
 		"items": [
 			{
 				"id": "urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a",
-				"title": "Atom-Powered Robots Run Amok"
+				"title": "Atom-Powered Robots Run Amok",
+				"description": "Some text."
 			}
 		]
 	}

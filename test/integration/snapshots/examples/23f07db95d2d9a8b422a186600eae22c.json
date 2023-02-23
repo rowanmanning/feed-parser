@@ -27,39 +27,48 @@
 		"items": [
 			{
 				"id": null,
-				"title": "RSS Solutions for Restaurants"
+				"title": "RSS Solutions for Restaurants",
+				"description": "<b>FeedForAll </b>helps Restaurant's communicate with customers. Let your customers know the latest specials or events.<br> <br> RSS feed uses include:<br> <i><font color=\"#FF0000\">Daily Specials <br> Entertainment <br> Calendar of Events </i></font>"
 			},
 			{
 				"id": null,
-				"title": "RSS Solutions for Schools and Colleges"
+				"title": "RSS Solutions for Schools and Colleges",
+				"description": "FeedForAll helps Educational Institutions communicate with students about school wide activities, events, and schedules.<br> <br> RSS feed uses include:<br> <i><font color=\"#0000FF\">Homework Assignments <br> School Cancellations <br> Calendar of Events <br> Sports Scores <br> Clubs/Organization Meetings <br> Lunches Menus </i></font>"
 			},
 			{
 				"id": null,
-				"title": "RSS Solutions for Computer Service Companies"
+				"title": "RSS Solutions for Computer Service Companies",
+				"description": "FeedForAll helps Computer Service Companies communicate with clients about cyber security and related issues. <br> <br> Uses include:<br> <i><font color=\"#0000FF\">Cyber Security Alerts <br> Specials<br> Job Postings </i></font>"
 			},
 			{
 				"id": null,
-				"title": "RSS Solutions for Governments"
+				"title": "RSS Solutions for Governments",
+				"description": "FeedForAll helps Governments communicate with the general public about positions on various issues, and keep the community aware of changes in important legislative issues. <b><i><br> </b></i><br> RSS uses Include:<br> <i><font color=\"#00FF00\">Legislative Calendar<br> Votes<br> Bulletins</i></font>"
 			},
 			{
 				"id": null,
-				"title": "RSS Solutions for Politicians"
+				"title": "RSS Solutions for Politicians",
+				"description": "FeedForAll helps Politicians communicate with the general public about positions on various issues, and keep the community notified of their schedule. <br> <br> Uses Include:<br> <i><font color=\"#FF0000\">Blogs<br> Speaking Engagements <br> Statements<br> </i></font>"
 			},
 			{
 				"id": null,
-				"title": "RSS Solutions for Meteorologists"
+				"title": "RSS Solutions for Meteorologists",
+				"description": "FeedForAll helps Meteorologists communicate with the general public about storm warnings and weather alerts, in specific regions. Using RSS meteorologists are able to quickly disseminate urgent and life threatening weather warnings. <br> <br> Uses Include:<br> <i><font color=\"#0000FF\">Weather Alerts<br> Plotting Storms<br> School Cancellations </i></font>"
 			},
 			{
 				"id": null,
-				"title": "RSS Solutions for Realtors & Real Estate Firms"
+				"title": "RSS Solutions for Realtors & Real Estate Firms",
+				"description": "FeedForAll helps Realtors and Real Estate companies communicate with clients informing them of newly available properties, and open house announcements. RSS helps to reach a targeted audience and spread the word in an inexpensive, professional manner. <font color=\"#0000FF\"><br> </font><br> Feeds can be used for:<br> <i><font color=\"#FF0000\">Open House Dates<br> New Properties For Sale<br> Mortgage Rates</i></font>"
 			},
 			{
 				"id": null,
-				"title": "RSS Solutions for Banks / Mortgage Companies"
+				"title": "RSS Solutions for Banks / Mortgage Companies",
+				"description": "FeedForAll helps <b>Banks, Credit Unions and Mortgage companies</b> communicate with the general public about rate changes in a prompt and professional manner. <br> <br> Uses include:<br> <i><font color=\"#0000FF\">Mortgage Rates<br> Foreign Exchange Rates <br> Bank Rates<br> Specials</i></font>"
 			},
 			{
 				"id": null,
-				"title": "RSS Solutions for Law Enforcement"
+				"title": "RSS Solutions for Law Enforcement",
+				"description": "<b>FeedForAll</b> helps Law Enforcement Professionals communicate with the general public and other agencies in a prompt and efficient manner. Using RSS police are able to quickly disseminate urgent and life threatening information. <br> <br> Uses include:<br> <i><font color=\"#0000FF\">Amber Alerts<br> Sex Offender Community Notification <br> Weather Alerts <br> Scheduling <br> Security Alerts <br> Police Report <br> Meetings</i></font>"
 			}
 		]
 	}

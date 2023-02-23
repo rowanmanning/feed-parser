@@ -27,271 +27,338 @@
 		"items": [
 			{
 				"id": "https://www.bbc.co.uk/news/world-60993659",
-				"title": "Rare Sumatran rhino gives birth after eight miscarriages"
+				"title": "Rare Sumatran rhino gives birth after eight miscarriages",
+				"description": "The critically endangered Sumatran rhino gave birth to a female calf in an Indonesian sanctuary."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-latin-america-60993655",
-				"title": "Peru inflation: Civilians and police clash in Peru protests"
+				"title": "Peru inflation: Civilians and police clash in Peru protests",
+				"description": "Protests have taken place across Peru, as oil, gas and toll road prices rise."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-61002622",
-				"title": "Ukraine war: Many more cities like Bucha says President Zelensky"
+				"title": "Ukraine war: Many more cities like Bucha says President Zelensky",
+				"description": "Volodymyr Zelensky addressed the UN Security Council for the first time since Russia invaded Ukraine."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60956242",
-				"title": "Ukraine war: Rescuing vulnerable children from the front line"
+				"title": "Ukraine war: Rescuing vulnerable children from the front line",
+				"description": "A BBC crew follows an ambulance team as medics evacuate 12 children from the city of Sumy."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60989412",
-				"title": "Ukraine war: President Zelensky visits site of alleged atrocities in Bucha"
+				"title": "Ukraine war: President Zelensky visits site of alleged atrocities in Bucha",
+				"description": "The Ukrainian president says people have been found in barrels, having been strangled and tortured."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60989413",
-				"title": "Ukraine war: Bucha massacre is a game changer - Ukraine foreign minister"
+				"title": "Ukraine war: Bucha massacre is a game changer - Ukraine foreign minister",
+				"description": "Dmytro Kuleba told BBC HARDtalk that events in Bucha prove how much help Ukraine needs from the West."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-australia-60978502",
-				"title": "Bondi Beach: Huge tides engulf Sydney's famous beach"
+				"title": "Bondi Beach: Huge tides engulf Sydney's famous beach",
+				"description": "Scenes of swells washing over Australia's most famous beach and its promenade have stunned locals."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-us-canada-60989415",
-				"title": "Curious owl inspects TV weather station camera"
+				"title": "Curious owl inspects TV weather station camera",
+				"description": "The camera in Great Falls, Montana, captured the moment the bird peeked into its lens."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60977889",
-				"title": "The Ukrainian mother who had to bury her own son"
+				"title": "The Ukrainian mother who had to bury her own son",
+				"description": "Iryna Kostenko tells the BBC's Jeremy Bowen how Russian soldiers killed her 27-year-old son and took over her home."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60843227",
-				"title": "Ukraine war: The women sharing their memories of Ukraine before the war"
+				"title": "Ukraine war: The women sharing their memories of Ukraine before the war",
+				"description": "Four women who shared viral videos of Ukraine before the war speak to the BBC about those memories."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-africa-60955345",
-				"title": "Rogue pastors, fake miracles and murder"
+				"title": "Rogue pastors, fake miracles and murder",
+				"description": "Across Africa, extreme Christianity is threatening the faith of many."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60976917",
-				"title": "Ukraine war: The popular politician who escaped a targeted missile strike"
+				"title": "Ukraine war: The popular politician who escaped a targeted missile strike",
+				"description": "The social media-friendly Ukrainian governor Vitaliy Kim overslept while his office was destroyed."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-asia-60977417",
-				"title": "Sri Lanka: Tear gas and water cannon used in Kandy"
+				"title": "Sri Lanka: Tear gas and water cannon used in Kandy",
+				"description": "Protesters were mostly students, angry with their government's handling of the country's economy."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60974086",
-				"title": "Ukraine war: Mum describes bomb crashing into her family home"
+				"title": "Ukraine war: Mum describes bomb crashing into her family home",
+				"description": "Olena Selichzianowa says she pulled her twin boys beneath her to protect them from flying shrapnel."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60973124",
-				"title": "Zelensky spokesman describes heartbreaking scenes in Ukraine"
+				"title": "Zelensky spokesman describes heartbreaking scenes in Ukraine",
+				"description": "A spokesman for Ukraine's President Zelensky describes the discovery of mass graves."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60972351",
-				"title": "Smoke rising in Ukrainian port city Odesa after strikes"
+				"title": "Smoke rising in Ukrainian port city Odesa after strikes",
+				"description": "Smoke is seen after explosions are heard in the strategic southern port city of Odesa on the Black Sea coast."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60968546",
-				"title": "War in Ukraine: Evidence grows of civilian killings in Bucha"
+				"title": "War in Ukraine: Evidence grows of civilian killings in Bucha",
+				"description": "The BBC's Jeremy Bowen reports on the growing evidence of civilian killings in Bucha, near Kyiv. His report contains some distressing images."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-africa-60959467",
-				"title": "War in Ukraine: Koko’s phone is your phone as she makes her way out"
+				"title": "War in Ukraine: Koko’s phone is your phone as she makes her way out",
+				"description": "British-Zimbabwean student Korrine Sky documented her escape from Ukraine on her mobile phone."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60955687",
-				"title": "Ukrainian refugee with Royal College of Music scholarship in visa limbo"
+				"title": "Ukrainian refugee with Royal College of Music scholarship in visa limbo",
+				"description": "Nadiia Chaichenko and her family fled their home in Kharkiv at the start of the war."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/stories-60931660",
-				"title": "The handshake in space that brought hope to the world"
+				"title": "The handshake in space that brought hope to the world",
+				"description": "What happened when US astronauts met USSR cosmonauts in space"
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60956241",
-				"title": "Ukraine: Why the cartoon Masyanya was banned in Russia"
+				"title": "Ukraine: Why the cartoon Masyanya was banned in Russia",
+				"description": "Masyanya is a YouTube cartoon star in Russia, but her episode on the Ukraine war has been banned."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60947272",
-				"title": "Russian MP says Putin's plan for Ukraine hasn't been shared with their parliament"
+				"title": "Russian MP says Putin's plan for Ukraine hasn't been shared with their parliament",
+				"description": "Maria Butina says Putin's plan wasn't shared with MPs, but the campaign is going \"according to plan\"."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60947271",
-				"title": "How do you do a face-to-face interview with Zelensky?"
+				"title": "How do you do a face-to-face interview with Zelensky?",
+				"description": "Zanny Minton Beddoes, editor-in-chief of The Economist, on how she interviewed Ukraine's president."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60953243",
-				"title": "WATCH: Missiles strike oil depot in Belgorod, Russia"
+				"title": "WATCH: Missiles strike oil depot in Belgorod, Russia",
+				"description": "Firefighters tackle a blaze at a facility near the Ukrainian border, which Moscow says was attacked."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-middle-east-60931180",
-				"title": "Ukraine war: The Syrians signing up to fight for Russia"
+				"title": "Ukraine war: The Syrians signing up to fight for Russia",
+				"description": "Recruits are being offered thousands of dollars to be deployed on the front line in Ukraine."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60930068",
-				"title": "Dog saved by Ukrainian soldiers from abandoned home"
+				"title": "Dog saved by Ukrainian soldiers from abandoned home",
+				"description": "The dog named Bavaria was found as soldiers inspected abandoned flats on the frontline near Kyiv."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-us-canada-60880633",
-				"title": "US astronaut and Russian cosmonauts return to Earth"
+				"title": "US astronaut and Russian cosmonauts return to Earth",
+				"description": "They landed safely in Kazakhstan after leaving the International Space Station in a shared capsule."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-australia-60928153",
-				"title": "Australia floods: Severe flooding strikes Australian east coast again"
+				"title": "Australia floods: Severe flooding strikes Australian east coast again",
+				"description": "Home and business have been swamped, with residents forced to evacuate."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60920248",
-				"title": "Ukraine war: Russian missile tears hole through Mykolaiv administrative building"
+				"title": "Ukraine war: Russian missile tears hole through Mykolaiv administrative building",
+				"description": "Ukrainian authorities said at least seven people have died in the attack."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60867684",
-				"title": "Ukraine war: Youngsters in Finland worried conflict could spread"
+				"title": "Ukraine war: Youngsters in Finland worried conflict could spread",
+				"description": "In Finland, which borders Russia, some young people are worried the Ukraine conflict could spread."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60905198",
-				"title": "Ukraine: Sheltering with monks in a Romanian monastery"
+				"title": "Ukraine: Sheltering with monks in a Romanian monastery",
+				"description": "The Ukrainian family who found shelter in a an unlikely place after fleeing Kharkiv."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60968543",
-				"title": "War in Ukraine: Amongst wreckage in Hostomel Airport near Kyiv"
+				"title": "War in Ukraine: Amongst wreckage in Hostomel Airport near Kyiv",
+				"description": "The BBC's Jeremy Bowen reports from the airport, some 10 miles from Kyiv, which holds the wreckage of the world's biggest cargo plane."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60903513",
-				"title": "Ukraine war: Bringing up a baby among the bombs"
+				"title": "Ukraine war: Bringing up a baby among the bombs",
+				"description": "More than 1.5 million children have fled Ukraine since the beginning of Russia's invasion, says the UN."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-australia-60909634",
-				"title": "Shane Warne: Australians reflect on cricket legend and 'man of the people'"
+				"title": "Shane Warne: Australians reflect on cricket legend and 'man of the people'",
+				"description": "Ahead of Warne's memorial service, ordinary Australians explain why his legacy transcends cricket."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/uk-60907636",
-				"title": "Iran detainee Ashoori: ‘I should have been back earlier’"
+				"title": "Iran detainee Ashoori: ‘I should have been back earlier’",
+				"description": "British-Iranian Ashoori, who was freed from prison in Iran, has spoken about his experience."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/entertainment-arts-60898250",
-				"title": "Best actor winner Will Smith took offence at a joke by presenter Chris Rock"
+				"title": "Best actor winner Will Smith took offence at a joke by presenter Chris Rock",
+				"description": "The Oscars were halted momentarily when Will Smith took offence to a joke by presenter Chris Rock."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60900595",
-				"title": "War in Ukraine: Graphic protest by Russian artist Yevgenia Isayeva"
+				"title": "War in Ukraine: Graphic protest by Russian artist Yevgenia Isayeva",
+				"description": "Yevgenia Isayeva doused herself in fake blood and chanted, \"my heart bleeds\" in the solo protest."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60878703",
-				"title": "Ukraine war: The drone pilots monitoring Russian troops"
+				"title": "Ukraine war: The drone pilots monitoring Russian troops",
+				"description": "The BBC joins a Ukrainian defence unit carrying out aerial reconnaissance around Kyiv."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-us-canada-60889259",
-				"title": "War in Ukraine: Vladimir Putin cannot remain in power - Biden"
+				"title": "War in Ukraine: Vladimir Putin cannot remain in power - Biden",
+				"description": "A White House official says the US president was not calling for a regime change."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60889257",
-				"title": "War in Ukraine: Musicians perform emotional concert in Kharkiv metro station"
+				"title": "War in Ukraine: Musicians perform emotional concert in Kharkiv metro station",
+				"description": "Musicians performed the concert at a metro station in Kharkiv, being used as a makeshift shelter."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-us-canada-60889260",
-				"title": "Sidney Poitier's daughter on his Oscars legacy"
+				"title": "Sidney Poitier's daughter on his Oscars legacy",
+				"description": "Sidney Poitier's daughter discusses the late Oscar winner's influence on civil rights and cinema."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/stories-60864113",
-				"title": "Baby goats and gardens to help with hospital stress"
+				"title": "Baby goats and gardens to help with hospital stress",
+				"description": "How cuddling a goat in a garden helps US medical staff and patients."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60839787",
-				"title": "Civilian deaths: Aerial video shows escaping father killed in Ukraine"
+				"title": "Civilian deaths: Aerial video shows escaping father killed in Ukraine",
+				"description": "Video captured by a Ukrainian aerial reconnaissance group appears to show Russian forces shooting at civilians."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60853404",
-				"title": "Ukraine war: Ros Atkins on... Putin’s false ‘Nazi’ claims"
+				"title": "Ukraine war: Ros Atkins on... Putin’s false ‘Nazi’ claims",
+				"description": "Russia is spreading untruths about Nazis in Ukraine - one of Putin's justifications for his invasion."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/entertainment-arts-60885853",
-				"title": "Taylor Hawkins: Bogota festival crowd reacts to Foo Fighters drummer's death"
+				"title": "Taylor Hawkins: Bogota festival crowd reacts to Foo Fighters drummer's death",
+				"description": "The band had been due to perform at the Estereo Picnic festival in Bogota, Colombia, on Friday night."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/entertainment-arts-60882714",
-				"title": "Coda star and Oscar nominee inspires deaf children to dream big"
+				"title": "Coda star and Oscar nominee inspires deaf children to dream big",
+				"description": "Troy Kotsur is a star of CODA and the first deaf male actor ever to be nominated for an Oscar."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-us-canada-60880628",
-				"title": "Surviving deadly tornadoes that tore through the southern US"
+				"title": "Surviving deadly tornadoes that tore through the southern US",
+				"description": "People describe harrowing experiences trying to survive tornadoes that tore through the southern US."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-us-canada-60877832",
-				"title": "The ups and downs of teaching during Covid"
+				"title": "The ups and downs of teaching during Covid",
+				"description": "From remote learning to the end of masking, Arielle has taught students throughout the pandemic."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-asia-60827251",
-				"title": "Hazara: The female karate champions 'breaking out of the cage'"
+				"title": "Hazara: The female karate champions 'breaking out of the cage'",
+				"description": "Women from the Hazara community say the martial art helps them break out of the restrictions their community faces."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/health-60861537",
-				"title": "Poland hotel becomes triage centre for cancer patients"
+				"title": "Poland hotel becomes triage centre for cancer patients",
+				"description": "Hundreds of children with cancer have now been evacuated from Ukraine to continue treatment abroad."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60867789",
-				"title": "Ukraine war: Return to Irpin, the town destroyed in the battle for Kyiv"
+				"title": "Ukraine war: Return to Irpin, the town destroyed in the battle for Kyiv",
+				"description": "The BBC's Jeremy Bowen returns to Irpin, where Ukrainian forces say they're pushing back Russians."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60867786",
-				"title": "Ukraine war: The dangers faced by front line fighters in Kharkiv"
+				"title": "Ukraine war: The dangers faced by front line fighters in Kharkiv",
+				"description": "A month into the war, Mark and Vlad, both 22, show the BBC the perils they face every day in Kharkiv."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/entertainment-arts-60861539",
-				"title": "Michael Bublé: Multi-Grammy winner on Bond themes, romantic gifts and new album"
+				"title": "Michael Bublé: Multi-Grammy winner on Bond themes, romantic gifts and new album",
+				"description": "An egg poacher, a toaster and the washing up - just some ways Michael Bublé shows his romantic side."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-australia-60831476",
-				"title": "Australia floods: 'We're resilient, but how about helping us?'"
+				"title": "Australia floods: 'We're resilient, but how about helping us?'",
+				"description": "Locals tell dramatic stories of survival and recovery, but accuse politicians of ignoring them."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60877442",
-				"title": "Ukraine war: Smoke rises from Kyiv fuel depot Russia claims it has destroyed"
+				"title": "Ukraine war: Smoke rises from Kyiv fuel depot Russia claims it has destroyed",
+				"description": "Moscow says it targeted the largest remaining military fuel storage facility in Ukraine."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/60822489",
-				"title": "What are sanctions and do they work?"
+				"title": "What are sanctions and do they work?",
+				"description": "Sanctions are used by countries as a diplomatic tool, but they don't always have their intended effect."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60867785",
-				"title": "Ukraine war: Digging a grave for my stepfather, killed in Mariupol"
+				"title": "Ukraine war: Digging a grave for my stepfather, killed in Mariupol",
+				"description": "Viktoria’s stepfather died when the car taking him to hospital was blown up during fighting in Mariupol."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60859384",
-				"title": "War in Ukraine: Explosion seen in Berdyansk as navy claims to destroy Russian ship"
+				"title": "War in Ukraine: Explosion seen in Berdyansk as navy claims to destroy Russian ship",
+				"description": "The Ukrainian navy says it has destroyed a Russian landing ship named the Orsk in the port city of Berdyansk."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60858611",
-				"title": "War in Ukraine: Zelensky calls on people to 'support freedom' and oppose Russia"
+				"title": "War in Ukraine: Zelensky calls on people to 'support freedom' and oppose Russia",
+				"description": "Volodymyr Zelensky made his appeal in English, marking one month since Russia invaded Ukraine."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60854503",
-				"title": "Ukraine war: Destruction of cities shown from above"
+				"title": "Ukraine war: Destruction of cities shown from above",
+				"description": "In the month since Russia's military invaded, it has laid waste to cities across Ukraine."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60854502",
-				"title": "The Ukrainian refugee who loves to laugh at school in Poland"
+				"title": "The Ukrainian refugee who loves to laugh at school in Poland",
+				"description": "Ten-year-old Yana started school in Poland three weeks ago, after fleeing the war in Ukraine."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60848142",
-				"title": "War in Ukraine: 'Pets are getting left at train stations'"
+				"title": "War in Ukraine: 'Pets are getting left at train stations'",
+				"description": "A photographer from the UK travels to western Ukraine to rescue pets displaced by war."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-us-canada-60854858",
-				"title": "US tornadoes: What the storm aftermath in Louisiana and Texas looks like"
+				"title": "US tornadoes: What the storm aftermath in Louisiana and Texas looks like",
+				"description": "Homes are left destroyed by storms that tore through southern states, including Louisiana and Texas."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-australia-60850780",
-				"title": "Ash Barty: Australians react to world tennis number one's shock retirement"
+				"title": "Ash Barty: Australians react to world tennis number one's shock retirement",
+				"description": "The BBC hears from tennis players in Brisbane, where world number one Ashleigh Barty regular trained."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-asia-60853162",
-				"title": "Taliban schools U-turn 'a devastating day' for Afghan girls - Malala Yousafzai"
+				"title": "Taliban schools U-turn 'a devastating day' for Afghan girls - Malala Yousafzai",
+				"description": "The Taliban’s U-turn on girls' high schools is heartbreaking, the Nobel Peace Prize laureate says."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60836321",
-				"title": "WATCH: Ukrainian sailing club protest superyacht linked to Abramovich in Turkey"
+				"title": "WATCH: Ukrainian sailing club protest superyacht linked to Abramovich in Turkey",
+				"description": "A Ukrainian sailing team protest against the arrival of a superyacht linked to Roman Abramovich in Turkey."
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-us-canada-60799661",
-				"title": "Driver in pick-up truck flipped by Texas tornado"
+				"title": "Driver in pick-up truck flipped by Texas tornado",
+				"description": "Watch the moment the vehicle is tossed in the air by the twister as storms swept across Texas."
 			}
 		]
 	}

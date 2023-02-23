@@ -20,7 +20,8 @@
 		"items": [
 			{
 				"id": null,
-				"title": "XML: A Disruptive Technology"
+				"title": "XML: A Disruptive Technology",
+				"description": "XML is placing increasingly heavy loads on the existing technical infrastructure of the Internet."
 			}
 		]
 	}

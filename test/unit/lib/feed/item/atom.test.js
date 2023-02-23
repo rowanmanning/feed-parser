@@ -98,6 +98,33 @@ describe('lib/feed/item/atom', () => {
 
 		});
 
+		describe('.description', () => {
+			let mockSummaryElement;
+
+			beforeEach(() => {
+				mockSummaryElement = new MockElement();
+				mockSummaryElement.textContentNormalized = 'mock summary text';
+				td.when(mockItemElement.findElementWithName('summary')).thenReturn(mockSummaryElement);
+			});
+
+			it('is set to the text of the first summary element found in the feed item', () => {
+				assert.strictEqual(feedItem.description, 'mock summary text');
+			});
+
+			describe('when a summary element does not exist', () => {
+
+				beforeEach(() => {
+					td.when(mockItemElement.findElementWithName('summary')).thenReturn(null);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(feedItem.description);
+				});
+
+			});
+
+		});
+
 	});
 
 });

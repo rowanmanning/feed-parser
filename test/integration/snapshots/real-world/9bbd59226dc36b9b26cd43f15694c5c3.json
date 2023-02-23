@@ -24,123 +24,153 @@
 		"items": [
 			{
 				"id": "https://wordpress.org/news/?p=12575",
-				"title": "WordPress 5.9.3 Maintenance Release"
+				"title": "WordPress 5.9.3 Maintenance Release",
+				"description": "WordPress 5.9.3 is now available! This maintenance release features 9 bug fixes in Core and 9 bug fixes in the block editor."
 			},
 			{
 				"id": "https://wordpress.org/news/?p=12583",
-				"title": "The Month in WordPress – March 2022"
+				"title": "The Month in WordPress – March 2022",
+				"description": "We hope that you and your beloved ones are staying safe during these difficult times. If you’re looking for a way to help support the humanitarian crisis in Ukraine, a list of Non-Governmental Organizations (NGOs) was shared earlier last month in the 26th episode of WP Briefing, Matt Mullenweg on Ukraine, Community, and WordPress. In […]"
 			},
 			{
 				"id": "https://wordpress.org/news/?post_type=podcast&p=12506",
-				"title": "WP Briefing: Episode 28: Coming to a WordCamp Near You: A Return to In-Person WP Events"
+				"title": "WP Briefing: Episode 28: Coming to a WordCamp Near You: A Return to In-Person WP Events",
+				"description": "Curious about returning to WordPress events safely? Tune in as WordPress Executive Director Josepha Haden Chomphosy discusses guidelines for returning to in-person events."
 			},
 			{
 				"id": "https://wordpress.org/news/?p=12512",
-				"title": "People of WordPress: Juan Aldasoro"
+				"title": "People of WordPress: Juan Aldasoro",
+				"description": "The People of WordPress feature this month shares the story of web and plugin developer Juanfra Aldasoro from Argentina."
 			},
 			{
 				"id": "https://wordpress.org/news/?p=12460",
-				"title": "Get Creative with the All-New Pattern Creator"
+				"title": "Get Creative with the All-New Pattern Creator",
+				"description": "It’s been less than a year since the WordPress Pattern Directory was launched, and we already have more exciting news to share. The Pattern Creator is live! You can now build, edit, and submit your best block patterns to the Pattern Directory—submissions are open to all with a WordPress.org user account! The WordPress Pattern Directory […]"
 			},
 			{
 				"id": "https://wordpress.org/news/?post_type=podcast&p=12451",
-				"title": "WP Briefing: Episode 27: Is WordPress Made for Me?"
+				"title": "WP Briefing: Episode 27: Is WordPress Made for Me?",
+				"description": "Who is WordPress actually made for? Join our host, WordPress Executive Director Josepha Haden Chomphosy, as she explores this controversial question and three things that can help find the answer. Have a question you’d like answered? You can submit them to wpbriefing@wordpress.org, either written or as a voice recording. Hosts: Josepha Haden Chomphosy Editor: Dustin HartzlerLogo: Beatriz […]"
 			},
 			{
 				"id": "https://wordpress.org/news/?p=12421",
-				"title": "WordPress 5.9.2 Security and Maintenance Release"
+				"title": "WordPress 5.9.2 Security and Maintenance Release",
+				"description": "WordPress 5.9.2 is now available! This security and maintenance release features 1 bug fix in addition to 3 security fixes. Because this is a security release, it is recommended that you update your sites immediately. All versions since WordPress 3.7 have also been updated. WordPress 5.9.2 is a security and maintenance release. The next major release […]"
 			},
 			{
 				"id": "https://wordpress.org/news/?post_type=podcast&p=12415",
-				"title": "WP Briefing: Episode 26: Matt Mullenweg on Ukraine, Community, and WordPress"
+				"title": "WP Briefing: Episode 26: Matt Mullenweg on Ukraine, Community, and WordPress",
+				"description": "Matt Mullenweg speaks to WordPress contributors worldwide on this special edition of the WP Briefing podcast with Josepha Haden Chomphosy. Join us to hear Matt’s thoughts on Ukraine. Have a question you’d like answered? You can submit them to wpbriefing@wordpress.org, either written or as a voice recording. Credits Hosts: Josepha Haden Chomphosy and Matt Mullenweg […]"
 			},
 			{
 				"id": "https://wordpress.org/news/?p=12411",
-				"title": "The Month in WordPress – February 2022"
+				"title": "The Month in WordPress – February 2022",
+				"description": "There’s a lot going on in the world right now, and safety is top of mind for everyone in the WordPress community. If you don’t know where to begin, or how to support your peers, Executive Director Josepha Chomphosy’s advice to the global community is to start small.  Overall, February has been a busy month […]"
 			},
 			{
 				"id": "https://wordpress.org/news/?p=12151",
-				"title": "People of WordPress: Tonya Mork"
+				"title": "People of WordPress: Tonya Mork",
+				"description": "The People of WordPress feature this month shares the story of engineer and developer Tonya Mork."
 			},
 			{
 				"id": "https://wordpress.org/news/?p=12266",
-				"title": "WordPress 5.9.1 Maintenance Release"
+				"title": "WordPress 5.9.1 Maintenance Release",
+				"description": "WordPress 5.9.1 is now available!"
 			},
 			{
 				"id": "https://wordpress.org/news/?post_type=podcast&p=12288",
-				"title": "WP Briefing: Episode 25: Five Cents on Five for the Future"
+				"title": "WP Briefing: Episode 25: Five Cents on Five for the Future",
+				"description": "In this twenty-fifth episode of the WordPress Briefing, Executive Director, Josepha Haden Chomphosy discusses future-proofing the WordPress project with the Five for the Future pledge. Have a question you’d like answered? You can submit them to wpbriefing@wordpress.org, either written or as a voice recording. Credits Editor: Dustin Hartzler Logo: Beatriz Fialho Production: Chloé Bringmann & Santana Inniss Song: […]"
 			},
 			{
 				"id": "https://wordpress.org/news/?p=12244",
-				"title": "A New WordPress News"
+				"title": "A New WordPress News",
+				"description": "In June 2021, @beafialho in collaboration with @pablohoney floated the idea of giving WordPress News a new look. Today, those ideas become a reality—we’re excited to share that redesign of WordPress News is live! The new design leans on the aesthetics of jazz, intrinsically connected to WordPress and which ultimately translates its uniqueness, historic significance […]"
 			},
 			{
 				"id": "https://wordpress.org/news/?post_type=podcast&p=12176",
-				"title": "WP Briefing: Episode 24: Three Goals in 2022"
+				"title": "WP Briefing: Episode 24: Three Goals in 2022",
+				"description": "In episode 24 of the WordPress Briefing, the Project’s Executive Director reviews three big-picture goals for the year: Increased Gutenberg adoption, support of all open source alternatives, and stewarding the open source ethos. Have a question you’d like answered? You can submit them to wpbriefing@wordpress.org, either written or as a voice recording. Credits Editor: Dustin Hartzler […]"
 			},
 			{
 				"id": "https://wordpress.org/news/?p=12180",
-				"title": "The Month in WordPress – January 2022"
+				"title": "The Month in WordPress – January 2022",
+				"description": "There are a few significant moments in the history of the WordPress project. January 2022 is one of them, with the release of WordPress 5.9! But that’s not all. Read on to learn more about the latest updates and achievements from the community. WordPress 5.9 Joséphine is here Meet WordPress 5.9 Joséphine. Named in honor […]"
 			},
 			{
 				"id": "https://wordpress.org/news/?p=12089",
-				"title": "WordPress 5.9 “Josephine”"
+				"title": "WordPress 5.9 “Josephine”",
+				"description": "WordPress 5.9 is available thanks to more than 600 contributors who helped make it happen."
 			},
 			{
 				"id": "https://wordpress.org/news/?p=12050",
-				"title": "WordPress 5.9 RC3"
+				"title": "WordPress 5.9 RC3",
+				"description": "Download to test the third Release Candidate (RC3) for WordPress 5.9."
 			},
 			{
 				"id": "https://wordpress.org/news/?post_type=podcast&p=12043",
-				"title": "WP Briefing: Episode 23: A letter from WordPress’ Executive Director"
+				"title": "WP Briefing: Episode 23: A letter from WordPress’ Executive Director",
+				"description": "As we greet a new year, WordPress’ Executive Director writes a letter to the project and community that speaks to the hopes of the year ahead. Have a question you’d like answered? You can submit them to wpbriefing@wordpress.org, either written or as a voice recording. Credits Editor: Dustin Hartzler Logo: Beatriz Fialho Production: Chloé Bringmann Song: Fearless First […]"
 			},
 			{
 				"id": "https://wordpress.org/news/?p=12014",
-				"title": "WordPress 5.9 RC 2"
+				"title": "WordPress 5.9 RC 2",
+				"description": "The second Release Candidate (RC2) for WordPress 5.9 is available! The final release is slated for January 25, 2022."
 			},
 			{
 				"id": "https://wordpress.org/news/?p=11999",
-				"title": "WordPress 5.8.3 Security Release"
+				"title": "WordPress 5.8.3 Security Release",
+				"description": "This security release features four security fixes. Because this is a security release, it is recommended that you update your sites immediately. All versions since WordPress 3.7 have also been updated. WordPress 5.8.3 is a short-cycle security release. The next major release will be version 5.9, which is already in the Release Candidate stage. You […]"
 			},
 			{
 				"id": "https://wordpress.org/news/?p=11972",
-				"title": "The Month in WordPress – December 2021"
+				"title": "The Month in WordPress – December 2021",
+				"description": "December was a busy month for the WordPress community. In the latest episode of the WP Briefing podcast, WordPress Executive Director Josepha Haden Chomphosy shares a carol of thanks and shows her gratitude to all the people who make the WordPress project a success. (…) I know that we have gotten so much done together […]"
 			},
 			{
 				"id": "https://wordpress.org/news/?p=11948",
-				"title": "WordPress 5.9 RC 1"
+				"title": "WordPress 5.9 RC 1",
+				"description": "The WordPress 5.9 Release Candidate 1 is available. The final release is slated for January 25, 2022."
 			},
 			{
 				"id": "https://wordpress.org/news/?p=11923",
-				"title": "People of WordPress: Collins Agbonghama"
+				"title": "People of WordPress: Collins Agbonghama",
+				"description": "Collins Agbonghama, a web developer from Nigeria, Africa, shares how WordPress gives him a sustainable income and a better future."
 			},
 			{
 				"id": "https://wordpress.org/news/?p=11876",
-				"title": "WordPress 5.9 Beta 4"
+				"title": "WordPress 5.9 Beta 4",
+				"description": "WordPress 5.9 Beta 4 released on 21 December 2021 and is available for testing."
 			},
 			{
 				"id": "https://wordpress.org/news/?post_type=podcast&p=11880",
-				"title": "WP Briefing: Episode 22: A Carol of Thanks"
+				"title": "WP Briefing: Episode 22: A Carol of Thanks",
+				"description": "In this last episode of 2021, Josepha Haden Chomphosy takes the time to appreciate those who make the WordPress project a success and offers a carol of thanks. Have a question you’d like answered? You can submit them to wpbriefing@wordpress.org, either written or as a voice recording. Credits Editor: Dustin Hartzler Logo: Beatriz Fialho Production: Chloé Bringmann Song: […]"
 			},
 			{
 				"id": "https://wordpress.org/news/?p=11869",
-				"title": "Highlights from State of the Word 2021"
+				"title": "Highlights from State of the Word 2021",
+				"description": "Highlights and the official video for State of the Word 2021"
 			},
 			{
 				"id": "https://wordpress.org/news/?p=11835",
-				"title": "WordPress 5.9 Beta 3"
+				"title": "WordPress 5.9 Beta 3",
+				"description": "WordPress 5.9 Beta 3 is now available for testing. Help test to make the release as good as it can be."
 			},
 			{
 				"id": "https://wordpress.org/news/?p=11794",
-				"title": "WordPress 5.9 Beta 2"
+				"title": "WordPress 5.9 Beta 2",
+				"description": "Can you help test the latest software version of WordPress? 5.9 Beta 2 was published on 7 December 2021, help find any bugs."
 			},
 			{
 				"id": "https://wordpress.org/news/?p=11763",
-				"title": "The Month in WordPress – November 2021"
+				"title": "The Month in WordPress – November 2021",
+				"description": "Despite the holiday season being around the corner, the WordPress project didn’t slow down. In a recent episode of WP Briefing, Executive Director Josepha Haden shares the first thing she wants people to notice about WordPress, which is also the heart of this open source project: Now, the first thing I want people to see […]"
 			},
 			{
 				"id": "https://wordpress.org/news/?p=11584",
-				"title": "WordPress 5.9 Beta 1"
+				"title": "WordPress 5.9 Beta 1",
+				"description": "WordPress 5.9 Beta 1 is now available for testing! This version of the WordPress software is under development. You don’t want to run this version on a production site. Instead, it is recommended that you run this on a test site. This will allow you to test out the new version. You can test the […]"
 			}
 		]
 	}

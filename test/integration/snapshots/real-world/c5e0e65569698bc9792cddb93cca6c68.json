@@ -23,255 +23,318 @@
 		"items": [
 			{
 				"id": "https://www.nytimes.com/2022/04/05/business/russia-debt-dollars.html",
-				"title": "US Blocks Russia’s Access to Dollars for Bond Payments"
+				"title": "US Blocks Russia’s Access to Dollars for Bond Payments",
+				"description": "The U.S. Treasury tightened its restrictions on Russian financial transactions on Monday, when more than half a billion dollars in bond payments were due."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/world/europe/russia-ukraine-war-atrocities.html",
-				"title": "Up-Close Ukraine Atrocity Photographs Touch a Global Nerve"
+				"title": "Up-Close Ukraine Atrocity Photographs Touch a Global Nerve",
+				"description": "The apparent execution of Ukrainian civilians by retreating Russian forces, their bodies strewn in streets and yards, has focused attention on what constitutes crimes in war."
 			},
 			{
 				"id": "https://www.nytimes.com/live/2022/04/05/world/ukraine-russia-war/ukraine-airstrikes-borodyanka",
-				"title": "In the rubble of a town near Kyiv, many are missing and feared dead."
+				"title": "In the rubble of a town near Kyiv, many are missing and feared dead.",
+				"description": null
 			},
 			{
 				"id": "https://www.nytimes.com/live/2022/04/05/world/ukraine-russia-war/after-russian-advances-us-britain-and-australia-expand-partnership-to-develop-hypersonic-missiles",
-				"title": "After Russian advances, U.S., Britain and Australia expand partnership to develop hypersonic missiles."
+				"title": "After Russian advances, U.S., Britain and Australia expand partnership to develop hypersonic missiles.",
+				"description": null
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/world/europe/ukraine-refugee-war-return.html",
-				"title": "Some Ukrainian Refugees Are Returning Home, Despite the Risks"
+				"title": "Some Ukrainian Refugees Are Returning Home, Despite the Risks",
+				"description": "A growing number of families, convinced the war could last for years, have decided that facing danger at home is better than life as a refugee."
 			},
 			{
 				"id": "https://www.nytimes.com/live/2022/04/05/world/ukraine-russia-war/the-next-pivotal-battle-in-ukraine-sloviansk-military-analysts-say",
-				"title": "The ‘next pivotal battle’ in Ukraine? Sloviansk, military analysts say."
+				"title": "The ‘next pivotal battle’ in Ukraine? Sloviansk, military analysts say.",
+				"description": "A new report says Russia needs to seize the city or its campaign to capture eastern Ukraine “will likely fail.”"
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/us/politics/ukraine-russia-hackers.html",
-				"title": "Hackers’ Fake Claims of Ukrainian Surrender Aren’t Fooling Anyone. So What’s Their Goal?"
+				"title": "Hackers’ Fake Claims of Ukrainian Surrender Aren’t Fooling Anyone. So What’s Their Goal?",
+				"description": "Experts say the hackers’ intentions might not be to actually trick anyone, but to erode confidence in Ukrainian media outlets and institutions."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/science/russian-astronauts-flight-suits-ukraine-flag.html",
-				"title": "Russians’ Flight Suits Weren’t a Political Statement, NASA Astronaut Says"
+				"title": "Russians’ Flight Suits Weren’t a Political Statement, NASA Astronaut Says",
+				"description": "The Russians were “kind of blindsided,” that people thought they were making a political statement, Mark Vande Hei said. But the suits matched the colors of the university they all attended."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/us/oklahoma-abortion-ban.html",
-				"title": "Oklahoma Lawmakers Approve Near-Total Ban on Abortion"
+				"title": "Oklahoma Lawmakers Approve Near-Total Ban on Abortion",
+				"description": "The measure is part of a wave of stringent abortion restrictions enacted by legislators in Republican-led states."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/business/economy/recession-economy.html",
-				"title": "The US Economy Is Booming. Why Are Economists Worrying About a Recession?"
+				"title": "The US Economy Is Booming. Why Are Economists Worrying About a Recession?",
+				"description": "There is little sign that a recession is imminent. But sky-high demand and supply shortages are testing the economy’s limits."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/business/europe-exports-russia.html",
-				"title": "Ukraine War Reverberates in Europe’s Factories and Warehouses"
+				"title": "Ukraine War Reverberates in Europe’s Factories and Warehouses",
+				"description": "European companies that relied on Russian customers are suffering collateral damage from the invasion of Ukraine and Western sanctions."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/business/economy/trucker-training.html",
-				"title": "Truck Drivers’ On-the-Job Training Can Be Costly if They Quit"
+				"title": "Truck Drivers’ On-the-Job Training Can Be Costly if They Quit",
+				"description": "Freight haulers draw rookie drivers by promising to get them licensed. The obligation that follows, one lawyer says, amounts to indentured servitude."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/03/31/magazine/new-french-right.html",
-				"title": "France’s Far Right Turn"
+				"title": "France’s Far Right Turn",
+				"description": "A rising nationalist faction has grown its coalition by appealing to Catholic identity and anti-immigrant sentiment — and reshaped the country’s race for president."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/world/europe/macron-france-election-amiens.html",
-				"title": "For Macron, France’s Troubled Industries Hit Home"
+				"title": "For Macron, France’s Troubled Industries Hit Home",
+				"description": "President Emmanuel Macron vowed an economic revival, but as he seeks re-election, a Potemkin factory in the town where he was raised shows just how hard that can be."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/world/europe/jewish-death-france-election.html",
-				"title": "Jewish Man’s Death Near Paris Fuels Outrage on Election Eve"
+				"title": "Jewish Man’s Death Near Paris Fuels Outrage on Election Eve",
+				"description": "Newly surfaced video shows the man, who was hit by a tram in February, fleeing an assault. It has fueled suspicions of an antisemitic motive days before France’s presidential vote."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/sports/golf/tiger-woods-masters.html",
-				"title": "Tiger Woods Says He Intends to Play the Masters"
+				"title": "Tiger Woods Says He Intends to Play the Masters",
+				"description": "Woods, who sustained significant leg injuries in a single-car crash in February 2021, has played several practice rounds at Augusta National this week."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/sports/golf/tiger-woods-1997-masters.html",
-				"title": "Reliving How Tiger Woods Won the 1997 Masters"
+				"title": "Reliving How Tiger Woods Won the 1997 Masters",
+				"description": "Tiger Woods was not supposed to win the 1997 Masters, but when he did, by 12 strokes — one of 20 Masters records he set in that tournament — he remade the game and catapulted himself to stardom."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/sports/golf/masters-invitations.html",
-				"title": "Masters Invitations Endure as a Signature Detail for the Tournament"
+				"title": "Masters Invitations Endure as a Signature Detail for the Tournament",
+				"description": "Putting and chipping aside, a crucial step on the journey to winning a coveted green jacket is making sure to R.S.V.P."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/style/nyc-antiques-vito-giallo-warhol.html",
-				"title": "Antiques Dealer Vito Giallo, Who Worked for Andy Warhol, Unearths His Gems"
+				"title": "Antiques Dealer Vito Giallo, Who Worked for Andy Warhol, Unearths His Gems",
+				"description": "Vito Giallo, 91, looks back at a life full of treasures."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/books/molly-shannon-book.html",
-				"title": "Molly Shannon, of Saturday Night Live, Has a New Memoir, “Hello Molly!”"
+				"title": "Molly Shannon, of Saturday Night Live, Has a New Memoir, “Hello Molly!”",
+				"description": "In a new memoir, “Hello, Molly!”, Shannon — the “Saturday Night Live” alumna — recounts her comedy career and the devastating family tragedy that changed her life."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/magazine/billionaire-books.html",
-				"title": "Rags-to-Riches Stories Are Actually Kind of Disturbing"
+				"title": "Rags-to-Riches Stories Are Actually Kind of Disturbing",
+				"description": "From Horatio Alger and E.L. James to T. Boone Pickens and Charles Koch, books by and about the ultrawealthy reveal some of our darkest American fantasies."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/movies/ke-huy-quan-everything-everywhere.html",
-				"title": "Ke Huy Quan: From Short Round to Romantic Lead After Four Long Decades"
+				"title": "Ke Huy Quan: From Short Round to Romantic Lead After Four Long Decades",
+				"description": "A child star in the 1980s, he hit a dry patch and turned to stunt work in the 2000s. Now he has returned to acting in a part that blends his action and drama chops."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/opinion/vietnam-refugees-factories-us-military.html",
-				"title": "For 25 Years, My Dad Helped Build Weapons of Death"
+				"title": "For 25 Years, My Dad Helped Build Weapons of Death",
+				"description": "My father fled Vietnam only to spend the rest of his life in American factories helping shore up the same military that had set our family adrift."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/opinion/furries-culture-war.html",
-				"title": "Why Are Adults Falling for the ‘Furries’ Myth?"
+				"title": "Why Are Adults Falling for the ‘Furries’ Myth?",
+				"description": "The culture war is also a generational war."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/opinion/pandemic-home-going-out.html",
-				"title": "After the Pandemic, I Want My Life to Be Less Convenient"
+				"title": "After the Pandemic, I Want My Life to Be Less Convenient",
+				"description": "The pandemic turned many of us into hermits. It’s time to go out again."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/opinion/amazon-labor-union-staten-island.html",
-				"title": "Amazon Fought Workers Trying to Unionize, and It Backfired"
+				"title": "Amazon Fought Workers Trying to Unionize, and It Backfired",
+				"description": "The successful organization of a warehouse in Staten Island offers a real glimmer of hope for the American working class."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/opinion/college-high-school.html",
-				"title": "College Became the Default. Let’s Rethink That."
+				"title": "College Became the Default. Let’s Rethink That.",
+				"description": "Imagine a world that gave high schoolers more options."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/opinion/ukraine-war-food-crisis.html",
-				"title": "Putin’s War Has Started a Global Food Crisis"
+				"title": "Putin’s War Has Started a Global Food Crisis",
+				"description": "These are the countries that will be most affected by rising food prices."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/opinion/ezra-klein-podcast-dan-olson.html",
-				"title": "A Viral Case Against Crypto, Explored"
+				"title": "A Viral Case Against Crypto, Explored",
+				"description": "The video essayist Dan Olson explains the dangers lurking in the culture and ideology that surround digital currency."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/opinion/shanghai-china-covid-lockdown.html",
-				"title": "Inside Shanghai’s Covid-19 Lockdown"
+				"title": "Inside Shanghai’s Covid-19 Lockdown",
+				"description": "What it’s like to lock down after two years free of Covid worries."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/opinion/romney-manchin-senate-covid.html",
-				"title": "Can Congressional Democrats Make a Deal on Covid Spending With Mitt Romney?"
+				"title": "Can Congressional Democrats Make a Deal on Covid Spending With Mitt Romney?",
+				"description": "It’s time to stop slathering so much attention on Joe Manchin."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/opinion/ruble-value.html",
-				"title": "The Ruble Has Bounced Back. What Does That Mean?"
+				"title": "The Ruble Has Bounced Back. What Does That Mean?",
+				"description": "Russia’s financial position is stronger in the short term than many expected."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/opinion/letters/oil-russia-climate-change.html",
-				"title": "Ditch the Oil, and the Petro-Dictators Too"
+				"title": "Ditch the Oil, and the Petro-Dictators Too",
+				"description": "Responses to a column by Thomas L. Friedman. Also: The true patriots; Covid choices of strangers; wildflowers."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/opinion/amazon-union-staten-island.html",
-				"title": "A Small Earthquake on Staten Island"
+				"title": "A Small Earthquake on Staten Island",
+				"description": "Why a pro-union vote at Amazon may be a big deal."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/opinion/environment/california-drought-wildfires.html",
-				"title": "California’s Drought Is Worse Than We Thought"
+				"title": "California’s Drought Is Worse Than We Thought",
+				"description": "Our tools for managing water in the West are growing more inaccurate."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/opinion/covid-medicaid-loss.html",
-				"title": "Americans on Medicaid Could Soon Lose Health Insurance"
+				"title": "Americans on Medicaid Could Soon Lose Health Insurance",
+				"description": "Millions of Americans may lose their Medicaid coverage."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/opinion/email-overload.html",
-				"title": "The Kids Are Right About Email, Too"
+				"title": "The Kids Are Right About Email, Too",
+				"description": "It is now just a way to be at the beck and call of anyone, and any robot, with an internet connection."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/opinion/gardening-homelessness-charter-schools.html",
-				"title": "Gardening Advice, Homelessness Solutions and Questions About Charter Schools"
+				"title": "Gardening Advice, Homelessness Solutions and Questions About Charter Schools",
+				"description": "Readers weigh in."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/briefing/russian-atrocities-bucha-ukraine-sanctions.html",
-				"title": "How Can the World Respond to Russian Atrocities? Weapons and Sanctions"
+				"title": "How Can the World Respond to Russian Atrocities? Weapons and Sanctions",
+				"description": "How can the world respond to Russian atrocities?"
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/podcasts/the-daily/ukraine-russia-food-supply.html",
-				"title": "How the War in Ukraine is Creating a Global Food Crisis"
+				"title": "How the War in Ukraine is Creating a Global Food Crisis",
+				"description": "Russia’s invasion has severely disrupted how the world feeds itself."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/01/books/review/podcast-thomas-fisher-emergency-ancestor-trouble-maud-newton.html",
-				"title": "Life in an E.R. During Covid"
+				"title": "Life in an E.R. During Covid",
+				"description": "Thomas Fisher talks about “The Emergency,” and Maud Newton discusses “Ancestor Trouble.”"
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/03/sports/running-nutrition-questions.html",
-				"title": "Nutrition Tips for Runners: Your Questions, Answered"
+				"title": "Nutrition Tips for Runners: Your Questions, Answered",
+				"description": "What’s the real benefit in refueling soon after a run? Can eating mid-run help speed recovery? Your nutrition questions, answered."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/us/politics/ivanka-trump-jan-6.html",
-				"title": "Ivanka Trump Testifies to House Panel Investigating Jan. 6 Attack"
+				"title": "Ivanka Trump Testifies to House Panel Investigating Jan. 6 Attack",
+				"description": "The former president’s daughter and adviser was in the West Wing with him as a pro-Trump mob stormed the Capitol. She is said to have tried to persuade him to call off the rioters."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/arts/television/louis-ck-grammy-backlash.html",
-				"title": "Louis C.K.’s Grammy Victory Leads to Backlash"
+				"title": "Louis C.K.’s Grammy Victory Leads to Backlash",
+				"description": "Some comedians are questioning how the Recording Academy saw fit to bestow an award to someone who had admitted to sexual misconduct."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/business/twitter-elon-musk-directors.html",
-				"title": "Elon Musk Joins Twitter Board"
+				"title": "Elon Musk Joins Twitter Board",
+				"description": "After becoming Twitter’s largest shareholder, Elon Musk, Tesla’s chief executive, is joining the social media company’s board of directors."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/us/severe-weather-forecast-south.html",
-				"title": "Severe Weather in the South: What to Know About the Forecast"
+				"title": "Severe Weather in the South: What to Know About the Forecast",
+				"description": "A tornado touched down in South Carolina on Tuesday afternoon as nearly five million people across a large swath of the Southeast remained under an enhanced risk of severe weather."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/us/politics/fred-upton-congress-retirement.html",
-				"title": "Fred Upton, House Republican Who Voted to Impeach Trump, Will Retire"
+				"title": "Fred Upton, House Republican Who Voted to Impeach Trump, Will Retire",
+				"description": "Mr. Upton is the fourth House Republican who supported impeaching former President Donald Trump to decline to run for re-election."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/climate/epa-asbestos-ban.html",
-				"title": "E.P.A. to Propose Restrictions on Asbestos"
+				"title": "E.P.A. to Propose Restrictions on Asbestos",
+				"description": "The agency aims to ban the manufacturing and import of a type of asbestos that is used in brake pads, gaskets and other automotive products and is linked to cancer."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/world/europe/charles-darwin-notebooks-cambridge-library.html",
-				"title": "Stolen Darwin Notebooks, Missing for Decades, Are Returned"
+				"title": "Stolen Darwin Notebooks, Missing for Decades, Are Returned",
+				"description": "The two notebooks were anonymously returned to the Cambridge University Library 22 years after they went missing. A note addressed to the librarian read: “Happy Easter.”"
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/business/ann-sarnoff-warner-bros.html",
-				"title": "Ann Sarnoff, Warner Bros. Chief, Is Set to Leave"
+				"title": "Ann Sarnoff, Warner Bros. Chief, Is Set to Leave",
+				"description": "Ms. Sarnoff became the first woman to hold the job in 2019, but Discovery’s C.E.O. is expected to take over at least some of her role himself."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/us/politics/durham-sussmann-trump.html",
-				"title": "More Evidence Bolsters Durham’s Case Against Democratic-Linked Lawyer"
+				"title": "More Evidence Bolsters Durham’s Case Against Democratic-Linked Lawyer",
+				"description": "Separately, defense lawyers asked a judge to block the Trump-era special counsel from making the Steele dossier a focus of next month’s trial."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/sports/baseball/pitchcom-sign-stealing.html",
-				"title": "MLB Approves PitchCom to Limit Sign Stealing"
+				"title": "MLB Approves PitchCom to Limit Sign Stealing",
+				"description": "PitchCom devices will let catchers communicate secretly with pitchers and up to three fielders during games."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/us/fetus-anti-abortion-home-washington.html",
-				"title": "Anti-Abortion Activists Claim They Had 115 Fetuses From Clinic"
+				"title": "Anti-Abortion Activists Claim They Had 115 Fetuses From Clinic",
+				"description": "A medical waste disposal company denied their account. Most of the fetuses were buried in secret, the activists said, but they kept five that were later seized by the police in Washington, D.C."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/03/30/well/live/ba2-omicron-covid.html",
-				"title": "How to Prepare for BA.2, the Omicron Subvariant"
+				"title": "How to Prepare for BA.2, the Omicron Subvariant",
+				"description": "Taking these seven steps now can lower your risk and minimize the disruption to your family’s life."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/well/covid-vaccine-divorced-parents.html",
-				"title": "Covid Vaccines for Kids Are Dividing Divorced Parents"
+				"title": "Covid Vaccines for Kids Are Dividing Divorced Parents",
+				"description": "For some parents who share custody, the Covid vaccine has created a minefield of issues that initial divorce decrees could not have anticipated."
 			},
 			{
 				"id": "https://www.nytimes.com/article/tornado-safety-tips.html",
-				"title": "What to Do When There Is a Tornado Warning"
+				"title": "What to Do When There Is a Tornado Warning",
+				"description": "A tornado warning demands instant action. Here’s what to do if one comes your way, and how you can prepare in advance."
 			},
 			{
 				"id": "https://www.nytimes.com/2020/04/15/parenting/baby/fatherhood-mens-bodies.html",
-				"title": "How Men’s Bodies Change When They Become Fathers"
+				"title": "How Men’s Bodies Change When They Become Fathers",
+				"description": "Hint: They don’t just get “dad bods.”"
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/well/family/motherhood-advice.html",
-				"title": "What’s the Best Advice You’ve Received About Motherhood?"
+				"title": "What’s the Best Advice You’ve Received About Motherhood?",
+				"description": "Your response may be used in an upcoming story."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/03/31/books/elizabeth-alexander-the-trayvon-generation.html",
-				"title": "Review: ‘The Trayvon Generation,’ by Elizabeth Alexander"
+				"title": "Review: ‘The Trayvon Generation,’ by Elizabeth Alexander",
+				"description": "“The Trayvon Generation” traces the influences of racism and violence on American culture today."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/dining/mena-review-victoria-blamey.html",
-				"title": "Restaurant Review: Mena in TriBeCa"
+				"title": "Restaurant Review: Mena in TriBeCa",
+				"description": "The former chef of Chumley’s wasn’t put on this earth to cook bar food, as she proves with her striking new place in TriBeCa."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/sports/baseball/louis-head-miami-marlins.html",
-				"title": "Louis Head Inspired New Rule for Optioning Players to Minors"
+				"title": "Louis Head Inspired New Rule for Optioning Players to Minors",
+				"description": "Head was optioned to the minors 12 times by Tampa Bay in 2021, setting a record and inspiring a new rule. Now in Miami, he just might stick around."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/books/review/jonathan-galassi-school-days.html",
-				"title": "Love and Scandal, Buried for Years at an Elite Boarding School"
+				"title": "Love and Scandal, Buried for Years at an Elite Boarding School",
+				"description": "In Jonathan Galassi’s “School Days,” a sexual harassment investigation uncovers long-buried memories of desire and abuse."
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/style/an-e-commerce-site-for-ukrainian-fashion.html",
-				"title": "An E-Commerce Site for Ukrainian Fashion"
+				"title": "An E-Commerce Site for Ukrainian Fashion",
+				"description": "Angel for Fashion hopes to bring Ukrainian designs to customers all over the world — except Russia."
 			}
 		]
 	}

@@ -20,43 +20,53 @@
 		"items": [
 			{
 				"id": "tag:github.com,2008:Repository/11180687/v0.100.0",
-				"title": "v0.100.0"
+				"title": "v0.100.0",
+				"description": null
 			},
 			{
 				"id": "tag:github.com,2008:Repository/11180687/v0.99.1",
-				"title": "v0.99.1"
+				"title": "v0.99.1",
+				"description": null
 			},
 			{
 				"id": "tag:github.com,2008:Repository/11180687/v0.99.0",
-				"title": "v0.99.0"
+				"title": "v0.99.0",
+				"description": null
 			},
 			{
 				"id": "tag:github.com,2008:Repository/11180687/v0.98.0",
-				"title": "v0.98.0"
+				"title": "v0.98.0",
+				"description": null
 			},
 			{
 				"id": "tag:github.com,2008:Repository/11180687/v0.97.3",
-				"title": "v0.97.3"
+				"title": "v0.97.3",
+				"description": null
 			},
 			{
 				"id": "tag:github.com,2008:Repository/11180687/v0.97.2",
-				"title": "v0.97.2"
+				"title": "v0.97.2",
+				"description": null
 			},
 			{
 				"id": "tag:github.com,2008:Repository/11180687/v0.97.1",
-				"title": "v0.97.1"
+				"title": "v0.97.1",
+				"description": null
 			},
 			{
 				"id": "tag:github.com,2008:Repository/11180687/v0.97.0",
-				"title": "v0.97.0"
+				"title": "v0.97.0",
+				"description": null
 			},
 			{
 				"id": "tag:github.com,2008:Repository/11180687/v0.96.0",
-				"title": "v0.96.0"
+				"title": "v0.96.0",
+				"description": null
 			},
 			{
 				"id": "tag:github.com,2008:Repository/11180687/v0.95.0",
-				"title": "v0.95.0"
+				"title": "v0.95.0",
+				"description": null
 			}
 		]
 	}

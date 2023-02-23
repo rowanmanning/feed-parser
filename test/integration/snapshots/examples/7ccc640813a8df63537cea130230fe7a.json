@@ -23,27 +23,33 @@
 		"items": [
 			{
 				"id": null,
-				"title": "Giving the world a pluggable Gnutella"
+				"title": "Giving the world a pluggable Gnutella",
+				"description": "WorldOS is a framework on which to build programs that work like Freenet or Gnutella -allowing distributed applications using peer-to-peer routing."
 			},
 			{
 				"id": null,
-				"title": "Syndication discussions hot up"
+				"title": "Syndication discussions hot up",
+				"description": "After a period of dormancy, the Syndication mailing list has become active again, with contributions from leaders in traditional media and Web syndication."
 			},
 			{
 				"id": null,
-				"title": "Personal web server integrates file sharing and messaging"
+				"title": "Personal web server integrates file sharing and messaging",
+				"description": "The Magi Project is an innovative project to create a combined personal web server and messaging system that enables the sharing and synchronization of information across desktop, laptop and palmtop devices."
 			},
 			{
 				"id": null,
-				"title": "Syndication and Metadata"
+				"title": "Syndication and Metadata",
+				"description": "RSS is probably the best known metadata format around. RDF is probably one of the least understood. In this essay, published on my O'Reilly Network weblog, I argue that the next generation of RSS should be based on RDF."
 			},
 			{
 				"id": null,
-				"title": "UK bloggers get organised"
+				"title": "UK bloggers get organised",
+				"description": "Looks like the weblogs scene is gathering pace beyond the shores of the US. There's now a UK-specific page on weblogs.com, and a mailing list at egroups."
 			},
 			{
 				"id": null,
-				"title": "Yournamehere.com more important than anything"
+				"title": "Yournamehere.com more important than anything",
+				"description": "Whatever you're publishing on the web, your site name is the most valuable asset you have, according to Carl Steadman."
 			}
 		]
 	}

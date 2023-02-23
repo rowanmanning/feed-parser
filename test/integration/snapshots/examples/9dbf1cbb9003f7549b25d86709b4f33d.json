@@ -20,11 +20,13 @@
 		"items": [
 			{
 				"id": null,
-				"title": "Processing Inclusions with XSLT"
+				"title": "Processing Inclusions with XSLT",
+				"description": "Processing document inclusions with general XML tools can be problematic. This article proposes a way of preserving inclusion information through SAX-based processing."
 			},
 			{
 				"id": null,
-				"title": "Putting RDF to Work"
+				"title": "Putting RDF to Work",
+				"description": "Tool and API support for the Resource Description Framework is slowly coming of age. Edd Dumbill takes a look at RDFDB, one of the most exciting new RDF toolkits."
 			}
 		]
 	}

@@ -97,6 +97,33 @@ describe('lib/feed/item/rss', () => {
 
 		});
 
+		describe('.description', () => {
+			let mockDescriptionElement;
+
+			beforeEach(() => {
+				mockDescriptionElement = new MockElement();
+				mockDescriptionElement.textContentNormalized = 'mock description text';
+				td.when(mockItemElement.findElementWithName('description')).thenReturn(mockDescriptionElement);
+			});
+
+			it('is set to the text of the first description element found in the feed item', () => {
+				assert.strictEqual(feedItem.description, 'mock description text');
+			});
+
+			describe('when a description element does not exist', () => {
+
+				beforeEach(() => {
+					td.when(mockItemElement.findElementWithName('description')).thenReturn(null);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(feedItem.description);
+				});
+
+			});
+
+		});
+
 	});
 
 });
