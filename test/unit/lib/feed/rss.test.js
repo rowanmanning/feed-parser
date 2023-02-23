@@ -624,27 +624,31 @@ describe('lib/feed/rss', () => {
 		});
 
 		describe('.items', () => {
-			let mockItemElements;
 			let items;
+			let mockChannelItems;
+			let mockRootItems;
 
 			beforeEach(() => {
-				mockItemElements = [
-					new MockElement(),
+				mockChannelItems = [
 					new MockElement(),
 					new MockElement()
 				];
-				td.when(mockChannelElement.findElementsWithName('item')).thenReturn(mockItemElements);
+				mockRootItems = [
+					new MockElement()
+				];
+				td.when(mockChannelElement.findElementsWithName('item')).thenReturn(mockChannelItems);
+				td.when(mockRootElement.findElementsWithName('item')).thenReturn(mockRootItems);
 				items = feed.items;
 			});
 
-			it('instantiates an RssFeedItem for each item element found in the feed', () => {
+			it('instantiates an RssFeedItem for each item element found in the channel and root elements', () => {
 				td.verify(new RssFeedItem(), {
 					ignoreExtraArgs: true,
 					times: 3
 				});
-				td.verify(new RssFeedItem(feed, mockItemElements[0]), {times: 1});
-				td.verify(new RssFeedItem(feed, mockItemElements[1]), {times: 1});
-				td.verify(new RssFeedItem(feed, mockItemElements[2]), {times: 1});
+				td.verify(new RssFeedItem(feed, mockChannelItems[0]), {times: 1});
+				td.verify(new RssFeedItem(feed, mockChannelItems[1]), {times: 1});
+				td.verify(new RssFeedItem(feed, mockRootItems[0]), {times: 1});
 			});
 
 			it('is set to an array of the created RssFeedItem instances', () => {
@@ -664,6 +668,60 @@ describe('lib/feed/rss', () => {
 						times: 3
 					});
 					assert.strictEqual(newItems, items);
+				});
+
+			});
+
+			describe('when there are no items in the root element', () => {
+
+				beforeEach(() => {
+					td.when(mockRootElement.findElementsWithName('item')).thenReturn([]);
+					RssFeedItem = td.replace('../../../../lib/feed/item/rss', td.constructor());
+					RssFeed = require('../../../../lib/feed/rss');
+					feed = new RssFeed(mockDocument);
+					items = feed.items;
+				});
+
+				it('instantiates an RssFeedItem for each item element found in the channel', () => {
+					td.verify(new RssFeedItem(), {
+						ignoreExtraArgs: true,
+						times: 2
+					});
+					td.verify(new RssFeedItem(feed, mockChannelItems[0]), {times: 1});
+					td.verify(new RssFeedItem(feed, mockChannelItems[1]), {times: 1});
+				});
+
+				it('returns only the channel element items', () => {
+					assert.isArray(items);
+					assert.lengthOf(items, 2);
+					assert.instanceOf(items[0], RssFeedItem);
+					assert.instanceOf(items[1], RssFeedItem);
+				});
+
+			});
+
+			describe('when there are no items in the channel element', () => {
+
+				beforeEach(() => {
+					td.when(mockChannelElement.findElementsWithName('item')).thenReturn([]);
+					RssFeedItem = td.replace('../../../../lib/feed/item/rss', td.constructor());
+					RssFeed = require('../../../../lib/feed/rss');
+					feed = new RssFeed(mockDocument);
+					items = feed.items;
+				});
+
+				it('instantiates an RssFeedItem for each item element found in the channel', () => {
+					td.verify(new RssFeedItem(), {
+						ignoreExtraArgs: true,
+						times: 1
+					});
+					td.verify(new RssFeedItem(feed, mockRootItems[0]), {times: 1});
+				});
+
+				it('returns only the channel element items', () => {
+					assert.isArray(items);
+					assert.lengthOf(items, 1);
+					assert.instanceOf(items[0], RssFeedItem);
 				});
 
 			});

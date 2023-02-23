@@ -17,6 +17,13 @@
 		"updated": null,
 		"generator": null,
 		"image": null,
-		"items": []
+		"items": [
+			{
+				"title": "Processing Inclusions with XSLT"
+			},
+			{
+				"title": "Putting RDF to Work"
+			}
+		]
 	}
 }
