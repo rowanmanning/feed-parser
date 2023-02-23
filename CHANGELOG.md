@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.4.0](https://github.com/rowanmanning/feed-parser/compare/v0.3.0...v0.4.0) (2023-02-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* stop condensing whitespace in normalization
+
+### Features
+
+* add feed item.description property ([f9db2fa](https://github.com/rowanmanning/feed-parser/commit/f9db2fafc47e6de446c6839dd34a1ad3f5a8f0bb))
+* add feed item.id property ([ab0edf5](https://github.com/rowanmanning/feed-parser/commit/ab0edf5ed24c777ee52457ff8103678d670de2fb))
+
+
+### Bug Fixes
+
+* handle RDF root-level items ([70753c3](https://github.com/rowanmanning/feed-parser/commit/70753c3d86ddf1b59ede932cc52301a71bfa2a90))
+* stop condensing whitespace in normalization ([8f1e6ee](https://github.com/rowanmanning/feed-parser/commit/8f1e6eef5c3977eaa33e4a38d3a2cc3b64dd767f))
+
 ## [0.3.0](https://github.com/rowanmanning/feed-parser/compare/v0.2.0...v0.3.0) (2023-02-23)
 
 
