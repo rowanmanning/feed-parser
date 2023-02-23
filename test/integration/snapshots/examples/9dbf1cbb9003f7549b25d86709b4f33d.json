@@ -19,9 +19,11 @@
 		"image": null,
 		"items": [
 			{
+				"id": null,
 				"title": "Processing Inclusions with XSLT"
 			},
 			{
+				"id": null,
 				"title": "Putting RDF to Work"
 			}
 		]

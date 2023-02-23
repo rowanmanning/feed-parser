@@ -33,7 +33,6 @@ describe('lib/feed/item/rss', () => {
 		let mockItemElement;
 		let mockFeed;
 
-
 		beforeEach(() => {
 			mockFeed = {};
 			mockItemElement = new MockElement();
@@ -42,6 +41,33 @@ describe('lib/feed/item/rss', () => {
 
 		it('is an instance of the FeedItem class', () => {
 			assert.instanceOf(feedItem, FeedItem);
+		});
+
+		describe('.id', () => {
+			let mockGuidElement;
+
+			beforeEach(() => {
+				mockGuidElement = new MockElement();
+				mockGuidElement.textContentNormalized = 'mock-guid';
+				td.when(mockItemElement.findElementWithName('guid')).thenReturn(mockGuidElement);
+			});
+
+			it('is set to the text of the first guid element found in the feed item', () => {
+				assert.strictEqual(feedItem.id, 'mock-guid');
+			});
+
+			describe('when a guid element does not exist', () => {
+
+				beforeEach(() => {
+					td.when(mockItemElement.findElementWithName('guid')).thenReturn(null);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(feedItem.id);
+				});
+
+			});
+
 		});
 
 		describe('.title', () => {

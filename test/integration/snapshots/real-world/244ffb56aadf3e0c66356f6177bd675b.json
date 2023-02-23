@@ -23,63 +23,83 @@
 		"image": null,
 		"items": [
 			{
+				"id": "https://www.macrumors.com/2022/04/05/twitter-edit-button/",
 				"title": "Twitter Working on Edit Button, Testing to Begin Soon for Twitter Blue Users"
 			},
 			{
+				"id": "https://www.macrumors.com/2022/04/05/everything-new-ios-15-5-beta/",
 				"title": "Everything New in iOS 15.5 Beta 1: Apple Classical References, Apple Pay Cash Updates and More"
 			},
 			{
+				"id": "https://www.macrumors.com/2022/04/05/apple-seeds-macos-monterey-12-4-beta-1/",
 				"title": "Apple Seeds First Beta of macOS Monterey 12.4 to Developers"
 			},
 			{
+				"id": "https://www.macrumors.com/2022/04/05/apple-seeds-ios-15-5-beta-1-to-developers/",
 				"title": "Apple Seeds First Betas of iOS 15.5 and iPadOS 15.5 to Developers"
 			},
 			{
+				"id": "https://www.macrumors.com/2022/04/05/apple-seeds-watchos-8-6-beta-1-to-developers/",
 				"title": "Apple Seeds First Beta of watchOS 8.6 to Developers"
 			},
 			{
+				"id": "https://www.macrumors.com/2022/04/05/apple-seeds-tvos-15-5-beta-1-to-developers/",
 				"title": "Apple Seeds First Beta of tvOS 15.5 to Developers"
 			},
 			{
+				"id": "https://www.macrumors.com/2022/04/05/app-store-subscription-pricing-increase-changes/",
 				"title": "Developers May Soon Be Able to Automatically Charge Apple Users for Subscription Price Increases"
 			},
 			{
+				"id": "https://www.macrumors.com/2022/04/05/swift-student-challenge-wwdc-2022/",
 				"title": "WWDC 2022 Includes Return of Apple's Annual Swift Student Challenge"
 			},
 			{
+				"id": "https://www.macrumors.com/2022/04/05/google-maps-apple-watch-update/",
 				"title": "Google Maps for iOS Gains More Detail, Toll Estimates, and Standalone Apple Watch Support"
 			},
 			{
+				"id": "https://www.macrumors.com/2022/04/05/apple-park-wwdc-viewing-event/",
 				"title": "Apple to Host Apple Park WWDC 2022 Viewing Event for Some Students and Developers"
 			},
 			{
+				"id": "https://www.macrumors.com/2022/04/05/apple-wwdc-2022-announced/",
 				"title": "Apple Announces Digital WWDC 2022 Event Taking Place June 6-10"
 			},
 			{
+				"id": "https://www.macrumors.com/2022/04/05/apple-planning-three-new-beats-studio-buds-colors/",
 				"title": "Apple Reportedly Planning to Launch Three New Colors for Beats Studio Buds"
 			},
 			{
+				"id": "https://www.macrumors.com/2022/04/05/kuo-airpods-pro-2-in-second-half-2022/",
 				"title": "Kuo: Second-Generation AirPods Pro to Launch in Second Half of 2022"
 			},
 			{
+				"id": "https://www.macrumors.com/2022/04/05/tim-cook-to-speak-at-global-privacy-summit/",
 				"title": "Apple CEO Tim Cook to Speak at Global Privacy Summit in Washington D.C. Next Week"
 			},
 			{
+				"id": "https://www.macrumors.com/2022/04/05/deals-14-inch-macbook-pro-2/",
 				"title": "Deals: Get Apple's 14-Inch MacBook Pro for Up to $250 Off"
 			},
 			{
+				"id": "https://www.macrumors.com/2022/04/05/plex-discover-universal-watchlist-features/",
 				"title": "Plex Launches 'Discover' and 'Universal Watchlist' Features to Help Users Find and Watch Content Across Streaming Services"
 			},
 			{
+				"id": "https://www.macrumors.com/2022/04/05/apple-scammers-sentenced-13-years-in-jail/",
 				"title": "Scammers Who Stole $1.5 Million From Apple Sentenced to Combined 13 Years in Jail"
 			},
 			{
+				"id": "https://www.macrumors.com/2022/04/05/deals-take-49-off-apple-watch-se/",
 				"title": "Deals: Get $49 Off Apple Watch SE During Amazon's Gold Box Sale, Starting at $230 for 40mm GPS"
 			},
 			{
+				"id": "https://www.macrumors.com/2022/04/05/iphone-14-pro-max-to-feature-thinner-bezels/",
 				"title": "iPhone 14 Pro Max Rumored to Feature 20% Thinner Display Bezels"
 			},
 			{
+				"id": "https://www.macrumors.com/2022/04/05/apple-mysteriously-raises-airpods-prices-in-india/",
 				"title": "Apple Raises AirPods Prices in India as Result of New Import Duties"
 			}
 		]

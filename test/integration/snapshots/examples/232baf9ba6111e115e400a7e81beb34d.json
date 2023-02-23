@@ -26,12 +26,15 @@
 		},
 		"items": [
 			{
+				"id": null,
 				"title": "RSS Resources"
 			},
 			{
+				"id": null,
 				"title": "Recommended Desktop Feed Reader Software"
 			},
 			{
+				"id": null,
 				"title": "Recommended Web Based Feed Reader Software"
 			}
 		]

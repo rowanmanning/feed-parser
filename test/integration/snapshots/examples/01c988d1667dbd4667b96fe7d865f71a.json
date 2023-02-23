@@ -26,6 +26,7 @@
 		},
 		"items": [
 			{
+				"id": "http://example.org/guid/1",
 				"title": "First item title"
 			}
 		]

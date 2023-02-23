@@ -44,6 +44,33 @@ describe('lib/feed/item/atom', () => {
 			assert.instanceOf(feedItem, FeedItem);
 		});
 
+		describe('.id', () => {
+			let mockIdElement;
+
+			beforeEach(() => {
+				mockIdElement = new MockElement();
+				mockIdElement.textContentNormalized = 'mock-id';
+				td.when(mockItemElement.findElementWithName('id')).thenReturn(mockIdElement);
+			});
+
+			it('is set to the text of the first id element found in the feed item', () => {
+				assert.strictEqual(feedItem.id, 'mock-id');
+			});
+
+			describe('when an id element does not exist', () => {
+
+				beforeEach(() => {
+					td.when(mockItemElement.findElementWithName('id')).thenReturn(null);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(feedItem.id);
+				});
+
+			});
+
+		});
+
 		describe('.title', () => {
 			let mockTitleElement;
 

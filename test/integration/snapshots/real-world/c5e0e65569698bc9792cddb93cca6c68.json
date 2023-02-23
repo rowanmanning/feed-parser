@@ -22,192 +22,255 @@
 		},
 		"items": [
 			{
+				"id": "https://www.nytimes.com/2022/04/05/business/russia-debt-dollars.html",
 				"title": "US Blocks Russia’s Access to Dollars for Bond Payments"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/world/europe/russia-ukraine-war-atrocities.html",
 				"title": "Up-Close Ukraine Atrocity Photographs Touch a Global Nerve"
 			},
 			{
+				"id": "https://www.nytimes.com/live/2022/04/05/world/ukraine-russia-war/ukraine-airstrikes-borodyanka",
 				"title": "In the rubble of a town near Kyiv, many are missing and feared dead."
 			},
 			{
+				"id": "https://www.nytimes.com/live/2022/04/05/world/ukraine-russia-war/after-russian-advances-us-britain-and-australia-expand-partnership-to-develop-hypersonic-missiles",
 				"title": "After Russian advances, U.S., Britain and Australia expand partnership to develop hypersonic missiles."
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/world/europe/ukraine-refugee-war-return.html",
 				"title": "Some Ukrainian Refugees Are Returning Home, Despite the Risks"
 			},
 			{
+				"id": "https://www.nytimes.com/live/2022/04/05/world/ukraine-russia-war/the-next-pivotal-battle-in-ukraine-sloviansk-military-analysts-say",
 				"title": "The ‘next pivotal battle’ in Ukraine? Sloviansk, military analysts say."
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/us/politics/ukraine-russia-hackers.html",
 				"title": "Hackers’ Fake Claims of Ukrainian Surrender Aren’t Fooling Anyone. So What’s Their Goal?"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/science/russian-astronauts-flight-suits-ukraine-flag.html",
 				"title": "Russians’ Flight Suits Weren’t a Political Statement, NASA Astronaut Says"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/us/oklahoma-abortion-ban.html",
 				"title": "Oklahoma Lawmakers Approve Near-Total Ban on Abortion"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/business/economy/recession-economy.html",
 				"title": "The US Economy Is Booming. Why Are Economists Worrying About a Recession?"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/business/europe-exports-russia.html",
 				"title": "Ukraine War Reverberates in Europe’s Factories and Warehouses"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/business/economy/trucker-training.html",
 				"title": "Truck Drivers’ On-the-Job Training Can Be Costly if They Quit"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/03/31/magazine/new-french-right.html",
 				"title": "France’s Far Right Turn"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/world/europe/macron-france-election-amiens.html",
 				"title": "For Macron, France’s Troubled Industries Hit Home"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/world/europe/jewish-death-france-election.html",
 				"title": "Jewish Man’s Death Near Paris Fuels Outrage on Election Eve"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/sports/golf/tiger-woods-masters.html",
 				"title": "Tiger Woods Says He Intends to Play the Masters"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/04/sports/golf/tiger-woods-1997-masters.html",
 				"title": "Reliving How Tiger Woods Won the 1997 Masters"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/sports/golf/masters-invitations.html",
 				"title": "Masters Invitations Endure as a Signature Detail for the Tournament"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/style/nyc-antiques-vito-giallo-warhol.html",
 				"title": "Antiques Dealer Vito Giallo, Who Worked for Andy Warhol, Unearths His Gems"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/books/molly-shannon-book.html",
 				"title": "Molly Shannon, of Saturday Night Live, Has a New Memoir, “Hello Molly!”"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/magazine/billionaire-books.html",
 				"title": "Rags-to-Riches Stories Are Actually Kind of Disturbing"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/movies/ke-huy-quan-everything-everywhere.html",
 				"title": "Ke Huy Quan: From Short Round to Romantic Lead After Four Long Decades"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/opinion/vietnam-refugees-factories-us-military.html",
 				"title": "For 25 Years, My Dad Helped Build Weapons of Death"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/04/opinion/furries-culture-war.html",
 				"title": "Why Are Adults Falling for the ‘Furries’ Myth?"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/opinion/pandemic-home-going-out.html",
 				"title": "After the Pandemic, I Want My Life to Be Less Convenient"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/opinion/amazon-labor-union-staten-island.html",
 				"title": "Amazon Fought Workers Trying to Unionize, and It Backfired"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/opinion/college-high-school.html",
 				"title": "College Became the Default. Let’s Rethink That."
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/opinion/ukraine-war-food-crisis.html",
 				"title": "Putin’s War Has Started a Global Food Crisis"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/opinion/ezra-klein-podcast-dan-olson.html",
 				"title": "A Viral Case Against Crypto, Explored"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/opinion/shanghai-china-covid-lockdown.html",
 				"title": "Inside Shanghai’s Covid-19 Lockdown"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/opinion/romney-manchin-senate-covid.html",
 				"title": "Can Congressional Democrats Make a Deal on Covid Spending With Mitt Romney?"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/04/opinion/ruble-value.html",
 				"title": "The Ruble Has Bounced Back. What Does That Mean?"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/opinion/letters/oil-russia-climate-change.html",
 				"title": "Ditch the Oil, and the Petro-Dictators Too"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/04/opinion/amazon-union-staten-island.html",
 				"title": "A Small Earthquake on Staten Island"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/04/opinion/environment/california-drought-wildfires.html",
 				"title": "California’s Drought Is Worse Than We Thought"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/04/opinion/covid-medicaid-loss.html",
 				"title": "Americans on Medicaid Could Soon Lose Health Insurance"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/04/opinion/email-overload.html",
 				"title": "The Kids Are Right About Email, Too"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/04/opinion/gardening-homelessness-charter-schools.html",
 				"title": "Gardening Advice, Homelessness Solutions and Questions About Charter Schools"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/briefing/russian-atrocities-bucha-ukraine-sanctions.html",
 				"title": "How Can the World Respond to Russian Atrocities? Weapons and Sanctions"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/podcasts/the-daily/ukraine-russia-food-supply.html",
 				"title": "How the War in Ukraine is Creating a Global Food Crisis"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/01/books/review/podcast-thomas-fisher-emergency-ancestor-trouble-maud-newton.html",
 				"title": "Life in an E.R. During Covid"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/03/sports/running-nutrition-questions.html",
 				"title": "Nutrition Tips for Runners: Your Questions, Answered"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/us/politics/ivanka-trump-jan-6.html",
 				"title": "Ivanka Trump Testifies to House Panel Investigating Jan. 6 Attack"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/arts/television/louis-ck-grammy-backlash.html",
 				"title": "Louis C.K.’s Grammy Victory Leads to Backlash"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/04/business/twitter-elon-musk-directors.html",
 				"title": "Elon Musk Joins Twitter Board"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/us/severe-weather-forecast-south.html",
 				"title": "Severe Weather in the South: What to Know About the Forecast"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/us/politics/fred-upton-congress-retirement.html",
 				"title": "Fred Upton, House Republican Who Voted to Impeach Trump, Will Retire"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/climate/epa-asbestos-ban.html",
 				"title": "E.P.A. to Propose Restrictions on Asbestos"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/world/europe/charles-darwin-notebooks-cambridge-library.html",
 				"title": "Stolen Darwin Notebooks, Missing for Decades, Are Returned"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/business/ann-sarnoff-warner-bros.html",
 				"title": "Ann Sarnoff, Warner Bros. Chief, Is Set to Leave"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/us/politics/durham-sussmann-trump.html",
 				"title": "More Evidence Bolsters Durham’s Case Against Democratic-Linked Lawyer"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/sports/baseball/pitchcom-sign-stealing.html",
 				"title": "MLB Approves PitchCom to Limit Sign Stealing"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/us/fetus-anti-abortion-home-washington.html",
 				"title": "Anti-Abortion Activists Claim They Had 115 Fetuses From Clinic"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/03/30/well/live/ba2-omicron-covid.html",
 				"title": "How to Prepare for BA.2, the Omicron Subvariant"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/04/well/covid-vaccine-divorced-parents.html",
 				"title": "Covid Vaccines for Kids Are Dividing Divorced Parents"
 			},
 			{
+				"id": "https://www.nytimes.com/article/tornado-safety-tips.html",
 				"title": "What to Do When There Is a Tornado Warning"
 			},
 			{
+				"id": "https://www.nytimes.com/2020/04/15/parenting/baby/fatherhood-mens-bodies.html",
 				"title": "How Men’s Bodies Change When They Become Fathers"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/04/well/family/motherhood-advice.html",
 				"title": "What’s the Best Advice You’ve Received About Motherhood?"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/03/31/books/elizabeth-alexander-the-trayvon-generation.html",
 				"title": "Review: ‘The Trayvon Generation,’ by Elizabeth Alexander"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/dining/mena-review-victoria-blamey.html",
 				"title": "Restaurant Review: Mena in TriBeCa"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/sports/baseball/louis-head-miami-marlins.html",
 				"title": "Louis Head Inspired New Rule for Optioning Players to Minors"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/books/review/jonathan-galassi-school-days.html",
 				"title": "Love and Scandal, Buried for Years at an Elite Boarding School"
 			},
 			{
+				"id": "https://www.nytimes.com/2022/04/05/style/an-e-commerce-site-for-ukrainian-fashion.html",
 				"title": "An E-Commerce Site for Ukrainian Fashion"
 			}
 		]

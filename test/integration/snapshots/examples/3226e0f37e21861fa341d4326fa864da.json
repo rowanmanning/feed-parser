@@ -23,6 +23,7 @@
 		"image": null,
 		"items": [
 			{
+				"id": "tag:feedparser.org,2004-04-20:/docs/examples/atom03.xml:3",
 				"title": "First entry title"
 			}
 		]
