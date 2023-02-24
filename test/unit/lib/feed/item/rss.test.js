@@ -181,6 +181,74 @@ describe('lib/feed/item/rss', () => {
 
 		});
 
+		describe('.published', () => {
+			let mockElement;
+
+			beforeEach(() => {
+				mockElement = new MockElement();
+				mockElement.textContentAsDate = 'mock published date';
+				td.when(mockItemElement.findElementWithName('pubdate')).thenReturn(mockElement);
+			});
+
+			it('is set to the text of the first pubdate element found in the feed item', () => {
+				assert.strictEqual(feedItem.published, 'mock published date');
+			});
+
+			describe('when a pubdate element does not exist but a date element does', () => {
+
+				beforeEach(() => {
+					mockElement.textContentAsDate = 'mock date';
+					td.when(mockItemElement.findElementWithName('pubdate')).thenReturn(null);
+					td.when(mockItemElement.findElementWithName('date')).thenReturn(mockElement);
+				});
+
+				it('is set to the text of the first date element found in the feed item', () => {
+					assert.strictEqual(feedItem.published, 'mock date');
+				});
+
+			});
+
+			describe('when neither element exists', () => {
+
+				beforeEach(() => {
+					td.when(mockItemElement.findElementWithName('pubdate')).thenReturn(null);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(feedItem.published);
+				});
+
+			});
+
+		});
+
+		describe('.updated', () => {
+			let mockElement;
+
+			beforeEach(() => {
+				mockElement = new MockElement();
+				mockElement.textContentAsDate = 'mock date';
+				td.when(mockItemElement.findElementWithName('date')).thenReturn(mockElement);
+			});
+
+			it('is set to the text of the first date element found in the feed item', () => {
+				assert.strictEqual(feedItem.updated, 'mock date');
+			});
+
+			describe('when a modified element does not exist', () => {
+
+				beforeEach(() => {
+					td.when(mockItemElement.findElementWithName('date')).thenReturn(null);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(feedItem.updated);
+				});
+
+			});
+
+		});
+
 	});
 
 });

@@ -26,7 +26,9 @@
 				"id": "tag:feedparser.org,2004-04-20:/docs/examples/atom03.xml:3",
 				"title": "First entry title",
 				"description": "Watch out for nasty tricks",
-				"url": "http://example.org/entry/3"
+				"url": "http://example.org/entry/3",
+				"published": "2004-04-20T00:23:47.000Z",
+				"updated": "2004-04-20T11:56:34.000Z"
 			}
 		]
 	}

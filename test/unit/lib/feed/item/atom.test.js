@@ -209,6 +209,88 @@ describe('lib/feed/item/atom', () => {
 
 		});
 
+		describe('.published', () => {
+			let mockElement;
+
+			beforeEach(() => {
+				mockElement = new MockElement();
+				mockElement.textContentAsDate = 'mock published date';
+				td.when(mockItemElement.findElementWithName('published')).thenReturn(mockElement);
+			});
+
+			it('is set to the text of the first published element found in the feed item', () => {
+				assert.strictEqual(feedItem.published, 'mock published date');
+			});
+
+			describe('when a published element does not exist but an issued element does', () => {
+
+				beforeEach(() => {
+					mockElement.textContentAsDate = 'mock issued date';
+					td.when(mockItemElement.findElementWithName('published')).thenReturn(null);
+					td.when(mockItemElement.findElementWithName('issued')).thenReturn(mockElement);
+				});
+
+				it('is set to the text of the first issued element found in the feed item', () => {
+					assert.strictEqual(feedItem.published, 'mock issued date');
+				});
+
+			});
+
+			describe('when neither element exists', () => {
+
+				beforeEach(() => {
+					td.when(mockItemElement.findElementWithName('published')).thenReturn(null);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(feedItem.published);
+				});
+
+			});
+
+		});
+
+		describe('.updated', () => {
+			let mockElement;
+
+			beforeEach(() => {
+				mockElement = new MockElement();
+				mockElement.textContentAsDate = 'mock modified date';
+				td.when(mockItemElement.findElementWithName('modified')).thenReturn(mockElement);
+			});
+
+			it('is set to the text of the first modified element found in the feed item', () => {
+				assert.strictEqual(feedItem.updated, 'mock modified date');
+			});
+
+			describe('when a modified element does not exist but an updated element does', () => {
+
+				beforeEach(() => {
+					mockElement.textContentAsDate = 'mock updated date';
+					td.when(mockItemElement.findElementWithName('modified')).thenReturn(null);
+					td.when(mockItemElement.findElementWithName('updated')).thenReturn(mockElement);
+				});
+
+				it('is set to the text of the first updated element found in the feed item', () => {
+					assert.strictEqual(feedItem.updated, 'mock updated date');
+				});
+
+			});
+
+			describe('when neither element exists', () => {
+
+				beforeEach(() => {
+					td.when(mockItemElement.findElementWithName('modified')).thenReturn(null);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(feedItem.updated);
+				});
+
+			});
+
+		});
+
 	});
 
 });

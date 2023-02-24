@@ -22,7 +22,9 @@
 				"id": "urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a",
 				"title": "Atom-Powered Robots Run Amok",
 				"description": "Some text.",
-				"url": "http://example.org/2003/12/13/atom03"
+				"url": "http://example.org/2003/12/13/atom03",
+				"published": null,
+				"updated": "2003-12-13T18:30:02.000Z"
 			}
 		]
 	}
