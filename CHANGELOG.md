@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.1](https://github.com/rowanmanning/feed-parser/compare/v0.4.0...v0.4.1) (2023-02-24)
+
+
+### Features
+
+* add feed item.url property ([b5a7938](https://github.com/rowanmanning/feed-parser/commit/b5a79385e2f443368f8d765e006cc140fea14d31))
+* add item.published / item.updated properties ([743fca4](https://github.com/rowanmanning/feed-parser/commit/743fca48d2ef2a984557f690f6f94d44665fcb7e))
+
 ## [0.4.0](https://github.com/rowanmanning/feed-parser/compare/v0.3.0...v0.4.0) (2023-02-23)
 
 
