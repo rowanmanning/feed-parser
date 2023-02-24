@@ -125,6 +125,90 @@ describe('lib/feed/item/atom', () => {
 
 		});
 
+		describe('.url', () => {
+			let mockLinks;
+
+			beforeEach(() => {
+				mockLinks = [
+					new MockElement(),
+					new MockElement(),
+					new MockElement(),
+					new MockElement(),
+					new MockElement()
+				];
+
+				// Link with no rel
+				td.when(mockLinks[0].getAttribute('rel')).thenReturn(null);
+				td.when(mockLinks[0].getAttributeAsUrl('href')).thenReturn('mock-href-norel');
+
+				// Link rel alternate
+				td.when(mockLinks[1].getAttribute('rel')).thenReturn('alternate');
+				td.when(mockLinks[1].getAttributeAsUrl('href')).thenReturn('mock-href-alternate');
+
+				// Link rel self
+				td.when(mockLinks[2].getAttribute('rel')).thenReturn('self');
+				td.when(mockLinks[2].getAttributeAsUrl('href')).thenReturn('mock-href-self');
+
+				// Link rel invalid
+				td.when(mockLinks[3].getAttribute('rel')).thenReturn('invalid');
+				td.when(mockLinks[3].getAttributeAsUrl('href')).thenReturn('mock-href-invalid');
+
+				// Link rel alternate
+				td.when(mockLinks[4].getAttribute('rel')).thenReturn('alternate');
+				td.when(mockLinks[4].getAttributeAsUrl('href')).thenReturn('mock-href-alternate-2');
+
+				td.when(mockItemElement.findElementsWithName('link')).thenReturn(mockLinks);
+			});
+
+			it('is set to the href attribute of the first link[rel=alternate] element found in the feed', () => {
+				assert.strictEqual(feedItem.url, 'mock-href-alternate');
+			});
+
+			describe('when a link[rel=alternate] element does not exist but a link element without a rel attribute does', () => {
+
+				beforeEach(() => {
+					td.when(mockItemElement.findElementsWithName('link')).thenReturn([
+						mockLinks[0],
+						mockLinks[2],
+						mockLinks[3]
+					]);
+				});
+
+				it('is set to the href attribute of the first link element found in the feed without a rel attribute', () => {
+					assert.strictEqual(feedItem.url, 'mock-href-norel');
+				});
+
+			});
+
+			describe('when no links have appropriate rel attributes', () => {
+
+				beforeEach(() => {
+					td.when(mockItemElement.findElementsWithName('link')).thenReturn([
+						mockLinks[2],
+						mockLinks[3]
+					]);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(feedItem.url);
+				});
+
+			});
+
+			describe('when no link elements exists', () => {
+
+				beforeEach(() => {
+					td.when(mockItemElement.findElementsWithName('link')).thenReturn([]);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(feedItem.url);
+				});
+
+			});
+
+		});
+
 	});
 
 });

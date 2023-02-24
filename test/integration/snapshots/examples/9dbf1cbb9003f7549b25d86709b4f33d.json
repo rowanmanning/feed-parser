@@ -21,12 +21,14 @@
 			{
 				"id": null,
 				"title": "Processing Inclusions with XSLT",
-				"description": "Processing document inclusions with general XML tools can be \n     problematic. This article proposes a way of preserving inclusion \n     information through SAX-based processing."
+				"description": "Processing document inclusions with general XML tools can be \n     problematic. This article proposes a way of preserving inclusion \n     information through SAX-based processing.",
+				"url": "http://xml.com/pub/2000/08/09/xslt/xslt.html"
 			},
 			{
 				"id": null,
 				"title": "Putting RDF to Work",
-				"description": "Tool and API support for the Resource Description Framework \n     is slowly coming of age. Edd Dumbill takes a look at RDFDB, \n     one of the most exciting new RDF toolkits."
+				"description": "Tool and API support for the Resource Description Framework \n     is slowly coming of age. Edd Dumbill takes a look at RDFDB, \n     one of the most exciting new RDF toolkits.",
+				"url": "http://xml.com/pub/2000/08/09/rdfdb/index.html"
 			}
 		]
 	}

@@ -21,102 +21,122 @@
 			{
 				"id": "tag:github.com,2008:Grit::Commit/4daac654d90bdc6adf92bf8b15a4aa45d7d62efd",
 				"title": "releaser: Prepare repository for 0.101.0-DEV",
-				"description": null
+				"description": null,
+				"url": "https://github.com/gohugoio/hugo/commit/4daac654d90bdc6adf92bf8b15a4aa45d7d62efd"
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/27b077544d8efeb85867cb4cfb941747d104f765",
 				"title": "releaser: Bump versions for release of 0.100.0",
-				"description": null
+				"description": null,
+				"url": "https://github.com/gohugoio/hugo/commit/27b077544d8efeb85867cb4cfb941747d104f765"
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/0f8343a2c21350f209c9a1811bf9ef14673e785f",
 				"title": "releaser: Add release notes for 0.100.0",
-				"description": null
+				"description": null,
+				"url": "https://github.com/gohugoio/hugo/commit/0f8343a2c21350f209c9a1811bf9ef14673e785f"
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/3fcbee261a6069e0417d62d4d357c9cd19873338",
 				"title": "docs: Regen CLI docs",
-				"description": null
+				"description": null,
+				"url": "https://github.com/gohugoio/hugo/commit/3fcbee261a6069e0417d62d4d357c9cd19873338"
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/db9d274275b7ef7cf3dd805dbb8a99f7c60dc6b2",
 				"title": "docs: Regen docs helper",
-				"description": null
+				"description": null,
+				"url": "https://github.com/gohugoio/hugo/commit/db9d274275b7ef7cf3dd805dbb8a99f7c60dc6b2"
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/95baafeac4689674b41e2888609e409aea3693c7",
 				"title": "Merge commit 'e4bfe59c4e043c92d3992587d8c64d264b262a22'",
-				"description": null
+				"description": null,
+				"url": "https://github.com/gohugoio/hugo/commit/95baafeac4689674b41e2888609e409aea3693c7"
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/e4bfe59c4e043c92d3992587d8c64d264b262a22",
 				"title": "Squashed 'docs/' changes from 2d9da3a56..96fdc246c",
-				"description": null
+				"description": null,
+				"url": "https://github.com/gohugoio/hugo/commit/e4bfe59c4e043c92d3992587d8c64d264b262a22"
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/6f7bf3f2d7eda178d0dba4a6bf3dfa50229df7ae",
 				"title": "Fix indentation in highlight shortcode",
-				"description": null
+				"description": null,
+				"url": "https://github.com/gohugoio/hugo/commit/6f7bf3f2d7eda178d0dba4a6bf3dfa50229df7ae"
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/9e904d756be02ca30e4cd9abb1eae8ba01f9c8af",
 				"title": "Make .RenderString render shortcodes",
-				"description": null
+				"description": null,
+				"url": "https://github.com/gohugoio/hugo/commit/9e904d756be02ca30e4cd9abb1eae8ba01f9c8af"
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/d2cfaede5be420c7d8b701d97b98bc61b87e46d5",
 				"title": "Improve shortcode indentation handling",
-				"description": null
+				"description": null,
+				"url": "https://github.com/gohugoio/hugo/commit/d2cfaede5be420c7d8b701d97b98bc61b87e46d5"
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/322d19a81fedbf423a047bdf286499d2e25d14be",
 				"title": "Add Markdown as an output format",
-				"description": null
+				"description": null,
+				"url": "https://github.com/gohugoio/hugo/commit/322d19a81fedbf423a047bdf286499d2e25d14be"
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/7cb484e121da73b63aab231ba29bb644b5f7965e",
 				"title": "build(deps): bump github.com/evanw/esbuild from 0.14.39 to 0.14.42",
-				"description": null
+				"description": null,
+				"url": "https://github.com/gohugoio/hugo/commit/7cb484e121da73b63aab231ba29bb644b5f7965e"
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/0b395f0b41210028d95fba4f45454a4dc6699c62",
 				"title": "Run go mod tidy",
-				"description": null
+				"description": null,
+				"url": "https://github.com/gohugoio/hugo/commit/0b395f0b41210028d95fba4f45454a4dc6699c62"
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/c1a83076bf2c8ece8ca8bc33bd263f3614851ee4",
 				"title": "Add a shortcode benchmark",
-				"description": null
+				"description": null,
+				"url": "https://github.com/gohugoio/hugo/commit/c1a83076bf2c8ece8ca8bc33bd263f3614851ee4"
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/0f8dc47037f59156c04540d97ed1b588e6bc1164",
 				"title": "Remove Blackfriday markdown engine",
-				"description": null
+				"description": null,
+				"url": "https://github.com/gohugoio/hugo/commit/0f8dc47037f59156c04540d97ed1b588e6bc1164"
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/3b478f50b7408ad78d085fa6dbc3c7a683c9d943",
 				"title": "Fix HasMenuCurrent and IsDescendant/IsAncestor when comparing to itself",
-				"description": null
+				"description": null,
+				"url": "https://github.com/gohugoio/hugo/commit/3b478f50b7408ad78d085fa6dbc3c7a683c9d943"
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/f343b8eb7877c857c23dd5f0b554024b7682de3a",
 				"title": "build(deps): bump github.com/sanity-io/litter from 1.5.4 to 1.5.5",
-				"description": null
+				"description": null,
+				"url": "https://github.com/gohugoio/hugo/commit/f343b8eb7877c857c23dd5f0b554024b7682de3a"
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/60ede146b613100286144bd110e697334cab9902",
 				"title": "deps: Update to github.com/tdewolff/minify/v2 v2.11.5",
-				"description": null
+				"description": null,
+				"url": "https://github.com/gohugoio/hugo/commit/60ede146b613100286144bd110e697334cab9902"
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/dd9eaf19fdeb37ce5861405beceaf018faac6386",
 				"title": "Don't use the baseURL /path as part of the resource cache key",
-				"description": null
+				"description": null,
+				"url": "https://github.com/gohugoio/hugo/commit/dd9eaf19fdeb37ce5861405beceaf018faac6386"
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/46a2ea6d0d3aba04213362fc72f5a3a28e3c3404",
 				"title": "postcss: Make the resource cache key more stable",
-				"description": null
+				"description": null,
+				"url": "https://github.com/gohugoio/hugo/commit/46a2ea6d0d3aba04213362fc72f5a3a28e3c3404"
 			}
 		]
 	}

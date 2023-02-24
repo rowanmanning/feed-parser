@@ -21,7 +21,8 @@
 			{
 				"id": null,
 				"title": "First of all",
-				"description": "I didn't want to copy across the original description"
+				"description": "I didn't want to copy across the original description",
+				"url": "http://example.org/archives/2002/09/04.html#first_of_all"
 			}
 		]
 	}

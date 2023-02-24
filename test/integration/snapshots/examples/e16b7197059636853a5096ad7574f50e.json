@@ -21,7 +21,8 @@
 			{
 				"id": "7bd204c6-1655-4c27-aeee-53f933c5395f",
 				"title": "Example entry",
-				"description": "Here is some text containing an interesting description."
+				"description": "Here is some text containing an interesting description.",
+				"url": "http://www.example.com/blog/post/1"
 			}
 		]
 	}

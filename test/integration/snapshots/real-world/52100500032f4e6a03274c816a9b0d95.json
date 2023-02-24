@@ -28,77 +28,92 @@
 			{
 				"id": "6243371d804104003d1b1b69",
 				"title": "How to elevate your travel photography",
-				"description": "Helpful travel photography tips from the pros"
+				"description": "Helpful travel photography tips from the pros",
+				"url": "https://unsplash.com/blog/how-to-elevate-your-travel-photography/"
 			},
 			{
 				"id": "6217e2e5a5fc66003de5f721",
 				"title": "Meet the Unsplash team: Roberta Doyle",
-				"description": "10 questions with Roberta from the Unsplash Product team"
+				"description": "10 questions with Roberta from the Unsplash Product team",
+				"url": "https://unsplash.com/blog/meet-the-unsplash-team-roberta/"
 			},
 			{
 				"id": "6238c461574192003d4c0521",
 				"title": "The Color of Water",
-				"description": "It's time to reveal dirty water’s true colors."
+				"description": "It's time to reveal dirty water’s true colors.",
+				"url": "https://unsplash.com/blog/the-color-of-water/"
 			},
 			{
 				"id": "62265414d3543f003d415d0c",
 				"title": "Meet the Unsplash Team : Aaron Klaassen",
-				"description": "10 questions with Aaron from the Unsplash API team"
+				"description": "10 questions with Aaron from the Unsplash API team",
+				"url": "https://unsplash.com/blog/meet-the-unsplash-team-aaron/"
 			},
 			{
 				"id": "62265afdd3543f003d415d48",
 				"title": "Back to Basics: How to shoot screens",
-				"description": "Unsplash curator and contributor, Nik Jones, shares 6 tips on shooting digital screens."
+				"description": "Unsplash curator and contributor, Nik Jones, shares 6 tips on shooting digital screens.",
+				"url": "https://unsplash.com/blog/back-to-basics-how-to-shoot-screens/"
 			},
 			{
 				"id": "6217e04ca5fc66003de5f6d2",
 				"title": "Meet the Unsplash team: Thomas Lefebvre",
-				"description": "10 questions with Thomas from the Unsplash web team"
+				"description": "10 questions with Thomas from the Unsplash web team",
+				"url": "https://unsplash.com/blog/meet-the-team-thomas-lefebvre/"
 			},
 			{
 				"id": "61f2e43d61051e003bd765eb",
 				"title": "Unsplash + UNEP",
-				"description": "We need to Act For Nature now, so it can still exist 50 years from now."
+				"description": "We need to Act For Nature now, so it can still exist 50 years from now.",
+				"url": "https://unsplash.com/blog/unsplash-unep/"
 			},
 			{
 				"id": "6217a3faa5fc66003de5f684",
 				"title": "Unsplash + Unbounce",
-				"description": "Bringing 3 million+ high-quality images to Unbounce's all-new Smart Builder."
+				"description": "Bringing 3 million+ high-quality images to Unbounce's all-new Smart Builder.",
+				"url": "https://unsplash.com/blog/unsplash-unbounce/"
 			},
 			{
 				"id": "61f03d85880d12004860312e",
 				"title": "Unsplash + Surface",
-				"description": "Capturing the drive and determination of entrepreneurship."
+				"description": "Capturing the drive and determination of entrepreneurship.",
+				"url": "https://unsplash.com/blog/unsplash-surface-3/"
 			},
 			{
 				"id": "61f9493f968755003b8afa79",
 				"title": "Unsplash Clubs in February",
-				"description": "<figure class=\"kg-card kg-image-card kg-width-full\"><img src=\"https://unsplash.com/blog/content/images/2022/02/op-4--Blog-.jpg\" class=\"kg-image\" alt loading=\"lazy\" width=\"2000\" height=\"743\" srcset=\"https://unsplash.com/blog/content/images/size/w600/2022/02/op-4--Blog-.jpg 600w, https://unsplash.com/blog/content/images/size/w1000/2022/02/op-4--Blog-.jpg 1000w, https://unsplash.com/blog/content/images/size/w1600/2022/02/op-4--Blog-.jpg 1600w, https://unsplash.com/blog/content/images/2022/02/op-4--Blog-.jpg 2208w\"></figure><p>New Year, New Unsplash Clubs! We're back after the festive break, with some new challenges to inspire and motivate.</p><p>Reading about Clubs for the first time? We’ve added a brief overview at the bottom of this article<em> </em>👍</p><h2 id=\"new-challenges\">New challenges</h2><h3 id=\"abstract-valentines\">Abstract Valentines</h3><p>'Valentines Day'</p>"
+				"description": "<figure class=\"kg-card kg-image-card kg-width-full\"><img src=\"https://unsplash.com/blog/content/images/2022/02/op-4--Blog-.jpg\" class=\"kg-image\" alt loading=\"lazy\" width=\"2000\" height=\"743\" srcset=\"https://unsplash.com/blog/content/images/size/w600/2022/02/op-4--Blog-.jpg 600w, https://unsplash.com/blog/content/images/size/w1000/2022/02/op-4--Blog-.jpg 1000w, https://unsplash.com/blog/content/images/size/w1600/2022/02/op-4--Blog-.jpg 1600w, https://unsplash.com/blog/content/images/2022/02/op-4--Blog-.jpg 2208w\"></figure><p>New Year, New Unsplash Clubs! We're back after the festive break, with some new challenges to inspire and motivate.</p><p>Reading about Clubs for the first time? We’ve added a brief overview at the bottom of this article<em> </em>👍</p><h2 id=\"new-challenges\">New challenges</h2><h3 id=\"abstract-valentines\">Abstract Valentines</h3><p>'Valentines Day'</p>",
+				"url": "https://unsplash.com/blog/unsplash-clubs-in-february/"
 			},
 			{
 				"id": "61e0945699f3a9003b1fb3b3",
 				"title": "Incredible ways images on Unsplash have been used",
-				"description": "on the internet and beyond..."
+				"description": "on the internet and beyond...",
+				"url": "https://unsplash.com/blog/incredible-ways-images-on-unsplash-have-been-used/"
 			},
 			{
 				"id": "61ae5dce3e1dd8003b09ac1a",
 				"title": "Behind 1 Billion: Toa Heftiba",
-				"description": "We caught up with contributor Toa Heftiba on how it feels to have reached 2 billion views on Unsplash."
+				"description": "We caught up with contributor Toa Heftiba on how it feels to have reached 2 billion views on Unsplash.",
+				"url": "https://unsplash.com/blog/behind-1-billion-toa-heftiba/"
 			},
 			{
 				"id": "618d30ca2bda79003bc4cfc2",
 				"title": "Unsplash + Tezos",
-				"description": "Help visualize the Blockchain"
+				"description": "Help visualize the Blockchain",
+				"url": "https://unsplash.com/blog/unsplash-tezos/"
 			},
 			{
 				"id": "61aa39a52bda79003bc4d2d5",
 				"title": "Top 10: Wallpapers",
-				"description": "Dell XPS’s top 10 images from their Wallpapers Topic Takeover"
+				"description": "Dell XPS’s top 10 images from their Wallpapers Topic Takeover",
+				"url": "https://unsplash.com/blog/top-10-wallpapers/"
 			},
 			{
 				"id": "61a63a6b2bda79003bc4d291",
 				"title": "Unsplash + Surface",
-				"description": "Cool tech for warm memories"
+				"description": "Cool tech for warm memories",
+				"url": "https://unsplash.com/blog/unsplash-surface-2/"
 			}
 		]
 	}

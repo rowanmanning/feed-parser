@@ -21,52 +21,62 @@
 			{
 				"id": "http://www.nasa.gov/press-release/nasa-to-discuss-final-test-status-today-before-artemis-moon-mission",
 				"title": "NASA to Discuss Final Test Status Today Before Artemis Moon Mission",
-				"description": "NASA to Discuss Final Test Status Today Before Artemis Moon Mission"
+				"description": "NASA to Discuss Final Test Status Today Before Artemis Moon Mission",
+				"url": "http://www.nasa.gov/press-release/nasa-to-discuss-final-test-status-today-before-artemis-moon-mission"
 			},
 			{
 				"id": "http://www.nasa.gov/press-release/nasa-to-provide-update-today-on-last-major-artemis-test-before-launch",
 				"title": "NASA to Provide Update Today on Last Major Artemis Test Before Launch",
-				"description": "NASA to Provide Update Today on Last Major Test Before Artemis Launch"
+				"description": "NASA to Provide Update Today on Last Major Test Before Artemis Launch",
+				"url": "http://www.nasa.gov/press-release/nasa-to-provide-update-today-on-last-major-artemis-test-before-launch"
 			},
 			{
 				"id": "http://www.nasa.gov/press-release/nasa-to-participate-in-space-symposium-broadcast-select-panels",
 				"title": "NASA to Participate in Space Symposium, Broadcast Select Panels",
-				"description": "NASA Deputy Administrator Pam Melroy and Associate Administrator Bob Cabana are among the agency’s speakers at the Space Foundation’s 37th Space Symposium from Tuesday, April 5 to Thursday, April 7 in Colorado Springs, Colo."
+				"description": "NASA Deputy Administrator Pam Melroy and Associate Administrator Bob Cabana are among the agency’s speakers at the Space Foundation’s 37th Space Symposium from Tuesday, April 5 to Thursday, April 7 in Colorado Springs, Colo.",
+				"url": "http://www.nasa.gov/press-release/nasa-to-participate-in-space-symposium-broadcast-select-panels"
 			},
 			{
 				"id": "http://www.nasa.gov/press-release/nasa-astronaut-to-discuss-american-space-record-in-news-conference",
 				"title": "NASA Astronaut to Discuss American Space Record in News Conference",
-				"description": "NASA astronaut Mark Vande Hei, back on Earth after breaking the record for the longest single spaceflight in history by an American, will participate in a virtual news conference at 10 a.m. EDT Tuesday, April 5, from the agency’s Johnson Space Center in Houston."
+				"description": "NASA astronaut Mark Vande Hei, back on Earth after breaking the record for the longest single spaceflight in history by an American, will participate in a virtual news conference at 10 a.m. EDT Tuesday, April 5, from the agency’s Johnson Space Center in Houston.",
+				"url": "http://www.nasa.gov/press-release/nasa-astronaut-to-discuss-american-space-record-in-news-conference"
 			},
 			{
 				"id": "http://www.nasa.gov/press-release/coverage-set-for-axiom-mission-1-briefings-events-broadcast",
 				"title": "Coverage Set for Axiom Mission 1 Briefings, Events, Broadcast",
-				"description": "NASA and Axiom Space will provide coverage of the upcoming prelaunch and launch activities for Axiom Mission 1 (Ax-1), the first private astronaut mission to the International Space Station."
+				"description": "NASA and Axiom Space will provide coverage of the upcoming prelaunch and launch activities for Axiom Mission 1 (Ax-1), the first private astronaut mission to the International Space Station.",
+				"url": "http://www.nasa.gov/press-release/coverage-set-for-axiom-mission-1-briefings-events-broadcast"
 			},
 			{
 				"id": "http://www.nasa.gov/press-release/record-setting-nasa-astronaut-crewmates-return-from-space-station-0",
 				"title": "Record-Setting NASA Astronaut, Crewmates Return from Space Station",
-				"description": "After extending the record for the longest single spaceflight in history by an American to 355 days, NASA astronaut Mark Vande Hei returned to Earth on Wednesday, March 30, along with Roscosmos cosmonauts Anton Shkaplerov and Pyotr Dubrov."
+				"description": "After extending the record for the longest single spaceflight in history by an American to 355 days, NASA astronaut Mark Vande Hei returned to Earth on Wednesday, March 30, along with Roscosmos cosmonauts Anton Shkaplerov and Pyotr Dubrov.",
+				"url": "http://www.nasa.gov/press-release/record-setting-nasa-astronaut-crewmates-return-from-space-station-0"
 			},
 			{
 				"id": "http://www.nasa.gov/press-release/nasa-names-winners-of-lunar-robotics-design-contest",
 				"title": "NASA Names Winners of Lunar Robotics Design Contest",
-				"description": "NASA has chosen two students as winners of the Lunabotics Junior Contest, a national competition for K-12 students featuring the agency’s Artemis missions."
+				"description": "NASA has chosen two students as winners of the Lunabotics Junior Contest, a national competition for K-12 students featuring the agency’s Artemis missions.",
+				"url": "http://www.nasa.gov/press-release/nasa-names-winners-of-lunar-robotics-design-contest"
 			},
 			{
 				"id": "http://www.nasa.gov/press-release/declaraci-n-del-administrador-de-la-nasa-sobre-la-solicitud-de-presupuesto-del",
 				"title": "Declaración del administrador de la NASA sobre la solicitud de presupuesto del presidente para el año fiscal 2023",
-				"description": "El presupuesto del presidente para el año fiscal 2023 permitiría a la NASA mantener el liderazgo en innovación global de Estados Unidos y mantener a la NASA a la vanguardia de la exploración y el descubrimiento al regresar a la Luna con el programa Artemis, entre otros esfuerzos."
+				"description": "El presupuesto del presidente para el año fiscal 2023 permitiría a la NASA mantener el liderazgo en innovación global de Estados Unidos y mantener a la NASA a la vanguardia de la exploración y el descubrimiento al regresar a la Luna con el programa Artemis, entre otros esfuerzos.",
+				"url": "http://www.nasa.gov/press-release/declaraci-n-del-administrador-de-la-nasa-sobre-la-solicitud-de-presupuesto-del"
 			},
 			{
 				"id": "http://www.nasa.gov/press-release/nasa-administrator-statement-on-presidents-fy-2023-budget-request",
 				"title": "NASA Administrator Statement on President’s FY 2023 Budget Request",
-				"description": "The President’s fiscal year 2023 budget would allow NASA to sustain America’s global innovation leadership and keep NASA at the forefront of exploration and discovery by returning to the Moon with the Artemis program, among other efforts."
+				"description": "The President’s fiscal year 2023 budget would allow NASA to sustain America’s global innovation leadership and keep NASA at the forefront of exploration and discovery by returning to the Moon with the Artemis program, among other efforts.",
+				"url": "http://www.nasa.gov/press-release/nasa-administrator-statement-on-presidents-fy-2023-budget-request"
 			},
 			{
 				"id": "http://www.nasa.gov/press-release/nasa-to-provide-updates-coverage-for-final-test-ahead-of-moon-mission",
 				"title": "NASA to Provide Updates, Coverage for Final Test Ahead of Moon Mission",
-				"description": "NASA will hold a media teleconference at 1 p.m. EDT Tuesday, March 29, to discuss the upcoming final major test with the agency’s Mega Moon rocket and spacecraft at the launch pad ahead of the uncrewed Artemis I lunar mission."
+				"description": "NASA will hold a media teleconference at 1 p.m. EDT Tuesday, March 29, to discuss the upcoming final major test with the agency’s Mega Moon rocket and spacecraft at the launch pad ahead of the uncrewed Artemis I lunar mission.",
+				"url": "http://www.nasa.gov/press-release/nasa-to-provide-updates-coverage-for-final-test-ahead-of-moon-mission"
 			}
 		]
 	}

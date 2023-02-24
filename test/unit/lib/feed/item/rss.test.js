@@ -124,6 +124,63 @@ describe('lib/feed/item/rss', () => {
 
 		});
 
+		describe('.url', () => {
+			let mockLinks;
+
+			beforeEach(() => {
+				mockLinks = [
+					new MockElement(),
+					new MockElement(),
+					new MockElement()
+				];
+
+				// Link with no text
+				mockLinks[0].textContentNormalized = '';
+				mockLinks[0].textContentAsUrl = '';
+
+				// Link with text
+				mockLinks[1].textContentNormalized = 'mock-text-1';
+				mockLinks[1].textContentAsUrl = 'mock-url-1';
+
+				// Link with text
+				mockLinks[2].textContentNormalized = 'mock-text-2';
+				mockLinks[2].textContentAsUrl = 'mock-url-2';
+
+				td.when(mockItemElement.findElementsWithName('link')).thenReturn(mockLinks);
+			});
+
+			it('is set to text of the first link element with text content found in the feed', () => {
+				assert.strictEqual(feedItem.url, 'mock-url-1');
+			});
+
+			describe('when no links have text content', () => {
+
+				beforeEach(() => {
+					td.when(mockItemElement.findElementsWithName('link')).thenReturn([
+						mockLinks[0]
+					]);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(feedItem.url);
+				});
+
+			});
+
+			describe('when no link elements exists', () => {
+
+				beforeEach(() => {
+					td.when(mockItemElement.findElementsWithName('link')).thenReturn([]);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(feedItem.url);
+				});
+
+			});
+
+		});
+
 	});
 
 });
