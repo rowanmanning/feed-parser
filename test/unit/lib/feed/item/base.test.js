@@ -103,6 +103,17 @@ describe('lib/feed/item/base', () => {
 
 		});
 
+		describe('.content', () => {
+
+			it('throws an error', () => {
+				assert.throws(
+					() => feedItem.content,
+					'FeedItem.content must be implemented in an extending class'
+				);
+			});
+
+		});
+
 		describe('.toJSON()', () => {
 			let mockFeedItem;
 			let returnValue;
@@ -114,7 +125,8 @@ describe('lib/feed/item/base', () => {
 					description: 'mock-description',
 					url: 'mock-url',
 					published: new Date('2022-01-01T01:02:03.000Z'),
-					updated: new Date('2022-01-01T04:05:06.000Z')
+					updated: new Date('2022-01-01T04:05:06.000Z'),
+					content: 'mock-content'
 				};
 				returnValue = feedItem.toJSON.call(mockFeedItem);
 			});
@@ -126,7 +138,8 @@ describe('lib/feed/item/base', () => {
 					description: 'mock-description',
 					url: 'mock-url',
 					published: '2022-01-01T01:02:03.000Z',
-					updated: '2022-01-01T04:05:06.000Z'
+					updated: '2022-01-01T04:05:06.000Z',
+					content: 'mock-content'
 				});
 			});
 

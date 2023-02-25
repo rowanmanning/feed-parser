@@ -291,6 +291,33 @@ describe('lib/feed/item/atom', () => {
 
 		});
 
+		describe('.content', () => {
+			let mockContentElement;
+
+			beforeEach(() => {
+				mockContentElement = new MockElement();
+				mockContentElement.textContentNormalized = 'mock content text';
+				td.when(mockItemElement.findElementWithName('content')).thenReturn(mockContentElement);
+			});
+
+			it('is set to the text of the first content element found in the feed item', () => {
+				assert.strictEqual(feedItem.content, 'mock content text');
+			});
+
+			describe('when a content element does not exist', () => {
+
+				beforeEach(() => {
+					td.when(mockItemElement.findElementWithName('content')).thenReturn(null);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(feedItem.content);
+				});
+
+			});
+
+		});
+
 	});
 
 });

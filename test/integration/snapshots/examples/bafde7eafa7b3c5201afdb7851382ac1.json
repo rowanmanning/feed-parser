@@ -24,7 +24,8 @@
 				"description": "I didn't want to copy across the original description",
 				"url": "http://example.org/archives/2002/09/04.html#first_of_all",
 				"published": "2004-05-30T20:23:54.000Z",
-				"updated": "2004-05-30T20:23:54.000Z"
+				"updated": "2004-05-30T20:23:54.000Z",
+				"content": "<p>I didn't want to copy across the original description</p>"
 			}
 		]
 	}

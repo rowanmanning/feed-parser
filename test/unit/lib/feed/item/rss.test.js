@@ -249,6 +249,58 @@ describe('lib/feed/item/rss', () => {
 
 		});
 
+		describe('.content', () => {
+			let mockContentEncodedElement;
+
+			beforeEach(() => {
+				mockContentEncodedElement = new MockElement();
+				mockContentEncodedElement.namespace = 'content';
+				mockContentEncodedElement.textContentNormalized = 'mock content text';
+				td.when(mockItemElement.findElementWithName('encoded')).thenReturn(mockContentEncodedElement);
+			});
+
+			it('is set to the text of the first content:encoded element found in the feed item', () => {
+				assert.strictEqual(feedItem.content, 'mock content text');
+			});
+
+			describe('when the content:encoded element has no content', () => {
+
+				beforeEach(() => {
+					mockContentEncodedElement.textContentNormalized = '';
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(feedItem.content);
+				});
+
+			});
+
+			describe('when an encoded element exists but with no content namespace', () => {
+
+				beforeEach(() => {
+					mockContentEncodedElement.namespace = 'nope';
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(feedItem.content);
+				});
+
+			});
+
+			describe('when a content:encoded element does not exist', () => {
+
+				beforeEach(() => {
+					td.when(mockItemElement.findElementWithName('encoded')).thenReturn(null);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(feedItem.content);
+				});
+
+			});
+
+		});
+
 	});
 
 });

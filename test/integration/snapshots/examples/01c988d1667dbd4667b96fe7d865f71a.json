@@ -31,7 +31,8 @@
 				"description": "Watch out for\n<span style=\"background: url(javascript:window.location=’http://example.org/’)\">\nnasty tricks</span>",
 				"url": "http://example.org/item/1",
 				"published": "2002-09-05T00:00:01.000Z",
-				"updated": null
+				"updated": null,
+				"content": null
 			}
 		]
 	}
