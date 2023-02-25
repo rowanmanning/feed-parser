@@ -306,11 +306,12 @@ describe('lib/feed/item/atom', () => {
 			describe('when neither element exists', () => {
 
 				beforeEach(() => {
+					Object.defineProperty(feedItem, 'published', {get: () => 'mock published date'});
 					td.when(mockItemElement.findElementWithName('modified')).thenReturn(null);
 				});
 
-				it('is set to `null`', () => {
-					assert.isNull(feedItem.updated);
+				it('is set to the value of the feedItem `published` property', () => {
+					assert.strictEqual(feedItem.updated, 'mock published date');
 				});
 
 			});
