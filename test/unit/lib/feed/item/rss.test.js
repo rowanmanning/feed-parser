@@ -140,17 +140,43 @@ describe('lib/feed/item/rss', () => {
 
 				// Link with text
 				mockLinks[1].textContentNormalized = 'mock-text-1';
-				mockLinks[1].textContentAsUrl = 'mock-url-1';
+				mockLinks[1].textContentAsUrl = 'https://mock-url-1';
 
 				// Link with text
 				mockLinks[2].textContentNormalized = 'mock-text-2';
-				mockLinks[2].textContentAsUrl = 'mock-url-2';
+				mockLinks[2].textContentAsUrl = 'https://mock-url-2';
 
 				td.when(mockItemElement.findElementsWithName('link')).thenReturn(mockLinks);
 			});
 
 			it('is set to text of the first link element with text content found in the feed', () => {
-				assert.strictEqual(feedItem.url, 'mock-url-1');
+				assert.strictEqual(feedItem.url, 'https://mock-url-1/');
+			});
+
+			describe('when the link is relative', () => {
+
+				beforeEach(() => {
+					mockFeed.url = 'https://mock-feed';
+					mockLinks[1].textContentAsUrl = '/mock-path';
+				});
+
+				it('is resolved against the feed URL', () => {
+					assert.strictEqual(feedItem.url, 'https://mock-feed/mock-path');
+				});
+
+			});
+
+			describe('when the link is relative but the feed has no URL', () => {
+
+				beforeEach(() => {
+					mockFeed.url = null;
+					mockLinks[1].textContentAsUrl = '/mock-path';
+				});
+
+				it('is set to the relative URL', () => {
+					assert.strictEqual(feedItem.url, '/mock-path');
+				});
+
 			});
 
 			describe('when no links have text content', () => {

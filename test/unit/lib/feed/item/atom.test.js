@@ -139,29 +139,29 @@ describe('lib/feed/item/atom', () => {
 
 				// Link with no rel
 				td.when(mockLinks[0].getAttribute('rel')).thenReturn(null);
-				td.when(mockLinks[0].getAttributeAsUrl('href')).thenReturn('mock-href-norel');
+				td.when(mockLinks[0].getAttributeAsUrl('href')).thenReturn('https://mock-url-norel');
 
 				// Link rel alternate
 				td.when(mockLinks[1].getAttribute('rel')).thenReturn('alternate');
-				td.when(mockLinks[1].getAttributeAsUrl('href')).thenReturn('mock-href-alternate');
+				td.when(mockLinks[1].getAttributeAsUrl('href')).thenReturn('https://mock-url-alternate');
 
 				// Link rel self
 				td.when(mockLinks[2].getAttribute('rel')).thenReturn('self');
-				td.when(mockLinks[2].getAttributeAsUrl('href')).thenReturn('mock-href-self');
+				td.when(mockLinks[2].getAttributeAsUrl('href')).thenReturn('https://mock-url-self');
 
 				// Link rel invalid
 				td.when(mockLinks[3].getAttribute('rel')).thenReturn('invalid');
-				td.when(mockLinks[3].getAttributeAsUrl('href')).thenReturn('mock-href-invalid');
+				td.when(mockLinks[3].getAttributeAsUrl('href')).thenReturn('https://mock-url-invalid');
 
 				// Link rel alternate
 				td.when(mockLinks[4].getAttribute('rel')).thenReturn('alternate');
-				td.when(mockLinks[4].getAttributeAsUrl('href')).thenReturn('mock-href-alternate-2');
+				td.when(mockLinks[4].getAttributeAsUrl('href')).thenReturn('https://mock-url-alternate-2');
 
 				td.when(mockItemElement.findElementsWithName('link')).thenReturn(mockLinks);
 			});
 
 			it('is set to the href attribute of the first link[rel=alternate] element found in the feed', () => {
-				assert.strictEqual(feedItem.url, 'mock-href-alternate');
+				assert.strictEqual(feedItem.url, 'https://mock-url-alternate/');
 			});
 
 			describe('when a link[rel=alternate] element does not exist but a link element without a rel attribute does', () => {
@@ -175,7 +175,33 @@ describe('lib/feed/item/atom', () => {
 				});
 
 				it('is set to the href attribute of the first link element found in the feed without a rel attribute', () => {
-					assert.strictEqual(feedItem.url, 'mock-href-norel');
+					assert.strictEqual(feedItem.url, 'https://mock-url-norel/');
+				});
+
+			});
+
+			describe('when the link is relative', () => {
+
+				beforeEach(() => {
+					mockFeed.url = 'https://mock-feed';
+					td.when(mockLinks[1].getAttributeAsUrl('href')).thenReturn('/mock-path');
+				});
+
+				it('is resolved against the feed URL', () => {
+					assert.strictEqual(feedItem.url, 'https://mock-feed/mock-path');
+				});
+
+			});
+
+			describe('when the link is relative but the feed has no URL', () => {
+
+				beforeEach(() => {
+					mockFeed.url = null;
+					td.when(mockLinks[1].getAttributeAsUrl('href')).thenReturn('/mock-path');
+				});
+
+				it('is set to the relative URL', () => {
+					assert.strictEqual(feedItem.url, '/mock-path');
 				});
 
 			});
