@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.4.2](https://github.com/rowanmanning/feed-parser/compare/v0.4.1...v0.4.2) (2023-02-26)
+
+
+### Features
+
+* add feed item.content property ([1c9a541](https://github.com/rowanmanning/feed-parser/commit/1c9a54199efe403627a626780a6f4f98c4ad74b4))
+* default item updated date to publish date ([1cc7310](https://github.com/rowanmanning/feed-parser/commit/1cc73101bfe611170fbee3b72934bf92d577272c))
+
+
+### Bug Fixes
+
+* properly handle Atom XHTML content ([e4855c5](https://github.com/rowanmanning/feed-parser/commit/e4855c5a2cbca15619137059264158cb83004c51))
+* resolve item URLs against the feed URL ([2ad0d6c](https://github.com/rowanmanning/feed-parser/commit/2ad0d6c975262b4d80a0ed048c61b9716e402496))
+
 ## [0.4.1](https://github.com/rowanmanning/feed-parser/compare/v0.4.0...v0.4.1) (2023-02-24)
 
 
