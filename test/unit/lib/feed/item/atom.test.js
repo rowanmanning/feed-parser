@@ -331,6 +331,49 @@ describe('lib/feed/item/atom', () => {
 				assert.strictEqual(feedItem.content, 'mock content text');
 			});
 
+			describe('when the content element has a type of "xtml"', () => {
+
+				beforeEach(() => {
+					td.when(mockContentElement.getAttribute('type')).thenReturn('xhtml');
+				});
+
+				describe('and it contains a wrapping div', () => {
+					let mockDivElement;
+
+					beforeEach(() => {
+						mockDivElement = new MockElement();
+						mockDivElement.innerHtml = 'mock div content';
+						td.when(mockContentElement.findElementWithName('div')).thenReturn(mockDivElement);
+					});
+
+					it('is set to the inner HTML of the div', () => {
+						assert.strictEqual(feedItem.content, 'mock div content');
+					});
+
+				});
+
+				describe('and it does not contain a wrapping div', () => {
+
+					it('is set to the text of the first content element found in the feed item', () => {
+						assert.strictEqual(feedItem.content, 'mock content text');
+					});
+
+				});
+
+			});
+
+			describe('when the content element text content is empty', () => {
+
+				beforeEach(() => {
+					mockContentElement.textContentNormalized = '';
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(feedItem.content);
+				});
+
+			});
+
 			describe('when a content element does not exist', () => {
 
 				beforeEach(() => {

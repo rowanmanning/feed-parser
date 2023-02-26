@@ -5,11 +5,21 @@ const td = require('testdouble');
 
 describe('lib/xml/element', () => {
 	let Element;
+	let fastXmlParser;
 	let htmlEntities;
 
 	beforeEach(() => {
+		fastXmlParser = td.replace('fast-xml-parser', require('../../mock/npm/fast-xml-parser.mock')());
 		htmlEntities = td.replace('html-entities', require('../../mock/npm/html-entities.mock')());
 		Element = require('../../../../lib/xml/element');
+	});
+
+	it('creates a new XML Builder', () => {
+		td.verify(new fastXmlParser.XMLBuilder({
+			attributeNamePrefix: '',
+			ignoreAttributes: false,
+			preserveOrder: true
+		}), {times: 1});
 	});
 
 	it('is a class constructor', () => {
@@ -725,6 +735,43 @@ describe('lib/xml/element', () => {
 
 			it('is set to the decoded string', () => {
 				assert.strictEqual(textContentNormalized, 'mock decoded text');
+			});
+
+		});
+
+		describe('.innerHtml', () => {
+			let innerHtml;
+
+			beforeEach(() => {
+				td.when(fastXmlParser.XMLBuilder.prototype.build(), {ignoreExtraArgs: true}).thenReturn('  mock-built-xml  ');
+				td.when(htmlEntities.decode('mock-built-xml')).thenReturn('mock decoded text');
+				innerHtml = element.innerHtml;
+			});
+
+			it('builds an XML string', () => {
+				td.verify(fastXmlParser.XMLBuilder.prototype.build(mockRawElement.MOCK), {times: 1});
+			});
+
+			it('decodes HTML entities on the trimmed XML string', () => {
+				td.verify(htmlEntities.decode('mock-built-xml'), {times: 1});
+			});
+
+			it('is set to the decoded string', () => {
+				assert.strictEqual(innerHtml, 'mock decoded text');
+			});
+
+			describe('when the XML builder returns a non-string', () => {
+
+				beforeEach(() => {
+					td.when(fastXmlParser.XMLBuilder.prototype.build(), {ignoreExtraArgs: true}).thenReturn(null);
+					Object.defineProperty(element, 'textContentNormalized', {get: () => 'mock text content'});
+					innerHtml = element.innerHtml;
+				});
+
+				it('is set to the the value of the `textContentNormalized` property', () => {
+					assert.strictEqual(innerHtml, 'mock text content');
+				});
+
 			});
 
 		});
