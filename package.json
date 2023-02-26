@@ -43,6 +43,7 @@
     "@rowanmanning/eslint-config": "^5.0.1",
     "chai": "^4.3.6",
     "eslint": "^8.16.0",
+    "feedparser": "^2.2.10",
     "husky": "^8.0.1",
     "mocha": "^10.0.0",
     "nyc": "^15.1.0",
