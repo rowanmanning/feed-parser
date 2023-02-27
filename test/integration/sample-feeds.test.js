@@ -173,7 +173,7 @@ for (const suite of suites) {
 					// HACK: in order to make this test pass for other valid feeds,
 					// we manually exclude feeds with the title "The Verge". We should
 					// find a nicer way to do this in future
-					it.only('has ROUGHLY matching feed images', () => {
+					it('has ROUGHLY matching feed images', () => {
 						if (!actual.feed.title.includes('The Verge')) {
 							let feedParserImage = feedParserMeta.image;
 							if (feedParserImage && !Object.keys(feedParserImage).length) {
@@ -202,9 +202,16 @@ for (const suite of suites) {
 					// DIFF: feedparser does not decode HTML entities in titles. We
 					// address this difference in the tests by manually decoding
 					// entities in feedparser items to match our data
+					//
+					// DIFF: feedparser doesn't use itunes title elements so we
+					// skip over this test for null titles if the feed has itunes
+					// elements
 					it('has ROUGHLY matching feed item titles', () => {
 						for (const [i, item] of Object.entries(actual.feed.items)) {
 							const feedParserItem = feedParserItems[i];
+							if (feedParserItem.title === null && xml.includes('itunes:')) {
+								continue;
+							}
 							assert.strictEqual(
 								item.title,
 								feedParserItem.title ? decodeEntities(feedParserItem.title) : feedParserItem.title

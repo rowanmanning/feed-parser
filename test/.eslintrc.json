@@ -4,6 +4,7 @@
 	],
 	"rules": {
 		"max-len": "off",
-		"max-statements": "off"
+		"max-statements": "off",
+		"no-continue": "off"
 	}
 }
