@@ -25,7 +25,8 @@
 				"url": "https://github.com/gohugoio/hugo/commit/4daac654d90bdc6adf92bf8b15a4aa45d7d62efd",
 				"published": null,
 				"updated": "2022-05-31T09:19:15.000Z",
-				"content": "<pre style='white-space:pre-wrap;width:81ex'>releaser: Prepare repository for 0.101.0-DEV\n\n[ci skip]</pre>"
+				"content": "<pre style='white-space:pre-wrap;width:81ex'>releaser: Prepare repository for 0.101.0-DEV\n\n[ci skip]</pre>",
+				"image": null
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/27b077544d8efeb85867cb4cfb941747d104f765",
@@ -34,7 +35,8 @@
 				"url": "https://github.com/gohugoio/hugo/commit/27b077544d8efeb85867cb4cfb941747d104f765",
 				"published": null,
 				"updated": "2022-05-31T08:37:12.000Z",
-				"content": "<pre style='white-space:pre-wrap;width:81ex'>releaser: Bump versions for release of 0.100.0\n\n[ci skip]</pre>"
+				"content": "<pre style='white-space:pre-wrap;width:81ex'>releaser: Bump versions for release of 0.100.0\n\n[ci skip]</pre>",
+				"image": null
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/0f8343a2c21350f209c9a1811bf9ef14673e785f",
@@ -43,7 +45,8 @@
 				"url": "https://github.com/gohugoio/hugo/commit/0f8343a2c21350f209c9a1811bf9ef14673e785f",
 				"published": null,
 				"updated": "2022-05-31T08:37:12.000Z",
-				"content": "<pre style='white-space:pre-wrap;width:81ex'>releaser: Add release notes for 0.100.0\n[ci skip]</pre>"
+				"content": "<pre style='white-space:pre-wrap;width:81ex'>releaser: Add release notes for 0.100.0\n[ci skip]</pre>",
+				"image": null
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/3fcbee261a6069e0417d62d4d357c9cd19873338",
@@ -52,7 +55,8 @@
 				"url": "https://github.com/gohugoio/hugo/commit/3fcbee261a6069e0417d62d4d357c9cd19873338",
 				"published": null,
 				"updated": "2022-05-31T08:24:01.000Z",
-				"content": "<pre style='white-space:pre-wrap;width:81ex'>docs: Regen CLI docs</pre>"
+				"content": "<pre style='white-space:pre-wrap;width:81ex'>docs: Regen CLI docs</pre>",
+				"image": null
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/db9d274275b7ef7cf3dd805dbb8a99f7c60dc6b2",
@@ -61,7 +65,8 @@
 				"url": "https://github.com/gohugoio/hugo/commit/db9d274275b7ef7cf3dd805dbb8a99f7c60dc6b2",
 				"published": null,
 				"updated": "2022-05-31T08:23:20.000Z",
-				"content": "<pre style='white-space:pre-wrap;width:81ex'>docs: Regen docs helper</pre>"
+				"content": "<pre style='white-space:pre-wrap;width:81ex'>docs: Regen docs helper</pre>",
+				"image": null
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/95baafeac4689674b41e2888609e409aea3693c7",
@@ -70,7 +75,8 @@
 				"url": "https://github.com/gohugoio/hugo/commit/95baafeac4689674b41e2888609e409aea3693c7",
 				"published": null,
 				"updated": "2022-05-31T08:22:05.000Z",
-				"content": "<pre style='white-space:pre-wrap;width:81ex'>Merge commit 'e4bfe59c4e043c92d3992587d8c64d264b262a22'</pre>"
+				"content": "<pre style='white-space:pre-wrap;width:81ex'>Merge commit 'e4bfe59c4e043c92d3992587d8c64d264b262a22'</pre>",
+				"image": null
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/e4bfe59c4e043c92d3992587d8c64d264b262a22",
@@ -79,7 +85,8 @@
 				"url": "https://github.com/gohugoio/hugo/commit/e4bfe59c4e043c92d3992587d8c64d264b262a22",
 				"published": null,
 				"updated": "2022-05-31T08:21:09.000Z",
-				"content": "<pre style='white-space:pre-wrap;width:81ex'>Squashed 'docs/' changes from 2d9da3a56..96fdc246c\n\n96fdc246c Fix outdated i18n warnings flag mention on the multilingual page\n39d197345 netlify: Hugo 0.99.1\nfafd5070e Typo: Vriables > Variables\n348c4e237 Update postcss.md\n924fa76b6 netlify: Hugo 0.99.0\nbb3f02ac1 Merge branch 'tempv0.99.0'\nbdd0b6eaf Update usage.md\nf562ff99d postcss: Fix import error handling\n5d73f215f docs: Regen CLI docs\n\ngit-subtree-dir: docs\ngit-subtree-split: 96fdc246cc901a4c4ce6a28bab681fda2cff355b</pre>"
+				"content": "<pre style='white-space:pre-wrap;width:81ex'>Squashed 'docs/' changes from 2d9da3a56..96fdc246c\n\n96fdc246c Fix outdated i18n warnings flag mention on the multilingual page\n39d197345 netlify: Hugo 0.99.1\nfafd5070e Typo: Vriables > Variables\n348c4e237 Update postcss.md\n924fa76b6 netlify: Hugo 0.99.0\nbb3f02ac1 Merge branch 'tempv0.99.0'\nbdd0b6eaf Update usage.md\nf562ff99d postcss: Fix import error handling\n5d73f215f docs: Regen CLI docs\n\ngit-subtree-dir: docs\ngit-subtree-split: 96fdc246cc901a4c4ce6a28bab681fda2cff355b</pre>",
+				"image": null
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/6f7bf3f2d7eda178d0dba4a6bf3dfa50229df7ae",
@@ -88,7 +95,8 @@
 				"url": "https://github.com/gohugoio/hugo/commit/6f7bf3f2d7eda178d0dba4a6bf3dfa50229df7ae",
 				"published": null,
 				"updated": "2022-05-31T07:05:54.000Z",
-				"content": "<pre style='white-space:pre-wrap;width:81ex'>Fix indentation in highlight shortcode\n\nThis commit adds a new `.InnerDeindent` method to the shortcode context, which is `.Inner` with any\nindendation removed. This is then used in the built-in `highlight` shortcode to prevent the extra\nwhitespace getting hightlighted.\n\nFixes #4717</pre>"
+				"content": "<pre style='white-space:pre-wrap;width:81ex'>Fix indentation in highlight shortcode\n\nThis commit adds a new `.InnerDeindent` method to the shortcode context, which is `.Inner` with any\nindendation removed. This is then used in the built-in `highlight` shortcode to prevent the extra\nwhitespace getting hightlighted.\n\nFixes #4717</pre>",
+				"image": null
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/9e904d756be02ca30e4cd9abb1eae8ba01f9c8af",
@@ -97,7 +105,8 @@
 				"url": "https://github.com/gohugoio/hugo/commit/9e904d756be02ca30e4cd9abb1eae8ba01f9c8af",
 				"published": null,
 				"updated": "2022-05-30T09:32:55.000Z",
-				"content": "<pre style='white-space:pre-wrap;width:81ex'>Make .RenderString render shortcodes\n\nFixes #6703</pre>"
+				"content": "<pre style='white-space:pre-wrap;width:81ex'>Make .RenderString render shortcodes\n\nFixes #6703</pre>",
+				"image": null
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/d2cfaede5be420c7d8b701d97b98bc61b87e46d5",
@@ -106,7 +115,8 @@
 				"url": "https://github.com/gohugoio/hugo/commit/d2cfaede5be420c7d8b701d97b98bc61b87e46d5",
 				"published": null,
 				"updated": "2022-05-30T09:32:55.000Z",
-				"content": "<pre style='white-space:pre-wrap;width:81ex'>Improve shortcode indentation handling\n\n* Record the leading whitespace (tabs, spaces) before the shortcode when parsing the page.\n* Apply that indentation to the rendered result of shortcodes without inner content (where the user will apply indentation).\n\nFixes #9946</pre>"
+				"content": "<pre style='white-space:pre-wrap;width:81ex'>Improve shortcode indentation handling\n\n* Record the leading whitespace (tabs, spaces) before the shortcode when parsing the page.\n* Apply that indentation to the rendered result of shortcodes without inner content (where the user will apply indentation).\n\nFixes #9946</pre>",
+				"image": null
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/322d19a81fedbf423a047bdf286499d2e25d14be",
@@ -115,7 +125,8 @@
 				"url": "https://github.com/gohugoio/hugo/commit/322d19a81fedbf423a047bdf286499d2e25d14be",
 				"published": null,
 				"updated": "2022-05-30T09:32:55.000Z",
-				"content": "<pre style='white-space:pre-wrap;width:81ex'>Add Markdown as an output format\n\nThe motivation behind this is not to make it easier to publish Markdown files, as that sounds unusual.\n\nThis is mainly meant for shortcodes that produces Markdown to be inlined.\n\nYou would do this by creating shortcodes with `*.md` suffix (e.g. `layouts/shortcodes/myshortcode.md`).\n\nThis output format is defined as plain text, and will use Go's much more lenient text template parser.\n\nUpdates #9821</pre>"
+				"content": "<pre style='white-space:pre-wrap;width:81ex'>Add Markdown as an output format\n\nThe motivation behind this is not to make it easier to publish Markdown files, as that sounds unusual.\n\nThis is mainly meant for shortcodes that produces Markdown to be inlined.\n\nYou would do this by creating shortcodes with `*.md` suffix (e.g. `layouts/shortcodes/myshortcode.md`).\n\nThis output format is defined as plain text, and will use Go's much more lenient text template parser.\n\nUpdates #9821</pre>",
+				"image": null
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/7cb484e121da73b63aab231ba29bb644b5f7965e",
@@ -124,7 +135,8 @@
 				"url": "https://github.com/gohugoio/hugo/commit/7cb484e121da73b63aab231ba29bb644b5f7965e",
 				"published": null,
 				"updated": "2022-05-30T09:32:04.000Z",
-				"content": "<pre style='white-space:pre-wrap;width:81ex'>build(deps): bump github.com/evanw/esbuild from 0.14.39 to 0.14.42\n\nBumps [github.com/evanw/esbuild](https://github.com/evanw/esbuild) from 0.14.39 to 0.14.42.\n- [Release notes](https://github.com/evanw/esbuild/releases)\n- [Changelog](https://github.com/evanw/esbuild/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/evanw/esbuild/compare/v0.14.39...v0.14.42)\n\n---\nupdated-dependencies:\n- dependency-name: github.com/evanw/esbuild\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com></pre>"
+				"content": "<pre style='white-space:pre-wrap;width:81ex'>build(deps): bump github.com/evanw/esbuild from 0.14.39 to 0.14.42\n\nBumps [github.com/evanw/esbuild](https://github.com/evanw/esbuild) from 0.14.39 to 0.14.42.\n- [Release notes](https://github.com/evanw/esbuild/releases)\n- [Changelog](https://github.com/evanw/esbuild/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/evanw/esbuild/compare/v0.14.39...v0.14.42)\n\n---\nupdated-dependencies:\n- dependency-name: github.com/evanw/esbuild\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com></pre>",
+				"image": null
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/0b395f0b41210028d95fba4f45454a4dc6699c62",
@@ -133,7 +145,8 @@
 				"url": "https://github.com/gohugoio/hugo/commit/0b395f0b41210028d95fba4f45454a4dc6699c62",
 				"published": null,
 				"updated": "2022-05-29T21:05:16.000Z",
-				"content": "<pre style='white-space:pre-wrap;width:81ex'>Run go mod tidy</pre>"
+				"content": "<pre style='white-space:pre-wrap;width:81ex'>Run go mod tidy</pre>",
+				"image": null
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/c1a83076bf2c8ece8ca8bc33bd263f3614851ee4",
@@ -142,7 +155,8 @@
 				"url": "https://github.com/gohugoio/hugo/commit/c1a83076bf2c8ece8ca8bc33bd263f3614851ee4",
 				"published": null,
 				"updated": "2022-05-29T13:21:08.000Z",
-				"content": "<pre style='white-space:pre-wrap;width:81ex'>Add a shortcode benchmark</pre>"
+				"content": "<pre style='white-space:pre-wrap;width:81ex'>Add a shortcode benchmark</pre>",
+				"image": null
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/0f8dc47037f59156c04540d97ed1b588e6bc1164",
@@ -151,7 +165,8 @@
 				"url": "https://github.com/gohugoio/hugo/commit/0f8dc47037f59156c04540d97ed1b588e6bc1164",
 				"published": null,
 				"updated": "2022-05-29T09:50:58.000Z",
-				"content": "<pre style='white-space:pre-wrap;width:81ex'>Remove Blackfriday markdown engine\n\nIt has been deprecated for a long time, its v1 version is not maintained anymore, and there are many known issues. Goldmark should be\na mature replacement by now.\n\nCloses #9934</pre>"
+				"content": "<pre style='white-space:pre-wrap;width:81ex'>Remove Blackfriday markdown engine\n\nIt has been deprecated for a long time, its v1 version is not maintained anymore, and there are many known issues. Goldmark should be\na mature replacement by now.\n\nCloses #9934</pre>",
+				"image": null
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/3b478f50b7408ad78d085fa6dbc3c7a683c9d943",
@@ -160,7 +175,8 @@
 				"url": "https://github.com/gohugoio/hugo/commit/3b478f50b7408ad78d085fa6dbc3c7a683c9d943",
 				"published": null,
 				"updated": "2022-05-28T08:56:54.000Z",
-				"content": "<pre style='white-space:pre-wrap;width:81ex'>Fix HasMenuCurrent and IsDescendant/IsAncestor when comparing to itself\n\nThere may be sites in the wild that depends on the faulty behaviour of IsDescendant/IsAncestor when comparing to itself, but\n\n* The documentation and common sense says that a thing cannot be descendant or ancestor to itself.\n* The bug introduced in `HasMenuCurrent` comes directly from that confusion.\n\nFixes #9846</pre>"
+				"content": "<pre style='white-space:pre-wrap;width:81ex'>Fix HasMenuCurrent and IsDescendant/IsAncestor when comparing to itself\n\nThere may be sites in the wild that depends on the faulty behaviour of IsDescendant/IsAncestor when comparing to itself, but\n\n* The documentation and common sense says that a thing cannot be descendant or ancestor to itself.\n* The bug introduced in `HasMenuCurrent` comes directly from that confusion.\n\nFixes #9846</pre>",
+				"image": null
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/f343b8eb7877c857c23dd5f0b554024b7682de3a",
@@ -169,7 +185,8 @@
 				"url": "https://github.com/gohugoio/hugo/commit/f343b8eb7877c857c23dd5f0b554024b7682de3a",
 				"published": null,
 				"updated": "2022-05-27T18:04:35.000Z",
-				"content": "<pre style='white-space:pre-wrap;width:81ex'>build(deps): bump github.com/sanity-io/litter from 1.5.4 to 1.5.5\n\nBumps [github.com/sanity-io/litter](https://github.com/sanity-io/litter) from 1.5.4 to 1.5.5.\n- [Release notes](https://github.com/sanity-io/litter/releases)\n- [Changelog](https://github.com/sanity-io/litter/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/sanity-io/litter/compare/v1.5.4...v1.5.5)\n\n---\nupdated-dependencies:\n- dependency-name: github.com/sanity-io/litter\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com></pre>"
+				"content": "<pre style='white-space:pre-wrap;width:81ex'>build(deps): bump github.com/sanity-io/litter from 1.5.4 to 1.5.5\n\nBumps [github.com/sanity-io/litter](https://github.com/sanity-io/litter) from 1.5.4 to 1.5.5.\n- [Release notes](https://github.com/sanity-io/litter/releases)\n- [Changelog](https://github.com/sanity-io/litter/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/sanity-io/litter/compare/v1.5.4...v1.5.5)\n\n---\nupdated-dependencies:\n- dependency-name: github.com/sanity-io/litter\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com></pre>",
+				"image": null
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/60ede146b613100286144bd110e697334cab9902",
@@ -178,7 +195,8 @@
 				"url": "https://github.com/gohugoio/hugo/commit/60ede146b613100286144bd110e697334cab9902",
 				"published": null,
 				"updated": "2022-05-27T17:12:20.000Z",
-				"content": "<pre style='white-space:pre-wrap;width:81ex'>deps: Update to github.com/tdewolff/minify/v2 v2.11.5</pre>"
+				"content": "<pre style='white-space:pre-wrap;width:81ex'>deps: Update to github.com/tdewolff/minify/v2 v2.11.5</pre>",
+				"image": null
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/dd9eaf19fdeb37ce5861405beceaf018faac6386",
@@ -187,7 +205,8 @@
 				"url": "https://github.com/gohugoio/hugo/commit/dd9eaf19fdeb37ce5861405beceaf018faac6386",
 				"published": null,
 				"updated": "2022-05-27T17:11:16.000Z",
-				"content": "<pre style='white-space:pre-wrap;width:81ex'>Don't use the baseURL /path as part of the resource cache key\n\nAs that prevents Hugo projects with sub paths in their `baseURL` to use themes with cached resources.\n\nFixes #9787</pre>"
+				"content": "<pre style='white-space:pre-wrap;width:81ex'>Don't use the baseURL /path as part of the resource cache key\n\nAs that prevents Hugo projects with sub paths in their `baseURL` to use themes with cached resources.\n\nFixes #9787</pre>",
+				"image": null
 			},
 			{
 				"id": "tag:github.com,2008:Grit::Commit/46a2ea6d0d3aba04213362fc72f5a3a28e3c3404",
@@ -196,7 +215,8 @@
 				"url": "https://github.com/gohugoio/hugo/commit/46a2ea6d0d3aba04213362fc72f5a3a28e3c3404",
 				"published": null,
 				"updated": "2022-05-27T16:38:44.000Z",
-				"content": "<pre style='white-space:pre-wrap;width:81ex'>postcss: Make the resource cache key more stable\n\nBy using the input map as the basis, which means the hash will not change if we add/rename/remove options.\n\nThis happened in Hugo 0.99, as we added a new options. This is unortunate.\n\nUnfortunately this means that the cache keys for PostCSS will change one more time in 0.100, but will be stable going forward.\n\nNote that we have implemented this pattern in all the other resource transformers.\n\nUpdates #9787</pre>"
+				"content": "<pre style='white-space:pre-wrap;width:81ex'>postcss: Make the resource cache key more stable\n\nBy using the input map as the basis, which means the hash will not change if we add/rename/remove options.\n\nThis happened in Hugo 0.99, as we added a new options. This is unortunate.\n\nUnfortunately this means that the cache keys for PostCSS will change one more time in 0.100, but will be stable going forward.\n\nNote that we have implemented this pattern in all the other resource transformers.\n\nUpdates #9787</pre>",
+				"image": null
 			}
 		]
 	}

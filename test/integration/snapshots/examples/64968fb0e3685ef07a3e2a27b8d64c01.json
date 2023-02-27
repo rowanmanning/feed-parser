@@ -25,7 +25,8 @@
 				"url": "http://example.org/2003/12/13/atom03",
 				"published": null,
 				"updated": "2003-12-13T18:30:02.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			}
 		]
 	}

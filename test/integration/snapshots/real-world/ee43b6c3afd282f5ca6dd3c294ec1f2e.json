@@ -25,7 +25,8 @@
 				"url": "http://www.nasa.gov/press-release/nasa-to-discuss-final-test-status-today-before-artemis-moon-mission",
 				"published": "2022-04-05T10:27:00.000Z",
 				"updated": "2022-04-05T10:27:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "http://www.nasa.gov/press-release/nasa-to-provide-update-today-on-last-major-artemis-test-before-launch",
@@ -34,7 +35,8 @@
 				"url": "http://www.nasa.gov/press-release/nasa-to-provide-update-today-on-last-major-artemis-test-before-launch",
 				"published": "2022-04-03T15:57:00.000Z",
 				"updated": "2022-04-03T15:57:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "http://www.nasa.gov/press-release/nasa-to-participate-in-space-symposium-broadcast-select-panels",
@@ -43,7 +45,8 @@
 				"url": "http://www.nasa.gov/press-release/nasa-to-participate-in-space-symposium-broadcast-select-panels",
 				"published": "2022-04-01T20:50:00.000Z",
 				"updated": "2022-04-01T20:50:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "http://www.nasa.gov/press-release/nasa-astronaut-to-discuss-american-space-record-in-news-conference",
@@ -52,7 +55,8 @@
 				"url": "http://www.nasa.gov/press-release/nasa-astronaut-to-discuss-american-space-record-in-news-conference",
 				"published": "2022-04-01T16:00:00.000Z",
 				"updated": "2022-04-01T16:00:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "http://www.nasa.gov/press-release/coverage-set-for-axiom-mission-1-briefings-events-broadcast",
@@ -61,7 +65,8 @@
 				"url": "http://www.nasa.gov/press-release/coverage-set-for-axiom-mission-1-briefings-events-broadcast",
 				"published": "2022-03-31T13:06:00.000Z",
 				"updated": "2022-03-31T13:06:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "http://www.nasa.gov/press-release/record-setting-nasa-astronaut-crewmates-return-from-space-station-0",
@@ -70,7 +75,8 @@
 				"url": "http://www.nasa.gov/press-release/record-setting-nasa-astronaut-crewmates-return-from-space-station-0",
 				"published": "2022-03-30T11:37:00.000Z",
 				"updated": "2022-03-30T11:37:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "http://www.nasa.gov/press-release/nasa-names-winners-of-lunar-robotics-design-contest",
@@ -79,7 +85,8 @@
 				"url": "http://www.nasa.gov/press-release/nasa-names-winners-of-lunar-robotics-design-contest",
 				"published": "2022-03-29T19:26:00.000Z",
 				"updated": "2022-03-29T19:26:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "http://www.nasa.gov/press-release/declaraci-n-del-administrador-de-la-nasa-sobre-la-solicitud-de-presupuesto-del",
@@ -88,7 +95,8 @@
 				"url": "http://www.nasa.gov/press-release/declaraci-n-del-administrador-de-la-nasa-sobre-la-solicitud-de-presupuesto-del",
 				"published": "2022-03-28T17:53:00.000Z",
 				"updated": "2022-03-28T17:53:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "http://www.nasa.gov/press-release/nasa-administrator-statement-on-presidents-fy-2023-budget-request",
@@ -97,7 +105,8 @@
 				"url": "http://www.nasa.gov/press-release/nasa-administrator-statement-on-presidents-fy-2023-budget-request",
 				"published": "2022-03-28T15:51:00.000Z",
 				"updated": "2022-03-28T15:51:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "http://www.nasa.gov/press-release/nasa-to-provide-updates-coverage-for-final-test-ahead-of-moon-mission",
@@ -106,7 +115,8 @@
 				"url": "http://www.nasa.gov/press-release/nasa-to-provide-updates-coverage-for-final-test-ahead-of-moon-mission",
 				"published": "2022-03-28T13:29:00.000Z",
 				"updated": "2022-03-28T13:29:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			}
 		]
 	}

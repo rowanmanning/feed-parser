@@ -28,7 +28,8 @@
 				"url": "https://www.telegraph.co.uk/news/2022/04/05/letting-dog-lick-face-might-render-antibiotics-useless/",
 				"published": "2022-04-05T22:00:00.000Z",
 				"updated": "2022-04-05T22:00:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/e60bf2f8-0697-37ec-a251-6d084ad9c091",
@@ -37,7 +38,8 @@
 				"url": "https://www.telegraph.co.uk/world-news/2022/04/05/ukraine-war-latest-russia-news-putin-zelensky-war-crimes/",
 				"published": "2022-04-05T21:50:34.000Z",
 				"updated": "2022-04-05T21:50:34.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/47426c53-2f49-3ec6-95a6-71f7e035206a",
@@ -46,7 +48,8 @@
 				"url": "https://www.telegraph.co.uk/football/2022/04/05/benfica-vs-liverpool-champions-league-live-latest-quarter-final/",
 				"published": "2022-04-05T21:43:06.000Z",
 				"updated": "2022-04-05T21:43:06.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/0f0efa03-4218-364e-a675-fe0da5958b79",
@@ -55,7 +58,8 @@
 				"url": "https://www.telegraph.co.uk/football/2022/04/05/manchester-city-vs-atletico-madrid-champions-league-live-latest/",
 				"published": "2022-04-05T21:14:16.000Z",
 				"updated": "2022-04-05T21:14:16.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/1990c4df-af6f-3033-bdfe-9a7c7402384c",
@@ -64,7 +68,8 @@
 				"url": "https://www.telegraph.co.uk/tv/0/should-try-cure-dwarfism-ellie-simmondss-documentary-asked-vital/",
 				"published": "2022-04-05T21:00:00.000Z",
 				"updated": "2022-04-05T21:00:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/bb71c9ce-8783-38ed-b6ec-cdc63816184e",
@@ -73,7 +78,8 @@
 				"url": "https://www.telegraph.co.uk/world-news/2022/04/05/volodymyr-zelensky-tells-un-act-now-stop-russia-dissolve/",
 				"published": "2022-04-05T20:35:51.000Z",
 				"updated": "2022-04-05T20:35:51.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/7bb3f091-912a-31d9-8e44-4d390c0782e3",
@@ -82,7 +88,8 @@
 				"url": "https://www.telegraph.co.uk/golf/2022/04/05/tiger-woods-press-conference-live-masters-augusta-return/",
 				"published": "2022-04-05T20:21:55.000Z",
 				"updated": "2022-04-05T20:21:55.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/37191fa9-206b-338e-99c9-7bbf4c774a3a",
@@ -91,7 +98,8 @@
 				"url": "https://www.telegraph.co.uk/news/2022/04/05/man-claimed-voices-told-kill-neighbour-found-guilty-murder/",
 				"published": "2022-04-05T20:03:36.000Z",
 				"updated": "2022-04-05T20:03:36.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/e0ca4485-dd4f-3976-a1b9-1f79cc98cb38",
@@ -100,7 +108,8 @@
 				"url": "https://www.telegraph.co.uk/cricket/2022/04/05/ben-stokes-fears-another-injury-layoff-rubbishes-talk-replacing/",
 				"published": "2022-04-05T19:45:24.000Z",
 				"updated": "2022-04-05T19:45:24.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/1104a767-8df4-3b56-b99a-c4dc6671588a",
@@ -109,7 +118,8 @@
 				"url": "https://www.telegraph.co.uk/world-news/2022/04/05/ukraine-may-struggle-get-russia-removed-un-security-council/",
 				"published": "2022-04-05T18:25:09.000Z",
 				"updated": "2022-04-05T18:25:09.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/8815a05b-df3b-3641-a2b3-d06cf11616d0",
@@ -118,7 +128,8 @@
 				"url": "https://www.telegraph.co.uk/news/2022/04/05/happy-easter-x-return-stolen-charles-darwin-notebooks-leaves/",
 				"published": "2022-04-05T18:15:06.000Z",
 				"updated": "2022-04-05T18:15:06.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/b5e07c11-6614-35f6-924a-53467b210dd1",
@@ -127,7 +138,8 @@
 				"url": "https://www.telegraph.co.uk/tennis/2022/04/05/french-open-has-no-plans-ban-daniil-medvedev-years-tournament/",
 				"published": "2022-04-05T17:56:31.000Z",
 				"updated": "2022-04-05T17:56:31.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/15dd860f-7a90-3416-bd3f-7aa183fd5a32",
@@ -136,7 +148,8 @@
 				"url": "https://www.telegraph.co.uk/business/2022/04/05/easter-holidays-chaos-easyjet-cancellations-last-days/",
 				"published": "2022-04-05T17:43:30.000Z",
 				"updated": "2022-04-05T17:43:30.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/81b9f4f6-cf06-3201-b369-2d918eb83af9",
@@ -145,7 +158,8 @@
 				"url": "https://www.telegraph.co.uk/world-news/2022/04/05/hero-british-girl-raised-alarm-landslide-killed-father-brother/",
 				"published": "2022-04-05T17:39:33.000Z",
 				"updated": "2022-04-05T17:39:33.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/5c8dd9d7-e7f2-3b70-9b4c-572118c2bcf2",
@@ -154,7 +168,8 @@
 				"url": "https://www.telegraph.co.uk/football/2022/04/05/thomas-tuchel-calls-chelsea-fans-better-create-special-atmosphere/",
 				"published": "2022-04-05T17:33:33.000Z",
 				"updated": "2022-04-05T17:33:33.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/b1f676cc-52fb-31c6-b57f-0fccdc14314a",
@@ -163,7 +178,8 @@
 				"url": "https://www.telegraph.co.uk/golf/2022/04/05/masters-tournament-2022-when-does-start-dates-watch-tv-odds/",
 				"published": "2022-04-05T17:20:12.000Z",
 				"updated": "2022-04-05T17:20:12.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/cc6517ad-2f4c-38d0-ba7f-169fc956103a",
@@ -172,7 +188,8 @@
 				"url": "https://www.telegraph.co.uk/books/what-to-read/best-new-childrens-books-buy-easter-2022/",
 				"published": "2022-04-05T17:17:42.000Z",
 				"updated": "2022-04-05T17:17:42.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/73945ba8-ee82-39ef-a495-f98d5d820e23",
@@ -181,7 +198,8 @@
 				"url": "https://www.telegraph.co.uk/business/2022/04/05/ftse-100-markets-live-news-russian-oil-sanctions-nft/",
 				"published": "2022-04-05T17:16:55.000Z",
 				"updated": "2022-04-05T17:16:55.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/f9bf1085-501d-3413-8d73-a4498961810c",
@@ -190,7 +208,8 @@
 				"url": "https://www.telegraph.co.uk/football/2022/04/05/leah-williamson-named-england-captain-2022-womens-euros/",
 				"published": "2022-04-05T17:11:26.000Z",
 				"updated": "2022-04-05T17:11:26.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/e5d6e084-6b71-39d3-9d33-bb7d7f526780",
@@ -199,7 +218,8 @@
 				"url": "https://www.telegraph.co.uk/racing/2022/04/05/grand-national-2022-tips-bets-racing-odds-predictions-betting/",
 				"published": "2022-04-05T17:00:08.000Z",
 				"updated": "2022-04-05T17:00:08.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/1157944b-d253-30e2-b094-006497d326e4",
@@ -208,7 +228,8 @@
 				"url": "https://www.telegraph.co.uk/racing/2022/04/05/grand-national-2022-sweepstake-kit-download-print-aintree-race/",
 				"published": "2022-04-05T17:00:04.000Z",
 				"updated": "2022-04-05T17:00:04.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/98755e30-b6dc-3af0-b368-5d90ce320611",
@@ -217,7 +238,8 @@
 				"url": "https://www.telegraph.co.uk/racing/2022/04/05/grand-national-2022-when-start-times-date-how-watch-tv-channel/",
 				"published": "2022-04-05T16:59:59.000Z",
 				"updated": "2022-04-05T16:59:59.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/aa830146-338c-30ac-bd47-a7cb4f261156",
@@ -226,7 +248,8 @@
 				"url": "https://www.telegraph.co.uk/pensions-retirement/financial-planning/annuity-rates-calculator-pension-drawdown-stocks-2022/",
 				"published": "2022-04-05T16:44:19.000Z",
 				"updated": "2022-04-05T16:44:19.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/25bf6bb8-3cce-320a-b267-09b1b229e082",
@@ -235,7 +258,8 @@
 				"url": "https://www.telegraph.co.uk/business/2022/04/05/boris-johnson-accused-failing-order-review-chinese-takeover/",
 				"published": "2022-04-05T16:40:07.000Z",
 				"updated": "2022-04-05T16:40:07.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/bfa53714-6d0c-37f6-8947-d777005c6d09",
@@ -244,7 +268,8 @@
 				"url": "https://www.telegraph.co.uk/news/2022/04/05/tuesday-evening-news-briefing-volodymyr-zelensky-calls-russian/",
 				"published": "2022-04-05T16:39:42.000Z",
 				"updated": "2022-04-05T16:39:42.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/ecadceae-e034-3f3c-8986-608f17c153a9",
@@ -253,7 +278,8 @@
 				"url": "https://www.telegraph.co.uk/business/2022/04/05/channel-4-privatisation-could-buy-broadcaster/",
 				"published": "2022-04-05T16:37:40.000Z",
 				"updated": "2022-04-05T16:37:40.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/8dba3c7e-bda7-3ecb-81a0-d4b37694a7f7",
@@ -262,7 +288,8 @@
 				"url": "https://www.telegraph.co.uk/tax/inheritance/avoid-paying-inheritance-tax-threshold-advice-gifts-work-2022/",
 				"published": "2022-04-05T16:35:48.000Z",
 				"updated": "2022-04-05T16:35:48.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/a5bb0b81-1793-35ae-b293-0a203859ece4",
@@ -271,7 +298,8 @@
 				"url": "https://www.telegraph.co.uk/world-news/2022/04/05/ukraine-afternoon-briefing-five-developments-volodymyr-zelensky/",
 				"published": "2022-04-05T16:35:24.000Z",
 				"updated": "2022-04-05T16:35:24.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/dbdbbb0b-f15f-3876-8080-57a61e2e7884",
@@ -280,7 +308,8 @@
 				"url": "https://www.telegraph.co.uk/business/2022/04/05/electric-cars-sold-march-2019/",
 				"published": "2022-04-05T15:55:47.000Z",
 				"updated": "2022-04-05T15:55:47.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/e853b07f-cd7a-3ffc-991f-12e505b3605e",
@@ -289,7 +318,8 @@
 				"url": "https://www.telegraph.co.uk/news/2022/03/02/russia-ukraine-war-listen-daily-podcast/",
 				"published": "2022-04-05T15:44:47.000Z",
 				"updated": "2022-04-05T15:44:47.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/416e174e-e14e-3cc1-9051-45715beaa216",
@@ -298,7 +328,8 @@
 				"url": "https://www.telegraph.co.uk/global-health/climate-and-people/slightly-better-outlook-ukraines-harvest-russia-leaves-northern/",
 				"published": "2022-04-05T15:42:29.000Z",
 				"updated": "2022-04-05T15:42:29.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/b86c20a0-4b77-3faf-97e3-75c67425fc08",
@@ -307,7 +338,8 @@
 				"url": "https://www.telegraph.co.uk/investing/shares/best-shares-companies-buy-invest-money-markets-uk-2022/",
 				"published": "2022-04-05T15:39:04.000Z",
 				"updated": "2022-04-05T15:39:04.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/94d4de83-79d7-39b7-9bba-a36910ec9c68",
@@ -316,7 +348,8 @@
 				"url": "https://www.telegraph.co.uk/global-health/terror-and-security/took-away-executed-russian-mercenaries-implicated-mali-massacre/",
 				"published": "2022-04-05T15:21:54.000Z",
 				"updated": "2022-04-05T15:21:54.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/a1981074-8982-3c48-b665-3dbf292763f2",
@@ -325,7 +358,8 @@
 				"url": "https://www.telegraph.co.uk/world-cup/0/world-cup-2022-fixtures-match-dates-full-schedule-qatar-tournament/",
 				"published": "2022-04-05T15:20:52.000Z",
 				"updated": "2022-04-05T15:20:52.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/bd5f3ddd-2c09-343a-b0aa-822d840f7c80",
@@ -334,7 +368,8 @@
 				"url": "https://www.telegraph.co.uk/global-health/science-and-disease/ukraines-hiv-crisis-dont-know-will-kill-first-hiv-bombs/",
 				"published": "2022-04-05T15:18:03.000Z",
 				"updated": "2022-04-05T15:18:03.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/7306fdcb-e5d2-31c1-ab40-fbabda31cd23",
@@ -343,7 +378,8 @@
 				"url": "https://www.telegraph.co.uk/money/money-makeover/would-like-telegraph-money-makeover-how-apply-2022/",
 				"published": "2022-04-05T15:10:13.000Z",
 				"updated": "2022-04-05T15:10:13.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/348ea67f-7e9c-302f-b1a8-701ec34e608c",
@@ -352,7 +388,8 @@
 				"url": "https://www.telegraph.co.uk/world-news/2022/04/05/north-korea-says-will-use-nuclear-weapons-eliminate-south-korea/",
 				"published": "2022-04-05T14:51:14.000Z",
 				"updated": "2022-04-05T14:51:14.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/1437f78c-ebae-3e0b-a7ce-30df639df6de",
@@ -361,7 +398,8 @@
 				"url": "https://www.telegraph.co.uk/recommended/leisure/best-running-shoes-women/",
 				"published": "2022-04-05T14:49:18.000Z",
 				"updated": "2022-04-05T14:49:18.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/d23a3e07-fbeb-3030-bacb-788a9816cfd0",
@@ -370,7 +408,8 @@
 				"url": "https://www.telegraph.co.uk/gardening/how-to-grow/how-can-grow-avocado-from-seed-stone-where-uk/",
 				"published": "2022-04-05T14:02:59.000Z",
 				"updated": "2022-04-05T14:02:59.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/6ae6ede8-36e5-3287-af3f-6f9e86abc521",
@@ -379,7 +418,8 @@
 				"url": "https://www.telegraph.co.uk/films/0/fantastic-beasts-secrets-dumbledore-review-shambles-embarrass/",
 				"published": "2022-04-05T14:00:00.000Z",
 				"updated": "2022-04-05T14:00:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/56e504c6-07dc-3adb-9ffc-13aedd1af8c4",
@@ -388,7 +428,8 @@
 				"url": "https://www.telegraph.co.uk/news/2022/04/05/how-book-covid-vaccine-child-5-11-year-olds-england/",
 				"published": "2022-04-05T13:55:05.000Z",
 				"updated": "2022-04-05T13:55:05.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/b12be241-4b19-327d-a228-04690f04cec7",
@@ -397,7 +438,8 @@
 				"url": "https://www.telegraph.co.uk/business/2022/04/05/elon-musk-floats-idea-editing-tweets-stock-swoop/",
 				"published": "2022-04-05T13:38:59.000Z",
 				"updated": "2022-04-05T13:38:59.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/18087f83-eb26-36b7-8d29-2896c657c644",
@@ -406,7 +448,8 @@
 				"url": "https://www.telegraph.co.uk/recipes/0/baked-leeks-tomatoes-bulgur-wheat-feta-garlic-yogurt-recipe/",
 				"published": "2022-04-05T12:44:40.000Z",
 				"updated": "2022-04-05T12:44:40.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/4a5abe80-49ea-3586-9443-bd90168191fa",
@@ -415,7 +458,8 @@
 				"url": "https://www.telegraph.co.uk/cars/advice/true-cost-charging-electric-car-vehicle-home-uk-2022/",
 				"published": "2022-04-05T12:41:57.000Z",
 				"updated": "2022-04-05T12:41:57.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/4291c282-a128-3ab7-9e3b-521ed3f36203",
@@ -424,7 +468,8 @@
 				"url": "https://www.telegraph.co.uk/gardening/how-to-grow/gardening-jobs-april-2022-things-do-garden-jobs-guide/",
 				"published": "2022-04-05T12:37:38.000Z",
 				"updated": "2022-04-05T12:37:38.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/c7a16070-2c07-3c7b-98e4-c0202ff6b1d6",
@@ -433,7 +478,8 @@
 				"url": "https://www.telegraph.co.uk/beauty/make-up/best-lipstick-product-buy-suit-everyone-mood-boost-2022/",
 				"published": "2022-04-05T12:29:31.000Z",
 				"updated": "2022-04-05T12:29:31.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/dce8deae-913e-3158-9ec5-0c601f52ee2c",
@@ -442,7 +488,8 @@
 				"url": "https://www.telegraph.co.uk/beauty/make-up/one-make-up-trick-younger-looking-lips-50s/",
 				"published": "2022-04-05T12:25:48.000Z",
 				"updated": "2022-04-05T12:25:48.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/885ead95-7d69-3001-9b42-3c343e3e7dcc",
@@ -451,7 +498,8 @@
 				"url": "https://www.telegraph.co.uk/gardening/tools-and-accessories/where-buy-best-rattan-garden-furniture/",
 				"published": "2022-04-05T12:22:04.000Z",
 				"updated": "2022-04-05T12:22:04.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/d8165093-a8e8-3f0a-b20c-f9797bfdb3fe",
@@ -460,7 +508,8 @@
 				"url": "https://www.telegraph.co.uk/travel/news/countries-where-can-still-visit-unvaccinated-best-holidays-travel-2022/",
 				"published": "2022-04-05T12:17:42.000Z",
 				"updated": "2022-04-05T12:17:42.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/8b7d044d-ccea-32a8-a655-82e30221e26d",
@@ -469,7 +518,8 @@
 				"url": "https://www.telegraph.co.uk/beauty/hair-nails/best-nail-varnish-colours-spring-polish-designs-2022/",
 				"published": "2022-04-05T12:06:38.000Z",
 				"updated": "2022-04-05T12:06:38.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/dc6357d7-9750-34cb-8df3-1fb6e55f2892",
@@ -478,7 +528,8 @@
 				"url": "https://www.telegraph.co.uk/news/2022/04/05/cody-ackland-pleads-guilty-murdering-plymouth-teenager-bobbi/",
 				"published": "2022-04-05T11:33:13.000Z",
 				"updated": "2022-04-05T11:33:13.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/173baad5-d22b-336e-b39e-60114ff87540",
@@ -487,7 +538,8 @@
 				"url": "https://www.telegraph.co.uk/gardening/how-to-grow/can-grow-ginger-root-plant-home-cook-uk/",
 				"published": "2022-04-05T11:24:27.000Z",
 				"updated": "2022-04-05T11:24:27.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/706ba2cb-dd07-3e15-90a8-25cf93da397f",
@@ -496,7 +548,8 @@
 				"url": "https://www.telegraph.co.uk/cricket/2022/04/05/david-warner-snubbed-second-year-hundred-draft/",
 				"published": "2022-04-05T11:21:43.000Z",
 				"updated": "2022-04-05T11:21:43.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/b967165a-2af9-36ce-a86a-95e8973cd731",
@@ -505,7 +558,8 @@
 				"url": "https://www.telegraph.co.uk/gardening/chelsea-flower-show/chelsea-flower-show-2022-rhs-buy-tickets-date-best-day-transport/",
 				"published": "2022-04-05T11:20:38.000Z",
 				"updated": "2022-04-05T11:20:38.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/4b763adb-bb75-32b8-960e-11a947c3a79a",
@@ -514,7 +568,8 @@
 				"url": "https://www.telegraph.co.uk/politics/0/london-local-elections-2022-when-date-why-vote-important/",
 				"published": "2022-04-05T11:20:24.000Z",
 				"updated": "2022-04-05T11:20:24.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/8215c505-7a00-368b-8eee-22adf8d79efc",
@@ -523,7 +578,8 @@
 				"url": "https://www.telegraph.co.uk/politics/0/local-elections-2022-date-vote-uk/",
 				"published": "2022-04-05T11:20:05.000Z",
 				"updated": "2022-04-05T11:20:05.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/2c685d31-0b03-3c75-87aa-a4315c5de8cc",
@@ -532,7 +588,8 @@
 				"url": "https://www.telegraph.co.uk/food-and-drink/features/easter-2022-when-date-this-year-chocolate-eggs-why-change/",
 				"published": "2022-04-05T11:19:29.000Z",
 				"updated": "2022-04-05T11:19:29.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/716cd797-c5ce-35b9-8926-e4114dcd68bb",
@@ -541,7 +598,8 @@
 				"url": "https://www.telegraph.co.uk/cycling/0/uci-worldtour-2022-mens-team-by-team-guide-calendar-details/",
 				"published": "2022-04-05T11:18:39.000Z",
 				"updated": "2022-04-05T11:18:39.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/d0baeafd-d5c3-37fd-8be3-ce929ae1569b",
@@ -550,7 +608,8 @@
 				"url": "https://www.telegraph.co.uk/boxing/0/tyson-fury-vs-dillian-whyte-fight-when-date-where-venue-watch-tv/",
 				"published": "2022-04-05T11:18:28.000Z",
 				"updated": "2022-04-05T11:18:28.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/d5282e71-3dcc-3197-b405-5d29da204f27",
@@ -559,7 +618,8 @@
 				"url": "https://www.telegraph.co.uk/formula-1/0/f1-2022-season-calendar-race-dates-schedule-standings-how-watch/",
 				"published": "2022-04-05T11:18:04.000Z",
 				"updated": "2022-04-05T11:18:04.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/239f69d6-8d25-3079-9770-853a911974dd",
@@ -568,7 +628,8 @@
 				"url": "https://www.telegraph.co.uk/racing/2022/04/05/grand-national-winners-list-horses-jockeys-finishers-fallers-runners-2022/",
 				"published": "2022-04-05T11:08:59.000Z",
 				"updated": "2022-04-05T11:08:59.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/68bcdb4f-bd74-393c-bbba-6cb50da949d9",
@@ -577,7 +638,8 @@
 				"url": "https://www.telegraph.co.uk/racing/0/marlborough-racing-tips-best-bets-todays-races/",
 				"published": "2022-04-05T11:01:22.000Z",
 				"updated": "2022-04-05T11:01:22.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/60b159ab-425c-3dc3-9614-98d1da18d93c",
@@ -586,7 +648,8 @@
 				"url": "https://www.telegraph.co.uk/science/0/lyrid-meteor-shower-april-2022-when-date-peak-how-watch-uk/",
 				"published": "2022-04-05T11:01:00.000Z",
 				"updated": "2022-04-05T11:01:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/2c442ec1-f031-3cab-81b4-3a1620120a11",
@@ -595,7 +658,8 @@
 				"url": "https://www.telegraph.co.uk/science/0/pink-full-moon-2022-april-when-next-date-peak-uk/",
 				"published": "2022-04-05T10:49:38.000Z",
 				"updated": "2022-04-05T10:49:38.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/d94201f5-5300-3f5c-bf03-8a66ef977a6a",
@@ -604,7 +668,8 @@
 				"url": "https://www.telegraph.co.uk/tax/inheritance/inheritance-tax-loopholes-2022-how-avoid-paying-legal-uk/",
 				"published": "2022-04-05T10:39:19.000Z",
 				"updated": "2022-04-05T10:39:19.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/9222287d-aca5-3d83-b941-12f914177e83",
@@ -613,7 +678,8 @@
 				"url": "https://www.telegraph.co.uk/football/2022/04/05/cristiano-ronaldo-jose-mourinho-betting-advert-appearances-banned/",
 				"published": "2022-04-05T10:34:16.000Z",
 				"updated": "2022-04-05T10:34:16.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/ade1a0fd-ac6f-360b-bae0-b16e46672305",
@@ -622,7 +688,8 @@
 				"url": "https://www.telegraph.co.uk/world-news/2022/04/05/new-satellite-images-bucha-dead-debunk-russian-denials-mass/",
 				"published": "2022-04-05T10:32:13.000Z",
 				"updated": "2022-04-05T10:32:13.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/6d471d76-659d-33b4-ad8a-05be7fb48dc9",
@@ -631,7 +698,8 @@
 				"url": "https://www.telegraph.co.uk/money/consumer-affairs/why-everything-more-expensive-bills-rising-cost-living-2022/",
 				"published": "2022-04-05T10:24:19.000Z",
 				"updated": "2022-04-05T10:24:19.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/922b7b88-dde8-31e6-8be3-82ef98222075",
@@ -640,7 +708,8 @@
 				"url": "https://www.telegraph.co.uk/formula-1/2022/04/05/australian-grand-prix-2022-time-does-f1-race-start-tv-channel/",
 				"published": "2022-04-05T10:22:14.000Z",
 				"updated": "2022-04-05T10:22:14.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/4e77e42e-3d9a-393a-aea7-ffa4043ef331",
@@ -649,7 +718,8 @@
 				"url": "https://www.telegraph.co.uk/pensions-retirement/news/doctors-forced-retirement-receiving-9000-pension-tax-bills/",
 				"published": "2022-04-05T10:05:19.000Z",
 				"updated": "2022-04-05T10:05:19.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/0c008169-3ba6-3562-a11c-e020d07a1ae6",
@@ -658,7 +728,8 @@
 				"url": "https://www.telegraph.co.uk/property/buy/how-help-kids-buy-first-home-property-ladder-without-cash-2022/",
 				"published": "2022-04-05T09:11:41.000Z",
 				"updated": "2022-04-05T09:11:41.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/11b82865-74bf-3c6a-a9ce-bdbc714774fa",
@@ -667,7 +738,8 @@
 				"url": "https://www.telegraph.co.uk/tax/income-tax/national-insurance-rise-2022-how-much-pay-change-uk-2022/",
 				"published": "2022-04-05T08:37:00.000Z",
 				"updated": "2022-04-05T08:37:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/1a4c104c-c8a9-3cae-8fb6-6cf1e285dc8b",
@@ -676,7 +748,8 @@
 				"url": "https://www.telegraph.co.uk/news/0/nine-new-covid-symptoms-spot-early-signs-do-get/",
 				"published": "2022-04-05T08:35:42.000Z",
 				"updated": "2022-04-05T08:35:42.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/f275128b-1d70-3db1-967e-784c1bc92487",
@@ -685,7 +758,8 @@
 				"url": "https://www.telegraph.co.uk/world-cup/0/qatar-world-cup-2022-match-dates-groups-tickets-england-games/",
 				"published": "2022-04-05T08:14:09.000Z",
 				"updated": "2022-04-05T08:14:09.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/1e4b0401-2568-329e-97a5-483fb8dbed9e",
@@ -694,7 +768,8 @@
 				"url": "https://www.telegraph.co.uk/rugby-union/2022/04/05/womens-six-nations-2022-fixtures-dates-when-how-watch-tv/",
 				"published": "2022-04-05T08:12:01.000Z",
 				"updated": "2022-04-05T08:12:01.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/9e6a342a-f2f0-321d-88b5-41ac44f4b861",
@@ -703,7 +778,8 @@
 				"url": "https://www.telegraph.co.uk/world-news/2022/04/05/french-election-2022-poll-tracker-macrons-lead-fades-le-pen/",
 				"published": "2022-04-05T08:07:52.000Z",
 				"updated": "2022-04-05T08:07:52.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/2ad17142-a90e-35c7-ae7a-341920057bd8",
@@ -712,7 +788,8 @@
 				"url": "https://www.telegraph.co.uk/world-news/2022/04/05/french-presidential-election-2022-does-work-candidates/",
 				"published": "2022-04-05T08:04:01.000Z",
 				"updated": "2022-04-05T08:04:01.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/ad772e9c-95af-3bf7-8230-388bb4307b3c",
@@ -721,7 +798,8 @@
 				"url": "https://www.telegraph.co.uk/tax/inheritance/how-avoid-paying-inheritance-tax-trick-save-975k-uk-2022/",
 				"published": "2022-04-05T07:42:18.000Z",
 				"updated": "2022-04-05T07:42:18.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/c1e89b83-a22c-30db-9082-3abce3b54fdc",
@@ -730,7 +808,8 @@
 				"url": "https://www.telegraph.co.uk/football/2022/04/05/liverpools-route-quadruple-plotting-path-footballing-immortality/",
 				"published": "2022-04-05T07:39:19.000Z",
 				"updated": "2022-04-05T07:39:19.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/ee6d24a2-faca-37eb-a7d2-6d580a04f840",
@@ -739,7 +818,8 @@
 				"url": "https://www.telegraph.co.uk/money/consumer-affairs/flight-has-cancelled-can-claim-refund/",
 				"published": "2022-04-05T07:31:52.000Z",
 				"updated": "2022-04-05T07:31:52.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/59756f36-491d-3b6a-911a-11902c40ba79",
@@ -748,7 +828,8 @@
 				"url": "https://www.telegraph.co.uk/tv/2022/04/05/rotter-rapist-anatomy-scandals-moral-dilemma-treads-murky-waters/",
 				"published": "2022-04-05T07:00:00.000Z",
 				"updated": "2022-04-05T07:00:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/fc6fc109-04b6-3118-b9c6-8f0807703c4f",
@@ -757,7 +838,8 @@
 				"url": "https://www.telegraph.co.uk/racing/2022/04/05/grand-national-2022-five-star-treatment-gets-horse-ready-aintree/",
 				"published": "2022-04-05T07:00:00.000Z",
 				"updated": "2022-04-05T07:00:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/818ceed6-4ff8-3d63-8cf0-76f72f40baef",
@@ -766,7 +848,8 @@
 				"url": "https://www.telegraph.co.uk/world-news/2022/04/05/ukraine-morning-briefing-five-developments-russians-forced-retreat/",
 				"published": "2022-04-05T06:56:06.000Z",
 				"updated": "2022-04-05T06:56:06.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/41542ace-c13e-304a-8302-9c5537aa9d08",
@@ -775,7 +858,8 @@
 				"url": "https://www.telegraph.co.uk/tv/0/tv-guide-tv-television-tonight/",
 				"published": "2022-04-05T06:46:39.000Z",
 				"updated": "2022-04-05T06:46:39.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/a308b095-c136-339d-8304-95d35bb4ec7e",
@@ -784,7 +868,8 @@
 				"url": "https://www.telegraph.co.uk/news/2022/04/05/tuesday-morning-uk-news-briefing-todays-top-headlines-telegraph2/",
 				"published": "2022-04-05T06:45:08.000Z",
 				"updated": "2022-04-05T06:45:08.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/44d50dbd-3976-35d5-841c-fc87d9d7595c",
@@ -793,7 +878,8 @@
 				"url": "https://www.telegraph.co.uk/money/consumer-affairs/year-misery-savings-deals-havent-beat-inflation-12-months/",
 				"published": "2022-04-05T05:00:00.000Z",
 				"updated": "2022-04-05T05:00:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/ebbf5805-0cd3-3086-a492-f2421e1ab243",
@@ -802,7 +888,8 @@
 				"url": "https://www.telegraph.co.uk/travel/destinations/europe/france/frances-best-kept-secret-seaside-town-never-thought-visit/",
 				"published": "2022-04-05T05:00:00.000Z",
 				"updated": "2022-04-05T05:00:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/835985d6-dd17-397e-9ee2-dc245c594780",
@@ -811,7 +898,8 @@
 				"url": "https://www.telegraph.co.uk/business/2022/04/05/oxford-start-up-claims-major-nuclear-fusion-breakthrough/",
 				"published": "2022-04-05T05:00:00.000Z",
 				"updated": "2022-04-05T05:00:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/6ee3bffb-2ff5-327d-9648-7ac805547db3",
@@ -820,7 +908,8 @@
 				"url": "https://www.telegraph.co.uk/property/uk/homeowners-turn-new-builds-beat-gas-price-rise/",
 				"published": "2022-04-05T05:00:00.000Z",
 				"updated": "2022-04-05T05:00:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/58c3fe90-f5d6-3572-9356-d798d8d3fa9d",
@@ -829,7 +918,8 @@
 				"url": "https://www.telegraph.co.uk/news/2022/04/04/british-father-nine-year-old-son-killed-landslide-australian/",
 				"published": "2022-04-05T02:23:14.000Z",
 				"updated": "2022-04-05T02:23:14.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/37bf65cd-a8d9-376e-803d-e8e028950868",
@@ -838,7 +928,8 @@
 				"url": "https://www.telegraph.co.uk/tv/0/gentleman-jack-series-2-episode-1-review-suranne-jones-returns/",
 				"published": "2022-04-04T23:01:00.000Z",
 				"updated": "2022-04-04T23:01:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/6b1d8e12-de96-3961-ab61-022d7753de72",
@@ -847,7 +938,8 @@
 				"url": "https://www.telegraph.co.uk/football/2022/04/04/crystal-palace-vs-arsenal-live-score-premier-league-latest-updates/",
 				"published": "2022-04-04T22:42:52.000Z",
 				"updated": "2022-04-04T22:42:52.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/679cb7d3-73b4-3aff-a5db-c32836419d27",
@@ -856,7 +948,8 @@
 				"url": "https://www.telegraph.co.uk/news/2022/04/04/kinder-eggs-recalled-due-salmonella-fears/",
 				"published": "2022-04-04T21:34:05.000Z",
 				"updated": "2022-04-04T21:34:05.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/f7da28d3-8fdd-35fe-bc96-70c8bd563a36",
@@ -865,7 +958,8 @@
 				"url": "https://www.telegraph.co.uk/world-news/2022/04/04/bucha-killings-brought-dead-dogs-trying-eat/",
 				"published": "2022-04-04T21:00:16.000Z",
 				"updated": "2022-04-04T21:00:16.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/5d9b9547-1a17-32b3-9564-27fab66c0128",
@@ -874,7 +968,8 @@
 				"url": "https://www.telegraph.co.uk/tv/0/house-maxwell-review-yet-another-maxwell-epstein-documentary/",
 				"published": "2022-04-04T21:00:00.000Z",
 				"updated": "2022-04-04T21:00:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/08323d78-2929-38a8-b5a8-550bab173636",
@@ -883,7 +978,8 @@
 				"url": "https://www.telegraph.co.uk/tv/0/split-series-3-review-glossy-implausible-ridiculous-totally/",
 				"published": "2022-04-04T21:00:00.000Z",
 				"updated": "2022-04-04T21:00:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/e4ecd3b8-b224-3901-88f5-9b3b1bdf0df0",
@@ -892,7 +988,8 @@
 				"url": "https://www.telegraph.co.uk/politics/2022/04/04/boozy-leaving-do-woman-wrote-covid-rules-leads-partygate-fines/",
 				"published": "2022-04-04T20:30:00.000Z",
 				"updated": "2022-04-04T20:30:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/e02bc887-b1a6-30c3-9694-6252623b5042",
@@ -901,7 +998,8 @@
 				"url": "https://www.telegraph.co.uk/football/2022/04/04/mike-dean-reveals-daughter-received-death-threats-one-red-card/",
 				"published": "2022-04-04T20:08:51.000Z",
 				"updated": "2022-04-04T20:08:51.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/6be00bd4-b673-35ab-a59a-b9d168be5fed",
@@ -910,7 +1008,8 @@
 				"url": "https://www.telegraph.co.uk/news/2022/04/04/ukrainian-refugees-can-claim-permanent-asylum-uk/",
 				"published": "2022-04-04T20:00:00.000Z",
 				"updated": "2022-04-04T20:00:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "https://api-prod.telegraph.co.uk/content-reader/v3/content/5a666734-9bf8-34ba-8973-12456946b0a5",
@@ -919,7 +1018,8 @@
 				"url": "https://www.telegraph.co.uk/football/2022/04/04/man-city-will-play-12-bullish-pep-guardiola-responds-claims/",
 				"published": "2022-04-04T19:40:17.000Z",
 				"updated": "2022-04-04T19:40:17.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			}
 		]
 	}

@@ -29,7 +29,8 @@
 				"url": "http://example.org/entry/3",
 				"published": "2005-11-09T00:23:47.000Z",
 				"updated": "2005-11-09T11:56:34.000Z",
-				"content": "Watch out for\n<span style=\"background-image: url(javascript:window.location='http://example.org/')\">\nnasty tricks</span>"
+				"content": "Watch out for\n<span style=\"background-image: url(javascript:window.location='http://example.org/')\">\nnasty tricks</span>",
+				"image": null
 			}
 		]
 	}

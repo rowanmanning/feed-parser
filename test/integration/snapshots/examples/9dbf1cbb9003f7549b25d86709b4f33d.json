@@ -25,7 +25,8 @@
 				"url": "http://xml.com/pub/2000/08/09/xslt/xslt.html",
 				"published": null,
 				"updated": null,
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": null,
@@ -34,7 +35,8 @@
 				"url": "http://xml.com/pub/2000/08/09/rdfdb/index.html",
 				"published": null,
 				"updated": null,
-				"content": null
+				"content": null,
+				"image": null
 			}
 		]
 	}

@@ -388,6 +388,14 @@ describe('lib/feed/item/atom', () => {
 
 		});
 
+		describe('.image', () => {
+
+			it('is set to `null`', () => {
+				assert.isNull(feedItem.image);
+			});
+
+		});
+
 	});
 
 });

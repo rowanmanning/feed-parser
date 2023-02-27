@@ -25,7 +25,8 @@
 				"url": "http://www.example.com/blog/post/1",
 				"published": "2009-09-06T16:20:00.000Z",
 				"updated": "2009-09-06T16:20:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			}
 		]
 	}

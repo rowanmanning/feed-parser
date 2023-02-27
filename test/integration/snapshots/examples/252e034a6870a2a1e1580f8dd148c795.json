@@ -28,7 +28,8 @@
 				"url": null,
 				"published": "2019-01-08T01:15:00.000Z",
 				"updated": "2019-01-08T01:15:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "aae20190606",
@@ -37,7 +38,8 @@
 				"url": null,
 				"published": "2019-05-07T12:00:00.000Z",
 				"updated": "2019-05-07T12:00:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "aae20190530",
@@ -46,7 +48,11 @@
 				"url": "https://www.apple.com/itunes/podcasts/href=%22http://example.com/podcasts/everything/",
 				"published": "2019-04-30T18:00:00.000Z",
 				"updated": "2019-04-30T18:00:00.000Z",
-				"content": null
+				"content": null,
+				"image": {
+					"title": null,
+					"url": "http://example.com/podcasts/everything/AllAboutEverything/Episode2.jpg"
+				}
 			},
 			{
 				"id": "aae20190523",
@@ -55,7 +61,11 @@
 				"url": null,
 				"published": "2019-05-23T09:00:00.000Z",
 				"updated": "2019-05-23T09:00:00.000Z",
-				"content": null
+				"content": null,
+				"image": {
+					"title": null,
+					"url": "http://example.com/podcasts/everything/AllAboutEverything/Episode3.jpg"
+				}
 			},
 			{
 				"id": "aae20190516",
@@ -64,7 +74,8 @@
 				"url": null,
 				"published": "2019-02-16T07:00:00.000Z",
 				"updated": "2019-02-16T07:00:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "aae20190509",
@@ -73,7 +84,8 @@
 				"url": null,
 				"published": "2018-11-27T01:15:00.000Z",
 				"updated": "2018-11-27T01:15:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "aae20190502",
@@ -82,7 +94,8 @@
 				"url": null,
 				"published": "2018-10-23T01:15:00.000Z",
 				"updated": "2018-10-23T01:15:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "aae20190425",
@@ -91,7 +104,8 @@
 				"url": null,
 				"published": "2018-09-18T01:15:00.000Z",
 				"updated": "2018-09-18T01:15:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": "aae20190418a",
@@ -100,7 +114,8 @@
 				"url": null,
 				"published": "2018-08-14T01:15:00.000Z",
 				"updated": "2018-08-14T01:15:00.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			}
 		]
 	}

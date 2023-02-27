@@ -32,7 +32,8 @@
 				"url": "http://www.feedforall.com/",
 				"published": "2004-10-26T19:01:01.000Z",
 				"updated": "2004-10-26T19:01:01.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": null,
@@ -41,7 +42,8 @@
 				"url": "http://www.feedforall.com/feedforall-partners.htm",
 				"published": "2004-10-26T19:03:25.000Z",
 				"updated": "2004-10-26T19:03:25.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": null,
@@ -50,7 +52,8 @@
 				"url": "http://www.feedforall.com/feedforall-partners.htm",
 				"published": "2004-10-26T19:06:44.000Z",
 				"updated": "2004-10-26T19:06:44.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			}
 		]
 	}

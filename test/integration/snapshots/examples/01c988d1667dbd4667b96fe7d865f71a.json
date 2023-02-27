@@ -32,7 +32,8 @@
 				"url": "http://example.org/item/1",
 				"published": "2002-09-05T00:00:01.000Z",
 				"updated": "2002-09-05T00:00:01.000Z",
-				"content": null
+				"content": null,
+				"image": null
 			}
 		]
 	}

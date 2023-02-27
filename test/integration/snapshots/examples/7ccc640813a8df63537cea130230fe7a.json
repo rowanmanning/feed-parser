@@ -28,7 +28,8 @@
 				"url": "http://writetheweb.com/read.php?item=24",
 				"published": null,
 				"updated": null,
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": null,
@@ -37,7 +38,8 @@
 				"url": "http://writetheweb.com/read.php?item=23",
 				"published": null,
 				"updated": null,
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": null,
@@ -46,7 +48,8 @@
 				"url": "http://writetheweb.com/read.php?item=22",
 				"published": null,
 				"updated": null,
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": null,
@@ -55,7 +58,8 @@
 				"url": "http://writetheweb.com/read.php?item=21",
 				"published": null,
 				"updated": null,
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": null,
@@ -64,7 +68,8 @@
 				"url": "http://writetheweb.com/read.php?item=20",
 				"published": null,
 				"updated": null,
-				"content": null
+				"content": null,
+				"image": null
 			},
 			{
 				"id": null,
@@ -73,7 +78,8 @@
 				"url": "http://writetheweb.com/read.php?item=19",
 				"published": null,
 				"updated": null,
-				"content": null
+				"content": null,
+				"image": null
 			}
 		]
 	}

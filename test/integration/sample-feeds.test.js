@@ -328,6 +328,34 @@ for (const suite of suites) {
 						}
 					});
 
+					// DIFF: feedparser returns an empty object rather than `null`
+					// if there is no image in the feed. We test for this by converting
+					// empty objects to `null`
+					//
+					// DIFF: if the image title is missing, feedparser returns `undefined`
+					// rather than `null`. We get around this in the tests by setting our
+					// title to undefined if it's null
+					//
+					// FIXME: skipped for now until we have enclosure support
+					it.skip('has ROUGHLY matching feed item images', () => {
+						for (const [i, item] of Object.entries(actual.feed.items)) {
+							const feedParserItem = feedParserItems[i];
+							let feedParserImage = feedParserItem.image;
+							if (feedParserImage && !Object.keys(feedParserImage).length) {
+								feedParserImage = null;
+							}
+							if (item.image?.title === null) {
+								delete item.image.title;
+							}
+
+							console.log({
+								ours: item.image,
+								theirs: feedParserImage
+							});
+							assert.deepEqual(item.image, feedParserImage);
+						}
+					});
+
 				});
 
 			});
