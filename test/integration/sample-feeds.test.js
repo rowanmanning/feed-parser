@@ -151,6 +151,15 @@ for (const suite of suites) {
 					// prefer null if there's not an explicit publish date at the
 					// feed level
 
+					// DIFF: feedparser doesn't break the generator into separate
+					// properties. For the tests we assert that the feedparser
+					// generator contains the label that we use
+					it('has ROUGHLY matching feed generators', () => {
+						if (feedParserMeta.generator && actual.feed.generator) {
+							assert.include(feedParserMeta.generator, actual.feed.generator.label);
+						}
+					});
+
 					// DIFF: when there is no explicit guid or id element, we use a
 					// value of `null` whereas feedparser defaults to the item URL.
 					// We'd rather the user of this library makes that decision.
