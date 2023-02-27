@@ -33,7 +33,15 @@
 				"published": "2002-09-05T00:00:01.000Z",
 				"updated": "2002-09-05T00:00:01.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://example.org/audio/demo.mp3",
+						"length": 1069871,
+						"type": "audio",
+						"mimeType": "audio/mpeg"
+					}
+				]
 			}
 		]
 	}

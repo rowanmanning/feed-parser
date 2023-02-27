@@ -33,7 +33,8 @@
 				"published": "2022-04-05T10:04:42.000Z",
 				"updated": "2022-04-05T10:04:42.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-latin-america-60993655",
@@ -43,7 +44,8 @@
 				"published": "2022-04-05T08:13:30.000Z",
 				"updated": "2022-04-05T08:13:30.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-61002622",
@@ -53,7 +55,8 @@
 				"published": "2022-04-05T15:49:47.000Z",
 				"updated": "2022-04-05T15:49:47.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60956242",
@@ -63,7 +66,8 @@
 				"published": "2022-04-04T23:14:11.000Z",
 				"updated": "2022-04-04T23:14:11.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60989412",
@@ -73,7 +77,8 @@
 				"published": "2022-04-04T16:33:50.000Z",
 				"updated": "2022-04-04T16:33:50.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60989413",
@@ -83,7 +88,8 @@
 				"published": "2022-04-04T17:37:19.000Z",
 				"updated": "2022-04-04T17:37:19.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-australia-60978502",
@@ -93,7 +99,8 @@
 				"published": "2022-04-04T02:13:56.000Z",
 				"updated": "2022-04-04T02:13:56.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-us-canada-60989415",
@@ -103,7 +110,8 @@
 				"published": "2022-04-04T19:50:29.000Z",
 				"updated": "2022-04-04T19:50:29.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60977889",
@@ -113,7 +121,8 @@
 				"published": "2022-04-03T23:42:04.000Z",
 				"updated": "2022-04-03T23:42:04.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60843227",
@@ -123,7 +132,8 @@
 				"published": "2022-04-03T23:14:32.000Z",
 				"updated": "2022-04-03T23:14:32.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-africa-60955345",
@@ -133,7 +143,8 @@
 				"published": "2022-04-03T23:21:18.000Z",
 				"updated": "2022-04-03T23:21:18.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60976917",
@@ -143,7 +154,8 @@
 				"published": "2022-04-03T23:19:03.000Z",
 				"updated": "2022-04-03T23:19:03.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-asia-60977417",
@@ -153,7 +165,8 @@
 				"published": "2022-04-03T18:46:33.000Z",
 				"updated": "2022-04-03T18:46:33.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60974086",
@@ -163,7 +176,8 @@
 				"published": "2022-04-03T11:03:50.000Z",
 				"updated": "2022-04-03T11:03:50.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60973124",
@@ -173,7 +187,8 @@
 				"published": "2022-04-03T09:34:48.000Z",
 				"updated": "2022-04-03T09:34:48.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60972351",
@@ -183,7 +198,8 @@
 				"published": "2022-04-03T07:41:06.000Z",
 				"updated": "2022-04-03T07:41:06.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60968546",
@@ -193,7 +209,8 @@
 				"published": "2022-04-02T22:14:36.000Z",
 				"updated": "2022-04-02T22:14:36.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-africa-60959467",
@@ -203,7 +220,8 @@
 				"published": "2022-04-02T23:19:31.000Z",
 				"updated": "2022-04-02T23:19:31.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60955687",
@@ -213,7 +231,8 @@
 				"published": "2022-04-02T23:20:57.000Z",
 				"updated": "2022-04-02T23:20:57.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/stories-60931660",
@@ -223,7 +242,8 @@
 				"published": "2022-04-02T23:07:09.000Z",
 				"updated": "2022-04-02T23:07:09.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60956241",
@@ -233,7 +253,8 @@
 				"published": "2022-04-01T23:01:17.000Z",
 				"updated": "2022-04-01T23:01:17.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60947272",
@@ -243,7 +264,8 @@
 				"published": "2022-03-31T17:36:01.000Z",
 				"updated": "2022-03-31T17:36:01.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60947271",
@@ -253,7 +275,8 @@
 				"published": "2022-03-31T17:09:44.000Z",
 				"updated": "2022-03-31T17:09:44.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60953243",
@@ -263,7 +286,8 @@
 				"published": "2022-04-01T09:20:15.000Z",
 				"updated": "2022-04-01T09:20:15.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-middle-east-60931180",
@@ -273,7 +297,8 @@
 				"published": "2022-03-30T14:10:55.000Z",
 				"updated": "2022-03-30T14:10:55.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60930068",
@@ -283,7 +308,8 @@
 				"published": "2022-03-30T16:17:06.000Z",
 				"updated": "2022-03-30T16:17:06.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-us-canada-60880633",
@@ -293,7 +319,8 @@
 				"published": "2022-03-30T22:46:12.000Z",
 				"updated": "2022-03-30T22:46:12.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-australia-60928153",
@@ -303,7 +330,8 @@
 				"published": "2022-03-30T13:08:55.000Z",
 				"updated": "2022-03-30T13:08:55.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60920248",
@@ -313,7 +341,8 @@
 				"published": "2022-03-29T15:51:48.000Z",
 				"updated": "2022-03-29T15:51:48.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60867684",
@@ -323,7 +352,8 @@
 				"published": "2022-03-30T00:05:47.000Z",
 				"updated": "2022-03-30T00:05:47.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60905198",
@@ -333,7 +363,8 @@
 				"published": "2022-03-29T07:03:14.000Z",
 				"updated": "2022-03-29T07:03:14.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60968543",
@@ -343,7 +374,8 @@
 				"published": "2022-04-02T15:21:22.000Z",
 				"updated": "2022-04-02T15:21:22.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60903513",
@@ -353,7 +385,8 @@
 				"published": "2022-03-28T23:01:21.000Z",
 				"updated": "2022-03-28T23:01:21.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-australia-60909634",
@@ -363,7 +396,8 @@
 				"published": "2022-03-29T04:08:31.000Z",
 				"updated": "2022-03-29T04:08:31.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/uk-60907636",
@@ -373,7 +407,8 @@
 				"published": "2022-03-28T22:31:18.000Z",
 				"updated": "2022-03-28T22:31:18.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/entertainment-arts-60898250",
@@ -383,7 +418,8 @@
 				"published": "2022-03-28T05:52:05.000Z",
 				"updated": "2022-03-28T05:52:05.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60900595",
@@ -393,7 +429,8 @@
 				"published": "2022-03-28T11:22:07.000Z",
 				"updated": "2022-03-28T11:22:07.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60878703",
@@ -403,7 +440,8 @@
 				"published": "2022-03-27T00:01:17.000Z",
 				"updated": "2022-03-27T00:01:17.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-us-canada-60889259",
@@ -413,7 +451,8 @@
 				"published": "2022-03-26T20:28:32.000Z",
 				"updated": "2022-03-26T20:28:32.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60889257",
@@ -423,7 +462,8 @@
 				"published": "2022-03-26T18:23:42.000Z",
 				"updated": "2022-03-26T18:23:42.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-us-canada-60889260",
@@ -433,7 +473,8 @@
 				"published": "2022-03-26T22:57:42.000Z",
 				"updated": "2022-03-26T22:57:42.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/stories-60864113",
@@ -443,7 +484,8 @@
 				"published": "2022-03-27T00:23:04.000Z",
 				"updated": "2022-03-27T00:23:04.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60839787",
@@ -453,7 +495,8 @@
 				"published": "2022-03-26T00:17:05.000Z",
 				"updated": "2022-03-26T00:17:05.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60853404",
@@ -463,7 +506,8 @@
 				"published": "2022-03-26T00:29:05.000Z",
 				"updated": "2022-03-26T00:29:05.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/entertainment-arts-60885853",
@@ -473,7 +517,8 @@
 				"published": "2022-03-26T12:50:24.000Z",
 				"updated": "2022-03-26T12:50:24.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/entertainment-arts-60882714",
@@ -483,7 +528,8 @@
 				"published": "2022-03-26T02:32:48.000Z",
 				"updated": "2022-03-26T02:32:48.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-us-canada-60880628",
@@ -493,7 +539,8 @@
 				"published": "2022-03-25T22:43:56.000Z",
 				"updated": "2022-03-25T22:43:56.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-us-canada-60877832",
@@ -503,7 +550,8 @@
 				"published": "2022-03-25T23:41:51.000Z",
 				"updated": "2022-03-25T23:41:51.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-asia-60827251",
@@ -513,7 +561,8 @@
 				"published": "2022-03-26T00:28:44.000Z",
 				"updated": "2022-03-26T00:28:44.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/health-60861537",
@@ -523,7 +572,8 @@
 				"published": "2022-03-25T00:15:43.000Z",
 				"updated": "2022-03-25T00:15:43.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60867789",
@@ -533,7 +583,8 @@
 				"published": "2022-03-25T00:53:01.000Z",
 				"updated": "2022-03-25T00:53:01.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60867786",
@@ -543,7 +594,8 @@
 				"published": "2022-03-24T20:02:49.000Z",
 				"updated": "2022-03-24T20:02:49.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/entertainment-arts-60861539",
@@ -553,7 +605,8 @@
 				"published": "2022-03-25T00:45:29.000Z",
 				"updated": "2022-03-25T00:45:29.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-australia-60831476",
@@ -563,7 +616,8 @@
 				"published": "2022-03-25T00:47:02.000Z",
 				"updated": "2022-03-25T00:47:02.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60877442",
@@ -573,7 +627,8 @@
 				"published": "2022-03-25T13:40:11.000Z",
 				"updated": "2022-03-25T13:40:11.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/60822489",
@@ -583,7 +638,8 @@
 				"published": "2022-03-25T00:20:32.000Z",
 				"updated": "2022-03-25T00:20:32.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60867785",
@@ -593,7 +649,8 @@
 				"published": "2022-03-24T20:05:09.000Z",
 				"updated": "2022-03-24T20:05:09.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60859384",
@@ -603,7 +660,8 @@
 				"published": "2022-03-24T11:10:55.000Z",
 				"updated": "2022-03-24T11:10:55.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60858611",
@@ -613,7 +671,8 @@
 				"published": "2022-03-24T07:33:04.000Z",
 				"updated": "2022-03-24T07:33:04.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60854503",
@@ -623,7 +682,8 @@
 				"published": "2022-03-24T00:06:23.000Z",
 				"updated": "2022-03-24T00:06:23.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60854502",
@@ -633,7 +693,8 @@
 				"published": "2022-03-24T00:09:35.000Z",
 				"updated": "2022-03-24T00:09:35.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60848142",
@@ -643,7 +704,8 @@
 				"published": "2022-03-23T10:27:59.000Z",
 				"updated": "2022-03-23T10:27:59.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-us-canada-60854858",
@@ -653,7 +715,8 @@
 				"published": "2022-03-23T17:56:54.000Z",
 				"updated": "2022-03-23T17:56:54.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-australia-60850780",
@@ -663,7 +726,8 @@
 				"published": "2022-03-23T15:39:12.000Z",
 				"updated": "2022-03-23T15:39:12.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-asia-60853162",
@@ -673,7 +737,8 @@
 				"published": "2022-03-23T17:24:33.000Z",
 				"updated": "2022-03-23T17:24:33.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-europe-60836321",
@@ -683,7 +748,8 @@
 				"published": "2022-03-22T11:56:12.000Z",
 				"updated": "2022-03-22T11:56:12.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.bbc.co.uk/news/world-us-canada-60799661",
@@ -693,7 +759,8 @@
 				"published": "2022-03-22T17:20:24.000Z",
 				"updated": "2022-03-22T17:20:24.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			}
 		]
 	}

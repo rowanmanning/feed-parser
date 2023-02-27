@@ -26,7 +26,15 @@
 				"published": null,
 				"updated": null,
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.scripting.com/mp3s/weatherReportDicksPicsVol7.mp3",
+						"length": 6182912,
+						"type": "audio",
+						"mimeType": "audio/mpeg"
+					}
+				]
 			},
 			{
 				"id": null,
@@ -36,7 +44,8 @@
 				"published": null,
 				"updated": null,
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": null,
@@ -46,7 +55,15 @@
 				"published": null,
 				"updated": null,
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.scripting.com/mp3s/theOtherOne.mp3",
+						"length": 6666097,
+						"type": "audio",
+						"mimeType": "audio/mpeg"
+					}
+				]
 			},
 			{
 				"id": null,
@@ -56,7 +73,8 @@
 				"published": null,
 				"updated": null,
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": null,
@@ -66,7 +84,8 @@
 				"published": null,
 				"updated": null,
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": null,
@@ -76,7 +95,15 @@
 				"published": null,
 				"updated": null,
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.scripting.com/mp3s/franklinsTower.mp3",
+						"length": 6701402,
+						"type": "audio",
+						"mimeType": "audio/mpeg"
+					}
+				]
 			},
 			{
 				"id": null,
@@ -86,7 +113,8 @@
 				"published": null,
 				"updated": null,
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": null,
@@ -96,7 +124,15 @@
 				"published": null,
 				"updated": null,
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.scripting.com/mp3s/youWinAgain.mp3",
+						"length": 3874816,
+						"type": "audio",
+						"mimeType": "audio/mpeg"
+					}
+				]
 			},
 			{
 				"id": null,
@@ -106,7 +142,15 @@
 				"published": null,
 				"updated": null,
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.scripting.com/mp3s/weatherReportSuite.mp3",
+						"length": 12216320,
+						"type": "audio",
+						"mimeType": "audio/mpeg"
+					}
+				]
 			},
 			{
 				"id": null,
@@ -116,7 +160,15 @@
 				"published": null,
 				"updated": null,
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.scripting.com/mp3s/darkStar.mp3",
+						"length": 10889216,
+						"type": "audio",
+						"mimeType": "audio/mpeg"
+					}
+				]
 			},
 			{
 				"id": null,
@@ -126,7 +178,8 @@
 				"published": null,
 				"updated": null,
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": null,
@@ -136,7 +189,8 @@
 				"published": null,
 				"updated": null,
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": null,
@@ -146,7 +200,15 @@
 				"published": null,
 				"updated": null,
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.scripting.com/mp3s/usBlues.mp3",
+						"length": 5272510,
+						"type": "audio",
+						"mimeType": "audio/mpeg"
+					}
+				]
 			},
 			{
 				"id": null,
@@ -156,7 +218,15 @@
 				"published": null,
 				"updated": null,
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.scripting.com/mp3s/tennesseeJed.mp3",
+						"length": 3442648,
+						"type": "audio",
+						"mimeType": "audio/mpeg"
+					}
+				]
 			},
 			{
 				"id": null,
@@ -166,7 +236,15 @@
 				"published": null,
 				"updated": null,
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.scripting.com/mp3s/darkStarWharfRat.mp3",
+						"length": 27503386,
+						"type": "audio",
+						"mimeType": "audio/mpeg"
+					}
+				]
 			},
 			{
 				"id": null,
@@ -176,7 +254,15 @@
 				"published": null,
 				"updated": null,
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.scripting.com/mp3s/friendOfTheDevil.mp3",
+						"length": 3219742,
+						"type": "audio",
+						"mimeType": "audio/mpeg"
+					}
+				]
 			},
 			{
 				"id": null,
@@ -186,7 +272,15 @@
 				"published": null,
 				"updated": null,
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.scripting.com/mp3s/uncleJohnsBand.mp3",
+						"length": 4587102,
+						"type": "audio",
+						"mimeType": "audio/mpeg"
+					}
+				]
 			},
 			{
 				"id": null,
@@ -196,7 +290,15 @@
 				"published": null,
 				"updated": null,
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.scripting.com/mp3s/meAndMyUncle.mp3",
+						"length": 2949248,
+						"type": "audio",
+						"mimeType": "audio/mpeg"
+					}
+				]
 			},
 			{
 				"id": null,
@@ -206,7 +308,15 @@
 				"published": null,
 				"updated": null,
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.scripting.com/mp3s/truckin.mp3",
+						"length": 4847908,
+						"type": "audio",
+						"mimeType": "audio/mpeg"
+					}
+				]
 			},
 			{
 				"id": null,
@@ -216,7 +326,8 @@
 				"published": null,
 				"updated": null,
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": null,
@@ -226,7 +337,15 @@
 				"published": null,
 				"updated": null,
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.scripting.com/mp3s/touchOfGrey.mp3",
+						"length": 5588242,
+						"type": "audio",
+						"mimeType": "audio/mpeg"
+					}
+				]
 			},
 			{
 				"id": null,
@@ -236,7 +355,15 @@
 				"published": null,
 				"updated": null,
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.scripting.com/mp3s/usBlues.mp3",
+						"length": 5272510,
+						"type": "audio",
+						"mimeType": "audio/mpeg"
+					}
+				]
 			}
 		]
 	}

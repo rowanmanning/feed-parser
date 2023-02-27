@@ -356,6 +356,35 @@ for (const suite of suites) {
 						}
 					});
 
+					// DIFF: the structure of enclosure items is different between
+					// this library and feedparser. We parse the enclosure length as
+					// a string and set the type property to the _base_ type of the
+					// mimetype. We also set the type to `null` when one is not set.
+					// We address this in the testsby modifying both enclosures to
+					// match each other more closely
+					it('has ROUGHLY matching feed item media', () => {
+						for (const [i, item] of Object.entries(actual.feed.items)) {
+							const feedParserItem = feedParserItems[i];
+
+							const feedParserItemEnclosures = feedParserItem.enclosures.map(({url, type, length}) => {
+								return {
+									url,
+									type: type || null,
+									length: length === '0' ? null : length
+								};
+							});
+							const media = item.media.map(({url, mimeType, length, type}) => {
+								return {
+									url,
+									type: mimeType || type || null,
+									length: length ? `${length}` : null
+								};
+							});
+
+							assert.deepEqual(media, feedParserItemEnclosures);
+						}
+					});
+
 				});
 
 			});

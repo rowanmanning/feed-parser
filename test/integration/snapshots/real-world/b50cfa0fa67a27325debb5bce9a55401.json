@@ -29,7 +29,15 @@
 				"published": "2022-04-05T20:12:00.000Z",
 				"updated": "2022-04-05T20:12:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://e3.365dm.com/22/04/70x70/skynews-kyiv-ukraine_5730064.jpg?20220405213203",
+						"length": null,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "https://news.sky.com/story/ukraine-war-drone-footage-appears-to-show-russian-military-vehicles-shooting-towards-cyclist-in-bucha-12582834",
@@ -39,7 +47,15 @@
 				"published": "2022-04-05T12:07:00.000Z",
 				"updated": "2022-04-05T12:07:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://e3.365dm.com/22/04/70x70/skynews-ukraine-data-and-forensics_5729895.jpg?20220405174532",
+						"length": null,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "https://news.sky.com/story/bobbi-anne-mcleod-musician-cody-ackland-admits-murdering-18-year-old-student-12582721",
@@ -49,7 +65,15 @@
 				"published": "2022-04-05T08:58:00.000Z",
 				"updated": "2022-04-05T08:58:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://e3.365dm.com/21/11/70x70/skynews-bobbi-anne-mcleod-plymouth_5593071.jpg?20211123173339",
+						"length": null,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "https://news.sky.com/story/uk-australia-and-us-agree-to-accelerate-development-on-hypersonic-missile-technology-12582994",
@@ -59,7 +83,15 @@
 				"published": "2022-04-05T16:34:00.000Z",
 				"updated": "2022-04-05T16:34:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://e3.365dm.com/22/04/70x70/skynews-hypersonic-missile_5729907.jpg?20220405175107",
+						"length": null,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "https://news.sky.com/story/milton-keynes-heroic-neighbour-sacrificed-himself-to-save-boys-life-after-being-hit-with-4kg-dumbbell-inquest-hears-12583079",
@@ -69,7 +101,15 @@
 				"published": "2022-04-05T18:43:00.000Z",
 				"updated": "2022-04-05T18:43:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://e3.365dm.com/22/04/70x70/skynews-richard-woodcock-milton-keynes_5730052.jpg?20220405205506",
+						"length": null,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "https://news.sky.com/story/national-insurance-rise-how-will-it-work-and-what-will-it-mean-for-you-12583071",
@@ -79,7 +119,15 @@
 				"published": "2022-04-05T18:33:00.000Z",
 				"updated": "2022-04-05T18:33:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://e3.365dm.com/22/04/70x70/skynews-cafe-hospitality-srvices_5730016.jpg?20220405201554",
+						"length": null,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "https://news.sky.com/story/ukraine-war-zelenskyy-says-russia-wants-to-turn-his-people-into-silent-slaves-in-address-to-un-security-council-12582903",
@@ -89,7 +137,15 @@
 				"published": "2022-04-05T14:02:00.000Z",
 				"updated": "2022-04-05T14:02:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://e3.365dm.com/22/04/70x70/skynews-volodymyr-zelenskyy_5729846.jpg?20220405165225",
+						"length": null,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "https://news.sky.com/story/cocaine-bust-worth-163300m-is-largest-uk-seizure-since-2015-as-drugs-found-in-banana-shipment-in-southampton-12582981",
@@ -99,7 +155,15 @@
 				"published": "2022-04-05T16:06:00.000Z",
 				"updated": "2022-04-05T16:06:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://e3.365dm.com/22/04/70x70/skynews-drugs-cocaine-bananas_5729992.jpg?20220405195043",
+						"length": null,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "https://news.sky.com/story/logan-mwangi-murder-trial-stepfather-didnt-call-ambulance-when-he-found-boy-dead-because-he-was-panicking-court-hears-12583131",
@@ -109,7 +173,15 @@
 				"published": "2022-04-05T19:58:00.000Z",
 				"updated": "2022-04-05T19:58:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://e3.365dm.com/21/08/70x70/skynews-logan-wales-bridgend_5465854.jpg?20220323212345",
+						"length": null,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "https://news.sky.com/story/israeli-woman-sentenced-to-death-in-uae-after-cocaine-found-in-her-apartment-in-abu-dhabi-12582800",
@@ -119,7 +191,15 @@
 				"published": "2022-04-05T11:11:00.000Z",
 				"updated": "2022-04-05T11:11:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://e3.365dm.com/22/01/70x70/skynews-abu-dhabi-yemen_5650993.jpg?20220124112049",
+						"length": null,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			}
 		]
 	}

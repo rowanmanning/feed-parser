@@ -415,6 +415,230 @@ describe('lib/feed/item/rss', () => {
 
 		});
 
+		describe('.media', () => {
+			let mockEnclosures;
+			let mockMedia;
+
+			beforeEach(() => {
+				mockEnclosures = [
+					new MockElement(),
+					new MockElement()
+				];
+				mockMedia = [
+					new MockElement(),
+					new MockElement(),
+					new MockElement()
+				];
+
+				mockEnclosures[0].name = 'enclosure';
+				td.when(mockEnclosures[0].getAttributeAsUrl('url')).thenReturn('https://mock-enclosure-1');
+				td.when(mockEnclosures[0].getAttribute('length')).thenReturn('1234');
+				td.when(mockEnclosures[0].getAttribute('type')).thenReturn('image/png');
+
+				mockEnclosures[1].name = 'enclosure';
+				td.when(mockEnclosures[1].getAttributeAsUrl('url')).thenReturn('https://mock-enclosure-2');
+				td.when(mockEnclosures[1].getAttribute('length')).thenReturn('5678');
+				td.when(mockEnclosures[1].getAttribute('type')).thenReturn('video/mp4');
+
+				td.when(mockItemElement.findElementsWithName('enclosure')).thenReturn(mockEnclosures);
+
+				mockMedia[0].namespace = 'media';
+				mockMedia[0].name = 'content';
+				td.when(mockMedia[0].getAttributeAsUrl('url')).thenReturn('https://mock-media-1');
+				td.when(mockMedia[0].getAttribute('length')).thenReturn('1234');
+				td.when(mockMedia[0].getAttribute('type')).thenReturn('image/png');
+				td.when(mockMedia[0].getAttribute('medium')).thenReturn('mock-medium-1');
+
+				mockMedia[1].namespace = 'media';
+				mockMedia[1].name = 'content';
+				td.when(mockMedia[1].getAttributeAsUrl('url')).thenReturn('https://mock-media-2');
+				td.when(mockMedia[1].getAttribute('length')).thenReturn('5678');
+				td.when(mockMedia[1].getAttribute('type')).thenReturn('video/mp4');
+				td.when(mockMedia[1].getAttribute('medium')).thenReturn('mock-medium-2');
+
+				// Not a valid media:content element - no namespace
+				mockMedia[2].name = 'content';
+				td.when(mockMedia[2].getAttributeAsUrl('url')).thenReturn('https://mock-media-3');
+
+				td.when(mockItemElement.findElementsWithName('content')).thenReturn(mockMedia);
+			});
+
+			it('is set to an array of objects representing the enclosures found in the item', () => {
+				assert.deepEqual(feedItem.media, [
+					{
+						url: 'https://mock-enclosure-1',
+						length: 1234,
+						type: 'image',
+						mimeType: 'image/png'
+					},
+					{
+						url: 'https://mock-enclosure-2',
+						length: 5678,
+						type: 'video',
+						mimeType: 'video/mp4'
+					}
+				]);
+			});
+
+			describe('when an enclosure does not have a URL', () => {
+
+				beforeEach(() => {
+					td.when(mockEnclosures[1].getAttributeAsUrl('url')).thenReturn(null);
+				});
+
+				it('is not included in the media', () => {
+					assert.deepEqual(feedItem.media, [
+						{
+							url: 'https://mock-enclosure-1',
+							length: 1234,
+							type: 'image',
+							mimeType: 'image/png'
+						}
+					]);
+				});
+
+			});
+
+			describe('when an enclosure does not have a valid numeric length', () => {
+
+				beforeEach(() => {
+					td.when(mockEnclosures[0].getAttribute('length')).thenReturn('nope');
+				});
+
+				it('is has a length property set to `null`', () => {
+					assert.isNull(feedItem.media[0].length);
+				});
+
+			});
+
+			describe('when an enclosure does not have a type', () => {
+
+				beforeEach(() => {
+					td.when(mockEnclosures[0].getAttribute('type')).thenReturn(null);
+				});
+
+				it('is has a type property set to `null`', () => {
+					assert.isNull(feedItem.media[0].type);
+				});
+
+				it('is has a mimeType property set to `null`', () => {
+					assert.isNull(feedItem.media[0].mimeType);
+				});
+
+			});
+
+			describe('when no enclosure elements exist', () => {
+
+				beforeEach(() => {
+					td.when(mockItemElement.findElementsWithName('enclosure')).thenReturn([]);
+				});
+
+				it('is set to an array of objects representing the media:content elements found in the item', () => {
+					assert.deepEqual(feedItem.media, [
+						{
+							url: 'https://mock-media-1',
+							length: 1234,
+							type: 'mock-medium-1',
+							mimeType: 'image/png'
+						},
+						{
+							url: 'https://mock-media-2',
+							length: 5678,
+							type: 'mock-medium-2',
+							mimeType: 'video/mp4'
+						}
+					]);
+				});
+
+				describe('when a media:content does not have a URL', () => {
+
+					beforeEach(() => {
+						td.when(mockMedia[1].getAttributeAsUrl('url')).thenReturn(null);
+					});
+
+					it('is not included in the media', () => {
+						assert.deepEqual(feedItem.media, [
+							{
+								url: 'https://mock-media-1',
+								length: 1234,
+								type: 'mock-medium-1',
+								mimeType: 'image/png'
+							}
+						]);
+					});
+
+				});
+
+				describe('when a media:content does not have a valid numeric length', () => {
+
+					beforeEach(() => {
+						td.when(mockMedia[0].getAttribute('length')).thenReturn('nope');
+					});
+
+					it('is has a length property set to `null`', () => {
+						assert.isNull(feedItem.media[0].length);
+					});
+
+				});
+
+				describe('when a media:content does not have a medium', () => {
+
+					beforeEach(() => {
+						td.when(mockMedia[0].getAttribute('medium')).thenReturn(null);
+					});
+
+					it('is has a type property set to the first part of the mimetype', () => {
+						assert.strictEqual(feedItem.media[0].type, 'image');
+					});
+
+				});
+
+				describe('when a media:content does not have a type', () => {
+
+					beforeEach(() => {
+						td.when(mockMedia[0].getAttribute('type')).thenReturn(null);
+					});
+
+					it('is has a mimeType property set to `null`', () => {
+						assert.isNull(feedItem.media[0].mimeType);
+					});
+
+				});
+
+				describe('when a media:content does not have a medium or type', () => {
+
+					beforeEach(() => {
+						td.when(mockMedia[0].getAttribute('medium')).thenReturn(null);
+						td.when(mockMedia[0].getAttribute('type')).thenReturn(null);
+					});
+
+					it('is has a type property set to `null`', () => {
+						assert.isNull(feedItem.media[0].type);
+					});
+
+					it('is has a mimeType property set to `null`', () => {
+						assert.isNull(feedItem.media[0].mimeType);
+					});
+
+				});
+
+			});
+
+			describe('when no enclosure or media elements exist', () => {
+
+				beforeEach(() => {
+					td.when(mockItemElement.findElementsWithName('enclosure')).thenReturn([]);
+					td.when(mockItemElement.findElementsWithName('content')).thenReturn([]);
+				});
+
+				it('is set to an empty array', () => {
+					assert.deepEqual(feedItem.media, []);
+				});
+
+			});
+
+		});
+
 	});
 
 });

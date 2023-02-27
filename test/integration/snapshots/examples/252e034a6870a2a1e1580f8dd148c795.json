@@ -29,7 +29,15 @@
 				"published": "2019-01-08T01:15:00.000Z",
 				"updated": "2019-01-08T01:15:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://example.com/podcasts/everything/AllAboutEverythingEpisode4.mp3",
+						"length": 498537,
+						"type": "audio",
+						"mimeType": "audio/mpeg"
+					}
+				]
 			},
 			{
 				"id": "aae20190606",
@@ -39,7 +47,15 @@
 				"published": "2019-05-07T12:00:00.000Z",
 				"updated": "2019-05-07T12:00:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://example.com/podcasts/everything/mthood.m4a",
+						"length": 8727310,
+						"type": "audio",
+						"mimeType": "audio/x-m4a"
+					}
+				]
 			},
 			{
 				"id": "aae20190530",
@@ -52,7 +68,15 @@
 				"image": {
 					"title": null,
 					"url": "http://example.com/podcasts/everything/AllAboutEverything/Episode2.jpg"
-				}
+				},
+				"media": [
+					{
+						"url": "http://example.com/podcasts/boulder.mp4",
+						"length": 5650889,
+						"type": "video",
+						"mimeType": "video/mp4"
+					}
+				]
 			},
 			{
 				"id": "aae20190523",
@@ -65,7 +89,15 @@
 				"image": {
 					"title": null,
 					"url": "http://example.com/podcasts/everything/AllAboutEverything/Episode3.jpg"
-				}
+				},
+				"media": [
+					{
+						"url": "http://example.com/podcasts/everything/caribou.m4v",
+						"length": 5650889,
+						"type": "audio",
+						"mimeType": "audio/x-m4v"
+					}
+				]
 			},
 			{
 				"id": "aae20190516",
@@ -75,7 +107,15 @@
 				"published": "2019-02-16T07:00:00.000Z",
 				"updated": "2019-02-16T07:00:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://example.com/podcasts/everything/AllAboutEverythingEpisode4.mp3",
+						"length": 498537,
+						"type": "audio",
+						"mimeType": "audio/mpeg"
+					}
+				]
 			},
 			{
 				"id": "aae20190509",
@@ -85,7 +125,15 @@
 				"published": "2018-11-27T01:15:00.000Z",
 				"updated": "2018-11-27T01:15:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://example.com/podcasts/everything/AllAboutEverythingEpisode4.mp3",
+						"length": 498537,
+						"type": "audio",
+						"mimeType": "audio/mpeg"
+					}
+				]
 			},
 			{
 				"id": "aae20190502",
@@ -95,7 +143,15 @@
 				"published": "2018-10-23T01:15:00.000Z",
 				"updated": "2018-10-23T01:15:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://example.com/podcasts/everything/AllAboutEverythingEpisode4.mp3",
+						"length": 498537,
+						"type": "audio",
+						"mimeType": "audio/mpeg"
+					}
+				]
 			},
 			{
 				"id": "aae20190425",
@@ -105,7 +161,15 @@
 				"published": "2018-09-18T01:15:00.000Z",
 				"updated": "2018-09-18T01:15:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://example.com/podcasts/everything/AllAboutEverythingEpisode4.mp3",
+						"length": 498537,
+						"type": "audio",
+						"mimeType": "audio/mpeg"
+					}
+				]
 			},
 			{
 				"id": "aae20190418a",
@@ -115,7 +179,15 @@
 				"published": "2018-08-14T01:15:00.000Z",
 				"updated": "2018-08-14T01:15:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://example.com/podcasts/everything/AllAboutEverythingEpisode4.mp3",
+						"length": 498537,
+						"type": "audio",
+						"mimeType": "audio/mpeg"
+					}
+				]
 			}
 		]
 	}

@@ -26,7 +26,8 @@
 				"published": null,
 				"updated": null,
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": null,
@@ -36,7 +37,8 @@
 				"published": null,
 				"updated": null,
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			}
 		]
 	}

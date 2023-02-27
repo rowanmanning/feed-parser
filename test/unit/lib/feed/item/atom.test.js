@@ -396,6 +396,119 @@ describe('lib/feed/item/atom', () => {
 
 		});
 
+		describe('.media', () => {
+			let mockLinks;
+
+			beforeEach(() => {
+				mockLinks = [
+					new MockElement(),
+					new MockElement(),
+					new MockElement(),
+					new MockElement(),
+					new MockElement()
+				];
+
+				// Link with no rel
+				td.when(mockLinks[0].getAttribute('rel')).thenReturn(null);
+				td.when(mockLinks[0].getAttributeAsUrl('href')).thenReturn('https://mock-url-norel');
+
+				// Link rel alternate
+				td.when(mockLinks[1].getAttribute('rel')).thenReturn('alternate');
+				td.when(mockLinks[1].getAttributeAsUrl('href')).thenReturn('https://mock-url-alternate');
+
+				// Link rel enclosure
+				td.when(mockLinks[2].getAttribute('rel')).thenReturn('enclosure');
+				td.when(mockLinks[2].getAttributeAsUrl('href')).thenReturn('https://mock-enclosure-1');
+				td.when(mockLinks[2].getAttribute('length')).thenReturn('1234');
+				td.when(mockLinks[2].getAttribute('type')).thenReturn('image/png');
+
+				// Link rel enclosure
+				td.when(mockLinks[3].getAttribute('rel')).thenReturn('enclosure');
+				td.when(mockLinks[3].getAttributeAsUrl('href')).thenReturn('https://mock-enclosure-2');
+				td.when(mockLinks[3].getAttribute('length')).thenReturn('5678');
+				td.when(mockLinks[3].getAttribute('type')).thenReturn('video/mp4');
+
+				td.when(mockItemElement.findElementsWithName('link')).thenReturn(mockLinks);
+			});
+
+			it('is set to an array of objects representing the enclosures found in the item', () => {
+				assert.deepEqual(feedItem.media, [
+					{
+						url: 'https://mock-enclosure-1',
+						length: 1234,
+						type: 'image',
+						mimeType: 'image/png'
+					},
+					{
+						url: 'https://mock-enclosure-2',
+						length: 5678,
+						type: 'video',
+						mimeType: 'video/mp4'
+					}
+				]);
+			});
+
+			describe('when a link does not have a URL', () => {
+
+				beforeEach(() => {
+					td.when(mockLinks[3].getAttributeAsUrl('href')).thenReturn(null);
+				});
+
+				it('is not included in the media', () => {
+					assert.deepEqual(feedItem.media, [
+						{
+							url: 'https://mock-enclosure-1',
+							length: 1234,
+							type: 'image',
+							mimeType: 'image/png'
+						}
+					]);
+				});
+
+			});
+
+			describe('when a link does not have a valid numeric length', () => {
+
+				beforeEach(() => {
+					td.when(mockLinks[2].getAttribute('length')).thenReturn('nope');
+				});
+
+				it('is has a length property set to `null`', () => {
+					assert.isNull(feedItem.media[0].length);
+				});
+
+			});
+
+			describe('when a link does not have a type', () => {
+
+				beforeEach(() => {
+					td.when(mockLinks[2].getAttribute('type')).thenReturn(null);
+				});
+
+				it('is has a type property set to `null`', () => {
+					assert.isNull(feedItem.media[0].type);
+				});
+
+				it('is has a mimeType property set to `null`', () => {
+					assert.isNull(feedItem.media[0].mimeType);
+				});
+
+			});
+
+			describe('when no link elements exist', () => {
+
+				beforeEach(() => {
+					td.when(mockItemElement.findElementsWithName('link')).thenReturn([]);
+				});
+
+				it('is set to an empty array', () => {
+					assert.deepEqual(feedItem.media, []);
+				});
+
+			});
+
+		});
+
 	});
 
 });

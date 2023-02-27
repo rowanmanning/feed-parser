@@ -26,7 +26,15 @@
 				"published": "2022-04-05T13:20:00.000Z",
 				"updated": "2022-04-05T13:20:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/pia25190.jpeg",
+						"length": 895618,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/space-launch-system-rocket-at-dawn",
@@ -36,7 +44,15 @@
 				"published": "2022-04-04T12:15:00.000Z",
 				"updated": "2022-04-04T12:15:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/51982058640_3306aa1585_o.jpeg",
+						"length": 14496445,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/prepping-for-wet-dress-rehearsal",
@@ -46,7 +62,15 @@
 				"published": "2022-04-01T13:04:00.000Z",
 				"updated": "2022-04-01T13:04:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/nasa_sls_artemis_i_horizontal.jpg",
+						"length": 17922603,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/pilot-bob-hines-in-training-for-crew-4",
@@ -56,7 +80,15 @@
 				"published": "2022-03-31T13:41:00.000Z",
 				"updated": "2022-03-31T13:41:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/jsc2022e011412.jpg",
+						"length": 1122981,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/mark-vande-hei-and-crew-mates-safely-land",
@@ -66,7 +98,15 @@
 				"published": "2022-03-30T12:35:00.000Z",
 				"updated": "2022-03-30T12:35:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/51970937381_9d3d2e370a_o.jpeg",
+						"length": 2466617,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/a-homecoming-for-mark-vande-hei",
@@ -76,7 +116,15 @@
 				"published": "2022-03-29T13:03:00.000Z",
 				"updated": "2022-03-29T13:03:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/jsc2017e029829_large.jpg",
+						"length": 243545,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/smash-up-how-to-create-rocky-planets",
@@ -86,7 +134,15 @@
 				"published": "2022-03-28T13:02:00.000Z",
 				"updated": "2022-03-28T13:02:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/pia25161_-_spitzer_collision_cloud.jpg",
+						"length": 84964,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/pioneering-female-aviator-wally-funk-wins-2022-michael-collins-trophy-for-lifetime",
@@ -96,7 +152,15 @@
 				"published": "2022-03-25T11:57:00.000Z",
 				"updated": "2022-03-25T11:57:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/51959521353_17667db8e7_o.jpeg",
+						"length": 13755868,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/whats-new-on-the-moon-after-50-years",
@@ -106,7 +170,15 @@
 				"published": "2022-03-24T12:42:00.000Z",
 				"updated": "2022-03-24T12:42:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/jsc2022e017003.jpg",
+						"length": 2269345,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/contraband-corned-beef-and-the-gemini-iii-mission",
@@ -116,7 +188,15 @@
 				"published": "2022-03-23T13:05:00.000Z",
 				"updated": "2022-03-23T13:05:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/john_young_s65-23488orig.jpg",
+						"length": 1364264,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/5000-exoplanets-and-counting",
@@ -126,7 +206,15 @@
 				"published": "2022-03-22T13:28:00.000Z",
 				"updated": "2022-03-22T13:28:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/jupiter-mass_planet_orbiting_the_nearby_star_epsilon_eridani.jpeg",
+						"length": 503164,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/a-view-to-a-nebula",
@@ -136,7 +224,15 @@
 				"published": "2022-03-21T13:09:00.000Z",
 				"updated": "2022-03-21T13:09:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/stsci-h-p1821a-m-1699x20001a.png",
+						"length": 3790510,
+						"type": "image",
+						"mimeType": "image/png"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/artemis-i-in-moonlight",
@@ -146,7 +242,15 @@
 				"published": "2022-03-18T12:44:00.000Z",
 				"updated": "2022-03-18T12:44:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/nhq202203170041.jpg",
+						"length": 4859207,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/artemis-i-first-rollout",
@@ -156,7 +260,15 @@
 				"published": "2022-03-17T12:23:00.000Z",
 				"updated": "2022-03-17T12:23:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/51942501426_c5a1be38dd_o.jpeg",
+						"length": 5720960,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/remembering-visionary-heliophysicist-eugene-parker",
@@ -166,7 +278,15 @@
 				"published": "2022-03-16T13:09:00.000Z",
 				"updated": "2022-03-16T13:09:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/17-03445-61853.jpg",
+						"length": 1177557,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/nasa-astronaut-breaks-american-space-record",
@@ -176,7 +296,15 @@
 				"published": "2022-03-15T14:48:00.000Z",
 				"updated": "2022-03-15T14:48:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/51213605479_0cc634e7b5_o.jpeg",
+						"length": 1720287,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/who-needs-pi",
@@ -186,7 +314,15 @@
 				"published": "2022-03-14T13:07:00.000Z",
 				"updated": "2022-03-14T13:07:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/piday2022_insight.png",
+						"length": 2508716,
+						"type": "image",
+						"mimeType": "image/png"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/goddard/2022/hubble-views-an-infant-stars-outburst",
@@ -196,7 +332,15 @@
 				"published": "2022-03-11T13:00:00.000Z",
 				"updated": "2022-03-11T13:00:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/hubble_hh34_potw2210a_0.png",
+						"length": 5005365,
+						"type": "image",
+						"mimeType": "image/png"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/cygnus-cargo-craft-at-the-space-station",
@@ -206,7 +350,15 @@
 				"published": "2022-03-10T12:02:00.000Z",
 				"updated": "2022-03-10T12:02:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/iss066e153515.jpg",
+						"length": 6291255,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/36-billion-years-in-pastel-colors",
@@ -216,7 +368,15 @@
 				"published": "2022-03-09T14:20:00.000Z",
 				"updated": "2022-03-09T14:20:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/pia25122.jpeg",
+						"length": 2913383,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/engineering-nasa-s-return-to-the-moon",
@@ -226,7 +386,15 @@
 				"published": "2022-03-08T13:17:00.000Z",
 				"updated": "2022-03-08T13:17:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/ceb_2369.jpg",
+						"length": 2069551,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/launching-to-study-pulsating-aurora",
@@ -236,7 +404,15 @@
 				"published": "2022-03-07T13:40:00.000Z",
 				"updated": "2022-03-07T13:40:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/36351_rocket_launch.jpg",
+						"length": 263728,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/nancy-grace-roman-first-chief-astronomer",
@@ -246,7 +422,15 @@
 				"published": "2022-03-05T01:32:00.000Z",
 				"updated": "2022-03-05T01:32:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/nancy_grace_roman_in_the_1960s_41304995814.jpeg",
+						"length": 844401,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/a-view-of-the-red-planet-in-blue",
@@ -256,7 +440,15 @@
 				"published": "2022-03-02T19:12:00.000Z",
 				"updated": "2022-03-02T19:12:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/pia25075.jpeg",
+						"length": 399600,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/geostationary-operational-environmental-satellite-t-soars-after-launch",
@@ -266,7 +458,15 @@
 				"published": "2022-03-02T13:59:00.000Z",
 				"updated": "2022-03-02T13:59:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/51911610842_af34b62eae_o.jpeg",
+						"length": 18145242,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/rosemary-dobbins-illustrating-the-space-age",
@@ -276,7 +476,15 @@
 				"published": "2022-03-01T13:10:00.000Z",
 				"updated": "2022-03-01T13:10:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/0101138_orig.jpeg",
+						"length": 7289784,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/victor-glover-pilot-of-spacex-crew-1",
@@ -286,7 +494,15 @@
 				"published": "2022-02-25T16:57:00.000Z",
 				"updated": "2022-02-25T16:57:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/iss065e009613.jpg",
+						"length": 2804913,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/goddard/2022/hubble-peers-at-peculiar-pair-of-galaxies",
@@ -296,7 +512,15 @@
 				"published": "2022-02-25T13:00:00.000Z",
 				"updated": "2022-02-25T13:00:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/hubble_arp298_potw2208a.jpg",
+						"length": 4530603,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/ted-brown-artist-of-the-space-age",
@@ -306,7 +530,15 @@
 				"published": "2022-02-24T17:28:00.000Z",
 				"updated": "2022-02-24T17:28:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/image0.jpeg",
+						"length": 271707,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/studying-flames-in-microgravity",
@@ -316,7 +548,15 @@
 				"published": "2022-02-23T14:25:00.000Z",
 				"updated": "2022-02-23T14:25:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/space-flame.png",
+						"length": 1741712,
+						"type": "image",
+						"mimeType": "image/png"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/melba-roy-mouton-mathematician",
@@ -326,7 +566,15 @@
 				"published": "2022-02-22T12:36:00.000Z",
 				"updated": "2022-02-22T12:36:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/9467783474_7a574ec7bb_o.jpg",
+						"length": 3562730,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/taking-a-selfie-on-the-red-planet",
@@ -336,7 +584,15 @@
 				"published": "2022-02-17T09:52:00.000Z",
 				"updated": "2022-02-17T09:52:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/pia24836_perseverance_selfie_at_rochette_figure_3_croppedcloseup.jpeg",
+						"length": 5782704,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/nasa-tests-the-fa-18e",
@@ -346,7 +602,15 @@
 				"published": "2022-02-16T13:17:00.000Z",
 				"updated": "2022-02-16T13:17:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/afrc2021-0159-10_0.jpg",
+						"length": 8174151,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/orbiting-a-red-dwarf-star",
@@ -356,7 +620,15 @@
 				"published": "2022-02-15T13:17:00.000Z",
 				"updated": "2022-02-15T13:17:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/pia23689.jpeg",
+						"length": 563172,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/dr-lyndsey-mcmillon-brown-studying-solar-cells",
@@ -366,7 +638,15 @@
 				"published": "2022-02-14T13:19:00.000Z",
 				"updated": "2022-02-14T13:19:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/lyndsey.jpg",
+						"length": 640035,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/goddard/2022/hubble-views-a-cosmic-interaction",
@@ -376,7 +656,15 @@
 				"published": "2022-02-11T15:00:00.000Z",
 				"updated": "2022-02-11T15:00:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/hubble_arp282_potw2206a.jpg",
+						"length": 3974636,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/voyagers-view-of-jupiters-great-red-spot",
@@ -386,7 +674,15 @@
 				"published": "2022-02-10T13:12:00.000Z",
 				"updated": "2022-02-10T13:12:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/pia01384.jpeg",
+						"length": 3274946,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/mark-vande-heis-window-to-the-world",
@@ -396,7 +692,15 @@
 				"published": "2022-02-09T14:04:00.000Z",
 				"updated": "2022-02-09T14:04:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/iss066e136051.jpg",
+						"length": 3157600,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/daniel-g-nichols",
@@ -406,7 +710,15 @@
 				"published": "2022-02-08T13:14:00.000Z",
 				"updated": "2022-02-08T13:14:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/s66-20368.jpeg",
+						"length": 2501825,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/first-rays-of-an-orbital-sunrise",
@@ -416,7 +728,15 @@
 				"published": "2022-02-07T13:41:00.000Z",
 				"updated": "2022-02-07T13:41:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/iss066e109851.jpg",
+						"length": 2922009,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/dark-mode-activated",
@@ -426,7 +746,15 @@
 				"published": "2022-02-04T12:49:00.000Z",
 				"updated": "2022-02-04T12:49:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/jsc2022e001692.jpg",
+						"length": 732082,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/r-aquarii-an-expanse-of-light",
@@ -436,7 +764,15 @@
 				"published": "2022-02-03T13:19:00.000Z",
 				"updated": "2022-02-03T13:19:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/archives_raquarii.jpg",
+						"length": 5763190,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/climate-scientist-dr-christian-braneon",
@@ -446,7 +782,15 @@
 				"published": "2022-02-02T13:50:00.000Z",
 				"updated": "2022-02-02T13:50:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/51663728897_cef2f7365f_o.jpeg",
+						"length": 15592687,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/lightness-of-being-remembering-space-shuttle-columbia-and-her-crew",
@@ -456,7 +800,15 @@
 				"published": "2022-02-01T13:19:00.000Z",
 				"updated": "2022-02-01T13:19:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/209783main_s107e05070_full.jpeg",
+						"length": 238212,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/learning-how-ocean-water-melts-glaciers",
@@ -466,7 +818,15 @@
 				"published": "2022-01-31T13:38:00.000Z",
 				"updated": "2022-01-31T13:38:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/1-main-omg-eom-1041.jpg",
+						"length": 184497,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/remembering-challenger-and-her-crew",
@@ -476,7 +836,15 @@
 				"published": "2022-01-28T12:31:00.000Z",
 				"updated": "2022-01-28T12:31:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/sts_51l_cct_flight_deck_dec_17_1985_s85-46207.jpg",
+						"length": 4093023,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/remembering-apollo-1",
@@ -486,7 +854,15 @@
 				"published": "2022-01-27T12:40:00.000Z",
 				"updated": "2022-01-27T12:40:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/apollo_1_crew_during_water_egress_training_june_1966_1.jpg",
+						"length": 1111764,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/the-colors-of-water",
@@ -496,7 +872,15 @@
 				"published": "2022-01-26T13:48:00.000Z",
 				"updated": "2022-01-26T13:48:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/usrivers_oli_2018_lrg_0.jpeg",
+						"length": 744245,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/x-59-wind-tunnel-testing-at-nasa-glenn",
@@ -506,7 +890,15 @@
 				"published": "2022-01-25T13:28:00.000Z",
 				"updated": "2022-01-25T13:28:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/28x6_x-59_rdg-6753_average_cleaned_red_blue_black.jpg",
+						"length": 6646917,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/studying-the-lost-habitable-world-of-venus",
@@ -516,7 +908,15 @@
 				"published": "2022-01-24T14:25:00.000Z",
 				"updated": "2022-01-24T14:25:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/imagesvenus20191211venus20191211-16.jpeg",
+						"length": 217486,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/goddard/2022/hubble-sights-a-sail-of-stars",
@@ -526,7 +926,15 @@
 				"published": "2022-01-21T13:00:00.000Z",
 				"updated": "2022-01-21T13:00:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/hubble_ngc3318_potw2203a_0.png",
+						"length": 5054622,
+						"type": "image",
+						"mimeType": "image/png"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/peering-through-a-window-to-the-world",
@@ -536,7 +944,15 @@
 				"published": "2022-01-20T14:13:00.000Z",
 				"updated": "2022-01-20T14:13:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/iss066e109584.jpg",
+						"length": 1767894,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/remembering-trailblazing-pilot-charles-mcgee",
@@ -546,7 +962,15 @@
 				"published": "2022-01-19T14:03:00.000Z",
 				"updated": "2022-01-19T14:03:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/49493710476_a7f7b04bd5_o.jpeg",
+						"length": 8301525,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/drilling-holes-on-the-red-planet",
@@ -556,7 +980,15 @@
 				"published": "2022-01-18T15:39:00.000Z",
 				"updated": "2022-01-18T15:39:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/martian-drill-hole.png",
+						"length": 4582722,
+						"type": "image",
+						"mimeType": "image/png"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/color-explosion-beautiful-earth",
@@ -566,7 +998,15 @@
 				"published": "2022-01-13T14:52:00.000Z",
 				"updated": "2022-01-13T14:52:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/march2014_1920x1200.jpeg",
+						"length": 3132658,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/baby-stars-in-the-orion-constellation",
@@ -576,7 +1016,15 @@
 				"published": "2022-01-12T14:29:00.000Z",
 				"updated": "2022-01-12T14:29:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/pia19836-ngc2174.jpg",
+						"length": 3920816,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/the-milky-ways-supermassive-black-hole-has-a-leak",
@@ -586,7 +1034,15 @@
 				"published": "2022-01-11T13:17:00.000Z",
 				"updated": "2022-01-11T13:17:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/hubble_mwayjet_composite.jpg",
+						"length": 4829606,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/sidney-poitiers-visit-to-nasas-jet-propulsion-laboratory",
@@ -596,7 +1052,15 @@
 				"published": "2022-01-10T13:14:00.000Z",
 				"updated": "2022-01-10T13:14:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/p-21268b.jpeg",
+						"length": 4277137,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/waiting-to-unfold",
@@ -606,7 +1070,15 @@
 				"published": "2022-01-07T13:18:00.000Z",
 				"updated": "2022-01-07T13:18:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/51756638171_8ed20da7d5_o.jpeg",
+						"length": 6214888,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/image-feature/hubble-spots-star-hatching-freggs",
@@ -616,7 +1088,15 @@
 				"published": "2022-01-06T13:39:00.000Z",
 				"updated": "2022-01-06T13:39:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/hubble_j2034417_freggs_fullsize_0.jpg",
+						"length": 5595108,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			}
 		]
 	}

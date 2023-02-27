@@ -29,7 +29,15 @@
 				"published": "2022-04-05T21:46:13.000Z",
 				"updated": "2022-04-05T21:46:13.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/06/business/05russia-debt-print/05russia-debt-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/world/europe/russia-ukraine-war-atrocities.html",
@@ -39,7 +47,15 @@
 				"published": "2022-04-05T15:53:57.000Z",
 				"updated": "2022-04-05T15:53:57.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/04/world/04ukraine-atrocities/04ukraine-atrocities-moth-v2.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/live/2022/04/05/world/ukraine-russia-war/ukraine-airstrikes-borodyanka",
@@ -49,7 +65,15 @@
 				"published": "2022-04-05T20:38:38.000Z",
 				"updated": "2022-04-05T20:38:38.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/multimedia/05ukraine-blog-borodyanka-topart/05ukraine-blog-borodyanka-topart-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/live/2022/04/05/world/ukraine-russia-war/after-russian-advances-us-britain-and-australia-expand-partnership-to-develop-hypersonic-missiles",
@@ -59,7 +83,15 @@
 				"published": "2022-04-05T21:06:46.000Z",
 				"updated": "2022-04-05T21:06:46.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/world/05ukraine-blog-hypersonic01/05ukraine-blog-hypersonic01-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/world/europe/ukraine-refugee-war-return.html",
@@ -69,7 +101,15 @@
 				"published": "2022-04-05T18:23:12.000Z",
 				"updated": "2022-04-05T18:23:12.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/world/05ukraine-returnees-1/05ukraine-returnees-1-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/live/2022/04/05/world/ukraine-russia-war/the-next-pivotal-battle-in-ukraine-sloviansk-military-analysts-say",
@@ -79,7 +119,15 @@
 				"published": "2022-04-05T21:26:13.000Z",
 				"updated": "2022-04-05T21:26:13.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/world/05ukraine-blog-Slovyansk/merlin_201489255_1243cf74-1079-4fa8-9570-b715ef757a5e-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/us/politics/ukraine-russia-hackers.html",
@@ -89,7 +137,15 @@
 				"published": "2022-04-05T20:03:33.000Z",
 				"updated": "2022-04-05T20:03:33.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/us/politics/05dc-surrender-hacks-1/merlin_204706437_35e7a841-c793-463c-81a9-68a69cc23de3-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/science/russian-astronauts-flight-suits-ukraine-flag.html",
@@ -99,7 +155,15 @@
 				"published": "2022-04-05T17:41:30.000Z",
 				"updated": "2022-04-05T17:41:30.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/multimedia/05ukraine-blog-astronauts-topart/05ukraine-blog-astronauts-topart-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/us/oklahoma-abortion-ban.html",
@@ -109,7 +173,15 @@
 				"published": "2022-04-05T22:04:52.000Z",
 				"updated": "2022-04-05T22:04:52.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/multimedia/05xp-oklahoma/05xp-oklahoma-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/business/economy/recession-economy.html",
@@ -119,7 +191,15 @@
 				"published": "2022-04-05T09:00:22.000Z",
 				"updated": "2022-04-05T09:00:22.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/04/business/04econ-recession01/04econ-recession01-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/business/europe-exports-russia.html",
@@ -129,7 +209,15 @@
 				"published": "2022-04-05T17:27:36.000Z",
 				"updated": "2022-04-05T17:27:36.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/03/business/00eurobiz-1/00eurobiz-1-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/business/economy/trucker-training.html",
@@ -139,7 +227,15 @@
 				"published": "2022-04-05T15:00:14.000Z",
 				"updated": "2022-04-05T15:00:14.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/06/business/00JPtrucker-training2-print/00trucker-training01-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/03/31/magazine/new-french-right.html",
@@ -149,7 +245,8 @@
 				"published": "2022-04-03T03:39:26.000Z",
 				"updated": "2022-04-03T03:39:26.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/world/europe/macron-france-election-amiens.html",
@@ -159,7 +256,15 @@
 				"published": "2022-04-05T20:03:09.000Z",
 				"updated": "2022-04-05T20:03:09.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/03/23/world/xxFRANCE-AMIENS10/xxFRANCE-AMIENS10-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/world/europe/jewish-death-france-election.html",
@@ -169,7 +274,15 @@
 				"published": "2022-04-05T18:25:07.000Z",
 				"updated": "2022-04-05T18:25:07.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/world/05france-1/05france-1-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/sports/golf/tiger-woods-masters.html",
@@ -179,7 +292,15 @@
 				"published": "2022-04-05T21:11:48.000Z",
 				"updated": "2022-04-05T21:11:48.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/multimedia/05masters-tiger-play6/05masters-tiger-play6-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/sports/golf/tiger-woods-1997-masters.html",
@@ -189,7 +310,15 @@
 				"published": "2022-04-05T15:36:10.000Z",
 				"updated": "2022-04-05T15:36:10.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/04/sports/04masters-1997-alt/04masters-1997-alt-moth-v3.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/sports/golf/masters-invitations.html",
@@ -199,7 +328,15 @@
 				"published": "2022-04-05T20:59:34.000Z",
 				"updated": "2022-04-05T20:59:34.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/06/sports/05masters-invitations1-print/05masters-invitations2-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/style/nyc-antiques-vito-giallo-warhol.html",
@@ -209,7 +346,15 @@
 				"published": "2022-04-05T21:40:24.000Z",
 				"updated": "2022-04-05T21:40:24.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/03/15/fashion/00GIALLO-1/00GIALLO-1-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/books/molly-shannon-book.html",
@@ -219,7 +364,15 @@
 				"published": "2022-04-05T21:39:43.000Z",
 				"updated": "2022-04-05T21:39:43.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/01/obituaries/00mollyshannon-image1/00mollyshannon-image1-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/magazine/billionaire-books.html",
@@ -229,7 +382,8 @@
 				"published": "2022-04-05T20:30:26.000Z",
 				"updated": "2022-04-05T20:30:26.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/movies/ke-huy-quan-everything-everywhere.html",
@@ -239,7 +393,15 @@
 				"published": "2022-04-05T13:00:11.000Z",
 				"updated": "2022-04-05T13:00:11.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/10/arts/10Ke-Huy-Quan1/10Ke-Huy-Quan1-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/opinion/vietnam-refugees-factories-us-military.html",
@@ -249,7 +411,15 @@
 				"published": "2022-04-05T18:39:07.000Z",
 				"updated": "2022-04-05T18:39:07.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/opinion/sunday/05tu/05tu-moth-v3.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/opinion/furries-culture-war.html",
@@ -259,7 +429,15 @@
 				"published": "2022-04-04T23:43:31.000Z",
 				"updated": "2022-04-04T23:43:31.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/04/opinion/04goldberg1/04goldberg1-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/opinion/pandemic-home-going-out.html",
@@ -269,7 +447,15 @@
 				"published": "2022-04-05T18:47:08.000Z",
 				"updated": "2022-04-05T18:47:08.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/opinion/05leiibowitz/05leiibowitz-moth-v2.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/opinion/amazon-labor-union-staten-island.html",
@@ -279,7 +465,15 @@
 				"published": "2022-04-05T18:19:17.000Z",
 				"updated": "2022-04-05T18:19:17.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/multimedia/05bouie_2/05bouie_2-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/opinion/college-high-school.html",
@@ -289,7 +483,15 @@
 				"published": "2022-04-05T17:30:26.000Z",
 				"updated": "2022-04-05T17:30:26.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/opinion/05mcwhorter/05mcwhorter-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/opinion/ukraine-war-food-crisis.html",
@@ -299,7 +501,15 @@
 				"published": "2022-04-05T09:00:13.000Z",
 				"updated": "2022-04-05T09:00:13.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/us/-promo-1649160587858/-promo-1649160587858-moth.png",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/opinion/ezra-klein-podcast-dan-olson.html",
@@ -309,7 +519,15 @@
 				"published": "2022-04-05T20:10:41.000Z",
 				"updated": "2022-04-05T20:10:41.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/opinion/05eks-olson-main/05eks-olson-main-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/opinion/shanghai-china-covid-lockdown.html",
@@ -319,7 +537,15 @@
 				"published": "2022-04-05T09:00:12.000Z",
 				"updated": "2022-04-05T09:00:12.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/opinion/05Min1/05Min1-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/opinion/romney-manchin-senate-covid.html",
@@ -329,7 +555,15 @@
 				"published": "2022-04-05T12:37:19.000Z",
 				"updated": "2022-04-05T12:37:19.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/06/opinion/00cottle1/00cottle1-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/opinion/ruble-value.html",
@@ -339,7 +573,15 @@
 				"published": "2022-04-05T16:26:16.000Z",
 				"updated": "2022-04-05T16:26:16.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/04/opinion/04coy/04coy-moth.png",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/opinion/letters/oil-russia-climate-change.html",
@@ -349,7 +591,15 @@
 				"published": "2022-04-05T15:25:58.000Z",
 				"updated": "2022-04-05T15:25:58.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/03/29/multimedia/29friedman_1/29friedman_1-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/opinion/amazon-union-staten-island.html",
@@ -359,7 +609,15 @@
 				"published": "2022-04-04T23:00:07.000Z",
 				"updated": "2022-04-04T23:00:07.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/04/opinion/04krugman1/04krugman1-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/opinion/environment/california-drought-wildfires.html",
@@ -369,7 +627,15 @@
 				"published": "2022-04-04T20:35:30.000Z",
 				"updated": "2022-04-04T20:35:30.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/opinion/04schwartz/04schwartz-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/opinion/covid-medicaid-loss.html",
@@ -379,7 +645,15 @@
 				"published": "2022-04-05T21:13:27.000Z",
 				"updated": "2022-04-05T21:13:27.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/04/opinion/04Rosenthal/04Rosenthal-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/opinion/email-overload.html",
@@ -389,7 +663,15 @@
 				"published": "2022-04-04T09:00:09.000Z",
 				"updated": "2022-04-04T09:00:09.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/04/multimedia/04renkl_3/04renkl_3-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/opinion/gardening-homelessness-charter-schools.html",
@@ -399,7 +681,15 @@
 				"published": "2022-04-05T01:56:41.000Z",
 				"updated": "2022-04-05T01:56:41.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/04/opinion/04kang/04kang-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/briefing/russian-atrocities-bucha-ukraine-sanctions.html",
@@ -409,7 +699,15 @@
 				"published": "2022-04-05T20:38:00.000Z",
 				"updated": "2022-04-05T20:38:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/multimedia/05-the-morning-promo/05-the-morning-bucha-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/podcasts/the-daily/ukraine-russia-food-supply.html",
@@ -419,7 +717,15 @@
 				"published": "2022-04-05T10:59:22.000Z",
 				"updated": "2022-04-05T10:59:22.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/podcasts/05daily-1/05DAILY-ukraine-grain-audio-app-moth-v4.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/01/books/review/podcast-thomas-fisher-emergency-ancestor-trouble-maud-newton.html",
@@ -429,7 +735,15 @@
 				"published": "2022-04-02T00:21:43.000Z",
 				"updated": "2022-04-02T00:21:43.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/03/22/books/21BOOKFISHER2/21BOOKFISHER2-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/03/sports/running-nutrition-questions.html",
@@ -439,7 +753,15 @@
 				"published": "2022-04-03T14:47:01.000Z",
 				"updated": "2022-04-03T14:47:01.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/04/multimedia/02running-newsletter-PRINT/02running-newsletter-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/us/politics/ivanka-trump-jan-6.html",
@@ -449,7 +771,15 @@
 				"published": "2022-04-05T19:27:13.000Z",
 				"updated": "2022-04-05T19:27:13.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/us/politics/00dc-invanka/merlin_176288961_5f1d4ae0-80c4-4eca-884d-e660d8e7413b-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/arts/television/louis-ck-grammy-backlash.html",
@@ -459,7 +789,15 @@
 				"published": "2022-04-05T18:34:58.000Z",
 				"updated": "2022-04-05T18:34:58.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/06/arts/05louisck/05louisck-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/business/twitter-elon-musk-directors.html",
@@ -469,7 +807,15 @@
 				"published": "2022-04-05T19:17:40.000Z",
 				"updated": "2022-04-05T19:17:40.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/business/05musk-twitter/merlin_203173107_fd16596f-443b-4f91-a515-7cb68654abf0-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/us/severe-weather-forecast-south.html",
@@ -479,7 +825,15 @@
 				"published": "2022-04-05T21:34:21.000Z",
 				"updated": "2022-04-05T21:34:21.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/multimedia/05xp-severe-weather1/05xp-severe-weather1-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/us/politics/fred-upton-congress-retirement.html",
@@ -489,7 +843,15 @@
 				"published": "2022-04-05T16:54:08.000Z",
 				"updated": "2022-04-05T16:54:08.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/us/politics/05pol-upton/05pol-upton-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/climate/epa-asbestos-ban.html",
@@ -499,7 +861,15 @@
 				"published": "2022-04-05T18:16:49.000Z",
 				"updated": "2022-04-05T18:16:49.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/climate/05cli-asbestos/05cli-asbestos-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/world/europe/charles-darwin-notebooks-cambridge-library.html",
@@ -509,7 +879,15 @@
 				"published": "2022-04-05T17:35:50.000Z",
 				"updated": "2022-04-05T17:35:50.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/multimedia/05xp-darwin/05xp-darwin-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/business/ann-sarnoff-warner-bros.html",
@@ -519,7 +897,8 @@
 				"published": "2022-04-05T21:56:59.000Z",
 				"updated": "2022-04-05T21:56:59.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/us/politics/durham-sussmann-trump.html",
@@ -529,7 +908,8 @@
 				"published": "2022-04-05T19:45:24.000Z",
 				"updated": "2022-04-05T19:45:24.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/sports/baseball/pitchcom-sign-stealing.html",
@@ -539,7 +919,15 @@
 				"published": "2022-04-05T20:55:50.000Z",
 				"updated": "2022-04-05T20:55:50.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/06/multimedia/05mlb-pitchcom-print/05mlb-pitchcom1-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/us/fetus-anti-abortion-home-washington.html",
@@ -549,7 +937,15 @@
 				"published": "2022-04-05T20:47:39.000Z",
 				"updated": "2022-04-05T20:47:39.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/multimedia/05xp-clinic-lauren/05xp-clinic-lauren-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/03/30/well/live/ba2-omicron-covid.html",
@@ -559,7 +955,15 @@
 				"published": "2022-04-04T12:45:49.000Z",
 				"updated": "2022-04-04T12:45:49.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/well/30well-surge-plan1/30well-surge-plan1-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/well/covid-vaccine-divorced-parents.html",
@@ -569,7 +973,15 @@
 				"published": "2022-04-04T14:13:00.000Z",
 				"updated": "2022-04-04T14:13:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/well/16Vaccine-Custody/16Vaccine-Custody-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/article/tornado-safety-tips.html",
@@ -579,7 +991,15 @@
 				"published": "2022-03-23T18:36:47.000Z",
 				"updated": "2022-03-23T18:36:47.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/03/23/multimedia/00xp-tornado-explanier/00xp-tornado-explanier-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2020/04/15/parenting/baby/fatherhood-mens-bodies.html",
@@ -589,7 +1009,8 @@
 				"published": "2021-06-24T13:39:08.000Z",
 				"updated": "2021-06-24T13:39:08.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/well/family/motherhood-advice.html",
@@ -599,7 +1020,15 @@
 				"published": "2022-04-04T17:20:38.000Z",
 				"updated": "2022-04-04T17:20:38.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/01/well/well-mothersday-callout/well-mothersday-callout-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/03/31/books/elizabeth-alexander-the-trayvon-generation.html",
@@ -609,7 +1038,15 @@
 				"published": "2022-03-31T16:30:39.000Z",
 				"updated": "2022-03-31T16:30:39.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/03/21/books/review/00JACKSON/00JACKSON-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/dining/mena-review-victoria-blamey.html",
@@ -619,7 +1056,15 @@
 				"published": "2022-04-05T14:38:34.000Z",
 				"updated": "2022-04-05T14:38:34.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/06/dining/06rest-mena1/05rest-mena1-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/sports/baseball/louis-head-miami-marlins.html",
@@ -629,7 +1074,8 @@
 				"published": "2022-04-05T13:00:10.000Z",
 				"updated": "2022-04-05T13:00:10.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/books/review/jonathan-galassi-school-days.html",
@@ -639,7 +1085,15 @@
 				"published": "2022-04-05T09:00:04.000Z",
 				"updated": "2022-04-05T09:00:04.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "https://static01.nyt.com/images/2022/04/05/books/05lybarger-image/05lybarger-image-moth.jpg",
+						"length": null,
+						"type": "image",
+						"mimeType": null
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/style/an-e-commerce-site-for-ukrainian-fashion.html",
@@ -649,7 +1103,8 @@
 				"published": "2022-04-05T15:59:39.000Z",
 				"updated": "2022-04-05T15:59:39.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			}
 		]
 	}

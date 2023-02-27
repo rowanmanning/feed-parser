@@ -26,7 +26,8 @@
 				"published": "2003-11-09T17:23:02.000Z",
 				"updated": "2003-12-13T18:30:02.000Z",
 				"content": "<p>This is the entry content.</p>",
-				"image": null
+				"image": null,
+				"media": []
 			}
 		]
 	}

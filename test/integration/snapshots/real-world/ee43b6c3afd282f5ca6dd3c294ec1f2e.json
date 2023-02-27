@@ -26,7 +26,15 @@
 				"published": "2022-04-05T10:27:00.000Z",
 				"updated": "2022-04-05T10:27:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/nhq202204040011.jpg?itok=HIRdKPmO",
+						"length": 3551198,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/press-release/nasa-to-provide-update-today-on-last-major-artemis-test-before-launch",
@@ -36,7 +44,15 @@
 				"published": "2022-04-03T15:57:00.000Z",
 				"updated": "2022-04-03T15:57:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/artemis_i_wet_dress_rehearsal.jpg?itok=kGUiAGPW",
+						"length": 22491211,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/press-release/nasa-to-participate-in-space-symposium-broadcast-select-panels",
@@ -46,7 +62,15 @@
 				"published": "2022-04-01T20:50:00.000Z",
 				"updated": "2022-04-01T20:50:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/51262927224_35ca38972c_k.jpg?itok=lxCfxBVC",
+						"length": 546369,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/press-release/nasa-astronaut-to-discuss-american-space-record-in-news-conference",
@@ -56,7 +80,15 @@
 				"published": "2022-04-01T16:00:00.000Z",
 				"updated": "2022-04-01T16:00:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/iss065e335291_0.jpg?itok=aMXfrgYh",
+						"length": 3446787,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/press-release/coverage-set-for-axiom-mission-1-briefings-events-broadcast",
@@ -66,7 +98,15 @@
 				"published": "2022-03-31T13:06:00.000Z",
 				"updated": "2022-03-31T13:06:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/51712323479_fca7ad570d_k.jpg?itok=ho8lbwW1",
+						"length": 590356,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/press-release/record-setting-nasa-astronaut-crewmates-return-from-space-station-0",
@@ -76,7 +116,15 @@
 				"published": "2022-03-30T11:37:00.000Z",
 				"updated": "2022-03-30T11:37:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/51971024308_eb88243a82_k.jpeg?itok=4hDL-INs",
+						"length": 955605,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/press-release/nasa-names-winners-of-lunar-robotics-design-contest",
@@ -86,7 +134,15 @@
 				"published": "2022-03-29T19:26:00.000Z",
 				"updated": "2022-03-29T19:26:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/large_winner_collage.png?itok=0a676iaa",
+						"length": 3669357,
+						"type": "image",
+						"mimeType": "image/png"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/press-release/declaraci-n-del-administrador-de-la-nasa-sobre-la-solicitud-de-presupuesto-del",
@@ -96,7 +152,15 @@
 				"published": "2022-03-28T17:53:00.000Z",
 				"updated": "2022-03-28T17:53:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/nasa-logo-web-rgb_0.jpg?itok=mrBnB_c9",
+						"length": 189751,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/press-release/nasa-administrator-statement-on-presidents-fy-2023-budget-request",
@@ -106,7 +170,15 @@
 				"published": "2022-03-28T15:51:00.000Z",
 				"updated": "2022-03-28T15:51:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/nasa_administrator_bill_nelson.jpg?itok=9TR9QFXn",
+						"length": 342591,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			},
 			{
 				"id": "http://www.nasa.gov/press-release/nasa-to-provide-updates-coverage-for-final-test-ahead-of-moon-mission",
@@ -116,7 +188,15 @@
 				"published": "2022-03-28T13:29:00.000Z",
 				"updated": "2022-03-28T13:29:00.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": [
+					{
+						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/ksc-20220321-ph-jbs01_0043_medium.jpeg?itok=JqoLBO0N",
+						"length": 123161,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
 			}
 		]
 	}

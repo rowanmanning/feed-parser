@@ -33,7 +33,8 @@
 				"published": "2004-10-26T19:01:01.000Z",
 				"updated": "2004-10-26T19:01:01.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": null,
@@ -43,7 +44,8 @@
 				"published": "2004-10-26T19:03:25.000Z",
 				"updated": "2004-10-26T19:03:25.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			},
 			{
 				"id": null,
@@ -53,7 +55,8 @@
 				"published": "2004-10-26T19:06:44.000Z",
 				"updated": "2004-10-26T19:06:44.000Z",
 				"content": null,
-				"image": null
+				"image": null,
+				"media": []
 			}
 		]
 	}
