@@ -561,6 +561,7 @@ describe('lib/feed/rss', () => {
 
 		describe('.image', () => {
 			let mockImageElement;
+			let mockItunesImageElement;
 			let mockTitleElement;
 			let mockUrlElement;
 
@@ -570,9 +571,15 @@ describe('lib/feed/rss', () => {
 				mockUrlElement = new MockElement();
 				mockTitleElement.textContentNormalized = 'mock image title';
 				mockUrlElement.textContentAsUrl = 'mock-image-url';
+				mockItunesImageElement = new MockElement();
+				mockItunesImageElement.namespace = 'itunes';
 				td.when(mockImageElement.findElementWithName('title')).thenReturn(mockTitleElement);
 				td.when(mockImageElement.findElementWithName('url')).thenReturn(mockUrlElement);
-				td.when(mockChannelElement.findElementWithName('image')).thenReturn(mockImageElement);
+				td.when(mockItunesImageElement.getAttributeAsUrl('href')).thenReturn('mock-itunes-image-url');
+				td.when(mockChannelElement.findElementsWithName('image')).thenReturn([
+					mockImageElement,
+					mockItunesImageElement
+				]);
 			});
 
 			it('is set to an object containing the title and URL of the first image element found in the feed', () => {
@@ -600,6 +607,7 @@ describe('lib/feed/rss', () => {
 			describe('when a image element has a title but no URL', () => {
 
 				beforeEach(() => {
+					td.when(mockChannelElement.findElementsWithName('image')).thenReturn([mockImageElement]);
 					td.when(mockImageElement.findElementWithName('url')).thenReturn(null);
 				});
 
@@ -609,10 +617,25 @@ describe('lib/feed/rss', () => {
 
 			});
 
-			describe('when a image element does not exist', () => {
+			describe('when a regular image element does not exist but an itunes one does', () => {
 
 				beforeEach(() => {
-					td.when(mockChannelElement.findElementWithName('image')).thenReturn(null);
+					td.when(mockChannelElement.findElementsWithName('image')).thenReturn([mockItunesImageElement]);
+				});
+
+				it('is set to an object containing the URL of the first itunes:image element found in the feed', () => {
+					assert.deepEqual(feed.image, {
+						title: null,
+						url: 'mock-itunes-image-url'
+					});
+				});
+
+			});
+
+			describe('when an image element does not exist', () => {
+
+				beforeEach(() => {
+					td.when(mockChannelElement.findElementsWithName('image')).thenReturn([]);
 				});
 
 				it('is set to `null`', () => {

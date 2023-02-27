@@ -1,0 +1,107 @@
+{
+	"title": "Apple Example Podcast",
+	"hash": "252e034a6870a2a1e1580f8dd148c795",
+	"url": "https://sample-feeds.rowanmanning.com/examples/252e034a6870a2a1e1580f8dd148c795/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "rss",
+			"version": "2.0"
+		},
+		"language": "en-us",
+		"title": "Hiking Treks",
+		"description": "Love to get outdoors and discover nature's treasures? Hiking Treks is the\n      show for you. We review hikes and excursions, review outdoor gear and interview\n      a variety of naturalists and adventurers. Look for new episodes each week.",
+		"copyright": "© 2020 John Appleseed",
+		"url": "https://www.apple.com/itunes/podcasts/",
+		"self": null,
+		"published": null,
+		"updated": null,
+		"generator": null,
+		"image": {
+			"title": null,
+			"url": "https://applehosted.podcasts.apple.com/hiking_treks/artwork.png"
+		},
+		"items": [
+			{
+				"id": "aae20190418",
+				"title": "Hiking Treks Trailer",
+				"description": "The Sunset Explorers share tips, techniques and recommendations for\n          great hikes and adventures around the United States. Listen on \n          <a href=\"https://www.apple.com/itunes/podcasts/\">Apple Podcasts</a>.",
+				"url": null,
+				"published": "2019-01-08T01:15:00.000Z",
+				"updated": "2019-01-08T01:15:00.000Z",
+				"content": null
+			},
+			{
+				"id": "aae20190606",
+				"title": "S02 EP04 Mt. Hood, Oregon",
+				"description": "Tips for trekking around the tallest mountain in Oregon",
+				"url": null,
+				"published": "2019-05-07T12:00:00.000Z",
+				"updated": "2019-05-07T12:00:00.000Z",
+				"content": null
+			},
+			{
+				"id": "aae20190530",
+				"title": "S02 EP03 Bouldering Around Boulder",
+				"description": "We explore fun walks to climbing areas about the beautiful Colorado city of Boulder.",
+				"url": "https://www.apple.com/itunes/podcasts/href=%22http://example.com/podcasts/everything/",
+				"published": "2019-04-30T18:00:00.000Z",
+				"updated": "2019-04-30T18:00:00.000Z",
+				"content": null
+			},
+			{
+				"id": "aae20190523",
+				"title": "S02 EP02 Caribou Mountain, Maine",
+				"description": "Put your fitness to the test with this invigorating hill climb.",
+				"url": null,
+				"published": "2019-05-23T09:00:00.000Z",
+				"updated": "2019-05-23T09:00:00.000Z",
+				"content": null
+			},
+			{
+				"id": "aae20190516",
+				"title": "S02 EP01 Stawamus Chief",
+				"description": "We tackle Stawamus Chief outside of Vancouver, BC and you should too!",
+				"url": null,
+				"published": "2019-02-16T07:00:00.000Z",
+				"updated": "2019-02-16T07:00:00.000Z",
+				"content": null
+			},
+			{
+				"id": "aae20190509",
+				"title": "S01 EP04 Kuliouou Ridge Trail",
+				"description": "Oahu, Hawaii, has some picturesque hikes and this is one of the best!",
+				"url": null,
+				"published": "2018-11-27T01:15:00.000Z",
+				"updated": "2018-11-27T01:15:00.000Z",
+				"content": null
+			},
+			{
+				"id": "aae20190502",
+				"title": "S01 EP03 Blood Mountain Loop",
+				"description": "Hiking the Appalachian Trail and Freeman Trail in Georgia",
+				"url": null,
+				"published": "2018-10-23T01:15:00.000Z",
+				"updated": "2018-10-23T01:15:00.000Z",
+				"content": null
+			},
+			{
+				"id": "aae20190425",
+				"title": "S01 EP02 Garden of the Gods Wilderness",
+				"description": "Wilderness Area Garden of the Gods in Illinois is a delightful spot for \n        an extended hike.",
+				"url": null,
+				"published": "2018-09-18T01:15:00.000Z",
+				"updated": "2018-09-18T01:15:00.000Z",
+				"content": null
+			},
+			{
+				"id": "aae20190418a",
+				"title": "S01 EP01 Upper Priest Lake Trail to Continental Creek Trail",
+				"description": "We check out this powerfully scenic hike following the river in the Idaho\n        Panhandle National Forests.",
+				"url": null,
+				"published": "2018-08-14T01:15:00.000Z",
+				"updated": "2018-08-14T01:15:00.000Z",
+				"content": null
+			}
+		]
+	}
+}

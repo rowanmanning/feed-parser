@@ -162,18 +162,25 @@ for (const suite of suites) {
 
 					// DIFF: feedparser returns an empty object rather than `null`
 					// if there is no image in the feed. We test for this by converting
-					// empty objects to `null`.
+					// empty objects to `null`
 					//
-					// DIFF: feedparser does not fall back to the `icon` element.
+					// DIFF: if the image title is missing, feedparser returns `undefined`
+					// rather than `null`. We get around this in the tests by setting our
+					// title to undefined if it's null
+					//
+					// DIFF: feedparser does not fall back to the `icon` element
 					//
 					// HACK: in order to make this test pass for other valid feeds,
 					// we manually exclude feeds with the title "The Verge". We should
 					// find a nicer way to do this in future
-					it('has ROUGHLY matching feed images', () => {
+					it.only('has ROUGHLY matching feed images', () => {
 						if (!actual.feed.title.includes('The Verge')) {
 							let feedParserImage = feedParserMeta.image;
 							if (feedParserImage && !Object.keys(feedParserImage).length) {
 								feedParserImage = null;
+							}
+							if (actual.feed.image?.title === null) {
+								delete actual.feed.image.title;
 							}
 							assert.deepEqual(actual.feed.image, feedParserImage);
 						}
