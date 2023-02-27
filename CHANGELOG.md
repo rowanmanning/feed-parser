@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.4.3](https://github.com/rowanmanning/feed-parser/compare/v0.4.2...v0.4.3) (2023-02-27)
+
+
+### Features
+
+* add feed item.image property ([91e7208](https://github.com/rowanmanning/feed-parser/commit/91e72083a3125954a167f40c74d23b01a32a69f6))
+* add feed item.media property ([a5602bf](https://github.com/rowanmanning/feed-parser/commit/a5602bf73dac984627941cad721ba6d27089f247))
+
+
+### Bug Fixes
+
+* add tests for podcast feeds and fix images ([d9346b3](https://github.com/rowanmanning/feed-parser/commit/d9346b32f7a9c552c15770b12a2e16a0cf001b9b))
+* bump fast-xml-parser from 4.1.2 to 4.1.3 ([56d9345](https://github.com/rowanmanning/feed-parser/commit/56d9345665a93df6343b5496236417769c397ef1))
+* remove a rogue test filter ([b899526](https://github.com/rowanmanning/feed-parser/commit/b899526a45378f068d0d0fea4001b72664c82a50))
+
 ## [0.4.2](https://github.com/rowanmanning/feed-parser/compare/v0.4.1...v0.4.2) (2023-02-26)
 
 
