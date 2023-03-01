@@ -29,7 +29,10 @@
 				"published": "2022-04-05T20:12:00.000Z",
 				"updated": "2022-04-05T20:12:00.000Z",
 				"content": null,
-				"image": null,
+				"image": {
+					"url": "https://e3.365dm.com/22/04/70x70/skynews-kyiv-ukraine_5730064.jpg?20220405213203",
+					"title": null
+				},
 				"media": [
 					{
 						"url": "https://e3.365dm.com/22/04/70x70/skynews-kyiv-ukraine_5730064.jpg?20220405213203",
@@ -47,7 +50,10 @@
 				"published": "2022-04-05T12:07:00.000Z",
 				"updated": "2022-04-05T12:07:00.000Z",
 				"content": null,
-				"image": null,
+				"image": {
+					"url": "https://e3.365dm.com/22/04/70x70/skynews-ukraine-data-and-forensics_5729895.jpg?20220405174532",
+					"title": null
+				},
 				"media": [
 					{
 						"url": "https://e3.365dm.com/22/04/70x70/skynews-ukraine-data-and-forensics_5729895.jpg?20220405174532",
@@ -65,7 +71,10 @@
 				"published": "2022-04-05T08:58:00.000Z",
 				"updated": "2022-04-05T08:58:00.000Z",
 				"content": null,
-				"image": null,
+				"image": {
+					"url": "https://e3.365dm.com/21/11/70x70/skynews-bobbi-anne-mcleod-plymouth_5593071.jpg?20211123173339",
+					"title": null
+				},
 				"media": [
 					{
 						"url": "https://e3.365dm.com/21/11/70x70/skynews-bobbi-anne-mcleod-plymouth_5593071.jpg?20211123173339",
@@ -83,7 +92,10 @@
 				"published": "2022-04-05T16:34:00.000Z",
 				"updated": "2022-04-05T16:34:00.000Z",
 				"content": null,
-				"image": null,
+				"image": {
+					"url": "https://e3.365dm.com/22/04/70x70/skynews-hypersonic-missile_5729907.jpg?20220405175107",
+					"title": null
+				},
 				"media": [
 					{
 						"url": "https://e3.365dm.com/22/04/70x70/skynews-hypersonic-missile_5729907.jpg?20220405175107",
@@ -101,7 +113,10 @@
 				"published": "2022-04-05T18:43:00.000Z",
 				"updated": "2022-04-05T18:43:00.000Z",
 				"content": null,
-				"image": null,
+				"image": {
+					"url": "https://e3.365dm.com/22/04/70x70/skynews-richard-woodcock-milton-keynes_5730052.jpg?20220405205506",
+					"title": null
+				},
 				"media": [
 					{
 						"url": "https://e3.365dm.com/22/04/70x70/skynews-richard-woodcock-milton-keynes_5730052.jpg?20220405205506",
@@ -119,7 +134,10 @@
 				"published": "2022-04-05T18:33:00.000Z",
 				"updated": "2022-04-05T18:33:00.000Z",
 				"content": null,
-				"image": null,
+				"image": {
+					"url": "https://e3.365dm.com/22/04/70x70/skynews-cafe-hospitality-srvices_5730016.jpg?20220405201554",
+					"title": null
+				},
 				"media": [
 					{
 						"url": "https://e3.365dm.com/22/04/70x70/skynews-cafe-hospitality-srvices_5730016.jpg?20220405201554",
@@ -137,7 +155,10 @@
 				"published": "2022-04-05T14:02:00.000Z",
 				"updated": "2022-04-05T14:02:00.000Z",
 				"content": null,
-				"image": null,
+				"image": {
+					"url": "https://e3.365dm.com/22/04/70x70/skynews-volodymyr-zelenskyy_5729846.jpg?20220405165225",
+					"title": null
+				},
 				"media": [
 					{
 						"url": "https://e3.365dm.com/22/04/70x70/skynews-volodymyr-zelenskyy_5729846.jpg?20220405165225",
@@ -155,7 +176,10 @@
 				"published": "2022-04-05T16:06:00.000Z",
 				"updated": "2022-04-05T16:06:00.000Z",
 				"content": null,
-				"image": null,
+				"image": {
+					"url": "https://e3.365dm.com/22/04/70x70/skynews-drugs-cocaine-bananas_5729992.jpg?20220405195043",
+					"title": null
+				},
 				"media": [
 					{
 						"url": "https://e3.365dm.com/22/04/70x70/skynews-drugs-cocaine-bananas_5729992.jpg?20220405195043",
@@ -173,7 +197,10 @@
 				"published": "2022-04-05T19:58:00.000Z",
 				"updated": "2022-04-05T19:58:00.000Z",
 				"content": null,
-				"image": null,
+				"image": {
+					"url": "https://e3.365dm.com/21/08/70x70/skynews-logan-wales-bridgend_5465854.jpg?20220323212345",
+					"title": null
+				},
 				"media": [
 					{
 						"url": "https://e3.365dm.com/21/08/70x70/skynews-logan-wales-bridgend_5465854.jpg?20220323212345",
@@ -191,7 +218,10 @@
 				"published": "2022-04-05T11:11:00.000Z",
 				"updated": "2022-04-05T11:11:00.000Z",
 				"content": null,
-				"image": null,
+				"image": {
+					"url": "https://e3.365dm.com/22/01/70x70/skynews-abu-dhabi-yemen_5650993.jpg?20220124112049",
+					"title": null
+				},
 				"media": [
 					{
 						"url": "https://e3.365dm.com/22/01/70x70/skynews-abu-dhabi-yemen_5650993.jpg?20220124112049",

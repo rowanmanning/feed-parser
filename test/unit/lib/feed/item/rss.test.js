@@ -331,6 +331,7 @@ describe('lib/feed/item/rss', () => {
 		describe('.image', () => {
 			let mockImageElement;
 			let mockItunesImageElement;
+			let mockThumbnailElement;
 			let mockTitleElement;
 			let mockUrlElement;
 
@@ -340,15 +341,36 @@ describe('lib/feed/item/rss', () => {
 				mockUrlElement = new MockElement();
 				mockTitleElement.textContentNormalized = 'mock image title';
 				mockUrlElement.textContentAsUrl = 'mock-image-url';
-				mockItunesImageElement = new MockElement();
-				mockItunesImageElement.namespace = 'itunes';
 				td.when(mockImageElement.findElementWithName('title')).thenReturn(mockTitleElement);
 				td.when(mockImageElement.findElementWithName('url')).thenReturn(mockUrlElement);
+
+				mockItunesImageElement = new MockElement();
+				mockItunesImageElement.namespace = 'itunes';
 				td.when(mockItunesImageElement.getAttributeAsUrl('href')).thenReturn('mock-itunes-image-url');
+
 				td.when(mockItemElement.findElementsWithName('image')).thenReturn([
 					mockImageElement,
 					mockItunesImageElement
 				]);
+
+				feedItem.mediaImages = [
+					{
+						url: 'mock-image-url-1',
+						length: 1234,
+						type: 'image',
+						mimeType: 'image/png'
+					},
+					{
+						url: 'mock-image-url-2',
+						length: 4567,
+						type: 'image',
+						mimeType: 'image/jpg'
+					}
+				];
+
+				mockThumbnailElement = new MockElement();
+				td.when(mockThumbnailElement.getAttributeAsUrl('url')).thenReturn('mock-thumbnail-url');
+				td.when(mockItemElement.findElementWithName('thumbnail')).thenReturn(mockThumbnailElement);
 			});
 
 			it('is set to an object containing the title and URL of the first image element found in the feed item', () => {
@@ -378,6 +400,8 @@ describe('lib/feed/item/rss', () => {
 				beforeEach(() => {
 					td.when(mockItemElement.findElementsWithName('image')).thenReturn([mockImageElement]);
 					td.when(mockImageElement.findElementWithName('url')).thenReturn(null);
+					feedItem.mediaImages = [];
+					td.when(mockItemElement.findElementWithName('thumbnail')).thenReturn(null);
 				});
 
 				it('is set to `null`', () => {
@@ -401,10 +425,43 @@ describe('lib/feed/item/rss', () => {
 
 			});
 
-			describe('when an image element does not exist', () => {
+			describe('when no images exist but media images do', () => {
 
 				beforeEach(() => {
 					td.when(mockItemElement.findElementsWithName('image')).thenReturn([]);
+				});
+
+				it('is set to a representation of the first image in the feed item', () => {
+					assert.deepEqual(feedItem.image, {
+						url: 'mock-image-url-1',
+						title: null
+					});
+				});
+
+			});
+
+			describe('when there are no images or media in the feed item but there is a thumbnail element', () => {
+
+				beforeEach(() => {
+					td.when(mockItemElement.findElementsWithName('image')).thenReturn([]);
+					feedItem.mediaImages = [];
+				});
+
+				it('is set to a representation of the first thumbnail in the feed item', () => {
+					assert.deepEqual(feedItem.image, {
+						url: 'mock-thumbnail-url',
+						title: null
+					});
+				});
+
+			});
+
+			describe('when no image, media, or thumbnail exists', () => {
+
+				beforeEach(() => {
+					td.when(mockItemElement.findElementsWithName('image')).thenReturn([]);
+					feedItem.mediaImages = [];
+					td.when(mockItemElement.findElementWithName('thumbnail')).thenReturn(null);
 				});
 
 				it('is set to `null`', () => {

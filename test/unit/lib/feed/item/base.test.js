@@ -136,6 +136,102 @@ describe('lib/feed/item/base', () => {
 
 		});
 
+		describe('.mediaAudio', () => {
+
+			beforeEach(() => {
+				Object.defineProperty(feedItem, 'media', {
+					get: () => [
+						{
+							url: 'https://example-media-1',
+							type: 'audio'
+						},
+						{
+							url: 'https://example-media-2',
+							type: 'image'
+						},
+						{
+							url: 'https://example-media-3',
+							type: 'video'
+						}
+					]
+				});
+			});
+
+			it('returns an array containing only audio media items', () => {
+				assert.deepEqual(feedItem.mediaAudio, [
+					{
+						url: 'https://example-media-1',
+						type: 'audio'
+					}
+				]);
+			});
+
+		});
+
+		describe('.mediaImages', () => {
+
+			beforeEach(() => {
+				Object.defineProperty(feedItem, 'media', {
+					get: () => [
+						{
+							url: 'https://example-media-1',
+							type: 'audio'
+						},
+						{
+							url: 'https://example-media-2',
+							type: 'image'
+						},
+						{
+							url: 'https://example-media-3',
+							type: 'video'
+						}
+					]
+				});
+			});
+
+			it('returns an array containing only image media items', () => {
+				assert.deepEqual(feedItem.mediaImages, [
+					{
+						url: 'https://example-media-2',
+						type: 'image'
+					}
+				]);
+			});
+
+		});
+
+		describe('.mediaVideos', () => {
+
+			beforeEach(() => {
+				Object.defineProperty(feedItem, 'media', {
+					get: () => [
+						{
+							url: 'https://example-media-1',
+							type: 'audio'
+						},
+						{
+							url: 'https://example-media-2',
+							type: 'image'
+						},
+						{
+							url: 'https://example-media-3',
+							type: 'video'
+						}
+					]
+				});
+			});
+
+			it('returns an array containing only video media items', () => {
+				assert.deepEqual(feedItem.mediaVideos, [
+					{
+						url: 'https://example-media-3',
+						type: 'video'
+					}
+				]);
+			});
+
+		});
+
 		describe('.toJSON()', () => {
 			let mockFeedItem;
 			let returnValue;

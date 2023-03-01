@@ -389,9 +389,61 @@ describe('lib/feed/item/atom', () => {
 		});
 
 		describe('.image', () => {
+			let mockThumbnailElement;
 
-			it('is set to `null`', () => {
-				assert.isNull(feedItem.image);
+			beforeEach(() => {
+				feedItem.mediaImages = [
+					{
+						url: 'mock-image-url-1',
+						length: 1234,
+						type: 'image',
+						mimeType: 'image/png'
+					},
+					{
+						url: 'mock-image-url-2',
+						length: 4567,
+						type: 'image',
+						mimeType: 'image/jpg'
+					}
+				];
+				mockThumbnailElement = new MockElement();
+				td.when(mockThumbnailElement.getAttributeAsUrl('url')).thenReturn('mock-thumbnail-url');
+				td.when(mockItemElement.findElementWithName('thumbnail')).thenReturn(mockThumbnailElement);
+			});
+
+			it('is set to a representation of the first image in the feed item', () => {
+				assert.deepEqual(feedItem.image, {
+					url: 'mock-image-url-1',
+					title: null
+				});
+			});
+
+			describe('when there are no images in the feed item but there is a thumbnail element', () => {
+
+				beforeEach(() => {
+					feedItem.mediaImages = [];
+				});
+
+				it('is set to a representation of the first thumbnail in the feed item', () => {
+					assert.deepEqual(feedItem.image, {
+						url: 'mock-thumbnail-url',
+						title: null
+					});
+				});
+
+			});
+
+			describe('when there are no images or thumbnail elements', () => {
+
+				beforeEach(() => {
+					feedItem.mediaImages = [];
+					td.when(mockItemElement.findElementWithName('thumbnail')).thenReturn(null);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(feedItem.image);
+				});
+
 			});
 
 		});

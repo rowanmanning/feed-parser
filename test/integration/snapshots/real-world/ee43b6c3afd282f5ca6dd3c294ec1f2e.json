@@ -26,7 +26,10 @@
 				"published": "2022-04-05T10:27:00.000Z",
 				"updated": "2022-04-05T10:27:00.000Z",
 				"content": null,
-				"image": null,
+				"image": {
+					"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/nhq202204040011.jpg?itok=HIRdKPmO",
+					"title": null
+				},
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/nhq202204040011.jpg?itok=HIRdKPmO",
@@ -44,7 +47,10 @@
 				"published": "2022-04-03T15:57:00.000Z",
 				"updated": "2022-04-03T15:57:00.000Z",
 				"content": null,
-				"image": null,
+				"image": {
+					"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/artemis_i_wet_dress_rehearsal.jpg?itok=kGUiAGPW",
+					"title": null
+				},
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/artemis_i_wet_dress_rehearsal.jpg?itok=kGUiAGPW",
@@ -62,7 +68,10 @@
 				"published": "2022-04-01T20:50:00.000Z",
 				"updated": "2022-04-01T20:50:00.000Z",
 				"content": null,
-				"image": null,
+				"image": {
+					"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/51262927224_35ca38972c_k.jpg?itok=lxCfxBVC",
+					"title": null
+				},
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/51262927224_35ca38972c_k.jpg?itok=lxCfxBVC",
@@ -80,7 +89,10 @@
 				"published": "2022-04-01T16:00:00.000Z",
 				"updated": "2022-04-01T16:00:00.000Z",
 				"content": null,
-				"image": null,
+				"image": {
+					"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/iss065e335291_0.jpg?itok=aMXfrgYh",
+					"title": null
+				},
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/iss065e335291_0.jpg?itok=aMXfrgYh",
@@ -98,7 +110,10 @@
 				"published": "2022-03-31T13:06:00.000Z",
 				"updated": "2022-03-31T13:06:00.000Z",
 				"content": null,
-				"image": null,
+				"image": {
+					"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/51712323479_fca7ad570d_k.jpg?itok=ho8lbwW1",
+					"title": null
+				},
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/51712323479_fca7ad570d_k.jpg?itok=ho8lbwW1",
@@ -116,7 +131,10 @@
 				"published": "2022-03-30T11:37:00.000Z",
 				"updated": "2022-03-30T11:37:00.000Z",
 				"content": null,
-				"image": null,
+				"image": {
+					"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/51971024308_eb88243a82_k.jpeg?itok=4hDL-INs",
+					"title": null
+				},
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/51971024308_eb88243a82_k.jpeg?itok=4hDL-INs",
@@ -134,7 +152,10 @@
 				"published": "2022-03-29T19:26:00.000Z",
 				"updated": "2022-03-29T19:26:00.000Z",
 				"content": null,
-				"image": null,
+				"image": {
+					"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/large_winner_collage.png?itok=0a676iaa",
+					"title": null
+				},
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/large_winner_collage.png?itok=0a676iaa",
@@ -152,7 +173,10 @@
 				"published": "2022-03-28T17:53:00.000Z",
 				"updated": "2022-03-28T17:53:00.000Z",
 				"content": null,
-				"image": null,
+				"image": {
+					"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/nasa-logo-web-rgb_0.jpg?itok=mrBnB_c9",
+					"title": null
+				},
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/nasa-logo-web-rgb_0.jpg?itok=mrBnB_c9",
@@ -170,7 +194,10 @@
 				"published": "2022-03-28T15:51:00.000Z",
 				"updated": "2022-03-28T15:51:00.000Z",
 				"content": null,
-				"image": null,
+				"image": {
+					"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/nasa_administrator_bill_nelson.jpg?itok=9TR9QFXn",
+					"title": null
+				},
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/nasa_administrator_bill_nelson.jpg?itok=9TR9QFXn",
@@ -188,7 +215,10 @@
 				"published": "2022-03-28T13:29:00.000Z",
 				"updated": "2022-03-28T13:29:00.000Z",
 				"content": null,
-				"image": null,
+				"image": {
+					"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/ksc-20220321-ph-jbs01_0043_medium.jpeg?itok=JqoLBO0N",
+					"title": null
+				},
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/ksc-20220321-ph-jbs01_0043_medium.jpeg?itok=JqoLBO0N",

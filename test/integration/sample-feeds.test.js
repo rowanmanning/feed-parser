@@ -336,8 +336,10 @@ for (const suite of suites) {
 					// rather than `null`. We get around this in the tests by setting our
 					// title to undefined if it's null
 					//
-					// FIXME: skipped for now until we have enclosure support
-					it.skip('has ROUGHLY matching feed item images', () => {
+					// DIFF: feedparser does not seem to fall back to the first image RSS
+					// enclosure. We just ignore cases where their image is null but ours
+					// is defined.
+					it('has ROUGHLY matching feed item images', () => {
 						for (const [i, item] of Object.entries(actual.feed.items)) {
 							const feedParserItem = feedParserItems[i];
 							let feedParserImage = feedParserItem.image;
@@ -348,11 +350,20 @@ for (const suite of suites) {
 								delete item.image.title;
 							}
 
-							console.log({
-								ours: item.image,
-								theirs: feedParserImage
-							});
-							assert.deepEqual(item.image, feedParserImage);
+							// Get around feedparser not using the first image enclosure
+							if (item.image && !feedParserImage) {
+								return;
+							}
+
+							try {
+								assert.deepEqual(item.image, feedParserImage);
+							} catch (error) {
+								console.log({
+									ours: item.image,
+									theirs: feedParserImage
+								});
+								throw error;
+							}
 						}
 					});
 
