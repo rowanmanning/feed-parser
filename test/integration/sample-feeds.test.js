@@ -313,18 +313,10 @@ for (const suite of suites) {
 								feedParserContent = feedParserContent.replace(/^<div( .*)?>|<\/\s*div\s*>$/ig, '').trim();
 							}
 
-							try {
-								assert.strictEqual(
-									content?.replace(/\s+/g, ' ') || null,
-									feedParserContent?.replace(/\s+/g, ' ') || null
-								);
-							} catch (error) {
-								console.log({
-									ours: content,
-									theirs: feedParserContent
-								});
-								throw error;
-							}
+							assert.strictEqual(
+								content?.replace(/\s+/g, ' ') || null,
+								feedParserContent?.replace(/\s+/g, ' ') || null
+							);
 						}
 					});
 
@@ -355,15 +347,7 @@ for (const suite of suites) {
 								return;
 							}
 
-							try {
-								assert.deepEqual(item.image, feedParserImage);
-							} catch (error) {
-								console.log({
-									ours: item.image,
-									theirs: feedParserImage
-								});
-								throw error;
-							}
+							assert.deepEqual(item.image, feedParserImage);
 						}
 					});
 
