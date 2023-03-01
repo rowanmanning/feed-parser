@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.4](https://github.com/rowanmanning/feed-parser/compare/v0.4.3...v0.4.4) (2023-03-01)
+
+
+### Features
+
+* add more fallbacks for item.image ([72247cb](https://github.com/rowanmanning/feed-parser/commit/72247cb35d7d74a1c9624cac4279c10d0f71298b))
+
 ## [0.4.3](https://github.com/rowanmanning/feed-parser/compare/v0.4.2...v0.4.3) (2023-02-27)
 
 
