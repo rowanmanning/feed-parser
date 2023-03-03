@@ -1,0 +1,270 @@
+{
+	"title": "Public Mastodon Feed - User",
+	"hash": "f19a1363184d6e853b7e7d6c020102b8",
+	"url": "https://sample-feeds.rowanmanning.com/real-world/f19a1363184d6e853b7e7d6c020102b8/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "rss",
+			"version": "2.0"
+		},
+		"language": null,
+		"title": "Eugen Rochko",
+		"description": "Public posts from @Gargron@mastodon.social",
+		"copyright": null,
+		"url": "https://mastodon.social/@Gargron",
+		"self": null,
+		"published": null,
+		"updated": "2023-03-01T20:23:36.000Z",
+		"generator": {
+			"label": "Mastodon v4.1.0",
+			"version": null,
+			"url": null
+		},
+		"image": {
+			"title": "Eugen Rochko",
+			"url": "https://files.mastodon.social/accounts/avatars/000/000/001/original/dc4286ceb8fab734.jpg"
+		},
+		"items": [
+			{
+				"id": "https://mastodon.social/@Gargron/109949892433321784",
+				"title": null,
+				"description": "<p>mastodon.social is now entirely served from our new <a href=\"https://mastodon.social/tags/Kubernetes\" class=\"mention hashtag\" rel=\"tag\">#<span>Kubernetes</span></a> cluster 🎉</p>",
+				"url": "https://mastodon.social/@Gargron/109949892433321784",
+				"published": "2023-03-01T20:23:36.000Z",
+				"updated": "2023-03-01T20:23:36.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "https://mastodon.social/@Gargron/109943079995353881",
+				"title": null,
+				"description": "<p>We've had over 1.3K candidates apply to the 3 open positions at Mastodon so far, which is very exciting, but getting through them as such a small team is taking its time. Getting somewhere though!</p>",
+				"url": "https://mastodon.social/@Gargron/109943079995353881",
+				"published": "2023-02-28T15:31:06.000Z",
+				"updated": "2023-02-28T15:31:06.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "https://mastodon.social/@Gargron/109919714032366048",
+				"title": null,
+				"description": "<p>Got a wedding date 😎</p>",
+				"url": "https://mastodon.social/@Gargron/109919714032366048",
+				"published": "2023-02-24T12:28:50.000Z",
+				"updated": "2023-02-24T12:28:50.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "https://mastodon.social/@Gargron/109889416185879447",
+				"title": null,
+				"description": "<p>Post editing is now available for testing in our iOS app's TestFlight!</p>",
+				"url": "https://mastodon.social/@Gargron/109889416185879447",
+				"published": "2023-02-19T04:03:41.000Z",
+				"updated": "2023-02-19T04:03:41.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "https://mastodon.social/@Gargron/109850453803755145",
+				"title": null,
+				"description": "<p>I haven’t had much time to post because the last 3 months have been absolutely wild in terms of workload. But I’m very excited about how this platform is growing.</p>",
+				"url": "https://mastodon.social/@Gargron/109850453803755145",
+				"published": "2023-02-12T06:55:03.000Z",
+				"updated": "2023-02-12T06:55:03.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "https://mastodon.social/@Gargron/109827568949419926",
+				"title": null,
+				"description": "<p>As promised, mastodon.online infrastructure upgraded and is now easier to scale, mastodon.social is next on the list. Our mod team grows as well!</p>",
+				"url": "https://mastodon.social/@Gargron/109827568949419926",
+				"published": "2023-02-08T05:55:07.000Z",
+				"updated": "2023-02-08T05:55:07.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "https://mastodon.social/@Gargron/109822738794400635",
+				"title": null,
+				"description": "<p>I know that there's been intermittent stability issues with mastodon.social and mastodon.online recently. We're working on improving our infrastructure to address this.</p>",
+				"url": "https://mastodon.social/@Gargron/109822738794400635",
+				"published": "2023-02-07T09:26:45.000Z",
+				"updated": "2023-02-07T09:26:45.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "https://mastodon.social/@Gargron/109810124734718299",
+				"title": null,
+				"description": "<p>Delicious!</p>",
+				"url": "https://mastodon.social/@Gargron/109810124734718299",
+				"published": "2023-02-05T03:58:50.000Z",
+				"updated": "2023-02-05T03:58:50.000Z",
+				"content": null,
+				"image": {
+					"url": "https://files.mastodon.social/media_attachments/files/109/810/124/471/341/410/original/a85a711cac14979c.jpeg",
+					"title": null
+				},
+				"media": [
+					{
+						"url": "https://files.mastodon.social/media_attachments/files/109/810/124/471/341/410/original/a85a711cac14979c.jpeg",
+						"length": 649824,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				]
+			},
+			{
+				"id": "https://mastodon.social/@Gargron/109786290644576574",
+				"title": null,
+				"description": "<p>mastodon.social, mastodon.online and joinmastodon.org were hit by a DDoS yesterday, thankfully joinmastodon.org was already behind Fastly so it didn't have any impact on it. We've now moved mastodon.online behind Fastly and will do the same with mastodon.social soon.</p>",
+				"url": "https://mastodon.social/@Gargron/109786290644576574",
+				"published": "2023-01-31T22:57:30.000Z",
+				"updated": "2023-01-31T22:57:30.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "https://mastodon.social/@Gargron/109781614426817079",
+				"title": null,
+				"description": "<p>A number of folks have reached out to us over the past few months asking how they could help Mastodon out. Unfortunately, we haven't had the capacity to accept those kind offers at the time.</p><p>If you're interested in getting involved as a volunteer, please fill out this form (and share it around!) so we know who could help with what. (There is plenty that needs doing!)</p><p><a href=\"https://joinmastodon.typeform.com/to/PdqUZCAg\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://</span><span class=\"ellipsis\">joinmastodon.typeform.com/to/P</span><span class=\"invisible\">dqUZCAg</span></a></p>",
+				"url": "https://mastodon.social/@Gargron/109781614426817079",
+				"published": "2023-01-31T03:08:17.000Z",
+				"updated": "2023-01-31T03:08:17.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "https://mastodon.social/@Gargron/109781490892884305",
+				"title": null,
+				"description": "<p>I believe mastodon.social might be under a DDoS attack currently, investigating. Sorry for the inconvenience!</p>",
+				"url": "https://mastodon.social/@Gargron/109781490892884305",
+				"published": "2023-01-31T02:36:52.000Z",
+				"updated": "2023-01-31T02:36:52.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "https://mastodon.social/@Gargron/109752869525918351",
+				"title": null,
+				"description": "<p>The only reason we're able to hire more folks is because of your support. Mastodon is a non-profit supported entirely by crowdfunding. If you like what we're doing or the servers we provide, consider supporting us on Patreon:</p><p><a href=\"https://www.patreon.com/mastodon\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"\">patreon.com/mastodon</span><span class=\"invisible\"></span></a></p>",
+				"url": "https://mastodon.social/@Gargron/109752869525918351",
+				"published": "2023-01-26T01:18:05.000Z",
+				"updated": "2023-01-26T01:18:05.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "https://mastodon.social/@Gargron/109752585671341892",
+				"title": null,
+				"description": "<p>There are over 700 applications for the open positions at Mastodon. Thankfully we're now joined by <span class=\"h-card\"><a href=\"https://mastodon.social/@inganomads\" class=\"u-url mention\">@<span>inganomads</span></a></span> to help us with the hiring process. And Claire is now full-time!</p>",
+				"url": "https://mastodon.social/@Gargron/109752585671341892",
+				"published": "2023-01-26T00:05:53.000Z",
+				"updated": "2023-01-26T00:05:53.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "https://mastodon.social/@Gargron/109745931739360983",
+				"title": null,
+				"description": "<p>Checking out <span class=\"h-card\"><a href=\"https://tapbots.social/@ivory\" class=\"u-url mention\">@<span>ivory</span></a></span>!</p>",
+				"url": "https://mastodon.social/@Gargron/109745931739360983",
+				"published": "2023-01-24T19:53:42.000Z",
+				"updated": "2023-01-24T19:53:42.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "https://mastodon.social/@Gargron/109734444153824593",
+				"title": null,
+				"description": "<p>I started working on Mastodon when I was 23, and now I'm 30</p>",
+				"url": "https://mastodon.social/@Gargron/109734444153824593",
+				"published": "2023-01-22T19:12:16.000Z",
+				"updated": "2023-01-22T19:12:16.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "https://mastodon.social/@Gargron/109733933922153776",
+				"title": null,
+				"description": "<p>It's my birthday <img rel=\"emoji\" draggable=\"false\" width=\"16\" height=\"16\" class=\"emojione\" style=\"width: 1.1em; height: 1.1em; object-fit: contain; vertical-align: middle; margin: -.2ex .15em .2ex\" alt=\":catjam:\" title=\":catjam:\" src=\"https://files.mastodon.social/custom_emojis/images/000/224/097/original/d9c5e447581399a9.gif\"></p>",
+				"url": "https://mastodon.social/@Gargron/109733933922153776",
+				"published": "2023-01-22T17:02:30.000Z",
+				"updated": "2023-01-22T17:02:30.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "https://mastodon.social/@Gargron/109722256853094329",
+				"title": null,
+				"description": "<p>New picture for the website! Photographed by Peter Petzka.</p>",
+				"url": "https://mastodon.social/@Gargron/109722256853094329",
+				"published": "2023-01-20T15:32:52.000Z",
+				"updated": "2023-01-20T15:32:52.000Z",
+				"content": null,
+				"image": {
+					"url": "https://files.mastodon.social/media_attachments/files/109/722/222/976/767/598/original/c4d57fc4988f5bfa.png",
+					"title": null
+				},
+				"media": [
+					{
+						"url": "https://files.mastodon.social/media_attachments/files/109/722/222/976/767/598/original/c4d57fc4988f5bfa.png",
+						"length": 1375434,
+						"type": "image",
+						"mimeType": "image/png"
+					}
+				]
+			},
+			{
+				"id": "https://mastodon.social/@Gargron/109721635392299425",
+				"title": null,
+				"description": "<p>Next update of our iOS app will have home screen widgets (among other things)! It’s not a super crucial thing but I’m looking forward to it.</p>",
+				"url": "https://mastodon.social/@Gargron/109721635392299425",
+				"published": "2023-01-20T12:54:50.000Z",
+				"updated": "2023-01-20T12:54:50.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "https://mastodon.social/@Gargron/109669334253114110",
+				"title": null,
+				"description": "<p>Wow, already 178 job applications</p>",
+				"url": "https://mastodon.social/@Gargron/109669334253114110",
+				"published": "2023-01-11T07:13:58.000Z",
+				"updated": "2023-01-11T07:13:58.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "https://mastodon.social/@Gargron/109663072573730112",
+				"title": null,
+				"description": "<p>Mastodon bumps up the active user count when a user logs on, including right after sign up. I’m not surprised the monthly active user number is coming down a bit, there’s no service out there that has 100% retention on new sign ups.</p>",
+				"url": "https://mastodon.social/@Gargron/109663072573730112",
+				"published": "2023-01-10T04:41:32.000Z",
+				"updated": "2023-01-10T04:41:32.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			}
+		]
+	}
+}

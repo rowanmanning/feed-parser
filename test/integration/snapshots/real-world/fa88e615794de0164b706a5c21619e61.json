@@ -1,0 +1,188 @@
+{
+	"title": "YouTube Channel",
+	"hash": "fa88e615794de0164b706a5c21619e61",
+	"url": "https://sample-feeds.rowanmanning.com/real-world/fa88e615794de0164b706a5c21619e61/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "atom",
+			"version": "1.0"
+		},
+		"language": null,
+		"title": "Critical Role",
+		"description": null,
+		"copyright": null,
+		"url": "https://www.youtube.com/channel/UCpXBGqwsBkpvcYjsJBQ7LEQ",
+		"self": "https://sample-feeds.rowanmanning.com/examples/fa88e615794de0164b706a5c21619e61/feed.xml",
+		"published": null,
+		"updated": null,
+		"generator": null,
+		"image": null,
+		"items": [
+			{
+				"id": "yt:video:0_NVdZp8haA",
+				"title": "The Aurora Grows | Critical Role | Campaign 3, Episode 49",
+				"description": null,
+				"url": "https://www.youtube.com/watch?v=0_NVdZp8haA",
+				"published": "2023-02-20T20:00:01.000Z",
+				"updated": "2023-02-20T22:24:07.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "yt:video:ORUD8YqDp5E",
+				"title": "The Legend of Vox Machina Season 2, Episodes 10-12 Q&A",
+				"description": null,
+				"url": "https://www.youtube.com/watch?v=ORUD8YqDp5E",
+				"published": "2023-02-16T18:00:09.000Z",
+				"updated": "2023-02-16T18:00:09.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "yt:video:wQGk9ZUIOUU",
+				"title": "An Exit Most Fraught | Critical Role | Campaign 3, Episode 48",
+				"description": null,
+				"url": "https://www.youtube.com/watch?v=wQGk9ZUIOUU",
+				"published": "2023-02-13T20:00:31.000Z",
+				"updated": "2023-02-16T17:09:07.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "yt:video:h-Df3BQ3FmM",
+				"title": "The Legend of Vox Machina Season 2, Episodes 7-9 Q&A",
+				"description": null,
+				"url": "https://www.youtube.com/watch?v=h-Df3BQ3FmM",
+				"published": "2023-02-09T18:00:14.000Z",
+				"updated": "2023-02-09T21:09:15.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "yt:video:yGzf-LmpWz8",
+				"title": "The Fey Key | Critical Role | Campaign 3, Episode 47",
+				"description": null,
+				"url": "https://www.youtube.com/watch?v=yGzf-LmpWz8",
+				"published": "2023-02-06T20:00:17.000Z",
+				"updated": "2023-02-13T20:30:41.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "yt:video:2DWZO-J4zps",
+				"title": "The Legend of Vox Machina Season 2, Episodes 4-6 Q&A",
+				"description": null,
+				"url": "https://www.youtube.com/watch?v=2DWZO-J4zps",
+				"published": "2023-02-02T18:00:03.000Z",
+				"updated": "2023-02-02T18:00:03.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "yt:video:1knIHqLqThk",
+				"title": "Night at the Ligament Manor | Critical Role | Campaign 3, Episode 46",
+				"description": null,
+				"url": "https://www.youtube.com/watch?v=1knIHqLqThk",
+				"published": "2023-01-30T20:00:00.000Z",
+				"updated": "2023-02-02T01:49:21.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "yt:video:eRcD8chte08",
+				"title": "A Challenger Approaches... Marisha Ray joins Creator Clash 2! #Shorts",
+				"description": null,
+				"url": "https://www.youtube.com/watch?v=eRcD8chte08",
+				"published": "2023-01-27T18:00:12.000Z",
+				"updated": "2023-02-04T14:01:27.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "yt:video:1A2JVqUt1T8",
+				"title": "The Legend of Vox Machina Season 2, Episodes 1-3 Q&A",
+				"description": null,
+				"url": "https://www.youtube.com/watch?v=1A2JVqUt1T8",
+				"published": "2023-01-26T18:00:00.000Z",
+				"updated": "2023-02-13T04:50:23.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "yt:video:IZ39H9H_y5Q",
+				"title": "#EverythingIsContent - Persona 3 Portable",
+				"description": null,
+				"url": "https://www.youtube.com/watch?v=IZ39H9H_y5Q",
+				"published": "2023-01-25T18:00:09.000Z",
+				"updated": "2023-01-25T18:00:09.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "yt:video:7t2NJJjy8r8",
+				"title": "Ominous Lectures | Critical Role | Campaign 3, Episode 45",
+				"description": null,
+				"url": "https://www.youtube.com/watch?v=7t2NJJjy8r8",
+				"published": "2023-01-16T20:00:02.000Z",
+				"updated": "2023-01-18T21:12:16.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "yt:video:nqXmeYBqF1c",
+				"title": "Bawdy Basement Belligerence | Critical Role | Campaign 3, Episode 44",
+				"description": null,
+				"url": "https://www.youtube.com/watch?v=nqXmeYBqF1c",
+				"published": "2023-01-09T20:00:21.000Z",
+				"updated": "2023-02-16T11:41:37.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "yt:video:7gRiV02TWww",
+				"title": "To Be Continued! | 4-Sided Dive | Episode 10: Discussing Up To C3E43 & M9 Reunited",
+				"description": null,
+				"url": "https://www.youtube.com/watch?v=7gRiV02TWww",
+				"published": "2023-01-04T20:00:02.000Z",
+				"updated": "2023-02-01T04:29:30.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "yt:video:cGhVgjYSpIE",
+				"title": "Axiom Shaken | Critical Role | Campaign 3, Episode 43",
+				"description": null,
+				"url": "https://www.youtube.com/watch?v=cGhVgjYSpIE",
+				"published": "2022-12-26T20:00:16.000Z",
+				"updated": "2022-12-28T17:38:43.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			},
+			{
+				"id": "yt:video:1OHsbXHMUs4",
+				"title": "The City of Flowing Light | Critical Role | Campaign 3, Episode 42",
+				"description": null,
+				"url": "https://www.youtube.com/watch?v=1OHsbXHMUs4",
+				"published": "2022-12-19T20:00:00.000Z",
+				"updated": "2023-02-13T10:47:55.000Z",
+				"content": null,
+				"image": null,
+				"media": []
+			}
+		]
+	}
+}
