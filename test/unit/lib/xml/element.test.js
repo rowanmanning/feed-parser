@@ -1022,6 +1022,52 @@ describe('lib/xml/element', () => {
 
 		});
 
+		describe('.getAttributeAsNumber(name)', () => {
+			let attributesGetter;
+			let returnValue;
+
+			beforeEach(() => {
+				attributesGetter = td.func();
+				td.when(attributesGetter()).thenReturn({
+					'mock-name': '123'
+				});
+				Object.defineProperty(element, 'attributes', {get: attributesGetter});
+				returnValue = element.getAttributeAsNumber('mock-name');
+			});
+
+			it('returns the requested attribute value parsed as a number', () => {
+				assert.strictEqual(returnValue, 123);
+			});
+
+			describe('when the attribute value is not a valid numeric value', () => {
+
+				beforeEach(() => {
+					td.when(attributesGetter()).thenReturn({
+						'mock-name': 'nope'
+					});
+					returnValue = element.getAttributeAsNumber('mock-name');
+				});
+
+				it('returns `null`', () => {
+					assert.isNull(returnValue);
+				});
+
+			});
+
+			describe('when the element has no attribute with the given name', () => {
+
+				beforeEach(() => {
+					returnValue = element.getAttributeAsNumber('not-a-name');
+				});
+
+				it('returns `null`', () => {
+					assert.isNull(returnValue);
+				});
+
+			});
+
+		});
+
 		describe('.resolveUrl(url)', () => {
 			let baseUrlGetter;
 			let returnValue;

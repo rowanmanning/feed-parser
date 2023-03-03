@@ -365,14 +365,14 @@ for (const suite of suites) {
 								return {
 									url,
 									type: type || null,
-									length: length === '0' ? null : length
+									length
 								};
 							});
 							const media = item.media.map(({url, mimeType, length, type}) => {
 								return {
 									url,
 									type: mimeType || type || null,
-									length: length ? `${length}` : null
+									length: length === null ? null : `${length}`
 								};
 							});
 

@@ -10,6 +10,7 @@ module.exports = function createMock() {
 			this.findElementWithName = td.func();
 			this.getAttribute = td.func();
 			this.getAttributeAsUrl = td.func();
+			this.getAttributeAsNumber = td.func();
 			this.hasElementWithName = td.func();
 		}
 

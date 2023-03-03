@@ -471,13 +471,13 @@ describe('lib/feed/item/atom', () => {
 				// Link rel enclosure
 				td.when(mockLinks[2].getAttribute('rel')).thenReturn('enclosure');
 				td.when(mockLinks[2].getAttributeAsUrl('href')).thenReturn('https://mock-enclosure-1');
-				td.when(mockLinks[2].getAttribute('length')).thenReturn('1234');
+				td.when(mockLinks[2].getAttributeAsNumber('length')).thenReturn(1234);
 				td.when(mockLinks[2].getAttribute('type')).thenReturn('image/png');
 
 				// Link rel enclosure
 				td.when(mockLinks[3].getAttribute('rel')).thenReturn('enclosure');
 				td.when(mockLinks[3].getAttributeAsUrl('href')).thenReturn('https://mock-enclosure-2');
-				td.when(mockLinks[3].getAttribute('length')).thenReturn('5678');
+				td.when(mockLinks[3].getAttributeAsNumber('length')).thenReturn(5678);
 				td.when(mockLinks[3].getAttribute('type')).thenReturn('video/mp4');
 
 				td.when(mockItemElement.findElementsWithName('link')).thenReturn(mockLinks);
@@ -522,7 +522,7 @@ describe('lib/feed/item/atom', () => {
 			describe('when a link does not have a valid numeric length', () => {
 
 				beforeEach(() => {
-					td.when(mockLinks[2].getAttribute('length')).thenReturn('nope');
+					td.when(mockLinks[2].getAttributeAsNumber('length')).thenReturn(null);
 				});
 
 				it('is has a length property set to `null`', () => {

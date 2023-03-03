@@ -489,12 +489,12 @@ describe('lib/feed/item/rss', () => {
 
 				mockEnclosures[0].name = 'enclosure';
 				td.when(mockEnclosures[0].getAttributeAsUrl('url')).thenReturn('https://mock-enclosure-1');
-				td.when(mockEnclosures[0].getAttribute('length')).thenReturn('1234');
+				td.when(mockEnclosures[0].getAttributeAsNumber('length')).thenReturn(1234);
 				td.when(mockEnclosures[0].getAttribute('type')).thenReturn('image/png');
 
 				mockEnclosures[1].name = 'enclosure';
 				td.when(mockEnclosures[1].getAttributeAsUrl('url')).thenReturn('https://mock-enclosure-2');
-				td.when(mockEnclosures[1].getAttribute('length')).thenReturn('5678');
+				td.when(mockEnclosures[1].getAttributeAsNumber('length')).thenReturn(5678);
 				td.when(mockEnclosures[1].getAttribute('type')).thenReturn('video/mp4');
 
 				td.when(mockItemElement.findElementsWithName('enclosure')).thenReturn(mockEnclosures);
@@ -502,14 +502,14 @@ describe('lib/feed/item/rss', () => {
 				mockMedia[0].namespace = 'media';
 				mockMedia[0].name = 'content';
 				td.when(mockMedia[0].getAttributeAsUrl('url')).thenReturn('https://mock-media-1');
-				td.when(mockMedia[0].getAttribute('length')).thenReturn('1234');
+				td.when(mockMedia[0].getAttributeAsNumber('length')).thenReturn(1234);
 				td.when(mockMedia[0].getAttribute('type')).thenReturn('image/png');
 				td.when(mockMedia[0].getAttribute('medium')).thenReturn('mock-medium-1');
 
 				mockMedia[1].namespace = 'media';
 				mockMedia[1].name = 'content';
 				td.when(mockMedia[1].getAttributeAsUrl('url')).thenReturn('https://mock-media-2');
-				td.when(mockMedia[1].getAttribute('length')).thenReturn('5678');
+				td.when(mockMedia[1].getAttributeAsNumber('length')).thenReturn(5678);
 				td.when(mockMedia[1].getAttribute('type')).thenReturn('video/mp4');
 				td.when(mockMedia[1].getAttribute('medium')).thenReturn('mock-medium-2');
 
@@ -559,7 +559,7 @@ describe('lib/feed/item/rss', () => {
 			describe('when an enclosure does not have a valid numeric length', () => {
 
 				beforeEach(() => {
-					td.when(mockEnclosures[0].getAttribute('length')).thenReturn('nope');
+					td.when(mockEnclosures[0].getAttributeAsNumber('length')).thenReturn(null);
 				});
 
 				it('is has a length property set to `null`', () => {
@@ -629,7 +629,7 @@ describe('lib/feed/item/rss', () => {
 				describe('when a media:content does not have a valid numeric length', () => {
 
 					beforeEach(() => {
-						td.when(mockMedia[0].getAttribute('length')).thenReturn('nope');
+						td.when(mockMedia[0].getAttributeAsNumber('length')).thenReturn(null);
 					});
 
 					it('is has a length property set to `null`', () => {
