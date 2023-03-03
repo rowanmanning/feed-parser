@@ -503,6 +503,7 @@ describe('lib/feed/item/rss', () => {
 				mockMedia[0].name = 'content';
 				td.when(mockMedia[0].getAttributeAsUrl('url')).thenReturn('https://mock-media-1');
 				td.when(mockMedia[0].getAttributeAsNumber('length')).thenReturn(1234);
+				td.when(mockMedia[0].getAttributeAsNumber('filesize')).thenReturn(2345);
 				td.when(mockMedia[0].getAttribute('type')).thenReturn('image/png');
 				td.when(mockMedia[0].getAttribute('medium')).thenReturn('mock-medium-1');
 
@@ -630,6 +631,19 @@ describe('lib/feed/item/rss', () => {
 
 					beforeEach(() => {
 						td.when(mockMedia[0].getAttributeAsNumber('length')).thenReturn(null);
+					});
+
+					it('is has a length property set to the value of the filesize attribute', () => {
+						assert.strictEqual(feedItem.media[0].length, 2345);
+					});
+
+				});
+
+				describe('when a media:content does not have a valid numeric length or filesize', () => {
+
+					beforeEach(() => {
+						td.when(mockMedia[0].getAttributeAsNumber('length')).thenReturn(null);
+						td.when(mockMedia[0].getAttributeAsNumber('filesize')).thenReturn(null);
 					});
 
 					it('is has a length property set to `null`', () => {
