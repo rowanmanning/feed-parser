@@ -29,134 +29,109 @@ describe('lib/feed/base', () => {
 
 		});
 
+		describe('.element', () => {
+
+			it('is set to the passed in document', () => {
+				assert.strictEqual(feed.element, 'mock-document');
+			});
+
+		});
+
 		describe('.meta', () => {
 
-			it('throws an error', () => {
-				assert.throws(
-					() => feed.meta,
-					'Feed.meta must be implemented in an extending class'
-				);
+			it('is set to an unknown meta object', () => {
+				assert.deepEqual(feed.meta, {
+					type: 'unknown',
+					version: '0'
+				});
 			});
 
 		});
 
 		describe('.language', () => {
 
-			it('throws an error', () => {
-				assert.throws(
-					() => feed.language,
-					'Feed.language must be implemented in an extending class'
-				);
+			it('is set to `null`', () => {
+				assert.isNull(feed.language);
 			});
 
 		});
 
 		describe('.title', () => {
 
-			it('throws an error', () => {
-				assert.throws(
-					() => feed.title,
-					'Feed.title must be implemented in an extending class'
-				);
+			it('is set to `null`', () => {
+				assert.isNull(feed.title);
 			});
 
 		});
 
 		describe('.description', () => {
 
-			it('throws an error', () => {
-				assert.throws(
-					() => feed.description,
-					'Feed.description must be implemented in an extending class'
-				);
+			it('is set to `null`', () => {
+				assert.isNull(feed.description);
 			});
 
 		});
 
 		describe('.copyright', () => {
 
-			it('throws an error', () => {
-				assert.throws(
-					() => feed.copyright,
-					'Feed.copyright must be implemented in an extending class'
-				);
+			it('is set to `null`', () => {
+				assert.isNull(feed.copyright);
 			});
 
 		});
 
 		describe('.url', () => {
 
-			it('throws an error', () => {
-				assert.throws(
-					() => feed.url,
-					'Feed.url must be implemented in an extending class'
-				);
+			it('is set to `null`', () => {
+				assert.isNull(feed.url);
 			});
 
 		});
 
 		describe('.self', () => {
 
-			it('throws an error', () => {
-				assert.throws(
-					() => feed.self,
-					'Feed.self must be implemented in an extending class'
-				);
+			it('is set to `null`', () => {
+				assert.isNull(feed.self);
 			});
 
 		});
 
 		describe('.published', () => {
 
-			it('throws an error', () => {
-				assert.throws(
-					() => feed.published,
-					'Feed.published must be implemented in an extending class'
-				);
+			it('is set to `null`', () => {
+				assert.isNull(feed.published);
 			});
 
 		});
 
 		describe('.updated', () => {
 
-			it('throws an error', () => {
-				assert.throws(
-					() => feed.updated,
-					'Feed.updated must be implemented in an extending class'
-				);
+			it('is set to `null`', () => {
+				assert.isNull(feed.updated);
 			});
 
 		});
 
 		describe('.generator', () => {
 
-			it('throws an error', () => {
-				assert.throws(
-					() => feed.generator,
-					'Feed.generator must be implemented in an extending class'
-				);
+			it('is set to `null`', () => {
+				assert.isNull(feed.generator);
 			});
 
 		});
 
 		describe('.image', () => {
 
-			it('throws an error', () => {
-				assert.throws(
-					() => feed.image,
-					'Feed.image must be implemented in an extending class'
-				);
+			it('is set to `null`', () => {
+				assert.isNull(feed.image);
 			});
 
 		});
 
 		describe('.items', () => {
 
-			it('throws an error', () => {
-				assert.throws(
-					() => feed.items,
-					'Feed.items must be implemented in an extending class'
-				);
+			it('is set to an empty array', () => {
+				assert.deepEqual(feed.items, []);
 			});
 
 		});

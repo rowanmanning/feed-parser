@@ -3,14 +3,6 @@
 const {assert} = require('chai');
 const td = require('testdouble');
 
-class MockFeed {
-
-	constructor(document) {
-		this.document = document;
-	}
-
-}
-
 describe('lib/feed/atom', () => {
 	let AtomFeed;
 	let AtomFeedItem;
@@ -23,7 +15,7 @@ describe('lib/feed/atom', () => {
 		MockDocument = require('../../mock/lib/xml/document.mock')();
 		MockElement = require('../../mock/lib/xml/element.mock')();
 		AtomFeedItem = td.replace('../../../../lib/feed/item/atom', td.constructor());
-		Feed = td.replace('../../../../lib/feed/base', MockFeed);
+		Feed = td.replace('../../../../lib/feed/base', require('../../mock/lib/feed/base.mock')());
 		InvalidFeedError = td.replace('../../../../lib/errors/invalid-feed', td.constructor());
 		AtomFeed = require('../../../../lib/feed/atom');
 	});
@@ -54,6 +46,14 @@ describe('lib/feed/atom', () => {
 
 		it('finds a root-level feed element', () => {
 			td.verify(mockDocument.findElementWithName('feed'), {times: 1});
+		});
+
+		describe('.element', () => {
+
+			it('is set to the feed root element', () => {
+				assert.strictEqual(feed.element, mockRootElement);
+			});
+
 		});
 
 		describe('.meta', () => {
@@ -170,8 +170,8 @@ describe('lib/feed/atom', () => {
 					td.when(mockRootElement.getAttribute('lang')).thenReturn(null);
 				});
 
-				it('is set to the `null`', () => {
-					assert.strictEqual(feed.language, null);
+				it('is set to the language property of the base feed', () => {
+					assert.strictEqual(feed.language, 'mock-feed-language');
 				});
 
 			});
@@ -197,8 +197,8 @@ describe('lib/feed/atom', () => {
 					td.when(mockRootElement.findElementWithName('title')).thenReturn(null);
 				});
 
-				it('is set to `null`', () => {
-					assert.isNull(feed.title);
+				it('is set to the title property of the base feed', () => {
+					assert.strictEqual(feed.title, 'mock-feed-title');
 				});
 
 			});
@@ -238,8 +238,8 @@ describe('lib/feed/atom', () => {
 					td.when(mockRootElement.findElementWithName('subtitle')).thenReturn(null);
 				});
 
-				it('is set to `null`', () => {
-					assert.isNull(feed.description);
+				it('is set to the description property of the base feed', () => {
+					assert.strictEqual(feed.description, 'mock-feed-description');
 				});
 
 			});
@@ -279,8 +279,8 @@ describe('lib/feed/atom', () => {
 					td.when(mockRootElement.findElementWithName('rights')).thenReturn(null);
 				});
 
-				it('is set to `null`', () => {
-					assert.isNull(feed.copyright);
+				it('is set to the copyright property of the base feed', () => {
+					assert.strictEqual(feed.copyright, 'mock-feed-copyright');
 				});
 
 			});
@@ -351,8 +351,8 @@ describe('lib/feed/atom', () => {
 					]);
 				});
 
-				it('is set to `null`', () => {
-					assert.isNull(feed.url);
+				it('is set to the url property of the base feed', () => {
+					assert.strictEqual(feed.url, 'mock-feed-url');
 				});
 
 			});
@@ -363,8 +363,8 @@ describe('lib/feed/atom', () => {
 					td.when(mockRootElement.findElementsWithName('link')).thenReturn([]);
 				});
 
-				it('is set to `null`', () => {
-					assert.isNull(feed.url);
+				it('is set to the url property of the base feed', () => {
+					assert.strictEqual(feed.url, 'mock-feed-url');
 				});
 
 			});
@@ -420,8 +420,8 @@ describe('lib/feed/atom', () => {
 					]);
 				});
 
-				it('is set to `null`', () => {
-					assert.isNull(feed.self);
+				it('is set to the self property of the base feed', () => {
+					assert.strictEqual(feed.self, 'mock-feed-self');
 				});
 
 			});
@@ -432,8 +432,8 @@ describe('lib/feed/atom', () => {
 					td.when(mockRootElement.findElementsWithName('link')).thenReturn([]);
 				});
 
-				it('is set to `null`', () => {
-					assert.isNull(feed.self);
+				it('is set to the self property of the base feed', () => {
+					assert.strictEqual(feed.self, 'mock-feed-self');
 				});
 
 			});
@@ -442,8 +442,8 @@ describe('lib/feed/atom', () => {
 
 		describe('.published', () => {
 
-			it('is set to `null`', () => {
-				assert.isNull(feed.published);
+			it('is set to the published property of the base feed', () => {
+				assert.strictEqual(feed.published, 'mock-feed-published');
 			});
 
 		});
@@ -481,8 +481,8 @@ describe('lib/feed/atom', () => {
 					td.when(mockRootElement.findElementWithName('updated')).thenReturn(null);
 				});
 
-				it('is set to `null`', () => {
-					assert.isNull(feed.updated);
+				it('is set to the updated property of the base feed', () => {
+					assert.strictEqual(feed.updated, 'mock-feed-updated');
 				});
 
 			});
@@ -546,8 +546,8 @@ describe('lib/feed/atom', () => {
 					td.when(mockElement.getAttribute('version')).thenReturn(null);
 				});
 
-				it('is set to `null`', () => {
-					assert.isNull(feed.generator);
+				it('is set to the generator property of the base feed', () => {
+					assert.strictEqual(feed.generator, 'mock-feed-generator');
 				});
 
 			});
@@ -558,8 +558,8 @@ describe('lib/feed/atom', () => {
 					td.when(mockRootElement.findElementWithName('generator')).thenReturn(null);
 				});
 
-				it('is set to `null`', () => {
-					assert.isNull(feed.generator);
+				it('is set to the generator property of the base feed', () => {
+					assert.strictEqual(feed.generator, 'mock-feed-generator');
 				});
 
 			});
@@ -608,8 +608,8 @@ describe('lib/feed/atom', () => {
 					td.when(mockRootElement.findElementWithName('icon')).thenReturn(null);
 				});
 
-				it('is set to `null`', () => {
-					assert.isNull(feed.image);
+				it('is set to the image property of the base feed', () => {
+					assert.strictEqual(feed.image, 'mock-feed-image');
 				});
 
 			});

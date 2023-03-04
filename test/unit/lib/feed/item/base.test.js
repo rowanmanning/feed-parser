@@ -39,99 +39,72 @@ describe('lib/feed/item/base', () => {
 
 		describe('.id', () => {
 
-			it('throws an error', () => {
-				assert.throws(
-					() => feedItem.id,
-					'FeedItem.id must be implemented in an extending class'
-				);
+			it('is set to `null`', () => {
+				assert.isNull(feedItem.id);
 			});
 
 		});
 
 		describe('.title', () => {
 
-			it('throws an error', () => {
-				assert.throws(
-					() => feedItem.title,
-					'FeedItem.title must be implemented in an extending class'
-				);
+			it('is set to `null`', () => {
+				assert.isNull(feedItem.title);
 			});
 
 		});
 
 		describe('.description', () => {
 
-			it('throws an error', () => {
-				assert.throws(
-					() => feedItem.description,
-					'FeedItem.description must be implemented in an extending class'
-				);
+			it('is set to `null`', () => {
+				assert.isNull(feedItem.description);
 			});
 
 		});
 
 		describe('.url', () => {
 
-			it('throws an error', () => {
-				assert.throws(
-					() => feedItem.url,
-					'FeedItem.url must be implemented in an extending class'
-				);
+			it('is set to `null`', () => {
+				assert.isNull(feedItem.url);
 			});
 
 		});
 
 		describe('.published', () => {
 
-			it('throws an error', () => {
-				assert.throws(
-					() => feedItem.published,
-					'FeedItem.published must be implemented in an extending class'
-				);
+			it('is set to `null`', () => {
+				assert.isNull(feedItem.published);
 			});
 
 		});
 
 		describe('.updated', () => {
 
-			it('throws an error', () => {
-				assert.throws(
-					() => feedItem.updated,
-					'FeedItem.updated must be implemented in an extending class'
-				);
+			it('is set to `null`', () => {
+				assert.isNull(feedItem.updated);
 			});
 
 		});
 
 		describe('.content', () => {
 
-			it('throws an error', () => {
-				assert.throws(
-					() => feedItem.content,
-					'FeedItem.content must be implemented in an extending class'
-				);
+			it('is set to `null`', () => {
+				assert.isNull(feedItem.content);
 			});
 
 		});
 
 		describe('.image', () => {
 
-			it('throws an error', () => {
-				assert.throws(
-					() => feedItem.image,
-					'FeedItem.image must be implemented in an extending class'
-				);
+			it('is set to `null`', () => {
+				assert.isNull(feedItem.image);
 			});
 
 		});
 
 		describe('.media', () => {
 
-			it('throws an error', () => {
-				assert.throws(
-					() => feedItem.media,
-					'FeedItem.media must be implemented in an extending class'
-				);
+			it('is set to an empty array', () => {
+				assert.deepEqual(feedItem.media, []);
 			});
 
 		});

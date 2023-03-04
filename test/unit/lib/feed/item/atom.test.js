@@ -3,15 +3,6 @@
 const {assert} = require('chai');
 const td = require('testdouble');
 
-class MockFeedItem {
-
-	constructor(feed, element) {
-		this.feed = feed;
-		this.element = element;
-	}
-
-}
-
 describe('lib/feed/item/atom', () => {
 	let AtomFeedItem;
 	let FeedItem;
@@ -19,7 +10,7 @@ describe('lib/feed/item/atom', () => {
 
 	beforeEach(() => {
 		MockElement = require('../../../mock/lib/xml/element.mock')();
-		FeedItem = td.replace('../../../../../lib/feed/item/base', MockFeedItem);
+		FeedItem = td.replace('../../../../../lib/feed/item/base', require('../../../mock/lib/feed/item/base.mock')());
 		AtomFeedItem = require('../../../../../lib/feed/item/atom');
 	});
 
@@ -32,7 +23,6 @@ describe('lib/feed/item/atom', () => {
 		let feedItem;
 		let mockItemElement;
 		let mockFeed;
-
 
 		beforeEach(() => {
 			mockFeed = {};
@@ -63,8 +53,8 @@ describe('lib/feed/item/atom', () => {
 					td.when(mockItemElement.findElementWithName('id')).thenReturn(null);
 				});
 
-				it('is set to `null`', () => {
-					assert.isNull(feedItem.id);
+				it('is set to the id property of the base feed item', () => {
+					assert.strictEqual(feedItem.id, 'mock-feed-item-id');
 				});
 
 			});
@@ -90,8 +80,8 @@ describe('lib/feed/item/atom', () => {
 					td.when(mockItemElement.findElementWithName('title')).thenReturn(null);
 				});
 
-				it('is set to `null`', () => {
-					assert.isNull(feedItem.title);
+				it('is set to the title property of the base feed item', () => {
+					assert.strictEqual(feedItem.title, 'mock-feed-item-title');
 				});
 
 			});
@@ -117,8 +107,8 @@ describe('lib/feed/item/atom', () => {
 					td.when(mockItemElement.findElementWithName('summary')).thenReturn(null);
 				});
 
-				it('is set to `null`', () => {
-					assert.isNull(feedItem.description);
+				it('is set to the description property of the base feed item', () => {
+					assert.strictEqual(feedItem.description, 'mock-feed-item-description');
 				});
 
 			});
@@ -215,8 +205,8 @@ describe('lib/feed/item/atom', () => {
 					]);
 				});
 
-				it('is set to `null`', () => {
-					assert.isNull(feedItem.url);
+				it('is set to the url property of the base feed item', () => {
+					assert.strictEqual(feedItem.url, 'mock-feed-item-url');
 				});
 
 			});
@@ -227,8 +217,8 @@ describe('lib/feed/item/atom', () => {
 					td.when(mockItemElement.findElementsWithName('link')).thenReturn([]);
 				});
 
-				it('is set to `null`', () => {
-					assert.isNull(feedItem.url);
+				it('is set to the url property of the base feed item', () => {
+					assert.strictEqual(feedItem.url, 'mock-feed-item-url');
 				});
 
 			});
@@ -268,8 +258,8 @@ describe('lib/feed/item/atom', () => {
 					td.when(mockItemElement.findElementWithName('published')).thenReturn(null);
 				});
 
-				it('is set to `null`', () => {
-					assert.isNull(feedItem.published);
+				it('is set to the published property of the base feed item', () => {
+					assert.strictEqual(feedItem.published, 'mock-feed-item-published');
 				});
 
 			});
@@ -306,7 +296,20 @@ describe('lib/feed/item/atom', () => {
 			describe('when neither element exists', () => {
 
 				beforeEach(() => {
+					td.when(mockItemElement.findElementWithName('modified')).thenReturn(null);
+				});
+
+				it('is set to the updated property of the base feed item', () => {
+					assert.strictEqual(feedItem.updated, 'mock-feed-item-updated');
+				});
+
+			});
+
+			describe('when the base feed item updated property is null', () => {
+
+				beforeEach(() => {
 					Object.defineProperty(feedItem, 'published', {get: () => 'mock published date'});
+					Object.defineProperty(FeedItem.prototype, 'updated', {get: () => null});
 					td.when(mockItemElement.findElementWithName('modified')).thenReturn(null);
 				});
 
@@ -368,8 +371,8 @@ describe('lib/feed/item/atom', () => {
 					mockContentElement.textContentNormalized = '';
 				});
 
-				it('is set to `null`', () => {
-					assert.isNull(feedItem.content);
+				it('is set to the content property of the base feed item', () => {
+					assert.strictEqual(feedItem.content, 'mock-feed-item-content');
 				});
 
 			});
@@ -380,8 +383,8 @@ describe('lib/feed/item/atom', () => {
 					td.when(mockItemElement.findElementWithName('content')).thenReturn(null);
 				});
 
-				it('is set to `null`', () => {
-					assert.isNull(feedItem.content);
+				it('is set to the content property of the base feed item', () => {
+					assert.strictEqual(feedItem.content, 'mock-feed-item-content');
 				});
 
 			});
@@ -440,8 +443,8 @@ describe('lib/feed/item/atom', () => {
 					td.when(mockItemElement.findElementWithName('thumbnail')).thenReturn(null);
 				});
 
-				it('is set to `null`', () => {
-					assert.isNull(feedItem.image);
+				it('is set to the image property of the base feed item', () => {
+					assert.strictEqual(feedItem.image, 'mock-feed-item-image');
 				});
 
 			});
