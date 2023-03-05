@@ -1,11 +1,14 @@
 'use strict';
 
 const {assert} = require('chai');
+const td = require('testdouble');
 
 describe('lib/feed/item/base', () => {
 	let FeedItem;
+	let MockElement;
 
 	beforeEach(() => {
+		MockElement = require('../../../mock/lib/xml/element.mock')();
 		FeedItem = require('../../../../../lib/feed/item/base');
 	});
 
@@ -16,9 +19,11 @@ describe('lib/feed/item/base', () => {
 
 	describe('new FeedItem(feed, element)', () => {
 		let feedItem;
+		let mockItemElement;
 
 		beforeEach(() => {
-			feedItem = new FeedItem('mock-feed', 'mock-element');
+			mockItemElement = new MockElement();
+			feedItem = new FeedItem('mock-feed', mockItemElement);
 		});
 
 		describe('.feed', () => {
@@ -32,7 +37,7 @@ describe('lib/feed/item/base', () => {
 		describe('.element', () => {
 
 			it('is set to the passed in element', () => {
-				assert.strictEqual(feedItem.element, 'mock-element');
+				assert.strictEqual(feedItem.element, mockItemElement);
 			});
 
 		});
@@ -46,9 +51,28 @@ describe('lib/feed/item/base', () => {
 		});
 
 		describe('.title', () => {
+			let mockTitleElement;
 
-			it('is set to `null`', () => {
-				assert.isNull(feedItem.title);
+			beforeEach(() => {
+				mockTitleElement = new MockElement();
+				mockTitleElement.textContentNormalized = 'mock title text';
+				td.when(mockItemElement.findElementWithName('title')).thenReturn(mockTitleElement);
+			});
+
+			it('is set to the text of the first title element found in the feed item', () => {
+				assert.strictEqual(feedItem.title, 'mock title text');
+			});
+
+			describe('when a title element does not exist', () => {
+
+				beforeEach(() => {
+					td.when(mockItemElement.findElementWithName('title')).thenReturn(null);
+				});
+
+				it('is set to `null`', () => {
+					assert.isNull(feedItem.title);
+				});
+
 			});
 
 		});

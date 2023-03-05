@@ -62,28 +62,9 @@ describe('lib/feed/item/rss', () => {
 		});
 
 		describe('.title', () => {
-			let mockTitleElement;
 
-			beforeEach(() => {
-				mockTitleElement = new MockElement();
-				mockTitleElement.textContentNormalized = 'mock title text';
-				td.when(mockItemElement.findElementWithName('title')).thenReturn(mockTitleElement);
-			});
-
-			it('is set to the text of the first title element found in the feed item', () => {
-				assert.strictEqual(feedItem.title, 'mock title text');
-			});
-
-			describe('when a title element does not exist', () => {
-
-				beforeEach(() => {
-					td.when(mockItemElement.findElementWithName('title')).thenReturn(null);
-				});
-
-				it('is set to the title property of the base feed item', () => {
-					assert.strictEqual(feedItem.title, 'mock-feed-item-title');
-				});
-
+			it('is set to the title property of the base feed item', () => {
+				assert.strictEqual(feedItem.title, 'mock-feed-item-title');
 			});
 
 		});
