@@ -41,7 +41,11 @@ module.exports = function createMock() {
 		}
 
 		get media() {
-			return 'mock-feed-item-media';
+			return [
+				{
+					url: 'https://mock-feed-item-media-1'
+				}
+			];
 		}
 
 	}

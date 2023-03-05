@@ -26,8 +26,19 @@
 				"published": "2023-02-20T20:00:01.000Z",
 				"updated": "2023-02-20T22:24:07.000Z",
 				"content": null,
-				"image": null,
-				"media": []
+				"image": {
+					"url": "https://i1.ytimg.com/vi/0_NVdZp8haA/hqdefault.jpg",
+					"title": null
+				},
+				"media": [
+					{
+						"url": "https://www.youtube.com/v/0_NVdZp8haA?version=3",
+						"image": "https://i1.ytimg.com/vi/0_NVdZp8haA/hqdefault.jpg",
+						"length": null,
+						"type": "application",
+						"mimeType": "application/x-shockwave-flash"
+					}
+				]
 			},
 			{
 				"id": "yt:video:ORUD8YqDp5E",
@@ -37,8 +48,19 @@
 				"published": "2023-02-16T18:00:09.000Z",
 				"updated": "2023-02-16T18:00:09.000Z",
 				"content": null,
-				"image": null,
-				"media": []
+				"image": {
+					"url": "https://i4.ytimg.com/vi/ORUD8YqDp5E/hqdefault.jpg",
+					"title": null
+				},
+				"media": [
+					{
+						"url": "https://www.youtube.com/v/ORUD8YqDp5E?version=3",
+						"image": "https://i4.ytimg.com/vi/ORUD8YqDp5E/hqdefault.jpg",
+						"length": null,
+						"type": "application",
+						"mimeType": "application/x-shockwave-flash"
+					}
+				]
 			},
 			{
 				"id": "yt:video:wQGk9ZUIOUU",
@@ -48,8 +70,19 @@
 				"published": "2023-02-13T20:00:31.000Z",
 				"updated": "2023-02-16T17:09:07.000Z",
 				"content": null,
-				"image": null,
-				"media": []
+				"image": {
+					"url": "https://i4.ytimg.com/vi/wQGk9ZUIOUU/hqdefault.jpg",
+					"title": null
+				},
+				"media": [
+					{
+						"url": "https://www.youtube.com/v/wQGk9ZUIOUU?version=3",
+						"image": "https://i4.ytimg.com/vi/wQGk9ZUIOUU/hqdefault.jpg",
+						"length": null,
+						"type": "application",
+						"mimeType": "application/x-shockwave-flash"
+					}
+				]
 			},
 			{
 				"id": "yt:video:h-Df3BQ3FmM",
@@ -59,8 +92,19 @@
 				"published": "2023-02-09T18:00:14.000Z",
 				"updated": "2023-02-09T21:09:15.000Z",
 				"content": null,
-				"image": null,
-				"media": []
+				"image": {
+					"url": "https://i1.ytimg.com/vi/h-Df3BQ3FmM/hqdefault.jpg",
+					"title": null
+				},
+				"media": [
+					{
+						"url": "https://www.youtube.com/v/h-Df3BQ3FmM?version=3",
+						"image": "https://i1.ytimg.com/vi/h-Df3BQ3FmM/hqdefault.jpg",
+						"length": null,
+						"type": "application",
+						"mimeType": "application/x-shockwave-flash"
+					}
+				]
 			},
 			{
 				"id": "yt:video:yGzf-LmpWz8",
@@ -70,8 +114,19 @@
 				"published": "2023-02-06T20:00:17.000Z",
 				"updated": "2023-02-13T20:30:41.000Z",
 				"content": null,
-				"image": null,
-				"media": []
+				"image": {
+					"url": "https://i2.ytimg.com/vi/yGzf-LmpWz8/hqdefault.jpg",
+					"title": null
+				},
+				"media": [
+					{
+						"url": "https://www.youtube.com/v/yGzf-LmpWz8?version=3",
+						"image": "https://i2.ytimg.com/vi/yGzf-LmpWz8/hqdefault.jpg",
+						"length": null,
+						"type": "application",
+						"mimeType": "application/x-shockwave-flash"
+					}
+				]
 			},
 			{
 				"id": "yt:video:2DWZO-J4zps",
@@ -81,8 +136,19 @@
 				"published": "2023-02-02T18:00:03.000Z",
 				"updated": "2023-02-02T18:00:03.000Z",
 				"content": null,
-				"image": null,
-				"media": []
+				"image": {
+					"url": "https://i3.ytimg.com/vi/2DWZO-J4zps/hqdefault.jpg",
+					"title": null
+				},
+				"media": [
+					{
+						"url": "https://www.youtube.com/v/2DWZO-J4zps?version=3",
+						"image": "https://i3.ytimg.com/vi/2DWZO-J4zps/hqdefault.jpg",
+						"length": null,
+						"type": "application",
+						"mimeType": "application/x-shockwave-flash"
+					}
+				]
 			},
 			{
 				"id": "yt:video:1knIHqLqThk",
@@ -92,8 +158,19 @@
 				"published": "2023-01-30T20:00:00.000Z",
 				"updated": "2023-02-02T01:49:21.000Z",
 				"content": null,
-				"image": null,
-				"media": []
+				"image": {
+					"url": "https://i2.ytimg.com/vi/1knIHqLqThk/hqdefault.jpg",
+					"title": null
+				},
+				"media": [
+					{
+						"url": "https://www.youtube.com/v/1knIHqLqThk?version=3",
+						"image": "https://i2.ytimg.com/vi/1knIHqLqThk/hqdefault.jpg",
+						"length": null,
+						"type": "application",
+						"mimeType": "application/x-shockwave-flash"
+					}
+				]
 			},
 			{
 				"id": "yt:video:eRcD8chte08",
@@ -103,8 +180,19 @@
 				"published": "2023-01-27T18:00:12.000Z",
 				"updated": "2023-02-04T14:01:27.000Z",
 				"content": null,
-				"image": null,
-				"media": []
+				"image": {
+					"url": "https://i2.ytimg.com/vi/eRcD8chte08/hqdefault.jpg",
+					"title": null
+				},
+				"media": [
+					{
+						"url": "https://www.youtube.com/v/eRcD8chte08?version=3",
+						"image": "https://i2.ytimg.com/vi/eRcD8chte08/hqdefault.jpg",
+						"length": null,
+						"type": "application",
+						"mimeType": "application/x-shockwave-flash"
+					}
+				]
 			},
 			{
 				"id": "yt:video:1A2JVqUt1T8",
@@ -114,8 +202,19 @@
 				"published": "2023-01-26T18:00:00.000Z",
 				"updated": "2023-02-13T04:50:23.000Z",
 				"content": null,
-				"image": null,
-				"media": []
+				"image": {
+					"url": "https://i2.ytimg.com/vi/1A2JVqUt1T8/hqdefault.jpg",
+					"title": null
+				},
+				"media": [
+					{
+						"url": "https://www.youtube.com/v/1A2JVqUt1T8?version=3",
+						"image": "https://i2.ytimg.com/vi/1A2JVqUt1T8/hqdefault.jpg",
+						"length": null,
+						"type": "application",
+						"mimeType": "application/x-shockwave-flash"
+					}
+				]
 			},
 			{
 				"id": "yt:video:IZ39H9H_y5Q",
@@ -125,8 +224,19 @@
 				"published": "2023-01-25T18:00:09.000Z",
 				"updated": "2023-01-25T18:00:09.000Z",
 				"content": null,
-				"image": null,
-				"media": []
+				"image": {
+					"url": "https://i2.ytimg.com/vi/IZ39H9H_y5Q/hqdefault.jpg",
+					"title": null
+				},
+				"media": [
+					{
+						"url": "https://www.youtube.com/v/IZ39H9H_y5Q?version=3",
+						"image": "https://i2.ytimg.com/vi/IZ39H9H_y5Q/hqdefault.jpg",
+						"length": null,
+						"type": "application",
+						"mimeType": "application/x-shockwave-flash"
+					}
+				]
 			},
 			{
 				"id": "yt:video:7t2NJJjy8r8",
@@ -136,8 +246,19 @@
 				"published": "2023-01-16T20:00:02.000Z",
 				"updated": "2023-01-18T21:12:16.000Z",
 				"content": null,
-				"image": null,
-				"media": []
+				"image": {
+					"url": "https://i4.ytimg.com/vi/7t2NJJjy8r8/hqdefault.jpg",
+					"title": null
+				},
+				"media": [
+					{
+						"url": "https://www.youtube.com/v/7t2NJJjy8r8?version=3",
+						"image": "https://i4.ytimg.com/vi/7t2NJJjy8r8/hqdefault.jpg",
+						"length": null,
+						"type": "application",
+						"mimeType": "application/x-shockwave-flash"
+					}
+				]
 			},
 			{
 				"id": "yt:video:nqXmeYBqF1c",
@@ -147,8 +268,19 @@
 				"published": "2023-01-09T20:00:21.000Z",
 				"updated": "2023-02-16T11:41:37.000Z",
 				"content": null,
-				"image": null,
-				"media": []
+				"image": {
+					"url": "https://i3.ytimg.com/vi/nqXmeYBqF1c/hqdefault.jpg",
+					"title": null
+				},
+				"media": [
+					{
+						"url": "https://www.youtube.com/v/nqXmeYBqF1c?version=3",
+						"image": "https://i3.ytimg.com/vi/nqXmeYBqF1c/hqdefault.jpg",
+						"length": null,
+						"type": "application",
+						"mimeType": "application/x-shockwave-flash"
+					}
+				]
 			},
 			{
 				"id": "yt:video:7gRiV02TWww",
@@ -158,8 +290,19 @@
 				"published": "2023-01-04T20:00:02.000Z",
 				"updated": "2023-02-01T04:29:30.000Z",
 				"content": null,
-				"image": null,
-				"media": []
+				"image": {
+					"url": "https://i4.ytimg.com/vi/7gRiV02TWww/hqdefault.jpg",
+					"title": null
+				},
+				"media": [
+					{
+						"url": "https://www.youtube.com/v/7gRiV02TWww?version=3",
+						"image": "https://i4.ytimg.com/vi/7gRiV02TWww/hqdefault.jpg",
+						"length": null,
+						"type": "application",
+						"mimeType": "application/x-shockwave-flash"
+					}
+				]
 			},
 			{
 				"id": "yt:video:cGhVgjYSpIE",
@@ -169,8 +312,19 @@
 				"published": "2022-12-26T20:00:16.000Z",
 				"updated": "2022-12-28T17:38:43.000Z",
 				"content": null,
-				"image": null,
-				"media": []
+				"image": {
+					"url": "https://i4.ytimg.com/vi/cGhVgjYSpIE/hqdefault.jpg",
+					"title": null
+				},
+				"media": [
+					{
+						"url": "https://www.youtube.com/v/cGhVgjYSpIE?version=3",
+						"image": "https://i4.ytimg.com/vi/cGhVgjYSpIE/hqdefault.jpg",
+						"length": null,
+						"type": "application",
+						"mimeType": "application/x-shockwave-flash"
+					}
+				]
 			},
 			{
 				"id": "yt:video:1OHsbXHMUs4",
@@ -180,8 +334,19 @@
 				"published": "2022-12-19T20:00:00.000Z",
 				"updated": "2023-02-13T10:47:55.000Z",
 				"content": null,
-				"image": null,
-				"media": []
+				"image": {
+					"url": "https://i2.ytimg.com/vi/1OHsbXHMUs4/hqdefault.jpg",
+					"title": null
+				},
+				"media": [
+					{
+						"url": "https://www.youtube.com/v/1OHsbXHMUs4?version=3",
+						"image": "https://i2.ytimg.com/vi/1OHsbXHMUs4/hqdefault.jpg",
+						"length": null,
+						"type": "application",
+						"mimeType": "application/x-shockwave-flash"
+					}
+				]
 			}
 		]
 	}

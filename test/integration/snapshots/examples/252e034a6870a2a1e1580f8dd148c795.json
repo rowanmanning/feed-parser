@@ -33,6 +33,7 @@
 				"media": [
 					{
 						"url": "http://example.com/podcasts/everything/AllAboutEverythingEpisode4.mp3",
+						"image": null,
 						"length": 498537,
 						"type": "audio",
 						"mimeType": "audio/mpeg"
@@ -51,6 +52,7 @@
 				"media": [
 					{
 						"url": "http://example.com/podcasts/everything/mthood.m4a",
+						"image": null,
 						"length": 8727310,
 						"type": "audio",
 						"mimeType": "audio/x-m4a"
@@ -72,6 +74,7 @@
 				"media": [
 					{
 						"url": "http://example.com/podcasts/boulder.mp4",
+						"image": null,
 						"length": 5650889,
 						"type": "video",
 						"mimeType": "video/mp4"
@@ -93,6 +96,7 @@
 				"media": [
 					{
 						"url": "http://example.com/podcasts/everything/caribou.m4v",
+						"image": null,
 						"length": 5650889,
 						"type": "audio",
 						"mimeType": "audio/x-m4v"
@@ -111,6 +115,7 @@
 				"media": [
 					{
 						"url": "http://example.com/podcasts/everything/AllAboutEverythingEpisode4.mp3",
+						"image": null,
 						"length": 498537,
 						"type": "audio",
 						"mimeType": "audio/mpeg"
@@ -129,6 +134,7 @@
 				"media": [
 					{
 						"url": "http://example.com/podcasts/everything/AllAboutEverythingEpisode4.mp3",
+						"image": null,
 						"length": 498537,
 						"type": "audio",
 						"mimeType": "audio/mpeg"
@@ -147,6 +153,7 @@
 				"media": [
 					{
 						"url": "http://example.com/podcasts/everything/AllAboutEverythingEpisode4.mp3",
+						"image": null,
 						"length": 498537,
 						"type": "audio",
 						"mimeType": "audio/mpeg"
@@ -165,6 +172,7 @@
 				"media": [
 					{
 						"url": "http://example.com/podcasts/everything/AllAboutEverythingEpisode4.mp3",
+						"image": null,
 						"length": 498537,
 						"type": "audio",
 						"mimeType": "audio/mpeg"
@@ -183,6 +191,7 @@
 				"media": [
 					{
 						"url": "http://example.com/podcasts/everything/AllAboutEverythingEpisode4.mp3",
+						"image": null,
 						"length": 498537,
 						"type": "audio",
 						"mimeType": "audio/mpeg"

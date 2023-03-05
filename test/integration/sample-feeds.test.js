@@ -331,30 +331,23 @@ for (const suite of suites) {
 					// DIFF: feedparser does not seem to fall back to the first image RSS
 					// enclosure. We just ignore cases where their image is null but ours
 					// is defined.
-					//
-					// HACK: for now we have to ignore YouTube feeds because they're
-					// Atom but use Media RSS elements. I think we need to overhaul
-					// our use of different specs (media, itunes, dc) which sit on
-					// top of RSS and Atom. https://www.rssboard.org/media-rss
 					it('has ROUGHLY matching feed item images', () => {
-						if (!actual.title.includes('YouTube')) {
-							for (const [i, item] of Object.entries(actual.feed.items)) {
-								const feedParserItem = feedParserItems[i];
-								let feedParserImage = feedParserItem.image;
-								if (feedParserImage && !Object.keys(feedParserImage).length) {
-									feedParserImage = null;
-								}
-								if (item.image?.title === null) {
-									delete item.image.title;
-								}
-
-								// Get around feedparser not using the first image enclosure
-								if (item.image && !feedParserImage) {
-									return;
-								}
-
-								assert.deepEqual(item.image, feedParserImage);
+						for (const [i, item] of Object.entries(actual.feed.items)) {
+							const feedParserItem = feedParserItems[i];
+							let feedParserImage = feedParserItem.image;
+							if (feedParserImage && !Object.keys(feedParserImage).length) {
+								feedParserImage = null;
 							}
+							if (item.image?.title === null) {
+								delete item.image.title;
+							}
+
+							// Get around feedparser not using the first image enclosure
+							if (item.image && !feedParserImage) {
+								return;
+							}
+
+							assert.deepEqual(item.image, feedParserImage);
 						}
 					});
 
@@ -364,26 +357,32 @@ for (const suite of suites) {
 					// mimetype. We also set the type to `null` when one is not set.
 					// We address this in the testsby modifying both enclosures to
 					// match each other more closely
+					//
+					// DIFF: feedparser doesn't seem to find media:content items when
+					// they're in a media:group. We get around this by ignoring any
+					// feeds which make use of media:group elements.
 					it('has ROUGHLY matching feed item media', () => {
-						for (const [i, item] of Object.entries(actual.feed.items)) {
-							const feedParserItem = feedParserItems[i];
+						if (!xml.includes('<media:group')) {
+							for (const [i, item] of Object.entries(actual.feed.items)) {
+								const feedParserItem = feedParserItems[i];
 
-							const feedParserItemEnclosures = feedParserItem.enclosures.map(({url, type, length}) => {
-								return {
-									url,
-									type: type || null,
-									length
-								};
-							});
-							const media = item.media.map(({url, mimeType, length, type}) => {
-								return {
-									url,
-									type: mimeType || type || null,
-									length: length === null ? null : `${length}`
-								};
-							});
+								const feedParserItemEnclosures = feedParserItem.enclosures.map(({url, type, length}) => {
+									return {
+										url,
+										type: type || null,
+										length
+									};
+								});
+								const media = item.media.map(({url, mimeType, length, type}) => {
+									return {
+										url,
+										type: mimeType || type || null,
+										length: length === null ? null : `${length}`
+									};
+								});
 
-							assert.deepEqual(media, feedParserItemEnclosures);
+								assert.deepEqual(media, feedParserItemEnclosures);
+							}
 						}
 					});
 

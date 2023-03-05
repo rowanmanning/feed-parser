@@ -467,19 +467,24 @@ describe('lib/feed/item/atom', () => {
 				td.when(mockItemElement.findElementsWithName('link')).thenReturn(mockLinks);
 			});
 
-			it('is set to an array of objects representing the enclosures found in the item', () => {
+			it('is set to an array of objects representing the enclosures found in the item and the base item media', () => {
 				assert.deepEqual(feedItem.media, [
 					{
 						url: 'https://mock-enclosure-1',
+						image: 'https://mock-enclosure-1',
 						length: 1234,
 						type: 'image',
 						mimeType: 'image/png'
 					},
 					{
 						url: 'https://mock-enclosure-2',
+						image: null,
 						length: 5678,
 						type: 'video',
 						mimeType: 'video/mp4'
+					},
+					{
+						url: 'https://mock-feed-item-media-1'
 					}
 				]);
 			});
@@ -494,9 +499,13 @@ describe('lib/feed/item/atom', () => {
 					assert.deepEqual(feedItem.media, [
 						{
 							url: 'https://mock-enclosure-1',
+							image: 'https://mock-enclosure-1',
 							length: 1234,
 							type: 'image',
 							mimeType: 'image/png'
+						},
+						{
+							url: 'https://mock-feed-item-media-1'
 						}
 					]);
 				});
@@ -531,9 +540,37 @@ describe('lib/feed/item/atom', () => {
 
 			});
 
-			describe('when no link elements exist', () => {
+			describe('when an enclosure and base item media has the same URL', () => {
 
 				beforeEach(() => {
+					td.when(mockLinks[2].getAttributeAsUrl('href')).thenReturn('https://mock-feed-item-media-1');
+				});
+
+				it('deduplicates, favouring the enclosure', () => {
+					assert.deepEqual(feedItem.media, [
+						{
+							url: 'https://mock-feed-item-media-1',
+							image: 'https://mock-feed-item-media-1',
+							length: 1234,
+							type: 'image',
+							mimeType: 'image/png'
+						},
+						{
+							url: 'https://mock-enclosure-2',
+							image: null,
+							length: 5678,
+							type: 'video',
+							mimeType: 'video/mp4'
+						}
+					]);
+				});
+
+			});
+
+			describe('when no link elements or base item media elements exist', () => {
+
+				beforeEach(() => {
+					Object.defineProperty(FeedItem.prototype, 'media', {get: () => []});
 					td.when(mockItemElement.findElementsWithName('link')).thenReturn([]);
 				});
 
