@@ -112,12 +112,13 @@
 				"content": null,
 				"image": {
 					"url": "https://files.mastodon.social/media_attachments/files/109/810/124/471/341/410/original/a85a711cac14979c.jpeg",
-					"title": null
+					"title": "Food in Korean restaurant on top of table"
 				},
 				"media": [
 					{
 						"url": "https://files.mastodon.social/media_attachments/files/109/810/124/471/341/410/original/a85a711cac14979c.jpeg",
 						"image": "https://files.mastodon.social/media_attachments/files/109/810/124/471/341/410/original/a85a711cac14979c.jpeg",
+						"title": "Food in Korean restaurant on top of table",
 						"length": 649824,
 						"type": "image",
 						"mimeType": "image/jpeg"
@@ -222,12 +223,13 @@
 				"content": null,
 				"image": {
 					"url": "https://files.mastodon.social/media_attachments/files/109/722/222/976/767/598/original/c4d57fc4988f5bfa.png",
-					"title": null
+					"title": "A photo of me in formal attire (red tie, brown jacket)"
 				},
 				"media": [
 					{
 						"url": "https://files.mastodon.social/media_attachments/files/109/722/222/976/767/598/original/c4d57fc4988f5bfa.png",
 						"image": "https://files.mastodon.social/media_attachments/files/109/722/222/976/767/598/original/c4d57fc4988f5bfa.png",
+						"title": "A photo of me in formal attire (red tie, brown jacket)",
 						"length": 1375434,
 						"type": "image",
 						"mimeType": "image/png"

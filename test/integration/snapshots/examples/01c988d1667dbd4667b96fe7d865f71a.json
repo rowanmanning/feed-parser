@@ -38,6 +38,7 @@
 					{
 						"url": "http://example.org/audio/demo.mp3",
 						"image": null,
+						"title": null,
 						"length": 1069871,
 						"type": "audio",
 						"mimeType": "audio/mpeg"

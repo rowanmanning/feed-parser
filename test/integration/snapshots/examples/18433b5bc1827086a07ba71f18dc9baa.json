@@ -35,6 +35,7 @@
 					{
 						"url": "http://www.example.com/movie.mp4",
 						"image": null,
+						"title": null,
 						"length": 42301,
 						"type": "video",
 						"mimeType": "video/mpeg4"

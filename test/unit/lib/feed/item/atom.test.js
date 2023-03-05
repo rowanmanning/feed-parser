@@ -379,15 +379,11 @@ describe('lib/feed/item/atom', () => {
 				feedItem.mediaImages = [
 					{
 						url: 'mock-image-url-1',
-						length: 1234,
-						type: 'image',
-						mimeType: 'image/png'
+						title: 'mock-image-title-1'
 					},
 					{
 						url: 'mock-image-url-2',
-						length: 4567,
-						type: 'image',
-						mimeType: 'image/jpg'
+						title: 'mock-image-title-2'
 					}
 				];
 				mockThumbnailElement = new MockElement();
@@ -398,7 +394,7 @@ describe('lib/feed/item/atom', () => {
 			it('is set to a representation of the first image in the feed item', () => {
 				assert.deepEqual(feedItem.image, {
 					url: 'mock-image-url-1',
-					title: null
+					title: 'mock-image-title-1'
 				});
 			});
 
@@ -457,12 +453,14 @@ describe('lib/feed/item/atom', () => {
 				td.when(mockLinks[2].getAttributeAsUrl('href')).thenReturn('https://mock-enclosure-1');
 				td.when(mockLinks[2].getAttributeAsNumber('length')).thenReturn(1234);
 				td.when(mockLinks[2].getAttribute('type')).thenReturn('image/png');
+				td.when(mockLinks[2].getAttribute('title')).thenReturn('enclosure title 1');
 
 				// Link rel enclosure
 				td.when(mockLinks[3].getAttribute('rel')).thenReturn('enclosure');
 				td.when(mockLinks[3].getAttributeAsUrl('href')).thenReturn('https://mock-enclosure-2');
 				td.when(mockLinks[3].getAttributeAsNumber('length')).thenReturn(5678);
 				td.when(mockLinks[3].getAttribute('type')).thenReturn('video/mp4');
+				td.when(mockLinks[3].getAttribute('title')).thenReturn(null);
 
 				td.when(mockItemElement.findElementsWithName('link')).thenReturn(mockLinks);
 			});
@@ -472,6 +470,7 @@ describe('lib/feed/item/atom', () => {
 					{
 						url: 'https://mock-enclosure-1',
 						image: 'https://mock-enclosure-1',
+						title: 'enclosure title 1',
 						length: 1234,
 						type: 'image',
 						mimeType: 'image/png'
@@ -479,6 +478,7 @@ describe('lib/feed/item/atom', () => {
 					{
 						url: 'https://mock-enclosure-2',
 						image: null,
+						title: null,
 						length: 5678,
 						type: 'video',
 						mimeType: 'video/mp4'
@@ -500,6 +500,7 @@ describe('lib/feed/item/atom', () => {
 						{
 							url: 'https://mock-enclosure-1',
 							image: 'https://mock-enclosure-1',
+							title: 'enclosure title 1',
 							length: 1234,
 							type: 'image',
 							mimeType: 'image/png'
@@ -551,6 +552,7 @@ describe('lib/feed/item/atom', () => {
 						{
 							url: 'https://mock-feed-item-media-1',
 							image: 'https://mock-feed-item-media-1',
+							title: 'enclosure title 1',
 							length: 1234,
 							type: 'image',
 							mimeType: 'image/png'
@@ -558,6 +560,7 @@ describe('lib/feed/item/atom', () => {
 						{
 							url: 'https://mock-enclosure-2',
 							image: null,
+							title: null,
 							length: 5678,
 							type: 'video',
 							mimeType: 'video/mp4'

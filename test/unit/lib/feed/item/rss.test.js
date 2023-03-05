@@ -342,15 +342,11 @@ describe('lib/feed/item/rss', () => {
 				feedItem.mediaImages = [
 					{
 						url: 'mock-image-url-1',
-						length: 1234,
-						type: 'image',
-						mimeType: 'image/png'
+						title: 'mock-image-title-1'
 					},
 					{
 						url: 'mock-image-url-2',
-						length: 4567,
-						type: 'image',
-						mimeType: 'image/jpg'
+						title: 'mock-image-title-2'
 					}
 				];
 
@@ -420,7 +416,7 @@ describe('lib/feed/item/rss', () => {
 				it('is set to a representation of the first image in the feed item', () => {
 					assert.deepEqual(feedItem.image, {
 						url: 'mock-image-url-1',
-						title: null
+						title: 'mock-image-title-1'
 					});
 				});
 
@@ -485,6 +481,7 @@ describe('lib/feed/item/rss', () => {
 					{
 						url: 'https://mock-enclosure-1',
 						image: 'https://mock-enclosure-1',
+						title: null,
 						length: 1234,
 						type: 'image',
 						mimeType: 'image/png'
@@ -492,6 +489,7 @@ describe('lib/feed/item/rss', () => {
 					{
 						url: 'https://mock-enclosure-2',
 						image: null,
+						title: null,
 						length: 5678,
 						type: 'video',
 						mimeType: 'video/mp4'
@@ -513,6 +511,7 @@ describe('lib/feed/item/rss', () => {
 						{
 							url: 'https://mock-enclosure-1',
 							image: 'https://mock-enclosure-1',
+							title: null,
 							length: 1234,
 							type: 'image',
 							mimeType: 'image/png'
@@ -564,6 +563,7 @@ describe('lib/feed/item/rss', () => {
 						{
 							url: 'https://mock-feed-item-media-1',
 							image: 'https://mock-feed-item-media-1',
+							title: null,
 							length: 1234,
 							type: 'image',
 							mimeType: 'image/png'
@@ -571,6 +571,7 @@ describe('lib/feed/item/rss', () => {
 						{
 							url: 'https://mock-enclosure-2',
 							image: null,
+							title: null,
 							length: 5678,
 							type: 'video',
 							mimeType: 'video/mp4'

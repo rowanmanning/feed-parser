@@ -170,6 +170,7 @@ describe('lib/feed/item/base', () => {
 					{
 						url: 'https://mock-media-1',
 						image: null,
+						title: null,
 						length: 1234,
 						type: 'mock-medium-1',
 						mimeType: 'image/png'
@@ -177,6 +178,7 @@ describe('lib/feed/item/base', () => {
 					{
 						url: 'https://mock-media-2',
 						image: null,
+						title: null,
 						length: 5678,
 						type: 'mock-medium-2',
 						mimeType: 'video/mp4'
@@ -193,7 +195,6 @@ describe('lib/feed/item/base', () => {
 					td.when(mockThumbnailElement.getAttributeAsUrl('url')).thenReturn('https://mock-thumbnail');
 					mockMedia[0].parent = new MockElement();
 					td.when(mockMedia[0].parent.findElementWithName('thumbnail')).thenReturn(mockThumbnailElement);
-					td.when(mockMedia[0].getAttributeAsNumber('length')).thenReturn(null);
 				});
 
 				it('is has an image property set to the thumbnail URL', () => {
@@ -229,6 +230,120 @@ describe('lib/feed/item/base', () => {
 
 			});
 
+			describe('when a media:content element contains a media:title element', () => {
+				let mockTitleElement;
+
+				beforeEach(() => {
+					mockTitleElement = new MockElement();
+					mockTitleElement.namespaceUri = 'http://search.yahoo.com/mrss/';
+					mockTitleElement.textContentNormalized = 'mock title';
+					td.when(mockMedia[0].findElementWithName('title')).thenReturn(mockTitleElement);
+				});
+
+				it('is has a title property set to the title content', () => {
+					assert.strictEqual(feedItem.media[0].title, 'mock title');
+				});
+
+				describe('when the title does not have any text', () => {
+
+					beforeEach(() => {
+						mockTitleElement.textContentNormalized = '';
+					});
+
+					it('is has an title property set to `null`', () => {
+						assert.isNull(feedItem.media[0].title);
+					});
+
+				});
+
+			});
+
+			describe('when a media:content has a sibling media:title element', () => {
+				let mockTitleElement;
+
+				beforeEach(() => {
+					mockTitleElement = new MockElement();
+					mockTitleElement.namespaceUri = 'http://search.yahoo.com/mrss/';
+					mockTitleElement.textContentNormalized = 'mock title';
+					mockMedia[0].parent = new MockElement();
+					td.when(mockMedia[0].parent.findElementWithName('title')).thenReturn(mockTitleElement);
+				});
+
+				it('is has a title property set to the title content', () => {
+					assert.strictEqual(feedItem.media[0].title, 'mock title');
+				});
+
+				describe('when the title does not have any text', () => {
+
+					beforeEach(() => {
+						mockTitleElement.textContentNormalized = '';
+					});
+
+					it('is has an title property set to `null`', () => {
+						assert.isNull(feedItem.media[0].title);
+					});
+
+				});
+
+			});
+
+			describe('when a media:content element contains a media:description element', () => {
+				let mockDescriptionElement;
+
+				beforeEach(() => {
+					mockDescriptionElement = new MockElement();
+					mockDescriptionElement.namespaceUri = 'http://search.yahoo.com/mrss/';
+					mockDescriptionElement.textContentNormalized = 'mock description';
+					td.when(mockMedia[0].findElementWithName('description')).thenReturn(mockDescriptionElement);
+				});
+
+				it('is has a title property set to the title content', () => {
+					assert.strictEqual(feedItem.media[0].title, 'mock description');
+				});
+
+				describe('when the title does not have any text', () => {
+
+					beforeEach(() => {
+						mockDescriptionElement.textContentNormalized = '';
+					});
+
+					it('is has an title property set to `null`', () => {
+						assert.isNull(feedItem.media[0].title);
+					});
+
+				});
+
+			});
+
+			describe('when a media:content has a sibling media:description element', () => {
+				let mockDescriptionElement;
+
+				beforeEach(() => {
+					mockDescriptionElement = new MockElement();
+					mockDescriptionElement.namespaceUri = 'http://search.yahoo.com/mrss/';
+					mockDescriptionElement.textContentNormalized = 'mock description';
+					mockMedia[0].parent = new MockElement();
+					td.when(mockMedia[0].parent.findElementWithName('description')).thenReturn(mockDescriptionElement);
+				});
+
+				it('is has a title property set to the title content', () => {
+					assert.strictEqual(feedItem.media[0].title, 'mock description');
+				});
+
+				describe('when the title does not have any text', () => {
+
+					beforeEach(() => {
+						mockDescriptionElement.textContentNormalized = '';
+					});
+
+					it('is has an title property set to `null`', () => {
+						assert.isNull(feedItem.media[0].title);
+					});
+
+				});
+
+			});
+
 			describe('when a media:content does not have a URL', () => {
 
 				beforeEach(() => {
@@ -240,6 +355,7 @@ describe('lib/feed/item/base', () => {
 						{
 							url: 'https://mock-media-2',
 							image: null,
+							title: null,
 							length: 5678,
 							type: 'mock-medium-2',
 							mimeType: 'video/mp4'
