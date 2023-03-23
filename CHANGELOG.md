@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.4.5](https://github.com/rowanmanning/feed-parser/compare/v0.4.4...v0.4.5) (2023-03-23)
+
+
+### Features
+
+* add a title to media items and more images ([d28d5e0](https://github.com/rowanmanning/feed-parser/commit/d28d5e0a8a7e6296721684106e27bbd07c727ecc))
+* fall back to filesize attribute for media ([3bd01a8](https://github.com/rowanmanning/feed-parser/commit/3bd01a8f81e5cca6371fc949ad3d4e4b681ac7dd))
+* support Media RSS in both RSS and Atom feeds ([10742a5](https://github.com/rowanmanning/feed-parser/commit/10742a50d538d3f34ddb419fc64dd9cf1f742070))
+
+
+### Bug Fixes
+
+* allow both enclosures and media in RSS ([abda656](https://github.com/rowanmanning/feed-parser/commit/abda6566297c25eddb9aa3578ee6b7b882545cf5))
+* pave the way to use inheritance ([bb66226](https://github.com/rowanmanning/feed-parser/commit/bb66226d7b1fd0e346663d07fe45bca821cc2248))
+* properly parse zero in enclosure/media length ([18a126d](https://github.com/rowanmanning/feed-parser/commit/18a126daa4ad544e687dd1ffdd419d23dd2dbef7))
+
 ## [0.4.4](https://github.com/rowanmanning/feed-parser/compare/v0.4.3...v0.4.4) (2023-03-01)
 
 
