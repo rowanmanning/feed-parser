@@ -40,7 +40,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.0.1",
     "@commitlint/config-conventional": "^17.0.0",
-    "@rowanmanning/eslint-config": "^5.0.1",
+    "@rowanmanning/eslint-config": "^6.0.0",
     "chai": "^4.3.6",
     "eslint": "^8.16.0",
     "feedparser": "^2.2.10",
