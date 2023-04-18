@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.7](https://github.com/rowanmanning/feed-parser/compare/v0.4.6...v0.4.7) (2023-04-18)
+
+
+### Bug Fixes
+
+* add support for Node.js 20 ([b5c8a5c](https://github.com/rowanmanning/feed-parser/commit/b5c8a5c78ed2be899c75027d353a7bc3755e4712))
+
 ## [0.4.6](https://github.com/rowanmanning/feed-parser/compare/v0.4.5...v0.4.6) (2023-04-18)
 
 
