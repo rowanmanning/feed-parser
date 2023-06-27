@@ -1,6 +1,6 @@
 {
   "name": "@rowanmanning/feed-parser",
-  "version": "0.4.8",
+  "version": "0.4.9",
   "description": "Parse RSS and Atom feeds",
   "keywords": [
     "atom",
