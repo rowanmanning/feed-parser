@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.5.0](https://github.com/rowanmanning/feed-parser/compare/v0.4.13...v0.5.0) (2023-09-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop support for Node.js 16
+
+### Miscellaneous
+
+* drop support for Node.js 16 ([d6e95e7](https://github.com/rowanmanning/feed-parser/commit/d6e95e7d43d7b7c81bee7ad00178050fefabf12f))
+
 ## [0.4.13](https://github.com/rowanmanning/feed-parser/compare/v0.4.12...v0.4.13) (2023-09-11)
 
 
