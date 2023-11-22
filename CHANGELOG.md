@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.1](https://github.com/rowanmanning/feed-parser/compare/v0.5.0...v0.5.1) (2023-11-22)
+
+
+### Bug Fixes
+
+* bump fast-xml-parser from 4.2.7 to 4.3.2 ([aa89738](https://github.com/rowanmanning/feed-parser/commit/aa8973877e5eacb2d40ee4b4f110204c77950c13))
+
 ## [0.5.0](https://github.com/rowanmanning/feed-parser/compare/v0.4.13...v0.5.0) (2023-09-11)
 
 
