@@ -41,7 +41,7 @@
     "@commitlint/cli": "^18.4.2",
     "@commitlint/config-conventional": "^18.4.2",
     "@rowanmanning/eslint-config": "^8.0.0",
-    "chai": "^4.3.6",
+    "chai": "^5.0.0",
     "eslint": "^8.16.0",
     "feedparser": "^2.2.10",
     "husky": "^8.0.1",
