@@ -48,8 +48,7 @@
     "mocha": "^10.0.0",
     "nyc": "^15.1.0",
     "testdouble": "^3.16.5",
-    "typescript": "^5.1.6",
-    "undici": "^5.20.0"
+    "typescript": "^5.1.6"
   },
   "main": "lib/feed-parser.js",
   "nyc": {

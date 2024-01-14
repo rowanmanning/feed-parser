@@ -3,7 +3,6 @@
 const {assert} = require('chai');
 const {decode: decodeEntities} = require('html-entities');
 const FeedParser = require('feedparser');
-const fetch = require('./helpers/fetch');
 const parseFeed = require('../..');
 const path = require('path');
 const {Readable} = require('stream');
