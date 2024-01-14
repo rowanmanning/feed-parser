@@ -1,6 +1,6 @@
 'use strict';
 
-const {assert} = require('chai');
+const assert = require('node:assert/strict');
 const td = require('testdouble');
 
 describe('lib/xml/document', () => {
@@ -26,8 +26,8 @@ describe('lib/xml/document', () => {
 	});
 
 	it('is a class constructor', () => {
-		assert.isFunction(Document);
-		assert.isFunction(Document.prototype.constructor);
+		assert.strictEqual(typeof Document, 'function');
+		assert.strictEqual(typeof Document.prototype.constructor, 'function');
 	});
 
 	describe('new Document(rawFxpDocument)', () => {
@@ -38,7 +38,7 @@ describe('lib/xml/document', () => {
 		});
 
 		it('is an instance of the Element class', () => {
-			assert.instanceOf(document, Element);
+			assert.ok(document instanceof Element);
 		});
 
 		it('calls the super constructor with a faked root element that contains the document children', () => {
@@ -67,7 +67,7 @@ describe('lib/xml/document', () => {
 		});
 
 		it('returns the created document', () => {
-			assert.instanceOf(returnValue, Document);
+			assert.ok(returnValue instanceof Document);
 		});
 
 	});

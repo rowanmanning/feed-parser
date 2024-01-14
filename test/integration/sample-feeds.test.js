@@ -1,6 +1,6 @@
 'use strict';
 
-const {assert} = require('chai');
+const assert = require('node:assert/strict');
 const {decode: decodeEntities} = require('html-entities');
 const FeedParser = require('feedparser');
 const parseFeed = require('../..');
@@ -155,7 +155,7 @@ for (const suite of suites) {
 					// generator contains the label that we use
 					it('has ROUGHLY matching feed generators', () => {
 						if (feedParserMeta.generator && actual.feed.generator) {
-							assert.include(feedParserMeta.generator, actual.feed.generator.label);
+							assert.ok(feedParserMeta.generator.includes(actual.feed.generator.label));
 						}
 					});
 

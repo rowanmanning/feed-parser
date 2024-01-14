@@ -1,6 +1,6 @@
 'use strict';
 
-const {assert} = require('chai');
+const assert = require('node:assert/strict');
 const td = require('testdouble');
 
 describe('lib/feed/item/base', () => {
@@ -13,8 +13,8 @@ describe('lib/feed/item/base', () => {
 	});
 
 	it('is a class constructor', () => {
-		assert.isFunction(FeedItem);
-		assert.isFunction(FeedItem.prototype.constructor);
+		assert.strictEqual(typeof FeedItem, 'function');
+		assert.strictEqual(typeof FeedItem.prototype.constructor, 'function');
 	});
 
 	describe('new FeedItem(feed, element)', () => {
@@ -45,7 +45,7 @@ describe('lib/feed/item/base', () => {
 		describe('.id', () => {
 
 			it('is set to `null`', () => {
-				assert.isNull(feedItem.id);
+				assert.strictEqual(feedItem.id, null);
 			});
 
 		});
@@ -70,7 +70,7 @@ describe('lib/feed/item/base', () => {
 				});
 
 				it('is set to `null`', () => {
-					assert.isNull(feedItem.title);
+					assert.strictEqual(feedItem.title, null);
 				});
 
 			});
@@ -80,7 +80,7 @@ describe('lib/feed/item/base', () => {
 		describe('.description', () => {
 
 			it('is set to `null`', () => {
-				assert.isNull(feedItem.description);
+				assert.strictEqual(feedItem.description, null);
 			});
 
 		});
@@ -88,7 +88,7 @@ describe('lib/feed/item/base', () => {
 		describe('.url', () => {
 
 			it('is set to `null`', () => {
-				assert.isNull(feedItem.url);
+				assert.strictEqual(feedItem.url, null);
 			});
 
 		});
@@ -96,7 +96,7 @@ describe('lib/feed/item/base', () => {
 		describe('.published', () => {
 
 			it('is set to `null`', () => {
-				assert.isNull(feedItem.published);
+				assert.strictEqual(feedItem.published, null);
 			});
 
 		});
@@ -104,7 +104,7 @@ describe('lib/feed/item/base', () => {
 		describe('.updated', () => {
 
 			it('is set to `null`', () => {
-				assert.isNull(feedItem.updated);
+				assert.strictEqual(feedItem.updated, null);
 			});
 
 		});
@@ -112,7 +112,7 @@ describe('lib/feed/item/base', () => {
 		describe('.content', () => {
 
 			it('is set to `null`', () => {
-				assert.isNull(feedItem.content);
+				assert.strictEqual(feedItem.content, null);
 			});
 
 		});
@@ -120,7 +120,7 @@ describe('lib/feed/item/base', () => {
 		describe('.image', () => {
 
 			it('is set to `null`', () => {
-				assert.isNull(feedItem.image);
+				assert.strictEqual(feedItem.image, null);
 			});
 
 		});
@@ -208,7 +208,7 @@ describe('lib/feed/item/base', () => {
 					});
 
 					it('is has an image property set to `null`', () => {
-						assert.isNull(feedItem.media[0].image);
+						assert.strictEqual(feedItem.media[0].image, null);
 					});
 
 				});
@@ -251,7 +251,7 @@ describe('lib/feed/item/base', () => {
 					});
 
 					it('is has an title property set to `null`', () => {
-						assert.isNull(feedItem.media[0].title);
+						assert.strictEqual(feedItem.media[0].title, null);
 					});
 
 				});
@@ -280,7 +280,7 @@ describe('lib/feed/item/base', () => {
 					});
 
 					it('is has an title property set to `null`', () => {
-						assert.isNull(feedItem.media[0].title);
+						assert.strictEqual(feedItem.media[0].title, null);
 					});
 
 				});
@@ -308,7 +308,7 @@ describe('lib/feed/item/base', () => {
 					});
 
 					it('is has an title property set to `null`', () => {
-						assert.isNull(feedItem.media[0].title);
+						assert.strictEqual(feedItem.media[0].title, null);
 					});
 
 				});
@@ -337,7 +337,7 @@ describe('lib/feed/item/base', () => {
 					});
 
 					it('is has an title property set to `null`', () => {
-						assert.isNull(feedItem.media[0].title);
+						assert.strictEqual(feedItem.media[0].title, null);
 					});
 
 				});
@@ -385,7 +385,7 @@ describe('lib/feed/item/base', () => {
 				});
 
 				it('is has a length property set to `null`', () => {
-					assert.isNull(feedItem.media[0].length);
+					assert.strictEqual(feedItem.media[0].length, null);
 				});
 
 			});
@@ -409,7 +409,7 @@ describe('lib/feed/item/base', () => {
 				});
 
 				it('is has a mimeType property set to `null`', () => {
-					assert.isNull(feedItem.media[0].mimeType);
+					assert.strictEqual(feedItem.media[0].mimeType, null);
 				});
 
 			});
@@ -422,11 +422,11 @@ describe('lib/feed/item/base', () => {
 				});
 
 				it('is has a type property set to `null`', () => {
-					assert.isNull(feedItem.media[0].type);
+					assert.strictEqual(feedItem.media[0].type, null);
 				});
 
 				it('is has a mimeType property set to `null`', () => {
-					assert.isNull(feedItem.media[0].mimeType);
+					assert.strictEqual(feedItem.media[0].mimeType, null);
 				});
 
 			});
@@ -584,8 +584,8 @@ describe('lib/feed/item/base', () => {
 				});
 
 				it('returns those properties as `null`', () => {
-					assert.isNull(returnValue.published);
-					assert.isNull(returnValue.updated);
+					assert.strictEqual(returnValue.published, null);
+					assert.strictEqual(returnValue.updated, null);
 				});
 
 			});

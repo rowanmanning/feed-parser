@@ -1,6 +1,6 @@
 'use strict';
 
-const {assert} = require('chai');
+const assert = require('node:assert/strict');
 const td = require('testdouble');
 
 describe('lib/feed/base', () => {
@@ -15,8 +15,8 @@ describe('lib/feed/base', () => {
 	});
 
 	it('is a class constructor', () => {
-		assert.isFunction(Feed);
-		assert.isFunction(Feed.prototype.constructor);
+		assert.strictEqual(typeof Feed, 'function');
+		assert.strictEqual(typeof Feed.prototype.constructor, 'function');
 	});
 
 	describe('new Feed(document)', () => {
@@ -58,7 +58,7 @@ describe('lib/feed/base', () => {
 		describe('.language', () => {
 
 			it('is set to `null`', () => {
-				assert.isNull(feed.language);
+				assert.strictEqual(feed.language, null);
 			});
 
 		});
@@ -83,7 +83,7 @@ describe('lib/feed/base', () => {
 				});
 
 				it('is set to `null`', () => {
-					assert.isNull(feed.title);
+					assert.strictEqual(feed.title, null);
 				});
 
 			});
@@ -93,7 +93,7 @@ describe('lib/feed/base', () => {
 		describe('.description', () => {
 
 			it('is set to `null`', () => {
-				assert.isNull(feed.description);
+				assert.strictEqual(feed.description, null);
 			});
 
 		});
@@ -101,7 +101,7 @@ describe('lib/feed/base', () => {
 		describe('.copyright', () => {
 
 			it('is set to `null`', () => {
-				assert.isNull(feed.copyright);
+				assert.strictEqual(feed.copyright, null);
 			});
 
 		});
@@ -109,7 +109,7 @@ describe('lib/feed/base', () => {
 		describe('.url', () => {
 
 			it('is set to `null`', () => {
-				assert.isNull(feed.url);
+				assert.strictEqual(feed.url, null);
 			});
 
 		});
@@ -117,7 +117,7 @@ describe('lib/feed/base', () => {
 		describe('.self', () => {
 
 			it('is set to `null`', () => {
-				assert.isNull(feed.self);
+				assert.strictEqual(feed.self, null);
 			});
 
 		});
@@ -125,7 +125,7 @@ describe('lib/feed/base', () => {
 		describe('.published', () => {
 
 			it('is set to `null`', () => {
-				assert.isNull(feed.published);
+				assert.strictEqual(feed.published, null);
 			});
 
 		});
@@ -133,7 +133,7 @@ describe('lib/feed/base', () => {
 		describe('.updated', () => {
 
 			it('is set to `null`', () => {
-				assert.isNull(feed.updated);
+				assert.strictEqual(feed.updated, null);
 			});
 
 		});
@@ -141,7 +141,7 @@ describe('lib/feed/base', () => {
 		describe('.generator', () => {
 
 			it('is set to `null`', () => {
-				assert.isNull(feed.generator);
+				assert.strictEqual(feed.generator, null);
 			});
 
 		});
@@ -149,7 +149,7 @@ describe('lib/feed/base', () => {
 		describe('.image', () => {
 
 			it('is set to `null`', () => {
-				assert.isNull(feed.image);
+				assert.strictEqual(feed.image, null);
 			});
 
 		});
@@ -210,8 +210,8 @@ describe('lib/feed/base', () => {
 				});
 
 				it('returns those properties as `null`', () => {
-					assert.isNull(returnValue.published);
-					assert.isNull(returnValue.updated);
+					assert.strictEqual(returnValue.published, null);
+					assert.strictEqual(returnValue.updated, null);
 				});
 
 			});

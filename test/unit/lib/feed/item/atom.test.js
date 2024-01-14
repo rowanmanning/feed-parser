@@ -1,6 +1,6 @@
 'use strict';
 
-const {assert} = require('chai');
+const assert = require('node:assert/strict');
 const td = require('testdouble');
 
 describe('lib/feed/item/atom', () => {
@@ -15,8 +15,8 @@ describe('lib/feed/item/atom', () => {
 	});
 
 	it('is a class constructor', () => {
-		assert.isFunction(AtomFeedItem);
-		assert.isFunction(AtomFeedItem.prototype.constructor);
+		assert.strictEqual(typeof AtomFeedItem, 'function');
+		assert.strictEqual(typeof AtomFeedItem.prototype.constructor, 'function');
 	});
 
 	describe('new AtomFeedItem(feed, element)', () => {
@@ -31,7 +31,7 @@ describe('lib/feed/item/atom', () => {
 		});
 
 		it('is an instance of the FeedItem class', () => {
-			assert.instanceOf(feedItem, FeedItem);
+			assert.ok(feedItem instanceof FeedItem);
 		});
 
 		describe('.id', () => {
@@ -520,7 +520,7 @@ describe('lib/feed/item/atom', () => {
 				});
 
 				it('is has a length property set to `null`', () => {
-					assert.isNull(feedItem.media[0].length);
+					assert.strictEqual(feedItem.media[0].length, null);
 				});
 
 			});
@@ -532,11 +532,11 @@ describe('lib/feed/item/atom', () => {
 				});
 
 				it('is has a type property set to `null`', () => {
-					assert.isNull(feedItem.media[0].type);
+					assert.strictEqual(feedItem.media[0].type, null);
 				});
 
 				it('is has a mimeType property set to `null`', () => {
-					assert.isNull(feedItem.media[0].mimeType);
+					assert.strictEqual(feedItem.media[0].mimeType, null);
 				});
 
 			});

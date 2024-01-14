@@ -1,6 +1,6 @@
 'use strict';
 
-const {assert} = require('chai');
+const assert = require('node:assert/strict');
 const td = require('testdouble');
 
 describe('lib/feed-parser', () => {
@@ -19,7 +19,7 @@ describe('lib/feed-parser', () => {
 	});
 
 	it('is a function', () => {
-		assert.isFunction(parseFeed);
+		assert.strictEqual(typeof parseFeed, 'function');
 	});
 
 	describe('.default', () => {
@@ -54,7 +54,7 @@ describe('lib/feed-parser', () => {
 			});
 
 			it('returns the created Atom feed', () => {
-				assert.instanceOf(returnValue, AtomFeed);
+				assert.ok(returnValue instanceof AtomFeed);
 			});
 
 		});
@@ -75,7 +75,7 @@ describe('lib/feed-parser', () => {
 			});
 
 			it('returns the created RSS feed', () => {
-				assert.instanceOf(returnValue, RssFeed);
+				assert.ok(returnValue instanceof RssFeed);
 			});
 
 		});
@@ -96,7 +96,7 @@ describe('lib/feed-parser', () => {
 			});
 
 			it('returns the created RSS feed', () => {
-				assert.instanceOf(returnValue, RssFeed);
+				assert.ok(returnValue instanceof RssFeed);
 			});
 
 		});
@@ -118,7 +118,7 @@ describe('lib/feed-parser', () => {
 
 			it('throws an invalid feed error', () => {
 				td.verify(new InvalidFeedError(), {times: 1});
-				assert.instanceOf(thrownError, InvalidFeedError);
+				assert.ok(thrownError instanceof InvalidFeedError);
 			});
 
 		});

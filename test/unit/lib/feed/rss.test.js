@@ -1,6 +1,6 @@
 'use strict';
 
-const {assert} = require('chai');
+const assert = require('node:assert/strict');
 const td = require('testdouble');
 
 describe('lib/feed/rss', () => {
@@ -21,8 +21,8 @@ describe('lib/feed/rss', () => {
 	});
 
 	it('is a class constructor', () => {
-		assert.isFunction(RssFeed);
-		assert.isFunction(RssFeed.prototype.constructor);
+		assert.strictEqual(typeof RssFeed, 'function');
+		assert.strictEqual(typeof RssFeed.prototype.constructor, 'function');
 	});
 
 	describe('new RssFeed(document)', () => {
@@ -45,7 +45,7 @@ describe('lib/feed/rss', () => {
 		});
 
 		it('is an instance of the Feed class', () => {
-			assert.instanceOf(feed, Feed);
+			assert.ok(feed instanceof Feed);
 		});
 
 		it('finds a root-level rss element', () => {
@@ -67,7 +67,7 @@ describe('lib/feed/rss', () => {
 		describe('.meta', () => {
 
 			it('is an object', () => {
-				assert.isObject(feed.meta);
+				assert.strictEqual(typeof feed.meta, 'object');
 			});
 
 			describe('.type', () => {
@@ -81,7 +81,7 @@ describe('lib/feed/rss', () => {
 			describe('.version', () => {
 
 				it('is set to `null`', () => {
-					assert.isNull(feed.meta.version);
+					assert.strictEqual(feed.meta.version, null);
 				});
 
 				describe('when the root element has a valid `version` attribute', () => {
@@ -151,7 +151,7 @@ describe('lib/feed/rss', () => {
 					});
 
 					it('is set to `null`', () => {
-						assert.isNull(feed.meta.version);
+						assert.strictEqual(feed.meta.version, null);
 					});
 
 				});
@@ -163,7 +163,7 @@ describe('lib/feed/rss', () => {
 					});
 
 					it('is set to `null`', () => {
-						assert.isNull(feed.meta.version);
+						assert.strictEqual(feed.meta.version, null);
 					});
 
 				});
@@ -656,11 +656,11 @@ describe('lib/feed/rss', () => {
 			});
 
 			it('is set to an array of the created RssFeedItem instances', () => {
-				assert.isArray(items);
-				assert.lengthOf(items, 3);
-				assert.instanceOf(items[0], RssFeedItem);
-				assert.instanceOf(items[1], RssFeedItem);
-				assert.instanceOf(items[2], RssFeedItem);
+				assert.ok(Array.isArray(items));
+				assert.strictEqual(items.length, 3);
+				assert.ok(items[0] instanceof RssFeedItem);
+				assert.ok(items[1] instanceof RssFeedItem);
+				assert.ok(items[2] instanceof RssFeedItem);
 			});
 
 			describe('when accessed a second time', () => {
@@ -696,10 +696,10 @@ describe('lib/feed/rss', () => {
 				});
 
 				it('returns only the channel element items', () => {
-					assert.isArray(items);
-					assert.lengthOf(items, 2);
-					assert.instanceOf(items[0], RssFeedItem);
-					assert.instanceOf(items[1], RssFeedItem);
+					assert.ok(Array.isArray(items));
+					assert.strictEqual(items.length, 2);
+					assert.ok(items[0] instanceof RssFeedItem);
+					assert.ok(items[1] instanceof RssFeedItem);
 				});
 
 			});
@@ -723,9 +723,9 @@ describe('lib/feed/rss', () => {
 				});
 
 				it('returns only the channel element items', () => {
-					assert.isArray(items);
-					assert.lengthOf(items, 1);
-					assert.instanceOf(items[0], RssFeedItem);
+					assert.ok(Array.isArray(items));
+					assert.strictEqual(items.length, 1);
+					assert.ok(items[0] instanceof RssFeedItem);
 				});
 
 			});
@@ -744,7 +744,7 @@ describe('lib/feed/rss', () => {
 			});
 
 			it('is an instance of the Feed class', () => {
-				assert.instanceOf(feed, Feed);
+				assert.ok(feed instanceof Feed);
 			});
 
 			it('finds a root-level rdf element', () => {
@@ -767,7 +767,7 @@ describe('lib/feed/rss', () => {
 
 			it('throws an invalid feed error', () => {
 				td.verify(new InvalidFeedError('The RSS feed does not have a root element'), {times: 1});
-				assert.instanceOf(thrownError, InvalidFeedError);
+				assert.ok(thrownError instanceof InvalidFeedError);
 			});
 
 		});
@@ -786,7 +786,7 @@ describe('lib/feed/rss', () => {
 
 			it('throws an invalid feed error', () => {
 				td.verify(new InvalidFeedError('The RSS feed does not have a channel element'), {times: 1});
-				assert.instanceOf(thrownError, InvalidFeedError);
+				assert.ok(thrownError instanceof InvalidFeedError);
 			});
 
 		});

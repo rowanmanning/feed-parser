@@ -1,6 +1,6 @@
 'use strict';
 
-const {assert} = require('chai');
+const assert = require('node:assert/strict');
 
 describe('lib/errors/invalid-feed', () => {
 	let InvalidFeedError;
@@ -17,7 +17,7 @@ describe('lib/errors/invalid-feed', () => {
 		});
 
 		it('is an instance of the Error class', () => {
-			assert.instanceOf(error, Error);
+			assert.ok(error instanceof Error);
 		});
 
 		describe('.message', () => {

@@ -1,6 +1,6 @@
 'use strict';
 
-const {assert} = require('chai');
+const assert = require('node:assert/strict');
 const td = require('testdouble');
 
 describe('lib/xml/element', () => {
@@ -23,8 +23,8 @@ describe('lib/xml/element', () => {
 	});
 
 	it('is a class constructor', () => {
-		assert.isFunction(Element);
-		assert.isFunction(Element.prototype.constructor);
+		assert.strictEqual(typeof Element, 'function');
+		assert.strictEqual(typeof Element.prototype.constructor, 'function');
 	});
 
 	describe('new Element(rawFxpElement, parent)', () => {
@@ -92,7 +92,7 @@ describe('lib/xml/element', () => {
 		describe('.baseUrl', () => {
 
 			it('is set to `null`', () => {
-				assert.isNull(element.baseUrl);
+				assert.strictEqual(element.baseUrl, null);
 			});
 
 			describe('when the element has an absolute `xml:base` attribute', () => {
@@ -509,7 +509,7 @@ describe('lib/xml/element', () => {
 		describe('.namespaceUri', () => {
 
 			it('is set to `null`', () => {
-				assert.isNull(element.namespaceUri);
+				assert.strictEqual(element.namespaceUri, null);
 			});
 
 			describe('when the element has a default namespace declaration', () => {
@@ -575,7 +575,7 @@ describe('lib/xml/element', () => {
 		describe('.parent', () => {
 
 			it('is set to `null`', () => {
-				assert.isNull(element.parent);
+				assert.strictEqual(element.parent, null);
 			});
 
 			describe('when the element is constructed with a parent element', () => {
@@ -661,7 +661,7 @@ describe('lib/xml/element', () => {
 			});
 
 			it('is set to a date object representing the text content of the element', () => {
-				assert.instanceOf(element.textContentAsDate, Date);
+				assert.ok(element.textContentAsDate instanceof Date);
 				assert.strictEqual(element.textContentAsDate.toISOString(), '2022-02-02T02:02:02.000Z');
 			});
 
@@ -672,7 +672,7 @@ describe('lib/xml/element', () => {
 				});
 
 				it('is set to a date object representing the text content of the element', () => {
-					assert.instanceOf(element.textContentAsDate, Date);
+					assert.ok(element.textContentAsDate instanceof Date);
 					assert.strictEqual(element.textContentAsDate.toISOString(), '2022-02-02T02:02:02.000Z');
 				});
 
@@ -685,7 +685,7 @@ describe('lib/xml/element', () => {
 				});
 
 				it('is set to `null`', () => {
-					assert.isNull(element.textContentAsDate);
+					assert.strictEqual(element.textContentAsDate, null);
 				});
 
 			});
@@ -901,7 +901,7 @@ describe('lib/xml/element', () => {
 				});
 
 				it('returns `null`', () => {
-					assert.isNull(returnValue);
+					assert.strictEqual(returnValue, null);
 				});
 
 			});
@@ -930,7 +930,7 @@ describe('lib/xml/element', () => {
 			});
 
 			it('returns `true`', () => {
-				assert.isTrue(returnValue);
+				assert.strictEqual(returnValue, true);
 			});
 
 			describe('when the element has no children with the given name', () => {
@@ -951,7 +951,7 @@ describe('lib/xml/element', () => {
 				});
 
 				it('returns `false`', () => {
-					assert.isFalse(returnValue);
+					assert.strictEqual(returnValue, false);
 				});
 
 			});
@@ -982,7 +982,7 @@ describe('lib/xml/element', () => {
 				});
 
 				it('returns `null`', () => {
-					assert.isNull(returnValue);
+					assert.strictEqual(returnValue, null);
 				});
 
 			});
@@ -1015,7 +1015,7 @@ describe('lib/xml/element', () => {
 				});
 
 				it('returns `null`', () => {
-					assert.isNull(returnValue);
+					assert.strictEqual(returnValue, null);
 				});
 
 			});
@@ -1049,7 +1049,7 @@ describe('lib/xml/element', () => {
 				});
 
 				it('returns `null`', () => {
-					assert.isNull(returnValue);
+					assert.strictEqual(returnValue, null);
 				});
 
 			});
@@ -1061,7 +1061,7 @@ describe('lib/xml/element', () => {
 				});
 
 				it('returns `null`', () => {
-					assert.isNull(returnValue);
+					assert.strictEqual(returnValue, null);
 				});
 
 			});
@@ -1150,7 +1150,7 @@ describe('lib/xml/element', () => {
 		});
 
 		it('creates and returns an element', () => {
-			assert.instanceOf(returnValue, Element);
+			assert.ok(returnValue instanceof Element);
 		});
 
 	});

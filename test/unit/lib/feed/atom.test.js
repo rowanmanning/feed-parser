@@ -1,6 +1,6 @@
 'use strict';
 
-const {assert} = require('chai');
+const assert = require('node:assert/strict');
 const td = require('testdouble');
 
 describe('lib/feed/atom', () => {
@@ -21,8 +21,8 @@ describe('lib/feed/atom', () => {
 	});
 
 	it('is a class constructor', () => {
-		assert.isFunction(AtomFeed);
-		assert.isFunction(AtomFeed.prototype.constructor);
+		assert.strictEqual(typeof AtomFeed, 'function');
+		assert.strictEqual(typeof AtomFeed.prototype.constructor, 'function');
 	});
 
 	describe('new AtomFeed(document)', () => {
@@ -41,7 +41,7 @@ describe('lib/feed/atom', () => {
 		});
 
 		it('is an instance of the Feed class', () => {
-			assert.instanceOf(feed, Feed);
+			assert.ok(feed instanceof Feed);
 		});
 
 		it('finds a root-level feed element', () => {
@@ -59,7 +59,7 @@ describe('lib/feed/atom', () => {
 		describe('.meta', () => {
 
 			it('is an object', () => {
-				assert.isObject(feed.meta);
+				assert.strictEqual(typeof feed.meta, 'object');
 			});
 
 			describe('.type', () => {
@@ -73,7 +73,7 @@ describe('lib/feed/atom', () => {
 			describe('.version', () => {
 
 				it('is set to `null`', () => {
-					assert.isNull(feed.meta.version);
+					assert.strictEqual(feed.meta.version, null);
 				});
 
 				describe('when the root element has a valid `version` attribute', () => {
@@ -119,7 +119,7 @@ describe('lib/feed/atom', () => {
 					});
 
 					it('is set to `null`', () => {
-						assert.isNull(feed.meta.version);
+						assert.strictEqual(feed.meta.version, null);
 					});
 
 				});
@@ -131,7 +131,7 @@ describe('lib/feed/atom', () => {
 					});
 
 					it('is set to `null`', () => {
-						assert.isNull(feed.meta.version);
+						assert.strictEqual(feed.meta.version, null);
 					});
 
 				});
@@ -622,11 +622,11 @@ describe('lib/feed/atom', () => {
 			});
 
 			it('is set to an array of the created AtomFeedItem instances', () => {
-				assert.isArray(items);
-				assert.lengthOf(items, 3);
-				assert.instanceOf(items[0], AtomFeedItem);
-				assert.instanceOf(items[1], AtomFeedItem);
-				assert.instanceOf(items[2], AtomFeedItem);
+				assert.ok(Array.isArray(items));
+				assert.strictEqual(items.length, 3);
+				assert.ok(items[0] instanceof AtomFeedItem);
+				assert.ok(items[1] instanceof AtomFeedItem);
+				assert.ok(items[2] instanceof AtomFeedItem);
 			});
 
 			describe('when accessed a second time', () => {
@@ -658,7 +658,7 @@ describe('lib/feed/atom', () => {
 
 			it('throws an invalid feed error', () => {
 				td.verify(new InvalidFeedError('The Atom feed does not have a root element'), {times: 1});
-				assert.instanceOf(thrownError, InvalidFeedError);
+				assert.ok(thrownError instanceof InvalidFeedError);
 			});
 
 		});
