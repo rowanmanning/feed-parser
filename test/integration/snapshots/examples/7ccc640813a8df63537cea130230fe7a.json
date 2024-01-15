@@ -20,6 +20,13 @@
 			"title": "WriteTheWeb",
 			"url": "http://writetheweb.com/images/mynetscape88.gif"
 		},
+		"authors": [
+			{
+				"name": null,
+				"email": "editor@writetheweb.com",
+				"url": null
+			}
+		],
 		"items": [
 			{
 				"id": null,
@@ -30,6 +37,13 @@
 				"updated": null,
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": null,
+						"email": "editor@writetheweb.com",
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -41,6 +55,13 @@
 				"updated": null,
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": null,
+						"email": "editor@writetheweb.com",
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -52,6 +73,13 @@
 				"updated": null,
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": null,
+						"email": "editor@writetheweb.com",
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -63,6 +91,13 @@
 				"updated": null,
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": null,
+						"email": "editor@writetheweb.com",
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -74,6 +109,13 @@
 				"updated": null,
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": null,
+						"email": "editor@writetheweb.com",
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -85,6 +127,13 @@
 				"updated": null,
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": null,
+						"email": "editor@writetheweb.com",
+						"url": null
+					}
+				],
 				"media": []
 			}
 		]

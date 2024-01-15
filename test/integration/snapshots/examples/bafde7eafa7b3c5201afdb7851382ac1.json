@@ -17,6 +17,13 @@
 		"updated": "2004-06-04T22:40:33.000Z",
 		"generator": null,
 		"image": null,
+		"authors": [
+			{
+				"name": "Mark Pilgrim",
+				"email": "creator@example.org",
+				"url": null
+			}
+		],
 		"items": [
 			{
 				"id": null,
@@ -27,6 +34,13 @@
 				"updated": "2004-05-30T20:23:54.000Z",
 				"content": "<p>I didn't want to copy across the original description</p>",
 				"image": null,
+				"authors": [
+					{
+						"name": "Mark Pilgrim",
+						"email": "creator@example.org",
+						"url": null
+					}
+				],
 				"media": []
 			}
 		]

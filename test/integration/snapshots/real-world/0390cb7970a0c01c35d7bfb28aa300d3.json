@@ -17,6 +17,13 @@
 		"updated": null,
 		"generator": null,
 		"image": null,
+		"authors": [
+			{
+				"name": null,
+				"email": "managingeditor@nasa.gov",
+				"url": null
+			}
+		],
 		"items": [
 			{
 				"id": "http://www.nasa.gov/image-feature/cold-as-dry-ice",
@@ -30,6 +37,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/pia25190.jpeg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/pia25190.jpeg",
@@ -53,6 +67,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/51982058640_3306aa1585_o.jpeg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/51982058640_3306aa1585_o.jpeg",
@@ -76,6 +97,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/nasa_sls_artemis_i_horizontal.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/nasa_sls_artemis_i_horizontal.jpg",
@@ -99,6 +127,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/jsc2022e011412.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/jsc2022e011412.jpg",
@@ -122,6 +157,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/51970937381_9d3d2e370a_o.jpeg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/51970937381_9d3d2e370a_o.jpeg",
@@ -145,6 +187,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/jsc2017e029829_large.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/jsc2017e029829_large.jpg",
@@ -168,6 +217,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/pia25161_-_spitzer_collision_cloud.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/pia25161_-_spitzer_collision_cloud.jpg",
@@ -191,6 +247,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/51959521353_17667db8e7_o.jpeg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/51959521353_17667db8e7_o.jpeg",
@@ -214,6 +277,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/jsc2022e017003.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/jsc2022e017003.jpg",
@@ -237,6 +307,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/john_young_s65-23488orig.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/john_young_s65-23488orig.jpg",
@@ -260,6 +337,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/jupiter-mass_planet_orbiting_the_nearby_star_epsilon_eridani.jpeg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/jupiter-mass_planet_orbiting_the_nearby_star_epsilon_eridani.jpeg",
@@ -283,6 +367,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/stsci-h-p1821a-m-1699x20001a.png",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/stsci-h-p1821a-m-1699x20001a.png",
@@ -306,6 +397,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/nhq202203170041.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/nhq202203170041.jpg",
@@ -329,6 +427,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/51942501426_c5a1be38dd_o.jpeg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/51942501426_c5a1be38dd_o.jpeg",
@@ -352,6 +457,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/17-03445-61853.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/17-03445-61853.jpg",
@@ -375,6 +487,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/51213605479_0cc634e7b5_o.jpeg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/51213605479_0cc634e7b5_o.jpeg",
@@ -398,6 +517,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/piday2022_insight.png",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/piday2022_insight.png",
@@ -421,6 +547,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/hubble_hh34_potw2210a_0.png",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/hubble_hh34_potw2210a_0.png",
@@ -444,6 +577,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/iss066e153515.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/iss066e153515.jpg",
@@ -467,6 +607,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/pia25122.jpeg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/pia25122.jpeg",
@@ -490,6 +637,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/ceb_2369.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/ceb_2369.jpg",
@@ -513,6 +667,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/36351_rocket_launch.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/36351_rocket_launch.jpg",
@@ -536,6 +697,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/nancy_grace_roman_in_the_1960s_41304995814.jpeg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/nancy_grace_roman_in_the_1960s_41304995814.jpeg",
@@ -559,6 +727,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/pia25075.jpeg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/pia25075.jpeg",
@@ -582,6 +757,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/51911610842_af34b62eae_o.jpeg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/51911610842_af34b62eae_o.jpeg",
@@ -605,6 +787,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/0101138_orig.jpeg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/0101138_orig.jpeg",
@@ -628,6 +817,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/iss065e009613.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/iss065e009613.jpg",
@@ -651,6 +847,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/hubble_arp298_potw2208a.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/hubble_arp298_potw2208a.jpg",
@@ -674,6 +877,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/image0.jpeg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/image0.jpeg",
@@ -697,6 +907,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/space-flame.png",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/space-flame.png",
@@ -720,6 +937,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/9467783474_7a574ec7bb_o.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/9467783474_7a574ec7bb_o.jpg",
@@ -743,6 +967,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/pia24836_perseverance_selfie_at_rochette_figure_3_croppedcloseup.jpeg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/pia24836_perseverance_selfie_at_rochette_figure_3_croppedcloseup.jpeg",
@@ -766,6 +997,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/afrc2021-0159-10_0.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/afrc2021-0159-10_0.jpg",
@@ -789,6 +1027,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/pia23689.jpeg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/pia23689.jpeg",
@@ -812,6 +1057,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/lyndsey.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/lyndsey.jpg",
@@ -835,6 +1087,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/hubble_arp282_potw2206a.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/hubble_arp282_potw2206a.jpg",
@@ -858,6 +1117,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/pia01384.jpeg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/pia01384.jpeg",
@@ -881,6 +1147,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/iss066e136051.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/iss066e136051.jpg",
@@ -904,6 +1177,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/s66-20368.jpeg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/s66-20368.jpeg",
@@ -927,6 +1207,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/iss066e109851.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/iss066e109851.jpg",
@@ -950,6 +1237,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/jsc2022e001692.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/jsc2022e001692.jpg",
@@ -973,6 +1267,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/archives_raquarii.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/archives_raquarii.jpg",
@@ -996,6 +1297,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/51663728897_cef2f7365f_o.jpeg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/51663728897_cef2f7365f_o.jpeg",
@@ -1019,6 +1327,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/209783main_s107e05070_full.jpeg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/209783main_s107e05070_full.jpeg",
@@ -1042,6 +1357,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/1-main-omg-eom-1041.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/1-main-omg-eom-1041.jpg",
@@ -1065,6 +1387,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/sts_51l_cct_flight_deck_dec_17_1985_s85-46207.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/sts_51l_cct_flight_deck_dec_17_1985_s85-46207.jpg",
@@ -1088,6 +1417,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/apollo_1_crew_during_water_egress_training_june_1966_1.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/apollo_1_crew_during_water_egress_training_june_1966_1.jpg",
@@ -1111,6 +1447,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/usrivers_oli_2018_lrg_0.jpeg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/usrivers_oli_2018_lrg_0.jpeg",
@@ -1134,6 +1477,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/28x6_x-59_rdg-6753_average_cleaned_red_blue_black.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/28x6_x-59_rdg-6753_average_cleaned_red_blue_black.jpg",
@@ -1157,6 +1507,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/imagesvenus20191211venus20191211-16.jpeg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/imagesvenus20191211venus20191211-16.jpeg",
@@ -1180,6 +1537,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/hubble_ngc3318_potw2203a_0.png",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/hubble_ngc3318_potw2203a_0.png",
@@ -1203,6 +1567,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/iss066e109584.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/iss066e109584.jpg",
@@ -1226,6 +1597,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/49493710476_a7f7b04bd5_o.jpeg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/49493710476_a7f7b04bd5_o.jpeg",
@@ -1249,6 +1627,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/martian-drill-hole.png",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/martian-drill-hole.png",
@@ -1272,6 +1657,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/march2014_1920x1200.jpeg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/march2014_1920x1200.jpeg",
@@ -1295,6 +1687,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/pia19836-ngc2174.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/pia19836-ngc2174.jpg",
@@ -1318,6 +1717,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/hubble_mwayjet_composite.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/hubble_mwayjet_composite.jpg",
@@ -1341,6 +1747,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/p-21268b.jpeg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/p-21268b.jpeg",
@@ -1364,6 +1777,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/51756638171_8ed20da7d5_o.jpeg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/51756638171_8ed20da7d5_o.jpeg",
@@ -1387,6 +1807,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/hubble_j2034417_freggs_fullsize_0.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/thumbnails/image/hubble_j2034417_freggs_fullsize_0.jpg",

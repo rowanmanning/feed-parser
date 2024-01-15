@@ -21,6 +21,7 @@
 			"url": "http://example.org/generator/"
 		},
 		"image": null,
+		"authors": [],
 		"items": [
 			{
 				"id": "tag:feedparser.org,2004-04-20:/docs/examples/atom03.xml:3",
@@ -31,6 +32,13 @@
 				"updated": "2004-04-20T11:56:34.000Z",
 				"content": "Watch out for  nasty tricks",
 				"image": null,
+				"authors": [
+					{
+						"name": "Mark Pilgrim",
+						"email": "mark@example.org",
+						"url": "http://diveintomark.org/"
+					}
+				],
 				"media": []
 			}
 		]

@@ -185,6 +185,42 @@ for (const suite of suites) {
 						}
 					});
 
+					// DIFF: this is where the libraries differ the most and we can't
+					// test a lot. We compare the single author that feedparser provides
+					// with each property of the first item in our array of authors and
+					// pass the test if it includes at least one of our properties.
+					// Better than nothing but not by much.
+					//
+					// DIFF: when there is no author, feedparser defaults to `null`
+					// and we default to an empty array. We resolve this by ignoring
+					// this case in the tests.
+					//
+					// DIFF: feedparser considers the webmaster RSS property to be an
+					// author which we didn't want to replicate. We test for this case
+					// and ignore any differences.
+					it('has ROUGHLY matching feed authors', () => {
+						const feedParserAuthor = feedParserMeta.author;
+						const feedParserRssWebmaster = (
+							feedParserMeta['rss:webmaster'] ?
+								Object.values(feedParserMeta['rss:webmaster']) :
+								[]
+						);
+						const authors = actual.feed.authors;
+						if (feedParserAuthor === null && !authors.length) {
+							// Test passes, neither of us found authors
+							return;
+						}
+						if (feedParserAuthor && feedParserRssWebmaster.includes(feedParserAuthor)) {
+							return;
+						}
+						if (feedParserAuthor && !authors.length) {
+							assert.ok(false, 'feedparser found an author and we did not');
+						}
+						assert.ok(Object.values(authors[0]).some(value => {
+							return feedParserAuthor.includes(value);
+						}));
+					});
+
 					// DIFF: when there is no explicit guid or id element, we use a
 					// value of `null` whereas feedparser defaults to the item URL.
 					// We'd rather the user of this library makes that decision.
@@ -382,6 +418,48 @@ for (const suite of suites) {
 
 								assert.deepEqual(media, feedParserItemEnclosures);
 							}
+						}
+					});
+
+					// DIFF: this is where the libraries differ the most and we can't
+					// test a lot. We compare the single author that feedparser provides
+					// with each property of the first item in our array of authors and
+					// pass the test if it includes at least one of our properties.
+					// Better than nothing but not by much.
+					//
+					// DIFF: when there is no author, feedparser defaults to `null`
+					// and we default to an empty array. We resolve this by ignoring
+					// this case in the tests.
+					//
+					// DIFF: feedparser considers the webmaster RSS property to be an
+					// author which we didn't want to replicate. We test for this case
+					// and ignore any differences.
+					it('has ROUGHLY matching feed item authors', () => {
+						for (const [i, item] of Object.entries(actual.feed.items)) {
+							const feedParserAuthor = feedParserItems[i].author;
+							const feedParserRssWebmaster = (
+								feedParserMeta['rss:webmaster'] ?
+									Object.values(feedParserMeta['rss:webmaster']) :
+									[]
+							);
+							const authors = item.authors;
+							if (feedParserAuthor === null) {
+								// Test passes, neither of us nothing for us to compare
+								return;
+							}
+							if (feedParserAuthor && feedParserRssWebmaster.includes(feedParserAuthor)) {
+								return;
+							}
+							if (feedParserAuthor && !authors.length) {
+								console.log({
+									ours: authors,
+									theirs: feedParserAuthor
+								});
+								assert.ok(false, 'feedparser found an author and we did not');
+							}
+							assert.ok(Object.values(authors[0]).some(value => {
+								return feedParserAuthor.includes(value);
+							}));
 						}
 					});
 

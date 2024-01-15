@@ -17,6 +17,7 @@
 		"updated": "2010-09-06T00:01:00.000Z",
 		"generator": null,
 		"image": null,
+		"authors": [],
 		"items": [
 			{
 				"id": "7bd204c6-1655-4c27-aeee-53f933c5395f",
@@ -27,6 +28,7 @@
 				"updated": "2009-09-06T16:20:00.000Z",
 				"content": null,
 				"image": null,
+				"authors": [],
 				"media": []
 			}
 		]

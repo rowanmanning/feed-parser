@@ -17,6 +17,7 @@
 		"updated": "2022-05-31T09:19:15.000Z",
 		"generator": null,
 		"image": null,
+		"authors": [],
 		"items": [
 			{
 				"id": "tag:github.com,2008:Grit::Commit/4daac654d90bdc6adf92bf8b15a4aa45d7d62efd",
@@ -30,6 +31,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=30&u=0c57f8445a153dbc0991ae3adaecab4f542ce17f&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": "https://github.com/bep"
+					}
+				],
 				"media": []
 			},
 			{
@@ -44,6 +52,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=30&u=0c57f8445a153dbc0991ae3adaecab4f542ce17f&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": "https://github.com/bep"
+					}
+				],
 				"media": []
 			},
 			{
@@ -58,6 +73,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=30&u=0c57f8445a153dbc0991ae3adaecab4f542ce17f&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": "https://github.com/bep"
+					}
+				],
 				"media": []
 			},
 			{
@@ -72,6 +94,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=30&u=0c57f8445a153dbc0991ae3adaecab4f542ce17f&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": "https://github.com/bep"
+					}
+				],
 				"media": []
 			},
 			{
@@ -86,6 +115,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=30&u=0c57f8445a153dbc0991ae3adaecab4f542ce17f&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": "https://github.com/bep"
+					}
+				],
 				"media": []
 			},
 			{
@@ -100,6 +136,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=30&u=0c57f8445a153dbc0991ae3adaecab4f542ce17f&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": "https://github.com/bep"
+					}
+				],
 				"media": []
 			},
 			{
@@ -114,6 +157,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=30&u=0c57f8445a153dbc0991ae3adaecab4f542ce17f&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": "https://github.com/bep"
+					}
+				],
 				"media": []
 			},
 			{
@@ -128,6 +178,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=30&u=0c57f8445a153dbc0991ae3adaecab4f542ce17f&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": "https://github.com/bep"
+					}
+				],
 				"media": []
 			},
 			{
@@ -142,6 +199,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=30&u=0c57f8445a153dbc0991ae3adaecab4f542ce17f&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": "https://github.com/bep"
+					}
+				],
 				"media": []
 			},
 			{
@@ -156,6 +220,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=30&u=0c57f8445a153dbc0991ae3adaecab4f542ce17f&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": "https://github.com/bep"
+					}
+				],
 				"media": []
 			},
 			{
@@ -170,6 +241,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=30&u=0c57f8445a153dbc0991ae3adaecab4f542ce17f&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": "https://github.com/bep"
+					}
+				],
 				"media": []
 			},
 			{
@@ -184,6 +262,13 @@
 					"url": "https://avatars.githubusercontent.com/in/29110?s=30&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "dependabot",
+						"email": null,
+						"url": "https://github.com/dependabot"
+					}
+				],
 				"media": []
 			},
 			{
@@ -198,6 +283,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=30&u=0c57f8445a153dbc0991ae3adaecab4f542ce17f&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": "https://github.com/bep"
+					}
+				],
 				"media": []
 			},
 			{
@@ -212,6 +304,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=30&u=0c57f8445a153dbc0991ae3adaecab4f542ce17f&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": "https://github.com/bep"
+					}
+				],
 				"media": []
 			},
 			{
@@ -226,6 +325,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=30&u=0c57f8445a153dbc0991ae3adaecab4f542ce17f&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": "https://github.com/bep"
+					}
+				],
 				"media": []
 			},
 			{
@@ -240,6 +346,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=30&u=0c57f8445a153dbc0991ae3adaecab4f542ce17f&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": "https://github.com/bep"
+					}
+				],
 				"media": []
 			},
 			{
@@ -254,6 +367,13 @@
 					"url": "https://avatars.githubusercontent.com/in/29110?s=30&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "dependabot",
+						"email": null,
+						"url": "https://github.com/dependabot"
+					}
+				],
 				"media": []
 			},
 			{
@@ -268,6 +388,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=30&u=0c57f8445a153dbc0991ae3adaecab4f542ce17f&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": "https://github.com/bep"
+					}
+				],
 				"media": []
 			},
 			{
@@ -282,6 +409,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=30&u=0c57f8445a153dbc0991ae3adaecab4f542ce17f&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": "https://github.com/bep"
+					}
+				],
 				"media": []
 			},
 			{
@@ -296,6 +430,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=30&u=0c57f8445a153dbc0991ae3adaecab4f542ce17f&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": "https://github.com/bep"
+					}
+				],
 				"media": []
 			}
 		]

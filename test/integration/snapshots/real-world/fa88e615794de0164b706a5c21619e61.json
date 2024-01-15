@@ -17,6 +17,13 @@
 		"updated": null,
 		"generator": null,
 		"image": null,
+		"authors": [
+			{
+				"name": "Critical Role",
+				"email": null,
+				"url": "https://www.youtube.com/channel/UCpXBGqwsBkpvcYjsJBQ7LEQ"
+			}
+		],
 		"items": [
 			{
 				"id": "yt:video:0_NVdZp8haA",
@@ -30,6 +37,13 @@
 					"url": "https://i1.ytimg.com/vi/0_NVdZp8haA/hqdefault.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Critical Role",
+						"email": null,
+						"url": "https://www.youtube.com/channel/UCpXBGqwsBkpvcYjsJBQ7LEQ"
+					}
+				],
 				"media": [
 					{
 						"url": "https://www.youtube.com/v/0_NVdZp8haA?version=3",
@@ -53,6 +67,13 @@
 					"url": "https://i4.ytimg.com/vi/ORUD8YqDp5E/hqdefault.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Critical Role",
+						"email": null,
+						"url": "https://www.youtube.com/channel/UCpXBGqwsBkpvcYjsJBQ7LEQ"
+					}
+				],
 				"media": [
 					{
 						"url": "https://www.youtube.com/v/ORUD8YqDp5E?version=3",
@@ -76,6 +97,13 @@
 					"url": "https://i4.ytimg.com/vi/wQGk9ZUIOUU/hqdefault.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Critical Role",
+						"email": null,
+						"url": "https://www.youtube.com/channel/UCpXBGqwsBkpvcYjsJBQ7LEQ"
+					}
+				],
 				"media": [
 					{
 						"url": "https://www.youtube.com/v/wQGk9ZUIOUU?version=3",
@@ -99,6 +127,13 @@
 					"url": "https://i1.ytimg.com/vi/h-Df3BQ3FmM/hqdefault.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Critical Role",
+						"email": null,
+						"url": "https://www.youtube.com/channel/UCpXBGqwsBkpvcYjsJBQ7LEQ"
+					}
+				],
 				"media": [
 					{
 						"url": "https://www.youtube.com/v/h-Df3BQ3FmM?version=3",
@@ -122,6 +157,13 @@
 					"url": "https://i2.ytimg.com/vi/yGzf-LmpWz8/hqdefault.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Critical Role",
+						"email": null,
+						"url": "https://www.youtube.com/channel/UCpXBGqwsBkpvcYjsJBQ7LEQ"
+					}
+				],
 				"media": [
 					{
 						"url": "https://www.youtube.com/v/yGzf-LmpWz8?version=3",
@@ -145,6 +187,13 @@
 					"url": "https://i3.ytimg.com/vi/2DWZO-J4zps/hqdefault.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Critical Role",
+						"email": null,
+						"url": "https://www.youtube.com/channel/UCpXBGqwsBkpvcYjsJBQ7LEQ"
+					}
+				],
 				"media": [
 					{
 						"url": "https://www.youtube.com/v/2DWZO-J4zps?version=3",
@@ -168,6 +217,13 @@
 					"url": "https://i2.ytimg.com/vi/1knIHqLqThk/hqdefault.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Critical Role",
+						"email": null,
+						"url": "https://www.youtube.com/channel/UCpXBGqwsBkpvcYjsJBQ7LEQ"
+					}
+				],
 				"media": [
 					{
 						"url": "https://www.youtube.com/v/1knIHqLqThk?version=3",
@@ -191,6 +247,13 @@
 					"url": "https://i2.ytimg.com/vi/eRcD8chte08/hqdefault.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Critical Role",
+						"email": null,
+						"url": "https://www.youtube.com/channel/UCpXBGqwsBkpvcYjsJBQ7LEQ"
+					}
+				],
 				"media": [
 					{
 						"url": "https://www.youtube.com/v/eRcD8chte08?version=3",
@@ -214,6 +277,13 @@
 					"url": "https://i2.ytimg.com/vi/1A2JVqUt1T8/hqdefault.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Critical Role",
+						"email": null,
+						"url": "https://www.youtube.com/channel/UCpXBGqwsBkpvcYjsJBQ7LEQ"
+					}
+				],
 				"media": [
 					{
 						"url": "https://www.youtube.com/v/1A2JVqUt1T8?version=3",
@@ -237,6 +307,13 @@
 					"url": "https://i2.ytimg.com/vi/IZ39H9H_y5Q/hqdefault.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Critical Role",
+						"email": null,
+						"url": "https://www.youtube.com/channel/UCpXBGqwsBkpvcYjsJBQ7LEQ"
+					}
+				],
 				"media": [
 					{
 						"url": "https://www.youtube.com/v/IZ39H9H_y5Q?version=3",
@@ -260,6 +337,13 @@
 					"url": "https://i4.ytimg.com/vi/7t2NJJjy8r8/hqdefault.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Critical Role",
+						"email": null,
+						"url": "https://www.youtube.com/channel/UCpXBGqwsBkpvcYjsJBQ7LEQ"
+					}
+				],
 				"media": [
 					{
 						"url": "https://www.youtube.com/v/7t2NJJjy8r8?version=3",
@@ -283,6 +367,13 @@
 					"url": "https://i3.ytimg.com/vi/nqXmeYBqF1c/hqdefault.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Critical Role",
+						"email": null,
+						"url": "https://www.youtube.com/channel/UCpXBGqwsBkpvcYjsJBQ7LEQ"
+					}
+				],
 				"media": [
 					{
 						"url": "https://www.youtube.com/v/nqXmeYBqF1c?version=3",
@@ -306,6 +397,13 @@
 					"url": "https://i4.ytimg.com/vi/7gRiV02TWww/hqdefault.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Critical Role",
+						"email": null,
+						"url": "https://www.youtube.com/channel/UCpXBGqwsBkpvcYjsJBQ7LEQ"
+					}
+				],
 				"media": [
 					{
 						"url": "https://www.youtube.com/v/7gRiV02TWww?version=3",
@@ -329,6 +427,13 @@
 					"url": "https://i4.ytimg.com/vi/cGhVgjYSpIE/hqdefault.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Critical Role",
+						"email": null,
+						"url": "https://www.youtube.com/channel/UCpXBGqwsBkpvcYjsJBQ7LEQ"
+					}
+				],
 				"media": [
 					{
 						"url": "https://www.youtube.com/v/cGhVgjYSpIE?version=3",
@@ -352,6 +457,13 @@
 					"url": "https://i2.ytimg.com/vi/1OHsbXHMUs4/hqdefault.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Critical Role",
+						"email": null,
+						"url": "https://www.youtube.com/channel/UCpXBGqwsBkpvcYjsJBQ7LEQ"
+					}
+				],
 				"media": [
 					{
 						"url": "https://www.youtube.com/v/1OHsbXHMUs4?version=3",

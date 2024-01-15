@@ -17,6 +17,7 @@
 		"updated": null,
 		"generator": null,
 		"image": null,
+		"authors": [],
 		"items": [
 			{
 				"id": null,
@@ -27,6 +28,7 @@
 				"updated": null,
 				"content": null,
 				"image": null,
+				"authors": [],
 				"media": []
 			},
 			{
@@ -38,6 +40,7 @@
 				"updated": null,
 				"content": null,
 				"image": null,
+				"authors": [],
 				"media": []
 			}
 		]

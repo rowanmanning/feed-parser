@@ -17,6 +17,13 @@
 		"updated": null,
 		"generator": null,
 		"image": null,
+		"authors": [
+			{
+				"name": null,
+				"email": "managingeditor@nasa.gov",
+				"url": null
+			}
+		],
 		"items": [
 			{
 				"id": "http://www.nasa.gov/press-release/nasa-to-discuss-final-test-status-today-before-artemis-moon-mission",
@@ -30,6 +37,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/nhq202204040011.jpg?itok=HIRdKPmO",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/nhq202204040011.jpg?itok=HIRdKPmO",
@@ -53,6 +67,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/artemis_i_wet_dress_rehearsal.jpg?itok=kGUiAGPW",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/artemis_i_wet_dress_rehearsal.jpg?itok=kGUiAGPW",
@@ -76,6 +97,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/51262927224_35ca38972c_k.jpg?itok=lxCfxBVC",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/51262927224_35ca38972c_k.jpg?itok=lxCfxBVC",
@@ -99,6 +127,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/iss065e335291_0.jpg?itok=aMXfrgYh",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/iss065e335291_0.jpg?itok=aMXfrgYh",
@@ -122,6 +157,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/51712323479_fca7ad570d_k.jpg?itok=ho8lbwW1",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/51712323479_fca7ad570d_k.jpg?itok=ho8lbwW1",
@@ -145,6 +187,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/51971024308_eb88243a82_k.jpeg?itok=4hDL-INs",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/51971024308_eb88243a82_k.jpeg?itok=4hDL-INs",
@@ -168,6 +217,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/large_winner_collage.png?itok=0a676iaa",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/large_winner_collage.png?itok=0a676iaa",
@@ -191,6 +247,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/nasa-logo-web-rgb_0.jpg?itok=mrBnB_c9",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/nasa-logo-web-rgb_0.jpg?itok=mrBnB_c9",
@@ -214,6 +277,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/nasa_administrator_bill_nelson.jpg?itok=9TR9QFXn",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/nasa_administrator_bill_nelson.jpg?itok=9TR9QFXn",
@@ -237,6 +307,13 @@
 					"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/ksc-20220321-ph-jbs01_0043_medium.jpeg?itok=JqoLBO0N",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": null,
+						"email": "managingeditor@nasa.gov",
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://www.nasa.gov/sites/default/files/styles/1x1_cardfeed/public/thumbnails/image/ksc-20220321-ph-jbs01_0043_medium.jpeg?itok=JqoLBO0N",

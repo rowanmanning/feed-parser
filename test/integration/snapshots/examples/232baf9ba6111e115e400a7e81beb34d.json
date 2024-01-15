@@ -24,6 +24,13 @@
 			"title": "FeedForAll Sample Feed",
 			"url": "http://www.feedforall.com/feedforall-temp.gif"
 		},
+		"authors": [
+			{
+				"name": null,
+				"email": "marketing@feedforall.com",
+				"url": null
+			}
+		],
 		"items": [
 			{
 				"id": null,
@@ -34,6 +41,13 @@
 				"updated": "2004-10-26T19:01:01.000Z",
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": null,
+						"email": "marketing@feedforall.com",
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -45,6 +59,13 @@
 				"updated": "2004-10-26T19:03:25.000Z",
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": null,
+						"email": "marketing@feedforall.com",
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -56,6 +77,13 @@
 				"updated": "2004-10-26T19:06:44.000Z",
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": null,
+						"email": "marketing@feedforall.com",
+						"url": null
+					}
+				],
 				"media": []
 			}
 		]

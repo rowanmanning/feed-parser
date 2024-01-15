@@ -125,6 +125,14 @@ describe('lib/feed/item/base', () => {
 
 		});
 
+		describe('.authors', () => {
+
+			it('is set to an empty array', () => {
+				assert.deepEqual(feedItem.authors, []);
+			});
+
+		});
+
 		describe('.media', () => {
 			let mockGroupMedia;
 			let mockMedia;
@@ -556,6 +564,7 @@ describe('lib/feed/item/base', () => {
 					updated: new Date('2022-01-01T04:05:06.000Z'),
 					content: 'mock-content',
 					image: 'mock-image',
+					authors: 'mock-authors',
 					media: 'mock-media'
 				};
 				returnValue = feedItem.toJSON.call(mockFeedItem);
@@ -571,6 +580,7 @@ describe('lib/feed/item/base', () => {
 					updated: '2022-01-01T04:05:06.000Z',
 					content: 'mock-content',
 					image: 'mock-image',
+					authors: 'mock-authors',
 					media: 'mock-media'
 				});
 			});

@@ -17,6 +17,7 @@
 		"updated": "2022-05-31T08:37:12.000Z",
 		"generator": null,
 		"image": null,
+		"authors": [],
 		"items": [
 			{
 				"id": "tag:github.com,2008:Repository/11180687/v0.100.0",
@@ -30,6 +31,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=60&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -44,6 +52,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=60&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -58,6 +73,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=60&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -72,6 +94,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=60&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -86,6 +115,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=60&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -100,6 +136,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=60&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -114,6 +157,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=60&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -128,6 +178,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=60&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -142,6 +199,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=60&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -156,6 +220,13 @@
 					"url": "https://avatars.githubusercontent.com/u/394382?s=60&v=4",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "bep",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": []
 			}
 		]

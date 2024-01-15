@@ -20,6 +20,7 @@
 			"title": "NYT > Top Stories",
 			"url": "https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png"
 		},
+		"authors": [],
 		"items": [
 			{
 				"id": "https://www.nytimes.com/2022/04/05/business/russia-debt-dollars.html",
@@ -33,6 +34,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/06/business/05russia-debt-print/05russia-debt-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Alan Rappeport and Eshe Nelson",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/06/business/05russia-debt-print/05russia-debt-moth.jpg",
@@ -56,6 +64,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/04/world/04ukraine-atrocities/04ukraine-atrocities-moth-v2.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Rick Gladstone",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/04/world/04ukraine-atrocities/04ukraine-atrocities-moth-v2.jpg",
@@ -79,6 +94,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/multimedia/05ukraine-blog-borodyanka-topart/05ukraine-blog-borodyanka-topart-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Carlotta Gall",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/multimedia/05ukraine-blog-borodyanka-topart/05ukraine-blog-borodyanka-topart-moth.jpg",
@@ -102,6 +124,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/world/05ukraine-blog-hypersonic01/05ukraine-blog-hypersonic01-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Julian E. Barnes",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/world/05ukraine-blog-hypersonic01/05ukraine-blog-hypersonic01-moth.jpg",
@@ -125,6 +154,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/world/05ukraine-returnees-1/05ukraine-returnees-1-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Jane Arraf",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/world/05ukraine-returnees-1/05ukraine-returnees-1-moth.jpg",
@@ -148,6 +184,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/world/05ukraine-blog-Slovyansk/merlin_201489255_1243cf74-1079-4fa8-9570-b715ef757a5e-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Cora Engelbrecht",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/world/05ukraine-blog-Slovyansk/merlin_201489255_1243cf74-1079-4fa8-9570-b715ef757a5e-moth.jpg",
@@ -171,6 +214,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/us/politics/05dc-surrender-hacks-1/merlin_204706437_35e7a841-c793-463c-81a9-68a69cc23de3-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Kate Conger",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/us/politics/05dc-surrender-hacks-1/merlin_204706437_35e7a841-c793-463c-81a9-68a69cc23de3-moth.jpg",
@@ -194,6 +244,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/multimedia/05ukraine-blog-astronauts-topart/05ukraine-blog-astronauts-topart-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Kenneth Chang",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/multimedia/05ukraine-blog-astronauts-topart/05ukraine-blog-astronauts-topart-moth.jpg",
@@ -217,6 +274,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/multimedia/05xp-oklahoma/05xp-oklahoma-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Michael Levenson",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/multimedia/05xp-oklahoma/05xp-oklahoma-moth.jpg",
@@ -240,6 +304,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/04/business/04econ-recession01/04econ-recession01-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Ben Casselman",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/04/business/04econ-recession01/04econ-recession01-moth.jpg",
@@ -263,6 +334,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/03/business/00eurobiz-1/00eurobiz-1-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Liz Alderman",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/03/business/00eurobiz-1/00eurobiz-1-moth.jpg",
@@ -286,6 +364,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/06/business/00JPtrucker-training2-print/00trucker-training01-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Sarah Butrymowicz and Meredith Kolodner",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/06/business/00JPtrucker-training2-print/00trucker-training01-moth.jpg",
@@ -306,6 +391,13 @@
 				"updated": "2022-04-03T03:39:26.000Z",
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": "Elisabeth Zerofsky",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -320,6 +412,13 @@
 					"url": "https://static01.nyt.com/images/2022/03/23/world/xxFRANCE-AMIENS10/xxFRANCE-AMIENS10-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Norimitsu Onishi",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/03/23/world/xxFRANCE-AMIENS10/xxFRANCE-AMIENS10-moth.jpg",
@@ -343,6 +442,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/world/05france-1/05france-1-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Aurelien Breeden",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/world/05france-1/05france-1-moth.jpg",
@@ -366,6 +472,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/multimedia/05masters-tiger-play6/05masters-tiger-play6-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Bill Pennington and Alan Blinder",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/multimedia/05masters-tiger-play6/05masters-tiger-play6-moth.jpg",
@@ -389,6 +502,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/04/sports/04masters-1997-alt/04masters-1997-alt-moth-v3.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Bill Pennington",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/04/sports/04masters-1997-alt/04masters-1997-alt-moth-v3.jpg",
@@ -412,6 +532,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/06/sports/05masters-invitations1-print/05masters-invitations2-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Alan Blinder and Doug Mills",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/06/sports/05masters-invitations1-print/05masters-invitations2-moth.jpg",
@@ -435,6 +562,13 @@
 					"url": "https://static01.nyt.com/images/2022/03/15/fashion/00GIALLO-1/00GIALLO-1-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Kate Dwyer",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/03/15/fashion/00GIALLO-1/00GIALLO-1-moth.jpg",
@@ -458,6 +592,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/01/obituaries/00mollyshannon-image1/00mollyshannon-image1-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Dave Itzkoff",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/01/obituaries/00mollyshannon-image1/00mollyshannon-image1-moth.jpg",
@@ -478,6 +619,13 @@
 				"updated": "2022-04-05T20:30:26.000Z",
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": "Lydia Kiesling",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -492,6 +640,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/10/arts/10Ke-Huy-Quan1/10Ke-Huy-Quan1-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Robert Ito",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/10/arts/10Ke-Huy-Quan1/10Ke-Huy-Quan1-moth.jpg",
@@ -515,6 +670,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/opinion/sunday/05tu/05tu-moth-v3.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Thuy Linh Tu",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/opinion/sunday/05tu/05tu-moth-v3.jpg",
@@ -538,6 +700,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/04/opinion/04goldberg1/04goldberg1-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Michelle Goldberg",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/04/opinion/04goldberg1/04goldberg1-moth.jpg",
@@ -561,6 +730,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/opinion/05leiibowitz/05leiibowitz-moth-v2.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Michal Leibowitz",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/opinion/05leiibowitz/05leiibowitz-moth-v2.jpg",
@@ -584,6 +760,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/multimedia/05bouie_2/05bouie_2-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Jamelle Bouie",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/multimedia/05bouie_2/05bouie_2-moth.jpg",
@@ -607,6 +790,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/opinion/05mcwhorter/05mcwhorter-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "John McWhorter",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/opinion/05mcwhorter/05mcwhorter-moth.jpg",
@@ -630,6 +820,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/us/-promo-1649160587858/-promo-1649160587858-moth.png",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Sara Menker and Rajiv Shah",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/us/-promo-1649160587858/-promo-1649160587858-moth.png",
@@ -653,6 +850,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/opinion/05eks-olson-main/05eks-olson-main-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "‘The Ezra Klein Show’",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/opinion/05eks-olson-main/05eks-olson-main-moth.jpg",
@@ -676,6 +880,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/opinion/05Min1/05Min1-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Juli Min",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/opinion/05Min1/05Min1-moth.jpg",
@@ -699,6 +910,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/06/opinion/00cottle1/00cottle1-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Michelle Cottle",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/06/opinion/00cottle1/00cottle1-moth.jpg",
@@ -722,6 +940,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/04/opinion/04coy/04coy-moth.png",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Peter Coy",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/04/opinion/04coy/04coy-moth.png",
@@ -745,6 +970,7 @@
 					"url": "https://static01.nyt.com/images/2022/03/29/multimedia/29friedman_1/29friedman_1-moth.jpg",
 					"title": null
 				},
+				"authors": [],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/03/29/multimedia/29friedman_1/29friedman_1-moth.jpg",
@@ -768,6 +994,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/04/opinion/04krugman1/04krugman1-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Paul Krugman",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/04/opinion/04krugman1/04krugman1-moth.jpg",
@@ -791,6 +1024,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/opinion/04schwartz/04schwartz-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Andrew Schwartz",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/opinion/04schwartz/04schwartz-moth.jpg",
@@ -814,6 +1054,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/04/opinion/04Rosenthal/04Rosenthal-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Elisabeth Rosenthal",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/04/opinion/04Rosenthal/04Rosenthal-moth.jpg",
@@ -837,6 +1084,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/04/multimedia/04renkl_3/04renkl_3-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Margaret Renkl",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/04/multimedia/04renkl_3/04renkl_3-moth.jpg",
@@ -860,6 +1114,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/04/opinion/04kang/04kang-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Jay Caspian Kang",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/04/opinion/04kang/04kang-moth.jpg",
@@ -883,6 +1144,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/multimedia/05-the-morning-promo/05-the-morning-bucha-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "David Leonhardt",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/multimedia/05-the-morning-promo/05-the-morning-bucha-moth.jpg",
@@ -906,6 +1174,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/podcasts/05daily-1/05DAILY-ukraine-grain-audio-app-moth-v4.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Michael Barbaro, Asthaa Chaturvedi, Rob Szypko, Rachel Quester, Michael Johnson, Liz O. Baylen, Chelsea Daniel, Dan Powell, Marion Lozano and Chris Wood",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/podcasts/05daily-1/05DAILY-ukraine-grain-audio-app-moth-v4.jpg",
@@ -929,6 +1204,7 @@
 					"url": "https://static01.nyt.com/images/2022/03/22/books/21BOOKFISHER2/21BOOKFISHER2-moth.jpg",
 					"title": null
 				},
+				"authors": [],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/03/22/books/21BOOKFISHER2/21BOOKFISHER2-moth.jpg",
@@ -952,6 +1228,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/04/multimedia/02running-newsletter-PRINT/02running-newsletter-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Talya Minsberg",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/04/multimedia/02running-newsletter-PRINT/02running-newsletter-moth.jpg",
@@ -975,6 +1258,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/us/politics/00dc-invanka/merlin_176288961_5f1d4ae0-80c4-4eca-884d-e660d8e7413b-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Luke Broadwater",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/us/politics/00dc-invanka/merlin_176288961_5f1d4ae0-80c4-4eca-884d-e660d8e7413b-moth.jpg",
@@ -998,6 +1288,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/06/arts/05louisck/05louisck-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Melena Ryzik",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/06/arts/05louisck/05louisck-moth.jpg",
@@ -1021,6 +1318,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/business/05musk-twitter/merlin_203173107_fd16596f-443b-4f91-a515-7cb68654abf0-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Lauren Hirsch",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/business/05musk-twitter/merlin_203173107_fd16596f-443b-4f91-a515-7cb68654abf0-moth.jpg",
@@ -1044,6 +1348,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/multimedia/05xp-severe-weather1/05xp-severe-weather1-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Derrick Bryson Taylor and Johnny Diaz",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/multimedia/05xp-severe-weather1/05xp-severe-weather1-moth.jpg",
@@ -1067,6 +1378,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/us/politics/05pol-upton/05pol-upton-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Shane Goldmacher",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/us/politics/05pol-upton/05pol-upton-moth.jpg",
@@ -1090,6 +1408,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/climate/05cli-asbestos/05cli-asbestos-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Lisa Friedman",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/climate/05cli-asbestos/05cli-asbestos-moth.jpg",
@@ -1113,6 +1438,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/multimedia/05xp-darwin/05xp-darwin-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Daniel Victor",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/multimedia/05xp-darwin/05xp-darwin-moth.jpg",
@@ -1133,6 +1465,13 @@
 				"updated": "2022-04-05T21:56:59.000Z",
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": "Brooks Barnes",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -1144,6 +1483,13 @@
 				"updated": "2022-04-05T19:45:24.000Z",
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": "Charlie Savage",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -1158,6 +1504,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/06/multimedia/05mlb-pitchcom-print/05mlb-pitchcom1-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "David Waldstein",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/06/multimedia/05mlb-pitchcom-print/05mlb-pitchcom1-moth.jpg",
@@ -1181,6 +1534,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/multimedia/05xp-clinic-lauren/05xp-clinic-lauren-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Michael Levenson",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/multimedia/05xp-clinic-lauren/05xp-clinic-lauren-moth.jpg",
@@ -1204,6 +1564,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/well/30well-surge-plan1/30well-surge-plan1-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Tara Parker-Pope and Knvul Sheikh",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/well/30well-surge-plan1/30well-surge-plan1-moth.jpg",
@@ -1227,6 +1594,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/well/16Vaccine-Custody/16Vaccine-Custody-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Debra Kamin",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/well/16Vaccine-Custody/16Vaccine-Custody-moth.jpg",
@@ -1250,6 +1624,13 @@
 					"url": "https://static01.nyt.com/images/2022/03/23/multimedia/00xp-tornado-explanier/00xp-tornado-explanier-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Amanda Holpuch",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/03/23/multimedia/00xp-tornado-explanier/00xp-tornado-explanier-moth.jpg",
@@ -1270,6 +1651,13 @@
 				"updated": "2021-06-24T13:39:08.000Z",
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": "Anna Machin",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -1284,6 +1672,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/01/well/well-mothersday-callout/well-mothersday-callout-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Melonyce McAfee",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/01/well/well-mothersday-callout/well-mothersday-callout-moth.jpg",
@@ -1307,6 +1702,13 @@
 					"url": "https://static01.nyt.com/images/2022/03/21/books/review/00JACKSON/00JACKSON-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Mitchell S. Jackson",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/03/21/books/review/00JACKSON/00JACKSON-moth.jpg",
@@ -1330,6 +1732,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/06/dining/06rest-mena1/05rest-mena1-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Pete Wells",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/06/dining/06rest-mena1/05rest-mena1-moth.jpg",
@@ -1350,6 +1759,13 @@
 				"updated": "2022-04-05T13:00:10.000Z",
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": "Tyler Kepner",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -1364,6 +1780,13 @@
 					"url": "https://static01.nyt.com/images/2022/04/05/books/05lybarger-image/05lybarger-image-moth.jpg",
 					"title": null
 				},
+				"authors": [
+					{
+						"name": "Jeremy Lybarger",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "https://static01.nyt.com/images/2022/04/05/books/05lybarger-image/05lybarger-image-moth.jpg",
@@ -1384,6 +1807,13 @@
 				"updated": "2022-04-05T15:59:39.000Z",
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": "Shane O’Neill",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": []
 			}
 		]

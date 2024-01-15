@@ -17,6 +17,7 @@
 		"updated": "2003-12-13T18:30:02.000Z",
 		"generator": null,
 		"image": null,
+		"authors": [],
 		"items": [
 			{
 				"id": "urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a",
@@ -27,6 +28,13 @@
 				"updated": "2003-12-13T18:30:02.000Z",
 				"content": "<p>This is the entry content.</p>",
 				"image": null,
+				"authors": [
+					{
+						"name": "John Doe",
+						"email": "johndoe@example.com",
+						"url": null
+					}
+				],
 				"media": []
 			}
 		]

@@ -17,6 +17,13 @@
 		"updated": "2000-01-01T12:00:00.000Z",
 		"generator": null,
 		"image": null,
+		"authors": [
+			{
+				"name": "Rael Dornfest",
+				"email": "rael@oreilly.com",
+				"url": null
+			}
+		],
 		"items": [
 			{
 				"id": null,
@@ -27,6 +34,13 @@
 				"updated": null,
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": "Simon St.Laurent",
+						"email": "simonstl@simonstl.com",
+						"url": null
+					}
+				],
 				"media": []
 			}
 		]

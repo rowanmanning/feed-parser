@@ -7,10 +7,12 @@ describe('lib/feed/item/atom', () => {
 	let AtomFeedItem;
 	let FeedItem;
 	let MockElement;
+	let parseContactString;
 
 	beforeEach(() => {
 		MockElement = require('../../../mock/lib/xml/element.mock')();
 		FeedItem = td.replace('../../../../../lib/feed/item/base', require('../../../mock/lib/feed/item/base.mock')());
+		parseContactString = td.replace('../../../../../lib/utils/parse-contact-string', td.func());
 		AtomFeedItem = require('../../../../../lib/feed/item/atom');
 	});
 
@@ -25,7 +27,9 @@ describe('lib/feed/item/atom', () => {
 		let mockFeed;
 
 		beforeEach(() => {
-			mockFeed = {};
+			mockFeed = {
+				authors: ['mock-feed-author']
+			};
 			mockItemElement = new MockElement();
 			feedItem = new AtomFeedItem(mockFeed, mockItemElement);
 		});
@@ -579,6 +583,139 @@ describe('lib/feed/item/atom', () => {
 
 				it('is set to an empty array', () => {
 					assert.deepEqual(feedItem.media, []);
+				});
+
+			});
+
+		});
+
+		describe('.authors', () => {
+			let mockAuthorElements;
+			let authors;
+
+			beforeEach(() => {
+				mockAuthorElements = [
+					new MockElement(),
+					new MockElement(),
+					new MockElement(),
+					new MockElement()
+				];
+				td.when(mockItemElement.findElementsWithName('author')).thenReturn(mockAuthorElements);
+
+				const mockName = new MockElement();
+				mockName.textContentNormalized = 'mock-author-name';
+				const mockUri = new MockElement();
+				mockUri.textContentAsUrl = 'mock-author-uri';
+				const mockEmail = new MockElement();
+				mockEmail.textContentNormalized = 'mock-author-email';
+
+				td.when(mockAuthorElements[0].findElementWithName('name')).thenReturn(mockName);
+				td.when(mockAuthorElements[0].findElementWithName('uri')).thenReturn(mockUri);
+				td.when(mockAuthorElements[0].findElementWithName('email')).thenReturn(mockEmail);
+				td.when(mockAuthorElements[1].findElementWithName('name')).thenReturn(mockName);
+				td.when(mockAuthorElements[2].findElementWithName('uri')).thenReturn(mockUri);
+				td.when(mockAuthorElements[3].findElementWithName('email')).thenReturn(mockEmail);
+
+				authors = feedItem.authors;
+			});
+
+			it('is set to an array of author objects', () => {
+				assert.ok(Array.isArray(authors));
+				assert.strictEqual(authors.length, 4);
+				assert.deepEqual(authors[0], {
+					name: 'mock-author-name',
+					url: 'mock-author-uri',
+					email: 'mock-author-email'
+				});
+				assert.deepEqual(authors[1], {
+					name: 'mock-author-name',
+					url: null,
+					email: null
+				});
+				assert.deepEqual(authors[2], {
+					name: null,
+					url: 'mock-author-uri',
+					email: null
+				});
+				assert.deepEqual(authors[3], {
+					name: null,
+					url: null,
+					email: 'mock-author-email'
+				});
+
+			});
+
+			describe('when an author has a url element rather than a uri element', () => {
+
+				beforeEach(() => {
+					const mockUrl = new MockElement();
+					mockUrl.textContentAsUrl = 'mock-author-url';
+
+					td.when(mockAuthorElements[0].findElementWithName('uri')).thenReturn(null);
+					td.when(mockAuthorElements[0].findElementWithName('url')).thenReturn(mockUrl);
+
+					authors = feedItem.authors;
+				});
+
+				it('the author urls use the incorrect element', () => {
+					assert.strictEqual(authors[0].url, 'mock-author-url');
+				});
+
+			});
+
+			describe('when an author element contains only text', () => {
+
+				beforeEach(() => {
+					mockAuthorElements = [
+						new MockElement()
+					];
+					td.when(mockItemElement.findElementsWithName('author')).thenReturn(mockAuthorElements);
+					mockAuthorElements[0].textContentNormalized = 'mock-author';
+
+					td.when(parseContactString('mock-author')).thenReturn('mock-parsed-author');
+
+					authors = feedItem.authors;
+				});
+
+				it('is parsed for URLs, emails, and names', () => {
+					td.verify(parseContactString('mock-author'), {times: 1});
+					assert.strictEqual(authors[0], 'mock-parsed-author');
+				});
+
+			});
+
+			describe('when an author element contains only text and cannot be parsed', () => {
+
+				beforeEach(() => {
+					mockAuthorElements = [
+						new MockElement(),
+						new MockElement()
+					];
+					td.when(mockItemElement.findElementsWithName('author')).thenReturn(mockAuthorElements);
+					mockAuthorElements[0].textContentNormalized = 'mock-author';
+					mockAuthorElements[1].textContentNormalized = 'mock-author-2';
+
+					td.when(parseContactString('mock-author')).thenReturn(null);
+					td.when(parseContactString('mock-author-2')).thenReturn('mock-parsed-author-2');
+
+					authors = feedItem.authors;
+				});
+
+				it('is not included', () => {
+					assert.deepEqual(authors, ['mock-parsed-author-2']);
+				});
+
+			});
+
+			describe('when there are no author elements', () => {
+
+				beforeEach(() => {
+					td.when(mockItemElement.findElementsWithName('author')).thenReturn([]);
+					authors = feedItem.authors;
+				});
+
+				it('is set to the feed author', () => {
+					assert.deepEqual(authors, ['mock-feed-author']);
 				});
 
 			});

@@ -154,6 +154,14 @@ describe('lib/feed/base', () => {
 
 		});
 
+		describe('.authors', () => {
+
+			it('is set to an empty array', () => {
+				assert.deepEqual(feed.authors, []);
+			});
+
+		});
+
 		describe('.items', () => {
 
 			it('is set to an empty array', () => {
@@ -179,6 +187,7 @@ describe('lib/feed/base', () => {
 					updated: new Date('2022-01-01T04:05:06.000Z'),
 					generator: 'mock-generator',
 					image: 'mock-image',
+					authors: 'mock-authors',
 					items: [{toJSON: () => 'mock-item'}]
 				};
 				returnValue = feed.toJSON.call(mockFeed);
@@ -197,6 +206,7 @@ describe('lib/feed/base', () => {
 					updated: '2022-01-01T04:05:06.000Z',
 					generator: 'mock-generator',
 					image: 'mock-image',
+					authors: 'mock-authors',
 					items: ['mock-item']
 				});
 			});

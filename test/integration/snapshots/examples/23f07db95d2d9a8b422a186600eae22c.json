@@ -24,6 +24,13 @@
 			"title": "FeedForAll Sample Feed",
 			"url": "http://www.feedforall.com/ffalogo48x48.gif"
 		},
+		"authors": [
+			{
+				"name": null,
+				"email": "marketing@feedforall.com",
+				"url": null
+			}
+		],
 		"items": [
 			{
 				"id": null,
@@ -34,6 +41,13 @@
 				"updated": "2004-10-19T15:09:11.000Z",
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": null,
+						"email": "marketing@feedforall.com",
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -45,6 +59,13 @@
 				"updated": "2004-10-19T15:09:09.000Z",
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": null,
+						"email": "marketing@feedforall.com",
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -56,6 +77,13 @@
 				"updated": "2004-10-19T15:09:07.000Z",
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": null,
+						"email": "marketing@feedforall.com",
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -67,6 +95,13 @@
 				"updated": "2004-10-19T15:09:05.000Z",
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": null,
+						"email": "marketing@feedforall.com",
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -78,6 +113,13 @@
 				"updated": "2004-10-19T15:09:03.000Z",
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": null,
+						"email": "marketing@feedforall.com",
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -89,6 +131,13 @@
 				"updated": "2004-10-19T15:09:01.000Z",
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": null,
+						"email": "marketing@feedforall.com",
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -100,6 +149,13 @@
 				"updated": "2004-10-19T15:08:59.000Z",
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": null,
+						"email": "marketing@feedforall.com",
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -111,6 +167,13 @@
 				"updated": "2004-10-19T15:08:57.000Z",
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": null,
+						"email": "marketing@feedforall.com",
+						"url": null
+					}
+				],
 				"media": []
 			},
 			{
@@ -122,6 +185,13 @@
 				"updated": "2004-10-19T15:08:56.000Z",
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": null,
+						"email": "marketing@feedforall.com",
+						"url": null
+					}
+				],
 				"media": []
 			}
 		]

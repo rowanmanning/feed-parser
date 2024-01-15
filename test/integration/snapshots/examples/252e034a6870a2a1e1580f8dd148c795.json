@@ -20,6 +20,13 @@
 			"title": null,
 			"url": "https://applehosted.podcasts.apple.com/hiking_treks/artwork.png"
 		},
+		"authors": [
+			{
+				"name": "The Sunset Explorers",
+				"email": null,
+				"url": null
+			}
+		],
 		"items": [
 			{
 				"id": "aae20190418",
@@ -30,6 +37,13 @@
 				"updated": "2019-01-08T01:15:00.000Z",
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": "The Sunset Explorers",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://example.com/podcasts/everything/AllAboutEverythingEpisode4.mp3",
@@ -50,6 +64,13 @@
 				"updated": "2019-05-07T12:00:00.000Z",
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": "The Sunset Explorers",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://example.com/podcasts/everything/mthood.m4a",
@@ -73,6 +94,13 @@
 					"title": null,
 					"url": "http://example.com/podcasts/everything/AllAboutEverything/Episode2.jpg"
 				},
+				"authors": [
+					{
+						"name": "The Sunset Explorers",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://example.com/podcasts/boulder.mp4",
@@ -96,6 +124,13 @@
 					"title": null,
 					"url": "http://example.com/podcasts/everything/AllAboutEverything/Episode3.jpg"
 				},
+				"authors": [
+					{
+						"name": "The Sunset Explorers",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://example.com/podcasts/everything/caribou.m4v",
@@ -116,6 +151,13 @@
 				"updated": "2019-02-16T07:00:00.000Z",
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": "The Sunset Explorers",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://example.com/podcasts/everything/AllAboutEverythingEpisode4.mp3",
@@ -136,6 +178,13 @@
 				"updated": "2018-11-27T01:15:00.000Z",
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": "The Sunset Explorers",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://example.com/podcasts/everything/AllAboutEverythingEpisode4.mp3",
@@ -156,6 +205,13 @@
 				"updated": "2018-10-23T01:15:00.000Z",
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": "The Sunset Explorers",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://example.com/podcasts/everything/AllAboutEverythingEpisode4.mp3",
@@ -176,6 +232,13 @@
 				"updated": "2018-09-18T01:15:00.000Z",
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": "The Sunset Explorers",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://example.com/podcasts/everything/AllAboutEverythingEpisode4.mp3",
@@ -196,6 +259,13 @@
 				"updated": "2018-08-14T01:15:00.000Z",
 				"content": null,
 				"image": null,
+				"authors": [
+					{
+						"name": "The Sunset Explorers",
+						"email": null,
+						"url": null
+					}
+				],
 				"media": [
 					{
 						"url": "http://example.com/podcasts/everything/AllAboutEverythingEpisode4.mp3",

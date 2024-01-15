@@ -8,6 +8,7 @@ describe('lib/feed/rss', () => {
 	let InvalidFeedError;
 	let MockDocument;
 	let MockElement;
+	let parseContactString;
 	let RssFeed;
 	let RssFeedItem;
 
@@ -16,6 +17,7 @@ describe('lib/feed/rss', () => {
 		MockElement = require('../../mock/lib/xml/element.mock')();
 		Feed = td.replace('../../../../lib/feed/base', require('../../mock/lib/feed/base.mock')());
 		InvalidFeedError = td.replace('../../../../lib/errors/invalid-feed', td.constructor());
+		parseContactString = td.replace('../../../../lib/utils/parse-contact-string', td.func());
 		RssFeedItem = td.replace('../../../../lib/feed/item/rss', td.constructor());
 		RssFeed = require('../../../../lib/feed/rss');
 	});
@@ -621,6 +623,87 @@ describe('lib/feed/rss', () => {
 
 				it('is set to the image property of the base feed', () => {
 					assert.strictEqual(feed.image, 'mock-feed-image');
+				});
+
+			});
+
+		});
+
+		describe('.authors', () => {
+			let authors;
+
+			beforeEach(() => {
+				const mockManagingEditorElements = [
+					new MockElement(),
+					new MockElement()
+				];
+				mockManagingEditorElements[0].textContentNormalized = 'mock-managing-editor-1';
+				mockManagingEditorElements[1].textContentNormalized = 'mock-managing-editor-2';
+				td.when(mockChannelElement.findElementsWithName('managingeditor')).thenReturn(mockManagingEditorElements);
+
+				const mockAuthorElements = [
+					new MockElement(),
+					new MockElement()
+				];
+				mockAuthorElements[0].textContentNormalized = 'mock-author-1';
+				mockAuthorElements[1].textContentNormalized = 'mock-author-2';
+				td.when(mockChannelElement.findElementsWithName('author')).thenReturn(mockAuthorElements);
+
+				const mockCreatorElement = [
+					new MockElement(),
+					new MockElement()
+				];
+				mockCreatorElement[0].textContentNormalized = 'mock-creator-1';
+				mockCreatorElement[1].textContentNormalized = 'mock-creator-2';
+				td.when(mockChannelElement.findElementsWithName('creator')).thenReturn(mockCreatorElement);
+
+				td.when(parseContactString('mock-managing-editor-1')).thenReturn('mock-parsed-managing-editor-1');
+				td.when(parseContactString('mock-managing-editor-2')).thenReturn('mock-parsed-managing-editor-2');
+				td.when(parseContactString('mock-author-1')).thenReturn('mock-parsed-author-1');
+				td.when(parseContactString('mock-author-2')).thenReturn('mock-parsed-author-2');
+				td.when(parseContactString('mock-creator-1')).thenReturn('mock-parsed-creator-1');
+				td.when(parseContactString('mock-creator-2')).thenReturn('mock-parsed-creator-2');
+
+				authors = feed.authors;
+			});
+
+			it('parses each author element', () => {
+				td.verify(parseContactString('mock-managing-editor-1'), {times: 1});
+				td.verify(parseContactString('mock-managing-editor-2'), {times: 1});
+				td.verify(parseContactString('mock-author-1'), {times: 1});
+				td.verify(parseContactString('mock-author-2'), {times: 1});
+				td.verify(parseContactString('mock-creator-1'), {times: 1});
+				td.verify(parseContactString('mock-creator-2'), {times: 1});
+			});
+
+			it('is set to an array of parsed author objects', () => {
+				assert.ok(Array.isArray(authors));
+				assert.strictEqual(authors.length, 6);
+				assert.deepEqual(authors, [
+					'mock-parsed-managing-editor-1',
+					'mock-parsed-managing-editor-2',
+					'mock-parsed-author-1',
+					'mock-parsed-author-2',
+					'mock-parsed-creator-1',
+					'mock-parsed-creator-2'
+				]);
+			});
+
+			describe('when an author element cannot be parsed', () => {
+
+				beforeEach(() => {
+					td.when(parseContactString('mock-managing-editor-1')).thenReturn(null);
+					authors = feed.authors;
+				});
+
+				it('is not included', () => {
+					assert.deepEqual(authors, [
+						'mock-parsed-managing-editor-2',
+						'mock-parsed-author-1',
+						'mock-parsed-author-2',
+						'mock-parsed-creator-1',
+						'mock-parsed-creator-2'
+					]);
 				});
 
 			});
