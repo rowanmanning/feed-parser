@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.3](https://github.com/rowanmanning/feed-parser/compare/v0.5.2...v0.5.3) (2024-01-15)
+
+
+### Features
+
+* add authors properties to feeds and items ([6ba2bd8](https://github.com/rowanmanning/feed-parser/commit/6ba2bd8908b3f1cc239b453cff07206761f9eb3d))
+
 ## [0.5.2](https://github.com/rowanmanning/feed-parser/compare/v0.5.1...v0.5.2) (2024-01-14)
 
 
