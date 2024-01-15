@@ -9,6 +9,7 @@ A well-tested and resilient Node.js parser for [RSS](https://en.wikipedia.org/wi
 ## Table of Contents
 
   * [Requirements](#requirements)
+  * [Introduction](#introduction)
   * [Usage](#usage)
     * [Parsed feed](#parsed-feed)
       * [`Feed`](#feed)
@@ -24,6 +25,19 @@ A well-tested and resilient Node.js parser for [RSS](https://en.wikipedia.org/wi
   * [Contributing](#contributing)
   * [License](#license)
   * [Credit](#credit)
+
+
+## Introduction
+
+This is a Node.js-based feed parser for RSS and Atom feeds. The project has the following aims:
+
+  * Run automated tests against real-world feeds. It's currently tested against ~40 feeds via [Sample Feeds](https://sample-feeds.rowanmanning.com/). This ensures that we support real feeds rather than just the specifications.
+
+  * Related to the point above, [be as lenient as possible](#leniency) with feed parsing.
+
+  * Keep up to date with the latest Node.js versions, including dropping support for end-of-life versions.
+
+  * Maintain compatibility with the great parts of [node-feedparser](https://github.com/danmactough/node-feedparser), e.g. resolving relative URLs.
 
 
 ## Requirements
