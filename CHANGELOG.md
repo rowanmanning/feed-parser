@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.5.4](https://github.com/rowanmanning/feed-parser/compare/v0.5.3...v0.5.4) (2024-01-15)
+
+
+### Documentation Changes
+
+* add an introduction ([f3b65e9](https://github.com/rowanmanning/feed-parser/commit/f3b65e9ece50b597e19e182d0f5f0d6b3f10d15e))
+* flesh out the README ([17ee659](https://github.com/rowanmanning/feed-parser/commit/17ee659e757de3eb0a00d96fe78abcc344eecb7d))
+* rework the project description ([44d42c3](https://github.com/rowanmanning/feed-parser/commit/44d42c3fdbc3a5b26db2a3101a46b2c3cca1cbaa))
+
 ## [0.5.3](https://github.com/rowanmanning/feed-parser/compare/v0.5.2...v0.5.3) (2024-01-15)
 
 
