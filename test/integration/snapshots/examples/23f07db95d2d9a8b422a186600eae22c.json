@@ -31,6 +31,7 @@
 				"url": null
 			}
 		],
+		"categories": [],
 		"items": [
 			{
 				"id": null,
@@ -41,6 +42,7 @@
 				"updated": "2004-10-19T15:09:11.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -48,7 +50,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": null,
@@ -59,6 +61,7 @@
 				"updated": "2004-10-19T15:09:09.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -66,7 +69,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": null,
@@ -77,6 +80,7 @@
 				"updated": "2004-10-19T15:09:07.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -84,7 +88,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": null,
@@ -95,6 +99,7 @@
 				"updated": "2004-10-19T15:09:05.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -102,7 +107,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": null,
@@ -113,6 +118,7 @@
 				"updated": "2004-10-19T15:09:03.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -120,7 +126,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": null,
@@ -131,6 +137,7 @@
 				"updated": "2004-10-19T15:09:01.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -138,7 +145,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": null,
@@ -149,6 +156,7 @@
 				"updated": "2004-10-19T15:08:59.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -156,7 +164,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": null,
@@ -167,6 +175,7 @@
 				"updated": "2004-10-19T15:08:57.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -174,7 +183,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": null,
@@ -185,6 +194,7 @@
 				"updated": "2004-10-19T15:08:56.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -192,7 +202,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			}
 		]
 	}

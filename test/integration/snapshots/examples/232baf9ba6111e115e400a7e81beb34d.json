@@ -31,6 +31,7 @@
 				"url": null
 			}
 		],
+		"categories": [],
 		"items": [
 			{
 				"id": null,
@@ -41,6 +42,7 @@
 				"updated": "2004-10-26T19:01:01.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -48,7 +50,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": null,
@@ -59,6 +61,7 @@
 				"updated": "2004-10-26T19:03:25.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -66,7 +69,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": null,
@@ -77,6 +80,7 @@
 				"updated": "2004-10-26T19:06:44.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -84,7 +88,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			}
 		]
 	}

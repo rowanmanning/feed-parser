@@ -18,6 +18,7 @@
 		"generator": null,
 		"image": null,
 		"authors": [],
+		"categories": [],
 		"items": [
 			{
 				"id": "https://www.huffpost.com/entry/bc-us-abortion-ban-oklahoma_n_624c70a6e4b007d3845bbc30",
@@ -31,7 +32,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c71de21000060a0505690.jpeg?ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c71de21000060a0505690.jpeg?ops=224_126",
@@ -41,7 +41,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/zelenskyy-russians-committing-most-terrible-war-crimes-since-wwii-in-ukraine_n_624c58dde4b007d3845b788a",
@@ -55,7 +57,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c59ea1e0000006b1b1ed5.jpeg?ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c59ea1e0000006b1b1ed5.jpeg?ops=224_126",
@@ -65,7 +66,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/filtration-camps-russia-ukraine-war_n_624ac8b9e4b0e44de9c485ea",
@@ -79,7 +82,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c0b3323000026a9139086.jpeg?cache=ufct2qlovu&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c0b3323000026a9139086.jpeg?cache=ufct2qlovu&ops=224_126",
@@ -89,7 +91,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/unanimals-dog-shelter-ukraine-pets-killed_n_624bd624e4b007d3845a24ff",
@@ -103,7 +107,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624bdcae1e000009641b1de1.jpeg?cache=6v76hoapay&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624bdcae1e000009641b1de1.jpeg?cache=6v76hoapay&ops=224_126",
@@ -113,7 +116,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/un-land-mines-russia-ukraine-war_n_624be5aee4b068157f7b786e",
@@ -127,7 +132,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624be5b023000026a913904d.jpeg?cache=gd8ilo4ekm&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624be5b023000026a913904d.jpeg?cache=gd8ilo4ekm&ops=224_126",
@@ -137,7 +141,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/viktor-vekselberg-yacht-seized_n_624bc131e4b007d3845a1720",
@@ -151,7 +157,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624bc6f2230000ddb1139030.jpeg?cache=yxpcfbf4j1&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624bc6f2230000ddb1139030.jpeg?cache=yxpcfbf4j1&ops=224_126",
@@ -161,7 +166,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/ivanka-trump-jan-6-testimony_n_624c6ab0e4b098174506adcd",
@@ -175,7 +182,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c6b7221000060a0505685.jpeg?cache=qdlyqhwdcd&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c6b7221000060a0505685.jpeg?cache=qdlyqhwdcd&ops=224_126",
@@ -185,7 +191,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/fred-upton-trump-impeachment-retire_n_624c5370e4b007d3845b64a3",
@@ -199,7 +207,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c58b71e000009641b1ecc.jpeg?cache=ufumv9acwl&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c58b71e000009641b1ecc.jpeg?cache=ufumv9acwl&ops=224_126",
@@ -209,7 +216,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/biden-extends-student-loan-moratorium_n_624c7f5de4b0d8266ab203c5",
@@ -223,7 +232,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c8ca42100003b545056d4.jpeg?ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c8ca42100003b545056d4.jpeg?ops=224_126",
@@ -233,7 +241,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/matt-mowers-2016-voting_n_624c3353e4b007d3845b0dd0",
@@ -247,7 +257,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c33542100003b54505600.jpeg?ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c33542100003b54505600.jpeg?ops=224_126",
@@ -257,7 +266,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/obama-biden-white-house-aca-obamacare_n_624c6747e4b007d3845ba661",
@@ -271,7 +282,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c86be1e0000fd6a1b1f27.jpeg?cache=9foycobqhh&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c86be1e0000fd6a1b1f27.jpeg?cache=9foycobqhh&ops=224_126",
@@ -281,7 +291,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/ketanji-brown-jackson-mitt-romney_n_624c70f3e4b098174506bb36",
@@ -295,7 +307,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c71d71e0000006b1b1f0a.jpeg?cache=noun2lmb2o&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c71d71e0000006b1b1f0a.jpeg?cache=noun2lmb2o&ops=224_126",
@@ -305,7 +316,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/harry-edward-greenwell-i-65-killer-identified-fbi-idiana-state-police_n_624c8219e4b068157f7d1726",
@@ -319,7 +332,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c834c2400004c4096e6fe.jpeg?cache=gjyxubwstj&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c834c2400004c4096e6fe.jpeg?cache=gjyxubwstj&ops=224_126",
@@ -329,7 +341,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/biden-aca-obamacare-family-glitch_n_624ba946e4b0587dee6d9bdc",
@@ -343,7 +357,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624bab541e00000c641b1dce.jpeg?cache=rjak0hba9r&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624bab541e00000c641b1dce.jpeg?cache=rjak0hba9r&ops=224_126",
@@ -353,7 +366,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/cdc-revamp-agency-pandemic-criticism_n_624c593fe4b09817450679fd",
@@ -367,7 +382,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c809321000066a05056ad.jpeg?cache=td7jeuq0ty&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c809321000066a05056ad.jpeg?cache=td7jeuq0ty&ops=224_126",
@@ -377,7 +391,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/josh-mandel-campaign-ad-selma-bridge_n_624c9691e4b0d8266ab21dc1",
@@ -391,7 +407,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c99be1e00001e5e1b1f4e.png?cache=rqly3eblpw&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c99be1e00001e5e1b1f4e.png?cache=rqly3eblpw&ops=224_126",
@@ -401,7 +416,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/hailey-bieber-shuts-down-pregnancy-rumor_n_624b1bc1e4b0587dee6d0867",
@@ -415,7 +432,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624ca69b1e0000fd6a1b1f59.jpeg?cache=xok61gamwe&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624ca69b1e0000fd6a1b1f59.jpeg?cache=xok61gamwe&ops=224_126",
@@ -425,7 +441,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/josh-hawley-ketanji-brown-jackson_n_624c86c4e4b0e44de9c7d5a6",
@@ -439,7 +457,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c89f72400004b5596e723.jpeg?ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c89f72400004b5596e723.jpeg?ops=224_126",
@@ -449,7 +466,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/erik-salgado-police-california-highway-patrol-no-charges_n_624ca3f9e4b0e44de9c7fbfc",
@@ -463,7 +482,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624ca54f23000053b41391b5.jpeg?cache=i2anqwd7zb&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624ca54f23000053b41391b5.jpeg?cache=i2anqwd7zb&ops=224_126",
@@ -473,7 +491,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/cole-sprouse-female-disney-stars-sexualized_n_624c62f6e4b068157f7cd957",
@@ -487,7 +507,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c8e392400004b5596e724.jpeg?cache=g1q10nwhgm&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c8e392400004b5596e724.jpeg?cache=g1q10nwhgm&ops=224_126",
@@ -497,7 +516,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/paula-pattons-viral-unseasoned-fried-chicken-recipe_n_624c62bbe4b098174506996f",
@@ -511,7 +532,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c7aae2400002e0c96e6e5.jpeg?ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c7aae2400002e0c96e6e5.jpeg?ops=224_126",
@@ -521,7 +541,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/new-york-steven-zajonc-hate-crime-indicted_n_624c3892e4b007d3845b168f",
@@ -535,7 +557,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c468d1e0000fd6a1b1e8e.jpeg?cache=clavw58qlp&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c468d1e0000fd6a1b1e8e.jpeg?cache=clavw58qlp&ops=224_126",
@@ -545,7 +566,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/parenting-hard-social-media-miserable_l_62390851e4b0c727d481f196",
@@ -559,7 +582,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624ca41a2400004b5596e72c.jpeg?cache=pz2osqgu2j&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624ca41a2400004b5596e72c.jpeg?cache=pz2osqgu2j&ops=224_126",
@@ -569,7 +591,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/your-ex-everybody-else-can-see-you-looking-at-linkedin-profile_l_624b14b1e4b068157f7aa00a",
@@ -583,7 +607,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624b1b6e2100003b545054ed.jpeg?cache=vbnwzbg4ox&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624b1b6e2100003b545054ed.jpeg?cache=vbnwzbg4ox&ops=224_126",
@@ -593,7 +616,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/school-pick-up-tweets-parents_l_6245d04ee4b068157f7473df",
@@ -607,7 +632,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c1230230000d3aa139095.jpeg?cache=iudalffzpx&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c1230230000d3aa139095.jpeg?cache=iudalffzpx&ops=224_126",
@@ -617,7 +641,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/amy-mills-barbecue_l_622a51ece4b0fe0944d2eeb5",
@@ -631,7 +657,6 @@
 					"url": "https://img.huffingtonpost.com/asset/622a522f210000397050379c.jpg?cache=izd5qwr0i3&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/622a522f210000397050379c.jpg?cache=izd5qwr0i3&ops=224_126",
@@ -641,7 +666,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/apple-airpods-sale-amazon_l_624c4029e4b0981745062d7d",
@@ -655,7 +682,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c46c423000055b41390e8.png?cache=oaaarxq84n&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c46c423000055b41390e8.png?cache=oaaarxq84n&ops=224_126",
@@ -665,7 +691,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/trendy-chunky-sunglasses-summer_l_624af38be4b098174503fe92",
@@ -679,7 +707,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624b51681e000008641b1d91.png?cache=4xwe86mwqo&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624b51681e000008641b1d91.png?cache=4xwe86mwqo&ops=224_126",
@@ -689,7 +716,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/period-underwear-thinx-knix-amazon_l_624af49be4b0e44de9c4f549",
@@ -703,7 +732,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624b0fbd230000cfaa138fa6.jpg?ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624b0fbd230000cfaa138fa6.jpg?ops=224_126",
@@ -713,7 +741,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/bad-blood-my-friend-anna-books_l_624ae14ee4b0d8266aaef4ae",
@@ -727,7 +757,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624b307e2100009443505509.png?cache=rrd0ld3wbt&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624b307e2100009443505509.png?cache=rrd0ld3wbt&ops=224_126",
@@ -737,7 +766,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/home-organization-walmart_l_623b3885e4b019fd8135fba2",
@@ -751,7 +782,6 @@
 					"url": "https://img.huffingtonpost.com/asset/623b51d51e0000df3c1b0e84.jpeg?cache=rnnqqvlyrz&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/623b51d51e0000df3c1b0e84.jpeg?cache=rnnqqvlyrz&ops=224_126",
@@ -761,7 +791,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/the-angeles-link_n_62044c39e4b0e224afc2374d",
@@ -775,7 +807,6 @@
 					"url": "https://img.huffingtonpost.com/asset/62056a122c00005b3edf6b02.jpg?ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/62056a122c00005b3edf6b02.jpg?ops=224_126",
@@ -785,7 +816,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/bruce-willis-aphasia-language-disorder_n_624c71b5e4b068157f7cfce6",
@@ -799,7 +832,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c75951e00003e5e1b1f0d.jpeg?ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c75951e00003e5e1b1f0d.jpeg?ops=224_126",
@@ -809,7 +841,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/bc-us-sacramento-mass-shooting_n_624c43b9e4b0587dee6ec561",
@@ -823,7 +857,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c44161e0000006b1b1e8c.jpeg?ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c44161e0000006b1b1e8c.jpeg?ops=224_126",
@@ -833,7 +866,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/ishmael-reed-award-winning-author_n_624c824de4b068157f7d17b3",
@@ -847,7 +882,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c82f0230000ddb1139182.jpeg?ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c82f0230000ddb1139182.jpeg?ops=224_126",
@@ -857,7 +891,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/amy-schumer-alec-baldwin-oscar-joke_n_624c7b51e4b098174506ce49",
@@ -871,7 +907,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c7c0b21000066a0505698.jpeg?cache=pgki0btwoq&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c7c0b21000066a0505698.jpeg?cache=pgki0btwoq&ops=224_126",
@@ -881,7 +916,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/kourtney-kardashian-travis-barker-married_n_624c4abde4b0587dee6edd45",
@@ -895,7 +932,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c568923000026a9139120.jpeg?cache=qazuiaro4q&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c568923000026a9139120.jpeg?cache=qazuiaro4q&ops=224_126",
@@ -905,7 +941,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/pedro-severino-suspended-fertility-ovulation-drug_n_624c6a22e4b007d3845bad96",
@@ -919,7 +957,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c6cd02400004e4096e6d2.png?ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c6cd02400004e4096e6d2.png?ops=224_126",
@@ -929,7 +966,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/elon-musk-twitter-board_n_624c3a31e4b0e44de9c70fcb",
@@ -943,7 +982,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c3c98230000f7a11390cf.jpeg?cache=i9k8riopva&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c3c98230000f7a11390cf.jpeg?cache=i9k8riopva&ops=224_126",
@@ -953,7 +991,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/jason-momoa-kate-beckinsale-rumor_n_624c1c9fe4b0d8266ab10dc4",
@@ -967,7 +1007,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c280f230000dfb11390b8.jpg?ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c280f230000dfb11390b8.jpg?ops=224_126",
@@ -977,7 +1016,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/alexander-skarsgard-sexy-hunky-hot-list_n_624c981ce4b0d8266ab2202d",
@@ -991,7 +1032,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c9a602400004b5596e729.jpeg?cache=hnxpdjeg6j&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c9a602400004b5596e729.jpeg?cache=hnxpdjeg6j&ops=224_126",
@@ -1001,7 +1041,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/new-york-eric-adams-florida-dont-say-gay-campaign_n_624c935ce4b0587dee6f7839",
@@ -1015,7 +1057,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c95d22100003b545056d8.jpeg?cache=tox4imheih&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c95d22100003b545056d8.jpeg?cache=tox4imheih&ops=224_126",
@@ -1025,7 +1066,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/lauren-boebert-mickey-mouse_n_624bee44e4b0587dee6dd708",
@@ -1039,7 +1082,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624bf1ff210000dc8d505596.jpg?cache=lq4iwt8508&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624bf1ff210000dc8d505596.jpg?cache=lq4iwt8508&ops=224_126",
@@ -1049,7 +1091,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/madison-cawthorn-dashcam-traffic-stop-video_n_624b9382e4b098174504fc67",
@@ -1063,7 +1107,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624ba60d1e00000c641b1dc7.jpeg?cache=mknicrorh9&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624ba60d1e00000c641b1dc7.jpeg?cache=mknicrorh9&ops=224_126",
@@ -1073,7 +1116,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/marjorie-taylor-greene-republicans-vile-tweet_n_624bf8e4e4b0d8266ab091dd",
@@ -1087,7 +1132,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624bfa0521000046545055ac.jpeg?cache=yhytor5geu&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624bfa0521000046545055ac.jpeg?cache=yhytor5geu&ops=224_126",
@@ -1097,7 +1141,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/death-fear-phobia-burkitt-lymphoma_n_624493eee4b0d8266aa6dff9",
@@ -1111,7 +1157,6 @@
 					"url": "https://img.huffingtonpost.com/asset/6244a28c2300006494138a69.png?cache=c3n5rdyn8s&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/6244a28c2300006494138a69.png?cache=c3n5rdyn8s&ops=224_126",
@@ -1121,7 +1166,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/china-covid-shanghai-lockdown_n_624c3a04e4b0e44de9c70f55",
@@ -1135,7 +1182,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c4ea123000026a913910f.jpeg?cache=w4abizjqww&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c4ea123000026a913910f.jpeg?cache=w4abizjqww&ops=224_126",
@@ -1145,7 +1191,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/amazon-internal-social-network-union-restroom_n_624bd20de4b007d3845a1f7f",
@@ -1159,7 +1207,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624bd2512400004c4096e5bf.jpeg?cache=ffxadv66jb&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624bd2512400004c4096e5bf.jpeg?cache=ffxadv66jb&ops=224_126",
@@ -1169,7 +1216,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/directv-officially-dumps-right-wing-network-oan_n_624c56bae4b0d8266ab19ed3",
@@ -1183,7 +1232,6 @@
 					"url": "https://img.huffingtonpost.com/asset/61e2416a260000ebf03d2caf.jpeg?cache=qr1euth1vb&ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/61e2416a260000ebf03d2caf.jpeg?cache=qr1euth1vb&ops=224_126",
@@ -1193,7 +1241,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.huffpost.com/entry/prince-11-teachers-strike-video_n_624c07c6e4b007d3845a8adb",
@@ -1207,7 +1257,6 @@
 					"url": "https://img.huffingtonpost.com/asset/624c11201e00003e5e1b1e44.jpeg?ops=224_126",
 					"title": null
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://img.huffingtonpost.com/asset/624c11201e00003e5e1b1e44.jpeg?ops=224_126",
@@ -1217,7 +1266,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			}
 		]
 	}

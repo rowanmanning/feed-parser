@@ -25,6 +25,7 @@
 			"url": "https://unsplash.com/blog/favicon.png"
 		},
 		"authors": [],
+		"categories": [],
 		"items": [
 			{
 				"id": "6243371d804104003d1b1b69",
@@ -38,13 +39,6 @@
 					"url": "https://unsplash.com/blog/content/images/2022/03/Back-to-basics---Travel--Blog--2.jpg",
 					"title": null
 				},
-				"authors": [
-					{
-						"name": "Alex Begin",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://unsplash.com/blog/content/images/2022/03/Back-to-basics---Travel--Blog--2.jpg",
@@ -54,7 +48,15 @@
 						"type": "image",
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Alex Begin",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "6217e2e5a5fc66003de5f721",
@@ -68,13 +70,6 @@
 					"url": "https://unsplash.com/blog/content/images/2022/03/Roberta--Blog--1.jpg",
 					"title": null
 				},
-				"authors": [
-					{
-						"name": "Natalie Brennan",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://unsplash.com/blog/content/images/2022/03/Roberta--Blog--1.jpg",
@@ -84,7 +79,15 @@
 						"type": "image",
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Natalie Brennan",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "6238c461574192003d4c0521",
@@ -98,13 +101,6 @@
 					"url": "https://unsplash.com/blog/content/images/2022/03/Color-of-Water-banner--Blog---1--2.jpg",
 					"title": null
 				},
-				"authors": [
-					{
-						"name": "Unsplash Team",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://unsplash.com/blog/content/images/2022/03/Color-of-Water-banner--Blog---1--2.jpg",
@@ -114,7 +110,15 @@
 						"type": "image",
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Unsplash Team",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "62265414d3543f003d415d0c",
@@ -128,13 +132,6 @@
 					"url": "https://unsplash.com/blog/content/images/2022/03/Aaron--Blog-.jpg",
 					"title": null
 				},
-				"authors": [
-					{
-						"name": "Natalie Brennan",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://unsplash.com/blog/content/images/2022/03/Aaron--Blog-.jpg",
@@ -144,7 +141,15 @@
 						"type": "image",
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Natalie Brennan",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "62265afdd3543f003d415d48",
@@ -158,13 +163,6 @@
 					"url": "https://unsplash.com/blog/content/images/2022/03/Back-to-basics---Screens--Blog--1.jpg",
 					"title": null
 				},
-				"authors": [
-					{
-						"name": "Unsplash Team",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://unsplash.com/blog/content/images/2022/03/Back-to-basics---Screens--Blog--1.jpg",
@@ -174,7 +172,15 @@
 						"type": "image",
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Unsplash Team",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "6217e04ca5fc66003de5f6d2",
@@ -188,13 +194,6 @@
 					"url": "https://unsplash.com/blog/content/images/2022/02/Thomas--Blog-.jpg",
 					"title": null
 				},
-				"authors": [
-					{
-						"name": "Natalie Brennan",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://unsplash.com/blog/content/images/2022/02/Thomas--Blog-.jpg",
@@ -204,7 +203,15 @@
 						"type": "image",
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Natalie Brennan",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "61f2e43d61051e003bd765eb",
@@ -218,13 +225,6 @@
 					"url": "https://unsplash.com/blog/content/images/2022/01/UN-Partnership--Blog--3.jpg",
 					"title": null
 				},
-				"authors": [
-					{
-						"name": "Unsplash Team",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://unsplash.com/blog/content/images/2022/01/UN-Partnership--Blog--3.jpg",
@@ -234,7 +234,15 @@
 						"type": "image",
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Unsplash Team",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "6217a3faa5fc66003de5f684",
@@ -248,13 +256,6 @@
 					"url": "https://unsplash.com/blog/content/images/2022/02/Unbounce--Blog--1.jpg",
 					"title": null
 				},
-				"authors": [
-					{
-						"name": "Natalie Brennan",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://unsplash.com/blog/content/images/2022/02/Unbounce--Blog--1.jpg",
@@ -264,7 +265,15 @@
 						"type": "image",
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Natalie Brennan",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "61f03d85880d12004860312e",
@@ -278,13 +287,6 @@
 					"url": "https://unsplash.com/blog/content/images/2022/01/Entrepreneur-Banner--Blog-.jpg",
 					"title": null
 				},
-				"authors": [
-					{
-						"name": "Natalie Brennan",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://unsplash.com/blog/content/images/2022/01/Entrepreneur-Banner--Blog-.jpg",
@@ -294,7 +296,15 @@
 						"type": "image",
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Natalie Brennan",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "61f9493f968755003b8afa79",
@@ -308,13 +318,6 @@
 					"url": "https://unsplash.com/blog/content/images/2022/02/op-4--Blog--1.jpg",
 					"title": null
 				},
-				"authors": [
-					{
-						"name": "Annie Spratt",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://unsplash.com/blog/content/images/2022/02/op-4--Blog--1.jpg",
@@ -324,7 +327,15 @@
 						"type": "image",
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Annie Spratt",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "61e0945699f3a9003b1fb3b3",
@@ -338,13 +349,6 @@
 					"url": "https://unsplash.com/blog/content/images/2022/01/MadeWithUnsplash--Blog-.jpg",
 					"title": null
 				},
-				"authors": [
-					{
-						"name": "Natalie Brennan",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://unsplash.com/blog/content/images/2022/01/MadeWithUnsplash--Blog-.jpg",
@@ -354,7 +358,15 @@
 						"type": "image",
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Natalie Brennan",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "61ae5dce3e1dd8003b09ac1a",
@@ -368,13 +380,6 @@
 					"url": "https://unsplash.com/blog/content/images/2021/12/toa-heftiba-un7YJskhpl4-unsplash-2.jpg",
 					"title": null
 				},
-				"authors": [
-					{
-						"name": "Natalie Brennan",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://unsplash.com/blog/content/images/2021/12/toa-heftiba-un7YJskhpl4-unsplash-2.jpg",
@@ -384,7 +389,15 @@
 						"type": "image",
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Natalie Brennan",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "618d30ca2bda79003bc4cfc2",
@@ -398,13 +411,6 @@
 					"url": "https://unsplash.com/blog/content/images/2021/12/blockchain--Blog--1.jpg",
 					"title": null
 				},
-				"authors": [
-					{
-						"name": "Unsplash Team",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://unsplash.com/blog/content/images/2021/12/blockchain--Blog--1.jpg",
@@ -414,7 +420,15 @@
 						"type": "image",
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Unsplash Team",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "61aa39a52bda79003bc4d2d5",
@@ -428,13 +442,6 @@
 					"url": "https://unsplash.com/blog/content/images/2021/12/Wallpapers-Winner--Blog--1.jpg",
 					"title": null
 				},
-				"authors": [
-					{
-						"name": "Natalie Brennan",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://unsplash.com/blog/content/images/2021/12/Wallpapers-Winner--Blog--1.jpg",
@@ -444,7 +451,15 @@
 						"type": "image",
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Natalie Brennan",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "61a63a6b2bda79003bc4d291",
@@ -458,13 +473,6 @@
 					"url": "https://unsplash.com/blog/content/images/2021/12/holidays_-Blog--1.jpeg",
 					"title": null
 				},
-				"authors": [
-					{
-						"name": "Natalie Brennan",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://unsplash.com/blog/content/images/2021/12/holidays_-Blog--1.jpeg",
@@ -474,7 +482,15 @@
 						"type": "image",
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Natalie Brennan",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			}
 		]
 	}

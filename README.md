@@ -14,6 +14,7 @@ A well-tested and resilient Node.js parser for [RSS](https://en.wikipedia.org/wi
     * [Parsed feed](#parsed-feed)
       * [`Feed`](#feed)
       * [`FeedAuthor`](#feedauthor)
+      * [`FeedCategory`](#feedcategory)
       * [`FeedGenerator`](#feedgenerator)
       * [`FeedImage`](#feedimage)
       * [`FeedItem`](#feeditem)
@@ -88,6 +89,11 @@ Represents an RSS or Atom feed.
         <td><code>authors</code></td>
         <td><code><a href="#feedauthor">FeedAuthor</a>[]</code></td>
         <td>The feed authors. Always an array but sometimes empty if no authors are found.</td>
+    </tr>
+    <tr>
+        <td><code>categories</code></td>
+        <td><code><a href="#feedcategory">FeedCategory</a>[]</code></td>
+        <td>The feed categories. Always an array but sometimes empty if no categories are found.</td>
     </tr>
     <tr>
         <td><code>copyright</code></td>
@@ -178,6 +184,33 @@ Represents the author of a [`Feed`](#feed) or [`FeedItem`](#feeditem).
     </tr>
 </table>
 
+#### `FeedCategory`
+
+Represents the content category of a [`Feed`](#feed) or [`FeedItem`](#feeditem).
+
+<table>
+    <tr>
+        <th>Property</th>
+        <th>Type</th>
+        <th>Notes</th>
+    </tr>
+    <tr>
+        <td><code>label</code></td>
+        <td><code>string | null</code></td>
+        <td>The category display label.</td>
+    </tr>
+    <tr>
+        <td><code>term</code></td>
+        <td><code>string | null</code></td>
+        <td>The category identifier. Often the same as the <code>label</code>.</td>
+    </tr>
+    <tr>
+        <td><code>url</code></td>
+        <td><code>string | null</code></td>
+        <td>A URL pointing to a representation of the category on the internet.</td>
+    </tr>
+</table>
+
 #### `FeedGenerator`
 
 Represents software that generated a [`Feed`](#feed).
@@ -241,6 +274,11 @@ Represents an RSS item or Atom entry in a [`Feed`](#feed).
         <td><code>authors</code></td>
         <td><code><a href="#feedauthor">FeedAuthor</a>[]</code></td>
         <td>The feed item authors. Always an array but sometimes empty if no authors are found.</td>
+    </tr>
+    <tr>
+        <td><code>categories</code></td>
+        <td><code><a href="#feedcategory">FeedCategory</a>[]</code></td>
+        <td>The feed item categories. Always an array but sometimes empty if no categories are found.</td>
     </tr>
     <tr>
         <td><code>content</code></td>

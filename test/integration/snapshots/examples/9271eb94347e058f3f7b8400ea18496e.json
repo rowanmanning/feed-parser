@@ -18,6 +18,7 @@
 		"generator": null,
 		"image": null,
 		"authors": [],
+		"categories": [],
 		"items": [
 			{
 				"id": "urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a",
@@ -28,6 +29,7 @@
 				"updated": "2003-12-13T18:30:02.000Z",
 				"content": "<p>This is the entry content.</p>",
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": "John Doe",
@@ -35,7 +37,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			}
 		]
 	}

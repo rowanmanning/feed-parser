@@ -27,6 +27,7 @@
 				"url": "https://www.buzzfeed.com/about"
 			}
 		],
+		"categories": [],
 		"items": [
 			{
 				"id": "https://www.buzzfeed.com/mtownsin/june-brown-dead-iconic-eastenders-moments",
@@ -40,6 +41,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/9/campaign_images/074e5b793123/13-brilliant-dot-cotton-moments-from-eastenders-t-2-1927-1649150560-8_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -47,7 +49,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/devinagohil/home-deals-from-amazons-spring-sale",
@@ -61,6 +63,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/4/10/campaign_images/194fa07397f7/amazon-are-having-a-huge-spring-sale-here-are-the-2-6425-1649067312-12_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -68,7 +71,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/fjohnce/favorite-tv-show-poll",
@@ -82,6 +85,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/1/16/enhanced/7aff5536c5ac/original-1717-1648830631-24.jpg?crop=1243:829;0,0",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -89,7 +93,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/laviniasantos/wildest-school-stories",
@@ -103,6 +107,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/4/10/tmp/aac95104e00b/tmp-name-2-6353-1649067396-3_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -110,7 +115,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/sam_cleal/new-tv-movies-2022-april",
@@ -124,6 +129,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/12/tmp/39a7e882206f/tmp-name-2-2031-1649161045-9_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -131,7 +137,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/devinagohil/best-tiktok-makeup-hacks-makeup-artist",
@@ -145,6 +151,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/14/campaign_images/bb1e59a623cf/heres-everything-you-need-to-recreate-viral-tikto-2-458-1649170085-12_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -152,7 +159,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/elizabeth_cotton/the-best-of-joseph-joseph-in-amazon-spring-sale",
@@ -166,6 +173,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/12/campaign_images/3d74783be679/amazons-spring-sale-will-save-you-some-serious-co-2-2180-1649163357-21_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -173,7 +181,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/jasminnahar/tower-air-fryer-on-sale",
@@ -187,6 +195,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/4/12/campaign_images/e6962d6ecf69/this-popular-highly-rated-air-fryer-is-on-sale-an-2-6399-1649076063-62_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -194,7 +203,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/elizabeth_cotton/not-on-the-high-street-easter-collection",
@@ -208,6 +217,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/14/campaign_images/f06f979813cb/not-on-the-high-streets-easter-collection-is-here-2-467-1649169681-0_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -215,7 +225,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/jessicabrunt/my-fave-tiktok-viral-air-styler-is-on-sale",
@@ -229,6 +239,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/14/campaign_images/3d74783be679/my-fave-tiktok-viral-hair-styler-is-38-off-right--2-2344-1649169343-7_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -236,7 +247,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/larryfitzmaurice/daisy-ridley-instagram-return-six-year-hiatus",
@@ -250,6 +261,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/20/asset/1ef92633a400/sub-buzz-695-1649191912-10.jpg?crop=3000:2000;0,0",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -257,7 +269,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/meganeliscomb/petty-office-gossip",
@@ -271,6 +283,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/16/enhanced/f42ad988273f/original-687-1649176404-19.jpg?crop=1244:829;0,0",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -278,7 +291,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeednews.com/article/salvadorhernandez/dc-fox-capitol-senate",
@@ -292,6 +305,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/22/campaign_images/f42ad988273f/an-adorable-but-aggressive-fox-menaced-the-us-sen-2-1566-1649196350-0_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -299,7 +313,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeednews.com/article/skbaer/tory-lanez-megan-thee-stallion-shooting-bail-arrest",
@@ -313,6 +327,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/21/campaign_images/f06f979813cb/tory-lanezs-messy-tweets-about-the-megan-thee-sta-2-1467-1649195791-2_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -320,7 +335,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeednews.com/article/davidmack/ukraine-bucha-zelensky-united-nations",
@@ -334,6 +349,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/18/campaign_images/fd962ec378ad/ukraines-president-described-nightmarish-war-crim-2-927-1649183012-21_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -341,7 +357,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeednews.com/article/paigeskinner/anti-lgbtq-laws-march",
@@ -355,6 +371,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/4/23/campaign_images/39a7e882206f/state-legislators-keep-trying-to-pass-anti-lgbtq--2-1159-1649116421-0_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -362,7 +379,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeednews.com/article/skbaer/sacramento-shooting-arrest-victims",
@@ -376,6 +393,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/20/campaign_images/f42ad988273f/three-people-have-been-arrested-after-a-chaotic-s-2-1394-1649192316-15_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -383,7 +401,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/jessg/peaky-blinders-ending-season-six-finale-tweets",
@@ -397,6 +415,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/16/enhanced/f06f979813cb/original-655-1649175841-14.jpg?crop=1243:829;0,0",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -404,7 +423,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/samjustine212/bridgerton-2-book-to-show-changes",
@@ -418,6 +437,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/19/enhanced/1d3a7425fc51/original-918-1649185748-2.jpg?crop=2996:1997;0,0",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -425,7 +445,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/hannahmarder/hot-2000s-girl-things",
@@ -439,6 +459,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-03/30/15/enhanced/00bc1bddefdf/original-548-1648654058-26.jpg?crop=1244:829;0,0",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -446,7 +467,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/jenniferabidor/bridgerton-season-2-behind-the-scenes",
@@ -460,6 +481,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/19/tmp/f42ad988273f/tmp-name-2-1203-1649188677-1_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -467,7 +489,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/rachelstrolle/if-you-like-this-popular-ya-book-try-this-adult-book",
@@ -481,6 +503,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/21/campaign_images/1d3a7425fc51/if-you-like-this-popular-ya-book-try-this-adult-b-2-1307-1649195916-24_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -488,7 +511,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/nayaphobiaa/6-stranger-things-mysteries-2022",
@@ -502,6 +525,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-03/31/20/tmp/57c545a549bc/tmp-name-2-858-1648760038-9_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -509,7 +533,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/pernellquilon/interviewing-all-the-boys-ive-ever-loved",
@@ -523,6 +547,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-03/28/18/enhanced/c320e7fed4c3/original-970-1648491501-12.jpg?crop=1244:829;0,0",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -530,7 +555,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/larryfitzmaurice/cole-sprouse-fame-trauma-young-women",
@@ -544,6 +569,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/20/tmp/f42ad988273f/tmp-name-2-1280-1649189974-1_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -551,7 +577,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/lizmrichardson/best-rom-com-movies-rotten-tomatoes-poll",
@@ -565,6 +591,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/1/14/tmp/aac95104e00b/tmp-name-2-1601-1648824635-5_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -572,7 +599,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/matthewhuff/best-apple-tv-plus-tv-april-2022",
@@ -586,6 +613,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/18/campaign_images/f06f979813cb/20-of-the-best-tv-shows-to-stream-on-apple-tv-in--2-920-1649181837-7_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -593,7 +621,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/utconnorrajski/which-marvel-character-you-are-based-off-on-your-gym-outfit",
@@ -607,6 +635,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/1/19/tmp/7aff5536c5ac/tmp-name-2-2038-1648841434-7_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -614,7 +643,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/kenwhanley/20-totally-ridiculous-and-absurd-horror-movies",
@@ -628,6 +657,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/1/14/tmp/7aff5536c5ac/tmp-name-2-1482-1648823348-3_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -635,7 +665,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/feynman12/morbius-funny-tweets-jokes",
@@ -649,6 +679,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/4/20/tmp/ee31c0fbc1e6/tmp-name-2-406-1649105148-12_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -656,7 +687,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/ladym12/country-life-farm-personality-quiz",
@@ -670,6 +701,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-03/31/20/tmp/368b426a9f91/tmp-name-2-867-1648759202-15_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -677,7 +709,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/morgansloss1/movies-with-unhappy-endings",
@@ -691,6 +723,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/1/5/tmp/e6962d6ecf69/tmp-name-2-934-1648791105-0_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -698,7 +731,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/daves4/scammers-getting-destroyed",
@@ -712,6 +745,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/18/tmp/1d7782f1cd59/tmp-name-2-904-1649183106-1_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -719,7 +753,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/ajanibazile/restaurant-workers-see-gross-things",
@@ -733,6 +767,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/1/20/tmp/194fa07397f7/tmp-name-2-2204-1648844400-7_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -740,7 +775,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/heedoo/zodiac-sign-based-on-your-daily-routine",
@@ -754,6 +789,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-03/29/23/tmp/e51b38fde8b1/tmp-name-2-673-1648598161-14_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -761,7 +797,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/clazz25/candy-bar-personality-food-quiz",
@@ -775,6 +811,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/4/17/tmp/5eaf303076cb/tmp-name-2-417-1649094794-14_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -782,7 +819,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/dustingreen/golden-girls-food-quiz",
@@ -796,6 +833,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-03/31/20/tmp/368b426a9f91/tmp-name-2-826-1648757994-21_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -803,7 +841,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/noradominick/bridgerton-kate-anthony-tweets-reactions",
@@ -817,6 +855,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/18/campaign_images/fd962ec378ad/31-bridgerton-reactions-about-kate-and-anthony-th-2-941-1649183121-0_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -824,7 +863,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/lyneghazala1/bruch-buffet-gen-z-millennial-quiz",
@@ -838,6 +877,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/2/20/tmp/5c9d1851c91c/tmp-name-2-3974-1648931810-17_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -845,7 +885,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/hannahmarder/disney-channel-2000s",
@@ -859,6 +899,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/1/13/tmp/6a080c69fb2e/tmp-name-2-1473-1648821198-16_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -866,7 +907,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeednews.com/article/piapeterson/freaknik-photos-atlanta-spring-break-party",
@@ -880,6 +921,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/14/campaign_images/259e4cd32240/freaknik-was-a-party-like-no-other-and-theres-pho-2-480-1649170536-6_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -887,7 +929,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/rachelbrodsky/red-hot-chili-peppers-flea-daughter-grammy-shovel",
@@ -901,6 +943,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/15/campaign_images/1d3a7425fc51/red-hot-chili-peppers-flea-says-his-daughter-once-2-443-1649173754-39_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -908,7 +951,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/lemongirlavy/fun-disney-movies-checklist",
@@ -922,6 +965,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/1/15/tmp/aac95104e00b/tmp-name-2-1699-1648827801-40_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -929,7 +973,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/alexgurley/lady-gaga-nicest-celebrity",
@@ -943,6 +987,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/17/campaign_images/f42ad988273f/just-some-evidence-of-lady-gaga-being-the-nicest--2-848-1649180131-22_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -950,7 +995,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/raderlein/throwback-snacks-list",
@@ -964,6 +1009,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/2/17/tmp/e6962d6ecf69/tmp-name-2-3538-1648919743-29_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -971,7 +1017,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeednews.com/article/stephaniesoteriou/euphoria-angus-cloud-clashed-shopkeeper-jacob-elordi",
@@ -985,6 +1031,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/15/tmp/f42ad988273f/tmp-name-2-480-1649170811-24_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -992,7 +1039,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/sarahaspler/save-one-appetizer-from-each-cuisine",
@@ -1006,6 +1053,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/20/campaign_images/1d7782f1cd59/its-going-to-be-realllllly-hard-but-you-need-to-e-2-1255-1649191225-6_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1013,7 +1061,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/rhiannacampbell/ashley-tisdale-bookshelf-how-many-have-you-read",
@@ -1027,6 +1075,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/17/campaign_images/1d3a7425fc51/ashley-tisdales-bookshelves-split-the-internet-bu-2-677-1649179319-21_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1034,7 +1083,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/jenniferabidor/friends-season-2-trivia-quiz",
@@ -1048,6 +1097,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-03/25/17/tmp/fcf0aaaff603/tmp-name-2-2264-1648228642-19_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1055,7 +1105,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeednews.com/article/leylamohammed/josh-peck-revealed-money-he-made-on-drake-and-josh",
@@ -1069,6 +1119,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/14/enhanced/bb1e59a623cf/original-418-1649169330-9.jpg?crop=1243:829;0,0",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1076,7 +1127,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/kandycehampton/disney-movie-snack-quiz",
@@ -1090,6 +1141,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-03/31/19/tmp/57c545a549bc/tmp-name-2-721-1648755604-8_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1097,7 +1149,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/sumedha_bharpilania/spend-10-crore-rupees-quiz",
@@ -1111,6 +1163,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/4/8/tmp/6a080c69fb2e/tmp-name-2-6297-1649060097-0_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1118,7 +1171,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeednews.com/article/ellendurney/sienna-miller-opened-up-about-jude-law-nanny-scandal",
@@ -1132,6 +1185,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/13/enhanced/39a7e882206f/original-2156-1649166763-9.jpg?crop=1243:829;0,0",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1139,7 +1193,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/bookworm_1357/taylor-swift-album-spring-day-quiz",
@@ -1153,6 +1207,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/2/19/tmp/194fa07397f7/tmp-name-2-3742-1648926868-32_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1160,7 +1215,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/maiawinston/eat-guess-eye-color-quiz",
@@ -1174,6 +1229,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/1/15/campaign_images/aac95104e00b/eat-like-a-bazooka-for-a-day-and-ill-accurately-g-2-1673-1648826982-32_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1181,7 +1237,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/hannahmarder/makeup-tips-from-makeup-lovers",
@@ -1195,6 +1251,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/4/16/campaign_images/e6962d6ecf69/19-makeup-tips-for-everyone-who-loves-makeup-but--2-6807-1649088066-22_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1202,7 +1259,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeednews.com/article/katienotopoulos/elon-musk-twitter-board",
@@ -1216,6 +1273,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/13/campaign_images/192f77159f21/elon-musk-will-join-twitters-board-2-2324-1649165195-0_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1223,7 +1281,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/daisy_stitch_yoda_dogs/german-shepherd-golden-retriever-quiz",
@@ -1237,6 +1295,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/2/17/tmp/6a080c69fb2e/tmp-name-2-3622-1648921778-0_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1244,7 +1303,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/livieroadtreego/disney-celeb-personality-quiz",
@@ -1258,6 +1317,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-03/31/17/tmp/af27d9270db3/tmp-name-2-511-1648749031-21_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1265,7 +1325,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/asiawmclain/seriously-genius-parenting-hacks",
@@ -1279,6 +1339,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/1/22/tmp/6a080c69fb2e/tmp-name-2-2450-1648852567-8_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1286,7 +1347,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeednews.com/article/stephaniesoteriou/amy-schumer-backlash-alec-baldwin-joke-will-smith",
@@ -1300,6 +1361,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/12/tmp/192f77159f21/tmp-name-2-2218-1649160855-3_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1307,7 +1369,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/jackielam/how-to-build-generational-wealth",
@@ -1321,6 +1383,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/17/campaign_images/1d3a7425fc51/i-asked-experts-how-non-rich-people-can-build-gen-2-644-1649178850-20_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1328,7 +1391,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/mjs538/gaga-grammy-ig-comment",
@@ -1342,6 +1405,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/21/campaign_images/f06f979813cb/lady-gaga-responded-to-a-fan-on-instagram-after-t-2-1392-1649193925-37_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1349,7 +1413,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/mjs538/drag-red-carpet-looks",
@@ -1363,6 +1427,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/17/campaign_images/1d7782f1cd59/8-iconic-drag-queens-showed-up-to-the-grammys-dre-2-833-1649181558-10_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1370,7 +1435,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/juliawilling/australia-has-the-worlds-worst-time-zones",
@@ -1384,6 +1449,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/18/campaign_images/fd962ec378ad/this-aussie-has-hilariously-summed-up-why-our-cou-2-927-1649183069-22_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1391,7 +1457,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/larryfitzmaurice/hailey-bieber-denies-pregnant-rumors",
@@ -1405,6 +1471,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/2/campaign_images/5eaf303076cb/hailey-bieber-shut-down-reports-that-shes-pregnan-2-1389-1649126812-50_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1412,7 +1479,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/ishabassi/best-kate-sharma-moments-bridgerton",
@@ -1426,6 +1493,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/18/campaign_images/6cead28d0781/25-times-kate-sharma-was-by-far-the-best-characte-2-407-1649184981-6_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1433,7 +1501,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/ioamopasta/italian-pasta-zodiac-quiz",
@@ -1447,6 +1515,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-03/31/15/tmp/9e389939bd93/tmp-name-2-1812-1648738892-2_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1454,7 +1523,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/anthonyorlando52/the-15-best-comic-book-covers-of-all-time",
@@ -1468,6 +1537,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-03/31/22/tmp/194fa07397f7/tmp-name-2-407-1648767351-0_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1475,7 +1545,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/alexalisitza/bridesmaids-asked-to-lose-weight-reddit",
@@ -1489,6 +1559,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/4/22/campaign_images/39a7e882206f/this-bridesmaid-was-expected-to-drop-from-a-size--2-1046-1649112211-3_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1496,7 +1567,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/sanbea/hermione-granger-eleven-mirabel-wanda-maximoff-quiz",
@@ -1510,6 +1581,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-03/31/16/tmp/7424098572a5/tmp-name-2-1881-1648742768-16_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1517,7 +1589,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/feynman12/good-movies-bad-actors",
@@ -1531,6 +1603,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/1/14/tmp/e6962d6ecf69/tmp-name-2-1616-1648825117-9_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1538,7 +1611,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/ehisosifo1/2000s-girl-who-wants-to-be-a-millionaire-quiz",
@@ -1552,6 +1625,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-03/30/23/campaign_images/7424098572a5/id-be-like-totally-buggin-if-you-won-a-million-do-2-536-1648681734-0_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1559,7 +1633,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/larryfitzmaurice/selena-gomez-four-years-no-internet",
@@ -1573,6 +1647,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/14/campaign_images/fd962ec378ad/selena-gomez-says-she-hasnt-been-on-the-internet--2-450-1649170303-3_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1580,7 +1655,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/eleanorc4cfe539e9/underrated-studio-ghibli-quiz",
@@ -1594,6 +1669,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/1/15/tmp/aac95104e00b/tmp-name-2-1739-1648827913-0_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1601,7 +1677,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/feynman12/netflixs-the-bubble-fan-reactions",
@@ -1615,6 +1691,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/3/14/tmp/194fa07397f7/tmp-name-2-4983-1648996807-32_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1622,7 +1699,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/roberttsunami/popular-tv-show-quiz",
@@ -1636,6 +1713,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/4/19/tmp/5eaf303076cb/tmp-name-2-640-1649100041-0_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1643,7 +1721,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/stephenlaconte/waste-of-money-polls",
@@ -1657,6 +1735,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/3/campaign_images/0f12255e2129/lets-fight-about-whether-these-15-things-are-huge-2-1516-1649129237-6_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1664,7 +1743,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/rossyoder/helpful-life-hacks",
@@ -1678,6 +1757,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/4/23/campaign_images/39a7e882206f/people-are-sharing-the-little-life-hacks-that-wer-2-1159-1649116795-3_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1685,7 +1765,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/umarsyarif226/favorite-movies-quiz-checklist",
@@ -1699,6 +1779,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/1/21/tmp/e6962d6ecf69/tmp-name-2-2390-1648848659-0_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1706,7 +1787,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/giannaaceto/tv-characters-nepotism-baby-quiz",
@@ -1720,6 +1801,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/1/15/tmp/7aff5536c5ac/tmp-name-2-1626-1648827773-0_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1727,7 +1809,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/larryfitzmaurice/alexander-skarsgard-sexy-list-lost-roles",
@@ -1741,6 +1823,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/4/21/tmp/3d74783be679/tmp-name-2-898-1649107939-5_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1748,7 +1831,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/mjs538/funny-or-cringe-polls",
@@ -1762,6 +1845,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/3/campaign_images/3d74783be679/i-am-genuinely-curious-if-you-think-these-45-some-2-1502-1649129509-25_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1769,7 +1853,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/ehisosifo1/images-artist-holding-grammy-awards-history",
@@ -1783,6 +1867,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/4/21/campaign_images/074e5b793123/just-14-images-of-past-and-present-grammy-winners-2-964-1649108259-64_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1790,7 +1875,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/filledwithanxiety/bridgerton-hamilton-character-combo-quiz",
@@ -1804,6 +1889,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/4/18/tmp/074e5b793123/tmp-name-2-586-1649097811-19_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1811,7 +1897,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/jessg/everything-everywhere-all-at-once-cast",
@@ -1825,6 +1911,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/4/19/tmp/3d74783be679/tmp-name-2-577-1649099080-12_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1832,7 +1919,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/notellie_/dinner-party-breakfast-quiz",
@@ -1846,6 +1933,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-03/30/21/campaign_images/3bf8c79bed1e/host-a-dinner-party-to-find-out-what-sweet-breakf-2-576-1648676391-11_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1853,7 +1941,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/hannahmarder/actors-who-have-been-in-a-ton-of-teen-dramas",
@@ -1867,6 +1955,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-03/31/19/tmp/368b426a9f91/tmp-name-2-785-1648756192-6_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1874,7 +1963,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/bigbuzz2022/your-marvel-preferences-reveal-your-most-annoying-trait",
@@ -1888,6 +1977,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/1/19/tmp/5c9d1851c91c/tmp-name-2-2199-1648841009-6_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1895,7 +1985,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/briannarud19/throwback-movies-image-test",
@@ -1909,6 +1999,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-03/30/0/tmp/a1ec8a9666ed/tmp-name-2-651-1648598656-6_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1916,7 +2007,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/asiawmclain/moms-who-outsmarted-their-kids-2",
@@ -1930,6 +2021,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/1/19/campaign_images/aac95104e00b/17-moms-who-outsmarted-their-kids-so-good-they-de-2-2135-1648839825-13_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1937,7 +2029,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/filledwithanxiety/bridgerton-family-quiz",
@@ -1951,6 +2043,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/2/21/tmp/6a080c69fb2e/tmp-name-2-3882-1648934390-11_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1958,7 +2051,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/abhaahad/16-queer-tv-show-characters-who-proved-it-is-never-too-late",
@@ -1972,6 +2065,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/1/21/tmp/aac95104e00b/tmp-name-2-2395-1648847524-48_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -1979,7 +2073,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/audreyworboys/brand-name-products-by-generic-names",
@@ -1993,6 +2087,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-03/31/23/tmp/194fa07397f7/tmp-name-2-467-1648770128-17_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -2000,7 +2095,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeed.com/sambelding16/which-marvel-lady-is-your-soulmate",
@@ -2014,6 +2109,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-03/30/15/tmp/ae505d012092/tmp-name-2-557-1648654534-12_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -2021,7 +2117,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://www.buzzfeednews.com/article/shannonkeating/real-housewives-of-orange-county-heather-dubrow-rhoc",
@@ -2035,6 +2131,7 @@
 					"url": "https://img.buzzfeed.com/buzzfeed-static/static/2022-04/5/17/campaign_images/259e4cd32240/the-real-housewives-of-orange-county-has-a-great--2-813-1649178574-3_dblbig.jpg",
 					"title": null
 				},
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -2042,7 +2139,7 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"media": []
+				"categories": []
 			}
 		]
 	}

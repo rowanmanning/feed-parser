@@ -21,6 +21,7 @@
 			"url": "https://assets.guim.co.uk/images/guardian-logo-rss.c45beb1bafa34b347ac333af2e6fe23f.png"
 		},
 		"authors": [],
+		"categories": [],
 		"items": [
 			{
 				"id": "https://www.theguardian.com/world/live/2022/apr/05/russia-ukraine-war-latest-news-live-updates-zelenskiy-address-un-united-nations-borodyanka-atrocities-bucha",
@@ -31,13 +32,6 @@
 				"updated": "2022-04-05T21:53:47.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Maanvi Singh (now); Gloria Oladipo, Léonie Chao-Fong, Martin Belam and Samantha Lock (earlier)",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/1b292b98c951395ac717405d63ded6dce493636a/0_92_3500_2101/master/3500.jpg?width=140&quality=85&auto=format&fit=max&s=a8a5ff2c158c8e8bd31574aeaf570c53",
@@ -55,7 +49,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Maanvi Singh (now); Gloria Oladipo, Léonie Chao-Fong, Martin Belam and Samantha Lock (earlier)",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/barbarians-russian-troops-leave-grisly-mark-on-ukraine-town-of-trostianets",
@@ -66,13 +68,6 @@
 				"updated": "2022-04-05T15:23:54.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Shaun Walker in Trostianets. Photographs by Anastasia Taylor-Lind",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/09ce9f27d6db9d6ea37d04be818807de06bc91ef/0_41_3360_2016/master/3360.jpg?width=140&quality=85&auto=format&fit=max&s=e34971b0f156616c1806cf44f5bdd0f0",
@@ -90,7 +85,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Shaun Walker in Trostianets. Photographs by Anastasia Taylor-Lind",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/us-news/2022/apr/05/volodymyr-zelenskiy-un-security-council-sketch",
@@ -101,13 +104,6 @@
 				"updated": "2022-04-05T18:11:27.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "David Smith in Washington",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/e478a554c201e3fe00bb693c844ff6ee5ebf545c/0_0_4562_2738/master/4562.jpg?width=140&quality=85&auto=format&fit=max&s=5fd0fc0f62061aa42cad03490cc7eb52",
@@ -125,7 +121,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "David Smith in Washington",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/volodymyr-zelenskiy-un-security-council-russia-war-ukraine-bucha",
@@ -136,13 +140,6 @@
 				"updated": "2022-04-05T15:57:55.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "David Smith in Washington and Jon Henley in Paris",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/91775b11966b8afc12f484bdcccb9da52c9fe171/0_247_3500_2101/master/3500.jpg?width=140&quality=85&auto=format&fit=max&s=b6e4fd4bb4de5c10ec6451744b4eadf3",
@@ -160,7 +157,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "David Smith in Washington and Jon Henley in Paris",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/ukrainian-man-tells-of-days-of-torture-at-hands-of-occupying-troops",
@@ -171,13 +176,6 @@
 				"updated": "2022-04-05T18:38:39.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Daniel Boffey in Kyiv",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/005fde2b64d28d625d62c14113f0403173c7ec06/0_74_580_348/master/580.jpg?width=140&quality=85&auto=format&fit=max&s=07ef7c17d7bb4b82d23e9c39ee9523bd",
@@ -195,7 +193,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Daniel Boffey in Kyiv",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/satellite-images-of-corpses-in-bucha-prove-russian-claims-wrong",
@@ -206,13 +212,6 @@
 				"updated": "2022-04-05T16:33:14.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Alex Hern",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/22155ce8d7996cc2cbb2fe2d176b309010c5af3c/0_46_1678_1007/master/1678.jpg?width=140&quality=85&auto=format&fit=max&s=e9cb3b474a9c0a90f817be3e21daf5ce",
@@ -230,7 +229,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Alex Hern",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/commentisfree/2022/apr/05/homes-for-ukraine-refugee-britain-hosts",
@@ -241,13 +248,6 @@
 				"updated": "2022-04-05T16:08:00.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Rafael Behr",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/4389ce4c0f8dcc93adc0885149f306e5969ae4a0/0_334_8116_4873/master/8116.jpg?width=140&quality=85&auto=format&fit=max&s=d9446876ed09f4d9d44e6b8280aa84e9",
@@ -265,7 +265,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Rafael Behr",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/often-a-russian-mother-has-a-tv-for-a-brain-ukraine-youtuber-films-pows-calling-home",
@@ -276,13 +284,6 @@
 				"updated": "2022-04-05T13:21:26.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Daniel Boffey in Kyiv",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/ab65597a3e2f4c48bc6002d3dd031e16208ffe8d/28_0_1574_945/master/1574.png?width=140&quality=85&auto=format&fit=max&s=df4b2bd61adb5640260fca95db600cea",
@@ -300,7 +301,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Daniel Boffey in Kyiv",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/media/2022/apr/05/senior-tories-speak-out-against-channel-4-privatisation-plans",
@@ -311,13 +320,6 @@
 				"updated": "2022-04-05T16:57:55.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Rowena Mason and Jim Waterson",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/5c1b2fc57d963a810ef65ea66d6dcf7622899b59/0_163_4000_2400/master/4000.jpg?width=140&quality=85&auto=format&fit=max&s=d6e3044b7ba736de5085cd02a8b4b4e4",
@@ -335,7 +337,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Rowena Mason and Jim Waterson",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/politics/2022/apr/05/partygate-ministers-refuse-to-disclose-pictures-taken-by-no-10-photographers",
@@ -346,13 +356,6 @@
 				"updated": "2022-04-05T20:27:58.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Rowena Mason Deputy political editor",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/68679663f767fb2f3462a5de928a1d4fac69456b/0_36_2018_1211/master/2018.jpg?width=140&quality=85&auto=format&fit=max&s=06e74de8c0e53c05606022b1d007c5ac",
@@ -370,7 +373,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Rowena Mason Deputy political editor",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/society/2022/apr/05/covid-patients-seriously-ill-after-struggling-to-access-antivirals-in-england",
@@ -381,13 +392,6 @@
 				"updated": "2022-04-05T14:19:41.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Andrew Gregory and Linda Geddes",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/4efe96ac3cc63f96793d44c643584af155c9222e/0_144_3500_2101/master/3500.jpg?width=140&quality=85&auto=format&fit=max&s=645cf9627e08ede43ea044cd439ba8f3",
@@ -405,7 +409,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Andrew Gregory and Linda Geddes",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/business/2022/apr/05/world-may-be-on-cusp-of-new-inflationary-era-says-central-bank-chief",
@@ -416,13 +428,6 @@
 				"updated": "2022-04-05T17:19:39.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Phillip Inman",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/67c1e67a02d79639fe37f63ce57c9e75e9664116/0_86_3500_2100/master/3500.jpg?width=140&quality=85&auto=format&fit=max&s=8a732844d1362ded08675afe4595e9db",
@@ -440,7 +445,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Phillip Inman",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/uk-news/2022/apr/05/heroic-neighbour-died-in-kettlebell-attack-saving-two-year-old",
@@ -451,13 +464,6 @@
 				"updated": "2022-04-05T18:44:07.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Jessica Murray and agencies",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/2c58213d1535ff4eca41c272a73cb7001a884534/0_343_828_497/master/828.jpg?width=140&quality=85&auto=format&fit=max&s=933f45ed96e92cbdbb0d291f2b387988",
@@ -475,7 +481,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Jessica Murray and agencies",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/technology/2022/apr/05/facebook-restores-banned-ad-promoting-renters-rights-after-tweet-goes-viral",
@@ -486,13 +500,6 @@
 				"updated": "2022-04-05T18:26:48.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Alex Hern Technology editor",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/39195db8adb2348158b53bec6df7155c68a1ac6d/0_393_6048_3631/master/6048.jpg?width=140&quality=85&auto=format&fit=max&s=4285d2c58a5b8b98f5a95b7780019ff9",
@@ -510,7 +517,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Alex Hern Technology editor",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/society/2022/apr/05/lgbt-government-adviser-quits-over-conversion-practices-uturn",
@@ -521,13 +536,6 @@
 				"updated": "2022-04-05T19:31:01.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Aubrey Allegretti and Libby Brooks",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/3c631771b5c3f7071fc81987ca0d9a2bbc1a47c7/0_221_3450_2070/master/3450.jpg?width=140&quality=85&auto=format&fit=max&s=adc899fa1220c2cf8e8756e23f5a757e",
@@ -545,7 +553,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Aubrey Allegretti and Libby Brooks",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/politics/2022/apr/05/rishi-sunak-and-wife-donate-over-100000-to-winchester-college",
@@ -556,13 +572,6 @@
 				"updated": "2022-04-05T15:51:53.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Rowena Mason Deputy political editor",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/e06a872aec4f6a5a49e4dfc38fbb63461cdd10ea/0_81_3302_1981/master/3302.jpg?width=140&quality=85&auto=format&fit=max&s=30ffd9bfef22531579bd8a432ec75d15",
@@ -580,7 +589,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Rowena Mason Deputy political editor",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/uk-news/2022/apr/05/manchester-airport-manager-quits-after-weeks-of-chaos",
@@ -591,13 +608,6 @@
 				"updated": "2022-04-05T17:04:01.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Helen Pidd and Joanna Partridge",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/217d781468c35f8def7e2bbaf623ae98d2badca2/0_116_3241_1946/master/3241.jpg?width=140&quality=85&auto=format&fit=max&s=69ab5b9b80cec81606aacf620b9b4742",
@@ -615,7 +625,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Helen Pidd and Joanna Partridge",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/its-a-dream-exoskeleton-allows-boy-to-walk-and-play",
@@ -626,13 +644,6 @@
 				"updated": "2022-04-05T17:23:22.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Sam Jones in Torrelodones",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/1872d127b798595bf3c7dc988defe83929a73852/0_401_5068_3040/master/5068.jpg?width=140&quality=85&auto=format&fit=max&s=d2358b494a8be214f25a9a3bc2e214d1",
@@ -650,7 +661,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Sam Jones in Torrelodones",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/tv-and-radio/2022/apr/05/ellie-simmonds-a-world-without-dwarfism-review-are-drugs-really-the-answer",
@@ -661,13 +680,6 @@
 				"updated": "2022-04-05T21:00:05.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Lucy Mangan",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/e5b17090236058c68cf05281fb7c3b346cd44a07/0_115_4280_2567/master/4280.jpg?width=140&quality=85&auto=format&fit=max&s=ec4dec011f5a2cdb555e6ae60c7b43fc",
@@ -685,7 +697,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Lucy Mangan",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/books/2022/apr/05/belarus-russia-and-ukraine-putin-dysfunctional-family",
@@ -696,13 +716,6 @@
 				"updated": "2022-04-05T09:16:31.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Sasha Filipenko",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/6230afef26f708cc5e97de222ec8bb261898e1ec/0_0_3500_2099/master/3500.jpg?width=140&quality=85&auto=format&fit=max&s=492c3037918914bb697804bd88b712d6",
@@ -720,7 +733,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Sasha Filipenko",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/media/2022/apr/05/tory-revenge-against-channel-4-could-turn-into-bruising-battle",
@@ -731,13 +752,6 @@
 				"updated": "2022-04-05T18:28:10.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Jim Waterson Media editor",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/32ff8e8f4bec37202e45bdad29818b76b7554095/0_369_5149_3090/master/5149.jpg?width=140&quality=85&auto=format&fit=max&s=704ac465fdf2dcc3e2e57d6aace6cf24",
@@ -755,7 +769,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Jim Waterson Media editor",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/when-should-i-do-a-covid-test-do-i-still-have-to-isolate-england",
@@ -766,13 +788,6 @@
 				"updated": "2022-04-05T10:22:56.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Hannah Devlin Science correspondent",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/0a9995b4cb010643e9fefd0ab6d283aede3e4acb/0_246_7340_4404/master/7340.jpg?width=140&quality=85&auto=format&fit=max&s=7df8b5af2e7f8253395657cb901efe34",
@@ -790,7 +805,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Hannah Devlin Science correspondent",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/film/2022/apr/05/fantastic-beasts-the-secrets-of-dumbledore-review-good-natured-magical-entertainment",
@@ -801,13 +824,6 @@
 				"updated": "2022-04-05T14:00:06.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Peter Bradshaw",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/d84eaba274f51140f86da98181b4daeda42f3d60/19_0_3462_2078/master/3462.jpg?width=140&quality=85&auto=format&fit=max&s=e197dfe7d39fa87cb43fa7aa77a84c6f",
@@ -825,7 +841,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Peter Bradshaw",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/fashion/2022/apr/05/gap-how-the-clothing-brand-lost-its-way-fashion-retail",
@@ -836,13 +860,6 @@
 				"updated": "2022-04-05T05:00:05.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Eliza Brooke",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/d0ee88da32a37fa4cf10dfb8f9ac8b55362eabce/1_0_4440_2665/master/4440.jpg?width=140&quality=85&auto=format&fit=max&s=b7a6d49322b05ef245b964d62ed1558f",
@@ -860,7 +877,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Eliza Brooke",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/food/2022/apr/05/whats-better-for-cooking-gas-or-induction-hobs",
@@ -871,13 +896,6 @@
 				"updated": "2022-04-05T13:00:05.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Anna Berrill",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/0f77aef0e8722cd3802f8643630e1d1f899e4cc2/0_0_6000_3600/master/6000.jpg?width=140&quality=85&auto=format&fit=max&s=83d452881314b25383c2a82dad8d2cda",
@@ -895,7 +913,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Anna Berrill",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/tv-and-radio/2022/apr/05/a-sudden-urge-to-buy-a-corset-and-a-tiara-blame-the-bridgerton-effect",
@@ -906,7 +932,6 @@
 				"updated": "2022-04-05T14:57:43.000Z",
 				"content": null,
 				"image": null,
-				"authors": [],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/89984bbecfe044cb6cbcb2ce65d0ed73f3a553a2/0_116_3600_2160/master/3600.jpg?width=140&quality=85&auto=format&fit=max&s=0d987571a738c341976e3921c01eaab2",
@@ -924,7 +949,9 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/commentisfree/2022/apr/05/sell-off-channel-4-wont-benefit-anyone-but-boris-johnson",
@@ -935,13 +962,6 @@
 				"updated": "2022-04-05T13:43:46.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Dorothy Byrne",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/aceddf7ca88ddd412412f171893e28bfe0c7e1db/0_102_5760_3456/master/5760.jpg?width=140&quality=85&auto=format&fit=max&s=367b07b472f92e90d3ab66b1ff6c8813",
@@ -959,7 +979,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Dorothy Byrne",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/commentisfree/2022/apr/05/break-laws-england-mps-jacob-rees-mogg-covid",
@@ -970,13 +998,6 @@
 				"updated": "2022-04-05T12:30:40.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Marina Hyde",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/252e7ca1cc62ff2a6601577c44b08b9ef27f7857/0_160_3500_2101/master/3500.jpg?width=140&quality=85&auto=format&fit=max&s=1e94461bdbc4de22f274d3626680793e",
@@ -994,7 +1015,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Marina Hyde",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/business/nils-pratley-on-finance/2022/apr/05/flogging-channel-4-wont-bring-about-the-longed-for-british-reply-to-netflix",
@@ -1005,13 +1034,6 @@
 				"updated": "2022-04-05T18:48:27.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Nils Pratley",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/285f5f86a5057205bb6029a6a99916728f490667/0_290_4645_2787/master/4645.jpg?width=140&quality=85&auto=format&fit=max&s=a4fcdf5c37b96d26d39d7e16003424b1",
@@ -1029,7 +1051,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Nils Pratley",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/commentisfree/picture/2022/apr/05/ben-jennings-on-boris-dorries-and-the-sale-of-channel-4-cartoon",
@@ -1040,13 +1070,6 @@
 				"updated": "2022-04-05T19:00:03.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Ben Jennings",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/9c526705fde26e36fe5a85582b17626cd85d2053/2_0_3031_1819/master/3031.jpg?width=140&quality=85&auto=format&fit=max&s=56be44e911922f34e966a01d45862e25",
@@ -1064,7 +1087,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Ben Jennings",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/commentisfree/2022/apr/05/pupils-pandemic-covid-lessons-ofsted-play",
@@ -1075,13 +1106,6 @@
 				"updated": "2022-04-05T13:00:05.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Anonymous",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/88eeb235fd7e6975ddd30339fefd637c9fc74608/0_263_4256_2554/master/4256.jpg?width=140&quality=85&auto=format&fit=max&s=d1592abbc719a9baec0b8c683ec37dd5",
@@ -1099,7 +1123,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Anonymous",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/commentisfree/2022/apr/05/jay-z-beyonce-picket-line-party-celebrity-activism-oscars-chateau-marmont",
@@ -1110,13 +1142,6 @@
 				"updated": "2022-04-05T10:52:30.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Emma Dabiri",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/bd394ab1438b89b2bc2c9553f56459126019d660/0_43_1280_768/master/1280.jpg?width=140&quality=85&auto=format&fit=max&s=e255026d69eb85a572b66a05ad7f4395",
@@ -1134,7 +1159,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Emma Dabiri",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/commentisfree/2022/apr/05/after-decades-of-sneering-from-the-sidelines-i-am-learning-to-just-jump-in-and-feel-the-joy",
@@ -1145,13 +1178,6 @@
 				"updated": "2022-04-05T13:27:40.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Nell Frizzell",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/5e7d9e8a296a7ef23b3e38cd9461d676f73c2784/0_328_6583_3949/master/6583.jpg?width=140&quality=85&auto=format&fit=max&s=cbe720e7f4eccccfb66cc818103a11e2",
@@ -1169,7 +1195,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Nell Frizzell",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/commentisfree/2022/apr/05/choking-to-death-learn-first-aid-heimlich-manoeuvre",
@@ -1180,13 +1214,6 @@
 				"updated": "2022-04-05T07:00:08.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Simon Hattenstone",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/14cac2187031adfd67ee9ca8cb5156d1b504bd56/0_0_5472_3283/master/5472.jpg?width=140&quality=85&auto=format&fit=max&s=cdd08f97e466d447b18f28b64e9a1f0d",
@@ -1204,7 +1231,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Simon Hattenstone",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/commentisfree/2022/apr/05/the-guardian-view-on-channel-4-dont-sell-it",
@@ -1215,13 +1250,6 @@
 				"updated": "2022-04-05T18:27:29.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Editorial",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/5f300b33dfd9853b3a893d78d33ab63e68b98135/0_125_2594_1557/master/2594.jpg?width=140&quality=85&auto=format&fit=max&s=25f50e3e6f4f9dfd5481cc4d81533b68",
@@ -1239,7 +1267,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Editorial",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/commentisfree/2022/apr/05/the-guardian-view-on-strongmen-and-straw-men-south-asian-crises-over-russias-war",
@@ -1250,13 +1286,6 @@
 				"updated": "2022-04-05T18:23:51.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Editorial",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/f73c311d6c775be94fda3cdc05b2a73b53b133de/0_84_3500_2100/master/3500.jpg?width=140&quality=85&auto=format&fit=max&s=882163184eb39ce722757ac63313ef41",
@@ -1274,7 +1303,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Editorial",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/its-imperative-to-keep-covid-in-the-headlines",
@@ -1285,13 +1322,6 @@
 				"updated": "2022-04-05T16:45:31.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Letters",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/90ccacb0dc477ba9deb6d75d437d90059968015e/0_203_3500_2100/master/3500.jpg?width=140&quality=85&auto=format&fit=max&s=d64f1d3458b205b0d5574e3f69c42a57",
@@ -1309,7 +1339,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Letters",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/environment/2022/apr/05/turbines-are-an-eyesore-sounds-like-a-wind-up",
@@ -1320,13 +1358,6 @@
 				"updated": "2022-04-05T16:44:37.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Letters",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/ac475ea7a51956d583a3e8b1e11048bef1f879ae/108_109_3324_1995/master/3324.jpg?width=140&quality=85&auto=format&fit=max&s=b6d00fded21b89b6fe21b754103d7bf1",
@@ -1344,7 +1375,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Letters",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/football/2022/apr/05/manchester-city-atletico-madrid-champions-league-quarter-final-first-leg-match-report",
@@ -1355,13 +1394,6 @@
 				"updated": "2022-04-05T21:05:58.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Jamie Jackson at the Etihad Stadium",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/7bda46d2df6c90921b626c13517d19bbf054094c/0_103_2063_1238/master/2063.jpg?width=140&quality=85&auto=format&fit=max&s=683f9f42dbb851f5d70b49ab2f9b3f5f",
@@ -1379,7 +1411,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Jamie Jackson at the Etihad Stadium",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/football/2022/apr/05/benfica-liverpool-champions-league-quarter-final-first-leg-match-report",
@@ -1390,13 +1430,6 @@
 				"updated": "2022-04-05T21:11:00.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Andy Hunter at Estádio da Luz",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/049f650fdace828adf78c4b8e66aad0c9e6998cb/0_408_2847_1709/master/2847.jpg?width=140&quality=85&auto=format&fit=max&s=7b4b8a3e2faaffaac5b6672126c5a2ec",
@@ -1414,7 +1447,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Andy Hunter at Estádio da Luz",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/sport/2022/apr/05/tiger-woods-prepared-to-play-through-pain-barrier-in-unlikely-masters-quest",
@@ -1425,13 +1466,6 @@
 				"updated": "2022-04-05T19:13:32.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Andy Bull at Augusta",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/8d475ca6d6d29b9fb697f96779e3ce37de4a21ab/0_92_3291_1975/master/3291.jpg?width=140&quality=85&auto=format&fit=max&s=b75b437cbfc04c822f2fe44cc40a6b1a",
@@ -1449,7 +1483,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Andy Bull at Augusta",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/sport/2022/apr/05/dan-carter-ive-always-wanted-to-do-something-like-this",
@@ -1460,13 +1502,6 @@
 				"updated": "2022-04-05T16:53:17.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Michael Aylwin",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/813a743fc58a04693ae95cec000538379835ba73/0_369_6811_4089/master/6811.jpg?width=140&quality=85&auto=format&fit=max&s=2ce0a91f76fe094ef465c0f7a247f09f",
@@ -1484,7 +1519,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Michael Aylwin",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/sport/2022/apr/05/f1-drivers-will-continue-to-speak-out-says-drivers-association-chair",
@@ -1495,13 +1538,6 @@
 				"updated": "2022-04-05T16:12:53.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Giles Richards",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/75a3b3e7be7467b50fc4fd60085dfdeaf7c04d4c/0_153_4800_2881/master/4800.jpg?width=140&quality=85&auto=format&fit=max&s=2e2177d8847b674c04a0d270e6cba713",
@@ -1519,7 +1555,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Giles Richards",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/sport/2022/apr/05/former-england-coach-bayliss-holds-talks-with-cricket-australia-over-role",
@@ -1530,13 +1574,6 @@
 				"updated": "2022-04-05T16:41:07.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Ali Martin",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/9663d25b7786b0a89315d038a07a2cf3d4756efa/0_2_4005_2403/master/4005.jpg?width=140&quality=85&auto=format&fit=max&s=4914eba65d56dadacdd4ed7ba78443cc",
@@ -1554,7 +1591,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Ali Martin",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/football/2022/apr/05/steve-mcclaren-could-be-no-2-if-erik-ten-hag-is-appointed-manchester-united",
@@ -1565,13 +1610,6 @@
 				"updated": "2022-04-05T12:37:29.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Exclusive by Jamie Jackson",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/14570d2a4bcf1a246eaf3378c4f129cc1a9d1e92/544_161_1944_1167/master/1944.jpg?width=140&quality=85&auto=format&fit=max&s=7b65aced2f1d72f552c99c3185866c13",
@@ -1589,7 +1627,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Exclusive by Jamie Jackson",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/football/2022/apr/05/leah-williamson-named-england-captain-for-womens-european-championships",
@@ -1600,13 +1646,6 @@
 				"updated": "2022-04-05T14:24:40.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Suzanne Wrack",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/1384b76bb7b7f27d2033b3c639e33f04bd717374/0_73_3733_2240/master/3733.jpg?width=140&quality=85&auto=format&fit=max&s=1997f13455b5f1ab7959f4a9cb41edba",
@@ -1624,7 +1663,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Suzanne Wrack",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/environment/2022/apr/05/ipcc-report-scientists-climate-crisis-fossil-fuels",
@@ -1635,13 +1682,6 @@
 				"updated": "2022-04-05T15:29:55.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Amy Westervelt",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/157b74f4b93c43e516d0e776d8b6c14cbc989d4e/0_249_7360_4414/master/7360.jpg?width=140&quality=85&auto=format&fit=max&s=0d3ce006db83552cb3e466d3a2a140d9",
@@ -1659,7 +1699,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Amy Westervelt",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/environment/2022/apr/05/uk-too-slow-over-climate-crisis-despite-stark-ipcc-report",
@@ -1670,13 +1718,6 @@
 				"updated": "2022-04-05T14:29:41.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Helena Horton Environment reporter",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/72119d1dfbbfa6f8c4c6d42c75c467c281f44fe7/0_212_3500_2101/master/3500.jpg?width=140&quality=85&auto=format&fit=max&s=e11b344e2014c050fad3fed6f6dca653",
@@ -1694,7 +1735,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Helena Horton Environment reporter",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/environment/2022/apr/05/charity-linked-to-uk-anti-onshore-wind-campaigns-active-again-renewable-energy-foundation",
@@ -1705,13 +1754,6 @@
 				"updated": "2022-04-05T13:39:56.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Helena Horton Environment reporter",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/70a3741d9a057da03691796b47cbcaecd1173cda/0_39_5213_3128/master/5213.jpg?width=140&quality=85&auto=format&fit=max&s=68b80227f49ca802f501acb947bae1a3",
@@ -1729,7 +1771,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Helena Horton Environment reporter",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/environment/2022/apr/05/when-will-world-reach-global-heating-limit-ipcc-climate-crisis",
@@ -1740,13 +1790,6 @@
 				"updated": "2022-04-05T09:59:54.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Kate Ravilious",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/f7b85655bac4876ed94169081039f9e1c58ddb35/0_549_8192_4915/master/8192.jpg?width=140&quality=85&auto=format&fit=max&s=3a2dd4ac293605fd62c2e74a1566bba7",
@@ -1764,7 +1807,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Kate Ravilious",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/uk-news/2022/apr/05/man-admits-murder-plymouth-teenager-bobbi-anne-mcleod-cody-ackland",
@@ -1775,13 +1826,6 @@
 				"updated": "2022-04-05T13:28:44.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Steven Morris",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/be0d49e951a227b06aa8985ef27e710ea5c60de3/0_125_2060_1236/master/2060.jpg?width=140&quality=85&auto=format&fit=max&s=6d3ad041d9033b0542c8877cef99bc85",
@@ -1799,7 +1843,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Steven Morris",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/politics/2022/apr/05/partygate-whitehall-braced-for-top-staff-to-be-implicated-in-sue-gray-report",
@@ -1810,13 +1862,6 @@
 				"updated": "2022-04-05T05:00:07.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Rowena Mason Deputy political editor",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/de81becf2b71092089debd974cb82c85c992f120/0_76_7952_4774/master/7952.jpg?width=140&quality=85&auto=format&fit=max&s=18de0508f491dd308b554f5202dece0c",
@@ -1834,7 +1879,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Rowena Mason Deputy political editor",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/uk-news/2022/apr/05/man-found-guilty-murdering-neighbour-front-lawn-gloucestershire-can-arslan-matthew-boorman",
@@ -1845,13 +1898,6 @@
 				"updated": "2022-04-05T16:38:05.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Steven Morris",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/f5b78e46f7b1181a4c68b29624220c0341dbc8f0/0_651_1566_939/master/1566.jpg?width=140&quality=85&auto=format&fit=max&s=8143ec762440330fb98eff23a104f324",
@@ -1869,7 +1915,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Steven Morris",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/uk-news/2022/apr/05/autistic-girl-14-unlawfully-detained-hospital-high-court-judge-finds",
@@ -1880,13 +1934,6 @@
 				"updated": "2022-04-05T14:59:46.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Helen Pidd North of England editor",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/4dfa3dcf00256ea614d2a8c4fd2fa56366f23052/78_0_2845_1707/master/2845.jpg?width=140&quality=85&auto=format&fit=max&s=b1a30d1bc439eaa3d5113dba42858c56",
@@ -1904,7 +1951,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Helen Pidd North of England editor",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/environment/2022/apr/05/ministers-launch-uk-fracking-study-paving-way-to-end-moratorium",
@@ -1915,13 +1970,6 @@
 				"updated": "2022-04-05T17:43:43.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Aubrey Allegretti and Helena Horton",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/188526a00442b545b2b0e5d334957e86d9bb3cfe/0_160_4786_2872/master/4786.jpg?width=140&quality=85&auto=format&fit=max&s=3dfcffac5afaa49ec8d4b3fedb31918d",
@@ -1939,7 +1987,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Aubrey Allegretti and Helena Horton",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/politics/2022/apr/05/labour-calls-for-russian-ambassador-to-be-expelled-over-alleged-war-crimes",
@@ -1950,13 +2006,6 @@
 				"updated": "2022-04-05T12:22:50.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Rowena Mason Deputy political editor",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/04de60affe7c66febdb8c2e9a9432aae73462b78/0_0_3500_2100/master/3500.jpg?width=140&quality=85&auto=format&fit=max&s=dc74debcf7a1c8933600445d2cc8d995",
@@ -1974,7 +2023,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Rowena Mason Deputy political editor",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/liz-truss-russian-economy-foreign-currency-reserves-ukraine-war-putin",
@@ -1985,13 +2042,6 @@
 				"updated": "2022-04-05T13:31:29.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Patrick Wintour Diplomatic editor",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/17c29db2ee7fe741f1416e85540dad49aec50535/0_187_3500_2100/master/3500.jpg?width=140&quality=85&auto=format&fit=max&s=b1b7c1c804e6a6add614d7d34d748a1d",
@@ -2009,7 +2059,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Patrick Wintour Diplomatic editor",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/uk-news/2022/apr/05/d-day-veteran-and-fundraiser-harry-billinge-dies-aged-96",
@@ -2020,13 +2078,6 @@
 				"updated": "2022-04-05T16:46:45.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Caroline Davies",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/b819f4b941ee9a2f1546475c2c8a0fee48a1a7c1/0_66_3500_2101/master/3500.jpg?width=140&quality=85&auto=format&fit=max&s=a72be62d8797c27c9d61bf3c08df1295",
@@ -2044,7 +2095,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Caroline Davies",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/uk-news/2022/apr/05/travel-disruption-as-stena-line-moves-ships-to-fill-po-ferries-gaps",
@@ -2055,13 +2114,6 @@
 				"updated": "2022-04-05T11:30:34.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Joanna Partridge",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/7dc57511ff6c66e4fa7626499534024730ecf488/0_179_5227_3138/master/5227.jpg?width=140&quality=85&auto=format&fit=max&s=b25995c0f0247cf5cdd2e5c3c5e79ad4",
@@ -2079,7 +2131,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Joanna Partridge",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/uk-news/2022/apr/05/laura-smallwood-death-inquest-hobby-horse-obby-oss-padstow-cornwall",
@@ -2090,13 +2150,6 @@
 				"updated": "2022-04-05T15:47:50.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Steven Morris and agency",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/f6c2df7e672db1b208846005964ce2498b146cb4/0_19_5616_3370/master/5616.jpg?width=140&quality=85&auto=format&fit=max&s=0fd97ba707b0417fe39d762e23766d7c",
@@ -2114,7 +2167,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Steven Morris and agency",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/media/2022/apr/05/attacks-press-mexico-lopez-obrador-presidency-report",
@@ -2125,13 +2186,6 @@
 				"updated": "2022-04-05T21:36:31.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Nina Lakhani",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/daed91afde269fe149800666474b9554103a3a03/0_155_4648_2789/master/4648.jpg?width=140&quality=85&auto=format&fit=max&s=89bde82e6252ac7ffaf12f472d77c3b3",
@@ -2149,7 +2203,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Nina Lakhani",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/russian-mercenaries-and-mali-army-accused-of-killing-300-civilians",
@@ -2160,13 +2222,6 @@
 				"updated": "2022-04-05T12:38:59.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Emmanuel Akinwotu in Lagos",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/e11a99609889ac1ff495447336d891e84cbb9a8d/0_150_4500_2700/master/4500.jpg?width=140&quality=85&auto=format&fit=max&s=894c51453daa5398b2b8a220639f0277",
@@ -2184,7 +2239,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Emmanuel Akinwotu in Lagos",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/apple-iphone-pegasus-spyware-nso-group-israel-jordan",
@@ -2195,13 +2258,6 @@
 				"updated": "2022-04-05T19:25:39.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Stephanie Kirchgaessner in Washington",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/6d30e2422e8d148980403e30c1b590cccfad58e7/0_182_5472_3283/master/5472.jpg?width=140&quality=85&auto=format&fit=max&s=21daa3085e22864d234f91558f3ccbf1",
@@ -2219,7 +2275,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Stephanie Kirchgaessner in Washington",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/nigerian-humanist-mubarak-bala-receives-24-year-jail-sentence",
@@ -2230,13 +2294,6 @@
 				"updated": "2022-04-05T16:37:44.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Emmanuel Akinwotu, west Africa correspondent",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/cf8cbbd1c047196c8b78dfd363f28cc486800453/0_173_5184_3110/master/5184.jpg?width=140&quality=85&auto=format&fit=max&s=f57fec8e8e7ba197d1f071152430fbcd",
@@ -2254,7 +2311,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Emmanuel Akinwotu, west Africa correspondent",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/eu-to-propose-fresh-sanctions-including-ban-on-russian-coal",
@@ -2265,13 +2330,6 @@
 				"updated": "2022-04-05T13:27:44.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Reuters",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/74e0a5cda3f7ee1eab03a04f7820338e5050c303/0_72_3898_2339/master/3898.jpg?width=140&quality=85&auto=format&fit=max&s=09137fa3724e766e23ef5b79f5218a0a",
@@ -2289,7 +2347,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Reuters",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/technology/2022/apr/05/amazon-banned-words-list-union-internal-app",
@@ -2300,13 +2366,6 @@
 				"updated": "2022-04-05T20:12:20.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Dani Anguiano in Los Angeles",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/26755004cd1f54c3d3d61895b3add5fcc280ce0e/0_179_5800_3480/master/5800.jpg?width=140&quality=85&auto=format&fit=max&s=eddd6c16ce5dbe41d58ead312ee5a808",
@@ -2324,7 +2383,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Dani Anguiano in Los Angeles",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/us-news/2022/apr/05/fred-upton-house-republican-retirement-impeach-trump",
@@ -2335,13 +2402,6 @@
 				"updated": "2022-04-05T19:00:03.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Martin Pengelly in New York",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/9b4873bbbe450a1bf2faf8dc20fddcd2a619daf3/0_133_4000_2400/master/4000.jpg?width=140&quality=85&auto=format&fit=max&s=be057d702f26ee68e73cc7c78a97d6ed",
@@ -2359,7 +2419,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Martin Pengelly in New York",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/motorcade-of-shame-outrage-over-pro-russia-displays-at-berlin-rally",
@@ -2370,13 +2438,6 @@
 				"updated": "2022-04-05T12:58:39.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Kate Connolly in Berlin",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/4623b1c8e8c67ee02cc92a2c763c8180d02b21fb/0_281_5200_3120/master/5200.jpg?width=140&quality=85&auto=format&fit=max&s=6eb6f7b160fe0ae52ca9182f2bceabcc",
@@ -2394,7 +2455,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Kate Connolly in Berlin",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/shanghai-puts-whole-city-on-lockdown-as-covid-cases-surge",
@@ -2405,13 +2474,6 @@
 				"updated": "2022-04-05T13:22:46.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Vincent Ni China affairs correspondent",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/5c6de65e1e8d8c0ca6b03a9f3cb6370e380a6b01/0_130_3912_2347/master/3912.jpg?width=140&quality=85&auto=format&fit=max&s=bd3bf1034b763bc46d9134ffc54e0871",
@@ -2429,7 +2491,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Vincent Ni China affairs correspondent",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/us-news/2022/apr/05/ivanka-trump-capitol-attack-committee-january-6",
@@ -2440,13 +2510,6 @@
 				"updated": "2022-04-05T21:44:08.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Martin Pengelly in New York and agencies",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/540dd693edecdfe741ab826d4be0a74ce2c35b59/0_3_2491_1496/master/2491.jpg?width=140&quality=85&auto=format&fit=max&s=4c8dba8507e0775711c38eda4c09f1d8",
@@ -2464,7 +2527,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Martin Pengelly in New York and agencies",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/news/audio/2022/apr/05/babies-in-bunkers-surrogate-mothers-infants-trapped-ukraine-podcast",
@@ -2475,13 +2546,6 @@
 				"updated": "2022-04-05T02:00:02.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Presented by Nosheen Iqbal with Sirin Kale; produced by Hannah Moore and Axel Kacoutié; executive producers Mythili Rao and Phil Maynard",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/fce0a7d871ab0028819c92b4188e4ce3037aa8b1/0_0_8640_5184/master/8640.jpg?width=140&quality=85&auto=format&fit=max&s=e0ed971b85142004e7de9f5268819d02",
@@ -2499,7 +2563,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Presented by Nosheen Iqbal with Sirin Kale; produced by Hannah Moore and Axel Kacoutié; executive producers Mythili Rao and Phil Maynard",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/news/audio/2022/apr/04/how-fentanyl-flooded-the-us-and-sent-opioid-deaths-soaring-podcast",
@@ -2510,13 +2582,6 @@
 				"updated": "2022-04-04T02:00:35.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Presented by Michael Safi with Erin McCormick and Perla Mendoza; produced by Courtney Yusuf , Lucy Hough, and Rudi Zygadlo; executive producers Mythili Rao and Phil Maynard",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/3a1c87db221e352ae5dcf1ef3536b6e96b96f609/0_0_5220_3132/master/5220.jpg?width=140&quality=85&auto=format&fit=max&s=c13f83895aaf6ad544f8cf5576efa251",
@@ -2534,7 +2599,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Presented by Michael Safi with Erin McCormick and Perla Mendoza; produced by Courtney Yusuf , Lucy Hough, and Rudi Zygadlo; executive producers Mythili Rao and Phil Maynard",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/news/audio/2022/mar/28/the-race-to-mine-the-deep-sea-today-in-focus-podcast",
@@ -2545,13 +2618,6 @@
 				"updated": "2022-04-01T12:35:33.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Presented by Hannah Moore with Jonathan Watts; produced by Courtney Yusuf and Rudi Zygadlo; executive producers Mythili Rao and Phil Maynard",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/af0f23e9de9faf0aa94b75131ebc12bd379b8374/0_13_1200_720/master/1200.jpg?width=140&quality=85&auto=format&fit=max&s=3a1926b766663a1b269e44d4fd0c9e24",
@@ -2569,7 +2635,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Presented by Hannah Moore with Jonathan Watts; produced by Courtney Yusuf and Rudi Zygadlo; executive producers Mythili Rao and Phil Maynard",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/environment/video/2022/mar/24/why-are-we-burning-our-recycling-video",
@@ -2580,13 +2654,6 @@
 				"updated": "2022-03-24T08:00:53.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Josh Toussaint-Strauss Ali Assaf Joseph Pierce Nick Hildred Ryan Baxter Paul Boyd",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/02e776427094be1ac2cf40f487ef1285d075e396/60_0_1800_1080/master/1800.jpg?width=140&quality=85&auto=format&fit=max&s=e39b3a2d52f65a9911a65393f6e0fc5c",
@@ -2604,7 +2671,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Josh Toussaint-Strauss Ali Assaf Joseph Pierce Nick Hildred Ryan Baxter Paul Boyd",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/global/video/2022/mar/30/life-as-a-refugee-in-calais-the-ukraine-war-is-a-wake-up-call-video",
@@ -2615,13 +2690,6 @@
 				"updated": "2022-03-30T12:10:01.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Maeve Shearlaw, Christopher Cherry and Alex Healey",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/2b8a5cc686c0bdde04fea714533720962e696d14/0_123_4152_2492/master/4152.jpg?width=140&quality=85&auto=format&fit=max&s=5b588f29ff6c817ccbcd5e81b58dbe89",
@@ -2639,7 +2707,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Maeve Shearlaw, Christopher Cherry and Alex Healey",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/world/video/2022/apr/04/drone-footage-show-a-deserted-shanghai-as-the-city-remains-in-lockdown-video",
@@ -2650,7 +2726,6 @@
 				"updated": "2022-04-04T05:39:18.000Z",
 				"content": null,
 				"image": null,
-				"authors": [],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/6d973f00164193a774ac9939542274d497057d81/0_15_5464_3279/master/5464.jpg?width=140&quality=85&auto=format&fit=max&s=992d7a555303ae2f9943a976de58495f",
@@ -2668,7 +2743,9 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/world/video/2022/apr/02/russian-forces-ukrainian-protesters-enerhodar-video",
@@ -2679,7 +2756,6 @@
 				"updated": "2022-04-02T14:44:19.000Z",
 				"content": null,
 				"image": null,
-				"authors": [],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/2255ba350e3c4c9d939df2b02c0413abe959e8dd/60_0_1800_1080/master/1800.jpg?width=140&quality=85&auto=format&fit=max&s=137a1e464662d0b1bc6d1a2102ca7802",
@@ -2697,7 +2773,9 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/world/video/2022/mar/21/the-last-bar-in-kyiv-ukraines-buena-vista-holds-on-video",
@@ -2708,13 +2786,6 @@
 				"updated": "2022-03-21T11:29:12.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Ekaterina Ochagavia Oleksandr Portian, Vitalii Pavliuk, Tom Silverstone, Katie Lamborn and Charlie Phillips",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/c0f84122e1322b94417b50a3c1543002c7d3dcbe/0_0_1800_1080/master/1800.jpg?width=140&quality=85&auto=format&fit=max&s=edc92805de9bf4fa58c3f72983bfa20d",
@@ -2732,7 +2803,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Ekaterina Ochagavia Oleksandr Portian, Vitalii Pavliuk, Tom Silverstone, Katie Lamborn and Charlie Phillips",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/world/video/2022/mar/18/just-a-quiet-place-the-hungarian-border-village-helping-ukraines-refugees-video",
@@ -2743,13 +2822,6 @@
 				"updated": "2022-03-18T15:09:07.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "John Domokos, Charlie Phillips, Bálint Bárdi and and István Csarnovics",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/9ddf29c523c2168da3d8d1fca5eea5a040ed255c/120_0_1800_1080/master/1800.jpg?width=140&quality=85&auto=format&fit=max&s=1b1d8a63432058ee2bb126c43b9830d3",
@@ -2767,7 +2839,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "John Domokos, Charlie Phillips, Bálint Bárdi and and István Csarnovics",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/world/video/2022/mar/17/live-in-the-mess-that-putin-has-created-a-tour-of-russian-oligarch-linked-properties-in-london",
@@ -2778,13 +2858,6 @@
 				"updated": "2022-03-17T08:26:48.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Rupert Neate, Adam Sich, Ken Macfarlane, Katie Lamborn and Charlie Phillips",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/9446b71e4bbad52959cc7518bf98b4ebfd5094a2/0_0_1800_1080/master/1800.jpg?width=140&quality=85&auto=format&fit=max&s=f4b5007ddae1d59daa8b46c1a23f5be0",
@@ -2802,7 +2875,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Rupert Neate, Adam Sich, Ken Macfarlane, Katie Lamborn and Charlie Phillips",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/stage/2022/apr/05/i-couldnt-keep-it-inside-ballet-star-olga-smirnova-on-quitting-the-bolshoi-and-fleeing-russia",
@@ -2813,13 +2894,6 @@
 				"updated": "2022-04-05T13:57:43.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Lyndsey Winship",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/6f067265af54aac4ab5ea5886539a90dbd2a9ac9/1586_176_4243_2548/master/4243.jpg?width=140&quality=85&auto=format&fit=max&s=a8d1570b7b2c78ef145b58f5921c42d0",
@@ -2837,7 +2911,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Lyndsey Winship",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/tv-and-radio/2022/apr/05/im-going-to-get-so-roasted-for-this-the-nail-biting-university-challenge-final-reviewed-by-last-years-winner",
@@ -2848,13 +2930,6 @@
 				"updated": "2022-04-05T09:46:09.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Andrew Rout",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/8f4a68d36e8bc95c3ade6427cdafff2434a79272/0_0_5000_3000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=c050db404c279c455d68a08a8e0fba08",
@@ -2872,7 +2947,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Andrew Rout",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/books/2022/apr/05/what-were-reading-writers-and-readers-on-the-books-they-enjoyed-in-march",
@@ -2883,13 +2966,6 @@
 				"updated": "2022-04-05T11:32:18.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Sana Goyal, Norman Erikson Pasaribu and Guardian readers",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/8edb9e510dd3a9d96554d6f4460ff2c68e3526a8/0_0_2560_1536/master/2560.jpg?width=140&quality=85&auto=format&fit=max&s=2fb1eeed329aaa30e6ddf207e654c86f",
@@ -2907,7 +2983,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Sana Goyal, Norman Erikson Pasaribu and Guardian readers",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/music/2022/apr/05/joe-messina-obituary",
@@ -2918,13 +3002,6 @@
 				"updated": "2022-04-05T16:02:58.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Richard Williams",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/863c5a6d4cf09dfff2aa829880f2bf2c18c2c2a0/0_407_2000_1199/master/2000.jpg?width=140&quality=85&auto=format&fit=max&s=11c57a37e49c2eb07d715e97acc0405a",
@@ -2942,7 +3019,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Richard Williams",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/books/2022/apr/05/im-not-scared-of-war-any-more-death-and-the-penguin-author-andrey-kurkov-on-life-in-kyiv",
@@ -2953,13 +3038,6 @@
 				"updated": "2022-04-05T09:00:01.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Viv Groskop",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/5bf7723c4fd82e448de29193747d1aea4627931e/0_30_6720_4032/master/6720.jpg?width=140&quality=85&auto=format&fit=max&s=e3a8481b8082792ba05a4418625de701",
@@ -2977,7 +3055,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Viv Groskop",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/tv-and-radio/2022/apr/05/dodger-the-oliver-twist-prequel-thats-scary-starry-and-totally-irresistible-tv",
@@ -2988,13 +3074,6 @@
 				"updated": "2022-04-05T15:29:15.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Stuart Heritage",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/96bd09fd3eee364601a3da246a47662e9807f840/0_79_4170_2501/master/4170.jpg?width=140&quality=85&auto=format&fit=max&s=5cef4f6e510d3a6c52bd65343481a30e",
@@ -3012,7 +3091,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Stuart Heritage",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/retail-reimagined/2022/jan/13/how-businesses-can-reach-savvy-online-shoppers-theres-genuine-value-in-having-a-nice-experience",
@@ -3023,13 +3110,6 @@
 				"updated": "2022-01-13T15:53:41.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Duncan Jefferies",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/c416f59635827c4394d8ab8b530bf83e0081a679/0_120_2119_1272/master/2119.jpg?width=140&quality=85&auto=format&fit=max&s=748d246dae1f2466f17886f72fea9dbc",
@@ -3047,7 +3127,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Duncan Jefferies",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/retail-reimagined/2022/jan/13/from-contactless-to-digital-wallets-how-retail-is-adapting-to-new-trends",
@@ -3058,13 +3146,6 @@
 				"updated": "2022-01-13T15:56:15.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Rae Ritchie",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/f688c4e0ede9e1c8f900daeaaac869e2657c82f5/0_72_1733_1040/master/1733.jpg?width=140&quality=85&auto=format&fit=max&s=15ea2f04bad0aa0d626a4d9f987eafab",
@@ -3082,7 +3163,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Rae Ritchie",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/retail-reimagined/2022/jan/13/cash-is-no-longer-king-the-rapid-shift-to-e-commerce",
@@ -3093,13 +3182,6 @@
 				"updated": "2022-01-13T15:54:54.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Oliver Pickup",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/fc81af03d74374381804bd58badb080de2be231d/0_53_1633_980/master/1633.jpg?width=140&quality=85&auto=format&fit=max&s=967d353e7e7cbc1fe0fd833a175829fc",
@@ -3117,7 +3199,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Oliver Pickup",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/retail-reimagined/2022/jan/13/delivery-has-become-a-competitive-differentiator-timeliness-is-essential-in-e-commerce",
@@ -3128,13 +3218,6 @@
 				"updated": "2022-01-13T15:48:34.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Susie Mesure",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/c323263347d7c2dc97eb3e2aa519ad65a27332a9/0_77_2121_1273/master/2121.jpg?width=140&quality=85&auto=format&fit=max&s=2c9ae8251872c9372b489fdce2682cf7",
@@ -3152,7 +3235,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Susie Mesure",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/lifeandstyle/2022/apr/05/after-30-years-of-great-sex-my-husbands-new-look-is-a-total-turn-off",
@@ -3163,13 +3254,6 @@
 				"updated": "2022-04-05T13:29:39.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Pamela Stephenson Connolly",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/7ba0ae7fd240048e569a044ba5690533d29dc3ad/3_0_5340_3206/master/5340.jpg?width=140&quality=85&auto=format&fit=max&s=7f282cfd94eafc82e6feba6ff6d93c72",
@@ -3187,7 +3271,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Pamela Stephenson Connolly",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/food/2022/apr/05/nigel-slaters-recipe-for-miso-mushroom-soup",
@@ -3198,13 +3290,6 @@
 				"updated": "2022-04-05T11:00:02.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Nigel Slater",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/63fafd6afabc03982a30183608ad4dce35cd4505/0_137_6130_3678/master/6130.jpg?width=140&quality=85&auto=format&fit=max&s=4643fab1bca33720dded0bf5856b46a5",
@@ -3222,7 +3307,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Nigel Slater",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/travel/2022/apr/05/rail-route-of-the-month-barcelona-to-cadiz-the-slow-train-right-across-spain",
@@ -3233,13 +3326,6 @@
 				"updated": "2022-04-05T06:00:07.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Nicky Gardner",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/aff183539ea543ab160432a1b4ff489af386c2ef/0_236_3607_2164/master/3607.jpg?width=140&quality=85&auto=format&fit=max&s=c15d53e4a24323522edc6b592854c8c6",
@@ -3257,7 +3343,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Nicky Gardner",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/money/2022/apr/05/locked-out-of-account-co-op-bank-emails",
@@ -3268,13 +3362,6 @@
 				"updated": "2022-04-05T06:00:08.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Miles Brignall",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/ee9d20ea3c2365427029dcd83eaf0f7b7724d92a/0_202_6000_3599/master/6000.jpg?width=140&quality=85&auto=format&fit=max&s=8d243d9300811330bfe55b36e58c242f",
@@ -3292,7 +3379,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Miles Brignall",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/science/2022/apr/04/pet-cloning-how-the-rich-are-spending-up-to-38000-for-rover-version-20",
@@ -3303,7 +3398,6 @@
 				"updated": "2022-04-04T14:02:53.000Z",
 				"content": null,
 				"image": null,
-				"authors": [],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/bb4a55840b83e4dfac7702717685494217abdb9c/0_106_3168_1901/master/3168.jpg?width=140&quality=85&auto=format&fit=max&s=0924cc5c9d890496aad3616383c3ddcd",
@@ -3321,7 +3415,9 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/food/2022/apr/04/greek-lamb-orzo-tomato-feta-recipe-thomasina-miers",
@@ -3332,13 +3428,6 @@
 				"updated": "2022-04-04T12:00:36.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Thomasina Miers",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/c4ec3f0f7858880a89805c4796a2ac85b90069a5/647_2294_4773_2864/master/4773.jpg?width=140&quality=85&auto=format&fit=max&s=55f5fa22178289476776a7cf40801e9b",
@@ -3356,7 +3445,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Thomasina Miers",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/society/2022/apr/05/tell-us-are-you-an-lgbtq-person-over-75-in-the-uk",
@@ -3367,13 +3464,6 @@
 				"updated": "2022-04-05T15:35:54.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Guardian community team",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/d345a5d0955e876e81cdfff9e7f1e1c87845915f/0_16_2854_1714/master/2854.jpg?width=140&quality=85&auto=format&fit=max&s=cdff4c83d0829bb01966e8013c104a35",
@@ -3391,7 +3481,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Guardian community team",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/money/2022/apr/05/tell-us-how-much-have-your-uk-prepay-electricity-and-gas-meter-costs-increased",
@@ -3402,13 +3500,6 @@
 				"updated": "2022-04-05T10:17:51.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Guardian community team",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/088b5856cbd236ae0b11e314d75e9e4a7897f7fe/0_285_4272_2563/master/4272.jpg?width=140&quality=85&auto=format&fit=max&s=0a4e6c7d8006a41130e59939c2c873da",
@@ -3426,7 +3517,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Guardian community team",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/business/2022/apr/05/tell-us-how-have-you-been-affected-by-the-recent-travel-chaos-in-the-uk",
@@ -3437,13 +3536,6 @@
 				"updated": "2022-04-05T09:14:05.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Guardian community team",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/5be1ea2e6dfe1181b1a287c4255ef3e059c83367/0_0_3500_2100/master/3500.jpg?width=140&quality=85&auto=format&fit=max&s=82441fe64049eb1f1f9b5abe880bec0d",
@@ -3461,7 +3553,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Guardian community team",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/business/2022/apr/05/cost-of-food-in-the-uk-tell-us-the-price-difference-compared-with-last-year",
@@ -3472,13 +3572,6 @@
 				"updated": "2022-04-05T12:34:48.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Guardian community team",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/d49a46ab77f0af349acca1d128ab4359713c19d1/0_60_5150_3091/master/5150.jpg?width=140&quality=85&auto=format&fit=max&s=d7a692c98754da3a2d6e154aa6dcc555",
@@ -3496,7 +3589,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Guardian community team",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/i-lowered-my-guard-four-people-on-catching-covid-for-the-first-time",
@@ -3507,13 +3608,6 @@
 				"updated": "2022-04-05T06:00:07.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Clea Skopeliti and Rachel Obordo",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/124e5d5fb70b6f7542d576bfa49a8a1e278929c6/0_154_5518_3311/master/5518.jpg?width=140&quality=85&auto=format&fit=max&s=10f4e6f99deaf4e9dfd8792b679705cd",
@@ -3531,7 +3625,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Clea Skopeliti and Rachel Obordo",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/uk-news/2022/apr/05/selman-turk-exiled-businessman-prince-andrew",
@@ -3542,13 +3644,6 @@
 				"updated": "2022-04-05T12:43:58.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Ruth Michaelson",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/1c0b2b23cd0d4dd7e28332b856b4ed46b9c00ba5/0_244_1445_867/master/1445.jpg?width=140&quality=85&auto=format&fit=max&s=1e10d721a476dfb05dc233960eb4cfc6",
@@ -3566,7 +3661,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Ruth Michaelson",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/business/2022/apr/05/food-price-rises-ukraine-war-cooking-oil",
@@ -3577,13 +3680,6 @@
 				"updated": "2022-04-05T15:22:44.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Zoe Wood",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/e9d590e0146f91ff1da350718960b10c2fb6f301/0_374_5616_3370/master/5616.jpg?width=140&quality=85&auto=format&fit=max&s=e5fbf4718c4e6a4ffd0f9c0c858fd883",
@@ -3601,7 +3697,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Zoe Wood",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/thailand-dreams-of-high-end-cannabis-tourism-after-marijuana-is-legalised",
@@ -3612,13 +3716,6 @@
 				"updated": "2022-04-04T23:43:47.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Rebecca Root in Bangkok",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/3e678b13ad4bb9230c18ded8f50ae84cd09577d7/0_116_3500_2101/master/3500.jpg?width=140&quality=85&auto=format&fit=max&s=40d4079f33516dca4408acb7d092310d",
@@ -3636,7 +3733,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Rebecca Root in Bangkok",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/this-is-inhumane-the-cost-of-zero-covid-in-shanghai",
@@ -3647,13 +3752,6 @@
 				"updated": "2022-04-04T23:02:18.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Vincent Ni, China affairs correspondent",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/e9a0db81631f1b9143387e183269ab3aa955e67b/0_241_4620_2773/master/4620.jpg?width=140&quality=85&auto=format&fit=max&s=c3ed8be2896c6df2861f7363d70a7f47",
@@ -3671,7 +3769,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Vincent Ni, China affairs correspondent",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/info/2016/mar/01/the-morning-briefing-start-the-day-one-step-ahead",
@@ -3682,13 +3788,6 @@
 				"updated": "2020-03-24T01:00:56.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Guardian emails team",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/937cf22da8d73eae17817c720b02783cf35953cf/0_0_5000_3000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=af14a3f77c1e677c3c6cd93c518f6dd8",
@@ -3706,7 +3805,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Guardian emails team",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/info/ng-interactive/2021/jun/25/techscape-sign-up",
@@ -3717,7 +3824,6 @@
 				"updated": "2021-06-25T11:00:49.000Z",
 				"content": null,
 				"image": null,
-				"authors": [],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/e4b75f936694609cff24a4a440ec07a87bc2e274/8_0_2258_1356/master/2258.jpg?width=140&quality=85&auto=format&fit=max&s=5339631f89e78ae7000bb1e63be18541",
@@ -3735,7 +3841,9 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/info/ng-interactive/2021/oct/20/sign-up-for-down-to-earth-the-best-way-to-make-sense-of-the-biggest-environment-stories",
@@ -3746,7 +3854,6 @@
 				"updated": "2021-10-20T16:04:10.000Z",
 				"content": null,
 				"image": null,
-				"authors": [],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/18f8d893d05a1052cf21826eeaf30168a5ecd0bf/0_0_1600_960/master/1600.png?width=140&quality=85&auto=format&fit=max&s=7c23fabd123eacbdfc98014989366c7d",
@@ -3764,7 +3871,9 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/football/2022/mar/22/sign-up-for-our-new-womens-football-newsletter-moving-the-goalposts",
@@ -3775,13 +3884,6 @@
 				"updated": "2022-03-22T16:57:35.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Suzanne Wrack",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/dcc3a0fee6e616c65a9bd264dffe540a587f3dd2/0_0_4468_2681/master/4468.jpg?width=140&quality=85&auto=format&fit=max&s=8b7b18a53b7fc8ace86b1ca9e59d9abd",
@@ -3799,7 +3901,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Suzanne Wrack",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/news/gallery/2022/apr/05/selfie-museum-pablo-escobar-hippos-tuesdays-best-photos",
@@ -3810,13 +3920,6 @@
 				"updated": "2022-04-05T13:20:54.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Elena Goodinson",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/882595c5968c7c19c5db32916f4fb50a76c3e63d/0_0_5686_3413/master/5686.jpg?width=140&quality=85&auto=format&fit=max&s=9d95905bc6348f8136d42079aed51bfa",
@@ -3834,7 +3937,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Elena Goodinson",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/artanddesign/gallery/2022/apr/05/a-1950s-idea-of-the-future-that-went-wrong-joe-webbs-dystopian-collages-in-pictures",
@@ -3845,7 +3956,6 @@
 				"updated": "2022-04-05T06:00:07.000Z",
 				"content": null,
 				"image": null,
-				"authors": [],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/e9eb9f575a3345cb84d05a4d073990eb8611548b/0_644_1428_856/master/1428.jpg?width=140&quality=85&auto=format&fit=max&s=d23218acd02a5b89c4f0d8bdd084d4b4",
@@ -3863,7 +3973,9 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/music/gallery/2022/apr/04/the-64th-annual-grammy-awards-in-pictures",
@@ -3874,13 +3986,6 @@
 				"updated": "2022-04-04T09:00:55.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Arnel Hecimovic",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/2d4837975281a8701d79f88ad1253fd4c4c39d8e/0_0_3500_2101/master/3500.jpg?width=140&quality=85&auto=format&fit=max&s=2d11c5c506ebcfd9778ffcf44b71b1d1",
@@ -3898,7 +4003,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Arnel Hecimovic",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/artanddesign/gallery/2022/apr/04/an-invincible-summer-fotografia-europea-in-pictures",
@@ -3909,7 +4022,6 @@
 				"updated": "2022-04-04T06:00:40.000Z",
 				"content": null,
 				"image": null,
-				"authors": [],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/53b10799488f1f13c2f14df444a1e6a629048f58/0_437_1772_1062/master/1772.jpg?width=140&quality=85&auto=format&fit=max&s=fcf5da1dcdfe89c1222d358b0db50a2a",
@@ -3927,7 +4039,9 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/world/gallery/2022/apr/03/photographer-maksim-levins-work-in-ukraine-in-pictures",
@@ -3938,13 +4052,6 @@
 				"updated": "2022-04-03T15:18:09.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Photographs: Maksim Levin",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/dc5a1af1efad0e626cc29ab7c4d0edccc5780dbe/0_176_3500_2099/master/3500.jpg?width=140&quality=85&auto=format&fit=max&s=71c5beecb466d14498f3ecc40e6cf759",
@@ -3962,7 +4069,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Photographs: Maksim Levin",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": "https://www.theguardian.com/sport/gallery/2022/apr/03/the-boat-races-2022-in-pictures",
@@ -3973,13 +4088,6 @@
 				"updated": "2022-04-03T18:19:51.000Z",
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Guardian sport",
-						"email": null,
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "https://i.guim.co.uk/img/media/175d503d9028ff2fe333a9ef4c9ba438e3c41c32/0_400_6000_3600/master/6000.jpg?width=140&quality=85&auto=format&fit=max&s=87b1d21f65d3872f1f4abc54afd0a57f",
@@ -3997,7 +4105,15 @@
 						"type": null,
 						"mimeType": null
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Guardian sport",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
 			}
 		]
 	}

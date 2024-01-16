@@ -22,6 +22,7 @@
 		},
 		"image": null,
 		"authors": [],
+		"categories": [],
 		"items": [
 			{
 				"id": "tag:feedparser.org,2004-04-20:/docs/examples/atom03.xml:3",
@@ -32,6 +33,7 @@
 				"updated": "2004-04-20T11:56:34.000Z",
 				"content": "Watch out for  nasty tricks",
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": "Mark Pilgrim",
@@ -39,7 +41,7 @@
 						"url": "http://diveintomark.org/"
 					}
 				],
-				"media": []
+				"categories": []
 			}
 		]
 	}

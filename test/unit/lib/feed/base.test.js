@@ -162,6 +162,14 @@ describe('lib/feed/base', () => {
 
 		});
 
+		describe('.categories', () => {
+
+			it('is set to an empty array', () => {
+				assert.deepEqual(feed.categories, []);
+			});
+
+		});
+
 		describe('.items', () => {
 
 			it('is set to an empty array', () => {
@@ -188,6 +196,7 @@ describe('lib/feed/base', () => {
 					generator: 'mock-generator',
 					image: 'mock-image',
 					authors: 'mock-authors',
+					categories: 'mock-categories',
 					items: [{toJSON: () => 'mock-item'}]
 				};
 				returnValue = feed.toJSON.call(mockFeed);
@@ -207,6 +216,7 @@ describe('lib/feed/base', () => {
 					generator: 'mock-generator',
 					image: 'mock-image',
 					authors: 'mock-authors',
+					categories: 'mock-categories',
 					items: ['mock-item']
 				});
 			});

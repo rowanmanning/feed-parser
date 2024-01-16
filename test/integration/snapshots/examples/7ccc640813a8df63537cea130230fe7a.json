@@ -27,6 +27,7 @@
 				"url": null
 			}
 		],
+		"categories": [],
 		"items": [
 			{
 				"id": null,
@@ -37,6 +38,7 @@
 				"updated": null,
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -44,7 +46,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": null,
@@ -55,6 +57,7 @@
 				"updated": null,
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -62,7 +65,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": null,
@@ -73,6 +76,7 @@
 				"updated": null,
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -80,7 +84,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": null,
@@ -91,6 +95,7 @@
 				"updated": null,
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -98,7 +103,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": null,
@@ -109,6 +114,7 @@
 				"updated": null,
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -116,7 +122,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": null,
@@ -127,6 +133,7 @@
 				"updated": null,
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -134,7 +141,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			}
 		]
 	}

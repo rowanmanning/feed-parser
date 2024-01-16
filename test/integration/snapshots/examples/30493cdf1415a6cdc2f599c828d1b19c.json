@@ -28,6 +28,7 @@
 				"url": null
 			}
 		],
+		"categories": [],
 		"items": [
 			{
 				"id": "http://liftoff.msfc.nasa.gov/2003/06/03.html#item573",
@@ -38,6 +39,7 @@
 				"updated": "2003-06-03T09:39:21.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -45,7 +47,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "http://liftoff.msfc.nasa.gov/2003/05/30.html#item572",
@@ -56,6 +58,7 @@
 				"updated": "2003-05-30T11:06:42.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -63,7 +66,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "http://liftoff.msfc.nasa.gov/2003/05/27.html#item571",
@@ -74,6 +77,7 @@
 				"updated": "2003-05-27T08:37:32.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -81,7 +85,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "http://liftoff.msfc.nasa.gov/2003/05/20.html#item570",
@@ -92,6 +96,7 @@
 				"updated": "2003-05-20T08:56:02.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": null,
@@ -99,7 +104,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			}
 		]
 	}

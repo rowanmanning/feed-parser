@@ -25,6 +25,7 @@
 			"url": "https://files.mastodon.social/accounts/avatars/000/000/001/original/dc4286ceb8fab734.jpg"
 		},
 		"authors": [],
+		"categories": [],
 		"items": [
 			{
 				"id": "https://mastodon.social/@Gargron/109949892433321784",
@@ -35,8 +36,9 @@
 				"updated": "2023-03-01T20:23:36.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://mastodon.social/@Gargron/109943079995353881",
@@ -47,8 +49,9 @@
 				"updated": "2023-02-28T15:31:06.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://mastodon.social/@Gargron/109919714032366048",
@@ -59,8 +62,9 @@
 				"updated": "2023-02-24T12:28:50.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://mastodon.social/@Gargron/109889416185879447",
@@ -71,8 +75,9 @@
 				"updated": "2023-02-19T04:03:41.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://mastodon.social/@Gargron/109850453803755145",
@@ -83,8 +88,9 @@
 				"updated": "2023-02-12T06:55:03.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://mastodon.social/@Gargron/109827568949419926",
@@ -95,8 +101,9 @@
 				"updated": "2023-02-08T05:55:07.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://mastodon.social/@Gargron/109822738794400635",
@@ -107,8 +114,9 @@
 				"updated": "2023-02-07T09:26:45.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://mastodon.social/@Gargron/109810124734718299",
@@ -122,7 +130,6 @@
 					"url": "https://files.mastodon.social/media_attachments/files/109/810/124/471/341/410/original/a85a711cac14979c.jpeg",
 					"title": "Food in Korean restaurant on top of table"
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://files.mastodon.social/media_attachments/files/109/810/124/471/341/410/original/a85a711cac14979c.jpeg",
@@ -132,7 +139,9 @@
 						"type": "image",
 						"mimeType": "image/jpeg"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://mastodon.social/@Gargron/109786290644576574",
@@ -143,8 +152,9 @@
 				"updated": "2023-01-31T22:57:30.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://mastodon.social/@Gargron/109781614426817079",
@@ -155,8 +165,9 @@
 				"updated": "2023-01-31T03:08:17.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://mastodon.social/@Gargron/109781490892884305",
@@ -167,8 +178,9 @@
 				"updated": "2023-01-31T02:36:52.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://mastodon.social/@Gargron/109752869525918351",
@@ -179,8 +191,9 @@
 				"updated": "2023-01-26T01:18:05.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://mastodon.social/@Gargron/109752585671341892",
@@ -191,8 +204,9 @@
 				"updated": "2023-01-26T00:05:53.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://mastodon.social/@Gargron/109745931739360983",
@@ -203,8 +217,9 @@
 				"updated": "2023-01-24T19:53:42.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://mastodon.social/@Gargron/109734444153824593",
@@ -215,8 +230,9 @@
 				"updated": "2023-01-22T19:12:16.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://mastodon.social/@Gargron/109733933922153776",
@@ -227,8 +243,9 @@
 				"updated": "2023-01-22T17:02:30.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://mastodon.social/@Gargron/109722256853094329",
@@ -242,7 +259,6 @@
 					"url": "https://files.mastodon.social/media_attachments/files/109/722/222/976/767/598/original/c4d57fc4988f5bfa.png",
 					"title": "A photo of me in formal attire (red tie, brown jacket)"
 				},
-				"authors": [],
 				"media": [
 					{
 						"url": "https://files.mastodon.social/media_attachments/files/109/722/222/976/767/598/original/c4d57fc4988f5bfa.png",
@@ -252,7 +268,9 @@
 						"type": "image",
 						"mimeType": "image/png"
 					}
-				]
+				],
+				"authors": [],
+				"categories": []
 			},
 			{
 				"id": "https://mastodon.social/@Gargron/109721635392299425",
@@ -263,8 +281,9 @@
 				"updated": "2023-01-20T12:54:50.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://mastodon.social/@Gargron/109669334253114110",
@@ -275,8 +294,9 @@
 				"updated": "2023-01-11T07:13:58.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": "https://mastodon.social/@Gargron/109663072573730112",
@@ -287,8 +307,9 @@
 				"updated": "2023-01-10T04:41:32.000Z",
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [],
-				"media": []
+				"categories": []
 			}
 		]
 	}

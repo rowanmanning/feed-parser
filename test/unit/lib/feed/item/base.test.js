@@ -125,14 +125,6 @@ describe('lib/feed/item/base', () => {
 
 		});
 
-		describe('.authors', () => {
-
-			it('is set to an empty array', () => {
-				assert.deepEqual(feedItem.authors, []);
-			});
-
-		});
-
 		describe('.media', () => {
 			let mockGroupMedia;
 			let mockMedia;
@@ -550,6 +542,22 @@ describe('lib/feed/item/base', () => {
 
 		});
 
+		describe('.authors', () => {
+
+			it('is set to an empty array', () => {
+				assert.deepEqual(feedItem.authors, []);
+			});
+
+		});
+
+		describe('.categories', () => {
+
+			it('is set to an empty array', () => {
+				assert.deepEqual(feedItem.categories, []);
+			});
+
+		});
+
 		describe('.toJSON()', () => {
 			let mockFeedItem;
 			let returnValue;
@@ -565,6 +573,7 @@ describe('lib/feed/item/base', () => {
 					content: 'mock-content',
 					image: 'mock-image',
 					authors: 'mock-authors',
+					categories: 'mock-categories',
 					media: 'mock-media'
 				};
 				returnValue = feedItem.toJSON.call(mockFeedItem);
@@ -581,6 +590,7 @@ describe('lib/feed/item/base', () => {
 					content: 'mock-content',
 					image: 'mock-image',
 					authors: 'mock-authors',
+					categories: 'mock-categories',
 					media: 'mock-media'
 				});
 			});

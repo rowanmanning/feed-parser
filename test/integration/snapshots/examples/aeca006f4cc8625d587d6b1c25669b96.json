@@ -24,6 +24,7 @@
 				"url": null
 			}
 		],
+		"categories": [],
 		"items": [
 			{
 				"id": null,
@@ -34,13 +35,6 @@
 				"updated": null,
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Dave Winer",
-						"email": "dave@userland.com",
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "http://www.scripting.com/mp3s/weatherReportDicksPicsVol7.mp3",
@@ -50,7 +44,15 @@
 						"type": "audio",
 						"mimeType": "audio/mpeg"
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Dave Winer",
+						"email": "dave@userland.com",
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": null,
@@ -61,6 +63,7 @@
 				"updated": null,
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": "Dave Winer",
@@ -68,7 +71,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": null,
@@ -79,13 +82,6 @@
 				"updated": null,
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Dave Winer",
-						"email": "dave@userland.com",
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "http://www.scripting.com/mp3s/theOtherOne.mp3",
@@ -95,7 +91,15 @@
 						"type": "audio",
 						"mimeType": "audio/mpeg"
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Dave Winer",
+						"email": "dave@userland.com",
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": null,
@@ -106,6 +110,7 @@
 				"updated": null,
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": "Dave Winer",
@@ -113,7 +118,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": null,
@@ -124,6 +129,7 @@
 				"updated": null,
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": "Dave Winer",
@@ -131,7 +137,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": null,
@@ -142,13 +148,6 @@
 				"updated": null,
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Dave Winer",
-						"email": "dave@userland.com",
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "http://www.scripting.com/mp3s/franklinsTower.mp3",
@@ -158,7 +157,15 @@
 						"type": "audio",
 						"mimeType": "audio/mpeg"
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Dave Winer",
+						"email": "dave@userland.com",
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": null,
@@ -169,6 +176,7 @@
 				"updated": null,
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": "Dave Winer",
@@ -176,7 +184,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": null,
@@ -187,13 +195,6 @@
 				"updated": null,
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Dave Winer",
-						"email": "dave@userland.com",
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "http://www.scripting.com/mp3s/youWinAgain.mp3",
@@ -203,7 +204,15 @@
 						"type": "audio",
 						"mimeType": "audio/mpeg"
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Dave Winer",
+						"email": "dave@userland.com",
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": null,
@@ -214,13 +223,6 @@
 				"updated": null,
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Dave Winer",
-						"email": "dave@userland.com",
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "http://www.scripting.com/mp3s/weatherReportSuite.mp3",
@@ -230,7 +232,15 @@
 						"type": "audio",
 						"mimeType": "audio/mpeg"
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Dave Winer",
+						"email": "dave@userland.com",
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": null,
@@ -241,13 +251,6 @@
 				"updated": null,
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Dave Winer",
-						"email": "dave@userland.com",
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "http://www.scripting.com/mp3s/darkStar.mp3",
@@ -257,7 +260,15 @@
 						"type": "audio",
 						"mimeType": "audio/mpeg"
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Dave Winer",
+						"email": "dave@userland.com",
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": null,
@@ -268,6 +279,7 @@
 				"updated": null,
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": "Dave Winer",
@@ -275,7 +287,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": null,
@@ -286,6 +298,7 @@
 				"updated": null,
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": "Dave Winer",
@@ -293,7 +306,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": null,
@@ -304,13 +317,6 @@
 				"updated": null,
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Dave Winer",
-						"email": "dave@userland.com",
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "http://www.scripting.com/mp3s/usBlues.mp3",
@@ -320,7 +326,15 @@
 						"type": "audio",
 						"mimeType": "audio/mpeg"
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Dave Winer",
+						"email": "dave@userland.com",
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": null,
@@ -331,13 +345,6 @@
 				"updated": null,
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Dave Winer",
-						"email": "dave@userland.com",
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "http://www.scripting.com/mp3s/tennesseeJed.mp3",
@@ -347,7 +354,15 @@
 						"type": "audio",
 						"mimeType": "audio/mpeg"
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Dave Winer",
+						"email": "dave@userland.com",
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": null,
@@ -358,13 +373,6 @@
 				"updated": null,
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Dave Winer",
-						"email": "dave@userland.com",
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "http://www.scripting.com/mp3s/darkStarWharfRat.mp3",
@@ -374,7 +382,15 @@
 						"type": "audio",
 						"mimeType": "audio/mpeg"
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Dave Winer",
+						"email": "dave@userland.com",
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": null,
@@ -385,13 +401,6 @@
 				"updated": null,
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Dave Winer",
-						"email": "dave@userland.com",
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "http://www.scripting.com/mp3s/friendOfTheDevil.mp3",
@@ -401,7 +410,15 @@
 						"type": "audio",
 						"mimeType": "audio/mpeg"
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Dave Winer",
+						"email": "dave@userland.com",
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": null,
@@ -412,13 +429,6 @@
 				"updated": null,
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Dave Winer",
-						"email": "dave@userland.com",
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "http://www.scripting.com/mp3s/uncleJohnsBand.mp3",
@@ -428,7 +438,15 @@
 						"type": "audio",
 						"mimeType": "audio/mpeg"
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Dave Winer",
+						"email": "dave@userland.com",
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": null,
@@ -439,13 +457,6 @@
 				"updated": null,
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Dave Winer",
-						"email": "dave@userland.com",
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "http://www.scripting.com/mp3s/meAndMyUncle.mp3",
@@ -455,7 +466,15 @@
 						"type": "audio",
 						"mimeType": "audio/mpeg"
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Dave Winer",
+						"email": "dave@userland.com",
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": null,
@@ -466,13 +485,6 @@
 				"updated": null,
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Dave Winer",
-						"email": "dave@userland.com",
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "http://www.scripting.com/mp3s/truckin.mp3",
@@ -482,7 +494,15 @@
 						"type": "audio",
 						"mimeType": "audio/mpeg"
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Dave Winer",
+						"email": "dave@userland.com",
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": null,
@@ -493,6 +513,7 @@
 				"updated": null,
 				"content": null,
 				"image": null,
+				"media": [],
 				"authors": [
 					{
 						"name": "Dave Winer",
@@ -500,7 +521,7 @@
 						"url": null
 					}
 				],
-				"media": []
+				"categories": []
 			},
 			{
 				"id": null,
@@ -511,13 +532,6 @@
 				"updated": null,
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Dave Winer",
-						"email": "dave@userland.com",
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "http://www.scripting.com/mp3s/touchOfGrey.mp3",
@@ -527,7 +541,15 @@
 						"type": "audio",
 						"mimeType": "audio/mpeg"
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Dave Winer",
+						"email": "dave@userland.com",
+						"url": null
+					}
+				],
+				"categories": []
 			},
 			{
 				"id": null,
@@ -538,13 +560,6 @@
 				"updated": null,
 				"content": null,
 				"image": null,
-				"authors": [
-					{
-						"name": "Dave Winer",
-						"email": "dave@userland.com",
-						"url": null
-					}
-				],
 				"media": [
 					{
 						"url": "http://www.scripting.com/mp3s/usBlues.mp3",
@@ -554,7 +569,15 @@
 						"type": "audio",
 						"mimeType": "audio/mpeg"
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Dave Winer",
+						"email": "dave@userland.com",
+						"url": null
+					}
+				],
+				"categories": []
 			}
 		]
 	}

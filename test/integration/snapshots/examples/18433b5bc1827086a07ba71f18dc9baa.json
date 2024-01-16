@@ -22,6 +22,7 @@
 		},
 		"image": null,
 		"authors": [],
+		"categories": [],
 		"items": [
 			{
 				"id": "tag:feedparser.org,2005-11-09:/docs/examples/atom10.xml:3",
@@ -32,13 +33,6 @@
 				"updated": "2005-11-09T11:56:34.000Z",
 				"content": "Watch out for\n<span style=\"background-image: url(javascript:window.location='http://example.org/')\">\nnasty tricks</span>",
 				"image": null,
-				"authors": [
-					{
-						"name": "Mark Pilgrim",
-						"email": "mark@example.org",
-						"url": "http://diveintomark.org/"
-					}
-				],
 				"media": [
 					{
 						"url": "http://www.example.com/movie.mp4",
@@ -48,7 +42,15 @@
 						"type": "video",
 						"mimeType": "video/mpeg4"
 					}
-				]
+				],
+				"authors": [
+					{
+						"name": "Mark Pilgrim",
+						"email": "mark@example.org",
+						"url": "http://diveintomark.org/"
+					}
+				],
+				"categories": []
 			}
 		]
 	}
