@@ -122,9 +122,16 @@ for (const suite of suites) {
 					// we wouldn't add `/` to `https://www.ft.com`. We match their
 					// URLs by cheesing it here and removing trailing slashes from
 					// both results
+					//
+					// DIFF: if no atom:link[alternate] element is present and atom:id
+					// is a URL then feedparser will use the `atom:id` element. We
+					// default to `null` instead to allow end-users to decide.
 					it('has ROUGHLY matching feed URLs', () => {
 						const url = actual.feed.url?.replace(/\/+$/, '') || null;
 						const feedParserUrl = feedParserMeta.link?.replace(/\/+$/, '') || null;
+						if (url === null && feedParserUrl === feedParserMeta['atom:id']?.['#']) {
+							return;
+						}
 						assert.strictEqual(url, feedParserUrl);
 					});
 
@@ -344,7 +351,7 @@ for (const suite of suites) {
 
 							// Handle feedparser XML Atom content issue by
 							// stripping the outer div
-							if (actual.feed.meta.type === 'atom' && /^<div/i.test(feedParserContent)) {
+							if (actual.feed.meta.type === 'atom' && /^<div/i.test(feedParserContent) && /<\/\s*div\s*>\s*$/i.test(feedParserContent)) {
 								feedParserContent = feedParserContent.replace(/^<div( .*)?>|<\/\s*div\s*>$/ig, '').trim();
 							}
 
@@ -451,10 +458,6 @@ for (const suite of suites) {
 								return;
 							}
 							if (feedParserAuthor && !authors.length) {
-								console.log({
-									ours: authors,
-									theirs: feedParserAuthor
-								});
 								assert.ok(false, 'feedparser found an author and we did not');
 							}
 							assert.ok(Object.values(authors[0]).some(value => {

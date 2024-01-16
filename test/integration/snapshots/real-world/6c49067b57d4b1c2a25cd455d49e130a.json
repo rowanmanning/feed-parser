@@ -1,0 +1,487 @@
+{
+	"title": "FYI Center for Software Developers",
+	"hash": "6c49067b57d4b1c2a25cd455d49e130a",
+	"url": "https://sample-feeds.rowanmanning.com/real-world/6c49067b57d4b1c2a25cd455d49e130a/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "atom",
+			"version": "1.0"
+		},
+		"language": null,
+		"title": "FYI Center for Software Developers",
+		"description": "FYI (For Your Information) Center for Software Developers with large collection of FAQs, tutorials, tips, and code examples for application and Web developers on Java, .NET, C, PHP, JavaScript, XML, HTML, CSS, RSS, MySQL and Oracle - dev.fyicenter.com.",
+		"copyright": "Copyright (c) 2024 FYIcenter.com",
+		"url": null,
+		"self": "https://sample-feeds.rowanmanning.com/real-world/6c49067b57d4b1c2a25cd455d49e130a/feed.xml",
+		"published": null,
+		"updated": "2024-01-16T08:14:42.000Z",
+		"generator": null,
+		"image": null,
+		"authors": [
+			{
+				"name": "FYIcenter.com",
+				"email": null,
+				"url": null
+			}
+		],
+		"categories": [],
+		"items": [
+			{
+				"id": "http://dev.fyicenter.com/1000284_Validating_XHTML_1_0_Documents_Online.html",
+				"title": "Validating XHTML 1.0 Documents Online",
+				"description": "<img align='left' width='64' height='64' src='http://dev.fyicenter.com/HTML/_icon_HTML.png' />How To Validate XHTML 1.0 Documents Online? If you have just finished a new XHTML document, and you want to make sure that confirms with the XHTML specification, you can use the XHTML online validator at http://validator.w3.org/ . There are 3 ways you can use this validator: By URL - Specify the URL...  - Rank: 1442; Updated: 2024-01-15 14:18:58 -> <a href='http://dev.fyicenter.com/1000284_Validating_XHTML_1_0_Documents_Online.html'>Source</a>",
+				"url": "http://dev.fyicenter.com/1000284_Validating_XHTML_1_0_Documents_Online.html",
+				"published": null,
+				"updated": "2024-01-15T13:20:22.000Z",
+				"content": null,
+				"image": null,
+				"media": [],
+				"authors": [
+					{
+						"name": "FYIcenter.com",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			},
+			{
+				"id": "http://dev.fyicenter.com/1000341_HTML_Body_Tag_and_Block_Level_Tags.html",
+				"title": "HTML Body Tag and Block Level Tags",
+				"description": "<img align='left' width='64' height='64' src='http://dev.fyicenter.com/HTML/_icon_HTML.png' />Where to find tutorials of introduction to HTML Body Tag and Block Level Tags? Here is a list of tutorials to answer many frequently asked questions compiled by FYIcenter.com team in introduction to HTML Body Tag and Block Level Tags. Clear answers are provided with tutorial exercises on XHTML body ...  - Rank: 1218; Updated: 2024-01-10 14:06:25 -> <a href='http://dev.fyicenter.com/1000341_HTML_Body_Tag_and_Block_Level_Tags.html'>Source</a>",
+				"url": "http://dev.fyicenter.com/1000341_HTML_Body_Tag_and_Block_Level_Tags.html",
+				"published": null,
+				"updated": "2024-01-10T13:07:06.000Z",
+				"content": null,
+				"image": null,
+				"media": [],
+				"authors": [
+					{
+						"name": "FYIcenter.com",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			},
+			{
+				"id": "http://dev.fyicenter.com/1000342_HTML_body_Tag_Element-Document_Body.html",
+				"title": "HTML 'body' Tag/Element - Document Body",
+				"description": "<img align='left' width='64' height='64' src='http://dev.fyicenter.com/HTML/_icon_HTML.png' />What Is the HTML \"body\" Tag/Element? The \"body\" element is used to provide content of the HTML document. Here are some rules about the \"body\" tag/element: The body element is a second level element. The body element must be the second child element of the html element. You can only place a single bo...  - Rank: 1152; Updated: 2024-01-10 14:06:25 -> <a href='http://dev.fyicenter.com/1000342_HTML_body_Tag_Element-Document_Body.html'>Source</a>",
+				"url": "http://dev.fyicenter.com/1000342_HTML_body_Tag_Element-Document_Body.html",
+				"published": null,
+				"updated": "2024-01-10T13:07:07.000Z",
+				"content": null,
+				"image": null,
+				"media": [],
+				"authors": [
+					{
+						"name": "FYIcenter.com",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			},
+			{
+				"id": "http://dev.fyicenter.com/1000340_HTML_style_Tag_Element.html",
+				"title": "HTML 'style' Tag/Element",
+				"description": "<img align='left' width='64' height='64' src='http://dev.fyicenter.com/HTML/_icon_HTML.png' />What Is an HTML \"style\" Tag/Element? A \"style\" element is an optional sub-element of the \"head\" element. A \"link\" element is used to specify Cascading Style Sheet (CSS) entries. Here is good example of a style element: &lt;?xml version=\"1.0\" ?&gt; &lt;!DOCTYPE html PUBLIC \"-//W3C//DTD XH...  - Rank: 1111; Updated: 2024-01-10 14:06:25 -> <a href='http://dev.fyicenter.com/1000340_HTML_style_Tag_Element.html'>Source</a>",
+				"url": "http://dev.fyicenter.com/1000340_HTML_style_Tag_Element.html",
+				"published": null,
+				"updated": "2024-01-10T13:07:05.000Z",
+				"content": null,
+				"image": null,
+				"media": [],
+				"authors": [
+					{
+						"name": "FYIcenter.com",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			},
+			{
+				"id": "http://dev.fyicenter.com/1000339_HTML_link_Tag_Element.html",
+				"title": "HTML 'link' Tag/Element",
+				"description": "<img align='left' width='64' height='64' src='http://dev.fyicenter.com/HTML/_icon_HTML.png' />What Is an HTML \"link\" Tag/Element? A \"link\" element is an optional sub-element of the \"head\" element. A \"link\" element is used to specify Cascading Style Sheet (CSS) file. Here is good example of a link element: &lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt; &lt;!DOCTYPE html PUBLIC \"-//W...  - Rank: 1110; Updated: 2024-01-10 14:06:25 -> <a href='http://dev.fyicenter.com/1000339_HTML_link_Tag_Element.html'>Source</a>",
+				"url": "http://dev.fyicenter.com/1000339_HTML_link_Tag_Element.html",
+				"published": null,
+				"updated": "2024-01-10T13:07:04.000Z",
+				"content": null,
+				"image": null,
+				"media": [],
+				"authors": [
+					{
+						"name": "FYIcenter.com",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			},
+			{
+				"id": "http://dev.fyicenter.com/1000338_HTML_script_Tag_Element_in_head_Element.html",
+				"title": "HTML 'script' Tag/Element in 'head' Element",
+				"description": "<img align='left' width='64' height='64' src='http://dev.fyicenter.com/HTML/_icon_HTML.png' />What Is an HTML \"script\" Tag/Element? A \"script\" element is an optional sub-element of the \"head\" and many other HTML elements. If a \"script\" element is placed inside the \"head\" element, the specified script code will not be executed immediately. Usually, you use \"script\" elements in the \"head\" elem...  - Rank: 1017; Updated: 2024-01-10 14:06:25 -> <a href='http://dev.fyicenter.com/1000338_HTML_script_Tag_Element_in_head_Element.html'>Source</a>",
+				"url": "http://dev.fyicenter.com/1000338_HTML_script_Tag_Element_in_head_Element.html",
+				"published": null,
+				"updated": "2024-01-10T13:07:03.000Z",
+				"content": null,
+				"image": null,
+				"media": [],
+				"authors": [
+					{
+						"name": "FYIcenter.com",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			},
+			{
+				"id": "http://dev.fyicenter.com/1000137_Reading_a_File_in_Binary_Mode_in_PHP.html",
+				"title": "Reading a File in Binary Mode in PHP",
+				"description": "<img align='left' width='64' height='64' src='http://dev.fyicenter.com/PHP/_icon_PHP.png' />How To Read a File in Binary Mode in PHP? If you have a file that stores binary data, like an executable program or picture file, you need to read the file in binary mode to ensure that none of the data gets modified during the reading process. You need to: Open the file with fopen($fileName, \"rb\")....  - Rank: 10665; Updated: 2024-01-04 11:21:08 -> <a href='http://dev.fyicenter.com/1000137_Reading_a_File_in_Binary_Mode_in_PHP.html'>Source</a>",
+				"url": "http://dev.fyicenter.com/1000137_Reading_a_File_in_Binary_Mode_in_PHP.html",
+				"published": null,
+				"updated": "2024-01-04T10:21:45.000Z",
+				"content": null,
+				"image": null,
+				"media": [],
+				"authors": [
+					{
+						"name": "FYIcenter.com",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			},
+			{
+				"id": "http://dev.fyicenter.com/1000724_context_Request_Url_Query_Query_String_Parameters.html",
+				"title": "'context.Request.Url.Query' Query String Parameters",
+				"description": "<img align='left' width='64' height='64' src='http://dev.fyicenter.com/Azure-API/_icon_Azure-API.png' />How to access Query String parameters from \"context.Request.Url.Query\" object in Azure API Policy? Query String parameters are parameters provided in the query string in the form of name=value&amp;name=value. ..format. For example, the following URL has two query string parameters: \"date\" and \"s...  - Rank: 13813; Updated: 2024-01-03 16:14:38 -> <a href='http://dev.fyicenter.com/1000724_context_Request_Url_Query_Query_String_Parameters.html'>Source</a>",
+				"url": "http://dev.fyicenter.com/1000724_context_Request_Url_Query_Query_String_Parameters.html",
+				"published": null,
+				"updated": "2024-01-03T15:15:02.000Z",
+				"content": null,
+				"image": null,
+				"media": [],
+				"authors": [
+					{
+						"name": "FYIcenter.com",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			},
+			{
+				"id": "http://dev.fyicenter.com/1000253_HTML_Tutorials.html",
+				"title": "HTML Tutorials",
+				"description": "<img align='left' width='64' height='64' src='http://dev.fyicenter.com/HTML/_icon_HTML.png' />Where to find tutorials on HTML language? I want to know how to learn HTML. Here is a large collection of tutorials to answer many frequently asked questions compiled by FYIcenter.com team about HTML language: Introduction of HTML What Is HTML? HTML Versions and Variations HTML Document Example XHTM...  - Rank: 3044; Updated: 2023-12-25 19:38:49 -> <a href='http://dev.fyicenter.com/1000253_HTML_Tutorials.html'>Source</a>",
+				"url": "http://dev.fyicenter.com/1000253_HTML_Tutorials.html",
+				"published": null,
+				"updated": "2023-12-25T18:39:42.000Z",
+				"content": null,
+				"image": null,
+				"media": [],
+				"authors": [
+					{
+						"name": "FYIcenter.com",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			},
+			{
+				"id": "http://dev.fyicenter.com/1000201_Saving_Values_in_the_Session_in_PHP.html",
+				"title": "Saving Values in the Session in PHP",
+				"description": "<img align='left' width='64' height='64' src='http://dev.fyicenter.com/PHP/_icon_PHP.png' />How To Save Values to the Current Session in PHP? When session is turned on, a session will be automatically created for you by the PHP engine. If you want to save any values to the session, you can use the pre-defined associative array called $_SESSION. The following PHP script shows you how to sav...  - Rank: 1504; Updated: 2023-12-25 19:38:25 -> <a href='http://dev.fyicenter.com/1000201_Saving_Values_in_the_Session_in_PHP.html'>Source</a>",
+				"url": "http://dev.fyicenter.com/1000201_Saving_Values_in_the_Session_in_PHP.html",
+				"published": null,
+				"updated": "2023-12-25T18:38:26.000Z",
+				"content": null,
+				"image": null,
+				"media": [],
+				"authors": [
+					{
+						"name": "FYIcenter.com",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			},
+			{
+				"id": "http://dev.fyicenter.com/1000036_PHP_Tutorials.html",
+				"title": "PHP Tutorials",
+				"description": "<img align='left' width='64' height='64' src='http://dev.fyicenter.com/PHP/_icon_PHP.png' />Where to find tutorials on PHP language? I want to know how to learn PHP. Here is a large collection of tutorials to answer many frequently asked questions compiled by FYIcenter.com team about PHP language: Downloading and Installing PHP Installing PHP for Windows Verifying PHP Installation PHP Conf...  - Rank: 74177; Updated: 2023-12-25 19:27:00 -> <a href='http://dev.fyicenter.com/1000036_PHP_Tutorials.html'>Source</a>",
+				"url": "http://dev.fyicenter.com/1000036_PHP_Tutorials.html",
+				"published": null,
+				"updated": "2023-12-25T18:27:36.000Z",
+				"content": null,
+				"image": null,
+				"media": [],
+				"authors": [
+					{
+						"name": "FYIcenter.com",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			},
+			{
+				"id": "http://dev.fyicenter.com/1000415_rowspan_-Merging_Cells_HTML_Table_Columns.html",
+				"title": "'rowspan' - Merging Cells HTML Table Columns",
+				"description": "<img align='left' width='64' height='64' src='http://dev.fyicenter.com/HTML/_icon_HTML.png' />How To Merge Cells in a Column? If you want to merge multiple cells vertically in a row, you need to use the \"rowspan\" attribute of in a \"td\" element. \"rowspan\" allows you to specify how many cells you want to merge into this cell vertically. Below is a tutorial example of merging cells vertically: ...  - Rank: 20293; Updated: 2023-12-25 13:22:12 -> <a href='http://dev.fyicenter.com/1000415_rowspan_-Merging_Cells_HTML_Table_Columns.html'>Source</a>",
+				"url": "http://dev.fyicenter.com/1000415_rowspan_-Merging_Cells_HTML_Table_Columns.html",
+				"published": null,
+				"updated": "2023-12-25T12:22:27.000Z",
+				"content": null,
+				"image": null,
+				"media": [],
+				"authors": [
+					{
+						"name": "FYIcenter.com",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			},
+			{
+				"id": "http://dev.fyicenter.com/1000476_Main_Features_on_Visual_Studio_2017_Start_Page.html",
+				"title": "Main Features on Visual Studio 2017 Start Page",
+				"description": "<img align='left' width='64' height='64' src='http://dev.fyicenter.com/Visual-Studio/_icon_Visual-C.png' />What features are available on Visual Studio 2017 Start Page? After you started Visual Studio 2017 you the Start Page with the following features: 1. Top Menu - Allows you to access menu items through: File, Edit, View, Project, Debug, Team, Tools, Test, Analyze, Windows, and Help. 2. Search Box (ne...  - Rank: 1376; Updated: 2023-12-10 14:54:14 -> <a href='http://dev.fyicenter.com/1000476_Main_Features_on_Visual_Studio_2017_Start_Page.html'>Source</a>",
+				"url": "http://dev.fyicenter.com/1000476_Main_Features_on_Visual_Studio_2017_Start_Page.html",
+				"published": null,
+				"updated": "2023-12-10T13:55:30.000Z",
+				"content": null,
+				"image": null,
+				"media": [],
+				"authors": [
+					{
+						"name": "FYIcenter.com",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			},
+			{
+				"id": "http://dev.fyicenter.com/1000475_Setup_Visual_Studio_2017_for_Visual_C%2B%2B.html",
+				"title": "Setup Visual Studio 2017 for Visual C++",
+				"description": "<img align='left' width='64' height='64' src='http://dev.fyicenter.com/Visual-Studio/_icon_Visual-C.png' />How to setup Visual Studio 2017 for Visual C++? I have install it with Visual Studio Installer. If you have the Visual Studio 2017 installed, you can follow these steps to setup Visual Studio 2017 for Visual C++. 1. Run \"All Programs &gt; Visual Studio 2017\". You see the Visual Studio developer ...  - Rank: 1352; Updated: 2023-12-10 14:54:14 -> <a href='http://dev.fyicenter.com/1000475_Setup_Visual_Studio_2017_for_Visual_C%2B%2B.html'>Source</a>",
+				"url": "http://dev.fyicenter.com/1000475_Setup_Visual_Studio_2017_for_Visual_C%2B%2B.html",
+				"published": null,
+				"updated": "2023-12-10T13:55:29.000Z",
+				"content": null,
+				"image": null,
+				"media": [],
+				"authors": [
+					{
+						"name": "FYIcenter.com",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			},
+			{
+				"id": "http://dev.fyicenter.com/1000478_Visual_Studio_2017_Visual_C%2B%2B_Program_Folders.html",
+				"title": "Visual Studio 2017 Visual C++ Program Folders",
+				"description": "<img align='left' width='64' height='64' src='http://dev.fyicenter.com/Visual-Studio/_icon_Visual-C.png' />In which folders Visual Studio 2017 Visual C++ programs are located on my Windows computer? When Visual Studio 2017 Visual C++ is installed on your Windows computer, its programs are located the following folders: Location: C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\VC Programs: ....  - Rank: 1278; Updated: 2023-12-10 14:54:14 -> <a href='http://dev.fyicenter.com/1000478_Visual_Studio_2017_Visual_C%2B%2B_Program_Folders.html'>Source</a>",
+				"url": "http://dev.fyicenter.com/1000478_Visual_Studio_2017_Visual_C%2B%2B_Program_Folders.html",
+				"published": null,
+				"updated": "2023-12-10T13:55:32.000Z",
+				"content": null,
+				"image": null,
+				"media": [],
+				"authors": [
+					{
+						"name": "FYIcenter.com",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			},
+			{
+				"id": "http://dev.fyicenter.com/1000474_Install_Visual_C%2B%2B_in_Visual_Studio.html",
+				"title": "Install Visual C++ in Visual Studio",
+				"description": "<img align='left' width='64' height='64' src='http://dev.fyicenter.com/Visual-Studio/_icon_Visual-C.png' />How to install Visual C++ in Visual Studio Community 2017? I have the Visual Studio Installer installed. If you have the Visual Studio Installer ready, you can follow these steps to install Visual C++ in Visual Studio Community 2017. 1. Run \"All Programs &gt; Visual Studio Installer\". You see th...  - Rank: 1210; Updated: 2023-12-10 14:54:14 -> <a href='http://dev.fyicenter.com/1000474_Install_Visual_C%2B%2B_in_Visual_Studio.html'>Source</a>",
+				"url": "http://dev.fyicenter.com/1000474_Install_Visual_C%2B%2B_in_Visual_Studio.html",
+				"published": null,
+				"updated": "2023-12-10T13:55:28.000Z",
+				"content": null,
+				"image": null,
+				"media": [],
+				"authors": [
+					{
+						"name": "FYIcenter.com",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			},
+			{
+				"id": "http://dev.fyicenter.com/1000477_Visual_Studio_Community_2017_Program_Folders.html",
+				"title": "Visual Studio Community 2017 Program Folders",
+				"description": "<img align='left' width='64' height='64' src='http://dev.fyicenter.com/Visual-Studio/_icon_Visual-C.png' />In which folders Visual Studio Community 2017 programs are located on my Windows computer? When Visual Studio Community 2017 is installed environment on your Windows computer, its programs are located the following folders: Location: C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community Prog...  - Rank: 1157; Updated: 2023-12-10 14:54:14 -> <a href='http://dev.fyicenter.com/1000477_Visual_Studio_Community_2017_Program_Folders.html'>Source</a>",
+				"url": "http://dev.fyicenter.com/1000477_Visual_Studio_Community_2017_Program_Folders.html",
+				"published": null,
+				"updated": "2023-12-10T13:55:31.000Z",
+				"content": null,
+				"image": null,
+				"media": [],
+				"authors": [
+					{
+						"name": "FYIcenter.com",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			},
+			{
+				"id": "http://dev.fyicenter.com/-1_Testing_Area.html",
+				"title": "Testing Area",
+				"description": "<img align='left' width='64' height='64' src='http://dev.fyicenter.com/z/_icon_General.png' />What is test testing area for? The testing area is provided to allow visitors to post testing comments.  - Rank: 267372; Updated: 2023-12-08 13:29:03 -> <a href='http://dev.fyicenter.com/-1_Testing_Area.html'>Source</a>",
+				"url": "http://dev.fyicenter.com/-1_Testing_Area.html",
+				"published": null,
+				"updated": "2023-12-08T12:29:02.000Z",
+				"content": null,
+				"image": null,
+				"media": [],
+				"authors": [
+					{
+						"name": "FYIcenter.com",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			},
+			{
+				"id": "http://dev.fyicenter.com/1000141_Reading_Data_from_Keyboard_in_PHP.html",
+				"title": "Reading Data from Keyboard in PHP",
+				"description": "<img align='left' width='64' height='64' src='http://dev.fyicenter.com/PHP/_icon_PHP.png' />How To Read Data from Keyboard (Standard Input) in PHP? If you want to read data from the standard input, usually the keyboard, you can use the fopen(\"php://stdin\") function. It creates a special file handle linking to the standard input, and returns the file handle. Once the standard input is opene...  - Rank: 11818; Updated: 2023-12-07 22:05:51 -> <a href='http://dev.fyicenter.com/1000141_Reading_Data_from_Keyboard_in_PHP.html'>Source</a>",
+				"url": "http://dev.fyicenter.com/1000141_Reading_Data_from_Keyboard_in_PHP.html",
+				"published": null,
+				"updated": "2023-12-07T21:06:32.000Z",
+				"content": null,
+				"image": null,
+				"media": [],
+				"authors": [
+					{
+						"name": "FYIcenter.com",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			},
+			{
+				"id": "http://dev.fyicenter.com/1000984_dev_FYIcenter_com_Links.html",
+				"title": "dev.FYIcenter.com Links",
+				"description": "<img align='left' width='64' height='64' src='http://dev.fyicenter.com/z/_icon_General.png' />Tools, FAQ, Tutorials: JSON Validator JSON-XML Converter XML-JSON Converter JSON FAQ/Tutorials Python FAQ/Tutorials PHP FAQ/Tutorials OpenID FAQ/Tutorials EPUB FAQ/Tutorials HTML FAQ/Tutorials CSS FAQ/Tutorials RSS FAQ/Tutorials Visual Studio Tutorials Azure API Tutorials Developer Jobs Interview Qu...  - Rank: 2585; Updated: 2023-12-07 14:35:25 -> <a href='http://dev.fyicenter.com/1000984_dev_FYIcenter_com_Links.html'>Source</a>",
+				"url": "http://dev.fyicenter.com/1000984_dev_FYIcenter_com_Links.html",
+				"published": null,
+				"updated": "2023-12-07T13:36:49.000Z",
+				"content": null,
+				"image": null,
+				"media": [],
+				"authors": [
+					{
+						"name": "FYIcenter.com",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			},
+			{
+				"id": "http://dev.fyicenter.com/1000768_Subscribe_to_RSS_Feeds_with_IE.html",
+				"title": "Subscribe to RSS Feeds with IE",
+				"description": "<img align='left' width='64' height='64' src='http://dev.fyicenter.com/RSS/_icon_RSS.png' />How to Subscribe to RSS Feeds with IE (Internet Explorer)? If you want to subscribe to RSS Feeds with IE (Internet Explorer), you can follow this tutorial: 1. Launch IE (Internet Explorer) 11. 2. Enter the following in the URL input box and press \"Enter\": http://dev.fyicenter.com/rss_x ml.php3. Clic...  - Rank: 1454; Updated: 2023-12-07 14:31:18 -> <a href='http://dev.fyicenter.com/1000768_Subscribe_to_RSS_Feeds_with_IE.html'>Source</a>",
+				"url": "http://dev.fyicenter.com/1000768_Subscribe_to_RSS_Feeds_with_IE.html",
+				"published": null,
+				"updated": "2023-12-07T13:32:26.000Z",
+				"content": null,
+				"image": null,
+				"media": [],
+				"authors": [
+					{
+						"name": "FYIcenter.com",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			},
+			{
+				"id": "http://dev.fyicenter.com/1000483_Install_Windows_SDK_8_1_with_Visual_Studio_Installer.html",
+				"title": "Install Windows SDK 8.1 with Visual Studio Installer",
+				"description": "<img align='left' width='64' height='64' src='http://dev.fyicenter.com/Visual-Studio/_icon_Visual-C.png' />How to install \"The Windows SDK version 8.1\"? I need to build my Visual Studio C++ applications. If you want to install Windows SDK Version 8.1 with Visual Studio Installer, you can follow this tutorial: 1. Close \"Visual Studio\". And run \"All Programs &gt; Visual Studio Installer\". You see \"Visu...  - Rank: 20252; Updated: 2023-12-01 18:31:39 -> <a href='http://dev.fyicenter.com/1000483_Install_Windows_SDK_8_1_with_Visual_Studio_Installer.html'>Source</a>",
+				"url": "http://dev.fyicenter.com/1000483_Install_Windows_SDK_8_1_with_Visual_Studio_Installer.html",
+				"published": null,
+				"updated": "2023-12-01T17:33:02.000Z",
+				"content": null,
+				"image": null,
+				"media": [],
+				"authors": [
+					{
+						"name": "FYIcenter.com",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			},
+			{
+				"id": "http://dev.fyicenter.com/1000482_Visual_Studio_Error_Windows_SDK_Version_8_1_not_Found.html",
+				"title": "Visual Studio Error: Windows SDK Version 8.1 not Found",
+				"description": "<img align='left' width='64' height='64' src='http://dev.fyicenter.com/Visual-Studio/_icon_Visual-C.png' />Why I am getting \"The Windows SDK version 8.1 was not found\" error, when building my C++ application in with Visual Studio 2017? You are getting \"The Windows SDK version 8.1 was not found\" error, because you forgot to install Windows SDK version 8.1 on your computer. Here are the steps to reproduce ...  - Rank: 3813; Updated: 2023-12-01 18:31:39 -> <a href='http://dev.fyicenter.com/1000482_Visual_Studio_Error_Windows_SDK_Version_8_1_not_Found.html'>Source</a>",
+				"url": "http://dev.fyicenter.com/1000482_Visual_Studio_Error_Windows_SDK_Version_8_1_not_Found.html",
+				"published": null,
+				"updated": "2023-12-01T17:33:01.000Z",
+				"content": null,
+				"image": null,
+				"media": [],
+				"authors": [
+					{
+						"name": "FYIcenter.com",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			},
+			{
+				"id": "http://dev.fyicenter.com/1000479_First_C%2B%2B_Program_in_Visual_Studio_2017.html",
+				"title": "First C++ Program in Visual Studio 2017",
+				"description": "<img align='left' width='64' height='64' src='http://dev.fyicenter.com/Visual-Studio/_icon_Visual-C.png' />Where to find tutorials on writing First C++ Program in Visual Studio 2017? Here is a list of tutorials to answer many frequently asked questions compiled by FYIcenter.com team on writing First C++ Program in Visual Studio 2017? Create C++ Project with Visual Studio 2017 C++ Console Application with...  - Rank: 1807; Updated: 2023-12-01 18:31:39 -> <a href='http://dev.fyicenter.com/1000479_First_C%2B%2B_Program_in_Visual_Studio_2017.html'>Source</a>",
+				"url": "http://dev.fyicenter.com/1000479_First_C%2B%2B_Program_in_Visual_Studio_2017.html",
+				"published": null,
+				"updated": "2023-12-01T17:32:58.000Z",
+				"content": null,
+				"image": null,
+				"media": [],
+				"authors": [
+					{
+						"name": "FYIcenter.com",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			}
+		]
+	}
+}
