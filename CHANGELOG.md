@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.5.5](https://github.com/rowanmanning/feed-parser/compare/v0.5.4...v0.5.5) (2024-01-30)
+
+
+### Features
+
+* add categories to the base classes ([a749dae](https://github.com/rowanmanning/feed-parser/commit/a749dae75c0bc4328b141235893f9810a14ee98a))
+* add official support for npm 10 ([26218c7](https://github.com/rowanmanning/feed-parser/commit/26218c7b29aeb29d1cc2da9e0d6b632551a498ce))
+
+
+### Bug Fixes
+
+* bump fast-xml-parser from 4.3.3 to 4.3.4 ([e638343](https://github.com/rowanmanning/feed-parser/commit/e638343fe5cc940893bd21a8c94e2d4926c4e287))
+
 ## [0.5.4](https://github.com/rowanmanning/feed-parser/compare/v0.5.3...v0.5.4) (2024-01-15)
 
 
