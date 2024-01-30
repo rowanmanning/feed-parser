@@ -31,7 +31,7 @@
     "test:integration": "node test/integration/fixtures/load.js && mocha 'test/integration/**/*.test.js'",
     "project:verify": "npx --yes @rowanmanning/validate-project@3 --type git node-library",
     "project:fix": "npx --yes @rowanmanning/validate-project@3 --type git node-library --fix",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "dependencies": {
     "fast-xml-parser": "^4.0.8",
@@ -43,7 +43,7 @@
     "@rowanmanning/eslint-config": "^8.0.0",
     "eslint": "^8.16.0",
     "feedparser": "^2.2.10",
-    "husky": "^8.0.1",
+    "husky": "^9.0.7",
     "mocha": "^10.0.0",
     "nyc": "^15.1.0",
     "testdouble": "^3.16.5",
