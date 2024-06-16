@@ -3,14 +3,8 @@
 	"extends": ["./node_modules/@rowanmanning/biome-config/config.json"],
 	"linter": {
 		"rules": {
-			"complexity": {
-				"noExcessiveNestedTestSuites": "off"
-			},
 			"nursery": {
 				"useTopLevelRegex": "off"
-			},
-			"performance": {
-				"noDelete": "off"
 			}
 		}
 	},
