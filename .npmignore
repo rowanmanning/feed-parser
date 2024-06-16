@@ -1,10 +1,10 @@
 !*.d.ts
 !*.d.ts.map
 .commitlintrc.json
-.eslintrc.json
 .github
 .husky
 .nyc_output
+biome.json
 CHANGELOG.md
 coverage
 docs

@@ -10,19 +10,25 @@ describe('lib/xml/document', () => {
 
 	beforeEach(() => {
 		Element = td.replace('../../../../lib/xml/element', td.constructor());
-		fastXmlParser = td.replace('fast-xml-parser', require('../../mock/npm/fast-xml-parser.mock')());
+		fastXmlParser = td.replace(
+			'fast-xml-parser',
+			require('../../mock/npm/fast-xml-parser.mock')()
+		);
 		Document = require('../../../../lib/xml/document');
 	});
 
 	it('creates a new XML Parser', () => {
-		td.verify(new fastXmlParser.XMLParser({
-			attributeNamePrefix: '',
-			ignoreAttributes: false,
-			ignoreDeclaration: true,
-			parseTagValue: true,
-			preserveOrder: true,
-			trimValues: false
-		}), {times: 1});
+		td.verify(
+			new fastXmlParser.XMLParser({
+				attributeNamePrefix: '',
+				ignoreAttributes: false,
+				ignoreDeclaration: true,
+				parseTagValue: true,
+				preserveOrder: true,
+				trimValues: false
+			}),
+			{ times: 1 }
+		);
 	});
 
 	it('is a class constructor', () => {
@@ -42,11 +48,13 @@ describe('lib/xml/document', () => {
 		});
 
 		it('calls the super constructor with a faked root element that contains the document children', () => {
-			td.verify(Element.prototype.constructor({
-				root: 'mock-raw-fxp-document'
-			}), {times: 1});
+			td.verify(
+				Element.prototype.constructor({
+					root: 'mock-raw-fxp-document'
+				}),
+				{ times: 1 }
+			);
 		});
-
 	});
 
 	describe('Document.fromString(xmlString)', () => {
@@ -57,19 +65,20 @@ describe('lib/xml/document', () => {
 		});
 
 		it('parses the XML string', () => {
-			td.verify(fastXmlParser.XMLParser.prototype.parse('mock-xml'), {times: 1});
+			td.verify(fastXmlParser.XMLParser.prototype.parse('mock-xml'), { times: 1 });
 		});
 
 		it('creates a new Document instance with the parsed XML', () => {
-			td.verify(Element.prototype.constructor({
-				root: 'mock-parsed-xml'
-			}), {times: 1});
+			td.verify(
+				Element.prototype.constructor({
+					root: 'mock-parsed-xml'
+				}),
+				{ times: 1 }
+			);
 		});
 
 		it('returns the created document', () => {
 			assert.ok(returnValue instanceof Document);
 		});
-
 	});
-
 });

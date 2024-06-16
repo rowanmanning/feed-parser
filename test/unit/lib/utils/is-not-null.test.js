@@ -14,7 +14,6 @@ describe('lib/utils/is-not-null', () => {
 	});
 
 	describe('isNotNull(value)', () => {
-
 		describe('when `value` is `null`', () => {
 			it('returns `false`', () => {
 				assert.strictEqual(isNotNull(null), false);
@@ -30,7 +29,5 @@ describe('lib/utils/is-not-null', () => {
 				assert.strictEqual(isNotNull([]), true);
 			});
 		});
-
 	});
-
 });

@@ -2,7 +2,6 @@
 
 module.exports = function createMock() {
 	class Feed {
-
 		constructor(document) {
 			this.document = document;
 		}
@@ -54,7 +53,6 @@ module.exports = function createMock() {
 		get items() {
 			return 'mock-feed-items';
 		}
-
 	}
 	return Feed;
 };

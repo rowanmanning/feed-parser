@@ -15,8 +15,7 @@ describe('lib/utils/parse-contact-string', () => {
 	});
 
 	describe('parseContactString(value)', () => {
-		for (const {description, expectedOutput, input} of contactStringTestCases) {
-			// eslint-disable-next-line no-loop-func
+		for (const { description, expectedOutput, input } of contactStringTestCases) {
 			describe(`when \`value\` is ${description}`, () => {
 				it('returns the expected contact details', () => {
 					assert.deepEqual(parseContactString(input), expectedOutput);
@@ -24,5 +23,4 @@ describe('lib/utils/parse-contact-string', () => {
 			});
 		}
 	});
-
 });

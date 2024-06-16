@@ -1,11 +1,11 @@
 'use strict';
 
 const assert = require('node:assert/strict');
-const {decode: decodeEntities} = require('html-entities');
+const { decode: decodeEntities } = require('html-entities');
 const FeedParser = require('feedparser');
 const parseFeed = require('../..');
-const path = require('path');
-const {Readable} = require('stream');
+const path = require('node:path');
+const { Readable } = require('node:stream');
 const writeJSON = require('./helpers/write-json');
 
 const suites = [
@@ -24,14 +24,12 @@ const suites = [
 for (const suite of suites) {
 	describe(suite.name, () => {
 		for (const test of suite.tests) {
-
 			describe(test.title, () => {
 				let actual;
 				let expected;
 				let xml;
 
 				before(async () => {
-
 					// Get the actual result
 					actual = {
 						title: test.title,
@@ -50,17 +48,21 @@ for (const suite of suites) {
 					}
 
 					// Get the expected result
-					const expectedFilePath = path.resolve(__dirname, 'snapshots', suite.snapshotPath, `${test.hash}.json`);
+					const expectedFilePath = path.resolve(
+						__dirname,
+						'snapshots',
+						suite.snapshotPath,
+						`${test.hash}.json`
+					);
 					try {
 						if (process.env.OVERWRITE_SNAPSHOTS) {
 							throw new Error('Overwriting Snapshots');
 						}
 						expected = require(expectedFilePath);
-					} catch (error) {
+					} catch (_) {
 						await writeJSON(expectedFilePath, actual);
 						expected = actual;
 					}
-
 				});
 
 				it('parses into the expected object', () => {
@@ -71,7 +73,7 @@ for (const suite of suites) {
 					const feedParserItems = [];
 					let feedParserMeta;
 
-					before(done => {
+					before((done) => {
 						const feedParser = new FeedParser({
 							addmeta: false
 						});
@@ -79,15 +81,15 @@ for (const suite of suites) {
 						feedParser.on('end', () => done());
 
 						// Grab feed parser meta
-						feedParser.on('meta', meta => {
+						feedParser.on('meta', (meta) => {
 							feedParserMeta = meta;
 						});
 
 						// Grab feed parser items
 						feedParser.on('readable', () => {
 							let item;
-							// eslint-disable-next-line no-cond-assign
-							while (item = feedParser.read()) {
+							// biome-ignore lint/suspicious/noAssignInExpressions: there's not a neat way around this
+							while ((item = feedParser.read())) {
 								feedParserItems.push(item);
 							}
 						});
@@ -162,7 +164,9 @@ for (const suite of suites) {
 					// generator contains the label that we use
 					it('has ROUGHLY matching feed generators', () => {
 						if (feedParserMeta.generator && actual.feed.generator) {
-							assert.ok(feedParserMeta.generator.includes(actual.feed.generator.label));
+							assert.ok(
+								feedParserMeta.generator.includes(actual.feed.generator.label)
+							);
 						}
 					});
 
@@ -207,11 +211,9 @@ for (const suite of suites) {
 					// and ignore any differences.
 					it('has ROUGHLY matching feed authors', () => {
 						const feedParserAuthor = feedParserMeta.author;
-						const feedParserRssWebmaster = (
-							feedParserMeta['rss:webmaster'] ?
-								Object.values(feedParserMeta['rss:webmaster']) :
-								[]
-						);
+						const feedParserRssWebmaster = feedParserMeta['rss:webmaster']
+							? Object.values(feedParserMeta['rss:webmaster'])
+							: [];
 						const authors = actual.feed.authors;
 						if (feedParserAuthor === null && !authors.length) {
 							// Test passes, neither of us found authors
@@ -223,9 +225,11 @@ for (const suite of suites) {
 						if (feedParserAuthor && !authors.length) {
 							assert.ok(false, 'feedparser found an author and we did not');
 						}
-						assert.ok(Object.values(authors[0]).some(value => {
-							return feedParserAuthor.includes(value);
-						}));
+						assert.ok(
+							Object.values(authors[0]).some((value) => {
+								return feedParserAuthor.includes(value);
+							})
+						);
 					});
 
 					// DIFF: when there is no explicit guid or id element, we use a
@@ -256,7 +260,9 @@ for (const suite of suites) {
 							}
 							assert.strictEqual(
 								item.title,
-								feedParserItem.title ? decodeEntities(feedParserItem.title) : feedParserItem.title
+								feedParserItem.title
+									? decodeEntities(feedParserItem.title)
+									: feedParserItem.title
 							);
 						}
 					});
@@ -279,7 +285,8 @@ for (const suite of suites) {
 							const feedParserItem = feedParserItems[i];
 							if (item.url) {
 								const url = item.url?.replace(/\/+$/, '') || null;
-								const feedParserUrl = feedParserItem.link?.replace(/\/+$/, '') || null;
+								const feedParserUrl =
+									feedParserItem.link?.replace(/\/+$/, '') || null;
 								assert.strictEqual(url, feedParserUrl);
 							}
 						}
@@ -294,7 +301,8 @@ for (const suite of suites) {
 						for (const [i, item] of Object.entries(actual.feed.items)) {
 							if (item.published) {
 								const feedParserItem = feedParserItems[i];
-								const feedParserDate = feedParserItem.pubdate?.toISOString() || null;
+								const feedParserDate =
+									feedParserItem.pubdate?.toISOString() || null;
 								assert.strictEqual(item.published, feedParserDate);
 							}
 						}
@@ -336,8 +344,10 @@ for (const suite of suites) {
 					// before comparing output
 					it('has ROUGHLY matching feed item content', () => {
 						for (const [i, item] of Object.entries(actual.feed.items)) {
-
-							if (actual.feed.meta.type === 'atom' && actual.feed.meta.version === '0.3') {
+							if (
+								actual.feed.meta.type === 'atom' &&
+								actual.feed.meta.version === '0.3'
+							) {
 								return;
 							}
 							if (actual.feed.meta.type === 'rdf') {
@@ -347,12 +357,20 @@ for (const suite of suites) {
 							const feedParserItem = feedParserItems[i];
 
 							const content = item.content || item.description;
-							let feedParserContent = feedParserItem.description ? decodeEntities(feedParserItem.description) : null;
+							let feedParserContent = feedParserItem.description
+								? decodeEntities(feedParserItem.description)
+								: null;
 
 							// Handle feedparser XML Atom content issue by
 							// stripping the outer div
-							if (actual.feed.meta.type === 'atom' && /^<div/i.test(feedParserContent) && /<\/\s*div\s*>\s*$/i.test(feedParserContent)) {
-								feedParserContent = feedParserContent.replace(/^<div( .*)?>|<\/\s*div\s*>$/ig, '').trim();
+							if (
+								actual.feed.meta.type === 'atom' &&
+								/^<div/i.test(feedParserContent) &&
+								/<\/\s*div\s*>\s*$/i.test(feedParserContent)
+							) {
+								feedParserContent = feedParserContent
+									.replace(/^<div( .*)?>|<\/\s*div\s*>$/gi, '')
+									.trim();
 							}
 
 							assert.strictEqual(
@@ -408,14 +426,16 @@ for (const suite of suites) {
 							for (const [i, item] of Object.entries(actual.feed.items)) {
 								const feedParserItem = feedParserItems[i];
 
-								const feedParserItemEnclosures = feedParserItem.enclosures.map(({url, type, length}) => {
-									return {
-										url,
-										type: type || null,
-										length
-									};
-								});
-								const media = item.media.map(({url, mimeType, length, type}) => {
+								const feedParserItemEnclosures = feedParserItem.enclosures.map(
+									({ url, type, length }) => {
+										return {
+											url,
+											type: type || null,
+											length
+										};
+									}
+								);
+								const media = item.media.map(({ url, mimeType, length, type }) => {
 									return {
 										url,
 										type: mimeType || type || null,
@@ -444,32 +464,32 @@ for (const suite of suites) {
 					it('has ROUGHLY matching feed item authors', () => {
 						for (const [i, item] of Object.entries(actual.feed.items)) {
 							const feedParserAuthor = feedParserItems[i].author;
-							const feedParserRssWebmaster = (
-								feedParserMeta['rss:webmaster'] ?
-									Object.values(feedParserMeta['rss:webmaster']) :
-									[]
-							);
+							const feedParserRssWebmaster = feedParserMeta['rss:webmaster']
+								? Object.values(feedParserMeta['rss:webmaster'])
+								: [];
 							const authors = item.authors;
 							if (feedParserAuthor === null) {
 								// Test passes, neither of us nothing for us to compare
 								return;
 							}
-							if (feedParserAuthor && feedParserRssWebmaster.includes(feedParserAuthor)) {
+							if (
+								feedParserAuthor &&
+								feedParserRssWebmaster.includes(feedParserAuthor)
+							) {
 								return;
 							}
 							if (feedParserAuthor && !authors.length) {
 								assert.ok(false, 'feedparser found an author and we did not');
 							}
-							assert.ok(Object.values(authors[0]).some(value => {
-								return feedParserAuthor.includes(value);
-							}));
+							assert.ok(
+								Object.values(authors[0]).some((value) => {
+									return feedParserAuthor.includes(value);
+								})
+							);
 						}
 					});
-
 				});
-
 			});
-
 		}
 	});
 }

@@ -27,27 +27,21 @@ describe('lib/feed/item/base', () => {
 		});
 
 		describe('.feed', () => {
-
 			it('is set to the passed in feed', () => {
 				assert.strictEqual(feedItem.feed, 'mock-feed');
 			});
-
 		});
 
 		describe('.element', () => {
-
 			it('is set to the passed in element', () => {
 				assert.strictEqual(feedItem.element, mockItemElement);
 			});
-
 		});
 
 		describe('.id', () => {
-
 			it('is set to `null`', () => {
 				assert.strictEqual(feedItem.id, null);
 			});
-
 		});
 
 		describe('.title', () => {
@@ -64,7 +58,6 @@ describe('lib/feed/item/base', () => {
 			});
 
 			describe('when a title element does not exist', () => {
-
 				beforeEach(() => {
 					td.when(mockItemElement.findElementWithName('title')).thenReturn(null);
 				});
@@ -72,57 +65,43 @@ describe('lib/feed/item/base', () => {
 				it('is set to `null`', () => {
 					assert.strictEqual(feedItem.title, null);
 				});
-
 			});
-
 		});
 
 		describe('.description', () => {
-
 			it('is set to `null`', () => {
 				assert.strictEqual(feedItem.description, null);
 			});
-
 		});
 
 		describe('.url', () => {
-
 			it('is set to `null`', () => {
 				assert.strictEqual(feedItem.url, null);
 			});
-
 		});
 
 		describe('.published', () => {
-
 			it('is set to `null`', () => {
 				assert.strictEqual(feedItem.published, null);
 			});
-
 		});
 
 		describe('.updated', () => {
-
 			it('is set to `null`', () => {
 				assert.strictEqual(feedItem.updated, null);
 			});
-
 		});
 
 		describe('.content', () => {
-
 			it('is set to `null`', () => {
 				assert.strictEqual(feedItem.content, null);
 			});
-
 		});
 
 		describe('.image', () => {
-
 			it('is set to `null`', () => {
 				assert.strictEqual(feedItem.image, null);
 			});
-
 		});
 
 		describe('.media', () => {
@@ -133,13 +112,8 @@ describe('lib/feed/item/base', () => {
 				const mockGroupElement = new MockElement();
 				mockGroupElement.namespaceUri = 'http://search.yahoo.com/mrss/';
 
-				mockMedia = [
-					new MockElement(),
-					new MockElement()
-				];
-				mockGroupMedia = [
-					new MockElement()
-				];
+				mockMedia = [new MockElement(), new MockElement()];
+				mockGroupMedia = [new MockElement()];
 
 				mockMedia[0].namespaceUri = 'http://search.yahoo.com/mrss/';
 				mockMedia[0].name = 'content';
@@ -151,7 +125,9 @@ describe('lib/feed/item/base', () => {
 
 				mockGroupMedia[0].namespaceUri = 'http://search.yahoo.com/mrss/';
 				mockGroupMedia[0].name = 'content';
-				td.when(mockGroupMedia[0].getAttributeAsUrl('url')).thenReturn('https://mock-media-2');
+				td.when(mockGroupMedia[0].getAttributeAsUrl('url')).thenReturn(
+					'https://mock-media-2'
+				);
 				td.when(mockGroupMedia[0].getAttributeAsNumber('length')).thenReturn(5678);
 				td.when(mockGroupMedia[0].getAttribute('type')).thenReturn('video/mp4');
 				td.when(mockGroupMedia[0].getAttribute('medium')).thenReturn('mock-medium-2');
@@ -161,8 +137,12 @@ describe('lib/feed/item/base', () => {
 				td.when(mockMedia[1].getAttributeAsUrl('url')).thenReturn('https://mock-media-3');
 
 				td.when(mockItemElement.findElementsWithName('content')).thenReturn(mockMedia);
-				td.when(mockItemElement.findElementsWithName('group')).thenReturn([mockGroupElement]);
-				td.when(mockGroupElement.findElementsWithName('content')).thenReturn(mockGroupMedia);
+				td.when(mockItemElement.findElementsWithName('group')).thenReturn([
+					mockGroupElement
+				]);
+				td.when(mockGroupElement.findElementsWithName('content')).thenReturn(
+					mockGroupMedia
+				);
 			});
 
 			it('is set to an array of objects representing the media found in the item', () => {
@@ -192,9 +172,13 @@ describe('lib/feed/item/base', () => {
 				beforeEach(() => {
 					mockThumbnailElement = new MockElement();
 					mockThumbnailElement.namespaceUri = 'http://search.yahoo.com/mrss/';
-					td.when(mockThumbnailElement.getAttributeAsUrl('url')).thenReturn('https://mock-thumbnail');
+					td.when(mockThumbnailElement.getAttributeAsUrl('url')).thenReturn(
+						'https://mock-thumbnail'
+					);
 					mockMedia[0].parent = new MockElement();
-					td.when(mockMedia[0].parent.findElementWithName('thumbnail')).thenReturn(mockThumbnailElement);
+					td.when(mockMedia[0].parent.findElementWithName('thumbnail')).thenReturn(
+						mockThumbnailElement
+					);
 				});
 
 				it('is has an image property set to the thumbnail URL', () => {
@@ -202,7 +186,6 @@ describe('lib/feed/item/base', () => {
 				});
 
 				describe('when the thumbnail does not have a URL', () => {
-
 					beforeEach(() => {
 						td.when(mockThumbnailElement.getAttributeAsUrl('url')).thenReturn(null);
 					});
@@ -210,13 +193,10 @@ describe('lib/feed/item/base', () => {
 					it('is has an image property set to `null`', () => {
 						assert.strictEqual(feedItem.media[0].image, null);
 					});
-
 				});
-
 			});
 
 			describe('when a media:content element does not have a media:thumbnail sibling but it has a medium or type of "image"', () => {
-
 				beforeEach(() => {
 					td.when(mockMedia[0].getAttribute('medium')).thenReturn('image');
 					td.when(mockGroupMedia[0].getAttribute('medium')).thenReturn(null);
@@ -227,7 +207,6 @@ describe('lib/feed/item/base', () => {
 					assert.strictEqual(feedItem.media[0].image, 'https://mock-media-1');
 					assert.strictEqual(feedItem.media[1].image, 'https://mock-media-2');
 				});
-
 			});
 
 			describe('when a media:content element contains a media:title element', () => {
@@ -245,7 +224,6 @@ describe('lib/feed/item/base', () => {
 				});
 
 				describe('when the title does not have any text', () => {
-
 					beforeEach(() => {
 						mockTitleElement.textContentNormalized = '';
 					});
@@ -253,9 +231,7 @@ describe('lib/feed/item/base', () => {
 					it('is has an title property set to `null`', () => {
 						assert.strictEqual(feedItem.media[0].title, null);
 					});
-
 				});
-
 			});
 
 			describe('when a media:content has a sibling media:title element', () => {
@@ -266,7 +242,9 @@ describe('lib/feed/item/base', () => {
 					mockTitleElement.namespaceUri = 'http://search.yahoo.com/mrss/';
 					mockTitleElement.textContentNormalized = 'mock title';
 					mockMedia[0].parent = new MockElement();
-					td.when(mockMedia[0].parent.findElementWithName('title')).thenReturn(mockTitleElement);
+					td.when(mockMedia[0].parent.findElementWithName('title')).thenReturn(
+						mockTitleElement
+					);
 				});
 
 				it('is has a title property set to the title content', () => {
@@ -274,7 +252,6 @@ describe('lib/feed/item/base', () => {
 				});
 
 				describe('when the title does not have any text', () => {
-
 					beforeEach(() => {
 						mockTitleElement.textContentNormalized = '';
 					});
@@ -282,9 +259,7 @@ describe('lib/feed/item/base', () => {
 					it('is has an title property set to `null`', () => {
 						assert.strictEqual(feedItem.media[0].title, null);
 					});
-
 				});
-
 			});
 
 			describe('when a media:content element contains a media:description element', () => {
@@ -294,7 +269,9 @@ describe('lib/feed/item/base', () => {
 					mockDescriptionElement = new MockElement();
 					mockDescriptionElement.namespaceUri = 'http://search.yahoo.com/mrss/';
 					mockDescriptionElement.textContentNormalized = 'mock description';
-					td.when(mockMedia[0].findElementWithName('description')).thenReturn(mockDescriptionElement);
+					td.when(mockMedia[0].findElementWithName('description')).thenReturn(
+						mockDescriptionElement
+					);
 				});
 
 				it('is has a title property set to the title content', () => {
@@ -302,7 +279,6 @@ describe('lib/feed/item/base', () => {
 				});
 
 				describe('when the title does not have any text', () => {
-
 					beforeEach(() => {
 						mockDescriptionElement.textContentNormalized = '';
 					});
@@ -310,9 +286,7 @@ describe('lib/feed/item/base', () => {
 					it('is has an title property set to `null`', () => {
 						assert.strictEqual(feedItem.media[0].title, null);
 					});
-
 				});
-
 			});
 
 			describe('when a media:content has a sibling media:description element', () => {
@@ -323,7 +297,9 @@ describe('lib/feed/item/base', () => {
 					mockDescriptionElement.namespaceUri = 'http://search.yahoo.com/mrss/';
 					mockDescriptionElement.textContentNormalized = 'mock description';
 					mockMedia[0].parent = new MockElement();
-					td.when(mockMedia[0].parent.findElementWithName('description')).thenReturn(mockDescriptionElement);
+					td.when(mockMedia[0].parent.findElementWithName('description')).thenReturn(
+						mockDescriptionElement
+					);
 				});
 
 				it('is has a title property set to the title content', () => {
@@ -331,7 +307,6 @@ describe('lib/feed/item/base', () => {
 				});
 
 				describe('when the title does not have any text', () => {
-
 					beforeEach(() => {
 						mockDescriptionElement.textContentNormalized = '';
 					});
@@ -339,13 +314,10 @@ describe('lib/feed/item/base', () => {
 					it('is has an title property set to `null`', () => {
 						assert.strictEqual(feedItem.media[0].title, null);
 					});
-
 				});
-
 			});
 
 			describe('when a media:content does not have a URL', () => {
-
 				beforeEach(() => {
 					td.when(mockMedia[0].getAttributeAsUrl('url')).thenReturn(null);
 				});
@@ -362,11 +334,9 @@ describe('lib/feed/item/base', () => {
 						}
 					]);
 				});
-
 			});
 
 			describe('when a media:content does not have a valid numeric length', () => {
-
 				beforeEach(() => {
 					td.when(mockMedia[0].getAttributeAsNumber('length')).thenReturn(null);
 				});
@@ -374,11 +344,9 @@ describe('lib/feed/item/base', () => {
 				it('is has a length property set to the value of the filesize attribute', () => {
 					assert.strictEqual(feedItem.media[0].length, 2345);
 				});
-
 			});
 
 			describe('when a media:content does not have a valid numeric length or filesize', () => {
-
 				beforeEach(() => {
 					td.when(mockMedia[0].getAttributeAsNumber('length')).thenReturn(null);
 					td.when(mockMedia[0].getAttributeAsNumber('filesize')).thenReturn(null);
@@ -387,11 +355,9 @@ describe('lib/feed/item/base', () => {
 				it('is has a length property set to `null`', () => {
 					assert.strictEqual(feedItem.media[0].length, null);
 				});
-
 			});
 
 			describe('when a media:content does not have a medium', () => {
-
 				beforeEach(() => {
 					td.when(mockMedia[0].getAttribute('medium')).thenReturn(null);
 				});
@@ -399,11 +365,9 @@ describe('lib/feed/item/base', () => {
 				it('is has a type property set to the first part of the mimetype', () => {
 					assert.strictEqual(feedItem.media[0].type, 'image');
 				});
-
 			});
 
 			describe('when a media:content does not have a type', () => {
-
 				beforeEach(() => {
 					td.when(mockMedia[0].getAttribute('type')).thenReturn(null);
 				});
@@ -411,11 +375,9 @@ describe('lib/feed/item/base', () => {
 				it('is has a mimeType property set to `null`', () => {
 					assert.strictEqual(feedItem.media[0].mimeType, null);
 				});
-
 			});
 
 			describe('when a media:content does not have a medium or type', () => {
-
 				beforeEach(() => {
 					td.when(mockMedia[0].getAttribute('medium')).thenReturn(null);
 					td.when(mockMedia[0].getAttribute('type')).thenReturn(null);
@@ -428,11 +390,9 @@ describe('lib/feed/item/base', () => {
 				it('is has a mimeType property set to `null`', () => {
 					assert.strictEqual(feedItem.media[0].mimeType, null);
 				});
-
 			});
 
 			describe('when no media elements exist', () => {
-
 				beforeEach(() => {
 					td.when(mockItemElement.findElementsWithName('content')).thenReturn([]);
 					td.when(mockItemElement.findElementsWithName('group')).thenReturn([]);
@@ -441,13 +401,10 @@ describe('lib/feed/item/base', () => {
 				it('is set to an empty array', () => {
 					assert.deepEqual(feedItem.media, []);
 				});
-
 			});
-
 		});
 
 		describe('.mediaAudio', () => {
-
 			beforeEach(() => {
 				Object.defineProperty(feedItem, 'media', {
 					get: () => [
@@ -475,11 +432,9 @@ describe('lib/feed/item/base', () => {
 					}
 				]);
 			});
-
 		});
 
 		describe('.mediaImages', () => {
-
 			beforeEach(() => {
 				Object.defineProperty(feedItem, 'media', {
 					get: () => [
@@ -507,11 +462,9 @@ describe('lib/feed/item/base', () => {
 					}
 				]);
 			});
-
 		});
 
 		describe('.mediaVideos', () => {
-
 			beforeEach(() => {
 				Object.defineProperty(feedItem, 'media', {
 					get: () => [
@@ -539,23 +492,18 @@ describe('lib/feed/item/base', () => {
 					}
 				]);
 			});
-
 		});
 
 		describe('.authors', () => {
-
 			it('is set to an empty array', () => {
 				assert.deepEqual(feedItem.authors, []);
 			});
-
 		});
 
 		describe('.categories', () => {
-
 			it('is set to an empty array', () => {
 				assert.deepEqual(feedItem.categories, []);
 			});
-
 		});
 
 		describe('.toJSON()', () => {
@@ -596,7 +544,6 @@ describe('lib/feed/item/base', () => {
 			});
 
 			describe('when publish and updated dates are not set', () => {
-
 				beforeEach(() => {
 					mockFeedItem.published = null;
 					mockFeedItem.updated = null;
@@ -607,11 +554,7 @@ describe('lib/feed/item/base', () => {
 					assert.strictEqual(returnValue.published, null);
 					assert.strictEqual(returnValue.updated, null);
 				});
-
 			});
-
 		});
-
 	});
-
 });

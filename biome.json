@@ -1,0 +1,31 @@
+{
+	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+	"extends": ["./node_modules/@rowanmanning/biome-config/config.json"],
+	"linter": {
+		"rules": {
+			"complexity": {
+				"noExcessiveNestedTestSuites": "off"
+			},
+			"nursery": {
+				"useTopLevelRegex": "off"
+			},
+			"performance": {
+				"noDelete": "off"
+			}
+		}
+	},
+	"overrides": [
+		{
+			"include": ["test/**/*.js"],
+			"javascript": {
+				"globals": ["afterEach", "before", "beforeEach", "describe", "it"]
+			}
+		},
+		{
+			"include": ["test/integration/snapshots/**"],
+			"formatter": {
+				"enabled": false
+			}
+		}
+	]
+}

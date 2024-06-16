@@ -16,12 +16,6 @@
 		"target": "es2020",
 		"useUnknownInCatchVariables": true
 	},
-	"exclude": [
-		"coverage",
-		"node_modules",
-		"test"
-	],
-	"include": [
-		"**/*.js"
-	]
+	"exclude": ["coverage", "node_modules", "test"],
+	"include": ["**/*.js"]
 }

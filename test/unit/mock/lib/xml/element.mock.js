@@ -4,7 +4,6 @@ const td = require('testdouble');
 
 module.exports = function createMock() {
 	class Element {
-
 		constructor() {
 			this.findElementsWithName = td.func();
 			this.findElementWithName = td.func();
@@ -13,7 +12,6 @@ module.exports = function createMock() {
 			this.getAttributeAsNumber = td.func();
 			this.hasElementWithName = td.func();
 		}
-
 	}
 	return Element;
 };

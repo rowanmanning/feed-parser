@@ -33,7 +33,6 @@ describe('lib/feed/atom', () => {
 		let mockRootElement;
 
 		beforeEach(() => {
-
 			// Mock an XML document
 			mockDocument = new MockDocument();
 			mockRootElement = new MockElement();
@@ -47,39 +46,32 @@ describe('lib/feed/atom', () => {
 		});
 
 		it('finds a root-level feed element', () => {
-			td.verify(mockDocument.findElementWithName('feed'), {times: 1});
+			td.verify(mockDocument.findElementWithName('feed'), { times: 1 });
 		});
 
 		describe('.element', () => {
-
 			it('is set to the feed root element', () => {
 				assert.strictEqual(feed.element, mockRootElement);
 			});
-
 		});
 
 		describe('.meta', () => {
-
 			it('is an object', () => {
 				assert.strictEqual(typeof feed.meta, 'object');
 			});
 
 			describe('.type', () => {
-
 				it('is set to "atom"', () => {
 					assert.strictEqual(feed.meta.type, 'atom');
 				});
-
 			});
 
 			describe('.version', () => {
-
 				it('is set to `null`', () => {
 					assert.strictEqual(feed.meta.version, null);
 				});
 
 				describe('when the root element has a valid `version` attribute', () => {
-
 					beforeEach(() => {
 						td.when(mockRootElement.getAttribute('version')).thenReturn('1.0');
 					});
@@ -87,35 +79,33 @@ describe('lib/feed/atom', () => {
 					it('is set to that version', () => {
 						assert.strictEqual(feed.meta.version, '1.0');
 					});
-
 				});
 
 				describe('when the root element has an `xmlns` attribute pointing to the "purl.org" Atom spec', () => {
-
 					beforeEach(() => {
-						td.when(mockRootElement.getAttribute('xmlns')).thenReturn('http://purl.org/atom/ns#');
+						td.when(mockRootElement.getAttribute('xmlns')).thenReturn(
+							'http://purl.org/atom/ns#'
+						);
 					});
 
 					it('is set to "0.3"', () => {
 						assert.strictEqual(feed.meta.version, '0.3');
 					});
-
 				});
 
 				describe('when the root element has an `xmlns` attribute pointing to the "w3.org" Atom spec', () => {
-
 					beforeEach(() => {
-						td.when(mockRootElement.getAttribute('xmlns')).thenReturn('http://www.w3.org/2005/Atom');
+						td.when(mockRootElement.getAttribute('xmlns')).thenReturn(
+							'http://www.w3.org/2005/Atom'
+						);
 					});
 
 					it('is set to "1.0"', () => {
 						assert.strictEqual(feed.meta.version, '1.0');
 					});
-
 				});
 
 				describe('when the root element has an invalid `version` attribute', () => {
-
 					beforeEach(() => {
 						td.when(mockRootElement.getAttribute('version')).thenReturn('invalid');
 					});
@@ -123,11 +113,9 @@ describe('lib/feed/atom', () => {
 					it('is set to `null`', () => {
 						assert.strictEqual(feed.meta.version, null);
 					});
-
 				});
 
 				describe('when the root element has an unrecognised `xmlns` attribute', () => {
-
 					beforeEach(() => {
 						td.when(mockRootElement.getAttribute('xmlns')).thenReturn('invalid');
 					});
@@ -135,15 +123,11 @@ describe('lib/feed/atom', () => {
 					it('is set to `null`', () => {
 						assert.strictEqual(feed.meta.version, null);
 					});
-
 				});
-
 			});
-
 		});
 
 		describe('.language', () => {
-
 			beforeEach(() => {
 				td.when(mockRootElement.getAttribute('xml:lang')).thenReturn('mock-xml:lang');
 			});
@@ -153,7 +137,6 @@ describe('lib/feed/atom', () => {
 			});
 
 			describe('when a the `xml:lang` attribute is not set but a `lang` attribute is', () => {
-
 				beforeEach(() => {
 					td.when(mockRootElement.getAttribute('xml:lang')).thenReturn(null);
 					td.when(mockRootElement.getAttribute('lang')).thenReturn('mock-lang');
@@ -162,11 +145,9 @@ describe('lib/feed/atom', () => {
 				it('is set to the `lang` attribute of the root element', () => {
 					assert.strictEqual(feed.language, 'mock-lang');
 				});
-
 			});
 
 			describe('when neither attribute is set', () => {
-
 				beforeEach(() => {
 					td.when(mockRootElement.getAttribute('xml:lang')).thenReturn(null);
 					td.when(mockRootElement.getAttribute('lang')).thenReturn(null);
@@ -175,17 +156,13 @@ describe('lib/feed/atom', () => {
 				it('is set to the language property of the base feed', () => {
 					assert.strictEqual(feed.language, 'mock-feed-language');
 				});
-
 			});
-
 		});
 
 		describe('.title', () => {
-
 			it('is set to the title property of the base feed', () => {
 				assert.strictEqual(feed.title, 'mock-feed-title');
 			});
-
 		});
 
 		describe('.description', () => {
@@ -202,7 +179,6 @@ describe('lib/feed/atom', () => {
 			});
 
 			describe('when a subtitle element does not exist but a tagline element does', () => {
-
 				beforeEach(() => {
 					mockElement.textContentNormalized = 'mock tagline text';
 					td.when(mockRootElement.findElementWithName('subtitle')).thenReturn(null);
@@ -212,11 +188,9 @@ describe('lib/feed/atom', () => {
 				it('is set to the text of the first tagline element found in the feed', () => {
 					assert.strictEqual(feed.description, 'mock tagline text');
 				});
-
 			});
 
 			describe('when neither element exists', () => {
-
 				beforeEach(() => {
 					td.when(mockRootElement.findElementWithName('subtitle')).thenReturn(null);
 				});
@@ -224,9 +198,7 @@ describe('lib/feed/atom', () => {
 				it('is set to the description property of the base feed', () => {
 					assert.strictEqual(feed.description, 'mock-feed-description');
 				});
-
 			});
-
 		});
 
 		describe('.copyright', () => {
@@ -243,21 +215,20 @@ describe('lib/feed/atom', () => {
 			});
 
 			describe('when a rights element does not exist but a copyright element does', () => {
-
 				beforeEach(() => {
 					mockElement.textContentNormalized = 'mock copyright text';
 					td.when(mockRootElement.findElementWithName('rights')).thenReturn(null);
-					td.when(mockRootElement.findElementWithName('copyright')).thenReturn(mockElement);
+					td.when(mockRootElement.findElementWithName('copyright')).thenReturn(
+						mockElement
+					);
 				});
 
 				it('is set to the text of the first copyright element found in the feed', () => {
 					assert.strictEqual(feed.copyright, 'mock copyright text');
 				});
-
 			});
 
 			describe('when neither element exists', () => {
-
 				beforeEach(() => {
 					td.when(mockRootElement.findElementWithName('rights')).thenReturn(null);
 				});
@@ -265,9 +236,7 @@ describe('lib/feed/atom', () => {
 				it('is set to the copyright property of the base feed', () => {
 					assert.strictEqual(feed.copyright, 'mock-feed-copyright');
 				});
-
 			});
-
 		});
 
 		describe('.url', () => {
@@ -310,7 +279,6 @@ describe('lib/feed/atom', () => {
 			});
 
 			describe('when a link[rel=alternate] element does not exist but a link element without a rel attribute does', () => {
-
 				beforeEach(() => {
 					td.when(mockRootElement.findElementsWithName('link')).thenReturn([
 						mockLinks[0],
@@ -322,11 +290,9 @@ describe('lib/feed/atom', () => {
 				it('is set to the href attribute of the first link element found in the feed without a rel attribute', () => {
 					assert.strictEqual(feed.url, 'mock-href-norel');
 				});
-
 			});
 
 			describe('when no links have appropriate rel attributes', () => {
-
 				beforeEach(() => {
 					td.when(mockRootElement.findElementsWithName('link')).thenReturn([
 						mockLinks[2],
@@ -337,11 +303,9 @@ describe('lib/feed/atom', () => {
 				it('is set to the url property of the base feed', () => {
 					assert.strictEqual(feed.url, 'mock-feed-url');
 				});
-
 			});
 
 			describe('when no link elements exists', () => {
-
 				beforeEach(() => {
 					td.when(mockRootElement.findElementsWithName('link')).thenReturn([]);
 				});
@@ -349,9 +313,7 @@ describe('lib/feed/atom', () => {
 				it('is set to the url property of the base feed', () => {
 					assert.strictEqual(feed.url, 'mock-feed-url');
 				});
-
 			});
-
 		});
 
 		describe('.self', () => {
@@ -394,7 +356,6 @@ describe('lib/feed/atom', () => {
 			});
 
 			describe('when no links have appropriate rel attributes', () => {
-
 				beforeEach(() => {
 					td.when(mockRootElement.findElementsWithName('link')).thenReturn([
 						mockLinks[0],
@@ -406,11 +367,9 @@ describe('lib/feed/atom', () => {
 				it('is set to the self property of the base feed', () => {
 					assert.strictEqual(feed.self, 'mock-feed-self');
 				});
-
 			});
 
 			describe('when no link elements exists', () => {
-
 				beforeEach(() => {
 					td.when(mockRootElement.findElementsWithName('link')).thenReturn([]);
 				});
@@ -418,17 +377,13 @@ describe('lib/feed/atom', () => {
 				it('is set to the self property of the base feed', () => {
 					assert.strictEqual(feed.self, 'mock-feed-self');
 				});
-
 			});
-
 		});
 
 		describe('.published', () => {
-
 			it('is set to the published property of the base feed', () => {
 				assert.strictEqual(feed.published, 'mock-feed-published');
 			});
-
 		});
 
 		describe('.updated', () => {
@@ -445,21 +400,20 @@ describe('lib/feed/atom', () => {
 			});
 
 			describe('when an updated element does not exist but a modified element does', () => {
-
 				beforeEach(() => {
 					mockElement.textContentAsDate = 'mock modified date';
 					td.when(mockRootElement.findElementWithName('updated')).thenReturn(null);
-					td.when(mockRootElement.findElementWithName('modified')).thenReturn(mockElement);
+					td.when(mockRootElement.findElementWithName('modified')).thenReturn(
+						mockElement
+					);
 				});
 
 				it('is set to the text of the first modified element found in the feed', () => {
 					assert.strictEqual(feed.updated, 'mock modified date');
 				});
-
 			});
 
 			describe('when neither element exists', () => {
-
 				beforeEach(() => {
 					td.when(mockRootElement.findElementWithName('updated')).thenReturn(null);
 				});
@@ -467,9 +421,7 @@ describe('lib/feed/atom', () => {
 				it('is set to the updated property of the base feed', () => {
 					assert.strictEqual(feed.updated, 'mock-feed-updated');
 				});
-
 			});
-
 		});
 
 		describe('.generator', () => {
@@ -492,7 +444,6 @@ describe('lib/feed/atom', () => {
 			});
 
 			describe('when the generator element has no `uri` attribute but does have a `url` attribute', () => {
-
 				beforeEach(() => {
 					td.when(mockElement.getAttributeAsUrl('uri')).thenReturn(null);
 					td.when(mockElement.getAttributeAsUrl('url')).thenReturn('mock-generator-url');
@@ -501,11 +452,9 @@ describe('lib/feed/atom', () => {
 				it('the object link property contains the value of the url attribute', () => {
 					assert.strictEqual(feed.generator.url, 'mock-generator-url');
 				});
-
 			});
 
 			describe('when only one part of the generator data is present', () => {
-
 				beforeEach(() => {
 					td.when(mockElement.getAttributeAsUrl('uri')).thenReturn(null);
 					td.when(mockElement.getAttribute('version')).thenReturn(null);
@@ -518,11 +467,9 @@ describe('lib/feed/atom', () => {
 						url: null
 					});
 				});
-
 			});
 
 			describe('when a generator element is present but has no data', () => {
-
 				beforeEach(() => {
 					mockElement.textContentNormalized = '';
 					td.when(mockElement.getAttributeAsUrl('uri')).thenReturn(null);
@@ -532,11 +479,9 @@ describe('lib/feed/atom', () => {
 				it('is set to the generator property of the base feed', () => {
 					assert.strictEqual(feed.generator, 'mock-feed-generator');
 				});
-
 			});
 
 			describe('when a generator element does not exist', () => {
-
 				beforeEach(() => {
 					td.when(mockRootElement.findElementWithName('generator')).thenReturn(null);
 				});
@@ -544,9 +489,7 @@ describe('lib/feed/atom', () => {
 				it('is set to the generator property of the base feed', () => {
 					assert.strictEqual(feed.generator, 'mock-feed-generator');
 				});
-
 			});
-
 		});
 
 		describe('.image', () => {
@@ -570,7 +513,6 @@ describe('lib/feed/atom', () => {
 			});
 
 			describe('when a logo element does not exist but an icon element does', () => {
-
 				beforeEach(() => {
 					td.when(mockRootElement.findElementWithName('logo')).thenReturn(null);
 				});
@@ -581,11 +523,9 @@ describe('lib/feed/atom', () => {
 						url: 'mock-icon'
 					});
 				});
-
 			});
 
 			describe('when neither element exists', () => {
-
 				beforeEach(() => {
 					td.when(mockRootElement.findElementWithName('logo')).thenReturn(null);
 					td.when(mockRootElement.findElementWithName('icon')).thenReturn(null);
@@ -594,9 +534,7 @@ describe('lib/feed/atom', () => {
 				it('is set to the image property of the base feed', () => {
 					assert.strictEqual(feed.image, 'mock-feed-image');
 				});
-
 			});
-
 		});
 
 		describe('.authors', () => {
@@ -610,7 +548,9 @@ describe('lib/feed/atom', () => {
 					new MockElement(),
 					new MockElement()
 				];
-				td.when(mockRootElement.findElementsWithName('author')).thenReturn(mockAuthorElements);
+				td.when(mockRootElement.findElementsWithName('author')).thenReturn(
+					mockAuthorElements
+				);
 
 				const mockName = new MockElement();
 				mockName.textContentNormalized = 'mock-author-name';
@@ -655,7 +595,6 @@ describe('lib/feed/atom', () => {
 			});
 
 			describe('when an author has a url element rather than a uri element', () => {
-
 				beforeEach(() => {
 					const mockUrl = new MockElement();
 					mockUrl.textContentAsUrl = 'mock-author-url';
@@ -669,16 +608,14 @@ describe('lib/feed/atom', () => {
 				it('the author urls use the incorrect element', () => {
 					assert.strictEqual(authors[0].url, 'mock-author-url');
 				});
-
 			});
 
 			describe('when an author element contains only text', () => {
-
 				beforeEach(() => {
-					mockAuthorElements = [
-						new MockElement()
-					];
-					td.when(mockRootElement.findElementsWithName('author')).thenReturn(mockAuthorElements);
+					mockAuthorElements = [new MockElement()];
+					td.when(mockRootElement.findElementsWithName('author')).thenReturn(
+						mockAuthorElements
+					);
 					mockAuthorElements[0].textContentNormalized = 'mock-author';
 
 					td.when(parseContactString('mock-author')).thenReturn('mock-parsed-author');
@@ -687,19 +624,17 @@ describe('lib/feed/atom', () => {
 				});
 
 				it('is parsed for URLs, emails, and names', () => {
-					td.verify(parseContactString('mock-author'), {times: 1});
+					td.verify(parseContactString('mock-author'), { times: 1 });
 					assert.strictEqual(authors[0], 'mock-parsed-author');
 				});
-
 			});
 
 			describe('when an author element contains only text and cannot be parsed', () => {
-
 				beforeEach(() => {
-					mockAuthorElements = [
-						new MockElement()
-					];
-					td.when(mockRootElement.findElementsWithName('author')).thenReturn(mockAuthorElements);
+					mockAuthorElements = [new MockElement()];
+					td.when(mockRootElement.findElementsWithName('author')).thenReturn(
+						mockAuthorElements
+					);
 					mockAuthorElements[0].textContentNormalized = 'mock-author';
 
 					td.when(parseContactString('mock-author')).thenReturn(null);
@@ -710,9 +645,7 @@ describe('lib/feed/atom', () => {
 				it('is not included', () => {
 					assert.deepEqual(authors, []);
 				});
-
 			});
-
 		});
 
 		describe('.items', () => {
@@ -720,12 +653,10 @@ describe('lib/feed/atom', () => {
 			let items;
 
 			beforeEach(() => {
-				mockEntryElements = [
-					new MockElement(),
-					new MockElement(),
-					new MockElement()
-				];
-				td.when(mockRootElement.findElementsWithName('entry')).thenReturn(mockEntryElements);
+				mockEntryElements = [new MockElement(), new MockElement(), new MockElement()];
+				td.when(mockRootElement.findElementsWithName('entry')).thenReturn(
+					mockEntryElements
+				);
 				items = feed.items;
 			});
 
@@ -734,9 +665,9 @@ describe('lib/feed/atom', () => {
 					ignoreExtraArgs: true,
 					times: 3
 				});
-				td.verify(new AtomFeedItem(feed, mockEntryElements[0]), {times: 1});
-				td.verify(new AtomFeedItem(feed, mockEntryElements[1]), {times: 1});
-				td.verify(new AtomFeedItem(feed, mockEntryElements[2]), {times: 1});
+				td.verify(new AtomFeedItem(feed, mockEntryElements[0]), { times: 1 });
+				td.verify(new AtomFeedItem(feed, mockEntryElements[1]), { times: 1 });
+				td.verify(new AtomFeedItem(feed, mockEntryElements[2]), { times: 1 });
 			});
 
 			it('is set to an array of the created AtomFeedItem instances', () => {
@@ -748,7 +679,6 @@ describe('lib/feed/atom', () => {
 			});
 
 			describe('when accessed a second time', () => {
-
 				it('does not re-instantate AtomFeedItems', () => {
 					const newItems = feed.items;
 					td.verify(new AtomFeedItem(), {
@@ -757,9 +687,7 @@ describe('lib/feed/atom', () => {
 					});
 					assert.strictEqual(newItems, items);
 				});
-
 			});
-
 		});
 
 		describe('if no root element is found', () => {
@@ -775,12 +703,11 @@ describe('lib/feed/atom', () => {
 			});
 
 			it('throws an invalid feed error', () => {
-				td.verify(new InvalidFeedError('The Atom feed does not have a root element'), {times: 1});
+				td.verify(new InvalidFeedError('The Atom feed does not have a root element'), {
+					times: 1
+				});
 				assert.ok(thrownError instanceof InvalidFeedError);
 			});
-
 		});
-
 	});
-
 });

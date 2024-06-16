@@ -29,38 +29,30 @@ describe('lib/feed/base', () => {
 		});
 
 		describe('.document', () => {
-
 			it('is set to the passed in document', () => {
 				assert.strictEqual(feed.document, mockDocument);
 			});
-
 		});
 
 		describe('.element', () => {
-
 			it('is set to the passed in document', () => {
 				assert.strictEqual(feed.element, mockDocument);
 			});
-
 		});
 
 		describe('.meta', () => {
-
 			it('is set to an unknown meta object', () => {
 				assert.deepEqual(feed.meta, {
 					type: 'unknown',
 					version: '0'
 				});
 			});
-
 		});
 
 		describe('.language', () => {
-
 			it('is set to `null`', () => {
 				assert.strictEqual(feed.language, null);
 			});
-
 		});
 
 		describe('.title', () => {
@@ -77,7 +69,6 @@ describe('lib/feed/base', () => {
 			});
 
 			describe('when a title element does not exist', () => {
-
 				beforeEach(() => {
 					td.when(mockDocument.findElementWithName('title')).thenReturn(null);
 				});
@@ -85,97 +76,73 @@ describe('lib/feed/base', () => {
 				it('is set to `null`', () => {
 					assert.strictEqual(feed.title, null);
 				});
-
 			});
-
 		});
 
 		describe('.description', () => {
-
 			it('is set to `null`', () => {
 				assert.strictEqual(feed.description, null);
 			});
-
 		});
 
 		describe('.copyright', () => {
-
 			it('is set to `null`', () => {
 				assert.strictEqual(feed.copyright, null);
 			});
-
 		});
 
 		describe('.url', () => {
-
 			it('is set to `null`', () => {
 				assert.strictEqual(feed.url, null);
 			});
-
 		});
 
 		describe('.self', () => {
-
 			it('is set to `null`', () => {
 				assert.strictEqual(feed.self, null);
 			});
-
 		});
 
 		describe('.published', () => {
-
 			it('is set to `null`', () => {
 				assert.strictEqual(feed.published, null);
 			});
-
 		});
 
 		describe('.updated', () => {
-
 			it('is set to `null`', () => {
 				assert.strictEqual(feed.updated, null);
 			});
-
 		});
 
 		describe('.generator', () => {
-
 			it('is set to `null`', () => {
 				assert.strictEqual(feed.generator, null);
 			});
-
 		});
 
 		describe('.image', () => {
-
 			it('is set to `null`', () => {
 				assert.strictEqual(feed.image, null);
 			});
-
 		});
 
 		describe('.authors', () => {
-
 			it('is set to an empty array', () => {
 				assert.deepEqual(feed.authors, []);
 			});
-
 		});
 
 		describe('.categories', () => {
-
 			it('is set to an empty array', () => {
 				assert.deepEqual(feed.categories, []);
 			});
-
 		});
 
 		describe('.items', () => {
-
 			it('is set to an empty array', () => {
 				assert.deepEqual(feed.items, []);
 			});
-
 		});
 
 		describe('.toJSON()', () => {
@@ -197,7 +164,7 @@ describe('lib/feed/base', () => {
 					image: 'mock-image',
 					authors: 'mock-authors',
 					categories: 'mock-categories',
-					items: [{toJSON: () => 'mock-item'}]
+					items: [{ toJSON: () => 'mock-item' }]
 				};
 				returnValue = feed.toJSON.call(mockFeed);
 			});
@@ -222,7 +189,6 @@ describe('lib/feed/base', () => {
 			});
 
 			describe('when publish and updated dates are not set', () => {
-
 				beforeEach(() => {
 					mockFeed.published = null;
 					mockFeed.updated = null;
@@ -233,11 +199,7 @@ describe('lib/feed/base', () => {
 					assert.strictEqual(returnValue.published, null);
 					assert.strictEqual(returnValue.updated, null);
 				});
-
 			});
-
 		});
-
 	});
-
 });
