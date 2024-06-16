@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.6](https://github.com/rowanmanning/feed-parser/compare/v0.5.5...v0.5.6) (2024-06-16)
+
+
+### Bug Fixes
+
+* bump html-entities from 2.4.0 to 2.5.2 ([0292c93](https://github.com/rowanmanning/feed-parser/commit/0292c93ad24204c617949eb7afe092500fa40ef5))
+
 ## [0.5.5](https://github.com/rowanmanning/feed-parser/compare/v0.5.4...v0.5.5) (2024-01-30)
 
 
