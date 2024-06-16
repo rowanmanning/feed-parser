@@ -29,8 +29,6 @@
     "test:unit": "mocha 'test/unit/**/*.test.js'",
     "test:coverage": "nyc npm run test:unit",
     "test:integration": "node test/integration/fixtures/load.js && mocha 'test/integration/**/*.test.js'",
-    "project:verify": "npx --yes @rowanmanning/validate-project@3 --type git node-library",
-    "project:fix": "npx --yes @rowanmanning/validate-project@3 --type git node-library --fix",
     "prepare": "husky"
   },
   "dependencies": {
