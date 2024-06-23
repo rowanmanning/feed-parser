@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.7](https://github.com/rowanmanning/feed-parser/compare/v0.5.6...v0.5.7) (2024-06-23)
+
+
+### Features
+
+* add Node.js 22 support ([9e9bfd9](https://github.com/rowanmanning/feed-parser/commit/9e9bfd928627498cac9dc77e92ed01afbd6e75a9))
+
 ## [0.5.6](https://github.com/rowanmanning/feed-parser/compare/v0.5.5...v0.5.6) (2024-06-16)
 
 
