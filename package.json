@@ -16,7 +16,7 @@
   "bugs": "https://github.com/rowanmanning/feed-parser/issues",
   "license": "MIT",
   "engines": {
-    "node": "18.x || 20.x",
+    "node": "18.x || 20.x || 22.x",
     "npm": "8.x || 9.x || 10.x"
   },
   "scripts": {
@@ -26,9 +26,9 @@
     "verify:biome": "biome check",
     "verify:types": "tsc --noEmit --project ./jsconfig.json",
     "test": "npm run test:coverage && npm run test:integration",
-    "test:unit": "node --test test/unit",
+    "test:unit": "cd test/unit && node --test",
     "test:coverage": "nyc npm run test:unit",
-    "test:integration": "node test/integration/fixtures/load.js && node --test test/integration",
+    "test:integration": "node test/integration/fixtures/load.js && cd test/integration && node --test",
     "prepare": "husky"
   },
   "dependencies": {
