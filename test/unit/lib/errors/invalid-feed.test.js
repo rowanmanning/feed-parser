@@ -1,6 +1,7 @@
 'use strict';
 
 const assert = require('node:assert/strict');
+const { beforeEach, describe, it } = require('node:test');
 
 describe('lib/errors/invalid-feed', () => {
 	let InvalidFeedError;

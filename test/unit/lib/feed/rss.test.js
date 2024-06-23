@@ -1,7 +1,10 @@
 'use strict';
 
+const { afterEach, beforeEach, describe, it } = require('node:test');
 const assert = require('node:assert/strict');
 const td = require('testdouble');
+
+td.config({ ignoreWarnings: true });
 
 describe('lib/feed/rss', () => {
 	let Feed;
@@ -21,6 +24,8 @@ describe('lib/feed/rss', () => {
 		RssFeedItem = td.replace('../../../../lib/feed/item/rss', td.constructor());
 		RssFeed = require('../../../../lib/feed/rss');
 	});
+
+	afterEach(() => td.reset());
 
 	it('is a class constructor', () => {
 		assert.strictEqual(typeof RssFeed, 'function');

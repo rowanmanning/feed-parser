@@ -1,7 +1,10 @@
 'use strict';
 
+const { afterEach, beforeEach, describe, it } = require('node:test');
 const assert = require('node:assert/strict');
 const td = require('testdouble');
+
+td.config({ ignoreWarnings: true });
 
 describe('lib/feed/item/base', () => {
 	let FeedItem;
@@ -11,6 +14,8 @@ describe('lib/feed/item/base', () => {
 		MockElement = require('../../../mock/lib/xml/element.mock')();
 		FeedItem = require('../../../../../lib/feed/item/base');
 	});
+
+	afterEach(() => td.reset());
 
 	it('is a class constructor', () => {
 		assert.strictEqual(typeof FeedItem, 'function');

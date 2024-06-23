@@ -10,13 +10,7 @@
 	},
 	"overrides": [
 		{
-			"include": ["test/**/*.js"],
-			"javascript": {
-				"globals": ["afterEach", "before", "beforeEach", "describe", "it"]
-			}
-		},
-		{
-			"include": ["test/integration/snapshots/**"],
+			"include": ["test/integration/fixtures/**", "test/integration/snapshots/**"],
 			"formatter": {
 				"enabled": false
 			}

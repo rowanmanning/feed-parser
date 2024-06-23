@@ -1,7 +1,10 @@
 'use strict';
 
+const { afterEach, beforeEach, describe, it } = require('node:test');
 const assert = require('node:assert/strict');
 const td = require('testdouble');
+
+td.config({ ignoreWarnings: true });
 
 describe('lib/feed-parser', () => {
 	let AtomFeed;
@@ -20,6 +23,8 @@ describe('lib/feed-parser', () => {
 		RssFeed = td.replace('../../../lib/feed/rss', td.constructor());
 		parseFeed = require('../../../lib/feed-parser');
 	});
+
+	afterEach(() => td.reset());
 
 	it('is a function', () => {
 		assert.strictEqual(typeof parseFeed, 'function');

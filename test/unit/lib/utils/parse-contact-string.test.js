@@ -1,6 +1,7 @@
 'use strict';
 
 const assert = require('node:assert/strict');
+const { beforeEach, describe, it } = require('node:test');
 const contactStringTestCases = require('./parse-contact-string.data');
 
 describe('lib/utils/parse-contact-string', () => {

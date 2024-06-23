@@ -1,6 +1,7 @@
 'use strict';
 
 const assert = require('node:assert/strict');
+const { before, describe, it } = require('node:test');
 const { decode: decodeEntities } = require('html-entities');
 const FeedParser = require('feedparser');
 const parseFeed = require('../..');
@@ -73,7 +74,7 @@ for (const suite of suites) {
 					const feedParserItems = [];
 					let feedParserMeta;
 
-					before((done) => {
+					before((_, done) => {
 						const feedParser = new FeedParser({
 							addmeta: false
 						});

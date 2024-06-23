@@ -1,7 +1,10 @@
 'use strict';
 
+const { afterEach, beforeEach, describe, it } = require('node:test');
 const assert = require('node:assert/strict');
 const td = require('testdouble');
+
+td.config({ ignoreWarnings: true });
 
 describe('lib/xml/element', () => {
 	let Element;
@@ -16,6 +19,8 @@ describe('lib/xml/element', () => {
 		htmlEntities = td.replace('html-entities', require('../../mock/npm/html-entities.mock')());
 		Element = require('../../../../lib/xml/element');
 	});
+
+	afterEach(() => td.reset());
 
 	it('creates a new XML Builder', () => {
 		td.verify(

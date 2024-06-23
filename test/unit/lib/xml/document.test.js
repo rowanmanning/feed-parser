@@ -1,7 +1,10 @@
 'use strict';
 
+const { afterEach, beforeEach, describe, it } = require('node:test');
 const assert = require('node:assert/strict');
 const td = require('testdouble');
+
+td.config({ ignoreWarnings: true });
 
 describe('lib/xml/document', () => {
 	let Element;
@@ -16,6 +19,8 @@ describe('lib/xml/document', () => {
 		);
 		Document = require('../../../../lib/xml/document');
 	});
+
+	afterEach(() => td.reset());
 
 	it('creates a new XML Parser', () => {
 		td.verify(

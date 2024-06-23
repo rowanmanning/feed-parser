@@ -1,7 +1,10 @@
 'use strict';
 
+const { afterEach, beforeEach, describe, it } = require('node:test');
 const assert = require('node:assert/strict');
 const td = require('testdouble');
+
+td.config({ ignoreWarnings: true });
 
 describe('lib/feed/atom', () => {
 	let AtomFeed;
@@ -21,6 +24,8 @@ describe('lib/feed/atom', () => {
 		parseContactString = td.replace('../../../../lib/utils/parse-contact-string', td.func());
 		AtomFeed = require('../../../../lib/feed/atom');
 	});
+
+	afterEach(() => td.reset());
 
 	it('is a class constructor', () => {
 		assert.strictEqual(typeof AtomFeed, 'function');
