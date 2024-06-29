@@ -43,7 +43,7 @@
     "husky": "^9.0.7",
     "nyc": "^15.1.0",
     "testdouble": "^3.16.5",
-    "typescript": "^5.1.6"
+    "typescript": "^5.5.2"
   },
   "main": "lib/feed-parser.js",
   "nyc": {
