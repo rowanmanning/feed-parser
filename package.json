@@ -41,7 +41,7 @@
     "@rowanmanning/biome-config": "^1.2.0",
     "feedparser": "^2.2.10",
     "husky": "^9.0.7",
-    "nyc": "^15.1.0",
+    "nyc": "^17.0.0",
     "testdouble": "^3.16.5",
     "typescript": "^5.5.2"
   },
