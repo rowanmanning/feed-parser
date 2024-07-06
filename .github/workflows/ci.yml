@@ -1,0 +1,15 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+    tags: [ '**' ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  ci:
+    uses: rowanmanning/actions/.github/workflows/node-package-single.yml@v1
+    secrets:
+      githubToken: ${{ secrets.RELEASE_TOKEN }}
+      npmToken: ${{ secrets.NPM_AUTH_TOKEN }}
