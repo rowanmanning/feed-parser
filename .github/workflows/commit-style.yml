@@ -1,0 +1,10 @@
+name: Enforce commit style
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  enforce:
+    uses: rowanmanning/actions/.github/workflows/enforce-commit-style.yml@v1
+
