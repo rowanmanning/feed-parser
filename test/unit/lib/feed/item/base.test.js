@@ -171,7 +171,36 @@ describe('lib/feed/item/base', () => {
 				]);
 			});
 
-			describe('when a media:content element has a media:thumbnail sibling', () => {
+			describe('when a media:content element has a media:thumbnail child', () => {
+				let mockThumbnailElement;
+
+				beforeEach(() => {
+					mockThumbnailElement = new MockElement();
+					mockThumbnailElement.namespaceUri = 'http://search.yahoo.com/mrss/';
+					td.when(mockThumbnailElement.getAttributeAsUrl('url')).thenReturn(
+						'https://mock-thumbnail'
+					);
+					td.when(mockMedia[0].findElementWithName('thumbnail')).thenReturn(
+						mockThumbnailElement
+					);
+				});
+
+				it('is has an image property set to the thumbnail URL', () => {
+					assert.strictEqual(feedItem.media[0].image, 'https://mock-thumbnail');
+				});
+
+				describe('when the thumbnail does not have a URL', () => {
+					beforeEach(() => {
+						td.when(mockThumbnailElement.getAttributeAsUrl('url')).thenReturn(null);
+					});
+
+					it('is has an image property set to `null`', () => {
+						assert.strictEqual(feedItem.media[0].image, null);
+					});
+				});
+			});
+
+			describe('when a media:content element does not have a media:thumbnail child but does have a media:thumbnail sibling', () => {
 				let mockThumbnailElement;
 
 				beforeEach(() => {
@@ -181,6 +210,7 @@ describe('lib/feed/item/base', () => {
 						'https://mock-thumbnail'
 					);
 					mockMedia[0].parent = new MockElement();
+					td.when(mockMedia[0].findElementWithName('thumbnail')).thenReturn(null);
 					td.when(mockMedia[0].parent.findElementWithName('thumbnail')).thenReturn(
 						mockThumbnailElement
 					);

@@ -297,6 +297,7 @@ describe('lib/feed/item/rss', () => {
 		});
 
 		describe('.image', () => {
+			let mediaGetter;
 			let mockImageElement;
 			let mockItunesImageElement;
 			let mockThumbnailElement;
@@ -334,6 +335,18 @@ describe('lib/feed/item/rss', () => {
 					}
 				];
 
+				mediaGetter = td.func();
+				td.when(mediaGetter()).thenReturn([
+					{
+						image: null
+					},
+					{
+						image: 'mock-media-thumbnail-url',
+						title: 'mock-media-title'
+					}
+				]);
+				Object.defineProperty(feedItem, 'media', { get: mediaGetter });
+
 				mockThumbnailElement = new MockElement();
 				td.when(mockThumbnailElement.getAttributeAsUrl('url')).thenReturn(
 					'mock-thumbnail-url'
@@ -370,6 +383,7 @@ describe('lib/feed/item/rss', () => {
 					]);
 					td.when(mockImageElement.findElementWithName('url')).thenReturn(null);
 					feedItem.mediaImages = [];
+					td.when(mediaGetter()).thenReturn([]);
 					td.when(mockItemElement.findElementWithName('thumbnail')).thenReturn(null);
 				});
 
@@ -406,10 +420,25 @@ describe('lib/feed/item/rss', () => {
 				});
 			});
 
+			describe('when there are no images in the feed item but there is another media item with a thumbnail', () => {
+				beforeEach(() => {
+					td.when(mockItemElement.findElementsWithName('image')).thenReturn([]);
+					feedItem.mediaImages = [];
+				});
+
+				it('is set to that media item thumbnail', () => {
+					assert.deepEqual(feedItem.image, {
+						url: 'mock-media-thumbnail-url',
+						title: 'mock-media-title'
+					});
+				});
+			});
+
 			describe('when there are no images or media in the feed item but there is a thumbnail element', () => {
 				beforeEach(() => {
 					td.when(mockItemElement.findElementsWithName('image')).thenReturn([]);
 					feedItem.mediaImages = [];
+					td.when(mediaGetter()).thenReturn([]);
 				});
 
 				it('is set to a representation of the first thumbnail in the feed item', () => {
@@ -424,6 +453,7 @@ describe('lib/feed/item/rss', () => {
 				beforeEach(() => {
 					td.when(mockItemElement.findElementsWithName('image')).thenReturn([]);
 					feedItem.mediaImages = [];
+					td.when(mediaGetter()).thenReturn([]);
 					td.when(mockItemElement.findElementWithName('thumbnail')).thenReturn(null);
 				});
 

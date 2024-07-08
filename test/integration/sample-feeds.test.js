@@ -403,6 +403,11 @@ for (const suite of suites) {
 								delete item.image.title;
 							}
 
+							// Get around feedparser not always finding an image title
+							if (item.image?.title && !feedParserImage?.title) {
+								delete item.image.title;
+							}
+
 							// Get around feedparser not using the first image enclosure
 							if (item.image && !feedParserImage) {
 								return;

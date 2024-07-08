@@ -361,8 +361,20 @@ describe('lib/feed/item/atom', () => {
 
 		describe('.image', () => {
 			let mockThumbnailElement;
+			let mediaGetter;
 
 			beforeEach(() => {
+				mediaGetter = td.func();
+				td.when(mediaGetter()).thenReturn([
+					{
+						image: null
+					},
+					{
+						image: 'mock-media-thumbnail-url',
+						title: 'mock-media-title'
+					}
+				]);
+				Object.defineProperty(feedItem, 'media', { get: mediaGetter });
 				feedItem.mediaImages = [
 					{
 						url: 'mock-image-url-1',
@@ -389,9 +401,23 @@ describe('lib/feed/item/atom', () => {
 				});
 			});
 
-			describe('when there are no images in the feed item but there is a thumbnail element', () => {
+			describe('when there are no images in the feed item but there is another media item with a thumbnail', () => {
 				beforeEach(() => {
 					feedItem.mediaImages = [];
+				});
+
+				it('is set to that media item thumbnail', () => {
+					assert.deepEqual(feedItem.image, {
+						url: 'mock-media-thumbnail-url',
+						title: 'mock-media-title'
+					});
+				});
+			});
+
+			describe('when there are no images or other media in the feed item but there is a thumbnail element', () => {
+				beforeEach(() => {
+					feedItem.mediaImages = [];
+					td.when(mediaGetter()).thenReturn([]);
 				});
 
 				it('is set to a representation of the first thumbnail in the feed item', () => {
@@ -405,6 +431,7 @@ describe('lib/feed/item/atom', () => {
 			describe('when there are no images or thumbnail elements', () => {
 				beforeEach(() => {
 					feedItem.mediaImages = [];
+					td.when(mediaGetter()).thenReturn([]);
 					td.when(mockItemElement.findElementWithName('thumbnail')).thenReturn(null);
 				});
 

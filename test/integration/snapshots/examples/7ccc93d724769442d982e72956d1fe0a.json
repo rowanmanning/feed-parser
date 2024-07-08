@@ -1,0 +1,56 @@
+{
+	"title": "Microsoft Start Example Video Feed",
+	"hash": "7ccc93d724769442d982e72956d1fe0a",
+	"url": "https://sample-feeds.rowanmanning.com/examples/7ccc93d724769442d982e72956d1fe0a/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "rss",
+			"version": "2.0"
+		},
+		"language": null,
+		"title": "Feed title",
+		"description": "Feed description",
+		"copyright": null,
+		"url": "https://www.contoso.com/sports",
+		"self": null,
+		"published": null,
+		"updated": "2017-10-01T13:00:00.000Z",
+		"generator": null,
+		"image": null,
+		"authors": [],
+		"categories": [],
+		"items": [
+			{
+				"id": null,
+				"title": "Video title",
+				"description": "Video description",
+				"url": "https://v3spec.msn.com/articleid=2836489202/",
+				"published": "2017-10-01T13:00:00.000Z",
+				"updated": "2017-10-01T13:00:00.000Z",
+				"content": null,
+				"image": {
+					"url": "https://v3spec.msn.com/image.jpg",
+					"title": "Video title"
+				},
+				"media": [
+					{
+						"url": "https://v3spec.msn.com/video.mp4",
+						"image": "https://v3spec.msn.com/image.jpg",
+						"title": "Video title",
+						"length": null,
+						"type": "video",
+						"mimeType": "video/mp4"
+					}
+				],
+				"authors": [
+					{
+						"name": "Video author",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			}
+		]
+	}
+}

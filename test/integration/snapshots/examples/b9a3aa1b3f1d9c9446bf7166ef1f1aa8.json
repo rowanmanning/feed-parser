@@ -1,0 +1,64 @@
+{
+	"title": "Microsoft Start Example RSS Feed",
+	"hash": "b9a3aa1b3f1d9c9446bf7166ef1f1aa8",
+	"url": "https://sample-feeds.rowanmanning.com/examples/b9a3aa1b3f1d9c9446bf7166ef1f1aa8/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "rss",
+			"version": "2.0"
+		},
+		"language": "en-us",
+		"title": "Lifestyle",
+		"description": "channel description",
+		"copyright": null,
+		"url": "https://v3spec.msn.com/lifestyle",
+		"self": null,
+		"published": null,
+		"updated": null,
+		"generator": null,
+		"image": null,
+		"authors": [],
+		"categories": [],
+		"items": [
+			{
+				"id": null,
+				"title": "High-definition video encoding and streaming",
+				"description": "Article description should be plain text, no HTML is allowed",
+				"url": "https://v3spec.msn.com/articleid=2836489202/",
+				"published": "2017-10-04T13:00:00.000Z",
+				"updated": "2017-10-04T13:00:00.000Z",
+				"content": "<img src=\"https://v3spec.msn.com/_files/assets/azure1.jpg\" alt=\"Image title here.\" title=\"Image title\"\n              data-portal-copyright=\"Joe Gargery/Fabrikam Images\" data-has-syndication-rights=\"1\" data-license-id=\"698526\"\n              data-licensor-name=\"Licensor name\" data-focal-region=\"x1:246,y1:140,x2:246,y2:140\" />\n                        \n            <p>\n             Media Services enables you to encode your media files into formats that can be played on a wide variety of browsers and devices.  \n             For example, you might want to stream your content in Apple's HLS or MPEG DASH formats. Before streaming, you should encode your high-quality \n             digital media file. For encoding guidance, see <a href=\"encoding-concept\" data-linktype=\"relative-path\">Encoding concept</a>.  \n             This tutorial uploads a local video file and encodes the uploaded file. You can also encode content that you make accessible via a HTTPS URL.  \n             For more information, see <a href=\"job-input-from-http-how-to\" data-linktype=\"relative-path\">Create a job input from an HTTP(s) URL</a>. \n            </p>\n            \n            <p> Here is an example of an embedded 1PP video using the 'video' tag</p>\n            <video id=\"8172818\" title=\"an inline video\" poster=\"https://v3spec.msn.com/videothumbnail.jpg\" data-description=\"this is a sample inline video\" data-portal-copyright=\"Joe Gargery/Fabrikam Videos\"> \n              <source src=\"https://v3spec.msn.com/video.mp4\" type=\"video/mp4\"></source>\n            </video>\n\n            <p> And here is an example of an embedded 3PP YouTube video using 'iframe' </p>\n            <iframe width=\"100%\" height=\"100%\" frameborder=\"0\" allowfullscreen=\"true\"\n              src=\"https://www.youtube.com/embed/XnZ_J3l_0z4?rel=0\" >\n            </iframe>\n\n            <p> You can also embed an inline slideshow using html as below.</p>\n            <div class=\"slideshow\">\n              <cite>Slideshow author</cite>\n              <title>Slideshow title</title>\n              <figure>\n                <img src=\"https://v3spec.msn.com/image1.jpg\" title=\"slide 1 title\" />\n                <figcaption>slide 1 caption\n                  <span class=\"copyright\">slide 1 copyrights</span>\n                </figcaption>\n              </figure>\n              <figure>\n                <img src=\"https://v3spec.msn.com/image2.jpg\" title=\"slide 2 title\" />\n                <figcaption>slide 2 caption\n                  <span class=\"copyright\">Joe Gargery/Fabrikam Images</span>\n                </figcaption>\n              </figure>\n            </div>",
+				"image": {
+					"url": "https://v3spec.msn.com/image1.jpg",
+					"title": "Image title"
+				},
+				"media": [
+					{
+						"url": "https://v3spec.msn.com/image1.jpg",
+						"image": "https://v3spec.msn.com/image1.jpg",
+						"title": "Image title",
+						"length": null,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					},
+					{
+						"url": "https://v3spec.msn.com/video.mp4",
+						"image": "https://v3spec.msn.com/image.jpg",
+						"title": "Video title",
+						"length": null,
+						"type": "video",
+						"mimeType": "video/mp4"
+					}
+				],
+				"authors": [
+					{
+						"name": "Joe Gargery",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			}
+		]
+	}
+}

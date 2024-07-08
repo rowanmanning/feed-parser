@@ -1,0 +1,64 @@
+{
+	"title": "Microsoft Start Example Slideshow Feed",
+	"hash": "32515ea0e6b4d0854874498cfe758f54",
+	"url": "https://sample-feeds.rowanmanning.com/examples/32515ea0e6b4d0854874498cfe758f54/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "rss",
+			"version": "2.0"
+		},
+		"language": null,
+		"title": "Slideshow Group Title",
+		"description": "This is a group of slideshows.",
+		"copyright": null,
+		"url": "https://www.contoso.com/Slideshow-Group-Link/",
+		"self": null,
+		"published": null,
+		"updated": "2017-10-01T13:00:00.000Z",
+		"generator": null,
+		"image": null,
+		"authors": [],
+		"categories": [],
+		"items": [
+			{
+				"id": null,
+				"title": "Get the facts. Your Vision. Your Cloud",
+				"description": "Slideshow description",
+				"url": null,
+				"published": "2017-10-01T13:00:00.000Z",
+				"updated": "2017-10-01T13:00:00.000Z",
+				"content": null,
+				"image": {
+					"url": "https://v3spec.msn.com/image1.jpg",
+					"title": "Choose from more than 100 services"
+				},
+				"media": [
+					{
+						"url": "https://v3spec.msn.com/image1.jpg",
+						"image": "https://v3spec.msn.com/image1.jpg",
+						"title": "Choose from more than 100 services",
+						"length": null,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					},
+					{
+						"url": "https://v3spec.msn.com/image2.jpg",
+						"image": "https://v3spec.msn.com/image2.jpg",
+						"title": "Slide 2 title",
+						"length": null,
+						"type": "image",
+						"mimeType": "image/jpeg"
+					}
+				],
+				"authors": [
+					{
+						"name": "Joe Gargery",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			}
+		]
+	}
+}

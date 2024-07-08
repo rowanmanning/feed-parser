@@ -1,0 +1,78 @@
+{
+	"title": "Microsoft Start Example Audio Feed",
+	"hash": "ba99a93da57bdb310bd4c297cc674375",
+	"url": "https://sample-feeds.rowanmanning.com/examples/ba99a93da57bdb310bd4c297cc674375/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "rss",
+			"version": "2.0"
+		},
+		"language": null,
+		"title": "Feed title",
+		"description": "Feed description",
+		"copyright": null,
+		"url": "https://www.contoso.com/sports",
+		"self": null,
+		"published": null,
+		"updated": "2017-10-01T13:00:00.000Z",
+		"generator": null,
+		"image": null,
+		"authors": [],
+		"categories": [],
+		"items": [
+			{
+				"id": null,
+				"title": "Example audio using Media RSS",
+				"description": "Audio description",
+				"url": "https://v3spec.msn.com/audioid=2836489202/",
+				"published": "2018-10-01T13:00:00.000Z",
+				"updated": "2018-10-01T13:00:00.000Z",
+				"content": null,
+				"image": {
+					"url": "https://v3spec.msn.com/image.jpg",
+					"title": "Example audio using Media RSS"
+				},
+				"media": [
+					{
+						"url": "https://contoso.com/audio/sample.mp3",
+						"image": "https://v3spec.msn.com/image.jpg",
+						"title": "Example audio using Media RSS",
+						"length": null,
+						"type": "audio",
+						"mimeType": "audio/mpeg"
+					}
+				],
+				"authors": [],
+				"categories": []
+			},
+			{
+				"id": null,
+				"title": "Example audio using iTunes namespace",
+				"description": "Audio description",
+				"url": "https://v3spec.msn.com/audioid=2836489202/",
+				"published": "2018-10-01T13:00:00.000Z",
+				"updated": "2018-10-01T13:00:00.000Z",
+				"content": null,
+				"image": null,
+				"media": [
+					{
+						"url": "https://contoso.com/audio/sample.mp3",
+						"image": null,
+						"title": null,
+						"length": null,
+						"type": "audio",
+						"mimeType": "audio/mpeg"
+					}
+				],
+				"authors": [
+					{
+						"name": "Provider name",
+						"email": null,
+						"url": null
+					}
+				],
+				"categories": []
+			}
+		]
+	}
+}
