@@ -21,7 +21,7 @@
 		"categories": [],
 		"items": [
 			{
-				"id": null,
+				"id": "723435",
 				"title": "Example audio using Media RSS",
 				"description": "Audio description",
 				"url": "https://v3spec.msn.com/audioid=2836489202/",
@@ -46,7 +46,7 @@
 				"categories": []
 			},
 			{
-				"id": null,
+				"id": "723435",
 				"title": "Example audio using iTunes namespace",
 				"description": "Audio description",
 				"url": "https://v3spec.msn.com/audioid=2836489202/",

@@ -233,6 +233,18 @@ describe('lib/xml/element', () => {
 				td.verify(Element.create({ 'mock-child-2': [] }, element));
 			});
 
+			describe('when the element has non-string children', () => {
+				beforeEach(() => {
+					element = new Element({
+						MOCK: [{ '#text': 123 }]
+					});
+				});
+
+				it('converts them to a string', () => {
+					assert.deepEqual(element.children, ['123']);
+				});
+			});
+
 			describe('when the element has no children', () => {
 				beforeEach(() => {
 					element = new Element({});
