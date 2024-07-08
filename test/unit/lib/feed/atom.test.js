@@ -653,6 +653,58 @@ describe('lib/feed/atom', () => {
 			});
 		});
 
+		describe('.categories', () => {
+			let categories;
+			let mockCategoryElements;
+
+			beforeEach(() => {
+				mockCategoryElements = [
+					new MockElement(),
+					new MockElement(),
+					new MockElement(),
+					new MockElement()
+				];
+				td.when(mockRootElement.findElementsWithName('category')).thenReturn(
+					mockCategoryElements
+				);
+
+				td.when(mockCategoryElements[0].getAttribute('term')).thenReturn(
+					'mock-category-term'
+				);
+				td.when(mockCategoryElements[0].getAttribute('label')).thenReturn(
+					'mock-category-label'
+				);
+				td.when(mockCategoryElements[0].getAttributeAsUrl('scheme')).thenReturn(
+					'mock-category-url'
+				);
+
+				td.when(mockCategoryElements[1].getAttribute('term')).thenReturn(
+					'mock-category-term'
+				);
+
+				td.when(mockCategoryElements[2].getAttribute('label')).thenReturn(
+					'mock-category-label'
+				);
+
+				categories = feed.categories;
+			});
+
+			it('is set to an array of category objects, ignoring ones that do not have a term', () => {
+				assert.ok(Array.isArray(categories));
+				assert.strictEqual(categories.length, 2);
+				assert.deepEqual(categories[0], {
+					term: 'mock-category-term',
+					label: 'mock-category-label',
+					url: 'mock-category-url'
+				});
+				assert.deepEqual(categories[1], {
+					term: 'mock-category-term',
+					label: 'mock-category-term',
+					url: null
+				});
+			});
+		});
+
 		describe('.items', () => {
 			let mockEntryElements;
 			let items;

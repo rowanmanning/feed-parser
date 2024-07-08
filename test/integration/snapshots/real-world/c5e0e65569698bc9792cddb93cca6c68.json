@@ -52,7 +52,58 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Embargoes and Sanctions",
+						"term": "Embargoes and Sanctions",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Credit and Debt",
+						"term": "Credit and Debt",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "United States International Relations",
+						"term": "United States International Relations",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Russian Invasion of Ukraine (2022)",
+						"term": "Russian Invasion of Ukraine (2022)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Treasury Department",
+						"term": "Treasury Department",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Russia",
+						"term": "Russia",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Currency",
+						"term": "Currency",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Ruble (Currency)",
+						"term": "Ruble (Currency)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "US Dollar (Currency)",
+						"term": "US Dollar (Currency)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/world/europe/russia-ukraine-war-atrocities.html",
@@ -83,7 +134,68 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Russian Invasion of Ukraine (2022)",
+						"term": "Russian Invasion of Ukraine (2022)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Civilian Casualties",
+						"term": "Civilian Casualties",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "War Crimes, Genocide and Crimes Against Humanity",
+						"term": "War Crimes, Genocide and Crimes Against Humanity",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Defense and Military Forces",
+						"term": "Defense and Military Forces",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Russia",
+						"term": "Russia",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Bucha (Ukraine)",
+						"term": "Bucha (Ukraine)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Chernihiv (Ukraine)",
+						"term": "Chernihiv (Ukraine)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Kyiv (Ukraine)",
+						"term": "Kyiv (Ukraine)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Mykolaiv (Ukraine)",
+						"term": "Mykolaiv (Ukraine)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Kharkiv (Ukraine)",
+						"term": "Kharkiv (Ukraine)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Mariupol (Ukraine)",
+						"term": "Mariupol (Ukraine)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/live/2022/04/05/world/ukraine-russia-war/ukraine-airstrikes-borodyanka",
@@ -114,7 +226,33 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Russian Invasion of Ukraine (2022)",
+						"term": "Russian Invasion of Ukraine (2022)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "War Crimes, Genocide and Crimes Against Humanity",
+						"term": "War Crimes, Genocide and Crimes Against Humanity",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Borodyanka (Ukraine)",
+						"term": "Borodyanka (Ukraine)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Russia",
+						"term": "Russia",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/live/2022/04/05/world/ukraine-russia-war/after-russian-advances-us-britain-and-australia-expand-partnership-to-develop-hypersonic-missiles",
@@ -176,7 +314,58 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Russia",
+						"term": "Russia",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Russian Invasion of Ukraine (2022)",
+						"term": "Russian Invasion of Ukraine (2022)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "War and Armed Conflicts",
+						"term": "War and Armed Conflicts",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Refugees and Displaced Persons",
+						"term": "Refugees and Displaced Persons",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Stations and Terminals (Passenger)",
+						"term": "Stations and Terminals (Passenger)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Czech Republic",
+						"term": "Czech Republic",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Europe",
+						"term": "Europe",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Lviv (Ukraine)",
+						"term": "Lviv (Ukraine)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Poland",
+						"term": "Poland",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/live/2022/04/05/world/ukraine-russia-war/the-next-pivotal-battle-in-ukraine-sloviansk-military-analysts-say",
@@ -238,7 +427,63 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Russian Invasion of Ukraine (2022)",
+						"term": "Russian Invasion of Ukraine (2022)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Cyberwarfare and Defense",
+						"term": "Cyberwarfare and Defense",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Computer Security",
+						"term": "Computer Security",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Rumors and Misinformation",
+						"term": "Rumors and Misinformation",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "News and News Media",
+						"term": "News and News Media",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Zelensky, Volodymyr",
+						"term": "Zelensky, Volodymyr",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Facebook Inc",
+						"term": "Facebook Inc",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Russia",
+						"term": "Russia",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Belarus",
+						"term": "Belarus",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "War and Armed Conflicts",
+						"term": "War and Armed Conflicts",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/science/russian-astronauts-flight-suits-ukraine-flag.html",
@@ -269,7 +514,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Vande Hei, Mark",
+						"term": "Vande Hei, Mark",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Russian Invasion of Ukraine (2022)",
+						"term": "Russian Invasion of Ukraine (2022)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "International Space Station",
+						"term": "International Space Station",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Russia",
+						"term": "Russia",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Space and Astronomy",
+						"term": "Space and Astronomy",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/us/oklahoma-abortion-ban.html",
@@ -300,7 +576,53 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Abortion",
+						"term": "Abortion",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Law and Legislation",
+						"term": "Law and Legislation",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "State Legislatures",
+						"term": "State Legislatures",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "United States Politics and Government",
+						"term": "United States Politics and Government",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Pregnancy and Childbirth",
+						"term": "Pregnancy and Childbirth",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Women and Girls",
+						"term": "Women and Girls",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Republican Party",
+						"term": "Republican Party",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Stitt, Kevin",
+						"term": "Stitt, Kevin",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Oklahoma",
+						"term": "Oklahoma",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/business/economy/recession-economy.html",
@@ -331,7 +653,58 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "United States Economy",
+						"term": "United States Economy",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Recession and Depression",
+						"term": "Recession and Depression",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Inflation (Economics)",
+						"term": "Inflation (Economics)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Federal Reserve System",
+						"term": "Federal Reserve System",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Coronavirus (2019-nCoV)",
+						"term": "Coronavirus (2019-nCoV)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Prices (Fares, Fees and Rates)",
+						"term": "Prices (Fares, Fees and Rates)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Interest Rates",
+						"term": "Interest Rates",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Labor and Jobs",
+						"term": "Labor and Jobs",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Unemployment",
+						"term": "Unemployment",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Wages and Salaries",
+						"term": "Wages and Salaries",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/business/europe-exports-russia.html",
@@ -362,7 +735,58 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Economic Conditions and Trends",
+						"term": "Economic Conditions and Trends",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Supply Chain",
+						"term": "Supply Chain",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "International Trade and World Market",
+						"term": "International Trade and World Market",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Embargoes and Sanctions",
+						"term": "Embargoes and Sanctions",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Russian Invasion of Ukraine (2022)",
+						"term": "Russian Invasion of Ukraine (2022)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Factories and Manufacturing",
+						"term": "Factories and Manufacturing",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Shopping and Retail",
+						"term": "Shopping and Retail",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Europe",
+						"term": "Europe",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Russia",
+						"term": "Russia",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/business/economy/trucker-training.html",
@@ -393,7 +817,48 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Trucks and Trucking",
+						"term": "Trucks and Trucking",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Debt Collection",
+						"term": "Debt Collection",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Wages and Salaries",
+						"term": "Wages and Salaries",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Labor and Jobs",
+						"term": "Labor and Jobs",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Suits and Litigation (Civil)",
+						"term": "Suits and Litigation (Civil)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Drivers Licenses",
+						"term": "Drivers Licenses",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Vocational Training",
+						"term": "Vocational Training",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Hechinger Report, The",
+						"term": "Hechinger Report, The",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/03/31/magazine/new-french-right.html",
@@ -412,7 +877,63 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Elections",
+						"term": "Elections",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Nationalism (Theory and Philosophy)",
+						"term": "Nationalism (Theory and Philosophy)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Content Type: Personal Profile",
+						"term": "Content Type: Personal Profile",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Politics and Government",
+						"term": "Politics and Government",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Muslims and Islam",
+						"term": "Muslims and Islam",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Zemmour, Eric",
+						"term": "Zemmour, Eric",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Le Pen, Marine",
+						"term": "Le Pen, Marine",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Macron, Emmanuel (1977- )",
+						"term": "Macron, Emmanuel (1977- )",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "National Rally (France)",
+						"term": "National Rally (France)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "National Front (France)",
+						"term": "National Front (France)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "France",
+						"term": "France",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/world/europe/macron-france-election-amiens.html",
@@ -443,7 +964,83 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Layoffs and Job Reductions",
+						"term": "Layoffs and Job Reductions",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Politics and Government",
+						"term": "Politics and Government",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Labor and Jobs",
+						"term": "Labor and Jobs",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Yellow Vests Movement",
+						"term": "Yellow Vests Movement",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Economic Conditions and Trends",
+						"term": "Economic Conditions and Trends",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Elections",
+						"term": "Elections",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Organized Labor",
+						"term": "Organized Labor",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Unemployment",
+						"term": "Unemployment",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Factories and Manufacturing",
+						"term": "Factories and Manufacturing",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Whirlpool Corporation",
+						"term": "Whirlpool Corporation",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "National Front (France)",
+						"term": "National Front (France)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Le Pen, Marine",
+						"term": "Le Pen, Marine",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Macron, Emmanuel (1977- )",
+						"term": "Macron, Emmanuel (1977- )",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "France",
+						"term": "France",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Amiens (France)",
+						"term": "Amiens (France)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/world/europe/jewish-death-france-election.html",
@@ -474,7 +1071,53 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "France",
+						"term": "France",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Paris (France)",
+						"term": "Paris (France)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Jews and Judaism",
+						"term": "Jews and Judaism",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Anti-Semitism",
+						"term": "Anti-Semitism",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Assaults",
+						"term": "Assaults",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Halimi, Sarah (d 2017)",
+						"term": "Halimi, Sarah (d 2017)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Zemmour, Eric",
+						"term": "Zemmour, Eric",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Macron, Emmanuel (1977- )",
+						"term": "Macron, Emmanuel (1977- )",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Le Pen, Marine",
+						"term": "Le Pen, Marine",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/sports/golf/tiger-woods-masters.html",
@@ -505,7 +1148,23 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Golf",
+						"term": "Golf",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Masters Golf Tournament",
+						"term": "Masters Golf Tournament",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Woods, Tiger",
+						"term": "Woods, Tiger",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/sports/golf/tiger-woods-1997-masters.html",
@@ -536,7 +1195,48 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Golf",
+						"term": "Golf",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Masters Golf Tournament",
+						"term": "Masters Golf Tournament",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Woods, Tiger",
+						"term": "Woods, Tiger",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Augusta National Golf Club",
+						"term": "Augusta National Golf Club",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Azinger, Paul",
+						"term": "Azinger, Paul",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Faldo, Nick",
+						"term": "Faldo, Nick",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Montgomerie, Colin",
+						"term": "Montgomerie, Colin",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Nantz, Jim",
+						"term": "Nantz, Jim",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/sports/golf/masters-invitations.html",
@@ -567,7 +1267,53 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Golf",
+						"term": "Golf",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Masters Golf Tournament",
+						"term": "Masters Golf Tournament",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Augusta National Golf Club",
+						"term": "Augusta National Golf Club",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Player, Gary",
+						"term": "Player, Gary",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Woods, Tiger",
+						"term": "Woods, Tiger",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Faldo, Nick",
+						"term": "Faldo, Nick",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Snead, Sam",
+						"term": "Snead, Sam",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Watson, Tom",
+						"term": "Watson, Tom",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Nicklaus, Jack",
+						"term": "Nicklaus, Jack",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/style/nyc-antiques-vito-giallo-warhol.html",
@@ -598,7 +1344,33 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Warhol, Andy",
+						"term": "Warhol, Andy",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Catbird (Brooklyn, NY, Retailer)",
+						"term": "Catbird (Brooklyn, NY, Retailer)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Giallo, Vito",
+						"term": "Giallo, Vito",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Antiques",
+						"term": "Antiques",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Content Type: Personal Profile",
+						"term": "Content Type: Personal Profile",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/books/molly-shannon-book.html",
@@ -629,7 +1401,33 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Content Type: Personal Profile",
+						"term": "Content Type: Personal Profile",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Books and Literature",
+						"term": "Books and Literature",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Comedy and Humor",
+						"term": "Comedy and Humor",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Shannon, Molly",
+						"term": "Shannon, Molly",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "White, Mike (1970- )",
+						"term": "White, Mike (1970- )",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/magazine/billionaire-books.html",
@@ -648,7 +1446,33 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "High Net Worth Individuals",
+						"term": "High Net Worth Individuals",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Writing and Writers",
+						"term": "Writing and Writers",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Books and Literature",
+						"term": "Books and Literature",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Income Inequality",
+						"term": "Income Inequality",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Koch, Charles G",
+						"term": "Koch, Charles G",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/movies/ke-huy-quan-everything-everywhere.html",
@@ -679,7 +1503,28 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Movies",
+						"term": "Movies",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Content Type: Personal Profile",
+						"term": "Content Type: Personal Profile",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Everything Everywhere All at Once (Movie)",
+						"term": "Everything Everywhere All at Once (Movie)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_ttl"
+					},
+					{
+						"label": "Quan, Ke Huy",
+						"term": "Quan, Ke Huy",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/opinion/vietnam-refugees-factories-us-military.html",
@@ -710,7 +1555,48 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Vietnam War",
+						"term": "Vietnam War",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Vietnamese-Americans",
+						"term": "Vietnamese-Americans",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "United States Defense and Military Forces",
+						"term": "United States Defense and Military Forces",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Factories and Manufacturing",
+						"term": "Factories and Manufacturing",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Labor and Jobs",
+						"term": "Labor and Jobs",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Connecticut",
+						"term": "Connecticut",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "War and Armed Conflicts",
+						"term": "War and Armed Conflicts",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Refugees and Displaced Persons",
+						"term": "Refugees and Displaced Persons",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/opinion/furries-culture-war.html",
@@ -741,7 +1627,48 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Homosexuality and Bisexuality",
+						"term": "Homosexuality and Bisexuality",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Transgender and Transsexuals",
+						"term": "Transgender and Transsexuals",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Education (K-12)",
+						"term": "Education (K-12)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Rumors and Misinformation",
+						"term": "Rumors and Misinformation",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Social Media",
+						"term": "Social Media",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Florida",
+						"term": "Florida",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Politics and Government",
+						"term": "Politics and Government",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "United States",
+						"term": "United States",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/opinion/pandemic-home-going-out.html",
@@ -772,7 +1699,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Habits and Routines (Behavior)",
+						"term": "Habits and Routines (Behavior)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Quarantine (Life and Culture)",
+						"term": "Quarantine (Life and Culture)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Delivery Services",
+						"term": "Delivery Services",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Shopping and Retail",
+						"term": "Shopping and Retail",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Restaurants",
+						"term": "Restaurants",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Supermarkets and Grocery Stores",
+						"term": "Supermarkets and Grocery Stores",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/opinion/amazon-labor-union-staten-island.html",
@@ -803,7 +1761,48 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Labor and Jobs",
+						"term": "Labor and Jobs",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Workplace Hazards and Violations",
+						"term": "Workplace Hazards and Violations",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "United States Economy",
+						"term": "United States Economy",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Organized Labor",
+						"term": "Organized Labor",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Warehouses",
+						"term": "Warehouses",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Race and Ethnicity",
+						"term": "Race and Ethnicity",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Amazon Labor Union",
+						"term": "Amazon Labor Union",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Staten Island (NYC)",
+						"term": "Staten Island (NYC)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/opinion/college-high-school.html",
@@ -834,7 +1833,53 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "internal-sub-only-nl",
+						"term": "internal-sub-only-nl",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Obama, Barack",
+						"term": "Obama, Barack",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Podcasts",
+						"term": "Podcasts",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Rutgers, The State University of New Jersey",
+						"term": "Rutgers, The State University of New Jersey",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Colleges and Universities",
+						"term": "Colleges and Universities",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Education (K-12)",
+						"term": "Education (K-12)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "World War II (1939-45)",
+						"term": "World War II (1939-45)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Bard College",
+						"term": "Bard College",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "National Public Radio",
+						"term": "National Public Radio",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/opinion/ukraine-war-food-crisis.html",
@@ -865,7 +1910,78 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Sudan",
+						"term": "Sudan",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Russia",
+						"term": "Russia",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Afghanistan",
+						"term": "Afghanistan",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Africa",
+						"term": "Africa",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Russian Invasion of Ukraine (2022)",
+						"term": "Russian Invasion of Ukraine (2022)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Food",
+						"term": "Food",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "War and Armed Conflicts",
+						"term": "War and Armed Conflicts",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "International Trade and World Market",
+						"term": "International Trade and World Market",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Wheat",
+						"term": "Wheat",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Food Insecurity",
+						"term": "Food Insecurity",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Agriculture and Farming",
+						"term": "Agriculture and Farming",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Global Warming",
+						"term": "Global Warming",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "World Food Program",
+						"term": "World Food Program",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/opinion/ezra-klein-podcast-dan-olson.html",
@@ -896,7 +2012,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "audio-neutral-informative",
+						"term": "audio-neutral-informative",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Winkelmann, Mike (Beeple)",
+						"term": "Winkelmann, Mike (Beeple)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Nonfungible Tokens (NFTs)",
+						"term": "Nonfungible Tokens (NFTs)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Blockchain (Technology)",
+						"term": "Blockchain (Technology)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Computers and the Internet",
+						"term": "Computers and the Internet",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Bitcoin (Currency)",
+						"term": "Bitcoin (Currency)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Finances",
+						"term": "Finances",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/opinion/shanghai-china-covid-lockdown.html",
@@ -927,7 +2079,23 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Coronavirus (2019-nCoV)",
+						"term": "Coronavirus (2019-nCoV)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "China",
+						"term": "China",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Shanghai (China)",
+						"term": "Shanghai (China)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/opinion/romney-manchin-senate-covid.html",
@@ -958,7 +2126,63 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "United States Economy",
+						"term": "United States Economy",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "United States Politics and Government",
+						"term": "United States Politics and Government",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Politics and Government",
+						"term": "Politics and Government",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Manchin, Joe III",
+						"term": "Manchin, Joe III",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Romney, Mitt",
+						"term": "Romney, Mitt",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Democratic Party",
+						"term": "Democratic Party",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Republican Party",
+						"term": "Republican Party",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Senate",
+						"term": "Senate",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Law and Legislation",
+						"term": "Law and Legislation",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "United States",
+						"term": "United States",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Coronavirus (2019-nCoV)",
+						"term": "Coronavirus (2019-nCoV)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/opinion/ruble-value.html",
@@ -989,7 +2213,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "internal-sub-only-nl",
+						"term": "internal-sub-only-nl",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Ruble (Currency)",
+						"term": "Ruble (Currency)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Russia",
+						"term": "Russia",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Economic Conditions and Trends",
+						"term": "Economic Conditions and Trends",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Russian Invasion of Ukraine (2022)",
+						"term": "Russian Invasion of Ukraine (2022)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Central Bank of Russia",
+						"term": "Central Bank of Russia",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/opinion/letters/oil-russia-climate-change.html",
@@ -1014,7 +2269,63 @@
 					}
 				],
 				"authors": [],
-				"categories": []
+				"categories": [
+					{
+						"label": "Russian Invasion of Ukraine (2022)",
+						"term": "Russian Invasion of Ukraine (2022)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Energy Efficiency",
+						"term": "Energy Efficiency",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Alternative and Renewable Energy",
+						"term": "Alternative and Renewable Energy",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Greenhouse Gas Emissions",
+						"term": "Greenhouse Gas Emissions",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Putin, Vladimir V",
+						"term": "Putin, Vladimir V",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Zelensky, Volodymyr",
+						"term": "Zelensky, Volodymyr",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Trump, Donald J",
+						"term": "Trump, Donald J",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "United States Politics and Government",
+						"term": "United States Politics and Government",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Coronavirus (2019-nCoV)",
+						"term": "Coronavirus (2019-nCoV)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Flowers and Plants",
+						"term": "Flowers and Plants",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Friedman, Thomas L",
+						"term": "Friedman, Thomas L",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/opinion/amazon-union-staten-island.html",
@@ -1045,7 +2356,48 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Labor and Jobs",
+						"term": "Labor and Jobs",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Organized Labor",
+						"term": "Organized Labor",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Income Inequality",
+						"term": "Income Inequality",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Amazon.com Inc",
+						"term": "Amazon.com Inc",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Republican Party",
+						"term": "Republican Party",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Staten Island (NYC)",
+						"term": "Staten Island (NYC)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "United States",
+						"term": "United States",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "United States Economy",
+						"term": "United States Economy",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/opinion/environment/california-drought-wildfires.html",
@@ -1076,7 +2428,58 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Water",
+						"term": "Water",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Drought",
+						"term": "Drought",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Global Warming",
+						"term": "Global Warming",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Wildfires",
+						"term": "Wildfires",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Snow and Snowstorms",
+						"term": "Snow and Snowstorms",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Rain",
+						"term": "Rain",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "California",
+						"term": "California",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Sierra Nevada Region (US)",
+						"term": "Sierra Nevada Region (US)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Western States (US)",
+						"term": "Western States (US)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Research",
+						"term": "Research",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/opinion/covid-medicaid-loss.html",
@@ -1107,7 +2510,33 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Coronavirus (2019-nCoV)",
+						"term": "Coronavirus (2019-nCoV)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Medicaid",
+						"term": "Medicaid",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Patient Protection and Affordable Care Act (2010)",
+						"term": "Patient Protection and Affordable Care Act (2010)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "States (US)",
+						"term": "States (US)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "United States",
+						"term": "United States",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/opinion/email-overload.html",
@@ -1138,7 +2567,28 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "E-Mail",
+						"term": "E-Mail",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Work-Life Balance",
+						"term": "Work-Life Balance",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Millennial Generation",
+						"term": "Millennial Generation",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Generation Z",
+						"term": "Generation Z",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/opinion/gardening-homelessness-charter-schools.html",
@@ -1169,7 +2619,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Gardens and Gardening",
+						"term": "Gardens and Gardening",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Homeless Persons",
+						"term": "Homeless Persons",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Public and Subsidized Housing",
+						"term": "Public and Subsidized Housing",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "California",
+						"term": "California",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Charter Schools",
+						"term": "Charter Schools",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Real Estate and Housing (Residential)",
+						"term": "Real Estate and Housing (Residential)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "internal-sub-only-nl",
+						"term": "internal-sub-only-nl",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/briefing/russian-atrocities-bucha-ukraine-sanctions.html",
@@ -1200,7 +2686,63 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "internal-storyline-no",
+						"term": "internal-storyline-no",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "War and Armed Conflicts",
+						"term": "War and Armed Conflicts",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Arms Trade",
+						"term": "Arms Trade",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Embargoes and Sanctions",
+						"term": "Embargoes and Sanctions",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Defense and Military Forces",
+						"term": "Defense and Military Forces",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Bucha (Ukraine)",
+						"term": "Bucha (Ukraine)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Kyiv (Ukraine)",
+						"term": "Kyiv (Ukraine)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Zelensky, Volodymyr",
+						"term": "Zelensky, Volodymyr",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Putin, Vladimir V",
+						"term": "Putin, Vladimir V",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Biden, Joseph R Jr",
+						"term": "Biden, Joseph R Jr",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/podcasts/the-daily/ukraine-russia-food-supply.html",
@@ -1231,7 +2773,48 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "War and Armed Conflicts",
+						"term": "War and Armed Conflicts",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Food",
+						"term": "Food",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Shortages",
+						"term": "Shortages",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Russian Invasion of Ukraine (2022)",
+						"term": "Russian Invasion of Ukraine (2022)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Food Insecurity",
+						"term": "Food Insecurity",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Russia",
+						"term": "Russia",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "audio-neutral-informative",
+						"term": "audio-neutral-informative",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/01/books/review/podcast-thomas-fisher-emergency-ancestor-trouble-maud-newton.html",
@@ -1256,7 +2839,33 @@
 					}
 				],
 				"authors": [],
-				"categories": []
+				"categories": [
+					{
+						"label": "Books and Literature",
+						"term": "Books and Literature",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "The Emergency: A Year of Healing and Heartbreak in a Chicago ER (Book)",
+						"term": "The Emergency: A Year of Healing and Heartbreak in a Chicago ER (Book)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_ttl"
+					},
+					{
+						"label": "Ancestor Trouble: A Reckoning and a Reconciliation (Book)",
+						"term": "Ancestor Trouble: A Reckoning and a Reconciliation (Book)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_ttl"
+					},
+					{
+						"label": "Fisher, Thomas (Doctor)",
+						"term": "Fisher, Thomas (Doctor)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Newton, Maud",
+						"term": "Newton, Maud",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/03/sports/running-nutrition-questions.html",
@@ -1287,7 +2896,28 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Running",
+						"term": "Running",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Diet and Nutrition",
+						"term": "Diet and Nutrition",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Food",
+						"term": "Food",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Marathon Running",
+						"term": "Marathon Running",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/us/politics/ivanka-trump-jan-6.html",
@@ -1318,7 +2948,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Trump, Ivanka",
+						"term": "Trump, Ivanka",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Trump, Donald J",
+						"term": "Trump, Donald J",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Storming of the US Capitol (Jan, 2021)",
+						"term": "Storming of the US Capitol (Jan, 2021)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Presidential Election of 2020",
+						"term": "Presidential Election of 2020",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "United States Politics and Government",
+						"term": "United States Politics and Government",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Project: Democracy",
+						"term": "Project: Democracy",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/arts/television/louis-ck-grammy-backlash.html",
@@ -1349,7 +3010,53 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Television",
+						"term": "Television",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "#MeToo Movement",
+						"term": "#MeToo Movement",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Music",
+						"term": "Music",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Grammy Awards",
+						"term": "Grammy Awards",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Comedy and Humor",
+						"term": "Comedy and Humor",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Recording Academy",
+						"term": "Recording Academy",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "C K, Louis",
+						"term": "C K, Louis",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Sexual Harassment",
+						"term": "Sexual Harassment",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Women and Girls",
+						"term": "Women and Girls",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/business/twitter-elon-musk-directors.html",
@@ -1380,7 +3087,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Tesla Motors Inc",
+						"term": "Tesla Motors Inc",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Twitter",
+						"term": "Twitter",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Dorsey, Jack",
+						"term": "Dorsey, Jack",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Musk, Elon",
+						"term": "Musk, Elon",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Social Media",
+						"term": "Social Media",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Appointments and Executive Changes",
+						"term": "Appointments and Executive Changes",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/us/severe-weather-forecast-south.html",
@@ -1411,7 +3149,53 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Rain",
+						"term": "Rain",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Tornadoes",
+						"term": "Tornadoes",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Wind",
+						"term": "Wind",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Alabama",
+						"term": "Alabama",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Florida",
+						"term": "Florida",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Fort Worth (Tex)",
+						"term": "Fort Worth (Tex)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Georgia",
+						"term": "Georgia",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "South Carolina",
+						"term": "South Carolina",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Texas",
+						"term": "Texas",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/us/politics/fred-upton-congress-retirement.html",
@@ -1442,7 +3226,48 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Upton, Fred",
+						"term": "Upton, Fred",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Michigan",
+						"term": "Michigan",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Elections, House of Representatives",
+						"term": "Elections, House of Representatives",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Retirement",
+						"term": "Retirement",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "United States Politics and Government",
+						"term": "United States Politics and Government",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Republican Party",
+						"term": "Republican Party",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Trump, Donald J",
+						"term": "Trump, Donald J",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Impeachment",
+						"term": "Impeachment",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/climate/epa-asbestos-ban.html",
@@ -1473,7 +3298,48 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Global Warming",
+						"term": "Global Warming",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Greenhouse Gas Emissions",
+						"term": "Greenhouse Gas Emissions",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Asbestos",
+						"term": "Asbestos",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Hazardous and Toxic Substances",
+						"term": "Hazardous and Toxic Substances",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Chemicals",
+						"term": "Chemicals",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Mesothelioma",
+						"term": "Mesothelioma",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Environmental Protection Agency",
+						"term": "Environmental Protection Agency",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Regan, Michael S (1976- )",
+						"term": "Regan, Michael S (1976- )",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/world/europe/charles-darwin-notebooks-cambridge-library.html",
@@ -1504,7 +3370,28 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Darwin, Charles Robert",
+						"term": "Darwin, Charles Robert",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Archives and Records",
+						"term": "Archives and Records",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Libraries and Librarians",
+						"term": "Libraries and Librarians",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Cambridge University",
+						"term": "Cambridge University",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/business/ann-sarnoff-warner-bros.html",
@@ -1523,7 +3410,63 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Movies",
+						"term": "Movies",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Appointments and Executive Changes",
+						"term": "Appointments and Executive Changes",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Television",
+						"term": "Television",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Cable Television",
+						"term": "Cable Television",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Mergers, Acquisitions and Divestitures",
+						"term": "Mergers, Acquisitions and Divestitures",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Media",
+						"term": "Media",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Warner Brothers",
+						"term": "Warner Brothers",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Warner Brothers Pictures",
+						"term": "Warner Brothers Pictures",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Warner Media LLC",
+						"term": "Warner Media LLC",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Warner Bros Discovery",
+						"term": "Warner Bros Discovery",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Home Box Office",
+						"term": "Home Box Office",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/us/politics/durham-sussmann-trump.html",
@@ -1542,7 +3485,58 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Russian Interference in 2016 US Elections and Ties to Trump Associates",
+						"term": "Russian Interference in 2016 US Elections and Ties to Trump Associates",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Alfa Group Consortium",
+						"term": "Alfa Group Consortium",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Democratic Party",
+						"term": "Democratic Party",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Federal Bureau of Investigation",
+						"term": "Federal Bureau of Investigation",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Justice Department",
+						"term": "Justice Department",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Trump Organization",
+						"term": "Trump Organization",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Baker, James A (Attorney)",
+						"term": "Baker, James A (Attorney)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Barr, William P",
+						"term": "Barr, William P",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Mueller, Robert S III",
+						"term": "Mueller, Robert S III",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Durham, John H",
+						"term": "Durham, John H",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/sports/baseball/pitchcom-sign-stealing.html",
@@ -1573,7 +3567,23 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Baseball",
+						"term": "Baseball",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Cheating",
+						"term": "Cheating",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Major League Baseball",
+						"term": "Major League Baseball",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/us/fetus-anti-abortion-home-washington.html",
@@ -1604,7 +3614,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Demonstrations, Protests and Riots",
+						"term": "Demonstrations, Protests and Riots",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Abortion",
+						"term": "Abortion",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Handy, Lauren (1993- )",
+						"term": "Handy, Lauren (1993- )",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Terry, Randall A",
+						"term": "Terry, Randall A",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Metropolitan Police Department (DC)",
+						"term": "Metropolitan Police Department (DC)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Operation Rescue",
+						"term": "Operation Rescue",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/03/30/well/live/ba2-omicron-covid.html",
@@ -1635,7 +3676,63 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Coronavirus Omicron Variant",
+						"term": "Coronavirus Omicron Variant",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Coronavirus (2019-nCoV)",
+						"term": "Coronavirus (2019-nCoV)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Coronavirus Risks and Safety Concerns",
+						"term": "Coronavirus Risks and Safety Concerns",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Content Type: Service",
+						"term": "Content Type: Service",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Disease Rates",
+						"term": "Disease Rates",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Masks",
+						"term": "Masks",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Pulse Oximetry",
+						"term": "Pulse Oximetry",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Vaccination and Immunization",
+						"term": "Vaccination and Immunization",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Drugs (Pharmaceuticals)",
+						"term": "Drugs (Pharmaceuticals)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Tests (Medical)",
+						"term": "Tests (Medical)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "United States",
+						"term": "United States",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/well/covid-vaccine-divorced-parents.html",
@@ -1666,7 +3763,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Children and Childhood",
+						"term": "Children and Childhood",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Child Custody and Support",
+						"term": "Child Custody and Support",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Vaccination and Immunization",
+						"term": "Vaccination and Immunization",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Coronavirus (2019-nCoV)",
+						"term": "Coronavirus (2019-nCoV)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Parenting",
+						"term": "Parenting",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Family Courts",
+						"term": "Family Courts",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/article/tornado-safety-tips.html",
@@ -1697,7 +3825,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Tornadoes",
+						"term": "Tornadoes",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Content Type: Service",
+						"term": "Content Type: Service",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Accidents and Safety",
+						"term": "Accidents and Safety",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Weather",
+						"term": "Weather",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Automobiles",
+						"term": "Automobiles",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Mobile Homes and Trailers",
+						"term": "Mobile Homes and Trailers",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "National Weather Service",
+						"term": "National Weather Service",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2020/04/15/parenting/baby/fatherhood-mens-bodies.html",
@@ -1716,7 +3880,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Parenting",
+						"term": "Parenting",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Testosterone",
+						"term": "Testosterone",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Hormones",
+						"term": "Hormones",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Babies and Infants",
+						"term": "Babies and Infants",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Brain",
+						"term": "Brain",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Pregnancy and Childbirth",
+						"term": "Pregnancy and Childbirth",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/04/well/family/motherhood-advice.html",
@@ -1747,7 +3942,28 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Parenting",
+						"term": "Parenting",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Content Type: Service",
+						"term": "Content Type: Service",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Mother's Day",
+						"term": "Mother's Day",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "internal-open-access",
+						"term": "internal-open-access",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/03/31/books/elizabeth-alexander-the-trayvon-generation.html",
@@ -1778,7 +3994,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Alexander, Elizabeth (1962- )",
+						"term": "Alexander, Elizabeth (1962- )",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Books and Literature",
+						"term": "Books and Literature",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Poetry and Poets",
+						"term": "Poetry and Poets",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Black People",
+						"term": "Black People",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "The Trayvon Generation (Book)",
+						"term": "The Trayvon Generation (Book)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_ttl"
+					},
+					{
+						"label": "Discrimination",
+						"term": "Discrimination",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/dining/mena-review-victoria-blamey.html",
@@ -1809,7 +4056,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Restaurants",
+						"term": "Restaurants",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Chefs",
+						"term": "Chefs",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Mena (Manhattan, NY, Restaurant)",
+						"term": "Mena (Manhattan, NY, Restaurant)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Chumley's (Manhattan, NY, Bar)",
+						"term": "Chumley's (Manhattan, NY, Bar)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Gotham (Manhattan, NY, Restaurant)",
+						"term": "Gotham (Manhattan, NY, Restaurant)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Blamey, Victoria",
+						"term": "Blamey, Victoria",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "TriBeCa (Manhattan, NY)",
+						"term": "TriBeCa (Manhattan, NY)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/sports/baseball/louis-head-miami-marlins.html",
@@ -1828,7 +4111,33 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Baseball",
+						"term": "Baseball",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Miami Marlins",
+						"term": "Miami Marlins",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Tampa Bay Rays",
+						"term": "Tampa Bay Rays",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Content Type: Personal Profile",
+						"term": "Content Type: Personal Profile",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Head, Louis (1990- )",
+						"term": "Head, Louis (1990- )",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/books/review/jonathan-galassi-school-days.html",
@@ -1859,7 +4168,23 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Books and Literature",
+						"term": "Books and Literature",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "School Days (Book)",
+						"term": "School Days (Book)",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_ttl"
+					},
+					{
+						"label": "Galassi, Jonathan",
+						"term": "Galassi, Jonathan",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					}
+				]
 			},
 			{
 				"id": "https://www.nytimes.com/2022/04/05/style/an-e-commerce-site-for-ukrainian-fashion.html",
@@ -1878,7 +4203,48 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Angel for Fashion",
+						"term": "Angel for Fashion",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_org"
+					},
+					{
+						"label": "Fashion and Apparel",
+						"term": "Fashion and Apparel",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Russian Invasion of Ukraine (2022)",
+						"term": "Russian Invasion of Ukraine (2022)",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Relocation of Business",
+						"term": "Relocation of Business",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					},
+					{
+						"label": "Sidary, Jen",
+						"term": "Sidary, Jen",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_per"
+					},
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "Russia",
+						"term": "Russia",
+						"url": "http://www.nytimes.com/namespaces/keywords/nyt_geo"
+					},
+					{
+						"label": "E-Commerce",
+						"term": "E-Commerce",
+						"url": "http://www.nytimes.com/namespaces/keywords/des"
+					}
+				]
 			}
 		]
 	}

@@ -201,7 +201,7 @@ Represents the content category of a [`Feed`](#feed) or [`FeedItem`](#feeditem).
     </tr>
     <tr>
         <td><code>term</code></td>
-        <td><code>string | null</code></td>
+        <td><code>string</code></td>
         <td>The category identifier. Often the same as the <code>label</code>.</td>
     </tr>
     <tr>

@@ -57,7 +57,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "https://www.theguardian.com/world/ukraine"
+					},
+					{
+						"label": "Russia",
+						"term": "Russia",
+						"url": "https://www.theguardian.com/world/russia"
+					},
+					{
+						"label": "Europe",
+						"term": "Europe",
+						"url": "https://www.theguardian.com/world/europe-news"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					},
+					{
+						"label": "Volodymyr Zelenskiy",
+						"term": "Volodymyr Zelenskiy",
+						"url": "https://www.theguardian.com/world/volodymyr-zelenskiy"
+					},
+					{
+						"label": "Joe Biden",
+						"term": "Joe Biden",
+						"url": "https://www.theguardian.com/us-news/joebiden"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/barbarians-russian-troops-leave-grisly-mark-on-ukraine-town-of-trostianets",
@@ -93,7 +124,28 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "https://www.theguardian.com/world/ukraine"
+					},
+					{
+						"label": "Russia",
+						"term": "Russia",
+						"url": "https://www.theguardian.com/world/russia"
+					},
+					{
+						"label": "Europe",
+						"term": "Europe",
+						"url": "https://www.theguardian.com/world/europe-news"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/us-news/2022/apr/05/volodymyr-zelenskiy-un-security-council-sketch",
@@ -129,7 +181,33 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Volodymyr Zelenskiy",
+						"term": "Volodymyr Zelenskiy",
+						"url": "https://www.theguardian.com/world/volodymyr-zelenskiy"
+					},
+					{
+						"label": "United Nations",
+						"term": "United Nations",
+						"url": "https://www.theguardian.com/world/unitednations"
+					},
+					{
+						"label": "US news",
+						"term": "US news",
+						"url": "https://www.theguardian.com/us-news/us-news"
+					},
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "https://www.theguardian.com/world/ukraine"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/volodymyr-zelenskiy-un-security-council-russia-war-ukraine-bucha",
@@ -165,7 +243,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "https://www.theguardian.com/world/ukraine"
+					},
+					{
+						"label": "Europe",
+						"term": "Europe",
+						"url": "https://www.theguardian.com/world/europe-news"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					},
+					{
+						"label": "United Nations",
+						"term": "United Nations",
+						"url": "https://www.theguardian.com/world/unitednations"
+					},
+					{
+						"label": "Volodymyr Zelenskiy",
+						"term": "Volodymyr Zelenskiy",
+						"url": "https://www.theguardian.com/world/volodymyr-zelenskiy"
+					},
+					{
+						"label": "Russia",
+						"term": "Russia",
+						"url": "https://www.theguardian.com/world/russia"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/ukrainian-man-tells-of-days-of-torture-at-hands-of-occupying-troops",
@@ -201,7 +310,28 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "https://www.theguardian.com/world/ukraine"
+					},
+					{
+						"label": "Europe",
+						"term": "Europe",
+						"url": "https://www.theguardian.com/world/europe-news"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					},
+					{
+						"label": "Russia",
+						"term": "Russia",
+						"url": "https://www.theguardian.com/world/russia"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/satellite-images-of-corpses-in-bucha-prove-russian-claims-wrong",
@@ -237,7 +367,33 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "https://www.theguardian.com/world/ukraine"
+					},
+					{
+						"label": "Europe",
+						"term": "Europe",
+						"url": "https://www.theguardian.com/world/europe-news"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					},
+					{
+						"label": "Russia",
+						"term": "Russia",
+						"url": "https://www.theguardian.com/world/russia"
+					},
+					{
+						"label": "War crimes",
+						"term": "War crimes",
+						"url": "https://www.theguardian.com/law/war-crimes"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/commentisfree/2022/apr/05/homes-for-ukraine-refugee-britain-hosts",
@@ -273,7 +429,48 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Refugees",
+						"term": "Refugees",
+						"url": "https://www.theguardian.com/world/refugees"
+					},
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "https://www.theguardian.com/world/ukraine"
+					},
+					{
+						"label": "Michael Gove",
+						"term": "Michael Gove",
+						"url": "https://www.theguardian.com/politics/michaelgove"
+					},
+					{
+						"label": "Priti Patel",
+						"term": "Priti Patel",
+						"url": "https://www.theguardian.com/politics/priti-patel"
+					},
+					{
+						"label": "Immigration and asylum",
+						"term": "Immigration and asylum",
+						"url": "https://www.theguardian.com/uk/immigration"
+					},
+					{
+						"label": "Politics",
+						"term": "Politics",
+						"url": "https://www.theguardian.com/politics/politics"
+					},
+					{
+						"label": "Boris Johnson",
+						"term": "Boris Johnson",
+						"url": "https://www.theguardian.com/politics/boris-johnson"
+					},
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/often-a-russian-mother-has-a-tv-for-a-brain-ukraine-youtuber-films-pows-calling-home",
@@ -309,7 +506,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "https://www.theguardian.com/world/ukraine"
+					},
+					{
+						"label": "Geneva conventions",
+						"term": "Geneva conventions",
+						"url": "https://www.theguardian.com/law/geneva-conventions"
+					},
+					{
+						"label": "Russia",
+						"term": "Russia",
+						"url": "https://www.theguardian.com/world/russia"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					},
+					{
+						"label": "Europe",
+						"term": "Europe",
+						"url": "https://www.theguardian.com/world/europe-news"
+					},
+					{
+						"label": "Human rights",
+						"term": "Human rights",
+						"url": "https://www.theguardian.com/law/human-rights"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/media/2022/apr/05/senior-tories-speak-out-against-channel-4-privatisation-plans",
@@ -345,7 +573,68 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Channel 4",
+						"term": "Channel 4",
+						"url": "https://www.theguardian.com/media/channel4"
+					},
+					{
+						"label": "Media",
+						"term": "Media",
+						"url": "https://www.theguardian.com/media/media"
+					},
+					{
+						"label": "Television industry",
+						"term": "Television industry",
+						"url": "https://www.theguardian.com/media/television"
+					},
+					{
+						"label": "Privatisation",
+						"term": "Privatisation",
+						"url": "https://www.theguardian.com/politics/privatisation"
+					},
+					{
+						"label": "Conservatives",
+						"term": "Conservatives",
+						"url": "https://www.theguardian.com/politics/conservatives"
+					},
+					{
+						"label": "Ruth Davidson",
+						"term": "Ruth Davidson",
+						"url": "https://www.theguardian.com/politics/ruth-davidson"
+					},
+					{
+						"label": "Jeremy Hunt",
+						"term": "Jeremy Hunt",
+						"url": "https://www.theguardian.com/politics/jeremy-hunt"
+					},
+					{
+						"label": "Damian Green",
+						"term": "Damian Green",
+						"url": "https://www.theguardian.com/politics/damian-green"
+					},
+					{
+						"label": "Politics",
+						"term": "Politics",
+						"url": "https://www.theguardian.com/politics/politics"
+					},
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					},
+					{
+						"label": "Culture",
+						"term": "Culture",
+						"url": "https://www.theguardian.com/culture/culture"
+					},
+					{
+						"label": "Television",
+						"term": "Television",
+						"url": "https://www.theguardian.com/culture/television"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/politics/2022/apr/05/partygate-ministers-refuse-to-disclose-pictures-taken-by-no-10-photographers",
@@ -381,7 +670,48 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Conservatives",
+						"term": "Conservatives",
+						"url": "https://www.theguardian.com/politics/conservatives"
+					},
+					{
+						"label": "Politics",
+						"term": "Politics",
+						"url": "https://www.theguardian.com/politics/politics"
+					},
+					{
+						"label": "Boris Johnson",
+						"term": "Boris Johnson",
+						"url": "https://www.theguardian.com/politics/boris-johnson"
+					},
+					{
+						"label": "Labour",
+						"term": "Labour",
+						"url": "https://www.theguardian.com/politics/labour"
+					},
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					},
+					{
+						"label": "Civil service",
+						"term": "Civil service",
+						"url": "https://www.theguardian.com/politics/civil-service"
+					},
+					{
+						"label": "Coronavirus",
+						"term": "Coronavirus",
+						"url": "https://www.theguardian.com/world/coronavirus-outbreak"
+					},
+					{
+						"label": "Angela Rayner",
+						"term": "Angela Rayner",
+						"url": "https://www.theguardian.com/politics/angela-rayner"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/society/2022/apr/05/covid-patients-seriously-ill-after-struggling-to-access-antivirals-in-england",
@@ -417,7 +747,48 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "NHS",
+						"term": "NHS",
+						"url": "https://www.theguardian.com/society/nhs"
+					},
+					{
+						"label": "Coronavirus",
+						"term": "Coronavirus",
+						"url": "https://www.theguardian.com/world/coronavirus-outbreak"
+					},
+					{
+						"label": "Cancer",
+						"term": "Cancer",
+						"url": "https://www.theguardian.com/society/cancer"
+					},
+					{
+						"label": "Multiple sclerosis",
+						"term": "Multiple sclerosis",
+						"url": "https://www.theguardian.com/society/multiple-sclerosis"
+					},
+					{
+						"label": "Health",
+						"term": "Health",
+						"url": "https://www.theguardian.com/society/health"
+					},
+					{
+						"label": "England",
+						"term": "England",
+						"url": "https://www.theguardian.com/uk-news/england"
+					},
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					},
+					{
+						"label": "Society",
+						"term": "Society",
+						"url": "https://www.theguardian.com/society/society"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/business/2022/apr/05/world-may-be-on-cusp-of-new-inflationary-era-says-central-bank-chief",
@@ -453,7 +824,33 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Inflation",
+						"term": "Inflation",
+						"url": "https://www.theguardian.com/business/inflation"
+					},
+					{
+						"label": "Business",
+						"term": "Business",
+						"url": "https://www.theguardian.com/business/business"
+					},
+					{
+						"label": "Economics",
+						"term": "Economics",
+						"url": "https://www.theguardian.com/business/economics"
+					},
+					{
+						"label": "Bank of England",
+						"term": "Bank of England",
+						"url": "https://www.theguardian.com/business/bankofenglandgovernor"
+					},
+					{
+						"label": "Jon Cunliffe",
+						"term": "Jon Cunliffe",
+						"url": "https://www.theguardian.com/business/jon-cunliffe"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/uk-news/2022/apr/05/heroic-neighbour-died-in-kettlebell-attack-saving-two-year-old",
@@ -489,7 +886,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/technology/2022/apr/05/facebook-restores-banned-ad-promoting-renters-rights-after-tweet-goes-viral",
@@ -525,7 +928,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Facebook",
+						"term": "Facebook",
+						"url": "https://www.theguardian.com/technology/facebook"
+					},
+					{
+						"label": "Renting property",
+						"term": "Renting property",
+						"url": "https://www.theguardian.com/money/renting"
+					},
+					{
+						"label": "Housing",
+						"term": "Housing",
+						"url": "https://www.theguardian.com/society/housing"
+					},
+					{
+						"label": "Communities",
+						"term": "Communities",
+						"url": "https://www.theguardian.com/society/communities"
+					},
+					{
+						"label": "Media",
+						"term": "Media",
+						"url": "https://www.theguardian.com/media/media"
+					},
+					{
+						"label": "Society",
+						"term": "Society",
+						"url": "https://www.theguardian.com/society/society"
+					},
+					{
+						"label": "Technology",
+						"term": "Technology",
+						"url": "https://www.theguardian.com/technology/technology"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/society/2022/apr/05/lgbt-government-adviser-quits-over-conversion-practices-uturn",
@@ -561,7 +1000,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Transgender",
+						"term": "Transgender",
+						"url": "https://www.theguardian.com/society/transgender"
+					},
+					{
+						"label": "LGBT rights",
+						"term": "LGBT rights",
+						"url": "https://www.theguardian.com/world/lgbt-rights"
+					},
+					{
+						"label": "Society",
+						"term": "Society",
+						"url": "https://www.theguardian.com/society/society"
+					},
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					},
+					{
+						"label": "Conservatives",
+						"term": "Conservatives",
+						"url": "https://www.theguardian.com/politics/conservatives"
+					},
+					{
+						"label": "Politics",
+						"term": "Politics",
+						"url": "https://www.theguardian.com/politics/politics"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/politics/2022/apr/05/rishi-sunak-and-wife-donate-over-100000-to-winchester-college",
@@ -597,7 +1067,28 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Rishi Sunak",
+						"term": "Rishi Sunak",
+						"url": "https://www.theguardian.com/politics/rishi-sunak"
+					},
+					{
+						"label": "Education",
+						"term": "Education",
+						"url": "https://www.theguardian.com/education/education"
+					},
+					{
+						"label": "Politics",
+						"term": "Politics",
+						"url": "https://www.theguardian.com/politics/politics"
+					},
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/uk-news/2022/apr/05/manchester-airport-manager-quits-after-weeks-of-chaos",
@@ -633,7 +1124,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Manchester",
+						"term": "Manchester",
+						"url": "https://www.theguardian.com/uk/manchester"
+					},
+					{
+						"label": "Transport",
+						"term": "Transport",
+						"url": "https://www.theguardian.com/uk/transport"
+					},
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					},
+					{
+						"label": "North of England",
+						"term": "North of England",
+						"url": "https://www.theguardian.com/uk-news/north-of-england"
+					},
+					{
+						"label": "Greater Manchester",
+						"term": "Greater Manchester",
+						"url": "https://www.theguardian.com/uk/greater-manchester"
+					},
+					{
+						"label": "Air transport",
+						"term": "Air transport",
+						"url": "https://www.theguardian.com/world/air-transport"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/its-a-dream-exoskeleton-allows-boy-to-walk-and-play",
@@ -669,7 +1191,28 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Spain",
+						"term": "Spain",
+						"url": "https://www.theguardian.com/world/spain"
+					},
+					{
+						"label": "Europe",
+						"term": "Europe",
+						"url": "https://www.theguardian.com/world/europe-news"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					},
+					{
+						"label": "Disability",
+						"term": "Disability",
+						"url": "https://www.theguardian.com/society/disability"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/tv-and-radio/2022/apr/05/ellie-simmonds-a-world-without-dwarfism-review-are-drugs-really-the-answer",
@@ -705,7 +1248,58 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Television",
+						"term": "Television",
+						"url": "https://www.theguardian.com/culture/television"
+					},
+					{
+						"label": "Culture",
+						"term": "Culture",
+						"url": "https://www.theguardian.com/culture/culture"
+					},
+					{
+						"label": "Television & radio",
+						"term": "Television & radio",
+						"url": "https://www.theguardian.com/tv-and-radio/tv-and-radio"
+					},
+					{
+						"label": "Ellie Simmonds",
+						"term": "Ellie Simmonds",
+						"url": "https://www.theguardian.com/sport/eleanor-simmonds"
+					},
+					{
+						"label": "Sport TV",
+						"term": "Sport TV",
+						"url": "https://www.theguardian.com/tv-and-radio/sport-tv"
+					},
+					{
+						"label": "Documentary",
+						"term": "Documentary",
+						"url": "https://www.theguardian.com/tv-and-radio/documentary"
+					},
+					{
+						"label": "Factual TV",
+						"term": "Factual TV",
+						"url": "https://www.theguardian.com/tv-and-radio/factual-tv"
+					},
+					{
+						"label": "BBC One",
+						"term": "BBC One",
+						"url": "https://www.theguardian.com/media/bbc1"
+					},
+					{
+						"label": "Disability",
+						"term": "Disability",
+						"url": "https://www.theguardian.com/society/disability"
+					},
+					{
+						"label": "Disability and sport",
+						"term": "Disability and sport",
+						"url": "https://www.theguardian.com/sport/disability-sport"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/books/2022/apr/05/belarus-russia-and-ukraine-putin-dysfunctional-family",
@@ -741,7 +1335,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Books",
+						"term": "Books",
+						"url": "https://www.theguardian.com/books/books"
+					},
+					{
+						"label": "Culture",
+						"term": "Culture",
+						"url": "https://www.theguardian.com/culture/culture"
+					},
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "https://www.theguardian.com/world/ukraine"
+					},
+					{
+						"label": "Belarus",
+						"term": "Belarus",
+						"url": "https://www.theguardian.com/world/belarus"
+					},
+					{
+						"label": "Russia",
+						"term": "Russia",
+						"url": "https://www.theguardian.com/world/russia"
+					},
+					{
+						"label": "Europe",
+						"term": "Europe",
+						"url": "https://www.theguardian.com/world/europe-news"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/media/2022/apr/05/tory-revenge-against-channel-4-could-turn-into-bruising-battle",
@@ -777,7 +1407,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Channel 4",
+						"term": "Channel 4",
+						"url": "https://www.theguardian.com/media/channel4"
+					},
+					{
+						"label": "Conservatives",
+						"term": "Conservatives",
+						"url": "https://www.theguardian.com/politics/conservatives"
+					},
+					{
+						"label": "Television industry",
+						"term": "Television industry",
+						"url": "https://www.theguardian.com/media/television"
+					},
+					{
+						"label": "Privatisation",
+						"term": "Privatisation",
+						"url": "https://www.theguardian.com/politics/privatisation"
+					},
+					{
+						"label": "Media",
+						"term": "Media",
+						"url": "https://www.theguardian.com/media/media"
+					},
+					{
+						"label": "Politics",
+						"term": "Politics",
+						"url": "https://www.theguardian.com/politics/politics"
+					},
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/when-should-i-do-a-covid-test-do-i-still-have-to-isolate-england",
@@ -813,7 +1479,28 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Coronavirus",
+						"term": "Coronavirus",
+						"url": "https://www.theguardian.com/world/coronavirus-outbreak"
+					},
+					{
+						"label": "Health policy",
+						"term": "Health policy",
+						"url": "https://www.theguardian.com/politics/health"
+					},
+					{
+						"label": "Health",
+						"term": "Health",
+						"url": "https://www.theguardian.com/society/health"
+					},
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/film/2022/apr/05/fantastic-beasts-the-secrets-of-dumbledore-review-good-natured-magical-entertainment",
@@ -849,7 +1536,58 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Film",
+						"term": "Film",
+						"url": "https://www.theguardian.com/film/film"
+					},
+					{
+						"label": "Science fiction and fantasy films",
+						"term": "Science fiction and fantasy films",
+						"url": "https://www.theguardian.com/film/sciencefictionandfantasy"
+					},
+					{
+						"label": "Fantastic Beasts and Where to Find Them",
+						"term": "Fantastic Beasts and Where to Find Them",
+						"url": "https://www.theguardian.com/film/fantastic-beasts-and-where-to-find-them"
+					},
+					{
+						"label": "Harry Potter",
+						"term": "Harry Potter",
+						"url": "https://www.theguardian.com/film/harrypotter"
+					},
+					{
+						"label": "JK Rowling",
+						"term": "JK Rowling",
+						"url": "https://www.theguardian.com/books/jkrowling"
+					},
+					{
+						"label": "Eddie Redmayne",
+						"term": "Eddie Redmayne",
+						"url": "https://www.theguardian.com/film/eddie-redmayne"
+					},
+					{
+						"label": "Mads Mikkelsen",
+						"term": "Mads Mikkelsen",
+						"url": "https://www.theguardian.com/film/mads-mikkelsen"
+					},
+					{
+						"label": "Jude Law",
+						"term": "Jude Law",
+						"url": "https://www.theguardian.com/culture/jude-law"
+					},
+					{
+						"label": "Culture",
+						"term": "Culture",
+						"url": "https://www.theguardian.com/culture/culture"
+					},
+					{
+						"label": "Books",
+						"term": "Books",
+						"url": "https://www.theguardian.com/books/books"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/fashion/2022/apr/05/gap-how-the-clothing-brand-lost-its-way-fashion-retail",
@@ -885,7 +1623,23 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Fashion",
+						"term": "Fashion",
+						"url": "https://www.theguardian.com/fashion/fashion"
+					},
+					{
+						"label": "Retail industry",
+						"term": "Retail industry",
+						"url": "https://www.theguardian.com/business/retail"
+					},
+					{
+						"label": "Kanye West",
+						"term": "Kanye West",
+						"url": "https://www.theguardian.com/music/kanyewest"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/food/2022/apr/05/whats-better-for-cooking-gas-or-induction-hobs",
@@ -921,7 +1675,48 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Food",
+						"term": "Food",
+						"url": "https://www.theguardian.com/food/food"
+					},
+					{
+						"label": "Chefs",
+						"term": "Chefs",
+						"url": "https://www.theguardian.com/food/chefs"
+					},
+					{
+						"label": "Gas",
+						"term": "Gas",
+						"url": "https://www.theguardian.com/environment/gas"
+					},
+					{
+						"label": "Energy",
+						"term": "Energy",
+						"url": "https://www.theguardian.com/environment/energy"
+					},
+					{
+						"label": "Environment",
+						"term": "Environment",
+						"url": "https://www.theguardian.com/environment/environment"
+					},
+					{
+						"label": "Vegetables",
+						"term": "Vegetables",
+						"url": "https://www.theguardian.com/food/vegetables"
+					},
+					{
+						"label": "Bread",
+						"term": "Bread",
+						"url": "https://www.theguardian.com/food/bread"
+					},
+					{
+						"label": "Fossil fuels",
+						"term": "Fossil fuels",
+						"url": "https://www.theguardian.com/environment/fossil-fuels"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/tv-and-radio/2022/apr/05/a-sudden-urge-to-buy-a-corset-and-a-tiara-blame-the-bridgerton-effect",
@@ -951,7 +1746,33 @@
 					}
 				],
 				"authors": [],
-				"categories": []
+				"categories": [
+					{
+						"label": "Bridgerton",
+						"term": "Bridgerton",
+						"url": "https://www.theguardian.com/tv-and-radio/bridgerton"
+					},
+					{
+						"label": "Fashion",
+						"term": "Fashion",
+						"url": "https://www.theguardian.com/fashion/fashion"
+					},
+					{
+						"label": "Television & radio",
+						"term": "Television & radio",
+						"url": "https://www.theguardian.com/tv-and-radio/tv-and-radio"
+					},
+					{
+						"label": "Culture",
+						"term": "Culture",
+						"url": "https://www.theguardian.com/culture/culture"
+					},
+					{
+						"label": "Life and style",
+						"term": "Life and style",
+						"url": "https://www.theguardian.com/lifeandstyle/lifeandstyle"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/commentisfree/2022/apr/05/sell-off-channel-4-wont-benefit-anyone-but-boris-johnson",
@@ -987,7 +1808,48 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Channel 4",
+						"term": "Channel 4",
+						"url": "https://www.theguardian.com/media/channel4"
+					},
+					{
+						"label": "Media",
+						"term": "Media",
+						"url": "https://www.theguardian.com/media/media"
+					},
+					{
+						"label": "Television industry",
+						"term": "Television industry",
+						"url": "https://www.theguardian.com/media/television"
+					},
+					{
+						"label": "Conservatives",
+						"term": "Conservatives",
+						"url": "https://www.theguardian.com/politics/conservatives"
+					},
+					{
+						"label": "Nadine Dorries",
+						"term": "Nadine Dorries",
+						"url": "https://www.theguardian.com/politics/nadine-dorries"
+					},
+					{
+						"label": "Politics",
+						"term": "Politics",
+						"url": "https://www.theguardian.com/politics/politics"
+					},
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					},
+					{
+						"label": "Culture",
+						"term": "Culture",
+						"url": "https://www.theguardian.com/culture/culture"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/commentisfree/2022/apr/05/break-laws-england-mps-jacob-rees-mogg-covid",
@@ -1023,7 +1885,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Conservatives",
+						"term": "Conservatives",
+						"url": "https://www.theguardian.com/politics/conservatives"
+					},
+					{
+						"label": "Boris Johnson",
+						"term": "Boris Johnson",
+						"url": "https://www.theguardian.com/politics/boris-johnson"
+					},
+					{
+						"label": "Politics",
+						"term": "Politics",
+						"url": "https://www.theguardian.com/politics/politics"
+					},
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					},
+					{
+						"label": "Coronavirus",
+						"term": "Coronavirus",
+						"url": "https://www.theguardian.com/world/coronavirus-outbreak"
+					},
+					{
+						"label": "Law",
+						"term": "Law",
+						"url": "https://www.theguardian.com/law/law"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/business/nils-pratley-on-finance/2022/apr/05/flogging-channel-4-wont-bring-about-the-longed-for-british-reply-to-netflix",
@@ -1059,7 +1952,58 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Channel 4",
+						"term": "Channel 4",
+						"url": "https://www.theguardian.com/media/channel4"
+					},
+					{
+						"label": "Business",
+						"term": "Business",
+						"url": "https://www.theguardian.com/business/business"
+					},
+					{
+						"label": "Television industry",
+						"term": "Television industry",
+						"url": "https://www.theguardian.com/media/television"
+					},
+					{
+						"label": "Netflix",
+						"term": "Netflix",
+						"url": "https://www.theguardian.com/media/netflix"
+					},
+					{
+						"label": "Media",
+						"term": "Media",
+						"url": "https://www.theguardian.com/media/media"
+					},
+					{
+						"label": "ITV",
+						"term": "ITV",
+						"url": "https://www.theguardian.com/business/itv"
+					},
+					{
+						"label": "Channel 5",
+						"term": "Channel 5",
+						"url": "https://www.theguardian.com/media/channelfive"
+					},
+					{
+						"label": "Sky",
+						"term": "Sky",
+						"url": "https://www.theguardian.com/business/britishskybroadcastinggroup"
+					},
+					{
+						"label": "Discovery Communications",
+						"term": "Discovery Communications",
+						"url": "https://www.theguardian.com/media/discovery-communications"
+					},
+					{
+						"label": "Privatisation",
+						"term": "Privatisation",
+						"url": "https://www.theguardian.com/politics/privatisation"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/commentisfree/picture/2022/apr/05/ben-jennings-on-boris-dorries-and-the-sale-of-channel-4-cartoon",
@@ -1095,7 +2039,28 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Nadine Dorries",
+						"term": "Nadine Dorries",
+						"url": "https://www.theguardian.com/politics/nadine-dorries"
+					},
+					{
+						"label": "Boris Johnson",
+						"term": "Boris Johnson",
+						"url": "https://www.theguardian.com/politics/boris-johnson"
+					},
+					{
+						"label": "Channel 4",
+						"term": "Channel 4",
+						"url": "https://www.theguardian.com/media/channel4"
+					},
+					{
+						"label": "Media",
+						"term": "Media",
+						"url": "https://www.theguardian.com/media/media"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/commentisfree/2022/apr/05/pupils-pandemic-covid-lessons-ofsted-play",
@@ -1131,7 +2096,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Children",
+						"term": "Children",
+						"url": "https://www.theguardian.com/society/children"
+					},
+					{
+						"label": "Education",
+						"term": "Education",
+						"url": "https://www.theguardian.com/education/education"
+					},
+					{
+						"label": "Coronavirus",
+						"term": "Coronavirus",
+						"url": "https://www.theguardian.com/world/coronavirus-outbreak"
+					},
+					{
+						"label": "Primary schools",
+						"term": "Primary schools",
+						"url": "https://www.theguardian.com/education/primary-schools"
+					},
+					{
+						"label": "Ofsted",
+						"term": "Ofsted",
+						"url": "https://www.theguardian.com/education/ofsted"
+					},
+					{
+						"label": "Schools",
+						"term": "Schools",
+						"url": "https://www.theguardian.com/education/schools"
+					},
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/commentisfree/2022/apr/05/jay-z-beyonce-picket-line-party-celebrity-activism-oscars-chateau-marmont",
@@ -1167,7 +2168,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Inequality",
+						"term": "Inequality",
+						"url": "https://www.theguardian.com/inequality/inequality"
+					},
+					{
+						"label": "Race",
+						"term": "Race",
+						"url": "https://www.theguardian.com/world/race"
+					},
+					{
+						"label": "US unions",
+						"term": "US unions",
+						"url": "https://www.theguardian.com/us-news/us-unions"
+					},
+					{
+						"label": "Oscars 2022",
+						"term": "Oscars 2022",
+						"url": "https://www.theguardian.com/film/oscars-2022"
+					},
+					{
+						"label": "Jay-Z",
+						"term": "Jay-Z",
+						"url": "https://www.theguardian.com/music/jayz"
+					},
+					{
+						"label": "Beyoncé",
+						"term": "Beyoncé",
+						"url": "https://www.theguardian.com/music/beyonce"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/commentisfree/2022/apr/05/after-decades-of-sneering-from-the-sidelines-i-am-learning-to-just-jump-in-and-feel-the-joy",
@@ -1203,7 +2235,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Life and style",
+						"term": "Life and style",
+						"url": "https://www.theguardian.com/lifeandstyle/lifeandstyle"
+					},
+					{
+						"label": "Women",
+						"term": "Women",
+						"url": "https://www.theguardian.com/lifeandstyle/women"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/commentisfree/2022/apr/05/choking-to-death-learn-first-aid-heimlich-manoeuvre",
@@ -1239,7 +2282,33 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Society",
+						"term": "Society",
+						"url": "https://www.theguardian.com/society/society"
+					},
+					{
+						"label": "Health & wellbeing",
+						"term": "Health & wellbeing",
+						"url": "https://www.theguardian.com/lifeandstyle/health-and-wellbeing"
+					},
+					{
+						"label": "Life and style",
+						"term": "Life and style",
+						"url": "https://www.theguardian.com/lifeandstyle/lifeandstyle"
+					},
+					{
+						"label": "Health",
+						"term": "Health",
+						"url": "https://www.theguardian.com/society/health"
+					},
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/commentisfree/2022/apr/05/the-guardian-view-on-channel-4-dont-sell-it",
@@ -1275,7 +2344,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Channel 4",
+						"term": "Channel 4",
+						"url": "https://www.theguardian.com/media/channel4"
+					},
+					{
+						"label": "Privatisation",
+						"term": "Privatisation",
+						"url": "https://www.theguardian.com/politics/privatisation"
+					},
+					{
+						"label": "Conservatives",
+						"term": "Conservatives",
+						"url": "https://www.theguardian.com/politics/conservatives"
+					},
+					{
+						"label": "Media",
+						"term": "Media",
+						"url": "https://www.theguardian.com/media/media"
+					},
+					{
+						"label": "Television industry",
+						"term": "Television industry",
+						"url": "https://www.theguardian.com/media/television"
+					},
+					{
+						"label": "Nadine Dorries",
+						"term": "Nadine Dorries",
+						"url": "https://www.theguardian.com/politics/nadine-dorries"
+					},
+					{
+						"label": "Politics",
+						"term": "Politics",
+						"url": "https://www.theguardian.com/politics/politics"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/commentisfree/2022/apr/05/the-guardian-view-on-strongmen-and-straw-men-south-asian-crises-over-russias-war",
@@ -1311,7 +2416,28 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "South and Central Asia",
+						"term": "South and Central Asia",
+						"url": "https://www.theguardian.com/world/south-and-central-asia"
+					},
+					{
+						"label": "Asia Pacific",
+						"term": "Asia Pacific",
+						"url": "https://www.theguardian.com/world/asia-pacific"
+					},
+					{
+						"label": "Pakistan",
+						"term": "Pakistan",
+						"url": "https://www.theguardian.com/world/pakistan"
+					},
+					{
+						"label": "Sri Lanka",
+						"term": "Sri Lanka",
+						"url": "https://www.theguardian.com/world/srilanka"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/its-imperative-to-keep-covid-in-the-headlines",
@@ -1347,7 +2473,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Coronavirus",
+						"term": "Coronavirus",
+						"url": "https://www.theguardian.com/world/coronavirus-outbreak"
+					},
+					{
+						"label": "Infectious diseases",
+						"term": "Infectious diseases",
+						"url": "https://www.theguardian.com/science/infectiousdiseases"
+					},
+					{
+						"label": "Science",
+						"term": "Science",
+						"url": "https://www.theguardian.com/science/science"
+					},
+					{
+						"label": "Health",
+						"term": "Health",
+						"url": "https://www.theguardian.com/society/health"
+					},
+					{
+						"label": "NHS",
+						"term": "NHS",
+						"url": "https://www.theguardian.com/society/nhs"
+					},
+					{
+						"label": "Politics",
+						"term": "Politics",
+						"url": "https://www.theguardian.com/politics/politics"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/environment/2022/apr/05/turbines-are-an-eyesore-sounds-like-a-wind-up",
@@ -1383,7 +2540,33 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Renewable energy",
+						"term": "Renewable energy",
+						"url": "https://www.theguardian.com/environment/renewableenergy"
+					},
+					{
+						"label": "Wind power",
+						"term": "Wind power",
+						"url": "https://www.theguardian.com/environment/windpower"
+					},
+					{
+						"label": "Environment",
+						"term": "Environment",
+						"url": "https://www.theguardian.com/environment/environment"
+					},
+					{
+						"label": "Energy",
+						"term": "Energy",
+						"url": "https://www.theguardian.com/environment/energy"
+					},
+					{
+						"label": "Nuclear power",
+						"term": "Nuclear power",
+						"url": "https://www.theguardian.com/environment/nuclearpower"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/football/2022/apr/05/manchester-city-atletico-madrid-champions-league-quarter-final-first-leg-match-report",
@@ -1419,7 +2602,33 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Champions League",
+						"term": "Champions League",
+						"url": "https://www.theguardian.com/football/championsleague"
+					},
+					{
+						"label": "Manchester City",
+						"term": "Manchester City",
+						"url": "https://www.theguardian.com/football/manchestercity"
+					},
+					{
+						"label": "Atlético Madrid",
+						"term": "Atlético Madrid",
+						"url": "https://www.theguardian.com/football/atleticomadrid"
+					},
+					{
+						"label": "Football",
+						"term": "Football",
+						"url": "https://www.theguardian.com/football/football"
+					},
+					{
+						"label": "Sport",
+						"term": "Sport",
+						"url": "https://www.theguardian.com/sport/sport"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/football/2022/apr/05/benfica-liverpool-champions-league-quarter-final-first-leg-match-report",
@@ -1455,7 +2664,33 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Champions League",
+						"term": "Champions League",
+						"url": "https://www.theguardian.com/football/championsleague"
+					},
+					{
+						"label": "Benfica",
+						"term": "Benfica",
+						"url": "https://www.theguardian.com/football/benfica"
+					},
+					{
+						"label": "Liverpool",
+						"term": "Liverpool",
+						"url": "https://www.theguardian.com/football/liverpool"
+					},
+					{
+						"label": "Football",
+						"term": "Football",
+						"url": "https://www.theguardian.com/football/football"
+					},
+					{
+						"label": "Sport",
+						"term": "Sport",
+						"url": "https://www.theguardian.com/sport/sport"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/sport/2022/apr/05/tiger-woods-prepared-to-play-through-pain-barrier-in-unlikely-masters-quest",
@@ -1491,7 +2726,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Tiger Woods",
+						"term": "Tiger Woods",
+						"url": "https://www.theguardian.com/sport/tigerwoods"
+					},
+					{
+						"label": "The Masters",
+						"term": "The Masters",
+						"url": "https://www.theguardian.com/sport/masters"
+					},
+					{
+						"label": "PGA Tour",
+						"term": "PGA Tour",
+						"url": "https://www.theguardian.com/sport/pga-tour"
+					},
+					{
+						"label": "European Tour",
+						"term": "European Tour",
+						"url": "https://www.theguardian.com/sport/european-tour"
+					},
+					{
+						"label": "Golf",
+						"term": "Golf",
+						"url": "https://www.theguardian.com/sport/golf"
+					},
+					{
+						"label": "US sports",
+						"term": "US sports",
+						"url": "https://www.theguardian.com/sport/us-sport"
+					},
+					{
+						"label": "Sport",
+						"term": "Sport",
+						"url": "https://www.theguardian.com/sport/sport"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/sport/2022/apr/05/dan-carter-ive-always-wanted-to-do-something-like-this",
@@ -1527,7 +2798,33 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Dan Carter",
+						"term": "Dan Carter",
+						"url": "https://www.theguardian.com/sport/dan-carter"
+					},
+					{
+						"label": "New Zealand rugby union team",
+						"term": "New Zealand rugby union team",
+						"url": "https://www.theguardian.com/sport/new-zealand-rugby-union-team"
+					},
+					{
+						"label": "Ireland rugby union team",
+						"term": "Ireland rugby union team",
+						"url": "https://www.theguardian.com/sport/ireland-rugby-union-team"
+					},
+					{
+						"label": "Rugby union",
+						"term": "Rugby union",
+						"url": "https://www.theguardian.com/sport/rugby-union"
+					},
+					{
+						"label": "Sport",
+						"term": "Sport",
+						"url": "https://www.theguardian.com/sport/sport"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/sport/2022/apr/05/f1-drivers-will-continue-to-speak-out-says-drivers-association-chair",
@@ -1563,7 +2860,23 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Formula One",
+						"term": "Formula One",
+						"url": "https://www.theguardian.com/sport/formulaone"
+					},
+					{
+						"label": "Motor sport",
+						"term": "Motor sport",
+						"url": "https://www.theguardian.com/sport/motorsports"
+					},
+					{
+						"label": "Sport",
+						"term": "Sport",
+						"url": "https://www.theguardian.com/sport/sport"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/sport/2022/apr/05/former-england-coach-bayliss-holds-talks-with-cricket-australia-over-role",
@@ -1599,7 +2912,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Australia cricket team",
+						"term": "Australia cricket team",
+						"url": "https://www.theguardian.com/sport/australia-cricket-team"
+					},
+					{
+						"label": "Trevor Bayliss",
+						"term": "Trevor Bayliss",
+						"url": "https://www.theguardian.com/sport/trevor-bayliss"
+					},
+					{
+						"label": "Cricket Australia",
+						"term": "Cricket Australia",
+						"url": "https://www.theguardian.com/sport/cricket-australia"
+					},
+					{
+						"label": "The Hundred",
+						"term": "The Hundred",
+						"url": "https://www.theguardian.com/sport/the-hundred"
+					},
+					{
+						"label": "Cricket",
+						"term": "Cricket",
+						"url": "https://www.theguardian.com/sport/cricket"
+					},
+					{
+						"label": "Australia sport",
+						"term": "Australia sport",
+						"url": "https://www.theguardian.com/sport/australia-sport"
+					},
+					{
+						"label": "Sport",
+						"term": "Sport",
+						"url": "https://www.theguardian.com/sport/sport"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/football/2022/apr/05/steve-mcclaren-could-be-no-2-if-erik-ten-hag-is-appointed-manchester-united",
@@ -1635,7 +2984,28 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Manchester United",
+						"term": "Manchester United",
+						"url": "https://www.theguardian.com/football/manchester-united"
+					},
+					{
+						"label": "Steve McClaren",
+						"term": "Steve McClaren",
+						"url": "https://www.theguardian.com/football/steve-mcclaren"
+					},
+					{
+						"label": "Football",
+						"term": "Football",
+						"url": "https://www.theguardian.com/football/football"
+					},
+					{
+						"label": "Sport",
+						"term": "Sport",
+						"url": "https://www.theguardian.com/sport/sport"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/football/2022/apr/05/leah-williamson-named-england-captain-for-womens-european-championships",
@@ -1671,7 +3041,33 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "England women's football team",
+						"term": "England women's football team",
+						"url": "https://www.theguardian.com/football/england-womens-football-team"
+					},
+					{
+						"label": "Women's Euro 2022",
+						"term": "Women's Euro 2022",
+						"url": "https://www.theguardian.com/football/women-s-euro-2022"
+					},
+					{
+						"label": "Women's football",
+						"term": "Women's football",
+						"url": "https://www.theguardian.com/football/womensfootball"
+					},
+					{
+						"label": "Football",
+						"term": "Football",
+						"url": "https://www.theguardian.com/football/football"
+					},
+					{
+						"label": "Sport",
+						"term": "Sport",
+						"url": "https://www.theguardian.com/sport/sport"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/environment/2022/apr/05/ipcc-report-scientists-climate-crisis-fossil-fuels",
@@ -1707,7 +3103,33 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "US news",
+						"term": "US news",
+						"url": "https://www.theguardian.com/us-news/us-news"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					},
+					{
+						"label": "Climate crisis",
+						"term": "Climate crisis",
+						"url": "https://www.theguardian.com/environment/climate-crisis"
+					},
+					{
+						"label": "Intergovernmental Panel on Climate Change (IPCC)",
+						"term": "Intergovernmental Panel on Climate Change (IPCC)",
+						"url": "https://www.theguardian.com/environment/ipcc"
+					},
+					{
+						"label": "Environment",
+						"term": "Environment",
+						"url": "https://www.theguardian.com/environment/environment"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/environment/2022/apr/05/uk-too-slow-over-climate-crisis-despite-stark-ipcc-report",
@@ -1743,7 +3165,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Climate crisis",
+						"term": "Climate crisis",
+						"url": "https://www.theguardian.com/environment/climate-crisis"
+					},
+					{
+						"label": "Jacob Rees-Mogg",
+						"term": "Jacob Rees-Mogg",
+						"url": "https://www.theguardian.com/politics/jacob-rees-mogg"
+					},
+					{
+						"label": "Environment",
+						"term": "Environment",
+						"url": "https://www.theguardian.com/environment/environment"
+					},
+					{
+						"label": "Intergovernmental Panel on Climate Change (IPCC)",
+						"term": "Intergovernmental Panel on Climate Change (IPCC)",
+						"url": "https://www.theguardian.com/environment/ipcc"
+					},
+					{
+						"label": "Oil",
+						"term": "Oil",
+						"url": "https://www.theguardian.com/environment/oil"
+					},
+					{
+						"label": "Politics",
+						"term": "Politics",
+						"url": "https://www.theguardian.com/politics/politics"
+					},
+					{
+						"label": "Greenpeace",
+						"term": "Greenpeace",
+						"url": "https://www.theguardian.com/environment/greenpeace"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/environment/2022/apr/05/charity-linked-to-uk-anti-onshore-wind-campaigns-active-again-renewable-energy-foundation",
@@ -1779,7 +3237,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Wind power",
+						"term": "Wind power",
+						"url": "https://www.theguardian.com/environment/windpower"
+					},
+					{
+						"label": "Green politics",
+						"term": "Green politics",
+						"url": "https://www.theguardian.com/environment/green-politics"
+					},
+					{
+						"label": "Energy",
+						"term": "Energy",
+						"url": "https://www.theguardian.com/environment/energy"
+					},
+					{
+						"label": "Environment",
+						"term": "Environment",
+						"url": "https://www.theguardian.com/environment/environment"
+					},
+					{
+						"label": "Renewable energy",
+						"term": "Renewable energy",
+						"url": "https://www.theguardian.com/environment/renewableenergy"
+					},
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					},
+					{
+						"label": "Charities",
+						"term": "Charities",
+						"url": "https://www.theguardian.com/society/charities"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/environment/2022/apr/05/when-will-world-reach-global-heating-limit-ipcc-climate-crisis",
@@ -1815,7 +3309,33 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Climate crisis",
+						"term": "Climate crisis",
+						"url": "https://www.theguardian.com/environment/climate-crisis"
+					},
+					{
+						"label": "Environment",
+						"term": "Environment",
+						"url": "https://www.theguardian.com/environment/environment"
+					},
+					{
+						"label": "Intergovernmental Panel on Climate Change (IPCC)",
+						"term": "Intergovernmental Panel on Climate Change (IPCC)",
+						"url": "https://www.theguardian.com/environment/ipcc"
+					},
+					{
+						"label": "Science",
+						"term": "Science",
+						"url": "https://www.theguardian.com/science/science"
+					},
+					{
+						"label": "Climate science",
+						"term": "Climate science",
+						"url": "https://www.theguardian.com/science/scienceofclimatechange"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/uk-news/2022/apr/05/man-admits-murder-plymouth-teenager-bobbi-anne-mcleod-cody-ackland",
@@ -1851,7 +3371,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					},
+					{
+						"label": "Plymouth",
+						"term": "Plymouth",
+						"url": "https://www.theguardian.com/uk/plymouth"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/politics/2022/apr/05/partygate-whitehall-braced-for-top-staff-to-be-implicated-in-sue-gray-report",
@@ -1887,7 +3418,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Conservatives",
+						"term": "Conservatives",
+						"url": "https://www.theguardian.com/politics/conservatives"
+					},
+					{
+						"label": "Boris Johnson",
+						"term": "Boris Johnson",
+						"url": "https://www.theguardian.com/politics/boris-johnson"
+					},
+					{
+						"label": "Politics",
+						"term": "Politics",
+						"url": "https://www.theguardian.com/politics/politics"
+					},
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					},
+					{
+						"label": "Coronavirus",
+						"term": "Coronavirus",
+						"url": "https://www.theguardian.com/world/coronavirus-outbreak"
+					},
+					{
+						"label": "Civil service",
+						"term": "Civil service",
+						"url": "https://www.theguardian.com/politics/civil-service"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/uk-news/2022/apr/05/man-found-guilty-murdering-neighbour-front-lawn-gloucestershire-can-arslan-matthew-boorman",
@@ -1923,7 +3485,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/uk-news/2022/apr/05/autistic-girl-14-unlawfully-detained-hospital-high-court-judge-finds",
@@ -1959,7 +3527,33 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Local government",
+						"term": "Local government",
+						"url": "https://www.theguardian.com/society/localgovernment"
+					},
+					{
+						"label": "Manchester",
+						"term": "Manchester",
+						"url": "https://www.theguardian.com/uk/manchester"
+					},
+					{
+						"label": "Greater Manchester",
+						"term": "Greater Manchester",
+						"url": "https://www.theguardian.com/uk/greater-manchester"
+					},
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					},
+					{
+						"label": "Society",
+						"term": "Society",
+						"url": "https://www.theguardian.com/society/society"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/environment/2022/apr/05/ministers-launch-uk-fracking-study-paving-way-to-end-moratorium",
@@ -1995,7 +3589,53 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Fracking",
+						"term": "Fracking",
+						"url": "https://www.theguardian.com/environment/fracking"
+					},
+					{
+						"label": "Politics",
+						"term": "Politics",
+						"url": "https://www.theguardian.com/politics/politics"
+					},
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					},
+					{
+						"label": "Energy",
+						"term": "Energy",
+						"url": "https://www.theguardian.com/environment/energy"
+					},
+					{
+						"label": "Fossil fuels",
+						"term": "Fossil fuels",
+						"url": "https://www.theguardian.com/environment/fossil-fuels"
+					},
+					{
+						"label": "Gas",
+						"term": "Gas",
+						"url": "https://www.theguardian.com/environment/gas"
+					},
+					{
+						"label": "Shale oil",
+						"term": "Shale oil",
+						"url": "https://www.theguardian.com/environment/shale-oil"
+					},
+					{
+						"label": "Conservatives",
+						"term": "Conservatives",
+						"url": "https://www.theguardian.com/politics/conservatives"
+					},
+					{
+						"label": "Environment",
+						"term": "Environment",
+						"url": "https://www.theguardian.com/environment/environment"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/politics/2022/apr/05/labour-calls-for-russian-ambassador-to-be-expelled-over-alleged-war-crimes",
@@ -2031,7 +3671,53 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Foreign policy",
+						"term": "Foreign policy",
+						"url": "https://www.theguardian.com/politics/foreignpolicy"
+					},
+					{
+						"label": "Russia",
+						"term": "Russia",
+						"url": "https://www.theguardian.com/world/russia"
+					},
+					{
+						"label": "Labour",
+						"term": "Labour",
+						"url": "https://www.theguardian.com/politics/labour"
+					},
+					{
+						"label": "Europe",
+						"term": "Europe",
+						"url": "https://www.theguardian.com/world/europe-news"
+					},
+					{
+						"label": "Politics",
+						"term": "Politics",
+						"url": "https://www.theguardian.com/politics/politics"
+					},
+					{
+						"label": "David Lammy",
+						"term": "David Lammy",
+						"url": "https://www.theguardian.com/politics/david-lammy"
+					},
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					},
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "https://www.theguardian.com/world/ukraine"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/liz-truss-russian-economy-foreign-currency-reserves-ukraine-war-putin",
@@ -2067,7 +3753,53 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Foreign policy",
+						"term": "Foreign policy",
+						"url": "https://www.theguardian.com/politics/foreignpolicy"
+					},
+					{
+						"label": "Russia",
+						"term": "Russia",
+						"url": "https://www.theguardian.com/world/russia"
+					},
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "https://www.theguardian.com/world/ukraine"
+					},
+					{
+						"label": "Poland",
+						"term": "Poland",
+						"url": "https://www.theguardian.com/world/poland"
+					},
+					{
+						"label": "Liz Truss",
+						"term": "Liz Truss",
+						"url": "https://www.theguardian.com/politics/liz-truss"
+					},
+					{
+						"label": "Politics",
+						"term": "Politics",
+						"url": "https://www.theguardian.com/politics/politics"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					},
+					{
+						"label": "Europe",
+						"term": "Europe",
+						"url": "https://www.theguardian.com/world/europe-news"
+					},
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/uk-news/2022/apr/05/d-day-veteran-and-fundraiser-harry-billinge-dies-aged-96",
@@ -2103,7 +3835,28 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					},
+					{
+						"label": "Second world war",
+						"term": "Second world war",
+						"url": "https://www.theguardian.com/world/secondworldwar"
+					},
+					{
+						"label": "Military",
+						"term": "Military",
+						"url": "https://www.theguardian.com/uk/military"
+					},
+					{
+						"label": "D-day",
+						"term": "D-day",
+						"url": "https://www.theguardian.com/world/d-day"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/uk-news/2022/apr/05/travel-disruption-as-stena-line-moves-ships-to-fill-po-ferries-gaps",
@@ -2139,7 +3892,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Transport",
+						"term": "Transport",
+						"url": "https://www.theguardian.com/uk/transport"
+					},
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					},
+					{
+						"label": "P&O Ferries",
+						"term": "P&O Ferries",
+						"url": "https://www.theguardian.com/business/p-o-ferries"
+					},
+					{
+						"label": "Business",
+						"term": "Business",
+						"url": "https://www.theguardian.com/business/business"
+					},
+					{
+						"label": "Northern Ireland",
+						"term": "Northern Ireland",
+						"url": "https://www.theguardian.com/uk/northernireland"
+					},
+					{
+						"label": "England",
+						"term": "England",
+						"url": "https://www.theguardian.com/uk-news/england"
+					},
+					{
+						"label": "Scotland",
+						"term": "Scotland",
+						"url": "https://www.theguardian.com/uk/scotland"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/uk-news/2022/apr/05/laura-smallwood-death-inquest-hobby-horse-obby-oss-padstow-cornwall",
@@ -2175,7 +3964,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Cornwall",
+						"term": "Cornwall",
+						"url": "https://www.theguardian.com/uk-news/cornwall"
+					},
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/media/2022/apr/05/attacks-press-mexico-lopez-obrador-presidency-report",
@@ -2211,7 +4011,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Journalist safety",
+						"term": "Journalist safety",
+						"url": "https://www.theguardian.com/media/journalist-safety"
+					},
+					{
+						"label": "Mexico",
+						"term": "Mexico",
+						"url": "https://www.theguardian.com/world/mexico"
+					},
+					{
+						"label": "Andrés Manuel López Obrador",
+						"term": "Andrés Manuel López Obrador",
+						"url": "https://www.theguardian.com/world/andres-manuel-lopez-obrador"
+					},
+					{
+						"label": "Media",
+						"term": "Media",
+						"url": "https://www.theguardian.com/media/media"
+					},
+					{
+						"label": "Americas",
+						"term": "Americas",
+						"url": "https://www.theguardian.com/world/americas"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/russian-mercenaries-and-mali-army-accused-of-killing-300-civilians",
@@ -2247,7 +4078,28 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Mali",
+						"term": "Mali",
+						"url": "https://www.theguardian.com/world/mali"
+					},
+					{
+						"label": "Africa",
+						"term": "Africa",
+						"url": "https://www.theguardian.com/world/africa"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					},
+					{
+						"label": "Human rights",
+						"term": "Human rights",
+						"url": "https://www.theguardian.com/law/human-rights"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/apple-iphone-pegasus-spyware-nso-group-israel-jordan",
@@ -2283,7 +4135,58 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Surveillance",
+						"term": "Surveillance",
+						"url": "https://www.theguardian.com/world/surveillance"
+					},
+					{
+						"label": "Hacking",
+						"term": "Hacking",
+						"url": "https://www.theguardian.com/technology/hacking"
+					},
+					{
+						"label": "Israel",
+						"term": "Israel",
+						"url": "https://www.theguardian.com/world/israel"
+					},
+					{
+						"label": "Jordan",
+						"term": "Jordan",
+						"url": "https://www.theguardian.com/world/jordan"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					},
+					{
+						"label": "Technology",
+						"term": "Technology",
+						"url": "https://www.theguardian.com/technology/technology"
+					},
+					{
+						"label": "Middle East and north Africa",
+						"term": "Middle East and north Africa",
+						"url": "https://www.theguardian.com/world/middleeast"
+					},
+					{
+						"label": "Apple",
+						"term": "Apple",
+						"url": "https://www.theguardian.com/technology/apple"
+					},
+					{
+						"label": "Computing",
+						"term": "Computing",
+						"url": "https://www.theguardian.com/technology/computing"
+					},
+					{
+						"label": "US news",
+						"term": "US news",
+						"url": "https://www.theguardian.com/us-news/us-news"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/nigerian-humanist-mubarak-bala-receives-24-year-jail-sentence",
@@ -2319,7 +4222,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Nigeria",
+						"term": "Nigeria",
+						"url": "https://www.theguardian.com/world/nigeria"
+					},
+					{
+						"label": "Freedom of religion",
+						"term": "Freedom of religion",
+						"url": "https://www.theguardian.com/world/freedom-of-religion"
+					},
+					{
+						"label": "Islam",
+						"term": "Islam",
+						"url": "https://www.theguardian.com/world/islam"
+					},
+					{
+						"label": "Human rights",
+						"term": "Human rights",
+						"url": "https://www.theguardian.com/law/human-rights"
+					},
+					{
+						"label": "Religion",
+						"term": "Religion",
+						"url": "https://www.theguardian.com/world/religion"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					},
+					{
+						"label": "Africa",
+						"term": "Africa",
+						"url": "https://www.theguardian.com/world/africa"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/eu-to-propose-fresh-sanctions-including-ban-on-russian-coal",
@@ -2355,7 +4294,53 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Russia",
+						"term": "Russia",
+						"url": "https://www.theguardian.com/world/russia"
+					},
+					{
+						"label": "Business",
+						"term": "Business",
+						"url": "https://www.theguardian.com/business/business"
+					},
+					{
+						"label": "European Commission",
+						"term": "European Commission",
+						"url": "https://www.theguardian.com/world/european-commission"
+					},
+					{
+						"label": "European Union",
+						"term": "European Union",
+						"url": "https://www.theguardian.com/world/eu"
+					},
+					{
+						"label": "Ursula von der Leyen",
+						"term": "Ursula von der Leyen",
+						"url": "https://www.theguardian.com/world/ursula-von-der-leyen"
+					},
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "https://www.theguardian.com/world/ukraine"
+					},
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					},
+					{
+						"label": "Europe",
+						"term": "Europe",
+						"url": "https://www.theguardian.com/world/europe-news"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/technology/2022/apr/05/amazon-banned-words-list-union-internal-app",
@@ -2391,7 +4376,28 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Amazon",
+						"term": "Amazon",
+						"url": "https://www.theguardian.com/technology/amazon"
+					},
+					{
+						"label": "Technology",
+						"term": "Technology",
+						"url": "https://www.theguardian.com/technology/technology"
+					},
+					{
+						"label": "US news",
+						"term": "US news",
+						"url": "https://www.theguardian.com/us-news/us-news"
+					},
+					{
+						"label": "US unions",
+						"term": "US unions",
+						"url": "https://www.theguardian.com/us-news/us-unions"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/us-news/2022/apr/05/fred-upton-house-republican-retirement-impeach-trump",
@@ -2427,7 +4433,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Republicans",
+						"term": "Republicans",
+						"url": "https://www.theguardian.com/us-news/republicans"
+					},
+					{
+						"label": "House of Representatives",
+						"term": "House of Representatives",
+						"url": "https://www.theguardian.com/us-news/house-of-representatives"
+					},
+					{
+						"label": "US politics",
+						"term": "US politics",
+						"url": "https://www.theguardian.com/us-news/us-politics"
+					},
+					{
+						"label": "US news",
+						"term": "US news",
+						"url": "https://www.theguardian.com/us-news/us-news"
+					},
+					{
+						"label": "Michigan",
+						"term": "Michigan",
+						"url": "https://www.theguardian.com/us-news/michigan"
+					},
+					{
+						"label": "Donald Trump",
+						"term": "Donald Trump",
+						"url": "https://www.theguardian.com/us-news/donaldtrump"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/motorcade-of-shame-outrage-over-pro-russia-displays-at-berlin-rally",
@@ -2463,7 +4500,28 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Germany",
+						"term": "Germany",
+						"url": "https://www.theguardian.com/world/germany"
+					},
+					{
+						"label": "Russia",
+						"term": "Russia",
+						"url": "https://www.theguardian.com/world/russia"
+					},
+					{
+						"label": "Europe",
+						"term": "Europe",
+						"url": "https://www.theguardian.com/world/europe-news"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/shanghai-puts-whole-city-on-lockdown-as-covid-cases-surge",
@@ -2499,7 +4557,28 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "China",
+						"term": "China",
+						"url": "https://www.theguardian.com/world/china"
+					},
+					{
+						"label": "Coronavirus",
+						"term": "Coronavirus",
+						"url": "https://www.theguardian.com/world/coronavirus-outbreak"
+					},
+					{
+						"label": "Asia Pacific",
+						"term": "Asia Pacific",
+						"url": "https://www.theguardian.com/world/asia-pacific"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/us-news/2022/apr/05/ivanka-trump-capitol-attack-committee-january-6",
@@ -2535,7 +4614,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Ivanka Trump",
+						"term": "Ivanka Trump",
+						"url": "https://www.theguardian.com/us-news/ivanka-trump"
+					},
+					{
+						"label": "Jared Kushner",
+						"term": "Jared Kushner",
+						"url": "https://www.theguardian.com/us-news/jared-kushner"
+					},
+					{
+						"label": "Donald Trump",
+						"term": "Donald Trump",
+						"url": "https://www.theguardian.com/us-news/donaldtrump"
+					},
+					{
+						"label": "US news",
+						"term": "US news",
+						"url": "https://www.theguardian.com/us-news/us-news"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					},
+					{
+						"label": "US Capitol attack",
+						"term": "US Capitol attack",
+						"url": "https://www.theguardian.com/us-news/us-capitol-breach"
+					},
+					{
+						"label": "US politics",
+						"term": "US politics",
+						"url": "https://www.theguardian.com/us-news/us-politics"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/news/audio/2022/apr/05/babies-in-bunkers-surrogate-mothers-infants-trapped-ukraine-podcast",
@@ -2571,7 +4686,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "https://www.theguardian.com/world/ukraine"
+					},
+					{
+						"label": "Surrogacy",
+						"term": "Surrogacy",
+						"url": "https://www.theguardian.com/lifeandstyle/surrogacy"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/news/audio/2022/apr/04/how-fentanyl-flooded-the-us-and-sent-opioid-deaths-soaring-podcast",
@@ -2643,7 +4769,28 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Deep-sea mining",
+						"term": "Deep-sea mining",
+						"url": "https://www.theguardian.com/environment/deep-sea-mining"
+					},
+					{
+						"label": "Mining",
+						"term": "Mining",
+						"url": "https://www.theguardian.com/environment/mining"
+					},
+					{
+						"label": "Environment",
+						"term": "Environment",
+						"url": "https://www.theguardian.com/environment/environment"
+					},
+					{
+						"label": "Oceans",
+						"term": "Oceans",
+						"url": "https://www.theguardian.com/environment/oceans"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/environment/video/2022/mar/24/why-are-we-burning-our-recycling-video",
@@ -2679,7 +4826,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Recycling",
+						"term": "Recycling",
+						"url": "https://www.theguardian.com/environment/recycling"
+					},
+					{
+						"label": "Waste",
+						"term": "Waste",
+						"url": "https://www.theguardian.com/environment/waste"
+					},
+					{
+						"label": "Environment",
+						"term": "Environment",
+						"url": "https://www.theguardian.com/environment/environment"
+					},
+					{
+						"label": "Local government",
+						"term": "Local government",
+						"url": "https://www.theguardian.com/society/localgovernment"
+					},
+					{
+						"label": "Greenhouse gas emissions",
+						"term": "Greenhouse gas emissions",
+						"url": "https://www.theguardian.com/environment/carbon-emissions"
+					},
+					{
+						"label": "Plastics",
+						"term": "Plastics",
+						"url": "https://www.theguardian.com/environment/plastic"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/global/video/2022/mar/30/life-as-a-refugee-in-calais-the-ukraine-war-is-a-wake-up-call-video",
@@ -2715,7 +4893,28 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Refugees",
+						"term": "Refugees",
+						"url": "https://www.theguardian.com/world/refugees"
+					},
+					{
+						"label": "Calais",
+						"term": "Calais",
+						"url": "https://www.theguardian.com/world/calais"
+					},
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "https://www.theguardian.com/world/ukraine"
+					},
+					{
+						"label": "Migration",
+						"term": "Migration",
+						"url": "https://www.theguardian.com/world/migration"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/world/video/2022/apr/04/drone-footage-show-a-deserted-shanghai-as-the-city-remains-in-lockdown-video",
@@ -2745,7 +4944,28 @@
 					}
 				],
 				"authors": [],
-				"categories": []
+				"categories": [
+					{
+						"label": "China",
+						"term": "China",
+						"url": "https://www.theguardian.com/world/china"
+					},
+					{
+						"label": "Asia Pacific",
+						"term": "Asia Pacific",
+						"url": "https://www.theguardian.com/world/asia-pacific"
+					},
+					{
+						"label": "Coronavirus",
+						"term": "Coronavirus",
+						"url": "https://www.theguardian.com/world/coronavirus-outbreak"
+					},
+					{
+						"label": "Omicron variant",
+						"term": "Omicron variant",
+						"url": "https://www.theguardian.com/world/omicron"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/world/video/2022/apr/02/russian-forces-ukrainian-protesters-enerhodar-video",
@@ -2775,7 +4995,28 @@
 					}
 				],
 				"authors": [],
-				"categories": []
+				"categories": [
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "https://www.theguardian.com/world/ukraine"
+					},
+					{
+						"label": "Russia",
+						"term": "Russia",
+						"url": "https://www.theguardian.com/world/russia"
+					},
+					{
+						"label": "Europe",
+						"term": "Europe",
+						"url": "https://www.theguardian.com/world/europe-news"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/world/video/2022/mar/21/the-last-bar-in-kyiv-ukraines-buena-vista-holds-on-video",
@@ -2811,7 +5052,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "https://www.theguardian.com/world/ukraine"
+					},
+					{
+						"label": "Kyiv",
+						"term": "Kyiv",
+						"url": "https://www.theguardian.com/world/kyiv"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/world/video/2022/mar/18/just-a-quiet-place-the-hungarian-border-village-helping-ukraines-refugees-video",
@@ -2847,7 +5099,23 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Hungary",
+						"term": "Hungary",
+						"url": "https://www.theguardian.com/world/hungary"
+					},
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "https://www.theguardian.com/world/ukraine"
+					},
+					{
+						"label": "Refugees",
+						"term": "Refugees",
+						"url": "https://www.theguardian.com/world/refugees"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/world/video/2022/mar/17/live-in-the-mess-that-putin-has-created-a-tour-of-russian-oligarch-linked-properties-in-london",
@@ -2883,7 +5151,28 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Russia",
+						"term": "Russia",
+						"url": "https://www.theguardian.com/world/russia"
+					},
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "https://www.theguardian.com/world/ukraine"
+					},
+					{
+						"label": "London",
+						"term": "London",
+						"url": "https://www.theguardian.com/uk/london"
+					},
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/stage/2022/apr/05/i-couldnt-keep-it-inside-ballet-star-olga-smirnova-on-quitting-the-bolshoi-and-fleeing-russia",
@@ -2919,7 +5208,53 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Dance",
+						"term": "Dance",
+						"url": "https://www.theguardian.com/stage/dance"
+					},
+					{
+						"label": "Stage",
+						"term": "Stage",
+						"url": "https://www.theguardian.com/stage/stage"
+					},
+					{
+						"label": "Ballet",
+						"term": "Ballet",
+						"url": "https://www.theguardian.com/stage/ballet"
+					},
+					{
+						"label": "Culture",
+						"term": "Culture",
+						"url": "https://www.theguardian.com/culture/culture"
+					},
+					{
+						"label": "Bolshoi",
+						"term": "Bolshoi",
+						"url": "https://www.theguardian.com/stage/bolshoi"
+					},
+					{
+						"label": "Mariinsky Ballet",
+						"term": "Mariinsky Ballet",
+						"url": "https://www.theguardian.com/stage/mariinsky-ballet"
+					},
+					{
+						"label": "Russia",
+						"term": "Russia",
+						"url": "https://www.theguardian.com/world/russia"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					},
+					{
+						"label": "Europe",
+						"term": "Europe",
+						"url": "https://www.theguardian.com/world/europe-news"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/tv-and-radio/2022/apr/05/im-going-to-get-so-roasted-for-this-the-nail-biting-university-challenge-final-reviewed-by-last-years-winner",
@@ -2955,7 +5290,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Television",
+						"term": "Television",
+						"url": "https://www.theguardian.com/culture/television"
+					},
+					{
+						"label": "Television & radio",
+						"term": "Television & radio",
+						"url": "https://www.theguardian.com/tv-and-radio/tv-and-radio"
+					},
+					{
+						"label": "Culture",
+						"term": "Culture",
+						"url": "https://www.theguardian.com/culture/culture"
+					},
+					{
+						"label": "University Challenge",
+						"term": "University Challenge",
+						"url": "https://www.theguardian.com/tv-and-radio/university-challenge"
+					},
+					{
+						"label": "Game shows",
+						"term": "Game shows",
+						"url": "https://www.theguardian.com/tv-and-radio/game-shows"
+					},
+					{
+						"label": "BBC",
+						"term": "BBC",
+						"url": "https://www.theguardian.com/media/bbc"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/books/2022/apr/05/what-were-reading-writers-and-readers-on-the-books-they-enjoyed-in-march",
@@ -2991,7 +5357,28 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Books",
+						"term": "Books",
+						"url": "https://www.theguardian.com/books/books"
+					},
+					{
+						"label": "Culture",
+						"term": "Culture",
+						"url": "https://www.theguardian.com/culture/culture"
+					},
+					{
+						"label": "Kazuo Ishiguro",
+						"term": "Kazuo Ishiguro",
+						"url": "https://www.theguardian.com/books/kazuoishiguro"
+					},
+					{
+						"label": "Warsan Shire",
+						"term": "Warsan Shire",
+						"url": "https://www.theguardian.com/books/warsan-shire"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/music/2022/apr/05/joe-messina-obituary",
@@ -3027,7 +5414,33 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Motown records",
+						"term": "Motown records",
+						"url": "https://www.theguardian.com/music/motown"
+					},
+					{
+						"label": "Music",
+						"term": "Music",
+						"url": "https://www.theguardian.com/music/music"
+					},
+					{
+						"label": "Culture",
+						"term": "Culture",
+						"url": "https://www.theguardian.com/culture/culture"
+					},
+					{
+						"label": "Pop and rock",
+						"term": "Pop and rock",
+						"url": "https://www.theguardian.com/music/popandrock"
+					},
+					{
+						"label": "US news",
+						"term": "US news",
+						"url": "https://www.theguardian.com/us-news/us-news"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/books/2022/apr/05/im-not-scared-of-war-any-more-death-and-the-penguin-author-andrey-kurkov-on-life-in-kyiv",
@@ -3063,7 +5476,53 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Andrey Kurkov",
+						"term": "Andrey Kurkov",
+						"url": "https://www.theguardian.com/books/andrey-kurkov"
+					},
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "https://www.theguardian.com/world/ukraine"
+					},
+					{
+						"label": "Books",
+						"term": "Books",
+						"url": "https://www.theguardian.com/books/books"
+					},
+					{
+						"label": "Culture",
+						"term": "Culture",
+						"url": "https://www.theguardian.com/culture/culture"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					},
+					{
+						"label": "Europe",
+						"term": "Europe",
+						"url": "https://www.theguardian.com/world/europe-news"
+					},
+					{
+						"label": "Russia",
+						"term": "Russia",
+						"url": "https://www.theguardian.com/world/russia"
+					},
+					{
+						"label": "Volodymyr Zelenskiy",
+						"term": "Volodymyr Zelenskiy",
+						"url": "https://www.theguardian.com/world/volodymyr-zelenskiy"
+					},
+					{
+						"label": "Vladimir Putin",
+						"term": "Vladimir Putin",
+						"url": "https://www.theguardian.com/world/vladimir-putin"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/tv-and-radio/2022/apr/05/dodger-the-oliver-twist-prequel-thats-scary-starry-and-totally-irresistible-tv",
@@ -3099,7 +5558,63 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Television",
+						"term": "Television",
+						"url": "https://www.theguardian.com/culture/television"
+					},
+					{
+						"label": "Culture",
+						"term": "Culture",
+						"url": "https://www.theguardian.com/culture/culture"
+					},
+					{
+						"label": "Television & radio",
+						"term": "Television & radio",
+						"url": "https://www.theguardian.com/tv-and-radio/tv-and-radio"
+					},
+					{
+						"label": "CBBC",
+						"term": "CBBC",
+						"url": "https://www.theguardian.com/media/cbbc"
+					},
+					{
+						"label": "Christopher Eccleston",
+						"term": "Christopher Eccleston",
+						"url": "https://www.theguardian.com/culture/christopher-eccleston"
+					},
+					{
+						"label": "David Threlfall",
+						"term": "David Threlfall",
+						"url": "https://www.theguardian.com/culture/david-threlfall"
+					},
+					{
+						"label": "Alexei Sayle",
+						"term": "Alexei Sayle",
+						"url": "https://www.theguardian.com/stage/alexei-sayle"
+					},
+					{
+						"label": "Frances Barber",
+						"term": "Frances Barber",
+						"url": "https://www.theguardian.com/culture/frances-barber"
+					},
+					{
+						"label": "Charles Dickens",
+						"term": "Charles Dickens",
+						"url": "https://www.theguardian.com/books/charlesdickens"
+					},
+					{
+						"label": "Drama",
+						"term": "Drama",
+						"url": "https://www.theguardian.com/tv-and-radio/drama"
+					},
+					{
+						"label": "Children's TV",
+						"term": "Children's TV",
+						"url": "https://www.theguardian.com/tv-and-radio/childrens-tv"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/retail-reimagined/2022/jan/13/how-businesses-can-reach-savvy-online-shoppers-theres-genuine-value-in-having-a-nice-experience",
@@ -3135,7 +5650,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Retail reimagined",
+						"term": "Retail reimagined",
+						"url": "https://www.theguardian.com/retail-reimagined/retail-reimagined"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/retail-reimagined/2022/jan/13/from-contactless-to-digital-wallets-how-retail-is-adapting-to-new-trends",
@@ -3171,7 +5692,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Retail reimagined",
+						"term": "Retail reimagined",
+						"url": "https://www.theguardian.com/retail-reimagined/retail-reimagined"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/retail-reimagined/2022/jan/13/cash-is-no-longer-king-the-rapid-shift-to-e-commerce",
@@ -3207,7 +5734,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Retail reimagined",
+						"term": "Retail reimagined",
+						"url": "https://www.theguardian.com/retail-reimagined/retail-reimagined"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/retail-reimagined/2022/jan/13/delivery-has-become-a-competitive-differentiator-timeliness-is-essential-in-e-commerce",
@@ -3243,7 +5776,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Retail reimagined",
+						"term": "Retail reimagined",
+						"url": "https://www.theguardian.com/retail-reimagined/retail-reimagined"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/lifeandstyle/2022/apr/05/after-30-years-of-great-sex-my-husbands-new-look-is-a-total-turn-off",
@@ -3279,7 +5818,33 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Life and style",
+						"term": "Life and style",
+						"url": "https://www.theguardian.com/lifeandstyle/lifeandstyle"
+					},
+					{
+						"label": "Sex",
+						"term": "Sex",
+						"url": "https://www.theguardian.com/lifeandstyle/sex"
+					},
+					{
+						"label": "Menopause",
+						"term": "Menopause",
+						"url": "https://www.theguardian.com/society/menopause"
+					},
+					{
+						"label": "Society",
+						"term": "Society",
+						"url": "https://www.theguardian.com/society/society"
+					},
+					{
+						"label": "Women",
+						"term": "Women",
+						"url": "https://www.theguardian.com/lifeandstyle/women"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/food/2022/apr/05/nigel-slaters-recipe-for-miso-mushroom-soup",
@@ -3315,7 +5880,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Food",
+						"term": "Food",
+						"url": "https://www.theguardian.com/food/food"
+					},
+					{
+						"label": "Veganism",
+						"term": "Veganism",
+						"url": "https://www.theguardian.com/lifeandstyle/veganism"
+					},
+					{
+						"label": "Vegetarianism",
+						"term": "Vegetarianism",
+						"url": "https://www.theguardian.com/lifeandstyle/vegetarianism"
+					},
+					{
+						"label": "Vegetarian food and drink",
+						"term": "Vegetarian food and drink",
+						"url": "https://www.theguardian.com/food/vegetarian"
+					},
+					{
+						"label": "Vegetables",
+						"term": "Vegetables",
+						"url": "https://www.theguardian.com/food/vegetables"
+					},
+					{
+						"label": "Life and style",
+						"term": "Life and style",
+						"url": "https://www.theguardian.com/lifeandstyle/lifeandstyle"
+					},
+					{
+						"label": "Vegan food and drink",
+						"term": "Vegan food and drink",
+						"url": "https://www.theguardian.com/food/vegan"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/travel/2022/apr/05/rail-route-of-the-month-barcelona-to-cadiz-the-slow-train-right-across-spain",
@@ -3351,7 +5952,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Rail travel",
+						"term": "Rail travel",
+						"url": "https://www.theguardian.com/travel/railtravel"
+					},
+					{
+						"label": "Spain holidays",
+						"term": "Spain holidays",
+						"url": "https://www.theguardian.com/travel/spain"
+					},
+					{
+						"label": "Travel",
+						"term": "Travel",
+						"url": "https://www.theguardian.com/travel/travel"
+					},
+					{
+						"label": "Seville holidays",
+						"term": "Seville holidays",
+						"url": "https://www.theguardian.com/travel/seville"
+					},
+					{
+						"label": "Barcelona holidays",
+						"term": "Barcelona holidays",
+						"url": "https://www.theguardian.com/travel/barcelona"
+					},
+					{
+						"label": "Europe holidays",
+						"term": "Europe holidays",
+						"url": "https://www.theguardian.com/travel/europe"
+					},
+					{
+						"label": "Catalonia holidays",
+						"term": "Catalonia holidays",
+						"url": "https://www.theguardian.com/travel/catalonia"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/money/2022/apr/05/locked-out-of-account-co-op-bank-emails",
@@ -3387,7 +6024,48 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Consumer affairs",
+						"term": "Consumer affairs",
+						"url": "https://www.theguardian.com/money/consumer-affairs"
+					},
+					{
+						"label": "Consumer rights",
+						"term": "Consumer rights",
+						"url": "https://www.theguardian.com/money/consumer-rights-money"
+					},
+					{
+						"label": "Money",
+						"term": "Money",
+						"url": "https://www.theguardian.com/money/money"
+					},
+					{
+						"label": "Banking",
+						"term": "Banking",
+						"url": "https://www.theguardian.com/business/banking"
+					},
+					{
+						"label": "Co-operative Group",
+						"term": "Co-operative Group",
+						"url": "https://www.theguardian.com/business/co-operative-group"
+					},
+					{
+						"label": "Business",
+						"term": "Business",
+						"url": "https://www.theguardian.com/business/business"
+					},
+					{
+						"label": "Retail industry",
+						"term": "Retail industry",
+						"url": "https://www.theguardian.com/business/retail"
+					},
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/science/2022/apr/04/pet-cloning-how-the-rich-are-spending-up-to-38000-for-rover-version-20",
@@ -3417,7 +6095,33 @@
 					}
 				],
 				"authors": [],
-				"categories": []
+				"categories": [
+					{
+						"label": "Cloning",
+						"term": "Cloning",
+						"url": "https://www.theguardian.com/science/cloning"
+					},
+					{
+						"label": "Pets",
+						"term": "Pets",
+						"url": "https://www.theguardian.com/lifeandstyle/pets"
+					},
+					{
+						"label": "Life and style",
+						"term": "Life and style",
+						"url": "https://www.theguardian.com/lifeandstyle/lifeandstyle"
+					},
+					{
+						"label": "Science",
+						"term": "Science",
+						"url": "https://www.theguardian.com/science/science"
+					},
+					{
+						"label": "Genetics",
+						"term": "Genetics",
+						"url": "https://www.theguardian.com/science/genetics"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/food/2022/apr/04/greek-lamb-orzo-tomato-feta-recipe-thomasina-miers",
@@ -3453,7 +6157,48 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Food",
+						"term": "Food",
+						"url": "https://www.theguardian.com/food/food"
+					},
+					{
+						"label": "Meat",
+						"term": "Meat",
+						"url": "https://www.theguardian.com/food/meat"
+					},
+					{
+						"label": "Lamb",
+						"term": "Lamb",
+						"url": "https://www.theguardian.com/food/lamb"
+					},
+					{
+						"label": "Greek food and drink",
+						"term": "Greek food and drink",
+						"url": "https://www.theguardian.com/food/greek-food-and-drink"
+					},
+					{
+						"label": "Pasta",
+						"term": "Pasta",
+						"url": "https://www.theguardian.com/food/pasta"
+					},
+					{
+						"label": "Main course",
+						"term": "Main course",
+						"url": "https://www.theguardian.com/food/main-course"
+					},
+					{
+						"label": "Tomatoes",
+						"term": "Tomatoes",
+						"url": "https://www.theguardian.com/food/tomatoes"
+					},
+					{
+						"label": "Cheese",
+						"term": "Cheese",
+						"url": "https://www.theguardian.com/food/cheese"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/society/2022/apr/05/tell-us-are-you-an-lgbtq-person-over-75-in-the-uk",
@@ -3489,7 +6234,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Older people",
+						"term": "Older people",
+						"url": "https://www.theguardian.com/society/older-people"
+					},
+					{
+						"label": "LGBT rights",
+						"term": "LGBT rights",
+						"url": "https://www.theguardian.com/world/lgbt-rights"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/money/2022/apr/05/tell-us-how-much-have-your-uk-prepay-electricity-and-gas-meter-costs-increased",
@@ -3525,7 +6281,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Money",
+						"term": "Money",
+						"url": "https://www.theguardian.com/money/money"
+					},
+					{
+						"label": "Gas",
+						"term": "Gas",
+						"url": "https://www.theguardian.com/business/gas"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/business/2022/apr/05/tell-us-how-have-you-been-affected-by-the-recent-travel-chaos-in-the-uk",
@@ -3561,7 +6328,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Travel & leisure",
+						"term": "Travel & leisure",
+						"url": "https://www.theguardian.com/business/travelleisure"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/business/2022/apr/05/cost-of-food-in-the-uk-tell-us-the-price-difference-compared-with-last-year",
@@ -3597,7 +6370,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Inflation",
+						"term": "Inflation",
+						"url": "https://www.theguardian.com/business/inflation"
+					},
+					{
+						"label": "Business",
+						"term": "Business",
+						"url": "https://www.theguardian.com/business/business"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/i-lowered-my-guard-four-people-on-catching-covid-for-the-first-time",
@@ -3633,7 +6417,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Coronavirus",
+						"term": "Coronavirus",
+						"url": "https://www.theguardian.com/world/coronavirus-outbreak"
+					},
+					{
+						"label": "Health",
+						"term": "Health",
+						"url": "https://www.theguardian.com/society/health"
+					},
+					{
+						"label": "Cost of living crisis",
+						"term": "Cost of living crisis",
+						"url": "https://www.theguardian.com/business/cost-of-living-crisis"
+					},
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					},
+					{
+						"label": "Office for National Statistics",
+						"term": "Office for National Statistics",
+						"url": "https://www.theguardian.com/uk/office-for-national-statistics"
+					},
+					{
+						"label": "Fuel poverty",
+						"term": "Fuel poverty",
+						"url": "https://www.theguardian.com/society/fuel-poverty"
+					},
+					{
+						"label": "Energy bills",
+						"term": "Energy bills",
+						"url": "https://www.theguardian.com/money/energy"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/uk-news/2022/apr/05/selman-turk-exiled-businessman-prince-andrew",
@@ -3669,7 +6489,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/business/2022/apr/05/food-price-rises-ukraine-war-cooking-oil",
@@ -3705,7 +6531,78 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Cost of living crisis",
+						"term": "Cost of living crisis",
+						"url": "https://www.theguardian.com/business/cost-of-living-crisis"
+					},
+					{
+						"label": "Business",
+						"term": "Business",
+						"url": "https://www.theguardian.com/business/business"
+					},
+					{
+						"label": "Consumer spending",
+						"term": "Consumer spending",
+						"url": "https://www.theguardian.com/business/consumerspending"
+					},
+					{
+						"label": "Food & drink industry",
+						"term": "Food & drink industry",
+						"url": "https://www.theguardian.com/business/fooddrinks"
+					},
+					{
+						"label": "Hospitality industry",
+						"term": "Hospitality industry",
+						"url": "https://www.theguardian.com/business/hospitality-industry"
+					},
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					},
+					{
+						"label": "Food",
+						"term": "Food",
+						"url": "https://www.theguardian.com/food/food"
+					},
+					{
+						"label": "Economics",
+						"term": "Economics",
+						"url": "https://www.theguardian.com/business/economics"
+					},
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "https://www.theguardian.com/world/ukraine"
+					},
+					{
+						"label": "Europe",
+						"term": "Europe",
+						"url": "https://www.theguardian.com/world/europe-news"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					},
+					{
+						"label": "Household bills",
+						"term": "Household bills",
+						"url": "https://www.theguardian.com/money/household-bills"
+					},
+					{
+						"label": "Consumer affairs",
+						"term": "Consumer affairs",
+						"url": "https://www.theguardian.com/money/consumer-affairs"
+					},
+					{
+						"label": "Money",
+						"term": "Money",
+						"url": "https://www.theguardian.com/money/money"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/thailand-dreams-of-high-end-cannabis-tourism-after-marijuana-is-legalised",
@@ -3741,7 +6638,23 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Thailand",
+						"term": "Thailand",
+						"url": "https://www.theguardian.com/world/thailand"
+					},
+					{
+						"label": "Cannabis",
+						"term": "Cannabis",
+						"url": "https://www.theguardian.com/society/cannabis"
+					},
+					{
+						"label": "Asia Pacific",
+						"term": "Asia Pacific",
+						"url": "https://www.theguardian.com/world/asia-pacific"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/world/2022/apr/05/this-is-inhumane-the-cost-of-zero-covid-in-shanghai",
@@ -3777,7 +6690,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "China",
+						"term": "China",
+						"url": "https://www.theguardian.com/world/china"
+					},
+					{
+						"label": "Coronavirus",
+						"term": "Coronavirus",
+						"url": "https://www.theguardian.com/world/coronavirus-outbreak"
+					},
+					{
+						"label": "Asia Pacific",
+						"term": "Asia Pacific",
+						"url": "https://www.theguardian.com/world/asia-pacific"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					},
+					{
+						"label": "Health",
+						"term": "Health",
+						"url": "https://www.theguardian.com/society/health"
+					},
+					{
+						"label": "Infectious diseases",
+						"term": "Infectious diseases",
+						"url": "https://www.theguardian.com/science/infectiousdiseases"
+					},
+					{
+						"label": "Omicron variant",
+						"term": "Omicron variant",
+						"url": "https://www.theguardian.com/world/omicron"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/info/2016/mar/01/the-morning-briefing-start-the-day-one-step-ahead",
@@ -3813,7 +6762,23 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					},
+					{
+						"label": "Information",
+						"term": "Information",
+						"url": "https://www.theguardian.com/info/info"
+					},
+					{
+						"label": "Newsletter sign-up",
+						"term": "Newsletter sign-up",
+						"url": "https://www.theguardian.com/info/newsletter-sign-up"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/info/ng-interactive/2021/jun/25/techscape-sign-up",
@@ -3843,7 +6808,23 @@
 					}
 				],
 				"authors": [],
-				"categories": []
+				"categories": [
+					{
+						"label": "Information",
+						"term": "Information",
+						"url": "https://www.theguardian.com/info/info"
+					},
+					{
+						"label": "Technology",
+						"term": "Technology",
+						"url": "https://www.theguardian.com/technology/technology"
+					},
+					{
+						"label": "Newsletter sign-up",
+						"term": "Newsletter sign-up",
+						"url": "https://www.theguardian.com/info/newsletter-sign-up"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/info/ng-interactive/2021/oct/20/sign-up-for-down-to-earth-the-best-way-to-make-sense-of-the-biggest-environment-stories",
@@ -3873,7 +6854,18 @@
 					}
 				],
 				"authors": [],
-				"categories": []
+				"categories": [
+					{
+						"label": "Information",
+						"term": "Information",
+						"url": "https://www.theguardian.com/info/info"
+					},
+					{
+						"label": "Newsletter sign-up",
+						"term": "Newsletter sign-up",
+						"url": "https://www.theguardian.com/info/newsletter-sign-up"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/football/2022/mar/22/sign-up-for-our-new-womens-football-newsletter-moving-the-goalposts",
@@ -3909,7 +6901,23 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Football",
+						"term": "Football",
+						"url": "https://www.theguardian.com/football/football"
+					},
+					{
+						"label": "Women's football",
+						"term": "Women's football",
+						"url": "https://www.theguardian.com/football/womensfootball"
+					},
+					{
+						"label": "Sport",
+						"term": "Sport",
+						"url": "https://www.theguardian.com/sport/sport"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/news/gallery/2022/apr/05/selfie-museum-pablo-escobar-hippos-tuesdays-best-photos",
@@ -3945,7 +6953,28 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "UK news",
+						"term": "UK news",
+						"url": "https://www.theguardian.com/uk/uk"
+					},
+					{
+						"label": "Photography",
+						"term": "Photography",
+						"url": "https://www.theguardian.com/artanddesign/photography"
+					},
+					{
+						"label": "Society",
+						"term": "Society",
+						"url": "https://www.theguardian.com/society/society"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/artanddesign/gallery/2022/apr/05/a-1950s-idea-of-the-future-that-went-wrong-joe-webbs-dystopian-collages-in-pictures",
@@ -3975,7 +7004,33 @@
 					}
 				],
 				"authors": [],
-				"categories": []
+				"categories": [
+					{
+						"label": "Photography",
+						"term": "Photography",
+						"url": "https://www.theguardian.com/artanddesign/photography"
+					},
+					{
+						"label": "Art",
+						"term": "Art",
+						"url": "https://www.theguardian.com/artanddesign/art"
+					},
+					{
+						"label": "Art and design",
+						"term": "Art and design",
+						"url": "https://www.theguardian.com/artanddesign/artanddesign"
+					},
+					{
+						"label": "Culture",
+						"term": "Culture",
+						"url": "https://www.theguardian.com/culture/culture"
+					},
+					{
+						"label": "Books",
+						"term": "Books",
+						"url": "https://www.theguardian.com/books/books"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/music/gallery/2022/apr/04/the-64th-annual-grammy-awards-in-pictures",
@@ -4011,7 +7066,93 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Grammy awards 2022",
+						"term": "Grammy awards 2022",
+						"url": "https://www.theguardian.com/music/grammy-awards-2022"
+					},
+					{
+						"label": "Grammys",
+						"term": "Grammys",
+						"url": "https://www.theguardian.com/music/grammys"
+					},
+					{
+						"label": "Music",
+						"term": "Music",
+						"url": "https://www.theguardian.com/music/music"
+					},
+					{
+						"label": "Culture",
+						"term": "Culture",
+						"url": "https://www.theguardian.com/culture/culture"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					},
+					{
+						"label": "Awards and prizes",
+						"term": "Awards and prizes",
+						"url": "https://www.theguardian.com/culture/awards-and-prizes"
+					},
+					{
+						"label": "Olivia Rodrigo",
+						"term": "Olivia Rodrigo",
+						"url": "https://www.theguardian.com/music/olivia-rodrigo"
+					},
+					{
+						"label": "BTS",
+						"term": "BTS",
+						"url": "https://www.theguardian.com/music/bts"
+					},
+					{
+						"label": "Billie Eilish",
+						"term": "Billie Eilish",
+						"url": "https://www.theguardian.com/music/billie-eilish"
+					},
+					{
+						"label": "Lil Nas X",
+						"term": "Lil Nas X",
+						"url": "https://www.theguardian.com/music/lil-nas-x"
+					},
+					{
+						"label": "Lady Gaga",
+						"term": "Lady Gaga",
+						"url": "https://www.theguardian.com/music/lady-gaga"
+					},
+					{
+						"label": "HER",
+						"term": "HER",
+						"url": "https://www.theguardian.com/music/her"
+					},
+					{
+						"label": "Lenny Kravitz",
+						"term": "Lenny Kravitz",
+						"url": "https://www.theguardian.com/music/lenny-kravitz"
+					},
+					{
+						"label": "Justin Bieber",
+						"term": "Justin Bieber",
+						"url": "https://www.theguardian.com/music/justin-bieber"
+					},
+					{
+						"label": "Brandi Carlile",
+						"term": "Brandi Carlile",
+						"url": "https://www.theguardian.com/music/brandi-carlile"
+					},
+					{
+						"label": "John Legend",
+						"term": "John Legend",
+						"url": "https://www.theguardian.com/music/johnlegend"
+					},
+					{
+						"label": "Doja Cat",
+						"term": "Doja Cat",
+						"url": "https://www.theguardian.com/music/doja-cat"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/artanddesign/gallery/2022/apr/04/an-invincible-summer-fotografia-europea-in-pictures",
@@ -4041,7 +7182,38 @@
 					}
 				],
 				"authors": [],
-				"categories": []
+				"categories": [
+					{
+						"label": "Photography",
+						"term": "Photography",
+						"url": "https://www.theguardian.com/artanddesign/photography"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					},
+					{
+						"label": "Italy",
+						"term": "Italy",
+						"url": "https://www.theguardian.com/world/italy"
+					},
+					{
+						"label": "Art and design",
+						"term": "Art and design",
+						"url": "https://www.theguardian.com/artanddesign/artanddesign"
+					},
+					{
+						"label": "Europe",
+						"term": "Europe",
+						"url": "https://www.theguardian.com/world/europe-news"
+					},
+					{
+						"label": "Culture",
+						"term": "Culture",
+						"url": "https://www.theguardian.com/culture/culture"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/world/gallery/2022/apr/03/photographer-maksim-levins-work-in-ukraine-in-pictures",
@@ -4077,7 +7249,33 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Ukraine",
+						"term": "Ukraine",
+						"url": "https://www.theguardian.com/world/ukraine"
+					},
+					{
+						"label": "News photography",
+						"term": "News photography",
+						"url": "https://www.theguardian.com/media/news-photography"
+					},
+					{
+						"label": "World news",
+						"term": "World news",
+						"url": "https://www.theguardian.com/world/world"
+					},
+					{
+						"label": "Europe",
+						"term": "Europe",
+						"url": "https://www.theguardian.com/world/europe-news"
+					},
+					{
+						"label": "Media",
+						"term": "Media",
+						"url": "https://www.theguardian.com/media/media"
+					}
+				]
 			},
 			{
 				"id": "https://www.theguardian.com/sport/gallery/2022/apr/03/the-boat-races-2022-in-pictures",
@@ -4113,7 +7311,28 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "The Boat Race",
+						"term": "The Boat Race",
+						"url": "https://www.theguardian.com/sport/boat-race"
+					},
+					{
+						"label": "Rowing",
+						"term": "Rowing",
+						"url": "https://www.theguardian.com/sport/rowing"
+					},
+					{
+						"label": "Photography",
+						"term": "Photography",
+						"url": "https://www.theguardian.com/artanddesign/photography"
+					},
+					{
+						"label": "Sport",
+						"term": "Sport",
+						"url": "https://www.theguardian.com/sport/sport"
+					}
+				]
 			}
 		]
 	}

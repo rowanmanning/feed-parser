@@ -41,7 +41,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Featured",
+						"term": "Featured",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.macrumors.com/2022/04/05/everything-new-ios-15-5-beta/",
@@ -60,7 +66,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Featured",
+						"term": "Featured",
+						"url": null
+					},
+					{
+						"label": "iOS 15",
+						"term": "iOS 15",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.macrumors.com/2022/04/05/apple-seeds-macos-monterey-12-4-beta-1/",
@@ -79,7 +96,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Featured",
+						"term": "Featured",
+						"url": null
+					},
+					{
+						"label": "macOS Monterey",
+						"term": "macOS Monterey",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.macrumors.com/2022/04/05/apple-seeds-ios-15-5-beta-1-to-developers/",
@@ -98,7 +126,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Featured",
+						"term": "Featured",
+						"url": null
+					},
+					{
+						"label": "iOS 15",
+						"term": "iOS 15",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.macrumors.com/2022/04/05/apple-seeds-watchos-8-6-beta-1-to-developers/",
@@ -117,7 +156,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "watchOS",
+						"term": "watchOS",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.macrumors.com/2022/04/05/apple-seeds-tvos-15-5-beta-1-to-developers/",
@@ -136,7 +181,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Apple TV",
+						"term": "Apple TV",
+						"url": null
+					},
+					{
+						"label": "Blurb",
+						"term": "Blurb",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.macrumors.com/2022/04/05/app-store-subscription-pricing-increase-changes/",
@@ -155,7 +211,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "App Store",
+						"term": "App Store",
+						"url": null
+					},
+					{
+						"label": "Apple Developer Program",
+						"term": "Apple Developer Program",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.macrumors.com/2022/04/05/swift-student-challenge-wwdc-2022/",
@@ -174,7 +241,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "WWDC",
+						"term": "WWDC",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.macrumors.com/2022/04/05/google-maps-apple-watch-update/",
@@ -193,7 +266,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Google Maps",
+						"term": "Google Maps",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.macrumors.com/2022/04/05/apple-park-wwdc-viewing-event/",
@@ -212,7 +291,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "WWDC",
+						"term": "WWDC",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.macrumors.com/2022/04/05/apple-wwdc-2022-announced/",
@@ -231,7 +316,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Featured",
+						"term": "Featured",
+						"url": null
+					},
+					{
+						"label": "WWDC",
+						"term": "WWDC",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.macrumors.com/2022/04/05/apple-planning-three-new-beats-studio-buds-colors/",
@@ -250,7 +346,23 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Beats",
+						"term": "Beats",
+						"url": null
+					},
+					{
+						"label": "Jon Prosser",
+						"term": "Jon Prosser",
+						"url": null
+					},
+					{
+						"label": "Beats Studio Buds",
+						"term": "Beats Studio Buds",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.macrumors.com/2022/04/05/kuo-airpods-pro-2-in-second-half-2022/",
@@ -269,7 +381,23 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "AirPods Pro",
+						"term": "AirPods Pro",
+						"url": null
+					},
+					{
+						"label": "Ming-Chi Kuo",
+						"term": "Ming-Chi Kuo",
+						"url": null
+					},
+					{
+						"label": "AirPods Pro 2",
+						"term": "AirPods Pro 2",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.macrumors.com/2022/04/05/tim-cook-to-speak-at-global-privacy-summit/",
@@ -288,7 +416,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Tim Cook",
+						"term": "Tim Cook",
+						"url": null
+					},
+					{
+						"label": "Apple Privacy",
+						"term": "Apple Privacy",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.macrumors.com/2022/04/05/deals-14-inch-macbook-pro-2/",
@@ -307,7 +446,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Deals",
+						"term": "Deals",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.macrumors.com/2022/04/05/plex-discover-universal-watchlist-features/",
@@ -326,7 +471,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Plex",
+						"term": "Plex",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.macrumors.com/2022/04/05/apple-scammers-sentenced-13-years-in-jail/",
@@ -345,7 +496,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Apple",
+						"term": "Apple",
+						"url": null
+					},
+					{
+						"label": "Rumors",
+						"term": "Rumors",
+						"url": null
+					},
+					{
+						"label": "Mac",
+						"term": "Mac",
+						"url": null
+					},
+					{
+						"label": "iOS",
+						"term": "iOS",
+						"url": null
+					},
+					{
+						"label": "iPhone",
+						"term": "iPhone",
+						"url": null
+					},
+					{
+						"label": "iPad",
+						"term": "iPad",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.macrumors.com/2022/04/05/deals-take-49-off-apple-watch-se/",
@@ -364,7 +546,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Deals",
+						"term": "Deals",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.macrumors.com/2022/04/05/iphone-14-pro-max-to-feature-thinner-bezels/",
@@ -383,7 +571,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "iPhone 14 Pro",
+						"term": "iPhone 14 Pro",
+						"url": null
+					},
+					{
+						"label": "ShrimpApplePro",
+						"term": "ShrimpApplePro",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.macrumors.com/2022/04/05/apple-mysteriously-raises-airpods-prices-in-india/",
@@ -402,7 +601,28 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "AirPods",
+						"term": "AirPods",
+						"url": null
+					},
+					{
+						"label": "AirPods Max",
+						"term": "AirPods Max",
+						"url": null
+					},
+					{
+						"label": "AirPods Pro",
+						"term": "AirPods Pro",
+						"url": null
+					},
+					{
+						"label": "India",
+						"term": "India",
+						"url": null
+					}
+				]
 			}
 		]
 	}

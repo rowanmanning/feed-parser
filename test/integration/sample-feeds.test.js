@@ -8,6 +8,7 @@ const parseFeed = require('../..');
 const path = require('node:path');
 const { Readable } = require('node:stream');
 const writeJSON = require('./helpers/write-json');
+const { isDeepStrictEqual } = require('node:util');
 
 const suites = [
 	{
@@ -231,6 +232,25 @@ for (const suite of suites) {
 								return feedParserAuthor.includes(value);
 							})
 						);
+					});
+
+					// DIFF: the libraries differ a lot here because we return an
+					// array of objects whereas feedparser returns strings. We flatten
+					// our copy down to just the label which should match feedparser.
+					//
+					// DIFF: feedparser doesn't correcly parse nested itunes categories
+					// so we ignore any differences
+					it('has ROUGHLY matching feed categories', () => {
+						const feedparserCategories = feedParserMeta.categories;
+						const categories = actual.feed.categories.map((category) => category.term);
+
+						// Hard-coded list for now, we need to address this
+						// by exposing the feed extensions on the metadata
+						if (xml.includes('<itunes:category')) {
+							return;
+						}
+
+						assert.deepEqual(categories, feedparserCategories);
 					});
 
 					// DIFF: when there is no explicit guid or id element, we use a
@@ -492,6 +512,31 @@ for (const suite of suites) {
 									return feedParserAuthor.includes(value);
 								})
 							);
+						}
+					});
+
+					// DIFF: the libraries differ a lot here because we return an
+					// array of objects whereas feedparser returns strings. We flatten
+					// our copy down to just the label which should match feedparser.
+					//
+					// DIFF: feedparser does not default an item's categories to the
+					// categories of the parent feed. If the feed and item categories
+					// are the same then we ignore differences.
+					it('has ROUGHLY matching feed item categories', () => {
+						for (const [i, item] of Object.entries(actual.feed.items)) {
+							const feedparserCategories = feedParserItems[i].categories;
+							const categories = item.categories.map((category) => category.term);
+							const feedCategories = actual.feed.categories.map(
+								(category) => category.term
+							);
+
+							// Don't bother testing if the categories are just the feed categories,
+							// feedparser doesn't do this
+							if (isDeepStrictEqual(categories, feedCategories)) {
+								return;
+							}
+
+							assert.deepEqual(categories, feedparserCategories);
 						}
 					});
 				});

@@ -49,7 +49,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "TVAndMovies",
+						"term": "TVAndMovies",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/devinagohil/home-deals-from-amazons-spring-sale",
@@ -71,7 +77,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Shopping",
+						"term": "Shopping",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/fjohnce/favorite-tv-show-poll",
@@ -93,7 +105,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/laviniasantos/wildest-school-stories",
@@ -115,7 +133,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/sam_cleal/new-tv-movies-2022-april",
@@ -137,7 +161,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "TVAndMovies",
+						"term": "TVAndMovies",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/devinagohil/best-tiktok-makeup-hacks-makeup-artist",
@@ -159,7 +189,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Shopping",
+						"term": "Shopping",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/elizabeth_cotton/the-best-of-joseph-joseph-in-amazon-spring-sale",
@@ -181,7 +217,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Shopping",
+						"term": "Shopping",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/jasminnahar/tower-air-fryer-on-sale",
@@ -203,7 +245,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Shopping",
+						"term": "Shopping",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/elizabeth_cotton/not-on-the-high-street-easter-collection",
@@ -225,7 +273,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Shopping",
+						"term": "Shopping",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/jessicabrunt/my-fave-tiktok-viral-air-styler-is-on-sale",
@@ -247,7 +301,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Shopping",
+						"term": "Shopping",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/larryfitzmaurice/daisy-ridley-instagram-return-six-year-hiatus",
@@ -269,7 +329,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Celebrity",
+						"term": "Celebrity",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/meganeliscomb/petty-office-gossip",
@@ -291,7 +357,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Work & Money",
+						"term": "Work & Money",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeednews.com/article/salvadorhernandez/dc-fox-capitol-senate",
@@ -313,7 +385,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "News",
+						"term": "News",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeednews.com/article/skbaer/tory-lanez-megan-thee-stallion-shooting-bail-arrest",
@@ -335,7 +413,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "News",
+						"term": "News",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeednews.com/article/davidmack/ukraine-bucha-zelensky-united-nations",
@@ -357,7 +441,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "News",
+						"term": "News",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeednews.com/article/paigeskinner/anti-lgbtq-laws-march",
@@ -379,7 +469,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "News",
+						"term": "News",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeednews.com/article/skbaer/sacramento-shooting-arrest-victims",
@@ -401,7 +497,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "News",
+						"term": "News",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/jessg/peaky-blinders-ending-season-six-finale-tweets",
@@ -423,7 +525,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "TVAndMovies",
+						"term": "TVAndMovies",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/samjustine212/bridgerton-2-book-to-show-changes",
@@ -445,7 +553,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/hannahmarder/hot-2000s-girl-things",
@@ -467,7 +581,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Rewind",
+						"term": "Rewind",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/jenniferabidor/bridgerton-season-2-behind-the-scenes",
@@ -489,7 +609,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "TVAndMovies",
+						"term": "TVAndMovies",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/rachelstrolle/if-you-like-this-popular-ya-book-try-this-adult-book",
@@ -511,7 +637,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Books",
+						"term": "Books",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/nayaphobiaa/6-stranger-things-mysteries-2022",
@@ -533,7 +665,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/pernellquilon/interviewing-all-the-boys-ive-ever-loved",
@@ -555,7 +693,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Sex & Love",
+						"term": "Sex & Love",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/larryfitzmaurice/cole-sprouse-fame-trauma-young-women",
@@ -577,7 +721,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Celebrity",
+						"term": "Celebrity",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/lizmrichardson/best-rom-com-movies-rotten-tomatoes-poll",
@@ -599,7 +749,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "TVAndMovies",
+						"term": "TVAndMovies",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/matthewhuff/best-apple-tv-plus-tv-april-2022",
@@ -621,7 +777,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "TVAndMovies",
+						"term": "TVAndMovies",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/utconnorrajski/which-marvel-character-you-are-based-off-on-your-gym-outfit",
@@ -643,7 +805,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/kenwhanley/20-totally-ridiculous-and-absurd-horror-movies",
@@ -665,7 +833,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "TVAndMovies",
+						"term": "TVAndMovies",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/feynman12/morbius-funny-tweets-jokes",
@@ -687,7 +861,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "TVAndMovies",
+						"term": "TVAndMovies",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/ladym12/country-life-farm-personality-quiz",
@@ -709,7 +889,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/morgansloss1/movies-with-unhappy-endings",
@@ -731,7 +917,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "TVAndMovies",
+						"term": "TVAndMovies",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/daves4/scammers-getting-destroyed",
@@ -753,7 +945,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Internet Finds",
+						"term": "Internet Finds",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/ajanibazile/restaurant-workers-see-gross-things",
@@ -775,7 +973,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Food",
+						"term": "Food",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/heedoo/zodiac-sign-based-on-your-daily-routine",
@@ -797,7 +1001,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/clazz25/candy-bar-personality-food-quiz",
@@ -819,7 +1029,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/dustingreen/golden-girls-food-quiz",
@@ -841,7 +1057,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/noradominick/bridgerton-kate-anthony-tweets-reactions",
@@ -863,7 +1085,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "TVAndMovies",
+						"term": "TVAndMovies",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/lyneghazala1/bruch-buffet-gen-z-millennial-quiz",
@@ -885,7 +1113,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/hannahmarder/disney-channel-2000s",
@@ -907,7 +1141,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Rewind",
+						"term": "Rewind",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeednews.com/article/piapeterson/freaknik-photos-atlanta-spring-break-party",
@@ -929,7 +1169,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "JPG",
+						"term": "JPG",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/rachelbrodsky/red-hot-chili-peppers-flea-daughter-grammy-shovel",
@@ -951,7 +1197,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Celebrity",
+						"term": "Celebrity",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/lemongirlavy/fun-disney-movies-checklist",
@@ -973,7 +1225,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/alexgurley/lady-gaga-nicest-celebrity",
@@ -995,7 +1253,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Celebrity",
+						"term": "Celebrity",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/raderlein/throwback-snacks-list",
@@ -1017,7 +1281,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeednews.com/article/stephaniesoteriou/euphoria-angus-cloud-clashed-shopkeeper-jacob-elordi",
@@ -1039,7 +1309,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Celebrity",
+						"term": "Celebrity",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/sarahaspler/save-one-appetizer-from-each-cuisine",
@@ -1061,7 +1337,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Food",
+						"term": "Food",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/rhiannacampbell/ashley-tisdale-bookshelf-how-many-have-you-read",
@@ -1083,7 +1365,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Books",
+						"term": "Books",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/jenniferabidor/friends-season-2-trivia-quiz",
@@ -1105,7 +1393,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "TVAndMovies",
+						"term": "TVAndMovies",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeednews.com/article/leylamohammed/josh-peck-revealed-money-he-made-on-drake-and-josh",
@@ -1127,7 +1421,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Celebrity",
+						"term": "Celebrity",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/kandycehampton/disney-movie-snack-quiz",
@@ -1149,7 +1449,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/sumedha_bharpilania/spend-10-crore-rupees-quiz",
@@ -1171,7 +1477,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Work & Money",
+						"term": "Work & Money",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeednews.com/article/ellendurney/sienna-miller-opened-up-about-jude-law-nanny-scandal",
@@ -1193,7 +1505,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Celebrity",
+						"term": "Celebrity",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/bookworm_1357/taylor-swift-album-spring-day-quiz",
@@ -1215,7 +1533,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/maiawinston/eat-guess-eye-color-quiz",
@@ -1237,7 +1561,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/hannahmarder/makeup-tips-from-makeup-lovers",
@@ -1259,7 +1589,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Beauty",
+						"term": "Beauty",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeednews.com/article/katienotopoulos/elon-musk-twitter-board",
@@ -1281,7 +1617,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Tech",
+						"term": "Tech",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/daisy_stitch_yoda_dogs/german-shepherd-golden-retriever-quiz",
@@ -1303,7 +1645,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/livieroadtreego/disney-celeb-personality-quiz",
@@ -1325,7 +1673,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/asiawmclain/seriously-genius-parenting-hacks",
@@ -1347,7 +1701,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Parents",
+						"term": "Parents",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeednews.com/article/stephaniesoteriou/amy-schumer-backlash-alec-baldwin-joke-will-smith",
@@ -1369,7 +1729,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Celebrity",
+						"term": "Celebrity",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/jackielam/how-to-build-generational-wealth",
@@ -1391,7 +1757,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Work & Money",
+						"term": "Work & Money",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/mjs538/gaga-grammy-ig-comment",
@@ -1413,7 +1785,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Celebrity",
+						"term": "Celebrity",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/mjs538/drag-red-carpet-looks",
@@ -1435,7 +1813,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "LGBT",
+						"term": "LGBT",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/juliawilling/australia-has-the-worlds-worst-time-zones",
@@ -1457,7 +1841,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "BuzzFeed",
+						"term": "BuzzFeed",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/larryfitzmaurice/hailey-bieber-denies-pregnant-rumors",
@@ -1479,7 +1869,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Celebrity",
+						"term": "Celebrity",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/ishabassi/best-kate-sharma-moments-bridgerton",
@@ -1501,7 +1897,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "TVAndMovies",
+						"term": "TVAndMovies",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/ioamopasta/italian-pasta-zodiac-quiz",
@@ -1523,7 +1925,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/anthonyorlando52/the-15-best-comic-book-covers-of-all-time",
@@ -1545,7 +1953,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Books",
+						"term": "Books",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/alexalisitza/bridesmaids-asked-to-lose-weight-reddit",
@@ -1567,7 +1981,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Weddings",
+						"term": "Weddings",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/sanbea/hermione-granger-eleven-mirabel-wanda-maximoff-quiz",
@@ -1589,7 +2009,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/feynman12/good-movies-bad-actors",
@@ -1611,7 +2037,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "TVAndMovies",
+						"term": "TVAndMovies",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/ehisosifo1/2000s-girl-who-wants-to-be-a-millionaire-quiz",
@@ -1633,7 +2065,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Rewind",
+						"term": "Rewind",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/larryfitzmaurice/selena-gomez-four-years-no-internet",
@@ -1655,7 +2093,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Celebrity",
+						"term": "Celebrity",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/eleanorc4cfe539e9/underrated-studio-ghibli-quiz",
@@ -1677,7 +2121,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/feynman12/netflixs-the-bubble-fan-reactions",
@@ -1699,7 +2149,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "TVAndMovies",
+						"term": "TVAndMovies",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/roberttsunami/popular-tv-show-quiz",
@@ -1721,7 +2177,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/stephenlaconte/waste-of-money-polls",
@@ -1743,7 +2205,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Work & Money",
+						"term": "Work & Money",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/rossyoder/helpful-life-hacks",
@@ -1765,7 +2233,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Goodful",
+						"term": "Goodful",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/umarsyarif226/favorite-movies-quiz-checklist",
@@ -1787,7 +2261,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/giannaaceto/tv-characters-nepotism-baby-quiz",
@@ -1809,7 +2289,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/larryfitzmaurice/alexander-skarsgard-sexy-list-lost-roles",
@@ -1831,7 +2317,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Celebrity",
+						"term": "Celebrity",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/mjs538/funny-or-cringe-polls",
@@ -1853,7 +2345,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Celebrity",
+						"term": "Celebrity",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/ehisosifo1/images-artist-holding-grammy-awards-history",
@@ -1875,7 +2373,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Celebrity",
+						"term": "Celebrity",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/filledwithanxiety/bridgerton-hamilton-character-combo-quiz",
@@ -1897,7 +2401,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/jessg/everything-everywhere-all-at-once-cast",
@@ -1919,7 +2429,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "TVAndMovies",
+						"term": "TVAndMovies",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/notellie_/dinner-party-breakfast-quiz",
@@ -1941,7 +2457,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/hannahmarder/actors-who-have-been-in-a-ton-of-teen-dramas",
@@ -1963,7 +2485,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "TVAndMovies",
+						"term": "TVAndMovies",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/bigbuzz2022/your-marvel-preferences-reveal-your-most-annoying-trait",
@@ -1985,7 +2513,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/briannarud19/throwback-movies-image-test",
@@ -2007,7 +2541,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/asiawmclain/moms-who-outsmarted-their-kids-2",
@@ -2029,7 +2569,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Parents",
+						"term": "Parents",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/filledwithanxiety/bridgerton-family-quiz",
@@ -2051,7 +2597,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/abhaahad/16-queer-tv-show-characters-who-proved-it-is-never-too-late",
@@ -2073,7 +2625,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "TVAndMovies",
+						"term": "TVAndMovies",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/audreyworboys/brand-name-products-by-generic-names",
@@ -2095,7 +2653,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Rewind",
+						"term": "Rewind",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeed.com/sambelding16/which-marvel-lady-is-your-soulmate",
@@ -2117,7 +2681,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://www.buzzfeednews.com/article/shannonkeating/real-housewives-of-orange-county-heather-dubrow-rhoc",
@@ -2139,7 +2709,13 @@
 						"url": "https://www.buzzfeed.com/about"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Culture",
+						"term": "Culture",
+						"url": null
+					}
+				]
 			}
 		]
 	}

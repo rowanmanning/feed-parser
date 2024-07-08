@@ -31,7 +31,13 @@
 				"url": null
 			}
 		],
-		"categories": [],
+		"categories": [
+			{
+				"label": "Computers/Software/Internet/Site Management/Content Management",
+				"term": "Computers/Software/Internet/Site Management/Content Management",
+				"url": null
+			}
+		],
 		"items": [
 			{
 				"id": null,
@@ -50,7 +56,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Computers/Software/Internet/Site Management/Content Management",
+						"term": "Computers/Software/Internet/Site Management/Content Management",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": null,
@@ -69,7 +81,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Computers/Software/Internet/Site Management/Content Management",
+						"term": "Computers/Software/Internet/Site Management/Content Management",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": null,
@@ -88,7 +106,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Computers/Software/Internet/Site Management/Content Management",
+						"term": "Computers/Software/Internet/Site Management/Content Management",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": null,
@@ -107,7 +131,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Computers/Software/Internet/Site Management/Content Management",
+						"term": "Computers/Software/Internet/Site Management/Content Management",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": null,
@@ -126,7 +156,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Computers/Software/Internet/Site Management/Content Management",
+						"term": "Computers/Software/Internet/Site Management/Content Management",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": null,
@@ -145,7 +181,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Computers/Software/Internet/Site Management/Content Management",
+						"term": "Computers/Software/Internet/Site Management/Content Management",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": null,
@@ -164,7 +206,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Computers/Software/Internet/Site Management/Content Management",
+						"term": "Computers/Software/Internet/Site Management/Content Management",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": null,
@@ -183,7 +231,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Computers/Software/Internet/Site Management/Content Management",
+						"term": "Computers/Software/Internet/Site Management/Content Management",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": null,
@@ -202,7 +256,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Computers/Software/Internet/Site Management/Content Management",
+						"term": "Computers/Software/Internet/Site Management/Content Management",
+						"url": null
+					}
+				]
 			}
 		]
 	}

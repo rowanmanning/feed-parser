@@ -27,7 +27,13 @@
 				"url": null
 			}
 		],
-		"categories": [],
+		"categories": [
+			{
+				"label": "Sports/Wilderness",
+				"term": "Sports/Wilderness",
+				"url": null
+			}
+		],
 		"items": [
 			{
 				"id": "aae20190418",
@@ -55,7 +61,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Sports/Wilderness",
+						"term": "Sports/Wilderness",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "aae20190606",
@@ -83,7 +95,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Sports/Wilderness",
+						"term": "Sports/Wilderness",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "aae20190530",
@@ -114,7 +132,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Sports/Wilderness",
+						"term": "Sports/Wilderness",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "aae20190523",
@@ -145,7 +169,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Sports/Wilderness",
+						"term": "Sports/Wilderness",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "aae20190516",
@@ -173,7 +203,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Sports/Wilderness",
+						"term": "Sports/Wilderness",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "aae20190509",
@@ -201,7 +237,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Sports/Wilderness",
+						"term": "Sports/Wilderness",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "aae20190502",
@@ -229,7 +271,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Sports/Wilderness",
+						"term": "Sports/Wilderness",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "aae20190425",
@@ -257,7 +305,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Sports/Wilderness",
+						"term": "Sports/Wilderness",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "aae20190418a",
@@ -285,7 +339,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Sports/Wilderness",
+						"term": "Sports/Wilderness",
+						"url": null
+					}
+				]
 			}
 		]
 	}

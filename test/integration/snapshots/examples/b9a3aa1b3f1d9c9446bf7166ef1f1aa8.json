@@ -57,7 +57,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "News",
+						"term": "News",
+						"url": null
+					},
+					{
+						"label": "Sports",
+						"term": "Sports",
+						"url": null
+					}
+				]
 			}
 		]
 	}

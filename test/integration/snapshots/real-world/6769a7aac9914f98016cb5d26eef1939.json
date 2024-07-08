@@ -59,7 +59,13 @@
 						"url": "https://rowanmanning.com/"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Operational Excellence",
+						"term": "operational-excellence",
+						"url": "https://rowanmanning.com/tags/operational-excellence/"
+					}
+				]
 			},
 			{
 				"id": "https://rowanmanning.com/posts/halving-my-github-pages-build-time/",
@@ -78,7 +84,23 @@
 						"url": "https://rowanmanning.com/"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Hugo",
+						"term": "hugo",
+						"url": "https://rowanmanning.com/tags/hugo/"
+					},
+					{
+						"label": "GitHub",
+						"term": "github",
+						"url": "https://rowanmanning.com/tags/github/"
+					},
+					{
+						"label": "Side Projects",
+						"term": "side-projects",
+						"url": "https://rowanmanning.com/tags/side-projects/"
+					}
+				]
 			},
 			{
 				"id": "https://rowanmanning.com/posts/webmentions-for-your-static-site/",
@@ -109,7 +131,23 @@
 						"url": "https://rowanmanning.com/"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Webmention",
+						"term": "webmention",
+						"url": "https://rowanmanning.com/tags/webmention/"
+					},
+					{
+						"label": "Side Projects",
+						"term": "side-projects",
+						"url": "https://rowanmanning.com/tags/side-projects/"
+					},
+					{
+						"label": "IndieWeb",
+						"term": "indieweb",
+						"url": "https://rowanmanning.com/tags/indieweb/"
+					}
+				]
 			},
 			{
 				"id": "https://rowanmanning.com/posts/organising-a-virtual-treasure-hunt/",
@@ -140,7 +178,23 @@
 						"url": "https://rowanmanning.com/"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Social",
+						"term": "social",
+						"url": "https://rowanmanning.com/tags/social/"
+					},
+					{
+						"label": "Team Building",
+						"term": "team-building",
+						"url": "https://rowanmanning.com/tags/team-building/"
+					},
+					{
+						"label": "Treasure",
+						"term": "treasure",
+						"url": "https://rowanmanning.com/tags/treasure/"
+					}
+				]
 			},
 			{
 				"id": "https://rowanmanning.com/posts/i-like-rss/",
@@ -171,7 +225,23 @@
 						"url": "https://rowanmanning.com/"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Side Projects",
+						"term": "side-projects",
+						"url": "https://rowanmanning.com/tags/side-projects/"
+					},
+					{
+						"label": "RSS",
+						"term": "rss",
+						"url": "https://rowanmanning.com/tags/rss/"
+					},
+					{
+						"label": "Audrey",
+						"term": "audrey",
+						"url": "https://rowanmanning.com/tags/audrey/"
+					}
+				]
 			},
 			{
 				"id": "https://rowanmanning.com/posts/yeehaw/",
@@ -202,7 +272,18 @@
 						"url": "https://rowanmanning.com/"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Side Projects",
+						"term": "side-projects",
+						"url": "https://rowanmanning.com/tags/side-projects/"
+					},
+					{
+						"label": "Yeehaw",
+						"term": "yeehaw",
+						"url": "https://rowanmanning.com/tags/yeehaw/"
+					}
+				]
 			},
 			{
 				"id": "https://rowanmanning.com/posts/a-new-home-for-pa11y/",
@@ -233,7 +314,18 @@
 						"url": "https://rowanmanning.com/"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Accessibility",
+						"term": "accessibility",
+						"url": "https://rowanmanning.com/tags/accessibility/"
+					},
+					{
+						"label": "Pa11y",
+						"term": "pa11y",
+						"url": "https://rowanmanning.com/tags/pa11y/"
+					}
+				]
 			},
 			{
 				"id": "https://rowanmanning.com/posts/writing-a-friendly-readme/",
@@ -252,7 +344,23 @@
 						"url": "https://rowanmanning.com/"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Open-Source",
+						"term": "open-source",
+						"url": "https://rowanmanning.com/tags/open-source/"
+					},
+					{
+						"label": "Writing",
+						"term": "writing",
+						"url": "https://rowanmanning.com/tags/writing/"
+					},
+					{
+						"label": "Documentation",
+						"term": "documentation",
+						"url": "https://rowanmanning.com/tags/documentation/"
+					}
+				]
 			},
 			{
 				"id": "https://rowanmanning.com/posts/an-evolving-website/",
@@ -283,7 +391,13 @@
 						"url": "https://rowanmanning.com/"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Design",
+						"term": "design",
+						"url": "https://rowanmanning.com/tags/design/"
+					}
+				]
 			},
 			{
 				"id": "https://rowanmanning.com/posts/complex-routing-logic-with-thundermole/",
@@ -302,7 +416,18 @@
 						"url": "https://rowanmanning.com/"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Node.js",
+						"term": "node.js",
+						"url": "https://rowanmanning.com/tags/node.js/"
+					},
+					{
+						"label": "JavaScript",
+						"term": "javascript",
+						"url": "https://rowanmanning.com/tags/javascript/"
+					}
+				]
 			},
 			{
 				"id": "https://rowanmanning.com/posts/accessibility-testing-with-pa11y/",
@@ -333,7 +458,18 @@
 						"url": "https://rowanmanning.com/"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Accessibility",
+						"term": "accessibility",
+						"url": "https://rowanmanning.com/tags/accessibility/"
+					},
+					{
+						"label": "Pa11y",
+						"term": "pa11y",
+						"url": "https://rowanmanning.com/tags/pa11y/"
+					}
+				]
 			},
 			{
 				"id": "https://rowanmanning.com/posts/javascript-for-beginners-async/",
@@ -352,7 +488,18 @@
 						"url": "https://rowanmanning.com/"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "JavaScript",
+						"term": "javascript",
+						"url": "https://rowanmanning.com/tags/javascript/"
+					},
+					{
+						"label": "Tutorial",
+						"term": "tutorial",
+						"url": "https://rowanmanning.com/tags/tutorial/"
+					}
+				]
 			},
 			{
 				"id": "https://rowanmanning.com/posts/building-cssdb/",
@@ -371,7 +518,28 @@
 						"url": "https://rowanmanning.com/"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "CSS",
+						"term": "css",
+						"url": "https://rowanmanning.com/tags/css/"
+					},
+					{
+						"label": "JavaScript",
+						"term": "javascript",
+						"url": "https://rowanmanning.com/tags/javascript/"
+					},
+					{
+						"label": "Node.js",
+						"term": "node.js",
+						"url": "https://rowanmanning.com/tags/node.js/"
+					},
+					{
+						"label": "Express",
+						"term": "express",
+						"url": "https://rowanmanning.com/tags/express/"
+					}
+				]
 			},
 			{
 				"id": "https://rowanmanning.com/posts/jekyll-site-redesign-build/",
@@ -390,7 +558,18 @@
 						"url": "https://rowanmanning.com/"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Design",
+						"term": "design",
+						"url": "https://rowanmanning.com/tags/design/"
+					},
+					{
+						"label": "Jekyll",
+						"term": "jekyll",
+						"url": "https://rowanmanning.com/tags/jekyll/"
+					}
+				]
 			},
 			{
 				"id": "https://rowanmanning.com/posts/node-cluster-and-express/",
@@ -409,7 +588,28 @@
 						"url": "https://rowanmanning.com/"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Node.js",
+						"term": "node.js",
+						"url": "https://rowanmanning.com/tags/node.js/"
+					},
+					{
+						"label": "JavaScript",
+						"term": "javascript",
+						"url": "https://rowanmanning.com/tags/javascript/"
+					},
+					{
+						"label": "Express",
+						"term": "express",
+						"url": "https://rowanmanning.com/tags/express/"
+					},
+					{
+						"label": "Cluster",
+						"term": "cluster",
+						"url": "https://rowanmanning.com/tags/cluster/"
+					}
+				]
 			},
 			{
 				"id": "https://rowanmanning.com/posts/the-mixed-blessing-of-ambition/",
@@ -478,7 +678,13 @@
 						"url": "https://rowanmanning.com/"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "CSS",
+						"term": "css",
+						"url": "https://rowanmanning.com/tags/css/"
+					}
+				]
 			},
 			{
 				"id": "https://rowanmanning.com/posts/accessibility-beyond-the-screen-reader/",
@@ -497,7 +703,13 @@
 						"url": "https://rowanmanning.com/"
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Accessibility",
+						"term": "accessibility",
+						"url": "https://rowanmanning.com/tags/accessibility/"
+					}
+				]
 			}
 		]
 	}

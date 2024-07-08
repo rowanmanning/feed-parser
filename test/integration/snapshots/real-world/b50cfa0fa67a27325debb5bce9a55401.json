@@ -21,7 +21,13 @@
 			"url": "https://e3.365dm.com/skynews/logo.png"
 		},
 		"authors": [],
-		"categories": [],
+		"categories": [
+			{
+				"label": "Sky News",
+				"term": "Sky News",
+				"url": null
+			}
+		],
 		"items": [
 			{
 				"id": "https://news.sky.com/story/ukraine-war-some-1200-war-crimes-registered-in-kyiv-region-during-russias-invasion-so-far-police-chief-says-12583136",
@@ -46,7 +52,13 @@
 					}
 				],
 				"authors": [],
-				"categories": []
+				"categories": [
+					{
+						"label": "Sky News",
+						"term": "Sky News",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://news.sky.com/story/ukraine-war-drone-footage-appears-to-show-russian-military-vehicles-shooting-towards-cyclist-in-bucha-12582834",
@@ -71,7 +83,13 @@
 					}
 				],
 				"authors": [],
-				"categories": []
+				"categories": [
+					{
+						"label": "Sky News",
+						"term": "Sky News",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://news.sky.com/story/bobbi-anne-mcleod-musician-cody-ackland-admits-murdering-18-year-old-student-12582721",
@@ -96,7 +114,13 @@
 					}
 				],
 				"authors": [],
-				"categories": []
+				"categories": [
+					{
+						"label": "Sky News",
+						"term": "Sky News",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://news.sky.com/story/uk-australia-and-us-agree-to-accelerate-development-on-hypersonic-missile-technology-12582994",
@@ -121,7 +145,13 @@
 					}
 				],
 				"authors": [],
-				"categories": []
+				"categories": [
+					{
+						"label": "Sky News",
+						"term": "Sky News",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://news.sky.com/story/milton-keynes-heroic-neighbour-sacrificed-himself-to-save-boys-life-after-being-hit-with-4kg-dumbbell-inquest-hears-12583079",
@@ -146,7 +176,13 @@
 					}
 				],
 				"authors": [],
-				"categories": []
+				"categories": [
+					{
+						"label": "Sky News",
+						"term": "Sky News",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://news.sky.com/story/national-insurance-rise-how-will-it-work-and-what-will-it-mean-for-you-12583071",
@@ -171,7 +207,13 @@
 					}
 				],
 				"authors": [],
-				"categories": []
+				"categories": [
+					{
+						"label": "Sky News",
+						"term": "Sky News",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://news.sky.com/story/ukraine-war-zelenskyy-says-russia-wants-to-turn-his-people-into-silent-slaves-in-address-to-un-security-council-12582903",
@@ -196,7 +238,13 @@
 					}
 				],
 				"authors": [],
-				"categories": []
+				"categories": [
+					{
+						"label": "Sky News",
+						"term": "Sky News",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://news.sky.com/story/cocaine-bust-worth-163300m-is-largest-uk-seizure-since-2015-as-drugs-found-in-banana-shipment-in-southampton-12582981",
@@ -221,7 +269,13 @@
 					}
 				],
 				"authors": [],
-				"categories": []
+				"categories": [
+					{
+						"label": "Sky News",
+						"term": "Sky News",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://news.sky.com/story/logan-mwangi-murder-trial-stepfather-didnt-call-ambulance-when-he-found-boy-dead-because-he-was-panicking-court-hears-12583131",
@@ -246,7 +300,13 @@
 					}
 				],
 				"authors": [],
-				"categories": []
+				"categories": [
+					{
+						"label": "Sky News",
+						"term": "Sky News",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://news.sky.com/story/israeli-woman-sentenced-to-death-in-uae-after-cocaine-found-in-her-apartment-in-abu-dhabi-12582800",
@@ -271,7 +331,13 @@
 					}
 				],
 				"authors": [],
-				"categories": []
+				"categories": [
+					{
+						"label": "Sky News",
+						"term": "Sky News",
+						"url": null
+					}
+				]
 			}
 		]
 	}
