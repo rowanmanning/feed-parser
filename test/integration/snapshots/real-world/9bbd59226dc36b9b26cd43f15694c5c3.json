@@ -41,7 +41,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Releases",
+						"term": "Releases",
+						"url": null
+					},
+					{
+						"label": "5.9",
+						"term": "5.9",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?p=12583",
@@ -60,7 +71,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Month in WordPress",
+						"term": "Month in WordPress",
+						"url": null
+					},
+					{
+						"label": "the month in wordpress",
+						"term": "the month in wordpress",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?post_type=podcast&p=12506",
@@ -88,7 +110,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Podcast",
+						"term": "Podcast",
+						"url": null
+					},
+					{
+						"label": "wp-briefing",
+						"term": "wp-briefing",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?p=12512",
@@ -107,7 +140,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					},
+					{
+						"label": "Interviews",
+						"term": "Interviews",
+						"url": null
+					},
+					{
+						"label": "HeroPress",
+						"term": "HeroPress",
+						"url": null
+					},
+					{
+						"label": "People of WordPress",
+						"term": "People of WordPress",
+						"url": null
+					},
+					{
+						"label": "Polyglot Contributor",
+						"term": "Polyglot Contributor",
+						"url": null
+					},
+					{
+						"label": "Support Team",
+						"term": "Support Team",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?p=12460",
@@ -126,7 +190,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "General",
+						"term": "General",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?post_type=podcast&p=12451",
@@ -154,7 +224,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Podcast",
+						"term": "Podcast",
+						"url": null
+					},
+					{
+						"label": "wp-briefing",
+						"term": "wp-briefing",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?p=12421",
@@ -173,7 +254,23 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Releases",
+						"term": "Releases",
+						"url": null
+					},
+					{
+						"label": "Security",
+						"term": "Security",
+						"url": null
+					},
+					{
+						"label": "5.9",
+						"term": "5.9",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?post_type=podcast&p=12415",
@@ -201,7 +298,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Podcast",
+						"term": "Podcast",
+						"url": null
+					},
+					{
+						"label": "wp-briefing",
+						"term": "wp-briefing",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?p=12411",
@@ -220,7 +328,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Month in WordPress",
+						"term": "Month in WordPress",
+						"url": null
+					},
+					{
+						"label": "the month in wordpress",
+						"term": "the month in wordpress",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?p=12151",
@@ -239,7 +358,48 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					},
+					{
+						"label": "Features",
+						"term": "Features",
+						"url": null
+					},
+					{
+						"label": "Interviews",
+						"term": "Interviews",
+						"url": null
+					},
+					{
+						"label": "5.9",
+						"term": "5.9",
+						"url": null
+					},
+					{
+						"label": "core",
+						"term": "core",
+						"url": null
+					},
+					{
+						"label": "HeroPress",
+						"term": "HeroPress",
+						"url": null
+					},
+					{
+						"label": "People of WordPress",
+						"term": "People of WordPress",
+						"url": null
+					},
+					{
+						"label": "Test Team",
+						"term": "Test Team",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?p=12266",
@@ -258,7 +418,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Releases",
+						"term": "Releases",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?post_type=podcast&p=12288",
@@ -286,7 +452,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Podcast",
+						"term": "Podcast",
+						"url": null
+					},
+					{
+						"label": "wp-briefing",
+						"term": "wp-briefing",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?p=12244",
@@ -305,7 +482,23 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Design",
+						"term": "Design",
+						"url": null
+					},
+					{
+						"label": "General",
+						"term": "General",
+						"url": null
+					},
+					{
+						"label": "Meta",
+						"term": "Meta",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?post_type=podcast&p=12176",
@@ -333,7 +526,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Podcast",
+						"term": "Podcast",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?p=12180",
@@ -352,7 +551,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Month in WordPress",
+						"term": "Month in WordPress",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?p=12089",
@@ -371,7 +576,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Releases",
+						"term": "Releases",
+						"url": null
+					},
+					{
+						"label": "5.9",
+						"term": "5.9",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?p=12050",
@@ -390,7 +606,23 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Development",
+						"term": "Development",
+						"url": null
+					},
+					{
+						"label": "Releases",
+						"term": "Releases",
+						"url": null
+					},
+					{
+						"label": "5.9",
+						"term": "5.9",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?post_type=podcast&p=12043",
@@ -418,7 +650,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Podcast",
+						"term": "Podcast",
+						"url": null
+					},
+					{
+						"label": "wp-briefing",
+						"term": "wp-briefing",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?p=12014",
@@ -437,7 +680,28 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Development",
+						"term": "Development",
+						"url": null
+					},
+					{
+						"label": "Releases",
+						"term": "Releases",
+						"url": null
+					},
+					{
+						"label": "5.9",
+						"term": "5.9",
+						"url": null
+					},
+					{
+						"label": "RC2",
+						"term": "RC2",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?p=11999",
@@ -456,7 +720,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Releases",
+						"term": "Releases",
+						"url": null
+					},
+					{
+						"label": "Security",
+						"term": "Security",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?p=11972",
@@ -475,7 +750,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Month in WordPress",
+						"term": "Month in WordPress",
+						"url": null
+					},
+					{
+						"label": "month in wordpress",
+						"term": "month in wordpress",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?p=11948",
@@ -494,7 +780,23 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Development",
+						"term": "Development",
+						"url": null
+					},
+					{
+						"label": "Releases",
+						"term": "Releases",
+						"url": null
+					},
+					{
+						"label": "5.9",
+						"term": "5.9",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?p=11923",
@@ -513,7 +815,33 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					},
+					{
+						"label": "Features",
+						"term": "Features",
+						"url": null
+					},
+					{
+						"label": "Interviews",
+						"term": "Interviews",
+						"url": null
+					},
+					{
+						"label": "Contributor Story",
+						"term": "Contributor Story",
+						"url": null
+					},
+					{
+						"label": "People of WordPress",
+						"term": "People of WordPress",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?p=11876",
@@ -532,7 +860,28 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Development",
+						"term": "Development",
+						"url": null
+					},
+					{
+						"label": "Releases",
+						"term": "Releases",
+						"url": null
+					},
+					{
+						"label": "5.9",
+						"term": "5.9",
+						"url": null
+					},
+					{
+						"label": "beta",
+						"term": "beta",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?post_type=podcast&p=11880",
@@ -560,7 +909,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Podcast",
+						"term": "Podcast",
+						"url": null
+					},
+					{
+						"label": "wp-briefing",
+						"term": "wp-briefing",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?p=11869",
@@ -579,7 +939,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Events",
+						"term": "Events",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?p=11835",
@@ -598,7 +964,33 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Development",
+						"term": "Development",
+						"url": null
+					},
+					{
+						"label": "Releases",
+						"term": "Releases",
+						"url": null
+					},
+					{
+						"label": "5.9",
+						"term": "5.9",
+						"url": null
+					},
+					{
+						"label": "beta",
+						"term": "beta",
+						"url": null
+					},
+					{
+						"label": "development",
+						"term": "development",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?p=11794",
@@ -617,7 +1009,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Development",
+						"term": "Development",
+						"url": null
+					},
+					{
+						"label": "Releases",
+						"term": "Releases",
+						"url": null
+					},
+					{
+						"label": "5.9",
+						"term": "5.9",
+						"url": null
+					},
+					{
+						"label": "beta",
+						"term": "beta",
+						"url": null
+					},
+					{
+						"label": "Beta 2",
+						"term": "Beta 2",
+						"url": null
+					},
+					{
+						"label": "block editor",
+						"term": "block editor",
+						"url": null
+					},
+					{
+						"label": "WP releases",
+						"term": "WP releases",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?p=11763",
@@ -636,7 +1064,23 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Month in WordPress",
+						"term": "Month in WordPress",
+						"url": null
+					},
+					{
+						"label": "month in wordpress",
+						"term": "month in wordpress",
+						"url": null
+					},
+					{
+						"label": "the month in wordpress",
+						"term": "the month in wordpress",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://wordpress.org/news/?p=11584",
@@ -655,7 +1099,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Development",
+						"term": "Development",
+						"url": null
+					},
+					{
+						"label": "Releases",
+						"term": "Releases",
+						"url": null
+					}
+				]
 			}
 		]
 	}

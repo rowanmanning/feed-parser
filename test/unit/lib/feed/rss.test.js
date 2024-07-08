@@ -667,6 +667,193 @@ describe('lib/feed/rss', () => {
 			});
 		});
 
+		describe('.categories', () => {
+			let categories;
+			let mockCategoryElements;
+
+			beforeEach(() => {
+				mockCategoryElements = [
+					// Regular category elements
+					new MockElement(), // full
+					new MockElement(), // http domain
+					new MockElement(), // invalid domain
+					new MockElement(), // no domain
+					new MockElement(), // only domain
+					new MockElement(), // nothing
+
+					// Itunes category elements
+					new MockElement(), // flat
+					new MockElement(), // nested
+					new MockElement(), // multiple sub-categories
+					new MockElement(), // extra nesting
+					new MockElement(), // no text in sub-category
+					new MockElement() // no text
+				];
+				td.when(mockChannelElement.findElementsWithName('category')).thenReturn(
+					mockCategoryElements
+				);
+
+				mockCategoryElements[0].textContentNormalized = 'mock-category-text-0';
+				td.when(mockCategoryElements[0].getAttribute('domain')).thenReturn(
+					'https://mock-category-domain'
+				);
+				td.when(mockCategoryElements[0].getAttributeAsUrl('domain')).thenReturn(
+					'mock-category-domain-as-url-0'
+				);
+
+				mockCategoryElements[1].textContentNormalized = 'mock-category-text-1';
+				td.when(mockCategoryElements[1].getAttribute('domain')).thenReturn(
+					'http://mock-category-domain'
+				);
+				td.when(mockCategoryElements[1].getAttributeAsUrl('domain')).thenReturn(
+					'mock-category-domain-as-url-1'
+				);
+
+				mockCategoryElements[2].textContentNormalized = 'mock-category-text-2';
+				td.when(mockCategoryElements[2].getAttribute('domain')).thenReturn(
+					'mock-category-domain'
+				);
+
+				mockCategoryElements[3].textContentNormalized = 'mock-category-text-3';
+
+				td.when(mockCategoryElements[4].getAttribute('domain')).thenReturn(
+					'https://mock-category-domain'
+				);
+				td.when(mockCategoryElements[4].getAttributeAsUrl('domain')).thenReturn(
+					'mock-category-domain-as-url-4'
+				);
+
+				mockCategoryElements[6].namespaceUri = 'http://www.itunes.com/dtds/podcast-1.0.dtd';
+				mockCategoryElements[7].namespace = 'itunes';
+				mockCategoryElements[8].namespaceUri = 'http://www.itunes.com/dtds/podcast-1.0.dtd';
+				mockCategoryElements[9].namespace = 'itunes';
+				mockCategoryElements[10].namespace = 'itunes';
+				mockCategoryElements[11].namespace = 'itunes';
+
+				td.when(mockCategoryElements[6].getAttribute('text')).thenReturn(
+					'mock-category-text-6'
+				);
+				td.when(mockCategoryElements[6].findElementsWithName('category')).thenReturn([]);
+
+				td.when(mockCategoryElements[7].getAttribute('text')).thenReturn(
+					'mock-category-text-7'
+				);
+				const mockSubCategories7 = [new MockElement()];
+				mockSubCategories7[0].namespace = 'itunes';
+				td.when(mockSubCategories7[0].getAttribute('text')).thenReturn(
+					'mock-subcategory-text-7'
+				);
+				td.when(mockCategoryElements[7].findElementsWithName('category')).thenReturn(
+					mockSubCategories7
+				);
+
+				td.when(mockCategoryElements[8].getAttribute('text')).thenReturn(
+					'mock-category-text-8'
+				);
+				const mockSubCategories8 = [new MockElement(), new MockElement()];
+				mockSubCategories8[0].namespace = 'itunes';
+				td.when(mockSubCategories8[0].getAttribute('text')).thenReturn(
+					'mock-subcategory-text-8a'
+				);
+				mockSubCategories8[1].namespace = 'itunes';
+				td.when(mockSubCategories8[1].getAttribute('text')).thenReturn(
+					'mock-subcategory-text-8b'
+				);
+				td.when(mockCategoryElements[8].findElementsWithName('category')).thenReturn(
+					mockSubCategories8
+				);
+
+				td.when(mockCategoryElements[9].getAttribute('text')).thenReturn(
+					'mock-category-text-9'
+				);
+				const mockSubCategories9 = [new MockElement()];
+				mockSubCategories9[0].namespace = 'itunes';
+				td.when(mockSubCategories9[0].getAttribute('text')).thenReturn(
+					'mock-subcategory-text-9'
+				);
+				const mockSubSubCategories9 = [new MockElement()];
+				mockSubSubCategories9[0].namespace = 'itunes';
+				td.when(mockSubSubCategories9[0].getAttribute('text')).thenReturn(
+					'mock-subsubcategory-text-9'
+				);
+				td.when(mockCategoryElements[9].findElementsWithName('category')).thenReturn(
+					mockSubCategories9
+				);
+				td.when(mockSubCategories9[0].findElementsWithName('category')).thenReturn(
+					mockSubSubCategories9
+				);
+
+				td.when(mockCategoryElements[10].getAttribute('text')).thenReturn(
+					'mock-category-text-10'
+				);
+				const mockSubCategories10 = [new MockElement()];
+				mockSubCategories10[0].namespace = 'itunes';
+				td.when(mockSubCategories10[0].getAttribute('text')).thenReturn(null);
+				td.when(mockCategoryElements[10].findElementsWithName('category')).thenReturn(
+					mockSubCategories10
+				);
+
+				categories = feed.categories;
+			});
+
+			it('is set to an array of category objects, ignoring ones that do not have text', () => {
+				assert.ok(Array.isArray(categories));
+				assert.strictEqual(categories.length, 10);
+				assert.deepEqual(categories, [
+					{
+						term: 'mock-category-text-0',
+						label: 'mock-category-text-0',
+						url: 'mock-category-domain-as-url-0'
+					},
+					{
+						term: 'mock-category-text-1',
+						label: 'mock-category-text-1',
+						url: 'mock-category-domain-as-url-1'
+					},
+					{
+						term: 'mock-category-text-2',
+						label: 'mock-category-text-2',
+						url: null
+					},
+					{
+						term: 'mock-category-text-3',
+						label: 'mock-category-text-3',
+						url: null
+					},
+					{
+						term: 'mock-category-text-6',
+						label: 'mock-category-text-6',
+						url: null
+					},
+					{
+						term: 'mock-category-text-7/mock-subcategory-text-7',
+						label: 'mock-category-text-7/mock-subcategory-text-7',
+						url: null
+					},
+					{
+						term: 'mock-category-text-8/mock-subcategory-text-8a',
+						label: 'mock-category-text-8/mock-subcategory-text-8a',
+						url: null
+					},
+					{
+						term: 'mock-category-text-8/mock-subcategory-text-8b',
+						label: 'mock-category-text-8/mock-subcategory-text-8b',
+						url: null
+					},
+					{
+						term: 'mock-category-text-9/mock-subcategory-text-9',
+						label: 'mock-category-text-9/mock-subcategory-text-9',
+						url: null
+					},
+					{
+						term: 'mock-category-text-10',
+						label: 'mock-category-text-10',
+						url: null
+					}
+				]);
+			});
+		});
+
 		describe('.items', () => {
 			let items;
 			let mockChannelItems;

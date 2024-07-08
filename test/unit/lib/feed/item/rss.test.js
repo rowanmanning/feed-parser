@@ -36,7 +36,8 @@ describe('lib/feed/item/rss', () => {
 
 		beforeEach(() => {
 			mockFeed = {
-				authors: ['mock-feed-author']
+				authors: ['mock-feed-author'],
+				categories: ['mock-feed-category']
 			};
 			mockItemElement = new MockElement();
 			feedItem = new RssFeedItem(mockFeed, mockItemElement);
@@ -667,6 +668,95 @@ describe('lib/feed/item/rss', () => {
 
 				it('is set to the feed author', () => {
 					assert.deepEqual(authors, ['mock-feed-author']);
+				});
+			});
+		});
+
+		describe('.categories', () => {
+			let categories;
+			let mockCategoryElements;
+
+			beforeEach(() => {
+				mockCategoryElements = [
+					new MockElement(),
+					new MockElement(),
+					new MockElement(),
+					new MockElement(),
+					new MockElement(),
+					new MockElement()
+				];
+				td.when(mockItemElement.findElementsWithName('category')).thenReturn(
+					mockCategoryElements
+				);
+
+				mockCategoryElements[0].textContentNormalized = 'mock-category-text';
+				td.when(mockCategoryElements[0].getAttribute('domain')).thenReturn(
+					'https://mock-category-domain'
+				);
+				td.when(mockCategoryElements[0].getAttributeAsUrl('domain')).thenReturn(
+					'mock-category-domain-as-url'
+				);
+
+				mockCategoryElements[1].textContentNormalized = 'mock-category-text';
+				td.when(mockCategoryElements[1].getAttribute('domain')).thenReturn(
+					'http://mock-category-domain'
+				);
+				td.when(mockCategoryElements[1].getAttributeAsUrl('domain')).thenReturn(
+					'mock-category-domain-as-url'
+				);
+
+				mockCategoryElements[2].textContentNormalized = 'mock-category-text';
+				td.when(mockCategoryElements[2].getAttribute('domain')).thenReturn(
+					'mock-category-domain'
+				);
+
+				mockCategoryElements[3].textContentNormalized = 'mock-category-text';
+
+				td.when(mockCategoryElements[4].getAttribute('domain')).thenReturn(
+					'https://mock-category-domain'
+				);
+				td.when(mockCategoryElements[4].getAttributeAsUrl('domain')).thenReturn(
+					'mock-category-domain-as-url'
+				);
+
+				categories = feedItem.categories;
+			});
+
+			it('is set to an array of category objects, ignoring ones that do not have text', () => {
+				assert.ok(Array.isArray(categories));
+				assert.strictEqual(categories.length, 4);
+				assert.deepEqual(categories, [
+					{
+						term: 'mock-category-text',
+						label: 'mock-category-text',
+						url: 'mock-category-domain-as-url'
+					},
+					{
+						term: 'mock-category-text',
+						label: 'mock-category-text',
+						url: 'mock-category-domain-as-url'
+					},
+					{
+						term: 'mock-category-text',
+						label: 'mock-category-text',
+						url: null
+					},
+					{
+						term: 'mock-category-text',
+						label: 'mock-category-text',
+						url: null
+					}
+				]);
+			});
+
+			describe('when there are no category elements', () => {
+				beforeEach(() => {
+					td.when(mockItemElement.findElementsWithName('category')).thenReturn([]);
+					categories = feedItem.categories;
+				});
+
+				it('is set to the feed categories', () => {
+					assert.deepEqual(categories, ['mock-feed-category']);
 				});
 			});
 		});

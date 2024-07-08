@@ -38,7 +38,13 @@
 				"image": null,
 				"media": [],
 				"authors": [],
-				"categories": []
+				"categories": [
+					{
+						"label": "kubernetes",
+						"term": "kubernetes",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://mastodon.social/@Gargron/109943079995353881",

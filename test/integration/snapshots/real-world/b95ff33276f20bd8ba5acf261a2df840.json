@@ -61,7 +61,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Commercial Vehicles",
+						"term": "Commercial Vehicles",
+						"url": null
+					},
+					{
+						"label": "Transportation",
+						"term": "Transportation",
+						"url": null
+					},
+					{
+						"label": "site|engadget",
+						"term": "site|engadget",
+						"url": null
+					},
+					{
+						"label": "provider_name|Engadget",
+						"term": "provider_name|Engadget",
+						"url": null
+					},
+					{
+						"label": "region|US",
+						"term": "region|US",
+						"url": null
+					},
+					{
+						"label": "language|en-US",
+						"term": "language|en-US",
+						"url": null
+					},
+					{
+						"label": "author_name|Mariella Moon",
+						"term": "author_name|Mariella Moon",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "83a8ba88-85c0-4022-82f0-fc3b99be3862",
@@ -100,7 +136,58 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Software",
+						"term": "Software",
+						"url": null
+					},
+					{
+						"label": "Media",
+						"term": "Media",
+						"url": null
+					},
+					{
+						"label": "Technology & Electronics",
+						"term": "Technology & Electronics",
+						"url": null
+					},
+					{
+						"label": "Arts & Entertainment",
+						"term": "Arts & Entertainment",
+						"url": null
+					},
+					{
+						"label": "Social & Online Media",
+						"term": "Social & Online Media",
+						"url": null
+					},
+					{
+						"label": "site|engadget",
+						"term": "site|engadget",
+						"url": null
+					},
+					{
+						"label": "provider_name|Engadget",
+						"term": "provider_name|Engadget",
+						"url": null
+					},
+					{
+						"label": "region|US",
+						"term": "region|US",
+						"url": null
+					},
+					{
+						"label": "language|en-US",
+						"term": "language|en-US",
+						"url": null
+					},
+					{
+						"label": "author_name|Karissa Bell",
+						"term": "author_name|Karissa Bell",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "a85878a8-1e98-49cc-a8b6-6d4eaff71820",
@@ -139,7 +226,58 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Information Technology",
+						"term": "Information Technology",
+						"url": null
+					},
+					{
+						"label": "Software",
+						"term": "Software",
+						"url": null
+					},
+					{
+						"label": "Mobile Apps",
+						"term": "Mobile Apps",
+						"url": null
+					},
+					{
+						"label": "Technology & Electronics",
+						"term": "Technology & Electronics",
+						"url": null
+					},
+					{
+						"label": "Finance",
+						"term": "Finance",
+						"url": null
+					},
+					{
+						"label": "site|engadget",
+						"term": "site|engadget",
+						"url": null
+					},
+					{
+						"label": "provider_name|Engadget",
+						"term": "provider_name|Engadget",
+						"url": null
+					},
+					{
+						"label": "region|US",
+						"term": "region|US",
+						"url": null
+					},
+					{
+						"label": "language|en-US",
+						"term": "language|en-US",
+						"url": null
+					},
+					{
+						"label": "author_name|Amrita Khalid",
+						"term": "author_name|Amrita Khalid",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "bc155fc1-d49a-4553-bc79-3faad6458b2c",
@@ -178,7 +316,48 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Media",
+						"term": "Media",
+						"url": null
+					},
+					{
+						"label": "Arts & Entertainment",
+						"term": "Arts & Entertainment",
+						"url": null
+					},
+					{
+						"label": "Social & Online Media",
+						"term": "Social & Online Media",
+						"url": null
+					},
+					{
+						"label": "site|engadget",
+						"term": "site|engadget",
+						"url": null
+					},
+					{
+						"label": "provider_name|Engadget",
+						"term": "provider_name|Engadget",
+						"url": null
+					},
+					{
+						"label": "region|US",
+						"term": "region|US",
+						"url": null
+					},
+					{
+						"label": "language|en-US",
+						"term": "language|en-US",
+						"url": null
+					},
+					{
+						"label": "author_name|Karissa Bell",
+						"term": "author_name|Karissa Bell",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "3378dcb0-760a-4e76-ac36-4a96dcf97dfc",
@@ -217,7 +396,48 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Information Technology",
+						"term": "Information Technology",
+						"url": null
+					},
+					{
+						"label": "Technology & Electronics",
+						"term": "Technology & Electronics",
+						"url": null
+					},
+					{
+						"label": "Game Consoles",
+						"term": "Game Consoles",
+						"url": null
+					},
+					{
+						"label": "site|engadget",
+						"term": "site|engadget",
+						"url": null
+					},
+					{
+						"label": "provider_name|Engadget",
+						"term": "provider_name|Engadget",
+						"url": null
+					},
+					{
+						"label": "region|US",
+						"term": "region|US",
+						"url": null
+					},
+					{
+						"label": "language|en-US",
+						"term": "language|en-US",
+						"url": null
+					},
+					{
+						"label": "author_name|Igor Bonifacic",
+						"term": "author_name|Igor Bonifacic",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "539b2cbe-fc73-4b36-9457-f2e7f8d34f90",
@@ -256,7 +476,33 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "site|engadget",
+						"term": "site|engadget",
+						"url": null
+					},
+					{
+						"label": "provider_name|Engadget",
+						"term": "provider_name|Engadget",
+						"url": null
+					},
+					{
+						"label": "region|US",
+						"term": "region|US",
+						"url": null
+					},
+					{
+						"label": "language|en-US",
+						"term": "language|en-US",
+						"url": null
+					},
+					{
+						"label": "author_name|Jon Fingas",
+						"term": "author_name|Jon Fingas",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "ca653b55-04ab-4a4d-af44-505153e8680b",
@@ -295,7 +541,48 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Software",
+						"term": "Software",
+						"url": null
+					},
+					{
+						"label": "Mobile Apps",
+						"term": "Mobile Apps",
+						"url": null
+					},
+					{
+						"label": "Technology & Electronics",
+						"term": "Technology & Electronics",
+						"url": null
+					},
+					{
+						"label": "site|engadget",
+						"term": "site|engadget",
+						"url": null
+					},
+					{
+						"label": "provider_name|Engadget",
+						"term": "provider_name|Engadget",
+						"url": null
+					},
+					{
+						"label": "region|US",
+						"term": "region|US",
+						"url": null
+					},
+					{
+						"label": "language|en-US",
+						"term": "language|en-US",
+						"url": null
+					},
+					{
+						"label": "author_name|Kris Holt",
+						"term": "author_name|Kris Holt",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "1c7c904e-ba4e-4b7b-a5c4-5ddd07cf5310",
@@ -334,7 +621,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Technology & Electronics",
+						"term": "Technology & Electronics",
+						"url": null
+					},
+					{
+						"label": "site|engadget",
+						"term": "site|engadget",
+						"url": null
+					},
+					{
+						"label": "provider_name|Engadget",
+						"term": "provider_name|Engadget",
+						"url": null
+					},
+					{
+						"label": "region|US",
+						"term": "region|US",
+						"url": null
+					},
+					{
+						"label": "language|en-US",
+						"term": "language|en-US",
+						"url": null
+					},
+					{
+						"label": "author_name|Jon Fingas",
+						"term": "author_name|Jon Fingas",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "c1f730da-1be3-483a-945e-c4a690f40a56",
@@ -373,7 +691,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Technology & Electronics",
+						"term": "Technology & Electronics",
+						"url": null
+					},
+					{
+						"label": "site|engadget",
+						"term": "site|engadget",
+						"url": null
+					},
+					{
+						"label": "provider_name|Engadget",
+						"term": "provider_name|Engadget",
+						"url": null
+					},
+					{
+						"label": "region|US",
+						"term": "region|US",
+						"url": null
+					},
+					{
+						"label": "language|en-US",
+						"term": "language|en-US",
+						"url": null
+					},
+					{
+						"label": "author_name|Igor Bonifacic",
+						"term": "author_name|Igor Bonifacic",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "32235e3e-9175-48ed-b528-75e1ad2bbda9",
@@ -412,7 +761,33 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "site|engadget",
+						"term": "site|engadget",
+						"url": null
+					},
+					{
+						"label": "provider_name|Engadget",
+						"term": "provider_name|Engadget",
+						"url": null
+					},
+					{
+						"label": "region|US",
+						"term": "region|US",
+						"url": null
+					},
+					{
+						"label": "language|en-US",
+						"term": "language|en-US",
+						"url": null
+					},
+					{
+						"label": "author_name|Jon Fingas",
+						"term": "author_name|Jon Fingas",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "f259f784-c7b7-4eb8-86f6-94a79500e47e",
@@ -451,7 +826,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Science",
+						"term": "Science",
+						"url": null
+					},
+					{
+						"label": "Space & Astronomy",
+						"term": "Space & Astronomy",
+						"url": null
+					},
+					{
+						"label": "site|engadget",
+						"term": "site|engadget",
+						"url": null
+					},
+					{
+						"label": "provider_name|Engadget",
+						"term": "provider_name|Engadget",
+						"url": null
+					},
+					{
+						"label": "region|US",
+						"term": "region|US",
+						"url": null
+					},
+					{
+						"label": "language|en-US",
+						"term": "language|en-US",
+						"url": null
+					},
+					{
+						"label": "author_name|Kris Holt",
+						"term": "author_name|Kris Holt",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "fbdc88b9-e2f1-417b-9da0-19270853d5fb",
@@ -490,7 +901,58 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "US International News",
+						"term": "US International News",
+						"url": null
+					},
+					{
+						"label": "Politics & Government",
+						"term": "Politics & Government",
+						"url": null
+					},
+					{
+						"label": "Media",
+						"term": "Media",
+						"url": null
+					},
+					{
+						"label": "Arts & Entertainment",
+						"term": "Arts & Entertainment",
+						"url": null
+					},
+					{
+						"label": "Social & Online Media",
+						"term": "Social & Online Media",
+						"url": null
+					},
+					{
+						"label": "site|engadget",
+						"term": "site|engadget",
+						"url": null
+					},
+					{
+						"label": "provider_name|Engadget",
+						"term": "provider_name|Engadget",
+						"url": null
+					},
+					{
+						"label": "region|US",
+						"term": "region|US",
+						"url": null
+					},
+					{
+						"label": "language|en-US",
+						"term": "language|en-US",
+						"url": null
+					},
+					{
+						"label": "author_name|Karissa Bell",
+						"term": "author_name|Karissa Bell",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "bbe64054-ff97-45ab-b626-cadecfdd0333",
@@ -529,7 +991,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Media",
+						"term": "Media",
+						"url": null
+					},
+					{
+						"label": "Arts & Entertainment",
+						"term": "Arts & Entertainment",
+						"url": null
+					},
+					{
+						"label": "site|engadget",
+						"term": "site|engadget",
+						"url": null
+					},
+					{
+						"label": "provider_name|Engadget",
+						"term": "provider_name|Engadget",
+						"url": null
+					},
+					{
+						"label": "region|US",
+						"term": "region|US",
+						"url": null
+					},
+					{
+						"label": "language|en-US",
+						"term": "language|en-US",
+						"url": null
+					},
+					{
+						"label": "author_name|Igor Bonifacic",
+						"term": "author_name|Igor Bonifacic",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "15af2ae2-d6e3-425b-8f5e-d5e4c2a14e4f",
@@ -568,7 +1066,48 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Media",
+						"term": "Media",
+						"url": null
+					},
+					{
+						"label": "Television",
+						"term": "Television",
+						"url": null
+					},
+					{
+						"label": "Sports & Recreation",
+						"term": "Sports & Recreation",
+						"url": null
+					},
+					{
+						"label": "site|engadget",
+						"term": "site|engadget",
+						"url": null
+					},
+					{
+						"label": "provider_name|Engadget",
+						"term": "provider_name|Engadget",
+						"url": null
+					},
+					{
+						"label": "region|US",
+						"term": "region|US",
+						"url": null
+					},
+					{
+						"label": "language|en-US",
+						"term": "language|en-US",
+						"url": null
+					},
+					{
+						"label": "author_name|Daniel Cooper",
+						"term": "author_name|Daniel Cooper",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "449d827c-0b8b-4067-939d-a05d7cbc9c44",
@@ -607,7 +1146,33 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "site|engadget",
+						"term": "site|engadget",
+						"url": null
+					},
+					{
+						"label": "provider_name|Engadget",
+						"term": "provider_name|Engadget",
+						"url": null
+					},
+					{
+						"label": "region|US",
+						"term": "region|US",
+						"url": null
+					},
+					{
+						"label": "language|en-US",
+						"term": "language|en-US",
+						"url": null
+					},
+					{
+						"label": "author_name|Igor Bonifacic",
+						"term": "author_name|Igor Bonifacic",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "0d9fdeaa-cc91-4157-9885-eb07de33ad9c",
@@ -646,7 +1211,53 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Movies",
+						"term": "Movies",
+						"url": null
+					},
+					{
+						"label": "Media",
+						"term": "Media",
+						"url": null
+					},
+					{
+						"label": "Celebrities",
+						"term": "Celebrities",
+						"url": null
+					},
+					{
+						"label": "Arts & Entertainment",
+						"term": "Arts & Entertainment",
+						"url": null
+					},
+					{
+						"label": "site|engadget",
+						"term": "site|engadget",
+						"url": null
+					},
+					{
+						"label": "provider_name|Engadget",
+						"term": "provider_name|Engadget",
+						"url": null
+					},
+					{
+						"label": "region|US",
+						"term": "region|US",
+						"url": null
+					},
+					{
+						"label": "language|en-US",
+						"term": "language|en-US",
+						"url": null
+					},
+					{
+						"label": "author_name|Igor Bonifacic",
+						"term": "author_name|Igor Bonifacic",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "02993920-4583-4b17-960d-2edae096fce7",
@@ -685,7 +1296,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Media",
+						"term": "Media",
+						"url": null
+					},
+					{
+						"label": "Celebrities",
+						"term": "Celebrities",
+						"url": null
+					},
+					{
+						"label": "site|engadget",
+						"term": "site|engadget",
+						"url": null
+					},
+					{
+						"label": "provider_name|Engadget",
+						"term": "provider_name|Engadget",
+						"url": null
+					},
+					{
+						"label": "region|US",
+						"term": "region|US",
+						"url": null
+					},
+					{
+						"label": "language|en-US",
+						"term": "language|en-US",
+						"url": null
+					},
+					{
+						"label": "author_name|Jon Fingas",
+						"term": "author_name|Jon Fingas",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "01c7d2d1-ae9d-45e0-8ee0-bba68cd5c732",
@@ -724,7 +1371,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Technology & Electronics",
+						"term": "Technology & Electronics",
+						"url": null
+					},
+					{
+						"label": "site|engadget",
+						"term": "site|engadget",
+						"url": null
+					},
+					{
+						"label": "provider_name|Engadget",
+						"term": "provider_name|Engadget",
+						"url": null
+					},
+					{
+						"label": "region|US",
+						"term": "region|US",
+						"url": null
+					},
+					{
+						"label": "language|en-US",
+						"term": "language|en-US",
+						"url": null
+					},
+					{
+						"label": "author_name|Kris Holt",
+						"term": "author_name|Kris Holt",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "c4e1b535-7236-428e-ae0b-8b381d90174f",
@@ -763,7 +1441,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Information Technology",
+						"term": "Information Technology",
+						"url": null
+					},
+					{
+						"label": "site|engadget",
+						"term": "site|engadget",
+						"url": null
+					},
+					{
+						"label": "provider_name|Engadget",
+						"term": "provider_name|Engadget",
+						"url": null
+					},
+					{
+						"label": "region|US",
+						"term": "region|US",
+						"url": null
+					},
+					{
+						"label": "language|en-US",
+						"term": "language|en-US",
+						"url": null
+					},
+					{
+						"label": "author_name|Kris Holt",
+						"term": "author_name|Kris Holt",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "4a9dad02-6e45-4bc5-b842-5f12f605efd8",
@@ -802,7 +1511,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Mobile Apps",
+						"term": "Mobile Apps",
+						"url": null
+					},
+					{
+						"label": "Technology & Electronics",
+						"term": "Technology & Electronics",
+						"url": null
+					},
+					{
+						"label": "site|engadget",
+						"term": "site|engadget",
+						"url": null
+					},
+					{
+						"label": "provider_name|Engadget",
+						"term": "provider_name|Engadget",
+						"url": null
+					},
+					{
+						"label": "region|US",
+						"term": "region|US",
+						"url": null
+					},
+					{
+						"label": "language|en-US",
+						"term": "language|en-US",
+						"url": null
+					},
+					{
+						"label": "author_name|Sam Rutherford",
+						"term": "author_name|Sam Rutherford",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "b158ff40-eb53-471e-88d2-7517944eeee6",
@@ -841,7 +1586,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Shopping",
+						"term": "Shopping",
+						"url": null
+					},
+					{
+						"label": "Hobbies & Personal Activities",
+						"term": "Hobbies & Personal Activities",
+						"url": null
+					},
+					{
+						"label": "site|engadget",
+						"term": "site|engadget",
+						"url": null
+					},
+					{
+						"label": "provider_name|Engadget",
+						"term": "provider_name|Engadget",
+						"url": null
+					},
+					{
+						"label": "region|US",
+						"term": "region|US",
+						"url": null
+					},
+					{
+						"label": "language|en-US",
+						"term": "language|en-US",
+						"url": null
+					},
+					{
+						"label": "author_name|Jon Fingas",
+						"term": "author_name|Jon Fingas",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "56c8972e-bdee-4674-acf4-c2fbca3f215b",
@@ -880,7 +1661,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Software",
+						"term": "Software",
+						"url": null
+					},
+					{
+						"label": "Technology & Electronics",
+						"term": "Technology & Electronics",
+						"url": null
+					},
+					{
+						"label": "site|engadget",
+						"term": "site|engadget",
+						"url": null
+					},
+					{
+						"label": "provider_name|Engadget",
+						"term": "provider_name|Engadget",
+						"url": null
+					},
+					{
+						"label": "region|US",
+						"term": "region|US",
+						"url": null
+					},
+					{
+						"label": "language|en-US",
+						"term": "language|en-US",
+						"url": null
+					},
+					{
+						"label": "author_name|Cherlynn Low",
+						"term": "author_name|Cherlynn Low",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "b95fdeee-f285-479d-a5a9-628cc2d3266d",
@@ -919,7 +1736,43 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Media",
+						"term": "Media",
+						"url": null
+					},
+					{
+						"label": "Arts & Entertainment",
+						"term": "Arts & Entertainment",
+						"url": null
+					},
+					{
+						"label": "site|engadget",
+						"term": "site|engadget",
+						"url": null
+					},
+					{
+						"label": "provider_name|Engadget",
+						"term": "provider_name|Engadget",
+						"url": null
+					},
+					{
+						"label": "region|US",
+						"term": "region|US",
+						"url": null
+					},
+					{
+						"label": "language|en-US",
+						"term": "language|en-US",
+						"url": null
+					},
+					{
+						"label": "author_name|Jon Fingas",
+						"term": "author_name|Jon Fingas",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "54dacaa8-0e15-460b-96ed-0d302bab87a2",
@@ -958,7 +1811,38 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Automotive Industry",
+						"term": "Automotive Industry",
+						"url": null
+					},
+					{
+						"label": "site|engadget",
+						"term": "site|engadget",
+						"url": null
+					},
+					{
+						"label": "provider_name|Engadget",
+						"term": "provider_name|Engadget",
+						"url": null
+					},
+					{
+						"label": "region|US",
+						"term": "region|US",
+						"url": null
+					},
+					{
+						"label": "language|en-US",
+						"term": "language|en-US",
+						"url": null
+					},
+					{
+						"label": "author_name|Kris Holt",
+						"term": "author_name|Kris Holt",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "cde62a1e-7ccc-4354-9961-d11ce0ca8b11",
@@ -997,7 +1881,48 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Consumer Discretionary",
+						"term": "Consumer Discretionary",
+						"url": null
+					},
+					{
+						"label": "Cameras & Photography",
+						"term": "Cameras & Photography",
+						"url": null
+					},
+					{
+						"label": "Technology & Electronics",
+						"term": "Technology & Electronics",
+						"url": null
+					},
+					{
+						"label": "site|engadget",
+						"term": "site|engadget",
+						"url": null
+					},
+					{
+						"label": "provider_name|Engadget",
+						"term": "provider_name|Engadget",
+						"url": null
+					},
+					{
+						"label": "region|US",
+						"term": "region|US",
+						"url": null
+					},
+					{
+						"label": "language|en-US",
+						"term": "language|en-US",
+						"url": null
+					},
+					{
+						"label": "author_name|Steve Dent",
+						"term": "author_name|Steve Dent",
+						"url": null
+					}
+				]
 			}
 		]
 	}

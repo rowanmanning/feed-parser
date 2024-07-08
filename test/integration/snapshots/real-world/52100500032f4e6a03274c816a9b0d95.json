@@ -56,7 +56,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "6217e2e5a5fc66003de5f721",
@@ -87,7 +93,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Announcements",
+						"term": "Announcements",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "6238c461574192003d4c0521",
@@ -118,7 +130,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Announcements",
+						"term": "Announcements",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "62265414d3543f003d415d0c",
@@ -180,7 +198,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Education",
+						"term": "Education",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "6217e04ca5fc66003de5f6d2",
@@ -211,7 +235,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Announcements",
+						"term": "Announcements",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "61f2e43d61051e003bd765eb",
@@ -242,7 +272,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Announcements",
+						"term": "Announcements",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "6217a3faa5fc66003de5f684",
@@ -273,7 +309,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Partnerships",
+						"term": "Partnerships",
+						"url": null
+					},
+					{
+						"label": "API",
+						"term": "API",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "61f03d85880d12004860312e",
@@ -304,7 +351,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Announcements",
+						"term": "Announcements",
+						"url": null
+					},
+					{
+						"label": "Partnerships",
+						"term": "Partnerships",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "61f9493f968755003b8afa79",
@@ -335,7 +393,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "61e0945699f3a9003b1fb3b3",
@@ -366,7 +430,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Announcements",
+						"term": "Announcements",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "61ae5dce3e1dd8003b09ac1a",
@@ -397,7 +467,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Community",
+						"term": "Community",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "618d30ca2bda79003bc4cfc2",
@@ -428,7 +504,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Announcements",
+						"term": "Announcements",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "61aa39a52bda79003bc4d2d5",
@@ -459,7 +541,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Topic Takeover",
+						"term": "Topic Takeover",
+						"url": null
+					},
+					{
+						"label": "Announcements",
+						"term": "Announcements",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "61a63a6b2bda79003bc4d291",
@@ -490,7 +583,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Announcements",
+						"term": "Announcements",
+						"url": null
+					},
+					{
+						"label": "Brand Partners",
+						"term": "Brand Partners",
+						"url": null
+					}
+				]
 			}
 		]
 	}

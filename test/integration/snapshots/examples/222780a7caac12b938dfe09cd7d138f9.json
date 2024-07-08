@@ -71,7 +71,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "LOL",
+						"term": "Sports",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "https://v3spec.msn.com/article123.htm",

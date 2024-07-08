@@ -53,7 +53,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Basics",
+						"term": "Basics",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "TheNextWeb=1383999",
@@ -84,7 +90,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Twitter",
+						"term": "Twitter",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "TheNextWeb=1383988",
@@ -115,7 +127,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Insider",
+						"term": "Insider",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "TheNextWeb=1383991",
@@ -146,7 +164,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Neural",
+						"term": "Neural",
+						"url": null
+					},
+					{
+						"label": "Artificial Intelligence",
+						"term": "Artificial Intelligence",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "TheNextWeb=1383825",
@@ -177,7 +206,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Insider",
+						"term": "Insider",
+						"url": null
+					},
+					{
+						"label": "Hard Fork",
+						"term": "Hard Fork",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "TheNextWeb=1383953",
@@ -208,7 +248,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Shift",
+						"term": "Shift",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "TheNextWeb=1383943",
@@ -239,7 +285,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Space",
+						"term": "Space",
+						"url": null
+					},
+					{
+						"label": "Next Featured",
+						"term": "Next Featured",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "TheNextWeb=1383935",
@@ -270,7 +327,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Shift",
+						"term": "Shift",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "TheNextWeb=1383921",
@@ -301,7 +364,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Insider",
+						"term": "Insider",
+						"url": null
+					},
+					{
+						"label": "Shift",
+						"term": "Shift",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "TheNextWeb=1383897",
@@ -332,7 +406,18 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Insider",
+						"term": "Insider",
+						"url": null
+					},
+					{
+						"label": "Plugged",
+						"term": "Plugged",
+						"url": null
+					}
+				]
 			}
 		]
 	}

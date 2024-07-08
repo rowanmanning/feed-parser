@@ -24,7 +24,23 @@
 				"url": null
 			}
 		],
-		"categories": [],
+		"categories": [
+			{
+				"label": "Programming",
+				"term": "Programming",
+				"url": null
+			},
+			{
+				"label": "Computer",
+				"term": "Computer",
+				"url": null
+			},
+			{
+				"label": "Developer",
+				"term": "Developer",
+				"url": null
+			}
+		],
 		"items": [
 			{
 				"id": "http://dev.fyicenter.com/1000284_Validating_XHTML_1_0_Documents_Online.html",
@@ -43,7 +59,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "HTML",
+						"term": "HTML",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "http://dev.fyicenter.com/1000341_HTML_Body_Tag_and_Block_Level_Tags.html",
@@ -62,7 +84,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "HTML",
+						"term": "HTML",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "http://dev.fyicenter.com/1000342_HTML_body_Tag_Element-Document_Body.html",
@@ -81,7 +109,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "HTML",
+						"term": "HTML",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "http://dev.fyicenter.com/1000340_HTML_style_Tag_Element.html",
@@ -100,7 +134,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "HTML",
+						"term": "HTML",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "http://dev.fyicenter.com/1000339_HTML_link_Tag_Element.html",
@@ -119,7 +159,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "HTML",
+						"term": "HTML",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "http://dev.fyicenter.com/1000338_HTML_script_Tag_Element_in_head_Element.html",
@@ -138,7 +184,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "HTML",
+						"term": "HTML",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "http://dev.fyicenter.com/1000137_Reading_a_File_in_Binary_Mode_in_PHP.html",
@@ -157,7 +209,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "PHP",
+						"term": "PHP",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "http://dev.fyicenter.com/1000724_context_Request_Url_Query_Query_String_Parameters.html",
@@ -176,7 +234,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "Microsoft",
+						"term": "Microsoft",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "http://dev.fyicenter.com/1000253_HTML_Tutorials.html",
@@ -195,7 +259,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "HTML",
+						"term": "HTML",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "http://dev.fyicenter.com/1000201_Saving_Values_in_the_Session_in_PHP.html",
@@ -214,7 +284,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "PHP",
+						"term": "PHP",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "http://dev.fyicenter.com/1000036_PHP_Tutorials.html",
@@ -233,7 +309,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "PHP",
+						"term": "PHP",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "http://dev.fyicenter.com/1000415_rowspan_-Merging_Cells_HTML_Table_Columns.html",
@@ -252,7 +334,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "HTML",
+						"term": "HTML",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "http://dev.fyicenter.com/1000476_Main_Features_on_Visual_Studio_2017_Start_Page.html",
@@ -271,7 +359,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "VisualStudio",
+						"term": "VisualStudio",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "http://dev.fyicenter.com/1000475_Setup_Visual_Studio_2017_for_Visual_C%2B%2B.html",
@@ -290,7 +384,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "VisualStudio",
+						"term": "VisualStudio",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "http://dev.fyicenter.com/1000478_Visual_Studio_2017_Visual_C%2B%2B_Program_Folders.html",
@@ -309,7 +409,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "VisualStudio",
+						"term": "VisualStudio",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "http://dev.fyicenter.com/1000474_Install_Visual_C%2B%2B_in_Visual_Studio.html",
@@ -328,7 +434,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "VisualStudio",
+						"term": "VisualStudio",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "http://dev.fyicenter.com/1000477_Visual_Studio_Community_2017_Program_Folders.html",
@@ -347,7 +459,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "VisualStudio",
+						"term": "VisualStudio",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "http://dev.fyicenter.com/-1_Testing_Area.html",
@@ -366,7 +484,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "General",
+						"term": "General",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "http://dev.fyicenter.com/1000141_Reading_Data_from_Keyboard_in_PHP.html",
@@ -385,7 +509,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "PHP",
+						"term": "PHP",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "http://dev.fyicenter.com/1000984_dev_FYIcenter_com_Links.html",
@@ -404,7 +534,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "General",
+						"term": "General",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "http://dev.fyicenter.com/1000768_Subscribe_to_RSS_Feeds_with_IE.html",
@@ -423,7 +559,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "RSS",
+						"term": "RSS",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "http://dev.fyicenter.com/1000483_Install_Windows_SDK_8_1_with_Visual_Studio_Installer.html",
@@ -442,7 +584,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "VisualStudio",
+						"term": "VisualStudio",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "http://dev.fyicenter.com/1000482_Visual_Studio_Error_Windows_SDK_Version_8_1_not_Found.html",
@@ -461,7 +609,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "VisualStudio",
+						"term": "VisualStudio",
+						"url": null
+					}
+				]
 			},
 			{
 				"id": "http://dev.fyicenter.com/1000479_First_C%2B%2B_Program_in_Visual_Studio_2017.html",
@@ -480,7 +634,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"label": "VisualStudio",
+						"term": "VisualStudio",
+						"url": null
+					}
+				]
 			}
 		]
 	}
