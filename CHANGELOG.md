@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.5.8](https://github.com/rowanmanning/feed-parser/compare/v0.5.7...v0.5.8) (2024-07-10)
+
+
+### Features
+
+* add category support ([b24696f](https://github.com/rowanmanning/feed-parser/commit/b24696fbdb70ed9f4b1b06734f37fc7e9f9997b9))
+
+
+### Bug Fixes
+
+* handle non-string values in text elements ([88bea35](https://github.com/rowanmanning/feed-parser/commit/88bea356942511b77d5cf7cb7b10bc5f217675f8))
+* handle some thumbnail/media edge-cases ([174188a](https://github.com/rowanmanning/feed-parser/commit/174188acd1ec815c9c5c2a353ee16ade3fd7486c))
+
 ## [0.5.7](https://github.com/rowanmanning/feed-parser/compare/v0.5.6...v0.5.7) (2024-06-23)
 
 
