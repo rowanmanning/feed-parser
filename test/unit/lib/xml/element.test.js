@@ -14,10 +14,13 @@ describe('lib/xml/element', () => {
 	beforeEach(() => {
 		fastXmlParser = td.replace(
 			'fast-xml-parser',
-			require('../../mock/npm/fast-xml-parser.mock')()
+			require('../../mock/npm/fast-xml-parser.mock').createMock()
 		);
-		htmlEntities = td.replace('html-entities', require('../../mock/npm/html-entities.mock')());
-		Element = require('../../../../lib/xml/element');
+		htmlEntities = td.replace(
+			'html-entities',
+			require('../../mock/npm/html-entities.mock').createMock()
+		);
+		Element = require('../../../../lib/xml/element').Element;
 	});
 
 	afterEach(() => td.reset());

@@ -2,7 +2,7 @@
 
 const td = require('testdouble');
 
-module.exports = function createMock() {
+exports.createMock = function createMock() {
 	const Document = td.constructor([
 		'findElementWithName',
 		'findElementsWithName',

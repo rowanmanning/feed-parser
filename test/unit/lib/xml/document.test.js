@@ -12,12 +12,12 @@ describe('lib/xml/document', () => {
 	let Document;
 
 	beforeEach(() => {
-		Element = td.replace('../../../../lib/xml/element', td.constructor());
+		Element = td.replace('../../../../lib/xml/element', { Element: td.constructor() }).Element;
 		fastXmlParser = td.replace(
 			'fast-xml-parser',
-			require('../../mock/npm/fast-xml-parser.mock')()
+			require('../../mock/npm/fast-xml-parser.mock').createMock()
 		);
-		Document = require('../../../../lib/xml/document');
+		Document = require('../../../../lib/xml/document').Document;
 	});
 
 	afterEach(() => td.reset());

@@ -11,8 +11,8 @@ describe('lib/feed/item/base', () => {
 	let MockElement;
 
 	beforeEach(() => {
-		MockElement = require('../../../mock/lib/xml/element.mock')();
-		FeedItem = require('../../../../../lib/feed/item/base');
+		MockElement = require('../../../mock/lib/xml/element.mock').createMock();
+		FeedItem = require('../../../../../lib/feed/item/base').FeedItem;
 	});
 
 	afterEach(() => td.reset());

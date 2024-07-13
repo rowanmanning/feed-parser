@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = function createMock() {
+exports.createMock = function createMock() {
 	class Feed {
 		constructor(document) {
 			this.document = document;

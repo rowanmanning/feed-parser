@@ -2,7 +2,7 @@
 'use strict';
 
 const path = require('node:path');
-const writeJSON = require('../helpers/write-json');
+const { writeJSON } = require('../helpers/write-json');
 
 const request = async (url) => {
 	const response = await fetch(new URL(url, 'https://sample-feeds.rowanmanning.com'));

@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = [
+exports.testCases = [
 	{
 		description: 'a single name',
 		input: 'Mock Name',

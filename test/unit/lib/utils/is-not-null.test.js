@@ -7,7 +7,7 @@ describe('lib/utils/is-not-null', () => {
 	let isNotNull;
 
 	beforeEach(() => {
-		isNotNull = require('../../../../lib/utils/is-not-null');
+		isNotNull = require('../../../../lib/utils/is-not-null').isNotNull;
 	});
 
 	it('is a function', () => {

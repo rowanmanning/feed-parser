@@ -16,13 +16,21 @@ describe('lib/feed/atom', () => {
 	let parseContactString;
 
 	beforeEach(() => {
-		MockDocument = require('../../mock/lib/xml/document.mock')();
-		MockElement = require('../../mock/lib/xml/element.mock')();
-		AtomFeedItem = td.replace('../../../../lib/feed/item/atom', td.constructor());
-		Feed = td.replace('../../../../lib/feed/base', require('../../mock/lib/feed/base.mock')());
-		InvalidFeedError = td.replace('../../../../lib/errors/invalid-feed', td.constructor());
-		parseContactString = td.replace('../../../../lib/utils/parse-contact-string', td.func());
-		AtomFeed = require('../../../../lib/feed/atom');
+		MockDocument = require('../../mock/lib/xml/document.mock').createMock();
+		MockElement = require('../../mock/lib/xml/element.mock').createMock();
+		AtomFeedItem = td.replace('../../../../lib/feed/item/atom', {
+			AtomFeedItem: td.constructor()
+		}).AtomFeedItem;
+		Feed = td.replace('../../../../lib/feed/base', {
+			Feed: require('../../mock/lib/feed/base.mock').createMock()
+		}).Feed;
+		InvalidFeedError = td.replace('../../../../lib/errors/invalid-feed', {
+			InvalidFeedError: td.constructor()
+		}).InvalidFeedError;
+		parseContactString = td.replace('../../../../lib/utils/parse-contact-string', {
+			parseContactString: td.func()
+		}).parseContactString;
+		AtomFeed = require('../../../../lib/feed/atom').AtomFeed;
 	});
 
 	afterEach(() => td.reset());

@@ -12,9 +12,9 @@ describe('lib/feed/base', () => {
 	let MockElement;
 
 	beforeEach(() => {
-		MockDocument = require('../../mock/lib/xml/document.mock')();
-		MockElement = require('../../mock/lib/xml/element.mock')();
-		Feed = require('../../../../lib/feed/base');
+		MockDocument = require('../../mock/lib/xml/document.mock').createMock();
+		MockElement = require('../../mock/lib/xml/element.mock').createMock();
+		Feed = require('../../../../lib/feed/base').Feed;
 	});
 
 	afterEach(() => td.reset());

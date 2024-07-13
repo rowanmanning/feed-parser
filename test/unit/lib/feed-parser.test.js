@@ -14,26 +14,21 @@ describe('lib/feed-parser', () => {
 	let RssFeed;
 
 	beforeEach(() => {
-		AtomFeed = td.replace('../../../lib/feed/atom', td.constructor());
-		Document = td.replace(
-			'../../../lib/xml/document',
-			require('../mock/lib/xml/document.mock')()
-		);
-		InvalidFeedError = td.replace('../../../lib/errors/invalid-feed', td.constructor());
-		RssFeed = td.replace('../../../lib/feed/rss', td.constructor());
-		parseFeed = require('../../../lib/feed-parser');
+		AtomFeed = td.replace('../../../lib/feed/atom', { AtomFeed: td.constructor() }).AtomFeed;
+		Document = td.replace('../../../lib/xml/document', {
+			Document: require('../mock/lib/xml/document.mock').createMock()
+		}).Document;
+		InvalidFeedError = td.replace('../../../lib/errors/invalid-feed', {
+			InvalidFeedError: td.constructor()
+		}).InvalidFeedError;
+		RssFeed = td.replace('../../../lib/feed/rss', { RssFeed: td.constructor() }).RssFeed;
+		parseFeed = require('../../../lib/feed-parser').parseFeed;
 	});
 
 	afterEach(() => td.reset());
 
 	it('is a function', () => {
 		assert.strictEqual(typeof parseFeed, 'function');
-	});
-
-	describe('.default', () => {
-		it('aliases the module exports', () => {
-			assert.strictEqual(parseFeed, parseFeed.default);
-		});
 	});
 
 	describe('parseFeed(xmlString)', () => {

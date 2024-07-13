@@ -2,13 +2,14 @@
 
 const assert = require('node:assert/strict');
 const { beforeEach, describe, it } = require('node:test');
-const contactStringTestCases = require('./parse-contact-string.data');
+const contactStringTestCases = require('./parse-contact-string.data').testCases;
 
 describe('lib/utils/parse-contact-string', () => {
 	let parseContactString;
 
 	beforeEach(() => {
-		parseContactString = require('../../../../lib/utils/parse-contact-string');
+		parseContactString =
+			require('../../../../lib/utils/parse-contact-string').parseContactString;
 	});
 
 	it('is a function', () => {

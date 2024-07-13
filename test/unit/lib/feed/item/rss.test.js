@@ -13,13 +13,14 @@ describe('lib/feed/item/rss', () => {
 	let RssFeedItem;
 
 	beforeEach(() => {
-		MockElement = require('../../../mock/lib/xml/element.mock')();
-		FeedItem = td.replace(
-			'../../../../../lib/feed/item/base',
-			require('../../../mock/lib/feed/item/base.mock')()
-		);
-		parseContactString = td.replace('../../../../../lib/utils/parse-contact-string', td.func());
-		RssFeedItem = require('../../../../../lib/feed/item/rss');
+		MockElement = require('../../../mock/lib/xml/element.mock').createMock();
+		FeedItem = td.replace('../../../../../lib/feed/item/base', {
+			FeedItem: require('../../../mock/lib/feed/item/base.mock').createMock()
+		}).FeedItem;
+		parseContactString = td.replace('../../../../../lib/utils/parse-contact-string', {
+			parseContactString: td.func()
+		}).parseContactString;
+		RssFeedItem = require('../../../../../lib/feed/item/rss').RssFeedItem;
 	});
 
 	afterEach(() => td.reset());

@@ -16,13 +16,21 @@ describe('lib/feed/rss', () => {
 	let RssFeedItem;
 
 	beforeEach(() => {
-		MockDocument = require('../../mock/lib/xml/document.mock')();
-		MockElement = require('../../mock/lib/xml/element.mock')();
-		Feed = td.replace('../../../../lib/feed/base', require('../../mock/lib/feed/base.mock')());
-		InvalidFeedError = td.replace('../../../../lib/errors/invalid-feed', td.constructor());
-		parseContactString = td.replace('../../../../lib/utils/parse-contact-string', td.func());
-		RssFeedItem = td.replace('../../../../lib/feed/item/rss', td.constructor());
-		RssFeed = require('../../../../lib/feed/rss');
+		MockDocument = require('../../mock/lib/xml/document.mock').createMock();
+		MockElement = require('../../mock/lib/xml/element.mock').createMock();
+		Feed = td.replace('../../../../lib/feed/base', {
+			Feed: require('../../mock/lib/feed/base.mock').createMock()
+		}).Feed;
+		InvalidFeedError = td.replace('../../../../lib/errors/invalid-feed', {
+			InvalidFeedError: td.constructor()
+		}).InvalidFeedError;
+		parseContactString = td.replace('../../../../lib/utils/parse-contact-string', {
+			parseContactString: td.func()
+		}).parseContactString;
+		RssFeedItem = td.replace('../../../../lib/feed/item/rss', {
+			RssFeedItem: td.constructor()
+		}).RssFeedItem;
+		RssFeed = require('../../../../lib/feed/rss').RssFeed;
 	});
 
 	afterEach(() => td.reset());
@@ -901,8 +909,10 @@ describe('lib/feed/rss', () => {
 			describe('when there are no items in the root element', () => {
 				beforeEach(() => {
 					td.when(mockRootElement.findElementsWithName('item')).thenReturn([]);
-					RssFeedItem = td.replace('../../../../lib/feed/item/rss', td.constructor());
-					RssFeed = require('../../../../lib/feed/rss');
+					RssFeedItem = td.replace('../../../../lib/feed/item/rss', {
+						RssFeedItem: td.constructor()
+					}).RssFeedItem;
+					RssFeed = require('../../../../lib/feed/rss').RssFeed;
 					feed = new RssFeed(mockDocument);
 					items = feed.items;
 				});
@@ -927,8 +937,10 @@ describe('lib/feed/rss', () => {
 			describe('when there are no items in the channel element', () => {
 				beforeEach(() => {
 					td.when(mockChannelElement.findElementsWithName('item')).thenReturn([]);
-					RssFeedItem = td.replace('../../../../lib/feed/item/rss', td.constructor());
-					RssFeed = require('../../../../lib/feed/rss');
+					RssFeedItem = td.replace('../../../../lib/feed/item/rss', {
+						RssFeedItem: td.constructor()
+					}).RssFeedItem;
+					RssFeed = require('../../../../lib/feed/rss').RssFeed;
 					feed = new RssFeed(mockDocument);
 					items = feed.items;
 				});

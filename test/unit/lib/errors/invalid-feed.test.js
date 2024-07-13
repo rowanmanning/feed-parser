@@ -7,7 +7,7 @@ describe('lib/errors/invalid-feed', () => {
 	let InvalidFeedError;
 
 	beforeEach(() => {
-		InvalidFeedError = require('../../../../lib/errors/invalid-feed');
+		InvalidFeedError = require('../../../../lib/errors/invalid-feed').InvalidFeedError;
 	});
 
 	describe('new InvalidFeedError(message)', () => {

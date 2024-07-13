@@ -59,7 +59,7 @@ npm install @rowanmanning/feed-parser
 Load the library into your code with a `require` call:
 
 ```js
-const parseFeed = require('@rowanmanning/feed-parser');
+const { parseFeed } = require('@rowanmanning/feed-parser');
 ```
 
 You can use the `parseFeed` function to parse an RSS or Atom feed as a string. The return value is an object representation of the feed:

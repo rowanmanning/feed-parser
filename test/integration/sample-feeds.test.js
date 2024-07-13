@@ -4,10 +4,10 @@ const assert = require('node:assert/strict');
 const { before, describe, it } = require('node:test');
 const { decode: decodeEntities } = require('html-entities');
 const FeedParser = require('feedparser');
-const parseFeed = require('../..');
+const { parseFeed } = require('../..');
 const path = require('node:path');
 const { Readable } = require('node:stream');
-const writeJSON = require('./helpers/write-json');
+const { writeJSON } = require('./helpers/write-json');
 const { isDeepStrictEqual } = require('node:util');
 
 const suites = [
