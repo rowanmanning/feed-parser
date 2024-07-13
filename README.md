@@ -71,6 +71,13 @@ console.log(feed.title);
 
 [This will try to parse even invalid feeds](#leniency), but if no data can be pulled out an error will be thrown with a `code` property set to `INVALID_FEED`.
 
+This library does not parse feeds via a URL, you can do so relatively easily with [`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch):
+
+```js
+const response = await fetch('https://github.com/rowanmanning/feed-parser/releases.atom');
+const feed = parseFeed(await response.text());
+```
+
 ### Parsed feed
 
 The `feed` object returned by `parseFeed` has the following properties.
