@@ -3,8 +3,6 @@
 
 A well-tested and resilient Node.js parser for [RSS](https://en.wikipedia.org/wiki/RSS) and [Atom](https://en.wikipedia.org/wiki/Atom_(web_standard)) feeds.
 
-**:warning: This project is not ready for production use yet, and is missing a lot of features :warning:**
-
 
 ## Table of Contents
 
