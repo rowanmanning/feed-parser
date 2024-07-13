@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.0.0](https://github.com/rowanmanning/feed-parser/compare/v0.5.8...v1.0.0) (2024-07-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* stop using default exports
+
+### Bug Fixes
+
+* prevent husky from failing ([cf3ce33](https://github.com/rowanmanning/feed-parser/commit/cf3ce3347d3642e7b9e0320f16f43008fb536644))
+
+
+### Documentation
+
+* remove the warning notice - we're ready ([d4959af](https://github.com/rowanmanning/feed-parser/commit/d4959af67b812144bfbfeea9cd58456a0c488a90))
+
+
+### Code Refactoring
+
+* stop using default exports ([238e571](https://github.com/rowanmanning/feed-parser/commit/238e571527407daaf65897b2654b2dab97b0e5c3))
+
 ## [0.5.8](https://github.com/rowanmanning/feed-parser/compare/v0.5.7...v0.5.8) (2024-07-10)
 
 
