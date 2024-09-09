@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/rowanmanning/feed-parser/compare/v1.0.1...v1.1.0) (2024-09-09)
+
+
+### Features
+
+* use dc:subject as a feed/item category ([8cff621](https://github.com/rowanmanning/feed-parser/commit/8cff6211162710eb705743f7de7920a3f84ac8a5))
+
+
+### Bug Fixes
+
+* bump fast-xml-parser from 4.4.1 to 4.5.0 ([3d75104](https://github.com/rowanmanning/feed-parser/commit/3d751046e8231d7c31e109b6fe6b2fce35373327))
+
 ## [1.0.1](https://github.com/rowanmanning/feed-parser/compare/v1.0.0...v1.0.1) (2024-07-29)
 
 
