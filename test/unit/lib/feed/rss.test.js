@@ -678,6 +678,7 @@ describe('lib/feed/rss', () => {
 		describe('.categories', () => {
 			let categories;
 			let mockCategoryElements;
+			let mockSubjectElements;
 
 			beforeEach(() => {
 				mockCategoryElements = [
@@ -699,6 +700,11 @@ describe('lib/feed/rss', () => {
 				];
 				td.when(mockChannelElement.findElementsWithName('category')).thenReturn(
 					mockCategoryElements
+				);
+
+				mockSubjectElements = [new MockElement(), new MockElement()];
+				td.when(mockChannelElement.findElementsWithName('subject')).thenReturn(
+					mockSubjectElements
 				);
 
 				mockCategoryElements[0].textContentNormalized = 'mock-category-text-0';
@@ -801,12 +807,14 @@ describe('lib/feed/rss', () => {
 					mockSubCategories10
 				);
 
+				mockSubjectElements[0].textContentNormalized = 'mock-subject-text';
+
 				categories = feed.categories;
 			});
 
 			it('is set to an array of category objects, ignoring ones that do not have text', () => {
 				assert.ok(Array.isArray(categories));
-				assert.strictEqual(categories.length, 10);
+				assert.strictEqual(categories.length, 11);
 				assert.deepEqual(categories, [
 					{
 						term: 'mock-category-text-0',
@@ -856,6 +864,11 @@ describe('lib/feed/rss', () => {
 					{
 						term: 'mock-category-text-10',
 						label: 'mock-category-text-10',
+						url: null
+					},
+					{
+						term: 'mock-subject-text',
+						label: 'mock-subject-text',
 						url: null
 					}
 				]);

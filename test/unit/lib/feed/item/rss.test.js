@@ -676,6 +676,7 @@ describe('lib/feed/item/rss', () => {
 		describe('.categories', () => {
 			let categories;
 			let mockCategoryElements;
+			let mockSubjectElements;
 
 			beforeEach(() => {
 				mockCategoryElements = [
@@ -688,6 +689,11 @@ describe('lib/feed/item/rss', () => {
 				];
 				td.when(mockItemElement.findElementsWithName('category')).thenReturn(
 					mockCategoryElements
+				);
+
+				mockSubjectElements = [new MockElement(), new MockElement()];
+				td.when(mockItemElement.findElementsWithName('subject')).thenReturn(
+					mockSubjectElements
 				);
 
 				mockCategoryElements[0].textContentNormalized = 'mock-category-text';
@@ -720,12 +726,14 @@ describe('lib/feed/item/rss', () => {
 					'mock-category-domain-as-url'
 				);
 
+				mockSubjectElements[0].textContentNormalized = 'mock-subject-text';
+
 				categories = feedItem.categories;
 			});
 
 			it('is set to an array of category objects, ignoring ones that do not have text', () => {
 				assert.ok(Array.isArray(categories));
-				assert.strictEqual(categories.length, 4);
+				assert.strictEqual(categories.length, 5);
 				assert.deepEqual(categories, [
 					{
 						term: 'mock-category-text',
@@ -746,6 +754,11 @@ describe('lib/feed/item/rss', () => {
 						term: 'mock-category-text',
 						label: 'mock-category-text',
 						url: null
+					},
+					{
+						term: 'mock-subject-text',
+						label: 'mock-subject-text',
+						url: null
 					}
 				]);
 			});
@@ -753,6 +766,7 @@ describe('lib/feed/item/rss', () => {
 			describe('when there are no category elements', () => {
 				beforeEach(() => {
 					td.when(mockItemElement.findElementsWithName('category')).thenReturn([]);
+					td.when(mockItemElement.findElementsWithName('subject')).thenReturn([]);
 					categories = feedItem.categories;
 				});
 

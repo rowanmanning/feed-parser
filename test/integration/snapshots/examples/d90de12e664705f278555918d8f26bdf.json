@@ -43,7 +43,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"term": "Quotes",
+						"label": "Quotes",
+						"url": null
+					}
+				]
 			}
 		]
 	}

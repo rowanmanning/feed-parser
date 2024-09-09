@@ -43,7 +43,13 @@
 						"url": null
 					}
 				],
-				"categories": []
+				"categories": [
+					{
+						"term": "XML",
+						"label": "XML",
+						"url": null
+					}
+				]
 			}
 		]
 	}
