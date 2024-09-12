@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/rowanmanning/parse-feed/compare/v1.1.0...v1.2.0) (2024-09-12)
+
+
+### Features
+
+* rename the library ([eb52384](https://github.com/rowanmanning/parse-feed/commit/eb52384ca4343fca563dfe81312b290a41d8aadb))
+
 ## [1.1.0](https://github.com/rowanmanning/feed-parser/compare/v1.0.1...v1.1.0) (2024-09-09)
 
 
