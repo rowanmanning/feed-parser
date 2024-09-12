@@ -4,8 +4,9 @@
 .github
 .husky
 .nyc_output
-biome.json
 CHANGELOG.md
+biome.json
 coverage
 docs
+jsconfig.json
 test
