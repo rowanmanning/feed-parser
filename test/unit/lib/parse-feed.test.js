@@ -6,7 +6,7 @@ const td = require('testdouble');
 
 td.config({ ignoreWarnings: true });
 
-describe('lib/feed-parser', () => {
+describe('lib/parse-feed', () => {
 	let AtomFeed;
 	let Document;
 	let InvalidFeedError;
@@ -22,7 +22,7 @@ describe('lib/feed-parser', () => {
 			InvalidFeedError: td.constructor()
 		}).InvalidFeedError;
 		RssFeed = td.replace('../../../lib/feed/rss', { RssFeed: td.constructor() }).RssFeed;
-		parseFeed = require('../../../lib/feed-parser').parseFeed;
+		parseFeed = require('../../../lib/parse-feed').parseFeed;
 	});
 
 	afterEach(() => td.reset());

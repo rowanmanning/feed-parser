@@ -1,5 +1,5 @@
 
-# @rowanmanning/feed-parser
+# parse-feed
 
 A well-tested and resilient Node.js parser for [RSS](https://en.wikipedia.org/wiki/RSS) and [Atom](https://en.wikipedia.org/wiki/Atom_(web_standard)) feeds.
 
@@ -51,17 +51,17 @@ This library requires the following to run:
 Install with [npm](https://www.npmjs.com/):
 
 ```sh
-npm install @rowanmanning/feed-parser
+npm install parse-feed
 ```
 
 Load the library into your code:
 
 ```js
-const { parseFeed } = require('@rowanmanning/feed-parser');
+const { parseFeed } = require('parse-feed');
 
 // or
 
-import { parseFeed } from '@rowanmanning/feed-parser';
+import { parseFeed } from 'parse-feed';
 ```
 
 You can use the `parseFeed` function to parse an RSS or Atom feed as a string. The return value is an object representation of the feed:
@@ -76,7 +76,7 @@ console.log(feed.title);
 This library does not parse feeds via a URL, you can do so relatively easily with [`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch):
 
 ```js
-const response = await fetch('https://github.com/rowanmanning/feed-parser/releases.atom');
+const response = await fetch('https://github.com/rowanmanning/parse-feed/releases.atom');
 const feed = parseFeed(await response.text());
 ```
 

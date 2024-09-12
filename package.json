@@ -1,5 +1,5 @@
 {
-  "name": "@rowanmanning/feed-parser",
+  "name": "parse-feed",
   "version": "1.1.0",
   "description": "A well-tested and resilient parser for RSS and Atom feeds",
   "keywords": [
@@ -10,10 +10,10 @@
   "author": "Rowan Manning (https://rowanmanning.com/)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rowanmanning/feed-parser.git"
+    "url": "https://github.com/rowanmanning/parse-feed.git"
   },
-  "homepage": "https://github.com/rowanmanning/feed-parser",
-  "bugs": "https://github.com/rowanmanning/feed-parser/issues",
+  "homepage": "https://github.com/rowanmanning/parse-feed",
+  "bugs": "https://github.com/rowanmanning/parse-feed/issues",
   "license": "MIT",
   "engines": {
     "node": "18.x || 20.x || 22.x",
@@ -45,7 +45,7 @@
     "testdouble": "^3.16.5",
     "typescript": "^5.5.2"
   },
-  "main": "lib/feed-parser.js",
+  "main": "lib/parse-feed.js",
   "nyc": {
     "reporter": [
       "html",
