@@ -1,21 +1,18 @@
 {
 	"compilerOptions": {
-		"allowJs": true,
 		"checkJs": true,
 		"declaration": true,
 		"declarationMap": true,
 		"maxNodeModuleJsDepth": 0,
-		"module": "commonjs",
+		"module": "CommonJS",
+		"noEmit": true,
 		"noImplicitOverride": true,
 		"removeComments": true,
 		"resolveJsonModule": true,
-		"strictBindCallApply": true,
-		"strictFunctionTypes": true,
-		"strictNullChecks": true,
-		"strictPropertyInitialization": true,
-		"target": "es2020",
+		"strict": true,
+		"target": "ES2022",
 		"useUnknownInCatchVariables": true
 	},
 	"exclude": ["coverage", "node_modules", "test"],
-	"include": ["**/*.js"]
+	"include": ["**/*.js", "**/*.ts"]
 }
