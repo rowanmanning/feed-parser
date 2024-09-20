@@ -6,7 +6,7 @@ const td = require('testdouble');
 
 td.config({ ignoreWarnings: true });
 
-describe('lib/feed-parser', () => {
+describe('@rowanmanning/feed-parser', () => {
 	let AtomFeed;
 	let Document;
 	let InvalidFeedError;
@@ -14,15 +14,15 @@ describe('lib/feed-parser', () => {
 	let RssFeed;
 
 	beforeEach(() => {
-		AtomFeed = td.replace('../../../lib/feed/atom', { AtomFeed: td.constructor() }).AtomFeed;
-		Document = td.replace('../../../lib/xml/document', {
-			Document: require('../mock/lib/xml/document.mock').createMock()
+		AtomFeed = td.replace('../../lib/feed/atom', { AtomFeed: td.constructor() }).AtomFeed;
+		Document = td.replace('../../lib/xml/document', {
+			Document: require('./mock/lib/xml/document.mock').createMock()
 		}).Document;
-		InvalidFeedError = td.replace('../../../lib/errors/invalid-feed', {
+		InvalidFeedError = td.replace('../../lib/errors/invalid-feed', {
 			InvalidFeedError: td.constructor()
 		}).InvalidFeedError;
-		RssFeed = td.replace('../../../lib/feed/rss', { RssFeed: td.constructor() }).RssFeed;
-		parseFeed = require('../../../lib/feed-parser').parseFeed;
+		RssFeed = td.replace('../../lib/feed/rss', { RssFeed: td.constructor() }).RssFeed;
+		parseFeed = require('../..').parseFeed;
 	});
 
 	afterEach(() => td.reset());

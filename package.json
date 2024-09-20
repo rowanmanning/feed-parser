@@ -45,7 +45,7 @@
     "testdouble": "^3.16.5",
     "typescript": "^5.5.2"
   },
-  "main": "lib/feed-parser.js",
+  "main": "index.js",
   "nyc": {
     "reporter": [
       "html",

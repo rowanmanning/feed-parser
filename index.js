@@ -1,12 +1,12 @@
 'use strict';
 
-const { AtomFeed } = require('./feed/atom');
-const { Document } = require('./xml/document');
-const { InvalidFeedError } = require('./errors/invalid-feed');
-const { RssFeed } = require('./feed/rss');
+const { AtomFeed } = require('./lib/feed/atom');
+const { Document } = require('./lib/xml/document');
+const { InvalidFeedError } = require('./lib/errors/invalid-feed');
+const { RssFeed } = require('./lib/feed/rss');
 
 /**
- * @type {{[key: string]: typeof import('./feed/base').Feed}}}
+ * @type {{[key: string]: typeof import('./lib/feed/base').Feed}}}
  */
 const DATA_PROVIDER_BY_ROOT_ELEMENT = {
 	feed: AtomFeed,
@@ -19,7 +19,7 @@ const DATA_PROVIDER_BY_ROOT_ELEMENT = {
  *
  * @param {string} xmlString
  *     A string of XML.
- * @returns {import('./feed/base').Feed}
+ * @returns {import('./lib/feed/base').Feed}
  *     Returns a feed representation of the XML string.
  * @throws {InvalidFeedError}
  *     Throws an invalid feed error if an unrecoverable issue is found with the feed.
