@@ -3,7 +3,7 @@
 	"extends": ["./node_modules/@rowanmanning/biome-config/config.json"],
 	"linter": {
 		"rules": {
-			"nursery": {
+			"performance": {
 				"useTopLevelRegex": "off"
 			}
 		}

@@ -20,7 +20,7 @@ const request = async (url) => {
 			writeJSON(path.join(__dirname, 'real-world.json'), realWorld)
 		]);
 	} catch (error) {
-		// biome-ignore lint/nursery/noConsole: only used in the tests
+		// biome-ignore lint/suspicious/noConsole: only used in the tests
 		console.error('Error loading fixtures:', error.message);
 	}
 })();
