@@ -16,7 +16,7 @@
   "bugs": "https://github.com/rowanmanning/feed-parser/issues",
   "license": "MIT",
   "engines": {
-    "node": "18.x || 20.x || 22.x",
+    "node": "20.x || 22.x",
     "npm": "8.x || 9.x || 10.x"
   },
   "scripts": {
