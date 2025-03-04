@@ -43,7 +43,7 @@ This is a Node.js-based feed parser for RSS and Atom feeds. The project has the 
 
 This library requires the following to run:
 
-  * [Node.js](https://nodejs.org/) 18+
+  * [Node.js](https://nodejs.org/) 20+
 
 
 ## Usage
