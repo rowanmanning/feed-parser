@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/rowanmanning/feed-parser/compare/v1.1.2...v2.0.0) (2025-03-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop Node.js 18
+
+### Miscellaneous Chores
+
+* drop Node.js 18 ([7244be3](https://github.com/rowanmanning/feed-parser/commit/7244be3be46822cea64bc174b257c61492903006))
+
 ## [1.1.2](https://github.com/rowanmanning/feed-parser/compare/v1.1.1...v1.1.2) (2025-02-28)
 
 
