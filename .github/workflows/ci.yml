@@ -9,7 +9,7 @@ on:
 
 jobs:
   ci:
-    uses: rowanmanning/actions/.github/workflows/node-package-single.yml@v1
+    uses: rowanmanning/actions/.github/workflows/node-package-single.yml@v2
     with:
       nodeVersions: '[22, 20]'
     secrets:
