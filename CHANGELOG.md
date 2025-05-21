@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.1.0](https://github.com/rowanmanning/feed-parser/compare/v2.0.2...v2.1.0) (2025-05-21)
+
+
+### Features
+
+* add Node.js 24 support ([93b8bf7](https://github.com/rowanmanning/feed-parser/commit/93b8bf71ceab4ca480ffc2e90ead35f6711f5461))
+
+
+### Bug Fixes
+
+* bump fast-xml-parser from 5.0.9 to 5.2.3 ([ff0563f](https://github.com/rowanmanning/feed-parser/commit/ff0563f3735e9b5b53504db362a4cc9d12337522))
+* bump html-entities from 2.5.3 to 2.6.0 ([85a89fc](https://github.com/rowanmanning/feed-parser/commit/85a89fc93d3109d8c1a874c1feccdb10d743b322))
+
 ## [2.0.2](https://github.com/rowanmanning/feed-parser/compare/v2.0.1...v2.0.2) (2025-03-30)
 
 
