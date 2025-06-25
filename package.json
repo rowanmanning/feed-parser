@@ -1,6 +1,6 @@
 {
   "name": "@rowanmanning/feed-parser",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "A well-tested and resilient parser for RSS and Atom feeds",
   "keywords": [
     "atom",

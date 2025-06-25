@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.1](https://github.com/rowanmanning/feed-parser/compare/v2.1.0...v2.1.1) (2025-06-25)
+
+
+### Bug Fixes
+
+* bump fast-xml-parser from 5.2.3 to 5.2.5 ([fb7977c](https://github.com/rowanmanning/feed-parser/commit/fb7977c92098e324290417de5da8209543a606b8))
+* remove npm engines ([4fe68e5](https://github.com/rowanmanning/feed-parser/commit/4fe68e5cc51e9dd6a43c3a297ff36ef6371c5262)), closes [#204](https://github.com/rowanmanning/feed-parser/issues/204)
+
 ## [2.1.0](https://github.com/rowanmanning/feed-parser/compare/v2.0.2...v2.1.0) (2025-05-21)
 
 
