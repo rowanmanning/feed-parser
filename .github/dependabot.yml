@@ -3,6 +3,7 @@ updates:
 
   # Maintain dependencies for npm
   - package-ecosystem: "npm"
+    versioning-strategy: "increase"
     open-pull-requests-limit: 10
     directory: "/"
     schedule:
@@ -16,6 +17,8 @@ updates:
         update-types:
           - "minor"
           - "patch"
+        exclude-patterns:
+          - '@types/*'
 
   # Keep GitHub actions up to date
   - package-ecosystem: "github-actions"
