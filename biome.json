@@ -1,25 +1,14 @@
 {
 	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
 	"extends": ["./node_modules/@rowanmanning/biome-config/config.json"],
+	"files": {
+		"includes": ["!test/integration/fixtures", "!test/integration/snapshots"]
+	},
 	"linter": {
 		"rules": {
 			"performance": {
 				"useTopLevelRegex": "off"
 			}
 		}
-	},
-	"overrides": [
-		{
-			"include": ["test/integration/fixtures/**", "test/integration/snapshots/**"],
-			"formatter": {
-				"enabled": false
-			},
-			"linter": {
-				"enabled": false
-			},
-			"organizeImports": {
-				"enabled": false
-			}
-		}
-	]
+	}
 }
