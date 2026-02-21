@@ -198,10 +198,6 @@ for (const suite of suites) {
 							if (actual.feed.image?.title === null) {
 								delete actual.feed.image.title;
 							}
-							if (actual.feed.image?.url.startsWith('https://cdn.vox-cdn.com/community_logos/')) {
-								console.log(actual.feed.title);
-								process.exit(1);
-							}
 							assert.deepEqual(actual.feed.image, feedParserImage);
 						}
 					});
