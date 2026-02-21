@@ -16,7 +16,7 @@
   "bugs": "https://github.com/rowanmanning/feed-parser/issues",
   "license": "MIT",
   "engines": {
-    "node": "20.x || 22.x || 24.x"
+    "node": "22.x || 24.x"
   },
   "scripts": {
     "build": "npm run build:types",
@@ -44,7 +44,12 @@
     "testdouble": "^3.16.5",
     "typescript": "^5.5.2"
   },
-  "main": "index.js",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
   "nyc": {
     "reporter": [
       "html",
