@@ -13,6 +13,12 @@
 			"include": ["test/integration/fixtures/**", "test/integration/snapshots/**"],
 			"formatter": {
 				"enabled": false
+			},
+			"linter": {
+				"enabled": false
+			},
+			"organizeImports": {
+				"enabled": false
 			}
 		}
 	]
