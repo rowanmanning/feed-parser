@@ -35,8 +35,8 @@
     "html-entities": "^2.3.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "^20.4.2",
-    "@commitlint/config-conventional": "^20.4.2",
+    "@commitlint/cli": "^20.4.3",
+    "@commitlint/config-conventional": "^20.4.3",
     "@rowanmanning/biome-config": "^3.0.1",
     "feedparser": "^2.2.10",
     "husky": "^9.0.7",
