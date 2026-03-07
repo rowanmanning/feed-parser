@@ -21,6 +21,7 @@ A well-tested and resilient Node.js parser for [RSS](https://en.wikipedia.org/wi
   * [Supported feed formats](#supported-feed-formats)
     * [Standards](#standards)
     * [Leniency](#leniency)
+  * [Migration](#migration)
   * [Contributing](#contributing)
   * [License](#license)
   * [Credit](#credit)
@@ -43,7 +44,7 @@ This is a Node.js-based feed parser for RSS and Atom feeds. The project has the 
 
 This library requires the following to run:
 
-  * [Node.js](https://nodejs.org/) 20+
+  * [Node.js](https://nodejs.org/) 22+
 
 
 ## Usage
@@ -421,6 +422,11 @@ The following XML namespaces are also parsed, and more data will be parsed out f
 ### Leniency
 
 Feeds in the real world rarely comply strictly with the standards and can sometimes be invalid XML. We try to be as lenient as possible, only throwing errors if no data can be pulled out of the feed. We test against a suite of real-world feeds.
+
+
+## Migration
+
+A new major version of this project is released if breaking changes are introduced. We maintain a [migration guide](docs/migration.md) to help users migrate between these versions.
 
 
 ## Contributing
