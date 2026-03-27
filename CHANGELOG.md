@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.3](https://github.com/rowanmanning/feed-parser/compare/v2.1.2...v2.1.3) (2026-03-27)
+
+
+### Bug Fixes
+
+* allow for feeds with many entities ([d27e62e](https://github.com/rowanmanning/feed-parser/commit/d27e62e41f9f101f630a5f3a3cc86c98a763fad5))
+
 ## [2.1.2](https://github.com/rowanmanning/feed-parser/compare/v2.1.1...v2.1.2) (2026-02-21)
 
 
