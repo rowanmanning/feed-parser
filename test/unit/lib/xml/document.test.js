@@ -30,7 +30,8 @@ describe('lib/xml/document', () => {
 				ignoreDeclaration: true,
 				parseTagValue: true,
 				preserveOrder: true,
-				trimValues: false
+				trimValues: false,
+				processEntities: { maxTotalExpansions: Infinity }
 			}),
 			{ times: 1 }
 		);
