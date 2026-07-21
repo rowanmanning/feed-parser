@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.4](https://github.com/rowanmanning/feed-parser/compare/v2.1.3...v2.1.4) (2026-07-21)
+
+
+### Bug Fixes
+
+* bump fast-xml-parser from 5.5.9 to 5.10.1 ([5d7e3ff](https://github.com/rowanmanning/feed-parser/commit/5d7e3ff8f4f3c9ab5970c240d53cdd239a59f968))
+* stop parsing tag values ([4727382](https://github.com/rowanmanning/feed-parser/commit/4727382749005069b9a1fe179d1a503d37e40fc0))
+
 ## [2.1.3](https://github.com/rowanmanning/feed-parser/compare/v2.1.2...v2.1.3) (2026-03-27)
 
 
