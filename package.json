@@ -37,8 +37,8 @@
   "devDependencies": {
     "@commitlint/cli": "^20.4.2",
     "@commitlint/config-conventional": "^20.4.2",
-    "@rowanmanning/biome-config": "^3.0.1",
-    "feedparser": "^2.2.10",
+    "@rowanmanning/biome-config": "^3.1.0",
+    "feedparser": "^2.6.0",
     "husky": "^9.0.7",
     "nyc": "^17.0.0",
     "testdouble": "^3.16.5",
