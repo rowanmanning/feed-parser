@@ -1,0 +1,64 @@
+{
+	"title": "Feed with Numeric Values",
+	"hash": "99619ce57a62d070edb7dd912d15399f",
+	"url": "https://sample-feeds.rowanmanning.com/examples/99619ce57a62d070edb7dd912d15399f/feed.xml",
+	"feed": {
+		"meta": {
+			"type": "rss",
+			"version": "2.0"
+		},
+		"language": null,
+		"title": "t",
+		"description": null,
+		"copyright": null,
+		"url": null,
+		"self": null,
+		"published": null,
+		"updated": null,
+		"generator": null,
+		"image": null,
+		"authors": [],
+		"categories": [],
+		"items": [
+			{
+				"id": null,
+				"title": "007",
+				"description": null,
+				"url": null,
+				"published": null,
+				"updated": null,
+				"content": null,
+				"image": null,
+				"media": [],
+				"authors": [],
+				"categories": []
+			},
+			{
+				"id": null,
+				"title": "0",
+				"description": null,
+				"url": null,
+				"published": null,
+				"updated": null,
+				"content": null,
+				"image": null,
+				"media": [],
+				"authors": [],
+				"categories": []
+			},
+			{
+				"id": "00123",
+				"title": "x",
+				"description": null,
+				"url": null,
+				"published": null,
+				"updated": null,
+				"content": null,
+				"image": null,
+				"media": [],
+				"authors": [],
+				"categories": []
+			}
+		]
+	}
+}
