@@ -28,7 +28,7 @@ describe('lib/xml/document', () => {
 				attributeNamePrefix: '',
 				ignoreAttributes: false,
 				ignoreDeclaration: true,
-				parseTagValue: true,
+				parseTagValue: false,
 				preserveOrder: true,
 				trimValues: false,
 				processEntities: { maxTotalExpansions: Infinity }
