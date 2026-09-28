@@ -38,10 +38,10 @@
     "@commitlint/cli": "^20.4.2",
     "@commitlint/config-conventional": "^20.4.2",
     "@rowanmanning/biome-config": "^3.0.1",
-    "feedparser": "^2.2.10",
+    "feedparser": "^2.6.0",
     "husky": "^9.0.7",
     "nyc": "^17.0.0",
-    "testdouble": "^3.16.5",
+    "testdouble": "^3.21.0",
     "typescript": "^5.5.2"
   },
   "main": "index.js",
